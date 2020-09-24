@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cartolina_7694-092">
+	<teiHeader>
+		<fileDesc> <!--contiene le informazioni relative al doc digitale-->
+			<titleStmt> <!-- titolo dell'edizione digitale e responsabili-->
+				<title>Donna in posa - Edizione digitale</title>
+				<respStmt>
+					<resp>Trascritto da:</resp>
+					<persName ref="list.xml#ALS">Alessandra La Spina</persName>
+					<persName ref="list.xml#JM">Jurgen Memaj</persName>
+					<persName ref="list.xml#LR">Letizia Ricci</persName>
+				</respStmt>
+
+				<respStmt>
+                    <resp>Ente di Appartenenza:</resp>
+                    <name type="comune">Comune di
+						<placeName ref="list.xml#SP">La Spezia</placeName>
+					</name>
+				</respStmt>
+
+			</titleStmt>
+
+			<editionStmt> <!-- contiene informazion sull'edizione -->
+				<edition>Studenti di Codifica di testi, Corso di Laurea Triennale di Informatica Umanistica, Università di Pisa
+                    <date when="2018">2018</date>
+				</edition>
+
+				<respStmt>
+					<resp>Codificato da:</resp>
+					<persName ref="list.xml#ALS">Alessandra La Spina</persName>
+					<persName ref="list.xml#JM">Jurgen Memaj</persName>
+					<persName ref="list.xml#LR">Letizia Ricci</persName>
+				</respStmt>
+
+  				<respStmt>
+                    <resp>Compilatori:</resp>
+                    <persName ref="list.xml#TC">Tommaso Castagneto</persName>
+					<persName ref="list.xml#ALS">Alessandra La Spina</persName>
+					<persName ref="list.xml#JM">Jurgen Memaj</persName>
+					<persName ref="list.xml#LR">Letizia Ricci</persName>
+                </respStmt>
+
+                <respStmt>
+                    <resp>Responsabile scientifico:</resp>
+                    <persName ref="list.xml#GP">Giacomo Paolicchi</persName>
+                    <persName ref="list.xml#ES">Enrica Salvatori</persName>
+                </respStmt>
+
+                <respStmt>
+                    <resp>Funzionario responsabile:</resp>
+                    <persName ref="list.xml#ER">E. Ratti</persName> <!-- ATT sono presenti due nomi differenti da fonti differenti -->
+				</respStmt>
+
+			</editionStmt>
+
+			<publicationStmt> <!-- contiene informazioni sulla pubblicazione e distribuzione del documento digitale -->
+                <publisher>
+                    <choice>
+                        <abbr>Unipi</abbr>
+                        <expan>Università di
+                            <placeName ref="list.xml#PI">Pisa</placeName>
+                        </expan>
+                    </choice>
+                </publisher>
+                <pubPlace ref="list.xml#PI">Pisa</pubPlace>
+                <availability>
+                    <p>Available under licence only</p>
+                </availability>
+                <date when="2019">2019</date>
+                <distributor>
+					<orgName ref="list.xml#LCD">
+						<choice>
+                      	  <abbr>LabCD</abbr>
+                       	 <expan>Laboratorio di Cultura Digitale</expan>
+                   		 </choice>
+					</orgName>
+				</distributor>
+                <address>
+                    <addrLine>Laboratorio di Cultura Digitale - Università di Pisa</addrLine>
+                    <addrLine><placeName ref="list.xml#PI">Pisa</placeName></addrLine>
+				</address>
+			</publicationStmt>
+
+			<notesStmt> <!-- contiene note aggiuntive -->
+                <note n="1">Sul retro troviamo la stampa "Proprietà artistica riservata - Uff. Rev. Stampa N. 737 Milano - 8-5-1917"</note>
+                <note n="2">T. Corbella è l'autore dell'opera nel fronte</note>
+            </notesStmt>
+
+			<sourceDesc> <!-- contiene informazoni relative alla fonte originale -->
+				<bibl>
+                    <title type="custom" resp="#ES">[Donna in posa]</title> <!-- titolo tra parentesi quadre perchè titolo formulato da terzi-->
+                    <publisher>
+                    	<orgName ref="list.xml#URS1">
+	                        <choice>
+	                            <abbr>Uff.</abbr>
+	                            <expan>Uff<ex>icio</ex></expan>
+	                        </choice>
+	                        <choice>
+	                            <abbr>Rev.</abbr>
+	                            <expan>Rev<ex>isioni</ex></expan>
+	                        </choice> Stampa
+						</orgName>
+					</publisher>
+					<availability> 
+						<p>Proprietà artistica riservata</p>
+					</availability>
+                    <pubPlace ref="list.xml#MI">Milano</pubPlace>
+                    <date when="1917-05-08"> 8-5-1917</date>
+				</bibl>
+
+				<msDesc> <!-- contiene la descrizione del manoscritto -->
+					<msIdentifier> <!-- informazioni che identificano il manoscritto -->
+						<country>Italia</country>
+						<settlement ref="list.xml#SP" type="city">La Spezia (SP)</settlement>
+						<repository>Museo Civico Etnografico "Giovanni Podenzana", Sezione dei cimeli garibaldini e della Prima Guerrra Mondiale</repository>
+						<idno type="inventory">7694_092_001/002</idno>	<!-- codice della singola cartolina -->
+					</msIdentifier>
+
+					<msContents> <!-- contenuto intellettuale del manoscritto-->
+						<summary>Cartolina Artistica </summary>
+						<textLang mainLang="ita">Italiano</textLang>
+					</msContents>
+
+					<physDesc> <!-- contiene la descrizione fisica del manoscritto -->
+						<objectDesc>
+							<supportDesc>
+								<support> <!-- descrizione dei materiali che costituiscono il supporto fisico della parte scritta del manoscritto-->
+									<objectType> Cartolina</objectType>
+									<material>Carta</material>
+									<measure type="composition" unit="foglio" quantity="1">1</measure>
+									<dimensions unit="cm">
+										<height>14</height>
+										<width>9</width>
+									</dimensions>
+
+									<!-- descrizione generale della cartolina -->
+									<p>La parte del fronte presenta l'immagine artistica di <persName ref="list.xml#TCorb">T. Corbella</persName>: ritratto del primo piano di una donna in posa,
+									 il retro è il vero corpo della lettera: non presenta nè timbri, nè francobolli; contiene le indicazoni del luogo del mittente, il messaggio, ma non sono presenti informazioni del destinatario.
+									 A sinistra in verticale, si trova la stampa "Proprietà artistica riservata - Uff. Rev. Stampa N. 737 Milano - 8-5-1917".
+									</p>
+								</support>
+								<condition> <!-- descrizione delle condizioni fisiche della cartolina -->
+									Cartolina in buone condizioni fisiche in parte invecchiata, la scrittura è realizzata con inchiostro nero.
+									Il foglio presenta una piccola piegatura rialzata sull'immagine artistica nel fronte e una piegatura nell'angolo in alto a sinistra nella parte del retro. Nella parte finale del testo è presente una sbavatura d'inchiostro.
+								</condition>
+							</supportDesc>
+						</objectDesc>
+						<handDesc>
+							<p>Scritta a mano leggibile</p>
+						</handDesc> <!-- descrizione del tipo di scrittura nella cartolina -->
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+
+		<profileDesc> <!-- descrizione dettagliata degli aspetti non bibliografici -->
+			<correspDesc> <!-- contiene la descrizione delle azioni relative a un atto di corrispondenza -->
+				<correspAction type="sent">
+					<persName ref="list.xml#Giov" role="writer">Giovanni</persName>
+					<placeName ref="list.xml#MO">Modena</placeName>
+					<!-- ho cambiato postage-->
+                    <date type="writing" when="1917-07-18">18/07/1917</date>
+				</correspAction>
+				<correspAction type="received">
+					<persName ref="list.xml#OT">Oliva Turtura</persName>
+				</correspAction>
+			</correspDesc>
+
+			<textClass> <!-- contiene le informazioni che descrivono la natura o l'argomento del testo -->
+				<keywords scheme="http://etnografico.museilaspezia.it/" >
+					<term>Cartolina </term> <!-- soggettario -->
+                    <term>Cartolina Artistica </term> <!-- tipologia -->
+                    <term>Ritratto di una donna in posa</term> <!-- descrizione -->
+				</keywords>
+			</textClass>
+
+			<langUsage> <!-- lingua usato nel testo -->
+				<language ident="it-IT">italiano</language>
+			</langUsage>
+		</profileDesc>
+
+		<encodingDesc> <!-- descrizione della codifica -->
+			<p>Codifica di base rispettando le forme e le informazioni lessicali, la punteggiatura e la sillabazione del documento,
+            normalizzando il tutto per la codifica. Validazione delle cartoline con con xmllint e creazione della dtd con tei Roma.</p>
+		</encodingDesc>
+
+	</teiHeader>
+
+	<facsimile> <!-- rappresentazione della fonte scritta sotto forma di una serie di immagini-->
+		<surface n="1" xml:id="i7694-092R"> <!-- definisce una superficie scritta in termini di uno spazio rettangolare di coordinate-->
+			<graphic url='7694-092R.jpg' width='1640px' height='1021px' />
+			<!-- retro della cartolina -->
+            <zone ulx="34" uly="69" lrx="88" lry="970" rendition="Line" xml:id="i092R_line_01" /> <!-- scritta verticale -->
+            <zone ulx="314" uly="2" lrx="1403" lry="167" rendition="Line" xml:id="i092R_line_02" /> <!-- prima riga di testo -->
+            <zone ulx="119" uly="133" lrx="1525" lry="219" rendition="Line" xml:id="i092R_line_03" />
+            <zone ulx="96" uly="250" lrx="1542" lry="368" rendition="Line" xml:id="i092R_line_04" />
+            <zone ulx="94" uly="385" lrx="1628" lry="478" rendition="Line" xml:id="i092R_line_05" />
+            <zone ulx="78" uly="495" lrx="1622" lry="639" rendition="Line" xml:id="i092R_line_06" />
+            <zone ulx="82" uly="668" lrx="1362" lry="771" rendition="Line" xml:id="i092R_line_07" />
+            <zone ulx="128" uly="787" lrx="780" lry="886" rendition="Line" xml:id="i092R_line_08" />
+            <zone ulx="663" uly="790" lrx="1528" lry="972" rendition="Line" xml:id="i092R_line_09" />
+            <zone ulx="1400" uly="143" lrx="1559" lry="250" rendition="Line" xml:id="i092R_line_10" /> <!-- Produzione italiana -->
+            <zone ulx="731" uly="954" lrx="817" lry="984" rendition="Line" xml:id="i092R_line_11" /> <!-- numerino in fondo centrale -->
+             <!-- seconda mano (numero 92) -->
+            <zone ulx="1475" uly="1" lrx="1594" lry="85" rendition="HotSpot" xml:id="i092R_hotspot_01" />
+		</surface>
+
+		<surface n="2" xml:id="i7694-092F">	<!-- definisce una superficie scritta in termini di uno spazio rettangolare di coordinate-->
+			<graphic url="7694-092F.jpg" width="1016px" height="1640px" />
+			<!-- fronte della cartolina (immagine artistica) -->
+			<zone ulx="161" uly="61" lrx="977" lry="1082" rendition="HotSpot" xml:id="i092F_hotspot_01" /> <!--Donna-->
+            <zone ulx="85" uly="1098" lrx="471" lry="1148" rendition="HotSpot" xml:id="i092F_hotspot_02" /> <!-- scritta-->
+            <zone ulx="4" uly="4" lrx="53" lry="38" rendition="HotSpot" xml:id="i092F_hotspot_03" /> <!-- piega in alto a sinistra -->
+		</surface>
+
+	</facsimile>
+
+	<text type="cartolina" xml:id="i7694-092" n="092"> <!-- si riferisce a tutta la cartolina -->
+		<front xml:id="i7694-092R_pr" facs="#i7694-092R"> <!-- parte preliminare in questo caso stampa di rietà artistica -->
+			<div type="print" rend="vertical" xml:id="i092R_ln_01" facs="#i092R_line_01">
+				<p>Proprietà artistica riservata -
+                    <orgName ref="list.xml#URS1">
+                        <choice>
+                            <abbr>Uff.</abbr>
+                            <expan>Uff<ex>icio</ex></expan>
+                        </choice>
+                        <choice>
+                            <abbr>Rev.</abbr>
+                            <expan>Rev<ex>isioni</ex></expan>
+                        </choice> Stampa
+					</orgName>
+                        <choice>
+                            <abbr>N.</abbr>
+                            <expan>N<ex>umero</ex></expan>
+                        </choice> 737 -
+					<placeName ref="list.xml#MI">Milano</placeName>,
+                    <date when="1917-05-08">8-5-1917</date>
+                </p>
+			</div>
+		</front>
+		<body xml:lang="ita">
+			<div type="fronte" >
+				<figure xml:id="i7694-092Fall" facs="#i7694-092F"> <!-- contiene tutta l'immagine-->
+					<figure xml:id="i092F_hs_01" facs="#i092F_hotspot_01"> <!-- Donna -->
+						<figDesc>Ritratto di una giovane donna, di bella presenza, con occhi chiari. I capelli rossi sono raccolti in un foulard giallo legato dietro al collo con un fiocco. Probabilmente di origine benestante.
+						Lo sguardo della donna è rivolto alla sua sinistra come se stesse guardando qualcuno in lontananza.</figDesc>
+					</figure>
+
+					<figure xml:id="i092F_hs_02" facs="#i092F_hotspot_02"> <!-- scritta -->
+						<figDesc>T. Corbella è la firma dell'autore dell'opera raffigurata nel fronte della cartolina.</figDesc>
+					</figure>
+
+					<figure xml:id="i092F_hs_03" facs="#i092F_hotspot_03"> <!-- piegatura -->
+						<figDesc>Nella parte frontale della cartolina, in alto a sinistra è presente una piccola piegatura dell'angolo.</figDesc>
+					</figure>
+				</figure>
+			</div>
+			<div type="retro">
+				<opener> <!-- contiene l'inizio della cartolina con luogo e data -->
+					<dateline>
+						<lb xml:id="i092R_ln_02" n="1" facs="#i092R_line_02"/>
+						<s type="sentence" n="s_01">
+							<placeName ref="list.xml#MO">Modena</placeName>,
+                            <choice>
+                            	<orig> li </orig>
+                            	<reg> il </reg>
+                            </choice>
+							<date when="1917-07-18">18<add hand="author" place="sublinear">/7</add>- 17 -</date>
+						</s>
+					</dateline>
+				</opener>
+				<div type="postcard-body" n="t_01"> <!-- contiene il testo della cartolina -->
+					<p>
+						<s type="sentence" n="s_02">
+							<lb xml:id="i092R_ln_03" n="2" facs="#i092R_line_03"/> Oliva mia, accetta un bacio
+							<lb  xml:id="i092R_ln_04" n="3" facs="#i092R_line_04"/> e in quel bacio tutta l'anima
+							<lb xml:id="i092R_ln_05" n="4" facs="#i092R_line_05"/> mia, il mio amore grande grande.
+						</s>
+					</p>
+				</div>
+				<closer> <!-- contiene le conclusioni della cartolina con saluti e firma -->
+					<salute>
+						<s type="sentence" n="s_03">
+							<lb xml:id="i092R_ln_06" n="5" facs="#i092R_line_06"/> Salutami la mamma, l'
+							<persName ref="list.xml#Anto">
+								<forename type="diminutive">antonietta</forename>
+							</persName>,
+							<lb xml:id="i092R_ln_07" n="6" facs="#i092R_line_7"/> il babbo, la zia e la
+							<persName ref="list.xml#Giova">
+								<forename type="diminutive">Giovannetta</forename>
+							</persName>.
+							<lb xml:id="i092R_ln_08" n="7" facs="#i092R_line_08"/> Per sempre tuo
+						</s>
+					</salute>
+					<signed rend="aligne(right)" xml:id="i092R_ln_09" facs="#i092R_line_09">
+						<persName ref="list.xml#Giov" role="sender">
+							<forename type="diminutive">
+								<hi rend="underline">Giovannino</hi>
+							</forename>
+						</persName>
+					</signed>
+				</closer>
+				<div type="hand"> <!-- scritta seconda mano 92 -->
+					<ab type="paratext" subtype="addition" hand="#h1" xml:id="i092R_hs_01" facs="#i092R_hotspot_01">
+						<num value="92">92</num>
+					</ab>
+				</div>
+				<div type="posrtmark" xml:id="i092R_ln_10" facs="#i092R_line_10"> <!-- scritta all'interno dello spazio del francobollo -->
+					<ab>
+					<stamp type="postage" rend="rectangular">    
+							<mentioned rend="uppercase">Produzione italiana</mentioned>
+							<note>La scritta si trova nel riquadro del francobollo mancante</note>
+						</stamp>
+				</ab> 
+				</div>
+				<div xml:id="i092R_ln_11" facs="#i092R_line_11">
+					<ab type="print">
+						<num value="233-2">233-2</num>
+					</ab>
+				</div>
+			</div>
+		</body>
+	</text>
+</TEI>

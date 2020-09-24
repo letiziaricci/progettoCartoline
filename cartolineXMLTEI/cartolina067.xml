@@ -1,0 +1,772 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="cartolina_7694-067">
+   <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+      <fileDesc>
+         <titleStmt>
+            <title>Sommeil interrompu - Edizione digitale</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <choice>
+                  <abbr>Unipi</abbr>
+                  <expan instant="false">Università di
+                            <placeName ref="list.xml#PI" instant="false" full="yes">Pisa</placeName>
+                  </expan>
+               </choice>
+            </publisher>
+            <pubPlace ref="list.xml#PI">Pisa</pubPlace>
+            <availability default="false">
+               <p part="N">Available under licence only</p>
+            </availability>
+            <date when="2019" instant="false">2019</date>
+            <distributor>
+               <orgName ref="list.xml#LCD" instant="false" full="yes">
+                  <choice>
+                     <abbr>LabCD</abbr>
+                     <expan instant="false">Laboratorio di Cultura Digitale</expan>
+                  </choice>
+               </orgName>
+            </distributor>
+            <address>
+               <addrLine>Laboratorio di Cultura Digitale - Università di Pisa</addrLine>
+               <addrLine>
+                  <placeName ref="list.xml#PI" instant="false" full="yes">Pisa</placeName>
+               </addrLine>
+            </address>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <bibl type="postcard" default="false" status="draft">
+                    <!-- TITOLO -->
+               <title>Sommeil interrompu</title>
+               <author ref="list.xml#DM">D. Mastroianni</author>
+               <publisher>
+                  <persName ref="list.xml#AN" instant="false" full="yes">A. Noyer </persName>
+               </publisher>
+               <!-- LUOGO -->
+               <pubPlace ref="list.xml#P">Parigi</pubPlace>
+               <date when="1912" instant="false">1912</date>
+            </bibl>
+            <msDesc status="draft"><!-- contiene la descrizione del manoscritto --><!-- descrizione del manoscritto -->
+               <msIdentifier><!-- info per identificare il manoscritto -->
+                  <country ref="list.xml#IT">Italia</country>
+                  <settlement ref="list.xml#SP">La Spezia (SP)</settlement>
+                  <!-- collocazione specifica -->
+                  <repository ref="list.xml#MCE">Museo Civico Etnografico "Giovanni Podenzana", Sezione dei cimeli garibaldini e della Prima Guerrra Mondiale</repository>
+                  <!-- codice identificativo -->
+                  <idno type="postcard_id">7694_067_001/002</idno>
+               </msIdentifier>
+               <!-- Informazioni sul contenuto della cartolina -->
+               <msContents>
+                  <summary>Cartolina Artistica</summary>
+                  <textLang mainLang="ita">Italiano</textLang>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType>Cartolina</objectType>
+                           <!-- MATERIALI -->
+                           <material>Carta</material>
+                           <!-- DIMENSIONE -->
+                           <dimensions unit="cm">
+                              <height>9</height>
+                              <width>14</width>
+                           </dimensions>
+                           <stamp>E' presente un francobollo sull'estremità destra del retro della cartolina in buono stato. Inoltre sono presenti tre timbri:
+                                    due di partenza nella parte superiore destra della cartolina, leggibili quasi totalmente, ed uno di arrivo esattamente al centro della cartolina, poco leggibile.</stamp>
+                           <!-- descrivere francobolli-->
+                        </support>
+                        <condition>Buono</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <summary>Scrittura eseguita a mano leggibile, con una annotazione nella parte superiore del retro.</summary>
+                     <handNote n="1">Annotazione di un catalogatore che presenta il numero 67, relativo alla classificazione delle 227 cartoline appartenente al museo di La Spezia.</handNote>
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc default="false">
+            <correspAction type="sent">
+               <persName ref="list.xml#GT" instant="false" full="yes">Giuseppe Turtura</persName>
+               <placeName ref="list.xml#RV" instant="false" full="yes">Ravenna</placeName>
+               <!-- DATA data di invio da timbro (postage) o da manoscritto (writing) -->
+               <date type="writing" when="1913-07-24" instant="false">24/07/1913</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="list.xml#OT" instant="false" full="yes">Oliva Turtura</persName>
+               <placeName ref="list.xml#AR" instant="false" full="yes">Arona</placeName>
+               <date type="postage" when="1913-07-25" instant="false">25/07/1913</date>
+               <!--La data posta sul timbro non è ben leggibile, possiamo intuire 25-07 dello stesso anno-->
+            </correspAction>
+         </correspDesc>
+         <textClass default="false">
+            <keywords><!-- soggettario --><!-- tipologia --><!-- descrizione -->
+               <term>Cartolina </term>
+               <term>Cartolina Artistica </term>
+               <term>Donna che interrompe il sonno di un uomo</term>
+            </keywords>
+         </textClass>
+         <langUsage default="false">
+            <language ident="it-IT">italiano</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <facsimile xmlns="http://www.tei-c.org/ns/1.0">
+      <surface n="1" corresp="#fronte067"><!-- Fronte -->
+         <graphic url="img-cartoline/7694-067F.jpg"
+                  width="1038px"
+                  height="1642px"
+                  xml:id="fronte_postcard_067"/>
+         <zone ulx="16"
+               uly="1448"
+               lrx="81"
+               lry="1554"
+               xml:id="stampF_1-67"
+               start="#stampF-1-67"
+               rotate="0"/>
+         <!-- 219 AN Paris -->
+         <zone ulx="194"
+               uly="1519"
+               lrx="444"
+               lry="1571"
+               xml:id="stampF_2-67"
+               start="#stampF-2-67"
+               rotate="0"/>
+         <!-- firma Mastroianni -->
+         <zone ulx="461"
+               uly="1555"
+               lrx="827"
+               lry="1583"
+               xml:id="stampF_3-67"
+               start="#stampF-3-67"
+               rotate="0"/>
+         <!-- titolo: Sommel Interrompu -->
+      </surface>
+      <surface n="2" corresp="#retro067"><!-- Retro --><!-- testo lettera -->
+         <graphic url="img-cartoline/7694-067R.jpg"
+                  width="550px"
+                  height="355px"
+                  xml:id="retro1"/>
+         <!-- 24-VII-913 -->
+         <zone type="handWriting"
+               xml:id="lineText_1-67"
+               start="#lineText-1-67"
+               ulx="104"
+               uly="4"
+               lrx="274"
+               lry="28"
+               rotate="0"/>
+         <zone type="handWriting"
+               xml:id="lineText_2-67"
+               start="#lineText-2-67"
+               ulx="28"
+               uly="18"
+               lrx="285"
+               lry="57"
+               rotate="0"/>
+         <zone type="handWriting"
+               xml:id="lineText_3-67"
+               start="#lineText-3-67"
+               ulx="14"
+               uly="61"
+               lrx="283"
+               lry="84"
+               rotate="0"/>
+         <zone type="handWriting"
+               xml:id="lineText_4-67"
+               start="#lineText-4-67"
+               ulx="10"
+               uly="86"
+               lrx="284"
+               lry="108"
+               rotate="0"/>
+         <zone type="handWriting"
+               xml:id="lineText_5-67"
+               start="#lineText-5-67"
+               ulx="16"
+               uly="110"
+               lrx="284"
+               lry="140"
+               rotate="0"/>
+         <zone type="handWriting"
+               xml:id="lineText_6-67"
+               start="#lineText-6-67"
+               ulx="32"
+               uly="152"
+               lrx="256"
+               lry="179"
+               rotate="0"/>
+         <zone type="handWriting"
+               xml:id="lineText_7-67"
+               start="#lineText-7-67"
+               ulx="38"
+               uly="176"
+               lrx="279"
+               lry="206"
+               rotate="0"/>
+         <zone type="handWriting"
+               xml:id="lineText_8-67"
+               start="#lineText-8-67"
+               ulx="32"
+               uly="209"
+               lrx="280"
+               lry="242"
+               rotate="0"/>
+         <zone type="handWriting"
+               xml:id="lineText_9-67"
+               start="#lineText-9-67"
+               ulx="32"
+               uly="241"
+               lrx="273"
+               lry="267"
+               rotate="0"/>
+         <zone type="handWriting"
+               xml:id="lineText_10-67"
+               start="#lineText-10-67"
+               ulx="31"
+               uly="268"
+               lrx="284"
+               lry="300"
+               rotate="0"/>
+         <zone type="handWriting"
+               xml:id="lineText_11-67"
+               start="#lineText-11-67"
+               ulx="22"
+               uly="299"
+               lrx="213"
+               lry="316"
+               rotate="0"/>
+         <zone type="handWriting"
+               xml:id="lineText_12-67"
+               start="#lineText-12-67"
+               ulx="24"
+               uly="314"
+               lrx="247"
+               lry="333"
+               rotate="0"/>
+         <zone type="handWriting"
+               xml:id="lineText_13-67"
+               start="#lineText-13-67"
+               ulx="134"
+               uly="334"
+               lrx="301"
+               lry="354"
+               rotate="0"/>
+         <!-- address -->
+         <zone type="handWriting"
+               xml:id="lineText_14-67"
+               start="#lineText-14-67"
+               ulx="288"
+               uly="114"
+               lrx="510"
+               lry="173"
+               rotate="0"/>
+         <zone type="handWriting"
+               xml:id="lineText_15-67"
+               start="#lineText-15-67"
+               ulx="285"
+               uly="178"
+               lrx="534"
+               lry="215"
+               rotate="0"/>
+         <zone type="handWriting"
+               xml:id="lineText_16-67"
+               start="#lineText-16-67"
+               ulx="289"
+               uly="219"
+               lrx="541"
+               lry="244"
+               rotate="0"/>
+         <zone type="handWriting"
+               xml:id="lineText_17-67"
+               start="#lineText-17-67"
+               ulx="288"
+               uly="247"
+               lrx="476"
+               lry="269"
+               rotate="0"/>
+         <zone type="handWriting"
+               xml:id="lineText_18-67"
+               start="#lineText-18-67"
+               ulx="424"
+               uly="260"
+               lrx="548"
+               lry="304"
+               rotate="0"/>
+         <zone type="handWriting"
+               xml:id="lineText_19-67"
+               start="#lineText-19-67"
+               ulx="288"
+               uly="290"
+               lrx="372"
+               lry="343"
+               rotate="0"/>
+         <!-- timbro a destra -->
+         <zone type="postage"
+               xml:id="stamp_right-67"
+               start="#stamp-right-67"
+               ulx="389"
+               uly="57"
+               lrx="503"
+               lry="163"
+               rotate="0"/>
+         <!-- timbro in alto -->
+         <zone type="postage"
+               xml:id="stamp_middle-67"
+               start="#stamp-middle-67"
+               ulx="287"
+               uly="14"
+               lrx="414"
+               lry="121"
+               rotate="0"/>
+         <!-- timbro a sinistra -->
+         <zone type="postage"
+               xml:id="stamp_left-67"
+               start="#stamp-left-67"
+               ulx="202"
+               uly="132"
+               lrx="319"
+               lry="245"
+               rotate="0"/>
+         <!-- francobollo -->
+         <zone type="postmark"
+               xml:id="postmark_67"
+               start="#postmark-67"
+               ulx="448"
+               uly="9"
+               lrx="548"
+               lry="104"
+               rotate="0"/>
+         <!-- stampa -->
+         <zone type="print"
+               xml:id="copyright_67"
+               start="#copyright-67"
+               ulx="1"
+               uly="128"
+               lrx="35"
+               lry="293"
+               rotate="0"/>
+      </surface>
+   </facsimile>
+   <text>
+      <front xmlns="http://www.tei-c.org/ns/1.0"><!-- testo tipografico -->
+         <div type="tipografia" part="N" org="uniform" sample="complete">
+            <p facs="#copyright_67" xml:id="copyright-67" part="N">
+               <s rend="writing-mode(vertical-lr) text-orientation(sideways)" part="N">
+                              Copyright by
+                              <persName ref="list.xml#ANF" type="typography" instant="false" full="yes">
+                              A. Noyer.
+                              </persName>
+                  <date when="1912" instant="false">1912</date> - 
+                              Allegoria N. 219
+                        </s>
+               <s part="N">
+                        Reprodution interdite en tous pays
+                        </s>
+            </p>
+         </div>
+      </front>
+      <body xmlns="http://www.tei-c.org/ns/1.0">
+         <div type="fronte"
+              facs="#fronte_postcard_067"
+              xml:id="fronte-postcard-067"
+              part="N"
+              org="uniform"
+              sample="complete">
+            <figure>
+               <figDesc>La cartolina raffigura una donna che interrompe il sonno di un uomo addormentatosi in un luogo agreste vicino ad un albero. La cartolina è in bianco e nero.</figDesc>
+               <head>Sommeil Interrompu</head>
+            </figure>
+            <ab facs="#stampF_1-67" xml:id="stampF-1-67" part="N">
+               <num type="cardinal">219</num>
+               <persName ref="list.xml#AN" instant="false" full="yes">
+                  <choice>
+                     <abbr type="initial">A.N.</abbr>
+                     <expan instant="false">A<ex instant="false">lfred</ex>N<ex instant="false">oyer</ex>
+                     </expan>
+                  </choice>
+               </persName>
+               <placeName ref="list.xml#P" instant="false" full="yes">Paris</placeName>
+            </ab>
+            <ab facs="#stampF_2-67" xml:id="stampF-2-67" part="N">
+               <persName ref="list.xml#DM" instant="false" full="yes">
+                  <choice>
+                     <abbr type="initial">D</abbr>
+                     <expan instant="false">Domenico</expan>
+                  </choice> Mastroianni</persName>
+            </ab>
+            <ab facs="#stampF_3-67" xml:id="stampF-3-67" part="N">
+               <seg type="title" part="N">SOMMEIL INTERROMPU</seg>
+            </ab>
+         </div>
+         <div type="retro" part="N" org="uniform" sample="complete">
+            <div type="message" part="N" org="uniform" sample="complete">
+               <opener>
+                  <dateline>
+                     <lb n="1" facs="#lineText_1-67" xml:id="lineText-1-67"/>
+                     <s part="N">
+                        <date when="1913-07-24" instant="false">24-VII-913</date>
+                     </s>
+                  </dateline>
+               </opener>
+               <div type="postcard-body" part="N" org="uniform" sample="complete">
+                  <p part="N">
+                     <lb n="2" facs="#lineText_2-67" xml:id="lineText-2-67"/>
+                              A Ravenna piove
+                              <lb n="3" facs="#lineText_3-67" xml:id="lineText-3-67"/>
+                              sempre: è una gioia
+                              <lb n="4" facs="#lineText_4-67" xml:id="lineText-4-67"/>
+                              per chi non è andato
+                              <lb n="5" facs="#lineText_5-67" xml:id="lineText-5-67"/>
+                              ai bagni. Per ora
+                              <lb n="6" facs="#lineText_6-67" xml:id="lineText-6-67"/>
+                              niente di nuovo,
+                              <lb n="7" facs="#lineText_7-67" xml:id="lineText-7-67"/>
+                              tutti bene. <choice>
+                                                <sic>stassera</sic>
+                                                <corr resp="list.xml#LR" cert="high">stasera</corr>
+                                          </choice>
+                     <lb n="8" facs="#lineText_8-67" xml:id="lineText-8-67"/>
+                              qui c'è musica, co-
+                              <lb n="9" facs="#lineText_9-67" xml:id="lineText-9-67"/>
+                              me ieri sera che fu
+                              <lb n="10" facs="#lineText_10-67" xml:id="lineText-10-67"/>
+                              S. Apollinare: ad Aro-
+                              <lb n="11" facs="#lineText_11-67" xml:id="lineText-11-67"/>
+                              na niente.
+                        </p>
+               </div>
+               <closer>
+                  <s part="N">
+                     <lb n="12" facs="#lineText_12-67" xml:id="lineText-12-67"/>
+                              Saluti affettuosi 
+                        </s>
+                  <lb n="13" facs="#lineText_13-67" xml:id="lineText-13-67"/>
+                  <signed>
+                     <persName instant="false" full="yes">
+                        <forename ref="list.xml#GT" full="yes">Giuseppe</forename>
+                     </persName>
+                  </signed>
+               </closer>
+            </div>
+            <div type="address-destination"
+                 part="N"
+                 org="uniform"
+                 sample="complete">
+               <p part="N">
+                  <address>
+                     <addrLine>
+                        <lb n="14" facs="#lineText_14-67" xml:id="lineText-14-67"/>
+                                    Signorina
+                                    <lb n="15" facs="#lineText_15-67" xml:id="lineText-15-67"/>
+                                    Oliva Turtura
+                                    <lb n="16" facs="#lineText_16-67" xml:id="lineText-16-67"/>
+                                    presso sigg. Cibecchini
+                                    <lb n="17" facs="#lineText_17-67" xml:id="lineText-17-67"/>
+                                    via Cavour 12
+                                    <lb n="18" facs="#lineText_18-67" xml:id="lineText-18-67"/>
+                                    Arona
+                                    <lb n="19" facs="#lineText_19-67" xml:id="lineText-19-67"/>
+                                    (Lago maggiore)
+                              </addrLine>
+                  </address>
+               </p>
+            </div>
+            <div type="postmark-postage"
+                 part="N"
+                 org="uniform"
+                 sample="complete">
+               <ab part="N">
+                  <stamp type="postmark">
+                     <mentioned facs="#stamp_right-67" xml:id="stamp-right-67">
+                        <placeName ref="list.xml#lRV" instant="false" full="yes">Ravenna</placeName>
+                        <date when="1913-07-24" instant="false">24.7.13</date>.20
+                            <gap reason="illegible" instant="false">
+                           <desc>La parte inferiore del timbro è scolorita</desc>
+                        </gap>
+                     </mentioned>
+                     <note anchored="true">Timbro effettuato in data 24/07/1913 a Ravenna. Sul timbro è possibile vedere la data seguita da .20.</note>
+                  </stamp>
+                  <stamp type="postmark">
+                     <mentioned facs="#stamp_middle-67" xml:id="stamp-middle-67">
+                        <placeName ref="list.xml#lRV" instant="false" full="yes">Ravenna</placeName>
+                        <date when="1913-07-24" instant="false">24.7.13</date>.20
+                            <gap reason="illegible" instant="false">
+                           <desc>La parte inferiore del timbro è scolorita</desc>
+                        </gap>
+                     </mentioned>
+                     <note anchored="true">Timbro effettuato in data <date when="1913-07-24" instant="false">24/07/1913</date> a Ravenna. Sul timbro è possibile vedere la data seguita da .20.</note>
+                  </stamp>
+                  <stamp type="postmark">
+                     <mentioned facs="#stamp_left-67" xml:id="stamp-left-67">
+                        <placeName ref="list.xml#lAR" instant="false" full="yes">Arona</placeName>
+                        <date when="1913-07-25" instant="false">
+                           <unclear reason="illeggible" instant="false">25.7</unclear>
+                        </date>
+                        <gap reason="illegible" instant="false">
+                           <desc>La parte restante della data e la parte inferiore del timbro sono scolorite</desc>
+                        </gap>
+                     </mentioned>
+                     <note anchored="true"> Il timbro è in buona parte illeggibile, per cui abbiamo riportato soltanto il luogo d'arrivo e la data, 25/07, anch'essa poco leggibile. Riguardo l'anno possiamo ipotizzare che si tratti del 1913.</note>
+                  </stamp>
+                  <stamp type="postage">
+                     <mentioned facs="#postark_67" xml:id="postmark-67">
+                        <orgName ref="list.xml#oPI" instant="false" full="yes">Poste Italiane</orgName>
+                        <s part="N">
+                           <num type="cardinal">10</num> centesimi <num type="cardinal">10</num>
+                        </s>
+                     </mentioned>
+                     <note anchored="true">Francobollo da 10 centesimi delle poste italiane.</note>
+                  </stamp>
+               </ab>
+            </div>
+            <div type="secondamano" part="N" org="uniform" sample="complete">
+               <ab type="paratext" part="N">
+                  <add instant="false" status="unremarkable">
+                     <num type="cardinal" value="11">67</num>
+                  </add>
+               </ab>
+            </div>
+         </div>
+      </body>
+      <back>
+         <div type="linguistic">
+            <ab>
+               <seg lemma="a">
+                  <w type="form">A</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="Ravenna">
+                  <w type="form">Ravenna</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="piovere">
+                  <w type="form">piove</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="sempre">
+                  <w type="form">sempre</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma=":">
+                  <w type="form">:</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="essere">
+                  <w type="form">è</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="uno">
+                  <w type="form">una</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="gioia">
+                  <w type="form">gioia</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="per">
+                  <w type="form">per</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="chi">
+                  <w type="form">chi</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="non">
+                  <w type="form">non</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="essere">
+                  <w type="form">è</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="andare">
+                  <w type="form">andato</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="al">
+                  <w type="form">ai</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="bagno">
+                  <w type="form">bagni</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma=".">
+                  <w type="form">.</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="per">
+                  <w type="form">Per</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="ora">
+                  <w type="form">ora</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="niente">
+                  <w type="form">niente</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="di">
+                  <w type="form">di</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="nuovo">
+                  <w type="form">nuovo</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma=",">
+                  <w type="form">,</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="tutto">
+                  <w type="form">tutti</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="bene">
+                  <w type="form">bene</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma=".">
+                  <w type="form">.</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="Stasera">
+                  <w type="form">Stasera</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="qui">
+                  <w type="form">qui</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="ci">
+                  <w type="form">c'</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="essere">
+                  <w type="form">è</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="musica">
+                  <w type="form">musica</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma=",">
+                  <w type="form">,</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="come">
+                  <w type="form">come</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="ieri">
+                  <w type="form">ieri</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="sera">
+                  <w type="form">sera</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="che">
+                  <w type="form">che</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="essere">
+                  <w type="form">fu</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="S.">
+                  <w type="form">S.</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="Apollinare">
+                  <w type="form">Apollinare</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma=":">
+                  <w type="form">:</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="ad">
+                  <w type="form">ad</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="Arona">
+                  <w type="form">Arona</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="niente">
+                  <w type="form">niente</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma=".">
+                  <w type="form">.</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="saluto">
+                  <w type="form">Saluti</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="affettuoso">
+                  <w type="form">affettuosi</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="Giuseppe">
+                  <w type="form">Giuseppe</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+            </ab>
+         </div>
+      </back>
+   </text>
+</TEI>

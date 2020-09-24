@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xml:id="cartolina_7694-002">
+<teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+      <fileDesc>
+         <titleStmt>
+            <title>Thinking of you - Edizione digitale</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <choice>
+                  <abbr>Unipi</abbr>
+                  <expan instant="false">
+                            Università di
+                            <placeName ref="list.xml#PI" instant="false" full="yes">Pisa</placeName>
+                  </expan>
+               </choice>
+            </publisher>
+            <pubPlace ref="list.xml#PI">Pisa</pubPlace>
+            <availability default="false">
+               <p part="N">Available under licence only</p>
+            </availability>
+            <date when="2019" instant="false">2019</date>
+            <distributor>
+               <orgName ref="list.xml#LCD" instant="false" full="yes">
+                  <choice>
+                     <abbr>LabCD</abbr>
+                     <expan instant="false">Laboratorio di Cultura Digitale</expan>
+                  </choice>
+               </orgName>
+            </distributor>
+            <address>
+               <addrLine>Laboratorio di Cultura Digitale - Università di Pisa</addrLine>
+               <addrLine>
+                  <placeName ref="list.xml#PI" instant="false" full="yes">Pisa</placeName>
+               </addrLine>
+            </address>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <bibl type="postcard" default="false" status="draft">
+               <title type="custom" resp="list.xml#ES">Thinking of you</title>
+               <!-- fra parentesi quadre perchè non è il titolo originale ma un titolo sintetico formulato da terzi -->
+               <!-- Info editoriali -->
+               <publisher ref="list.xml#RN">
+                        RN
+              </publisher>
+            </bibl>
+            <msDesc status="draft"><!-- descrizione del manoscritto -->
+               <msIdentifier><!-- info per identificare il manoscritto -->
+                  <country ref="list.xml#IT">Italia</country>
+                  <settlement ref="list.xml#SP">La Spezia (SP)</settlement>
+                  <!-- collocazione specifica -->
+                  <repository ref="list.xml#MCE">Museo Civico Etnografico "Giovanni Podenzana", Sezione dei cimeli garibaldini e della Prima Guerrra Mondiale</repository>
+                  <!-- codice identificativo -->
+                  <idno type="postcard_id">7694_002_001/002</idno>
+               </msIdentifier>
+               <msContents><!-- Info sul contenuto della cartolina -->
+                  <summary>Cartolina Artistica</summary>
+                  <msItem>
+                     <textLang xml:id="lang_ITA" mainLang="ita">Italiano</textLang>
+                  </msItem>
+               </msContents>
+               <physDesc><!-- descrizione fisica del manoscritto -->
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType>Cartolina</objectType>
+                           <material>Carta</material>
+                           <dimensions unit="cm">
+                              <height>9</height>
+                              <width>14</width>
+                           </dimensions>
+                           <!-- descrizione fisica dei 2 timbri -->
+                           <stamp type="postmark"> 
+                                        Il timbro circolare sovrapposto al francobollo è poco leggibile a causa delle sbavature d'inchiostro.
+                                    </stamp>
+                           <!-- descrizione fisica del francobollo -->
+                           <stamp type="postage">
+                                         Francobollo di forma rettangolare color verde da 5 centesimi.
+                                    </stamp>
+                           <!-- descrizione fisica della cartolina -->
+                           <p part="N">
+                                        Cartolina in buone condizioni fisiche. Cartoncino senza filigrana, colore avorio, con testo in inchiostro nero. 
+                                        La parte retro presenta l’indirizzo, il testo scritto su due colonne le quali dividono mittente e destinatario, un francobollo e un timbro.
+                                        La parte fronte presenta una rappresentazione artistica. 
+                                    </p>
+                        </support>
+                        <!-- descrizione delle condizioni fisiche di conservazione della cartolina -->
+                        <condition>
+                                    Cartolina in buone condizioni fisiche
+                                </condition>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc><!-- Descrizione delle azioni relative a un atto di corrispondenza -->
+         <correspDesc default="false">
+            <correspAction type="sent">
+               <persName ref="list.xml#GF" instant="false" full="yes">Giulio Fantoni</persName>
+               <placeName ref="list.xml#RV" instant="false" full="yes">Ravenna</placeName>
+               <date type="writing" when="1918-11-09" instant="false">9 Novembre 1918</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="list.xml#GC" instant="false" full="yes">Giovanni Coliola</persName>
+            </correspAction>
+         </correspDesc>
+         <!-- Info di classificazione del testo -->
+         <textClass default="false">
+            <keywords><!--soggettario-->
+               <term>Cartolina </term>
+               <!--tipologia-->
+               <term>Cartolina Artistica </term>
+               <!--descrizione-->
+               <term>Soldati</term>
+               <term>Bandiera italiana</term>
+            </keywords>
+         </textClass>
+         <!-- Linguaggio usato nel testo -->
+         <langUsage default="false">
+            <language ident="it-IT">Italiano</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <tei:text>
+      <front xmlns="http://www.tei-c.org/ns/1.0"><!-- testo tipografico -->
+            <div type="tipografia">
+                     <p>
+                        <s rend="writing-mode(horizontal-lr) text-orientation(sideways)" part="N">
+                           THIS SPACE MAY BE USED FOR 
+                           CORRESPONDENCE
+                        </s>
+                        <s rend="writing-mode(vertical-lr) text-orientation(sideways)" part="N">
+                              Universal Copyright
+                        </s>
+                     </p>
+            </div>
+      </front>
+      <tei:body>
+            <div type="fronte">
+                <figure>
+                   <graphic url="img-cartoline/7694-002F.jpg"/>
+                   <!-- Descrizione dell'immagine in linguaggio naturale -->
+                   <figDesc>
+                        Donna vestita di rosso sdraiata su un cuscino con una mano su cui sorregge il capo.
+                        </figDesc>
+                   <!-- titolo dell'immagine / della cartolina -->
+                   <head>Thinking of you</head>
+                </figure>
+         </div>
+         <tei:div type="retro">
+            <tei:div type="message">
+               <tei:div xmlns="http://www.tei-c.org/ns/1.0" type="postcard-body">
+                  <tei:p>
+                     <tei:lb n="1"/>
+                     Per auguri vivissi-
+                     <tei:lb n="2"/>
+                     mi a tutta la famiglia
+                  </tei:p>
+               </tei:div>
+               <closer>
+                  <lb n="3"/>
+                  <signed>
+                           <persName ref="list.xml#GF" instant="false" full="yes">
+                                    <unclear reason="illegible">Tanfieri</unclear>
+                           </persName>
+                  </signed>
+                </closer>
+            </tei:div>
+            <tei:div xmlns="http://www.tei-c.org/ns/1.0" type="address-destination">
+               <tei:p>
+                  <tei:address>
+                     <tei:addrLine>
+                        <tei:lb n="4"/>
+                        Signorina
+                        <tei:lb n="5"/>
+                        Oliva Turtura
+                        <tei:lb n="6"/>
+                        Via G. Rossi 53
+                        <tei:lb n="7"/>
+                        Ravenna
+                     </tei:addrLine>
+                  </tei:address>
+               </tei:p>
+            </tei:div>
+            <tei:div type="postmark-postage">
+               <tei:ab>
+                        <stamp type="postmark">
+                                    <mentioned>
+                                       <gap reason="illegible" agent="ink"/>
+                                    </mentioned>
+                                    <date when="1917">
+                                       <unclear reason="damage"> 29.12. </unclear> 18 </date>
+                        </stamp>
+                        <stamp type="postage">
+                                    <mentioned rend="color(GREEN)">
+                                       <orgName ref="list.xml#PI" instant="false" full="yes">Poste italiane</orgName>
+                                       <hi>
+                                          <num rend="double" type="cardinal" value="5">5</num>
+                                                                     centesimi
+                                          <num rend="double" type="cardinal" value="5">5</num>
+                                       </hi>
+                                    </mentioned>
+                        </stamp>
+               </tei:ab>
+            </tei:div>
+            <div type="secondamano" part="N" org="uniform" sample="complete">
+                        <ab type="paratext" part="N">
+                           <add>
+                              <num type="cardinal"> 2 </num>
+                           </add>
+                        </ab>
+            </div>
+         </tei:div>
+      </tei:body>
+   </tei:text>
+</tei:TEI>

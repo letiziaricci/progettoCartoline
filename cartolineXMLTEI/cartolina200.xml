@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="cartolina_7694-200">
+   <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+      <fileDesc>
+         <titleStmt>
+            <title>Venezia - Edizione digitale</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <choice>
+                  <abbr>Unipi</abbr>
+                  <expan instant="false">Università di
+                            <placeName ref="list.xml#PI" instant="false" full="yes">Pisa</placeName>
+                  </expan>
+               </choice>
+            </publisher>
+            <pubPlace ref="list.xml#PI">Pisa</pubPlace>
+            <availability default="false">
+               <p part="N">Available under licence only</p>
+            </availability>
+            <date when="2019" instant="false">2019</date>
+            <distributor>
+               <orgName ref="list.xml#LCD" instant="false" full="yes">
+                  <choice>
+                     <abbr>LabCD</abbr>
+                     <expan instant="false">Laboratorio di Cultura Digitale</expan>
+                  </choice>
+               </orgName>
+            </distributor>
+            <address>
+               <addrLine>Laboratorio di Cultura Digitale - Università di Pisa</addrLine>
+               <addrLine>
+                  <placeName ref="list.xml#PI" instant="false" full="yes">Pisa</placeName>
+               </addrLine>
+            </address>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <bibl default="false" status="draft">
+               <title>Venezia</title>
+               <author ref="list.xml#GB">Giuseppe Bertini</author>
+               <publisher>
+                  <orgName ref="list.xml#RIT" instant="false" full="yes">Racc. del dott. cav. uff. I. Tonta</orgName>
+               </publisher>
+               <pubPlace ref="list.xml#MI">Milano</pubPlace>
+               <div type="fronte">
+                    <figure>
+                       <graphic url="img-cartoline/7694-001F.jpg"/>
+                       <figDesc>
+                          <desc>Giovane donna vestita di bianco seduta con gli occhi chiusi</desc>
+                       </figDesc>
+                       <head>Serenata a Lola</head>
+                    </figure>
+             </div>
+            </bibl>
+            <msDesc status="draft"><!-- descrizione del manoscritto -->
+               <msIdentifier><!-- info per identificare il manoscritto -->
+                  <country ref="list.xml#IT">Italia</country>
+                  <settlement ref="list.xml#SP">La Spezia (SP)</settlement>
+                  <!-- collocazione specifica -->
+                  <repository ref="list.xml#MCE">Museo Civico Etnografico "Giovanni Podenzana", Sezione dei cimeli garibaldini e della Prima Guerrra Mondiale</repository>
+                  <!-- codice identificativo -->
+                  <idno type="postcard_id">7694_200_001/002</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Cartolina Artistica</summary>
+                  <textLang>Italiano</textLang>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType>Cartolina</objectType>
+                           <material>Carta</material>
+                           <dimensions unit="cm">
+                              <height>9</height>
+                              <width>14</width>
+                           </dimensions>
+                           <stamp type="postage">francobollo - Poste Italiane</stamp>
+                        </support>
+                        <condition>Discreto</condition>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc default="false">
+            <correspAction type="sent">
+               <persName ref="list.xml#GC" instant="false" full="yes">Giovanni Coliola</persName>
+               <placeName ref="list.xml#FO" instant="false" full="yes">Formigine</placeName>
+               <date type="writing" when="1918-02-12" instant="false">1918/02/12</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="list.xml#OT" instant="false" full="yes">Oliva Turtura</persName>
+               <placeName ref="list.xml#RA" instant="false" full="yes">Ravenna</placeName>
+            </correspAction>
+         </correspDesc>
+         <textClass default="false">
+            <keywords>
+               <term>Cartolina</term>
+               <term>Cartolina Artistica</term>
+               <term>Paesaggio</term>
+            </keywords>
+         </textClass>
+         <langUsage default="false">
+            <language ident="it-IT">italiano</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <front xmlns="http://www.tei-c.org/ns/1.0"><!-- testo tipografico -->
+         <div type="tipografia" part="N" org="uniform" sample="complete">
+            <p part="N">
+               <s rend="writing-mode(horizontal-lr) text-orientation(sideways)" part="N">
+                              Proprietà artistica riservata.
+                        </s>
+            </p>
+            <p part="N">
+               <s rend="writing-mode(vertical-lr) text-orientation(sideways)" part="N">
+                              2664. <persName ref="list.xml#GB" type="author" instant="false" full="yes">G. BERTINI</persName> - Venezia.
+                                                                                                      Venise.
+                                                                                                      Venice.
+                                                                                                      Venedig.
+                              <orgName ref="list.xml#RIT" type="typography" instant="false" full="yes">
+                              (<placeName ref="list.xml#MI" instant="false" full="yes">Milano</placeName>, Racc. del dott. cav. uff. I. Tonta)
+                              </orgName>
+               </s>
+            </p>
+         </div>
+      </front>
+      <body xmlns="http://www.tei-c.org/ns/1.0">
+         <div type="fronte" part="N" org="uniform" sample="complete">
+            <figure>
+               <graphic url="img-cartoline/7694-200F.jpg"/>
+               <figDesc>Veduta della laguna di Venezia</figDesc>
+               <head>Venezia</head>
+            </figure>
+         </div>
+         <div type="retro" part="N" org="uniform" sample="complete">
+            <div type="message" part="N" org="uniform" sample="complete">
+               <opener>
+                  <dateline>
+                     <lb n="1"/>
+                     <s part="N">
+                        <placeName ref="list.xml#FO" instant="false" full="yes">Formigine</placeName>, li 
+                            <date when="1918-02-19" instant="false">19/2-18</date>
+                     </s>
+                  </dateline>
+               </opener>
+               <div type="postcard-body" part="N" org="uniform" sample="complete">
+                  <p part="N">
+                     <lb n="2"/>
+                     <choice>
+                        <sic>Pensoti</sic>
+                        <corr resp="list.xml#LR" cert="high" instant="false">Ti penso</corr>
+                     </choice>, <choice>
+                        <orig>carisfimi</orig>
+                        <reg resp="list.xml#LR" cert="high" instant="false">carissimi</reg>
+                     </choice>
+                     <lb n="3"/>
+                        ed ardenti
+                    </p>
+               </div>
+               <closer>
+                  <lb n="4"/>
+                        tuo
+                        <lb n="5"/>
+                  <signed>
+                     <persName instant="false" full="yes">
+                        <forename ref="list.xml#GC" full="yes">Giovannino</forename>
+                     </persName>
+                  </signed>
+               </closer>
+            </div>
+            <div type="address-destination"
+                 part="N"
+                 org="uniform"
+                 sample="complete">
+               <p part="N">
+                  <address>
+                     <addrLine>
+                        <lb n="6"/>
+                            Gent Sig.na
+                            <lb n="7"/>
+                            Oliva Turtura
+                            <lb n="8"/>
+                            Via Girolamo <choice>
+                           <orig>Rosfi</orig>
+                           <reg resp="list.xml#LR" cert="high" instant="false">Rossi</reg>
+                        </choice> 58
+                            <lb/>
+                            Ravenna
+                        </addrLine>
+                  </address>
+               </p>
+            </div>
+            <div type="postmark-postage"
+                 part="N"
+                 org="uniform"
+                 sample="complete">
+               <ab part="N">
+                  <stamp type="postmark">
+                     <mentioned>Formigine ★ Modena</mentioned>
+                     <date when="1918-02-16" instant="false">1918/02/16</date>
+                  </stamp>
+                  <stamp type="postage">Francobollo da 5 centesimi di Poste Italiane</stamp>
+               </ab>
+            </div>
+            <div type="secondamano" part="N" org="uniform" sample="complete">
+               <ab type="paratext" part="N">
+                  <add cert="medium" instant="false" status="unremarkable">
+                     <num type="cardinal" value="200">
+                                    200
+                                </num>
+                  </add>
+               </ab>
+            </div>
+         </div>
+      </body>
+      <back>
+         <div type="linguistic">
+            <ab>
+               <seg lemma="ti">
+                  <w type="form">Ti</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="pensare">
+                  <w type="form">penso</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma=",">
+                  <w type="form">,</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="caro">
+                  <w type="form">carissimi</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="e">
+                  <w type="form">ed</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="ardente">
+                  <w type="form">ardenti</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="tuo">
+                  <w type="form">tuo</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="Giovannino">
+                  <w type="form">Giovannino</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+            </ab>
+         </div>
+      </back>
+   </text>
+</TEI>

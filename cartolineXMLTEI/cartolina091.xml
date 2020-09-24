@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xml:id="cartolina_7694-091">
+<teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+    <fileDesc>
+       <titleStmt>
+          <title>[Donna in posa] - Edizione digitale</title>
+       </titleStmt>
+       <publicationStmt><!-- contiene informazioni sulla pubblicazione e distribuzione del documento digitale -->
+          <publisher>
+             <choice>
+                <abbr>Unipi</abbr>
+                <expan instant="false">
+                        Università di
+                        <placeName ref="list.xml#PI" instant="false" full="yes">Pisa</placeName>
+                </expan>
+             </choice>
+          </publisher>
+          <pubPlace ref="list.xml#PI">Pisa</pubPlace>
+          <availability default="false">
+             <p part="N">Available under licence only</p>
+          </availability>
+          <date when="2019" instant="false">2019</date>
+          <distributor>
+             <orgName ref="list.xml#LCD" instant="false" full="yes">
+                <choice>
+                   <abbr>LabCD</abbr>
+                   <expan instant="false">Laboratorio di Cultura Digitale</expan>
+                </choice>
+             </orgName>
+          </distributor>
+          <address>
+             <addrLine>Laboratorio di Cultura Digitale - Università di Pisa</addrLine>
+             <addrLine>
+                <placeName ref="list.xml#PI" instant="false" full="yes">Pisa</placeName>
+             </addrLine>
+          </address>
+       </publicationStmt>
+       <sourceDesc default="false"><!-- contiene informazoni relative alla fonte originale -->
+          <bibl type="postcard" default="false" status="draft">
+             <title type="custom" resp="list.xml#ES">[Donna in posa]</title>
+             <author ref="TC">T. Corbella</author>
+             <!-- titolo tra parentesi quadre perchè titolo formulato da terzi-->
+             <pubPlace ref="list.xml#MI">Milano</pubPlace>
+          </bibl>
+          <msDesc status="draft"><!-- descrizione del manoscritto -->
+             <msIdentifier><!-- info per identificare il manoscritto -->
+                <country ref="list.xml#IT">Italia</country>
+                <settlement ref="list.xml#SP">La Spezia (SP)</settlement>
+                <!-- collocazione specifica -->
+                <repository ref="list.xml#MCE">Museo Civico Etnografico "Giovanni Podenzana", Sezione dei cimeli garibaldini e della Prima Guerrra Mondiale</repository>
+                <!-- codice identificativo -->
+                <idno type="postcard_id">7694_091_001/002</idno>
+             </msIdentifier>
+             <!-- Informazioni sul contenuto della cartolina -->
+             <msContents>
+                <summary>Cartolina Artistica</summary>
+                <textLang mainLang="ita">Italiano</textLang>
+             </msContents>
+             <physDesc><!-- descrizione fisica del manoscritto -->
+                <objectDesc>
+                   <supportDesc>
+                      <support>
+                         <objectType>Cartolina</objectType>
+                         <material>Carta</material>
+                         <dimensions unit="cm">
+                            <height>9</height>
+                            <width>14</width>
+                         </dimensions>
+                      </support>
+                      <condition>
+                                  Cartolina in buone condizioni fisiche con qualche parte mancante e ben leggibile.
+                         </condition>
+                   </supportDesc>
+                </objectDesc>
+             </physDesc>
+          </msDesc>
+       </sourceDesc>
+    </fileDesc>
+    <profileDesc><!-- Descrizione delle azioni relative a un atto di corrispondenza -->
+       <correspDesc default="false">
+          <correspAction type="sent">
+             <persName ref="list.xml#GC">Giovanni Coliola</persName>
+          </correspAction>
+          <correspAction type="received">
+             <persName ref="list.xml#OT">Oliva Turtura</persName>
+          </correspAction>
+       </correspDesc>
+       <textClass default="false"><!-- Info di classificazione del testo -->
+          <keywords><!-- soggettario --><!-- tipologia --><!-- descrizione -->
+             <term>Cartolina</term>
+             <term>Cartolina Artistica</term>
+             <term>Busto di donna in posa</term>
+          </keywords>
+       </textClass>
+    </profileDesc>
+ </teiHeader>
+   <text>
+        <front xmlns="http://www.tei-c.org/ns/1.0"><!-- testo tipografico -->
+            <div type="tipografia" part="N" org="uniform" sample="complete">
+               <p rend="writing-mode(horizontal-lr) text-orientation(sideways)">
+                  <s>Produzione italiana</s>
+               </p>
+               <p rend="writing-mode(vertical-lr) text-orientation(sideways)">
+                  <s>
+                    Proprietà <gap reason="illegible" extent="4" unit="cm"/>
+                    <placeName ref="list.xml#MI">Milano</placeName>,
+                    <date when="1917-5-25">25-5-1917</date>
+                  </s>
+               </p>
+            </div>
+         </front>
+      <body>
+         <div type="retro">
+            <div type="message">
+               <div type="postcard-body">
+                  <p>
+                     <lb n="1"/>
+                     Oliva cara, ogni qualvolta è domenica il cuore 
+                     <lb n="2"/>
+                     mi si stringe in una dolorosa sensazione di tristezza.
+                     <lb n="3"/>
+                     Quest'oggi poi ho dovuto perdere il mio tempo ad ascoltare
+                     <lb n="4"/>
+                     una conferenza d'indole militare e mi sono ridotto a
+                     <lb n="5"/>
+                     scriverti ora per non lasciarti domani senza un mio bacio.
+                     <lb n="6"/>
+                     <gap reason="illegible"/>esta sera ti prometto che scriverò lungamente.
+                     <lb n="7"/>
+                     Oliva cara ho l'animo chiuso a tutte le gioie della
+                     <lb n="8"/>
+                     <gap reason="illegible"/>ma non mi sento granchè dispiacere. Vorrei
+                     <lb n="9"/>
+                     che tu mi fosfi vicina sempre per rendirmi
+                     <lb n="10"/>
+                     ancora più inclusivo all'amor tuo, anche nei
+                     <lb n="11"/>
+                     minimi particolari della vita che sono in fondo
+                     <lb  n="12"/>
+                     la sentenza esfenziale per una intera e perfetta comunio-
+                     <lb n="13"/>
+                     ne d'affetto.
+                    </p>
+               </div>
+               <closer xmlns="http://www.tei-c.org/ns/1.0">
+                  <s>
+                     <lb n="14"/>
+                     Un bacio e l'animo mio 
+                     <signed>
+                        <persName>
+                           <forename ref="list.xml#GC">Giovannino</forename>
+                        </persName>
+                     </signed>
+                  </s>
+               </closer>
+            </div>
+            <div type="secondamano" part="N" org="uniform" sample="complete">
+                    <ab type="paratext" part="N">
+                       <add>
+                          <num type="cardinal">91</num>
+                       </add>
+                    </ab>
+                 </div>
+         </div>
+      </body>
+   </text>
+</TEI>

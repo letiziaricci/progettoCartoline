@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI SYSTEM 'myTEI.dtd'>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cartolina_7694-027">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>[Contadina davanti al pollaio] - Edizione digitale</title>
+         </titleStmt>
+         <publicationStmt xmlns="http://www.tei-c.org/ns/1.0">
+            <publisher>
+               <choice>
+                  <abbr>Unipi</abbr>
+                  <expan>Università di
+                        <placeName ref="list.xml#PI">Pisa</placeName>
+                  </expan>
+               </choice>
+            </publisher>
+            <pubPlace ref="list.xml#PI">Pisa</pubPlace>
+            <availability>
+               <p>Available under licence only</p>
+            </availability>
+            <date when="2019">2019</date>
+            <distributor>
+               <orgName ref="list.xml#LCD">
+                  <choice>
+                     <abbr>LabCD</abbr>
+                     <expan>Laboratorio di Cultura Digitale</expan>
+                  </choice>
+               </orgName>
+            </distributor>
+            <address>
+               <addrLine>Laboratorio di Cultura Digitale - Università di Pisa</addrLine>
+               <addrLine>
+                  <placeName ref="list.xml#PI">Pisa</placeName>
+               </addrLine>
+            </address>
+         </publicationStmt>
+         <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
+            <!-- contiene informazoni relative alla fonte originale -->
+            <bibl type="postcard">
+               <title type="custom" resp="list.xml#ES">[Contadina davanti al pollaio]</title>
+               <!-- PRODUZIONE Chi ha prodotto / pubblicato la cartolina.  -->
+               <publisher>
+                  <orgName ref="list.xml#AA">Arno-Artchrom</orgName>
+                  <!--si tratta di una casa editrice-->
+               </publisher>
+               <!-- LUOGO -->
+               <pubPlace ref="list.xml#SA"> Saxony </pubPlace>
+            </bibl>
+            <msDesc>
+               <msIdentifier>                         
+                   <!-- info per identificare il manoscritto -->
+                   <country ref="list.xml#IT">Italia</country>
+                   <settlement ref="list.xml#SP">La Spezia (SP)</settlement>
+                   <!-- collocazione specifica -->
+                   <repository ref="list.xml#MCE">Museo Civico Etnografico "Giovanni Podenzana", Sezione dei cimeli garibaldini e della Prima Guerrra Mondiale</repository>
+                   <!-- codice identificativo -->
+                   <idno>7694_027_001/002</idno>
+               </msIdentifier>
+               <!-- Informazioni sul contenuto della cartolina -->
+               <!-- DESCRIZIONE -->
+               <msContents>
+                  <summary>Cartolina Artistica</summary>
+                  <textLang>Italiano</textLang>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support >
+                           <stamp type="postage">Francobollo da 5 centesimi delle Poste Italiane</stamp>
+                           <stamp type="postmark">Timbro con numeri 4.7.17.18</stamp>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc xmlns="http://www.tei-c.org/ns/1.0">
+         <correspDesc xml:id="corresp27">
+            <correspAction type="sent">
+               <persName ref="list.xml#GC">Giovanni Coliola</persName>
+               <placeName ref="list.xml#MO">Modena</placeName>
+               <date type="writing" when="1917-11-29">1917/11/29</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="list.xml#AT">Antonietta Turtura</persName>
+               <placeName ref="list.xml#RV"> Ravenna </placeName>
+            </correspAction>
+         </correspDesc>
+         <textClass>
+            <keywords>
+                    <!-- soggettario -->
+                    <!-- tipologia -->
+                    <!-- descrizione -->
+               <term>Cartolina </term>
+               <term>Cartolina Artistica </term>
+               <term>Contadina con il suo pollaio</term>
+            </keywords>
+         </textClass>
+         <langUsage>
+            <language ident="it">italiano del Novecento</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <facsimile xmlns="http://www.tei-c.org/ns/1.0">
+         <surface>
+            <graphic xml:id="fronte_postcard_27" url="img-cartoline/7694-027F.jpg" width="650px" height="419px"/>
+            <note type="nota_facsimile">L'immagine si trova sul fronte della cartolina e non presenta scritte.</note>
+         </surface>
+         <surface>
+            <graphic xml:id="retro_postcard_27" url="img-cartoline/7694-027R.jpg" width="650px" height="419px"/>
+            <!-- francobollo -->
+            <zone type="postmark" xml:id="stamp_27" start="#stamp-27"
+                  ulx="506"
+                  uly="12"
+                  lrx="619"
+                  lry="110"/>
+            <!-- timbro -->
+            <zone type="postage" xml:id="stamp_left-27" start="#stamp-left-27"
+                  ulx="465"
+                  uly="22"
+                  lrx="600"
+                  lry="143"/>
+            <!-- timbro -->
+            <zone type="postage" xml:id="stamp_right-27" start="#stamp-right-27"
+                  ulx="309"
+                  uly="51"
+                  lrx="433"
+                  lry="151"/>
+            <!-- Anno artchrom dep serie 4020 printed in saxony -->
+            <zone type="print" xml:id="publication_27" start="#publication-27"
+                  ulx="7"
+                  uly="91"
+                  lrx="21"
+                  lry="389"/>
+            <!-- 27 catalogazione -->
+            <zone type="catalog" xml:id="number27_27" start="#number27-27"
+                  ulx="5"
+                  uly="9"
+                  lrx="47"
+                  lry="36"/>
+            <!-- testo cartolina -->
+            <zone type="handWriting" xml:id="lineText_1-27" start="#lineText-1-27"
+                  ulx="223"
+                  uly="42"
+                  lrx="272"
+                  lry="418"/>
+            <zone type="handWriting" xml:id="lineText_2-27" start="#lineText-2-27"
+                  ulx="140"
+                  uly="39"
+                  lrx="205"
+                  lry="341"/>
+            <zone type="handWriting" xml:id="lineText_3-27" start="#lineText-3-27"
+                  ulx="89"
+                  uly="41"
+                  lrx="137"
+                  lry="356"/>
+            <zone type="handWriting" xml:id="lineText_4-27" start="#lineText-4-27"
+                  ulx="55"
+                  uly="35"
+                  lrx="77"
+                  lry="305"/>
+            <!-- firma -->
+            <zone type="handWriting" xml:id="lineText_5-27" start="#lineText-5-27"
+                  ulx="9"
+                  uly="80"
+                  lrx="52"
+                  lry="366"/>
+            <!-- indirizzo -->
+            <zone type="handWriting" xml:id="lineText_6-27" start="#lineText-6-27"
+                  ulx="279"
+                  uly="103"
+                  lrx="470"
+                  lry="159"/>
+            <zone type="handWriting" xml:id="lineText_7-27" start="#lineText-7-27"
+                  ulx="276"
+                  uly="169"
+                  lrx="619"
+                  lry="212"/>
+            <zone type="handWriting" xml:id="lineText_8-27" start="#lineText-8-27"
+                  ulx="277"
+                  uly="217"
+                  lrx="628"
+                  lry="276"/>
+            <zone type="handWriting" xml:id="lineText_9-27" start="#lineText-9-27"
+                  ulx="278"
+                  uly="279"
+                  lrx="634"
+                  lry="379"/>
+         </surface>
+   </facsimile>
+   <text>
+      <!-- informazioni peritestuali -->
+      <front>
+                  <!-- testo tipografico -->
+                  <div type="tipografia">
+                        <p facs="#publication_27" xml:id="publication-27">
+                              <s rend="writing-mode(vertical-lr) text-orientation(sideways)">
+                                    <orgName ref="list.xml#AA" type="typography">
+                                          Arno artchrom. 
+                                    </orgName>
+                                          dep serie 4020 printed in
+                                    <placeName ref="list.xml#SA">Saxony</placeName>
+                              </s>
+                        </p>
+                  </div>
+      </front>
+      <body>
+         <div xmlns="http://www.tei-c.org/ns/1.0"
+              type="fronte">
+            <figure>
+                <graphic url="img-cartoline/7694-027F.jpg" />
+               <figDesc>
+                  <desc> Nella cartolina vediamo rappresentata una contadina davanti al pollaio che nutre le galline in uno sfondo di campagna. L’immagine è delimitata da un ovale che ne costituisce la cornice.</desc>
+               </figDesc>
+            </figure>
+         </div>
+         <div type="retro">
+            <div type="message">
+                  <opener xmlns="http://www.tei-c.org/ns/1.0">
+                        <dateline>
+                              <lb n="1" facs="#lineText_1-27" xml:id="lineText-1-27"/>
+                              <s>
+                                    <placeName ref="list.xml#MO">  Modena </placeName>, li 
+                                    <date when="1917-06-04"> 04/06/1917 </date> 
+                              </s>
+                        </dateline>
+                  </opener>
+                  <div xmlns="http://www.tei-c.org/ns/1.0" type="postcard-body">
+                        <p>
+                              <lb n="2" facs="#lineText_2-27" xml:id="lineText-2-27"/>
+                              Saluti aff.si a 
+                              <lb n="3" facs="#lineText_3-27" xml:id="lineText-3-27"/>
+                              tutti. Navigo in 
+                              <lb n="4" facs="#lineText_4-27" xml:id="lineText-4-27"/>
+                              cattive acque. 
+                        </p>
+                  </div>
+                  <closer xmlns="http://www.tei-c.org/ns/1.0">
+                        <lb n="5" facs="#lineText_5-27" xml:id="lineText-5-27"/>
+                        <signed>
+                        <persName>
+                              <forename ref="list.xml#GC">Giovannino</forename>
+                        </persName>
+                        </signed>
+                  </closer>
+            </div>
+            <div xmlns="http://www.tei-c.org/ns/1.0" type="address-destination">
+               <p>
+                  <address>
+                         <addrLine>
+                              <lb n="6" facs="#lineText_6-27" xml:id="lineText-6-27"/>
+                              Gent. Sig.na 
+                              <lb n="7" facs="#lineText_7-27" xml:id="lineText-7-27"/>
+                              Antonietta Turtura 
+                              <lb n="8" facs="#lineText_8-27" xml:id="lineText-8-27"/>
+                              Via Girolamo <choice>
+                                                <orig>Rosfi</orig>
+                                                <reg resp="list.xml#LR" cert="high">Rossi</reg>
+                                          </choice> 58 
+                              <lb n="9" facs="#lineText_9-27" xml:id="lineText-9-27"/>
+                              Ravenna
+                        </addrLine>
+                  </address>
+               </p>
+            </div>
+            <div type="postmark-postage">
+               <ab>
+                  <stamp xmlns="http://www.tei-c.org/ns/1.0" type="postmark" facs="#stamp_left-27" xml:id="stamp-left-27">
+                     <mentioned>
+                        <gap reason="illegible"
+                             agent="faded"
+                             atLeast="2"
+                             atMost="4"
+                             unit="chars"/>
+                        <date when="1917">4.7.17</date>.18
+                            </mentioned>
+                  </stamp>
+                  <stamp xmlns="http://www.tei-c.org/ns/1.0" type="postmark" facs="#stamp_right-27" xml:id="stamp-right-27">
+                     <mentioned>
+                        <gap reason="illegible"
+                             agent="faded"
+                             atLeast="2"
+                             atMost="4"
+                             unit="chars"/>
+                        <date when="1917">4.7.17</date>.18
+                            </mentioned>
+                  </stamp>
+                  <stamp xmlns="http://www.tei-c.org/ns/1.0"
+                         type="postage"
+                         facs="#stamp_127" xml:id="stamp-27">Poste italiane 5 centesimi</stamp>
+               </ab>
+            </div>
+            <div type="secondamano">
+               <ab type="paratext">
+                  <add facs="#number27_27" xml:id="number27-27">
+                     <num type="cardinal"> 27 </num>
+                  </add>
+               </ab>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="prog.xsl"?>
+<!DOCTYPE TEI SYSTEM 'myTEI.dtd'>
+<TEI n='3' xml:id="cartolina_7694-197">
+    <teiHeader xml:lang="Italy">
+        <fileDesc>
+            <titleStmt>
+                <title>Cartolina di Giovanni Coliola a Oliva Turtura, Modena, 14/01/1918</title>
+                <respStmt>
+                    <resp>Trascrizione realizzata da</resp>
+                    <name ref="#FM">Francesco Melighetti</name>
+                    <name ref="#AL">Arianna Lisi</name>
+                </respStmt>
+                <!-- ENTE DI APPARTENENZA -->
+                <respStmt>
+                    <resp>Ente di Appartenenza</resp>
+                    <name type="comune" ref="#SP">Comune della Spezia</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    Studenti di Codifica dei Testi, Corso di Laurea Triennale di Informatica Umanistica, Università di Pisa
+                    <!-- COMPILAZIONE -->
+                    <date when="2018">2018</date>
+                </edition>
+                <!-- NOME COMPILATORE -->
+                <respStmt>
+                    <resp>Codifica realizzata da</resp>
+                    <name ref="#TC">Tommaso Castagneto</name>
+                </respStmt>
+                <!-- REFERENTE SCIENTIFICO sempre Nome Cognome, XY2 è sempre Tommaso Castagneto, XZ1 è chi interviene sulla schedatura già fatta per correzioni e aggiunte-->
+                <respStmt>
+                    <resp>Compilatore</resp>
+                    <name ref="#TC">Tommaso Castagneto</name>
+                    <!--<name xml:id="XZ1">XZ</name>-->
+                </respStmt>
+                <respStmt>
+                    <resp>Responsabile scientifico</resp>
+                    <name ref="#GP">Giacomo Paolicchi</name>
+                    <name ref="#ES">Enrica Salvatori</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Funzionario responsabile</resp>
+                    <name ref="#ER">E. Ratti</name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Unipi</publisher>
+                <pubPlace>Pisa</pubPlace>
+                <availability>
+                    <p>Available under licence only</p>
+                </availability>
+                <date when="2019">2019</date>
+                <distributor>LabCD</distributor>
+                <address>
+                    <addrLine>Laboratorio di Cultura Digitale - Università di Pisa</addrLine>
+                    <addrLine>Pisa</addrLine>
+                </address>
+            </publicationStmt>
+
+            <notesStmt>
+                <note resp="#FM">Sul retro sono riportati il nome dell'artista (Rubens Santoro) e il titolo dell'opera, una stampa "Proprietà artistica riservata - 278" e la didascalia "XI ESPOSIZIONE D'ARTE DELLA CITTA' DI VENEZIA - MCMXIV".</note>
+            </notesStmt>
+            <sourceDesc>
+                <bibl>
+                    <!-- TITOLO Quello che si ricava dalla cartolina; Se un documento composto da immagini 
+                        non presenta un titolo o altri elementi considerabili come titolo, si formula un titolo sintetico 
+                        registrandolo entro parentesi quadre [Venere al bagno] ma indicando dentro la codifica come qui sotto esemplificato-->
+                    <title>La casa della fioraia</title>
+                    <author ref="#RS">Rubens Santoro</author>
+                    <!-- PRODUZIONE Chi ha prodotto / pubblicato la cartolina. Se non presente togliere il tag  -->
+                    <publisher>Casa editrice d'Arte Bestetti e Tumminelli</publisher>
+                    <!-- LUOGO -->
+                    <pubPlace>Milano</pubPlace>
+                    <!-- CRONOLOGIA, attenzione si riferisce solo alla data di stampa -->
+                    <date></date>
+                </bibl>
+                <msDesc>
+                    <msIdentifier>
+                        <country>Italia</country>
+                        <settlement ref="#SP">La Spezia (SP)</settlement>
+                        <!-- COLLOCAZIONE SPECIFICA -->
+                        <repository>Museo Civico Etnografico "Giovanni Podenzana", Sezione dei cimeli garibaldini e della Prima Guerrra Mondiale</repository>
+                        <!-- CODICE IDENTIFICATIVO -->
+                        <idno>7694_197_001/002</idno>
+                    </msIdentifier>
+                    <!-- Informazioni sul contenuto della cartolina -->
+                    <!-- DESCRIZIONE -->
+                    <msContents>
+                        <summary>Cartolina Celebrativa</summary>
+                        <textLang>Italiano</textLang>
+                        <msItem n="1" facs="#fronte3">
+                            <author><persName ref="#RS">Rubens Santoro</persName></author>
+                            <title>Sommeil Interrompu</title>
+                        </msItem>
+                        <msItem n="2" facs="#retro3">
+                            <author><persName ref="#GI">Giovanni Coliola</persName></author>
+                            <title>Cartolina di Giuseppe a Oliva Turtura, Modena 14/01/1918</title>
+                        </msItem>
+                    </msContents>
+
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType>Cartolina</objectType>
+                                    <!-- MATERIALI -->
+                                    <material>Carta</material>
+                                    <!-- DIMENSIONE -->
+                                    <dimensions unit="cm">
+                                        <height>9</height>
+                                        <width>14</width>
+                                    </dimensions>
+                                    <stamp>Non sono presenti francobolli.</stamp>
+                                </support>
+
+                                <!-- CONSERVAZIONE 
+                                buono = non occorrono interventi di restauro;
+                                discreto = perfettamente leggibile in tutte le componenti ma con rischi di deterioramento per usura;
+                                mediocre = perfettamente leggibile, ma mancano alcune sue parti;
+                                cattivo = intaccato da parassiti o deteriorato da cattivi interventi passati o mancanti di parti rilevanti, necessita di restauro-->
+                                <condition>Buono</condition>
+                            </supportDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <summary>Scrittura eseguita a mano leggibile, in corsivo, con una annotazione nella parte superiore destra del retro.</summary>
+                            <handNote n="1">Annotazione di un catalogatore che presenta il numero 197, 
+                                relativo alla classificazione delle 227 cartoline appartenente al museo di La Spezia.</handNote>
+                        </handDesc>
+                    </physDesc>
+                  <history>
+                      <p>La cartolina è stata scritta il <origDate>14 Gennaio 1918</origDate> a <origPlace>Modena</origPlace>, quando ancora si combatteva al fronte in occasione della <date from="1914" to="1918">Prima Guerra Mondiale</date>. Il mittente è <persName ref="#GI">Giovanni Coliola</persName>,
+                      un tenente colonnello che, dovendosi spostare spesso a causa della guerra, scrive alla donna amata lontana da lui.</p>
+                  </history>
+
+                </msDesc>
+
+                <!-- NOMI -->
+                <listPerson>
+                    <person >
+                        <persName ref="#GI">
+                            <forename>Giovanni</forename>
+                            <addName type="nick">Giovannino</addName>
+                            <surname>Coliola</surname>
+                        </persName>
+                        <sex>M</sex>
+                        <occupation n="1">tenente colonnello</occupation>
+                        <birth when="1985">1895<placeName type="city">Napoli</placeName>,<country>Italia</country></birth>
+                        <death when="1980">1980<placeName type="city">Ravenna</placeName>,<country>Italia</country></death>
+                        <note resp="#FM">Mittente della cartolina. Si firma come Giovannino</note>
+                    </person>
+                    <person>
+                        <persName ref="#OT">
+                            <forename>Oliva</forename>
+                            <surname>Turtura</surname>
+                        </persName>
+                        <sex>F</sex>
+                        <birth notAfter="1990">Ravenna</birth>
+                        <note resp="#AL">Destinataria della cartolina. Non abbiamo molte informazioni su di lei. Sappiamo soltanto che nacque a Ravenna
+                        e frequentò nell'anno 1914/1915 il corso di perfezionamento per licenziati della scuola Normale, presso l'Università di Bologna</note>
+                    </person>
+                    <person xml:id="RS">
+                        <persName>
+                            <forename>Rubens</forename>
+                            <surname>Santoro</surname>
+                        </persName>
+                        <sex>M</sex>
+                        <note resp="#AL">Autore della cartolina</note>
+                    </person>
+                </listPerson>
+                <listOrg>
+                    <org xml:id="BT">
+                        <orgName type="Editore">Bestetti e Tumminelli</orgName>
+                        <place><placeName>Milano</placeName></place>
+                        <desc>Casa editrice che si è occupata della pubblicazione della cartolina e ne detiene il copyright.</desc>
+                    </org>
+                </listOrg>
+                <listPlace>
+                    <place xml:id="MO">
+                        <placeName>Modena</placeName>
+                            <location>
+                                <settlement type="comune">Modena</settlement>
+                                <district type="provincia">MO</district>
+                                <region>Emilia-Romagna</region>
+                                <country type="nazione">IT</country>
+                            </location>
+       
+                    </place>
+                </listPlace>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#GC"/>
+                    <placeName ref="#MO">Modena</placeName>
+                    <!-- DATA data di invio da timbro (postage) o da manoscritto (writing) -->
+                    <date type="writing" when="1918-01-14">14/1/1918</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#OT">Oliva Turtura</persName>
+                    <note resp="#FM">Non sono specificati nè il luogo nè la data di arrivo</note>
+                </correspAction>
+            </correspDesc>
+            
+            <textClass>
+                <keywords>
+                    <!-- soggettario -->
+                    <!-- tipologia -->
+                    <!-- descrizione -->
+                    <term>Cartolina </term>
+                    <term>Cartolina Celebrativa </term>
+                    <term>Una donna seduta su dei gradini con in mano dei fiori</term>
+                </keywords>
+            </textClass>
+            
+            <langUsage>
+                <language ident="it-IT">italiano</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+
+        <surface n="1" corresp="#fronte197">    <!-- Fronte -->
+            <graphic url='img/197F.jpg' width='350px' height='540px' xml:id="fronte3" />
+            <zone ulx="3" uly="495" lrx="346" lry="523" xml:id="fronte_01" /> <!-- prima riga -->
+            <zone ulx="3" uly="520" lrx="344" lry="539" xml:id="fronte_02"/> <!-- seconda riga -->
+        </surface>
+
+        <surface n="2" corresp="#retro197">    <!-- Retro -->
+            <graphic url='img/197R.jpg' width='357px' height='554px'  xml:id="retro3" />
+            <!--stampe-->
+            <zone ulx="13" uly="13" lrx="326" lry="23" xml:id="stampa01"/>
+            <zone ulx="34" uly="62" lrx="78" lry="233" xml:id="stampa02"/>
+            <zone ulx="301" uly="72" lrx="332" lry="398" xml:id="stampa03"/>
+            <!--Testo-->
+            <zone ulx="114" uly="4" lrx="351" lry="35" xml:id="retro_01"/> <!-- data -->
+            <zone ulx="13" uly="33" lrx="191" lry="66" xml:id="retro_02"/> <!-- Oliva mia, -->
+            <zone ulx="61" uly="63" lrx="322" lry="93" xml:id="retro_03"/> <!-- Sono giunto solo. -->
+            <zone ulx="57" uly="101" lrx="352" lry="131" xml:id="retro_04"/> <!-- Per tutta la durata del  -->
+            <zone ulx="28" uly="133" lrx="345" lry="165" xml:id="retro_05"/> <!-- viaggio ho ostinatamente  -->
+            <zone ulx="8" uly="167" lrx="351" lry="197" xml:id="retro_06"/> <!-- pensato a te, alle tue parole  -->
+            <zone ulx="9" uly="198" lrx="352" lry="224" xml:id="retro_07"/> <!-- alle tue speranze, al vostro  -->
+            <zone ulx="9" uly="234" lrx="350" lry="259" xml:id="retro_08"/> <!-- amore, poi non ho saputo  -->
+            <zone ulx="5" uly="261" lrx="354" lry="292" xml:id="retro_09"/> <!-- chiarire certi tuoi pensieri am- -->
+            <zone ulx="5" uly="289" lrx="347" lry="324" xml:id="retro_10"/> <!-- bigui, oscuri, fa niente… -->
+            <zone ulx="5" uly="325" lrx="353" lry="352"  xml:id="retro_11"/> <!-- in seguito sarai più confi- -->
+            <zone ulx="6" uly="356" lrx="344" lry="390"  xml:id="retro_12"/> <!-- denziale… chissà. Ti sia  -->
+            <zone ulx="4" uly="390" lrx="344" lry="420" xml:id="retro_13"/> <!-- di conforto il saperti tanto  -->
+            <zone ulx="8" uly="421" lrx="352" lry="456" xml:id="retro_14"/> <!-- tanto amata, adorata, nel  -->
+            <zone ulx="5" uly="456" lrx="353" lry="489" xml:id="retro_15"/> <!-- più vero significato, t’auguro  -->
+            <zone ulx="8" uly="487" lrx="356" lry="519"  xml:id="retro_16"/> <!-- che ciò valga almeno qualche  -->
+            <zone ulx="4" uly="516" lrx="356" lry="545" xml:id="retro_17"/> <!-- volta, a squarciare il velo di me- -->
+            <zone ulx="4" uly="538" lrx="349" lry="553" xml:id="retro_18"/> <!-- stizia che adombra i tuoi pensieri. -->
+        </surface>
+
+    </facsimile>
+    <text type="cartolina" xml:id="C197">
+        <front>
+            <div type="stampe">
+               <ab xml:id="ScritteF3"><hi rend="italic">Rubens Santoro</hi></ab>
+                <div xml:id="ScritteR3">
+                <ab><s xml:id="scritte4" facs="#stampa01">Proprietà art. riserv-<orgName ref="#BT"> Casa Ed. d'Arte Bestetti e Tumminelli</orgName>-<placeName type="city">Milano</placeName></s></ab>
+                <ab xml:id="scritte5" facs="#stampa02" style="text-orientation: sideways-left"><s>Rubens Santoro</s>
+                    <s xml:lang="it">Casa della fioraia</s>
+                    <s xml:lang="fr">La Maison de la Bouquetiere</s>
+                    <s xml:lang="te">Das House des Blumenmadchen</s>
+                    <s xml:lang="en">The house of the flower-girl</s>
+                </ab>
+                <ab><hi rend="uppercase"><s xml:id="scritte6" facs="#stampa03" style="text-orientation: sideways-left"><num type="roman" value="11">XI</num> ESPOSIZIONE NAZIONALE D'ARTE
+                    DELLA CITTÀ DI <placeName>VENEZIA</placeName><num type="roman" value="1914"> MCMXIV</num></s></hi></ab>
+                </div>
+            </div>
+        </front>
+        <!-- TRASCRIZIONE -->
+        <body>
+            <div xml:id="fronte197" type="fronte">
+                <figure>
+                    <figDesc>La cartolina rappresenta una giovane donna, una fioraia, che tiene infatti in mano e vicino a sè dei fiori. La donna è seduta sui gradini che permettono l'accesso alla sua casa. Dalla porta aperta notiamo sullo sfondo un giardino ricco di vegetazione</figDesc>
+                    <head>La casa della fioraia</head>
+                </figure>
+                <ab n="ab_00">
+                    <persName><unclear reason="illegible">Rubens Santoro</unclear></persName>
+                </ab>
+                <salute>
+                    <lb xml:id="fronte_lb_000" facs="#fronte_01"/>
+                    Sarei felice? Un bacio <w>purissi
+                    <lb xml:id="fronte_lb_001" facs="#fronte_02" break="no"/>
+                    mo</w>, tuo
+                </salute>
+                <signed><persName ref="#GI">Giovannino</persName></signed>
+            </div>
+            <div xml:id="retro197" type="retro">
+                <div type="opener">
+                    <ab type="parag" n="ab_01">
+                        <s type="sentence" n="retro_s_01">
+                            <lb xml:id="retro_lb_001" facs="#retro_01" />
+                            <placeName ref="#MO">Modena</placeName>
+                            <choice>
+                                <orig xml:id="orig2">li</orig>
+                                <reg>il</reg>
+                            </choice>
+                            <date xml:id="data_5" when="1918-01-14">14/1-1918</date>
+                        </s>
+                    </ab>
+                </div>
+                <div type="letter-body">
+                   
+                       <salute>
+                           <lb xml:id="retro_lb_002" facs="#retro_02"/>
+                         <hi rend="align(left)"><persName ref="#OT">Oliva</persName> mia,</hi>
+                       </salute>
+                       <ab type="parag" n="ab_02">
+                        
+                        <s type="sentence" n="retro_s_02">
+                            <lb xml:id="retro_lb_003" facs="#retro_03"/>
+                            Sono giunto solo.
+                        </s>
+                        <s type="sentence" n="retro_s_03">
+                            <lb xml:id="retro_lb_004" facs="#retro_04"/>
+                             Per tutta la durata del 
+                            <lb xml:id="retro_lb_005" facs="#retro_05"/>
+                            viaggio ho ostinatamente 
+                            <lb xml:id="retro_lb_006" facs="#retro_06"/>
+                            pensato a te, alle tue parole 
+                            <lb xml:id="retro_lb_007" facs="#retro_07"/>
+                            alle tue speranze, al nostro 
+                            <lb xml:id="retro_lb_008" facs="#retro_08"/>
+                            amore, poi non ho saputo 
+                            <lb xml:id="retro_lb_009" facs="#retro_09"/>
+                            chiarire certi tuoi pensieri <w>am-
+                            <lb xml:id="retro_lb_010" facs="#retro_10" break="no"/>
+                            bigui</w>, oscuri, fa niente… 
+                            <lb xml:id="retro_lb_011" facs="#retro_11"/>
+                            in seguito sarai più <w>confi-
+                            <lb xml:id="retro_lb_012" facs="#retro_12" break="no"/>
+                            denziale</w>… chissà.
+                        </s>
+                        <s type="sentence" n="retro_s_04"> 
+                            Ti sia 
+                            <lb xml:id="retro_lb_013" facs="#retro_13"/>
+                            di conforto il saperti tanto 
+                            <lb xml:id="retro_lb_014" facs="#retro_14"/>
+                            tanto amata, adorata, nel 
+                            <lb xml:id="retro_lb_015" facs="#retro_15"/>
+                            più vero significato, t’auguro 
+                            <lb xml:id="retro_lb_016" facs="#retro_16"/>
+                            che ciò valga almeno qualche 
+                            <lb xml:id="retro_lb_017" facs="#retro_17"/>
+                            volta, a squarciare il velo di <w>me-
+                            <lb xml:id="retro_lb_018" facs="#retro_18" break="no"/>
+                            stizia</w> che adombra i tuoi pensieri.
+                        </s>
+                    </ab>
+                </div>
+                <div type="add">
+                        <p>
+                            <num type="cardinal" value="11">197</num>
+                        </p>
+                </div>
+            </div>
+        </body>
+        <back>
+            <div type="note">
+                <note resp="#AL"><p>La cartolina è inviata da <placeName>Modena</placeName> da <persName>Giovanni Coliola</persName>, che si firma sul fronte della cartolina. Inoltre non è presente un indirizzo postale, si presume che abbia inviato altro oltre alla cartolina.</p>
+            </note></div>
+        </back>
+    </text>
+</TEI>

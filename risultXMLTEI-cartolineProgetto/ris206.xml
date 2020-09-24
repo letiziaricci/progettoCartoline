@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI SYSTEM 'myTEI.dtd'>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cartolina_7694-206">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Luglio - Edizione digitale</title>
+         </titleStmt>
+         <publicationStmt xmlns="http://www.tei-c.org/ns/1.0">
+            <publisher>
+               <choice>
+                  <abbr>Unipi</abbr>
+                  <expan>Università di
+                            <placeName ref="list.xml#PI">Pisa</placeName>
+                  </expan>
+               </choice>
+            </publisher>
+            <pubPlace ref="list.xml#PI">Pisa</pubPlace>
+            <availability>
+               <p>Available under licence only</p>
+            </availability>
+            <date when="2019">2019</date>
+            <distributor>
+               <orgName ref="list.xml#LCD">
+                  <choice>
+                     <abbr>LabCD</abbr>
+                     <expan>Laboratorio di Cultura Digitale</expan>
+                  </choice>
+               </orgName>
+            </distributor>
+            <address>
+               <addrLine>Laboratorio di Cultura Digitale - Università di Pisa</addrLine>
+               <addrLine>
+                  <placeName ref="list.xml#PI">Pisa</placeName>
+               </addrLine>
+            </address>
+         </publicationStmt>
+         <sourceDesc xmlns="http://www.tei-c.org/ns/1.0" n="206">
+            <bibl>
+               <title>Luglio</title>
+               <author>
+                  <persName ref="list.xml#M">Mauzano</persName>
+               </author>
+               <publisher>
+                  <orgName ref="list.xml#URS">Ufficio Revisione Stampa</orgName>
+               </publisher>
+               <pubPlace ref="list.xml#MI">Milano</pubPlace>
+               <date when="1917-03-27">27-03-1917</date>
+            </bibl>
+            <msDesc>
+               <!-- descrizione del manoscritto -->
+               <msIdentifier>
+                        <!-- info per identificare il manoscritto -->
+                        <country ref="list.xml#IT">Italia</country>
+                        <settlement ref="list.xml#SP">La Spezia (SP)</settlement>
+                        <!-- collocazione specifica -->
+                        <repository ref="list.xml#MCE">Museo Civico Etnografico "Giovanni Podenzana", Sezione dei cimeli garibaldini e della Prima Guerrra Mondiale</repository>
+                        <!-- codice identificativo -->
+                        <idno type="postcard_id">7694_206_001/002</idno>
+               </msIdentifier>
+               <!-- Informazioni sul contenuto della cartolina -->
+               <msContents>
+                  <summary>Cartolina Artistica</summary>
+                  <textLang>Italiano</textLang>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType>Cartolina</objectType>
+                           <!-- MATERIALI -->
+                           <material>Carta</material>
+                           <!-- DIMENSIONE -->
+                           <dimensions unit="cm">
+                              <height>9</height>
+                              <width>14</width>
+                           </dimensions>
+                           <stamp>Francobollo - Poste Italiane 5 centesimi</stamp>
+                        </support>
+                        <!-- CONSERVAZIONE -->
+                        <condition>Buono</condition>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc xmlns="http://www.tei-c.org/ns/1.0">
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="list.xml#GC">Giovanni Coliola</persName>
+               <date type="postage" when="1917">1917</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="list.xml#OT">Oliva Turtura</persName>
+               <placeName ref="list.xml#RV">Ravenna</placeName>
+            </correspAction>
+         </correspDesc>
+         <textClass>
+            <keywords>
+                    <!-- soggettario -->
+                    <!-- tipologia -->
+                    <!-- descrizione -->
+               <term>Cartolina </term>
+               <term>Cartolina Artistica </term>
+               <term>Una donna seduta sotto un albero viene sventolata da un amorino con un ventaglio</term>
+            </keywords>
+         </textClass>
+         <langUsage>
+            <language ident="it-IT">italiano</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <facsimile xmlns="http://www.tei-c.org/ns/1.0">
+         <surface xml:id="surface7694-206F"> <!-- FRONTE -->
+            <graphic url="img-cartoline/7694-206F.jpg"
+                     width="533px"
+                     height="830px"/>
+         </surface>
+         <surface xml:id="surface7694-206R"> <!-- RETRO -->
+            <graphic url="img-cartoline/7694-206R.jpg"
+                     width="827px"
+                     height="536px"/>
+            <!-- FRANCOBOLLO -->
+            <zone type="postage-postmark" xml:id="stamp1_206" start="#stamp1-206"
+                  ulx="478"
+                  uly="16"
+                  lrx="578"
+                  lry="136"/>
+            <!-- Primo francobollo + timbro -->
+            <zone type="postage-postmark" xml:id="stamp2_206" start="#stamp2-206"
+                  ulx="370"
+                  uly="16"
+                  lrx="475"
+                  lry="103"/>
+            <!-- Secondo francobollo + timbro -->
+            <zone type="stamp" xml:id="stamp3_206" start="#stamp3-206"
+                  ulx="325"
+                  uly="106"
+                  lrx="390"
+                  lry="159"/>
+            <!-- NUMERO 2 -->
+            <zone type="print" xml:id="line_publication-206" start="#line-publication-206"
+                  ulx="7"
+                  uly="42"
+                  lrx="16"
+                  lry="348"/>
+            <!-- proprietà artistica... -->
+            <!-- TESTO -->
+            <zone type="handWriting" xml:id="lineText_1-206" start="#lineText-1-206"
+                  ulx="237"
+                  uly="27"
+                  lrx="257"
+                  lry="213"/>
+            <!-- Oliva cara... -->
+            <zone type="handWriting" xml:id="lineText_2-206" start="#lineText-2-206"
+                  ulx="217"
+                  uly="26"
+                  lrx="232"
+                  lry="344"/>
+            <!-- seconda riga... -->
+            <zone type="handWriting" xml:id="lineText_3-206" start="#lineText-3-206"
+                  ulx="192"
+                  uly="29"
+                  lrx="210"
+                  lry="343"/>
+            <!-- terza riga... -->
+            <zone type="handWriting" xml:id="lineText_4-206" start="#lineText-4-206"
+                  ulx="168"
+                  uly="28"
+                  lrx="187"
+                  lry="347"/>
+            <!-- quarta riga... -->
+            <zone type="handWriting" xml:id="lineText_5-206" start="#lineText-5-206"
+                  ulx="143"
+                  uly="21"
+                  lrx="161"
+                  lry="350"/>
+            <!-- quinta riga... -->
+            <zone type="handWriting" xml:id="lineText_6-206" start="#lineText-6-206"
+                  ulx="118"
+                  uly="16"
+                  lrx="136"
+                  lry="347"/>
+            <!-- sesta riga... -->
+            <zone type="handWriting" xml:id="lineText_7-206" start="#lineText-7-206"
+                  ulx="97"
+                  uly="21"
+                  lrx="113"
+                  lry="350"/>
+            <!-- settima riga... -->
+            <zone type="handWriting" xml:id="lineText_8-206" start="#lineText-8-206"
+                  ulx="74"
+                  uly="22"
+                  lrx="88"
+                  lry="349"/>
+            <!-- ottava riga... -->
+            <zone type="handWriting" xml:id="lineText_9-206" start="#lineText-9-206"
+                  ulx="51"
+                  uly="24"
+                  lrx="67"
+                  lry="271"/>
+            <!-- nona riga... -->
+            <zone type="handWriting" xml:id="lineText_10-206" start="#lineText-10-206"
+                  ulx="32"
+                  uly="30"
+                  lrx="46"
+                  lry="345"/>
+            <!-- decima riga... -->
+            <zone type="handWriting" xml:id="lineText_11-206" start="#lineText-11-206"
+                  ulx="5"
+                  uly="33"
+                  lrx="46"
+                  lry="525"/>
+            <!-- abbia tu un bacio  - giovannino... -->
+            <zone type="handWriting" xml:id="lineText_12-206" start="#lineText-12-206"
+                  ulx="36"
+                  uly="363"
+                  lrx="331"
+                  lry="374"/>
+            <!-- ho bisogno -->
+            <!-- ADDRESS -->
+            <zone type="handWriting" xml:id="lineText_13-206" start="#lineText-13-206"
+                  ulx="268"
+                  uly="163"
+                  lrx="508"
+                  lry="203"/>
+            <!-- gentile.. -->
+            <zone type="handWriting" xml:id="lineText_14-206" start="#lineText-14-206"
+                  ulx="283"
+                  uly="209"
+                  lrx="531"
+                  lry="249"/>
+            <!-- -->
+            <zone type="handWriting" xml:id="lineText_15-206" start="#lineText-15-206"
+                  ulx="277"
+                  uly="253"
+                  lrx="566"
+                  lry="296"/>
+            <!-- -->
+            <zone type="handWriting" xml:id="lineText_16-206" start="#lineText-16-206"
+                  ulx="291"
+                  uly="300"
+                  lrx="554"
+                  lry="356"/>
+            <!-- -->
+            <zone type="catalog" xml:id="number206_206" start="#number206-206"
+                  ulx="293"
+                  uly="15"
+                  lrx="355"
+                  lry="63"/>
+            <!-- 206 -->
+         </surface>
+   </facsimile>
+   <text>
+      <!-- informazioni peritestuali -->
+      <front>
+            <!-- testo tipografico -->
+            <div type="tipografia">
+                  <p facs="#line_publication-206" xml:id="line-publication-206">
+                        <s rend="writing-mode(vertical-lr) text-orientation(sideways)">
+                              Proprietà artistica riservata - 
+                              <orgName ref="list.xml#URS" type="typography">
+                                   Uff. Rev. Stampa
+                              </orgName>
+                              <placeName ref="list.xml#MI">Milano</placeName>
+                              <date when="1917-03-27">27-03-1917</date>
+                              N. 94
+                        </s>
+                  </p>
+            </div>
+      </front>
+      <body>
+         <div xmlns="http://www.tei-c.org/ns/1.0"
+              type="fronte"
+              facs="#surface7694-206F">
+            <note n="noteFronte">In alto a sinistra è riportato il titolo della cartolina, mentre in basso a sinistra è collocata la firma dell'artista (<name xml:id="M">Mauzano</name>). L'inchiostro di un timbro presente sul retro ha imbrattato il fronte.</note>
+            <figure>
+               <head>Luglio</head>
+               <figDesc>La cartolina raffigura una donna adagiata sotto un albero mentre viene sventolata da un amorino con un ventaglio</figDesc>
+            </figure>
+         </div>
+         <div type="retro">
+            <div type="message">
+                  <div xmlns="http://www.tei-c.org/ns/1.0" type="postcard-body">
+                        <p>
+                              <lb n="1" facs="#lineText_1-206" xml:id="lineText-1-206"/>
+                              Oliva cara, che dirti?
+                              <lb n="2" facs="#lineText_2-206" xml:id="lineText-2-206"/>
+                              L'unica risoluzione è quella d'affogare
+                              <lb n="3" facs="#lineText_3-206" xml:id="lineText-3-206"/>
+                              i pensieri nei libri con uno strato ben
+                              <lb n="4" facs="#lineText_4-206" xml:id="lineText-4-206"/>
+                              denso di polverone diffuso. È la però il
+                              <lb n="5" facs="#lineText_5-206" xml:id="lineText-5-206"/>
+                              momento di lucidità - e quello è terribil
+                              <lb n="6" facs="#lineText_6-206" xml:id="lineText-6-206"/>
+                              mente sublime. Delucida le idee.
+                              <lb n="7" facs="#lineText_7-206" xml:id="lineText-7-206"/>
+                              Fra l'altro emerge sempre più il nostro
+                              <lb n="8" facs="#lineText_8-206" xml:id="lineText-8-206"/>
+                              amore e non saprei dire se riesce di
+                              <lb n="9" facs="#lineText_9-206" xml:id="lineText-9-206"/>
+                              conforto o di sofferenza.
+                              <lb n="10" facs="#lineText_10-206" xml:id="lineText-10-206"/>
+                              Ho bisogno delle tue parole - almeno.
+                        </p>
+                  </div>
+                  <closer xmlns="http://www.tei-c.org/ns/1.0">
+                        <s>
+                              <lb n="11" facs="#lineText_11-206" xml:id="lineText-11-206"/>
+                              Con tutta l'affezione dell'animo
+                              <lb n="12" facs="#lineText_12-206" xml:id="lineText-12-206"/>
+                              <choice>
+                                    <orig>abbiati</orig>
+                                    <reg resp="list.xml#LR" cert="high">abbia tu</reg>
+                              </choice> un bacio. 
+                        </s>
+                        <lb/>
+                        <signed>
+                        <persName>
+                              <forename ref="list.xml#GC">Giovannino</forename>
+                        </persName>
+                        </signed>
+                  </closer>
+            </div>
+            <div xmlns="http://www.tei-c.org/ns/1.0" type="address-destination">
+               <p>
+                  <address>
+                        <addrLine>
+                              <lb n="13" facs="#lineText_13-206" xml:id="lineText-13-206"/>
+                              Gent.ma Sig.na
+                              <lb n="14" facs="#lineText_14-206" xml:id="lineText-14-206"/>
+                              Oliva Turtura
+                              <lb n="15" facs="#lineText_15-206" xml:id="lineText-15-206"/>
+                              Via Girolamo <choice>
+                                                <orig>Rosfi</orig>
+                                                <reg resp="list.xml#LR" cert="high">Rossi</reg>
+                                        </choice> 58
+                              <lb n="16" facs="#lineText_16-206" xml:id="lineText-16-206"/>
+                              Ravenna
+                        </addrLine>
+                  </address>
+               </p>
+            </div>
+            <div type="postmark-postage">
+               <ab type="postage-postmark" facs="#stamp1_206" xml:id="stamp1-206">
+                  <stamp xmlns="http://www.tei-c.org/ns/1.0"
+                         type="postmark"> <!-- timbro 1-->
+                     <mentioned>
+                        <gap reason="faded" agent="time"/>ferrovia</mentioned>
+                     <date when="1917">
+                        <unclear reason="faded"/>17.12</date>
+                  </stamp>
+                  <stamp xmlns="http://www.tei-c.org/ns/1.0"
+                         type="postage">
+                     <hi rend="uppercase">poste italiane 5 centesimi</hi>
+                  </stamp>
+               </ab>
+               <ab type="postage-postmark" facs="#stamp2_206" xml:id="stamp2-206">
+                  <stamp xmlns="http://www.tei-c.org/ns/1.0"
+                         type="postmark"> <!-- timbro 2-->
+                     <mentioned>
+                        <gap reason="faded" agent="time"/>ferrovia</mentioned>
+                     <date when="1917">
+                        <unclear reason="faded"/>17.12</date>
+                  </stamp>
+                  <stamp xmlns="http://www.tei-c.org/ns/1.0"
+                         type="postage">
+                     <hi rend="uppercase">poste italiane 5 centesimi</hi>
+                  </stamp>
+               </ab>
+            </div>
+            <div type="secondamano">
+               <ab type="paratext">
+                  <add facs="#number206_206" xml:id="number206-206">
+                     <num type="cardinal">206</num>
+                  </add>
+               </ab>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

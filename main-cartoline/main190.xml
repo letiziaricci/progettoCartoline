@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE TEI SYSTEM 'myTEI.dtd'[
+    <!ENTITY agrave "&#224;">
+    <!ENTITY egrave "&#232;">
+    <!ENTITY eacute "&#233;">
+    <!ENTITY ograve "&#242;">
+    <!ENTITY quest "&#63;">
+    <!ENTITY ndash "&#45;">
+    <!ENTITY frasl "&#x2044;">
+    <!ENTITY apos "&#39;">
+    <!ENTITY quot "&#34;">
+    <!ENTITY star "&#x2605;">
+]>
+<TEI xml:id="cartolina_7694-190">
+        <teiHeader xml:lang="ita">
+            <fileDesc>
+                <titleStmt>
+                    <title>Cartolina n.190</title>  
+                    <respStmt>
+                        <resp> Trascrizione di </resp>
+                        <name type="person" xml:id="A" > Arianna Ricciarelli </name>
+                        <name type="person" xml:id="G" > Giulia Cultrera </name>
+                    </respStmt>
+                    <!-- Ente Di Appartenenza -->
+                    <respStmt xml:id="ente">
+                        <resp> Ente di Appartenenza: </resp>
+                        <name type="comune" xml:id="SP"> Comune della Spezia </name>
+                    </respStmt>                   
+                </titleStmt>
+
+                <editionStmt>
+                    <edition>Studenti di Storia Pubblica Digitale, Corso di Laurea Magistrale di Informatica Umanistica, <orgName type="acronym" ref="#UNIPI">Universit&agrave; di Pisa</orgName>,
+                        <!-- Compilazione -->
+                        <date> 2019 </date>
+                    </edition> 
+                    <!-- Compilatori --> 
+                    <respStmt>
+                        <resp>Codifica a cura di: </resp>
+                        <name type="person" ref="#A" > Arianna Ricciarelli e</name> 
+                        <name type="person" ref="#G" > Giulia Cultrera </name>
+                    </respStmt>                  
+                    <!-- Referente Scientifico -->
+                    <respStmt>
+                        <resp>Compilatore: </resp>
+                        <name  xml:id="TM"> Tommaso Castagneto </name>
+                    </respStmt>
+                    <respStmt>
+                        <resp>Responsabile scientifico: </resp>
+                        <name  xml:id="GP"> Giacomo Paolicchi </name>
+                        <name  xml:id="ES"> Enrica Salvatori </name>
+                    </respStmt>
+                    <respStmt>
+                        <resp>Funzionario responsabile: </resp>
+                        <name  xml:id="MR"> Marzia Ratti </name>
+                    </respStmt>
+                </editionStmt>
+
+                <publicationStmt>
+                    <publisher> <gi>Editore: </gi><orgName type="acronym" ref="#UNIPI">Unipi</orgName> </publisher>
+                    <pubPlace> <gi>Luogo: </gi>Pisa </pubPlace>
+                    <availability>
+                        <p> Disponibile solo su licenza </p>
+                    </availability>
+                    <date  when="2019"><gi>Anno: </gi>2019 </date>
+                    <distributor><gi>Sigla distributore: </gi><orgName type="acronym" ref="#LabCD">LabCD</orgName> </distributor>
+                    <address>
+                        <addrLine><gi>Distributore: </gi><orgName type="acronym" ref="#LabCD">Laboratorio di Cultura Digitale</orgName> - <orgName type="acronym" ref="#UNIPI">Universit&agrave; di Pisa</orgName>, </addrLine>
+                        <addrLine> Pisa </addrLine>
+                    </address>
+                </publicationStmt>
+
+                <notesStmt>
+                    <note n="8">E' presente il Fracobollo del Regno d'Italia da 5 centesimi raffigurante il re Vittorio Emanuele III.
+                                Il timbro sopra il francobollo è poco leggibile, ma osservando bene possiamo intendere che sia scritto "Modena &star; Ferrovie &star;" 
+                                con una serie di numeri.
+                    </note>
+                    <note n="9"> Il fronte non sembra avere macchie di usura mentre sul restro sono presenti macchie e aloni scuri dovuti al passare del tempo.
+                                 Sul retro è inoltre presente il numero identificativo del nostro catalogo 
+                                (<num type="cardinal">190</num>).
+                    </note>
+                </notesStmt>
+
+                <sourceDesc xml:id="stampe_190">
+                    <bibl>
+                        <!-- Titolo ricavato dalla cartolina -->
+                        <title  type="custom" n="1"> Canzone d&apos;amore </title>
+                        <title  type="custom" n="2"> <foreign xml:lang="fr">Chanson d'amour</foreign></title>
+                        <!-- Produzione: chi ha prodotto / pubblicato la cartolina.  -->
+                        <publisher>Cromoscultura <name type="person"><abbr>A.</abbr> Traldi</name></publisher>
+                        <!-- Luogo -->
+                        <pubPlace>Milano</pubPlace>
+                        N. <num type="cardinal">01316. </num>
+                    </bibl>
+
+                    <msDesc>
+                        <!-- Codice identificativo della cartolina -->
+                        <msIdentifier>
+                            <country><gi>Nazione: </gi>Italia</country>
+                            <settlement type="city"><gi>Città: </gi>La Spezia (SP) </settlement>
+                            <repository> 
+                                Museo Civico Etnografico &quot;Giovanni Podenzana&quot;, Sezione dei cimeli garibaldini e della Prima Guerra Mondiale 
+                            </repository>
+                                <idno>7694_190_001/002</idno>
+                        </msIdentifier>
+                    <!-- Informazioni sul contenuto e descrizione generica delle tre cartoline -->
+                        <msContents>
+                            <summary>Cartolina Artistica</summary>
+                            <textLang><gi>Lingua: </gi>Italiano </textLang>
+                        </msContents>
+
+                        <physDesc>
+                            <objectDesc>
+                                <supportDesc>
+                                    <support>
+                                        <objectType> Cartolina </objectType> 
+                                        <material> Carta </material>
+                                        <dimensions unit="cm">
+                                            <height> 9 </height>
+                                            <width>14 </width>
+                                        </dimensions>
+                                    </support>
+                                    <!-- Conservazione buono= non occorrono interventi di restauro;-->
+                                    <condition><gi>Stato: </gi>Buono </condition>
+                                </supportDesc>
+                            </objectDesc>
+                        </physDesc>
+                    </msDesc>                    
+                </sourceDesc>
+            </fileDesc>
+
+            <profileDesc>
+                <correspDesc>
+                    <correspAction  type="inviato">
+                        <persName  ref="#GC"/>
+                        <placeName ref="#MO"/> 
+                        <!-- Dati di invio da timbro (postage) o da manoscritto (writing) -->
+                        <date  type="postage"> <gap reason="illegible" extent="11" unit="chars"/> </date>
+                        <date  type="writing" when="26/11/2017"> 26/11/17 </date>
+                    </correspAction>
+
+                    <correspAction  type="received">
+                        <persName  ref="#OT"/>
+                        <placeName ref="#RV"/> 
+                    </correspAction>
+
+                    <correspContext>
+                        <ref type="prev" target="#cartolina138"> 
+                            <persName ref="#GC"> Giovanni Coliola </persName> 
+                            <persName ref="#OT"> Oliva Turtura </persName> 
+                            <date when="11/10/1917">11/10/1917</date>
+                        </ref>
+                    </correspContext>
+                </correspDesc> 
+                
+                <textClass>
+                    <keywords>
+                        <!-- soggettario -->
+                        <term> Tre donne cantano una canzone d&apos;amore in un pascolo </term>
+                        <!-- tipologia -->
+                        <term> Artistica </term>
+                        <!-- descrizione -->
+                        <term> Cartolina Artistica </term>
+                    </keywords>
+                </textClass>
+            </profileDesc>
+        </teiHeader>
+        
+        <facsimile>
+            <surface xml:id="F190" start="#F3" ulx="0" uly="0" lrx="549" lry="344">
+                <graphic url="img/190F.jpg"/>
+            </surface>
+            <surface xml:id="R190" start="#R3" ulx="0" uly="0" lrx="549" lry="344">
+                <graphic url="img/190R.jpg"/>
+                <!-- timbro e francobollo -->
+                <zone xml:id="cart_190_01" ulx="0" uly="159" lrx="124" lry="19" rendition="Line"/>
+                <!-- Indirizzo e destinatari-->
+                <zone xml:id="cart_190_02" ulx="61" uly="274" lrx="149" lry="66" rendition="Line"/>
+                <zone xml:id="cart_190_03" ulx="140" uly="275" lrx="191" lry="27" rendition="Line"/>
+                <zone xml:id="cart_190_04" ulx="192" uly="274" lrx="243" lry="16" rendition="Line"/>
+                <zone xml:id="cart_190_05" ulx="251" uly="7" lrx="340" lry="286" rendition="Line"/>
+                <!-- scritta-->
+                <zone xml:id="cart_190_06" ulx="112" uly="273" lrx="274" lry="295" rendition="Line"/>
+                <!-- data -->
+                <zone xml:id="cart_190_07" ulx="19" uly="291" lrx="341" lry="351" rendition="Line"/>
+                <!-- testo 1 -->
+                <zone xml:id="cart_190_08" ulx="21" uly="352" lrx="330" lry="393" rendition="Line"/>
+                <!-- testo 2 -->
+                <zone xml:id="cart_190_09" ulx="12" uly="395" lrx="156" lry="428" rendition="Line"/>
+                <!-- Saluto 1 -->
+                <zone xml:id="cart_190_10" ulx="160" uly="389" lrx="339" lry="435" rendition="Line"/>
+                <!-- Saluto 2 -->
+                <zone xml:id="cart_190_11" ulx="5" uly="428" lrx="191" lry="466" rendition="Line"/>
+                <!-- firma -->
+                <zone xml:id="cart_190_12" ulx="21" uly="461" lrx="322" lry="504" rendition="Line"/>
+                <!-- stampe finali -->
+                <zone xml:id="cart_190_13" ulx="126" uly="525" lrx="324" lry="545" rendition="Line"/>
+                <zone xml:id="cart_190_14" ulx="87" uly="505" lrx="340" lry="523" rendition="Line"/>
+                
+            </surface>
+        </facsimile>
+
+        <text  type="cartolina" xml:id="canzoneAmore" xml:lang="ita">
+            <!-- Trascrizione -->
+            <body>
+                <div  type="fronte" facs="#F190" xml:id="F3">
+                    <figure>
+                        <graphic  url="img/190F.jpg" xml:id="c3" n="190"/>
+                        <figDesc> Tre donne cantano una canzone d&apos;amore in un pascolo con il gregge </figDesc>
+                        <head> Canzone d&apos;amore </head>
+                    </figure>
+                </div>
+                <div type="retro" facs="#F190" xml:id="R3">
+                    <div  type="destination">
+                        <p style="stamp">
+                            <!-- francobolli -->
+                            <stamp type="timbro-postale" n="1" facs="#cart_190_01">
+                                <mentioned> 
+                                    <unclear reason="faded"> &star; Modena &star; Ferrovia</unclear> </mentioned>
+                                <date> <gap reason="illegible" extent="11" unit="chars"/> </date>
+                            </stamp>
+                            <stamp  type="affrancatura" n="2" facs="#cart_190_01"> <lb n="6"/>Francobollo da 5 centesimi del Regno d&apos;Italia </stamp>
+                        </p>
+                        <p style="indirizzo">
+                            <address>
+                                <addrLine facs="#cart_190_02" > 
+                                    <lb n="7" />
+                                    <choice> 
+                                        <abbr> <hi rend="decorated">G</hi>ent<am>.</am></abbr> 
+                                        <expan> Gent <ex> ilissima </ex> </expan>
+                                    </choice>
+                                    <space quantity="3" unit="chars" dim="horizontal"/>
+                                    <choice>
+                                        <abbr> <hi rend="decorated">S</hi>ig<am>.</am>na </abbr> 
+                                        <expan> Sig<ex>nori</ex>na </expan>
+                                    </choice>
+                                </addrLine>
+                                <addrLine facs="#cart_190_03"> 
+                                    <lb n="8" /><persName  ref="#OT" facs="#destinatario3b"> 
+                                        <name type="person"> <hi rend="decorated">O</hi>liva </name>
+                                        <space quantity="4" unit="chars" dim="horizontal"/>
+                                        <surname> <hi rend="decorated">T</hi>urtura </surname>
+                                    </persName> 
+                                </addrLine>
+                                <addrLine facs="#cart_190_04"> 
+                                    <lb n="9" />
+                                    <hi rend="decorated">V</hi>ia
+                                    <space quantity="2" unit="chars" dim="horizontal"/> 
+                                    <hi rend="decorated">G</hi>irolamo 
+                                    <hi rend="decorated">R</hi>ossi 
+                                    <num type="cardinal">58</num> 
+                                </addrLine>
+                                <addrLine facs="#cart_190_05"> 
+                                    <placeName ref="#RV" > 
+                                        <lb n="10" /><district type="comune"><hi rend="decorated">Ravenna</hi></district> 
+                                    </placeName> 
+                                </addrLine>
+                            </address>
+                        </p>
+                        <p><s facs="#cart_190_06"> PRODUZIONE ITALIANA</s></p>
+                    </div>
+                    <div  type="message">
+                        <opener >
+                            <lb n="1" /><dateline facs="#cart_190_07">
+                                <name type="place" ref="#MO"> 
+                                    <hi rend="decorated">M</hi>odena 
+                                </name>
+                                <date when="26/11/1917"> 
+                                    <distinct type="archaic"> li </distinct> <num type="cardinal">26 &frasl; <add place="below">11</add> <space/> &ndash; 17 &ndash; </num></date>
+                            </dateline>
+                        </opener>
+                        <p>
+                            <lb n="2" /><s facs="#cart_190_08">L&apos;inesprimibile </s>
+                            <lb n="3" /><s facs="#cart_190_09">addolora<space quantity="1" unit="chars" dim="horizontal"/>.</s> 
+                        </p>
+                        <closer>
+                            <salute><s facs="#cart_190_10"> Con profondo</s></salute>
+                            <salute><s facs="#cart_190_11">  <lb n="4"/> affetto tuo</s></salute> 
+                            <signed facs="#cart_190_12">
+                                <lb n="5" /><hi rend="decorated"> Giovannino </hi>
+                            </signed>
+                        </closer>
+                    </div>
+                    <div type="add">
+                            <ab type="catalogazione">
+                                <num type="cardinal" value="190">
+                                        190
+                                </num>
+                            </ab>
+                        </div>
+                    <div xml:id="stampe">
+                    <p>    
+                        <s facs="#cart_190_14"><lb n="7"/>N. <num type="cardinal">01316.</num> <title type="custom" n="1"> 
+                        <space quantity="1" unit="chars" dim="horizontal"/>Canzone d&apos;amore </title>
+                        <space quantity="2" unit="chars" dim="horizontal"/><title type="custom" n="2"> <foreign xml:lang="fr">Chanson d'amour</foreign></title></s>
+                        <s facs="#cart_190_13"><lb n="6"/>Cromoscultura A. Traldi - Milano </s>
+                    </p>
+                    </div>
+                </div>
+            </body>
+        </text>
+    </TEI>

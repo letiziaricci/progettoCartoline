@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xml:id="cartolina_7694-055">
+   <tei:teiHeader/>
+   <tei:text>
+      <tei:front/>
+      <tei:body>
+         <tei:div type="retro">
+            <tei:div type="message">
+               <tei:opener xmlns="http://www.tei-c.org/ns/1.0">
+                  <tei:dateline/>
+               </tei:opener>
+               <tei:div xmlns="http://www.tei-c.org/ns/1.0" type="postcard-body">
+                  <tei:p>
+                     <tei:lb/>            Sebbene lontano<tei:lb/>            desidero che mi abbia <tei:lb/>            come presente!..... <tei:lb/>            La mia triste <tei:lb/>            fisionomia osi ogni ora<tei:lb/>            rammentarle i bei <tei:lb/>            giorni che io ho<tei:lb/>            passato in gioia <tei:lb/>            alla sua Gentilissima <tei:lb/>            famiglia.<tei:lb/>
+                     <tei:gap reason="illegible"/> e viva<tei:lb/>            l'Italia </tei:p>
+                  <tei:p type="fronte"/>
+               </tei:div>
+               <tei:closer xmlns="http://www.tei-c.org/ns/1.0">
+                  <tei:s>
+                     <tei:lb/>
+                     <tei:signed>
+                        <tei:persName>
+                           <tei:forename ref="A.">A.</tei:forename>
+                        </tei:persName>
+                     </tei:signed>
+                     <tei:signed>
+                        <tei:persName>
+                           <tei:surname>Orina</tei:surname>
+                        </tei:persName>
+                     </tei:signed>
+                  </tei:s>
+               </tei:closer>
+            </tei:div>
+            <tei:div type="postmark-postage">
+               <tei:ab/>
+            </tei:div>
+            <tei:div type="secondamano">
+               <tei:ab type="paratext">
+                  <tei:add/>
+               </tei:ab>
+            </tei:div>
+         </tei:div>
+      </tei:body>
+   </tei:text>
+</tei:TEI>

@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="style.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cartolina_7694-070">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt xml:id="titleStmt1">
+            <!-- TITOLO NB: non corrisponde completamente alla voce TITOLO della tabella perché si tratta del titolo della edizione digitale -->
+            <title>
+               <foreign xml:lang="fra">Drame au Harem</foreign> - Edizione digitale </title>
+            <!-- TRASCRITTORE nome e cognome-->
+            <respStmt>
+               <resp>Transcription by</resp>
+               <name ref="#RB"><forename>Rocco</forename><surname>Biondi</surname></name>
+               <name ref="#FT"><forename>Federico</forename><surname>Talarico</surname></name>
+            </respStmt>
+            <!-- ENTE DI APPARTENENZA -->
+            <respStmt>
+               <resp>Ente di Appartenenza</resp>
+               <name type="comune" ref="#SP">Comune di La Spezia</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt xml:id="editionStmt1">
+            <edition>Studenti del Corso di Laurea in Informatica Umanistica, Corso di Codifica di
+               Testi <orgName ref="#UNIPI"> Università di Pisa </orgName>
+               <!-- COMPILAZIONE -->
+               <date>2019</date>
+            </edition>
+            <!-- NOME COMPILATORE -->
+            <respStmt>
+               <resp>Encoding by</resp>
+               <name ref="#TC">Tommaso Castagneto</name>
+               <name ref="RBFT">Rocco Biondi e Federico Talarico</name>
+            </respStmt>
+            <respStmt>
+               <resp>Compilatore:</resp>
+               <name ref="#TC">Tommaso Castagneto</name>
+            </respStmt>
+            <!-- REFERENTE SCIENTIFICO -->
+            <respStmt>
+               <resp>Responsabile scientifico</resp>
+               <name ref="#GP">Giacomo Paolicchi</name>
+               <name ref="#ES">Enrica Salvatori</name>
+            </respStmt>
+            <respStmt>
+               <resp>Funzionario responsabile</resp>
+               <name ref="#ER">E. Ratti</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt xml:id="publicationStmt1">
+            <publisher><orgName ref="#UNIPI">Unipi</orgName></publisher>
+            <pubPlace>Pisa</pubPlace>
+            <availability>
+               <p>Available under licence only</p>
+            </availability>
+            <date when="2019">2019</date>
+            <distributor>LabCD</distributor>
+            <address>
+               <addrLine>Laboratorio di Cultura Digitale - <orgName ref="#UNIPI"> Università di Pisa
+                  </orgName></addrLine>
+               <addrLine>Pisa</addrLine>
+            </address>
+         </publicationStmt>
+         <!-- NOTE NB: mettere qui tutto ciò che non rientra nella codifica -->
+         <notesStmt xml:id="notesStmt1">
+            <note n="1.1"> Sul fronte riporta la stampa "2742 Gr. Salon de 1908 - Drame au Harem,
+               par Th. Ralli ND Phot.", mentre sul retro riporta la scritta "Carte Post" in alto al
+               centro, al di sotto della quale vi è anche una frase non completamente leggibile
+               perchè coperta dai francobolli. Nell'angolo in alto a sinistra inoltre troviamo il
+               numero 70, che probabilmente identifica la cartolina nell'archivio del progetto. </note>
+            <note n="1.2"> In base al materiale fornitoci siamo in grado di collocare temporalmente
+               con esattezza quando si è tenuta la corrispondenza, vale a dire tra il 1911 e il
+               1918. Nello specifico questa cartolina riporta sui timbri postali la data 15.8.13. </note>
+            <note n="1.3"> La cartolina è divisa in due zone contrassegnate dalle scritte
+               "Correspondance" e "adresse" sotto le quali è posto un glifo. </note>
+            <note n="1.4"> Sul retro della cartolina sono stati apposti due francobolli e tre
+               timbri, uno dei quali totalmente illeggibile, gli altri riportano al centro la data
+               15.8.13 e nella parte superiore "CESENATICO". La parte inferiore di entrambi i timbri
+               è illeggibile. </note>
+         </notesStmt>
+         <sourceDesc xml:id="sourceDesc1">
+            <bibl>
+               <!-- TITOLO Quello che si ricava dalla cartolina; Se un documento composto da immagini 
+                        non presenta un titolo o altri elementi considerabili come titolo, si formula un titolo sintetico 
+                        registrandolo entro parentesi quadre [Venere al bagno] ma indicando dentro la codifica come qui sotto esemplificato-->
+               <title xml:id="tit1">Drame au Harem</title>
+               <author ref="#P">Pia</author>
+               <date when="19130815">15/8/1913</date>
+            </bibl>
+            <msDesc>
+               <msIdentifier>
+                  <country>Italia</country>
+                  <settlement>La Spezia (SP)</settlement>
+                  <!-- COLLOCAZIONE SPECIFICA -->
+                  <repository>Museo Civico Etnografico "Giovanni Podenzana", Sezione dei cimeli
+                     garibaldini e della Prima Guerra Mondiale</repository>
+                  <!-- CODICE IDENTIFICATIVO -->
+                  <idno>7694_070_001/002</idno>
+               </msIdentifier>
+               <!-- Informazioni sul contenuto della cartolina -->
+               <!-- DESCRIZIONE -->
+               <msContents>
+                  <summary>Cartolina Artistica</summary>
+                  <textLang mainLang="it" otherLangs="fr"> Principalmente italiano, con presenza di
+                     francese </textLang>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <stamp type="postage">Francobolli - Regno d'Italia</stamp>
+                           <stamp type="postmark">Timbri della Ferrovia</stamp>
+                           <objectType>Cartolina</objectType>
+                           <!-- MATERIALI -->
+                           <material>Carta</material>
+                           <!-- DIMENSIONE -->
+                           <dimensions unit="cm">
+                              <height>9</height>
+                              <width>14</width>
+                           </dimensions>
+                        </support>
+                        <!-- CONSERVAZIONE -->
+                        <condition>Buona</condition>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+            </msDesc>
+            <!-- NOMI -->
+            <listPerson>
+               <person xml:id="P">
+                  <persName>
+                     <forename>Pia</forename>
+                  </persName>
+                  <sex>F</sex>
+               </person>
+               <person xml:id="OT">
+                  <persName>
+                     <forename>Oliva</forename>
+                     <surname>Turtura</surname>
+                  </persName>
+                  <sex>F</sex>
+               </person>
+               <person xml:id="C">
+                  <persName>
+                     <surname>Cibecchini</surname>
+                  </persName>
+               </person>
+            </listPerson>
+            <!-- LUOGHI -->
+            <listPlace>
+               <place xml:id="FE">
+                  <placeName>Ferrara</placeName>
+                  <district type="comune">Ferrara</district>
+                  <district type="provincia">FE</district>
+                  <country key="N">IT</country>
+               </place>
+               <place xml:id="MB">
+                  <placeName>Monza</placeName>
+                  <district type="comune">Monza</district>
+                  <district type="provincia">MB</district>
+                  <country key="N">IT</country>
+               </place>
+               <place xml:id="CE">
+                  <placeName>Cesenatico</placeName>
+                  <district type="comune">Cesenatico</district>
+                  <district type="provincia">FC</district>
+                  <country key="N">IT</country>
+               </place>
+            </listPlace>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#P"/>
+               <placeName ref="#CE">Cesenatico</placeName>
+               <date type="writing" when="19130815">15/8/1913</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#OT"><forename>Oliva</forename><surname>Turtura</surname></persName>
+               <placeName ref="#MB">Monza</placeName>
+            </correspAction>
+         </correspDesc>
+         <textClass>
+            <keywords>
+               <term>Cartolina</term>
+               <term>Cartolina Artistica</term>
+               <term>Drame au Harem</term>
+            </keywords>
+         </textClass>
+         <langUsage>
+            <language ident="it-IT">La lingua usata per la codifica è l'italiano</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <!-- DEFINIZIONE -->
+   <text type="cartolina" xml:id="cartolina1">
+      <!-- TRASCRIZIONE -->
+      <body>
+         <pb facs="#fronte1" n="1" xml:id="cartolina_fronte1"/>
+         <div type="fronte">
+            <figure>
+               <head>
+                  <title xml:id="titolo1">Drame au Harem</title>
+               </head>
+               <figDesc> L'illustrazione, in bianco e nero, vede protagoniste due donne: una accasciata su un seggio,
+                  l'altra stramazzata al suolo quasi totalmente nuda. Nella stanza dell'Harem regna
+                  il caos, suggerendo il fatto che possa trattarsi di un omicidio o di uno
+                  sventurato evento. L'architettura che incornicia la scena è ricca, con presenza di
+                  molteplici materiali che lasciano immaginare una notevole policromia. </figDesc>
+            </figure>
+         </div>
+         <pb facs="#retro1" n="2" xml:id="cartolina_retro1"/>
+         <div xml:id="txtDesc1" type="retro">
+            <div xml:id="testo1" type="message" facs="#zone1">
+               <cb/>
+               <p xml:id="scritto1">
+                  <phr>
+                     <w>Sono</w>
+                     <w>a</w>
+                     <placeName ref="CE">Cesenatico</placeName>
+                     <pc>.</pc>
+                  </phr>
+                  <lb/>
+                  <phr>
+                     <w>Il</w>
+                     <w>mio</w>
+                     <w>indirizzo</w>
+                     <w>è</w>
+                     <pc>:</pc>
+                     <lb/>
+                     <w>
+                        <interp>Vostro</interp>
+                     </w>
+                     <pc>.</pc>
+                  </phr>
+                  <phr>
+                     <w>Chi</w>
+                     <w>
+                        <choice>
+                           <abbr>t <pc>'</pc>
+                           </abbr>
+                           <expan>ti</expan>
+                        </choice>
+                     </w>
+                     <w>
+                        <choice>
+                           <sic>hà</sic>
+                           <corr>ha</corr>
+                        </choice>
+                     </w>
+                     <lb/>
+                     <w>detto</w>
+                     <w>che</w>
+                     <w>ero</w>
+                     <w>a</w>
+                     <placeName ref="FE">Ferrara</placeName>
+                     <pc type="interrogative">?</pc>
+                  </phr>
+                  <lb/>
+                  <phr>
+                     <w>Saluti</w>
+                     <w>affettuosissimi</w>
+                  </phr>
+                  <lb/>
+                  <persName ref="P">Pia</persName>
+               </p>
+            </div>
+            <div xml:id="indirizzo1" facs="#zone3">
+               <cb/>
+               <p>
+                  <lb/>
+                  <w>
+                     <unclear>
+                        <!-- unclear perchè c'è il timbro sopra quindi si legge male -->
+                        <persName ref="#OT">
+                           <forename>Oliva</forename>
+                           <surname>Turtura</surname>
+                        </persName>
+                     </unclear>
+                  </w>
+                  <lb/>
+                  <address>
+                     <addrLine>Via <persName>
+                           <surname>Cavour</surname>
+                        </persName>
+                        <num>12</num>
+                     </addrLine>
+                  </address>
+                  <lb/>
+                  <w>Presso</w>
+                  <persName ref="C">
+                     <surname><hi rend="underline">Cibecchini</hi></surname>
+                  </persName>
+                  <lb/>
+                  <placeName ref="#MB"><hi rend="underline">Monza</hi></placeName>
+               </p>
+            </div>
+            <div type="archivio" xml:id="archivio1" facs="#zone4">
+               <p>
+                  <num type="cardinal"/>
+                  <idno>70</idno>
+               </p>
+            </div>
+            <div xml:id="timbri1" type="destination" facs="#zone2">
+               <p>
+                  <stamp type="postmark">
+                     <unclear reason="illegible"/>
+                     <date>Timbro poco leggibile<unclear reason="illegible"/></date>
+                  </stamp>
+                  <stamp type="postmark">
+                     <mentioned><placeName ref="CE">
+                           <unclear>Cesenatico</unclear></placeName>
+                     </mentioned>
+                     <date when="19130815">15/08/1913</date>
+                  </stamp>
+                  <stamp type="postmark">
+                     <mentioned>
+                        <placeName ref="CE">
+                           <unclear>Cesenatico</unclear>
+                        </placeName>
+                     </mentioned>
+                     <date when="19130815">15/08/1913</date>
+                  </stamp>
+                  <stamp type="postage">Francobollo da 5 centesimi del Regno d'Italia</stamp>
+                  <stamp type="postage">Francobollo da 5 centesimi del Regno d'Italia</stamp>
+               </p>
+               <p xml:id="address1">
+                  <address>
+                     <addrLine>
+                        <persName ref="#OT"><forename>Oliva </forename><surname>Turtura</surname></persName>
+                     </addrLine>
+                     <addrLine>Via Cavour 12</addrLine>
+                     <addrLine> Presso <persName>Cibecchini</persName>
+                     </addrLine>
+                     <addrLine>
+                        <placeName ref="#MB">Monza</placeName>
+                     </addrLine>
+                  </address>
+               </p>
+            </div>
+         </div>
+      </body>
+   </text>
+   <facsimile xml:id="facsimile1">
+      <surface xml:id="fronte1" start="#cartolina_fronte1">
+         <!-- tutta l'immagine -->
+         <graphic url="cartoline/070F.jpg" width="1054.011364px" height="1658.011364px"/>
+      </surface>
+      <surface xml:id="retro1" start="#cartolina_retro1">
+         <!-- parte sinistra -->
+         <graphic url="cartoline/070R.jpg" width="1660.011364px" height="1055.011364px"/>
+         <zone ulx="20" uly="324" lrx="845" lry="956" xml:id="zone1"/>
+         <!-- parte in alto a destra (timbri)-->
+         <zone ulx="404" uly="24" lrx="1654" lry="355" xml:id="zone2"/>
+         <!-- parte in basso a destra -->
+         <zone ulx="822" uly="280" lrx="1640" lry="1042" xml:id="zone3"/>
+         <!--Zona id  cartina-->
+         <zone ulx="13" uly="16" lrx="135" lry="85" xml:id="zone4"/>
+      </surface>
+   </facsimile>
+</TEI>

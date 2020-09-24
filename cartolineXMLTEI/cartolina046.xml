@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="cartolina_7694-046">
+   <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+      <fileDesc>
+         <titleStmt>
+            <title>Tenerezze materne - Edizione digitale</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <choice>
+                  <abbr>Unipi</abbr>
+                  <expan instant="false">Università di
+                        <placeName ref="list.xml#PI" instant="false" full="yes">Pisa</placeName>
+                  </expan>
+               </choice>
+            </publisher>
+            <pubPlace ref="list.xml#PI">Pisa</pubPlace>
+            <availability default="false">
+               <p part="N">Available under licence only</p>
+            </availability>
+            <date when="2019" instant="false">2019</date>
+            <distributor>
+               <orgName ref="list.xml#LCD" instant="false" full="yes">
+                  <choice>
+                     <abbr>LabCD</abbr>
+                     <expan instant="false">Laboratorio di Cultura Digitale</expan>
+                  </choice>
+               </orgName>
+            </distributor>
+            <address>
+               <addrLine>Laboratorio di Cultura Digitale - Università di Pisa</addrLine>
+               <addrLine>
+                  <placeName ref="list.xml#PI" instant="false" full="yes">Pisa</placeName>
+               </addrLine>
+            </address>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <bibl default="false" status="draft">
+               <title>Tenerezze materne</title>
+               <author>
+                  <persName ref="list.xml#SB" instant="false" full="yes">Stefano Bersani</persName>
+               </author>
+               <publisher>
+                  <orgName ref="list.xml#SCEBT" instant="false" full="yes">Casa Ed. d'Arte Bersetti e Tumminelli</orgName>
+               </publisher>
+               <pubPlace ref="list.xml#MI">Milano</pubPlace>
+            </bibl>
+            <msDesc status="draft"><!-- descrizione del manoscritto -->
+               <msIdentifier><!-- info per identificare il manoscritto -->
+                  <country ref="list.xml#IT">Italia</country>
+                  <settlement ref="list.xml#SP">La Spezia (SP)</settlement>
+                  <!-- collocazione specifica -->
+                  <repository ref="list.xml#MCE">Museo Civico Etnografico "Giovanni Podenzana", Sezione dei cimeli garibaldini e della Prima Guerrra Mondiale</repository>
+                  <!-- codice identificativo -->
+                  <idno type="postcard_id">7694_046_001/002</idno>
+               </msIdentifier>
+               <!-- Informazioni sul contenuto della cartolina -->
+               <!-- DESCRIZIONE -->
+               <msContents>
+                  <summary>Cartolina Artistica</summary>
+                  <textLang mainLang="fr">Francese</textLang>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType>Cartolina</objectType>
+                           <!-- MATERIALI -->
+                           <material>Carta</material>
+                           <!-- DIMENSIONE -->
+                           <dimensions unit="cm">
+                              <height>9</height>
+                              <width>14</width>
+                           </dimensions>
+                        </support>
+                        <condition>Buono</condition>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc default="false">
+            <correspAction type="sent">
+               <persName ref="list.xml#GC" instant="false" full="yes">Jean</persName>
+               <placeName ref="list.xml#ZG" instant="false" full="yes">Zona di Guerra</placeName>
+               <date type="writing" when="1916-7-14" instant="false">1916/7/14</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="list.xml#OT" instant="false" full="yes">Oliva Turtura</persName>
+            </correspAction>
+         </correspDesc>
+         <textClass default="false">
+            <keywords><!-- soggettario --><!-- tipologia --><!-- descrizione -->
+               <term>Cartolina </term>
+               <term>Cartolina Artistica </term>
+               <term>Coppia di innamorati</term>
+            </keywords>
+         </textClass>
+         <langUsage default="false">
+            <language ident="fr">Francese</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <front xmlns="http://www.tei-c.org/ns/1.0"><!-- testo tipografico -->
+         <div type="tipografia" part="N" org="uniform" sample="complete">
+            <p part="N">
+               <s rend="writing-mode(horizontal-lr) text-orientation(sideways)" part="N">
+                  <orgName ref="list.xml#DGM" type="tipography" instant="false" full="yes">D.G.M.</orgName>
+               </s>
+            </p>
+            <p part="N">
+               <s rend="writing-mode(vertical-lr) text-orientation(sideways)" part="N">
+                             Proprietà art. riserv. N. 143 - 1
+                        </s>
+            </p>
+         </div>
+      </front>
+      <body xmlns="http://www.tei-c.org/ns/1.0">
+         <div type="fronte" part="N" org="uniform" sample="complete">
+            <figure>
+                  <figDesc>Donna vestita di bianco, seduta su di una sedia in un cortile che
+                    bacia un bambino.
+                  </figDesc>
+                  <head>Donna che bacia un bambino</head>
+            </figure>
+         </div>
+         <div type="retro" part="N" org="uniform" sample="complete">
+            <div type="message" part="N" org="uniform" sample="complete">
+               <opener>
+                  <dateline>
+                     <lb n="1"/>
+                     <s part="N">
+                        <placeName ref="list.xml#ZG" instant="false" full="yes">Zona di guerra</placeName>,
+                                                <date when="1916-07-14" instant="false">14/7.1916</date>
+                     </s>
+                  </dateline>
+               </opener>
+               <div type="postcard-body" part="N" org="uniform" sample="complete">
+                  <p part="N">
+                     <lb n="2"/>
+                                        Oliva Oliva
+                                        <lb n="3"/>
+                                        Je t'aime aujourd'hui plus qu'hier
+                                        <lb n="4"/>
+                                        et moins de demain.
+                                </p>
+               </div>
+               <closer>
+                  <lb n="5"/>
+                  <signed>
+                     <persName instant="false" full="yes">
+                        <forename ref="list.xml#GC" full="yes">Jean</forename>
+                     </persName>
+                  </signed>
+               </closer>
+            </div>
+            <div type="secondamano" part="N" org="uniform" sample="complete">
+               <ab type="paratext" part="N">
+                  <add instant="false" status="unremarkable">
+                     <num type="cardinal" value="46">
+                               46
+                    </num>
+                  </add>
+               </ab>
+            </div>
+         </div>
+      </body>
+      <back>
+         <div type="linguistic">
+            <ab/>
+         </div>
+      </back>
+   </text>
+</TEI>

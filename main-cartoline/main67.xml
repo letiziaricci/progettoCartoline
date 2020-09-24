@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="prog.xsl"?>
+<!DOCTYPE TEI SYSTEM 'myTEI.dtd'>
+<TEI n="1" xml:id="cartolina_7694-067">
+    <teiHeader xml:lang="Italy">
+        <fileDesc>
+            <titleStmt>
+                <title>Cartolina di Giuseppe a Oliva Turtura, Ravenna, 24/07/1913</title>
+                <respStmt>
+                    <resp>Trascrizione realizzata da</resp>
+                    <name ref="#FM">Francesco Melighetti</name>
+                    <name ref="#AL">Arianna Lisi</name>
+                </respStmt>
+                <!-- ENTE DI APPARTENENZA -->
+                <respStmt>
+                    <resp>Ente di Appartenenza</resp>
+                    <name type="comune" ref="#SP">Comune della Spezia</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    Studenti di Codifica dei Testi, Corso di Laurea Triennale di Informatica Umanistica, Università di Pisa
+                    <!-- COMPILAZIONE -->
+                    <date when="2018">2018</date>
+                </edition>
+                <!-- NOME COMPILATORE -->
+                <respStmt>
+                    <resp>Codifica realizzata da</resp>
+                    <name ref="#TC">Tommaso Castagneto</name>
+                </respStmt>
+                <!-- REFERENTE SCIENTIFICO sempre Nome Cognome, XY2 è sempre Tommaso Castagneto, XZ1 è chi interviene sulla schedatura già fatta per correzioni e aggiunte-->
+                <respStmt>
+                    <resp>Compilatore</resp>
+                    <name ref="#TC">Tommaso Castagneto</name>
+                    <!--<name xml:id="XZ1">XZ</name>-->
+                </respStmt>
+                <respStmt>
+                    <resp>Responsabile scientifico</resp>
+                    <name ref="#GP">Giacomo Paolicchi</name>
+                    <name ref="#ES">Enrica Salvatori</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Funzionario responsabile</resp>
+                    <name ref="#ER">E. Ratti</name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Unipi</publisher>
+                <pubPlace>Pisa</pubPlace>
+                <availability>
+                    <p>Available under licence only</p>
+                </availability>
+                <date when="2019">2019</date>
+                <distributor>LabCD</distributor>
+                <address>
+                    <addrLine>Laboratorio di Cultura Digitale - Università di Pisa</addrLine>
+                    <addrLine>Pisa</addrLine>
+                </address>
+            </publicationStmt>
+            <notesStmt>
+                <note resp="#FM">Sul retro riporta la stampa “Copyright by A. Noyer 1912 – Allegorie n 219  Reproduction interdite tous pays”</note>
+            </notesStmt>
+            <sourceDesc>
+                <bibl>
+                    <!-- TITOLO -->
+                    <title>Sommeil interrompu</title>
+                    <author ref="#M">Mastroianni</author>
+                    <!-- PRODUZIONE Chi ha prodotto / pubblicato la cartolina. Se non presente togliere il tag  -->
+                    <publisher>A. Noyer</publisher>
+                    <!-- LUOGO -->
+                    <pubPlace>Parigi</pubPlace>
+                    <!-- CRONOLOGIA, attenzione si rPDF version for downloading and printing.ePub version for mobile devices.Mobi version (for Kindle).Front Matter Title i. Releases of the TEI Guideiferisce solo alla data di stampa -->
+                    <date when="1912">1912</date>
+                </bibl>
+
+                <msDesc>
+                    <msIdentifier>
+                        <country type="nation">Italia</country>
+                        <settlement type="city">La Spezia (SP)</settlement>
+                        <!-- COLLOCAZIONE SPECIFICA -->
+                        <repository>Museo Civico Etnografico "Giovanni Podenzana", Sezione dei cimeli garibaldini e della Prima Guerrra Mondiale</repository>
+                        <!-- CODICE IDENTIFICATIVO -->
+                        <idno>7694_067_001/002</idno>
+                    </msIdentifier>
+
+                    <!-- Informazioni sul contenuto della cartolina -->
+                    <!-- DESCRIZIONE -->
+                    <msContents>
+                        <summary>Cartolina Artistica</summary>
+                         <textLang>Italiano</textLang>
+                        <msItem n="1" facs="#fronte1">
+                            <author><persName ref="#M">Mastroianni</persName></author>
+                            <title>Sommeil Interrompu</title>
+                        </msItem>
+                        <msItem n="2" facs="#retro1">
+                            <author><persName ref="#G">Giuseppe</persName></author>
+                            <title>Cartolina di Giuseppe a Oliva Turtura, Ravenna, 24/07/1913</title>
+                        </msItem>
+                    </msContents>
+                   
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType>Cartolina</objectType>
+                                    <!-- MATERIALI -->
+                                    <material>Carta</material>
+                                    <!-- DIMENSIONE -->
+                                    <dimensions unit="cm">
+                                        <height>9</height>
+                                        <width>14</width>
+                                    </dimensions>
+                                    <stamp>E' presente un francobollo sull'estremità destra del retro della cartolina in buono stato. Inoltre sono presenti tre timbri:
+                                    due di partenza nella parte superiore destra della cartolina, leggibili quasi totalmente, ed uno di arrivo esattamente al centro della cartolina, poco leggibile.</stamp> <!-- descrivere francobolli-->
+                                </support>
+                                <!-- CONSERVAZIONE 
+                                buono = non occorrono interventi di restauro;
+                                discreto = perfettamente leggibile in tutte le componenti ma con rischi di deterioramento per usura;
+                                mediocre = perfettamente leggibile, ma mancano alcune sue parti;
+                                cattivo = intaccato da parassiti o deteriorato da cattivi interventi passati o mancanti di parti rilevanti, necessita di restauro-->
+                                <condition>Buono</condition>
+                            </supportDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <summary>Scrittura eseguita a mano leggibile, con una annotazione nella parte superiore del retro.</summary>
+                            <handNote n="1">Annotazione di un catalogatore che presenta il numero 67, relativo alla classificazione delle 227 cartoline appartenente al museo di La Spezia.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <p>La cartolina è stata scritta il <origDate>24 luglio 1913</origDate>, un anno in cui già si cominciava a respirare l'aria della <date from="1914" to="1918">prima guerra mondiale</date>, a <origPlace>Ravenna</origPlace>. Oggi
+                            si trovano presso il Museo Civico Etnografico "Giovanni Podenzana" di <placeName>La Spezia</placeName></p>
+                    </history>
+                </msDesc>
+
+                <!-- NOMI -->
+                <listPerson>
+                    <person xml:id="G">
+                        <persName>
+                            <forename>Giuseppe</forename>
+                        </persName>
+                        <sex>M</sex>
+                        <note resp="#AL">Mittente della cartolina. Non si hanno ulteriori notizie su questo uomo</note>
+                    </person>
+                    <person xml:id="M">
+                        <persName>
+                            <ref target="https://www.guidedocartis.it/?page_id=15834"/>
+                            <forename>
+                                    <choice><abbr type="initial">D</abbr><expan>Domenico</expan></choice>
+                            </forename>
+                            <surname>Mastroianni</surname> 
+                        </persName>
+                        <sex>M</sex>
+                        <birth when="1876-01-01">1/01/1876<placeName type="comune">Arpino</placeName>,<country>Italia</country></birth>
+                        <death when="1962">1962<placeName type="city">Roma</placeName>,<country>Italia</country></death>
+                        <occupation>Pittore e scultore</occupation>
+                        <note resp="#FM">Autore della cartolina</note>
+                    </person>
+                    <person>
+                        <persName ref="#OT">
+                            <forename>Oliva</forename>
+                            <surname>Turtura</surname>
+                        </persName>
+                        <sex>F</sex>
+                        <birth notAfter="1990">Ravenna</birth>
+                        <note resp="#AL">Destinataria della cartolina. Non abbiamo molte informazioni su di lei. Sappiamo soltanto che nacque a Ravenna
+                            e frequentò nell'anno 1914/1915 il corso di perfezionamento per licenziati della scuola Normale, presso l'Università di Bologna</note>
+                       
+                    </person>
+                    
+                </listPerson>
+                <listOrg>
+                    <org xml:id="AN">
+                        <orgName type="Editore"><abbr type="initial">A.</abbr>Noyer</orgName>
+                        <place><placeName>Parigi</placeName></place>
+                        <desc>Casa editrice che si è occupata della pubblicazione della cartolina e ne detiene il copyright.</desc>
+                    </org>
+                    <org xml:id="PI">
+                        <orgName type="Poste">Poste Italiane</orgName>
+                        <desc>Società che si occupa del servizio postale italiano</desc>
+                    </org>
+                </listOrg>
+                <listPlace>
+                    <place xml:id="RV">
+                        <placeName>Ravenna</placeName>
+                        <location>
+                            <settlement type="comune">Ravenna</settlement>
+                            <district type="provincia">RV</district>
+                            <region>Emilia-Romagna</region>
+                            <country type="nazione">IT</country>
+                        </location>    
+                    </place>
+                    <place xml:id="AR">
+                        <placeName>Arona</placeName>
+                        <location>
+                            <settlement type="comune">Novara</settlement>
+                            <district type="provincia">NO</district>
+                            <district xml:id="LM" type="area">Lago Maggiore</district>
+                            <region>Piemonte</region>
+                            <country type="nation">IT</country>
+                        </location>
+                    </place>
+                    <place xml:id="PA">
+                        <placeName>Parigi</placeName>
+                        <location>
+                            <settlement type="città">Parigi</settlement>
+                            <country type="nation">Francia</country>
+                        </location>
+                    </place>
+                </listPlace>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#G">Giuseppe</persName>
+                    <placeName ref="#RV">Ravenna</placeName>
+                    <!-- DATA data di invio da timbro (postage) o da manoscritto (writing) -->
+                    <date type="writing" when="1913-07-24">24/07/1913</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#OT">Oliva Turtura</persName>
+                    <placeName ref="#AR">Arona</placeName>
+                    <date type="postage" when="1913-07-25">25/07/1913</date>
+                    <!--La data posta sul timbro non è ben leggibile, possiamo intuire 25-07 dello stesso anno-->
+                </correspAction>
+            </correspDesc>
+            
+            <textClass>
+                <keywords>
+                    <!-- soggettario -->
+                    <!-- tipologia -->
+                    <!-- descrizione -->
+                    <term>Cartolina </term>
+                    <term>Cartolina Artistica </term>
+                    <term>Donna che interrompe il sonno di un uomo</term>
+                </keywords>
+            </textClass>
+            
+            <langUsage>
+                <language ident="it-IT">italiano</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+
+        <surface n="1" corresp="#fronte067">    <!-- Fronte -->
+            <graphic url='img/067F.jpg' width='1038px' height='1642px' xml:id="fronte1"/>
+            <zone ulx="16" uly="1448" lrx="81" lry="1554" xml:id="C1fronte_01"/> <!-- 219 AN Paris -->
+            <zone ulx="194" uly="1519" lrx="444" lry="1571" xml:id="C1fronte_02"/> <!-- firma Mastroianni -->
+            <zone ulx="461" uly="1555" lrx="827" lry="1583" xml:id="C1fronte_03"/> <!-- titolo: Sommel Interrompu -->
+        </surface>
+
+        <surface n="2" corresp="#retro067">    <!-- Retro -->
+            <!-- testo lettera -->
+            <graphic url='img/067R.jpg' width='550px' height='355px' xml:id="retro1"/>
+            <zone ulx="104" uly="4" lrx="274" lry="28"  xml:id="C1retro_data"/> <!-- 24-VII-913 -->
+            <zone ulx="28" uly="18" lrx="285" lry="57"  xml:id="C1retro_01"/> <!-- prima riga -->
+            <zone ulx="14" uly="61" lrx="283" lry="84"  xml:id="C1retro_02"/> <!-- seconda riga -->
+            <zone ulx="10" uly="86" lrx="284" lry="108" xml:id="C1retro_03"/> <!-- terza riga -->
+            <zone ulx="16" uly="110" lrx="284" lry="140" xml:id="C1retro_04"/> <!-- quarta riga -->
+            <zone ulx="32" uly="152" lrx="256" lry="179" xml:id="C1retro_05"/> <!-- quinta riga -->
+            <zone ulx="38" uly="176" lrx="279" lry="206" xml:id="C1retro_06"/> <!-- sesta riga -->
+            <zone ulx="32" uly="209" lrx="280" lry="242" xml:id="C1retro_07"/> <!-- settima riga -->
+            <zone ulx="32" uly="241" lrx="273" lry="267" xml:id="C1retro_08"/> <!-- ottava riga -->
+            <zone ulx="31" uly="268" lrx="284" lry="300" xml:id="C1retro_09"/> <!-- nona riga -->
+            <zone ulx="22" uly="299" lrx="213" lry="316" xml:id="C1retro_10"/> <!-- decima riga -->
+            <zone ulx="24" uly="314" lrx="247" lry="333" xml:id="C1retro_11"/> <!-- closer: prima riga -->
+            <zone ulx="134" uly="334" lrx="301" lry="354" xml:id="C1retro_12"/> <!-- closer: seconda riga -->
+            <!-- francobollo e timbri -->
+            <zone ulx="389" uly="57" lrx="503" lry="163"  xml:id="C1retro_timbro02"/> <!-- timbro a destra -->
+            <zone ulx="287" uly="14" lrx="414" lry="121" xml:id="C1retro_timbro01"/> <!-- timbro in alto -->
+            <zone ulx="202" uly="132" lrx="319" lry="245" xml:id="C1retro_timbro03"/> <!-- timbro a sinistra -->
+            <zone ulx="448" uly="9" lrx="548" lry="104" xml:id="C1retro_francobollo"/> <!-- francobollo -->
+            <!-- stampa -->
+            <zone ulx="1" uly="128" lrx="35" lry="293" xml:id="C1stampa"/><!--stampa-->
+            <!-- address -->
+            <zone ulx="288" uly="114" lrx="510" lry="173" xml:id="C1retro_address01"/> <!-- address: prima riga -->
+            <zone ulx="285" uly="178" lrx="534" lry="215"  xml:id="C1retro_address02"/> <!-- address: seconda riga -->
+            <zone ulx="289" uly="219" lrx="541" lry="244" xml:id="C1retro_address03"/> <!-- address: terza riga -->
+            <zone ulx="288" uly="247" lrx="476" lry="269" xml:id="C1retro_address04"/> <!-- address: quarta riga -->
+            <zone ulx="424" uly="260" lrx="548" lry="304" xml:id="C1retro_address05"/> <!-- address: Arona -->
+            <zone ulx="288" uly="290" lrx="372" lry="343" xml:id="C1retro_address06"/> <!-- address: Lago Maggiore -->
+        </surface>
+
+    </facsimile>
+
+    <text type="cartolina" xml:id="xx" >
+        <front> 
+            <div type="stampe">
+                <ab xml:id="ScritteF1"><s>219 <orgName ref="#AN">AN</orgName> <placeName ref="PA">Paris</placeName></s>    <s><persName ref="#M">  D Mastroianni  </persName></s> <hi rend="uppercase"><s> Sommeil Interrompu</s></hi></ab>
+                <ab xml:id="ScritteR1" ><s facs="#C1stampa" xml:id="scritta1" style="text-orientation: sideways-left">Copyright by A. Noyer 1912 – Allegorie n 219  Reproduction interdite tous pays</s></ab>
+            </div>
+            <div type="postmark">
+                <p>
+                    <stamp type="postmark"> 
+                        <mentioned facs="C1retro_timbro01" xml:id="stamp1">
+                            <placeName ref="#RV">Ravenna</placeName>
+                            <date when="1913-07-24">24.7.13</date>.20
+                            <gap reason="illegible">
+                                <desc>La parte inferiore del timbro è scolorita</desc>
+                            </gap>   
+                        </mentioned>
+                        <note resp="#FM">Timbro effettuato in data 24/07/1913 a Ravenna. Sul timbro è possibile vedere la data seguita da .20.</note>
+                    </stamp>
+                    <stamp type="postmark"> 
+                        <mentioned facs="#C1retro_timbro02" xml:id="stamp2">
+                            <placeName ref="#RV">Ravenna</placeName>
+                            <date when="1913-07-24">24.7.13</date>.20
+                            <gap reason="illegible">
+                                <desc>La parte inferiore del timbro è scolorita</desc>
+                            </gap>
+                        </mentioned>
+                        <note resp="#FM">Timbro effettuato in data <date>24/07/1913</date> a Ravenna. Sul timbro è possibile vedere la data seguita da .20.</note>
+                    </stamp>
+                    <stamp type="postmark"> 
+                        <mentioned facs="#C1retro_timbro03" xml:id="stamp3">
+                            <placeName>Arona</placeName>
+                            <date when="1913-07-25"><unclear reason="illeggible">25.7</unclear></date>
+                            <gap reason="illegible">
+                                <desc>La parte restante della data e la parte inferiore del timbro sono scolorite</desc>
+                            </gap>
+                        </mentioned>
+                        <note resp="#AL"> Il timbro è in buona parte illeggibile, per cui abbiamo riportato soltanto il luogo d'arrivo e la data, 25/07, anch'essa poco leggibile. Riguardo l'anno possiamo ipotizzare che si tratti del 1913.</note>
+                    </stamp>
+                    <stamp type="postage">
+                        <mentioned facs="#C1retro_francobollo" xml:id="stamp4">
+                            <orgName ref="#PI">Poste Italiane</orgName>
+                            <s><num type="cardinal">10</num> centesimi <num type="cardinal">10</num></s>
+                        </mentioned>
+                        <note resp="#FM">Francobollo da 10 centesimi delle poste italiane.</note>
+                  </stamp>
+                </p>
+            </div>
+        </front>
+        <!-- TRASCRIZIONE -->
+        <body>
+            <div type="fronte" xml:id="fronte067">
+                <figure>
+                    <figDesc>La cartolina raffigura una donna che interrompe il sonno di un uomo addormentatosi in un luogo agreste vicino ad un albero. La cartolina è in bianco e nero.</figDesc>
+                    <head>Sommeil Interrompu</head>
+                </figure>
+                <ab n="ab_0" facs="#C1fronte_01">
+                    <lb xml:id="fronte_lb_00"/>
+                    <num type="cardinal">219</num>
+                    <lb xml:id="fronte_lb_01"/>
+                    <persName ref="#AN"><choice><abbr type="initial">A.N.</abbr><expan>A<ex>lfred</ex>N<ex>oyer</ex></expan></choice></persName>
+                    <lb xml:id="fronte_lb_02"/>
+                    <placeName ref="#PA">Paris</placeName>
+                </ab>
+                <ab n="ab_1" facs="#C1fronte_02">
+                    <lb xml:id="fronte_lb_03"/>
+                    <persName ref="#M"><choice><abbr type="initial">D</abbr><expan>Domenico</expan></choice> Mastroianni</persName>
+                </ab>
+                <ab n="ab_2" facs="#C1fronte_03">
+                    <lb xml:id="fronte_lb_04"/>
+                    <seg type="title">SOMMEIL INTERROMPU</seg>
+                </ab>
+            </div>
+
+            <div xml:id="retro067" type="retro">
+                <div type="opener">
+                    <ab type="parag" n="ab_01">
+                        <s type="sentence" n="retro_s_01">
+                            <lb xml:id="retro_lb_00" facs="#C1retro_data" />
+                            <date xml:id="data_1" when="1913-07-24">24-<num value="7" type="roman">VII</num>-913</date>
+                        </s>
+                    </ab>
+                </div>
+                <div type="letter-body">
+                    <ab type="parag" n="ab_02">
+                        <lb xml:id="retro_lb_01" facs="#C1retro_01"/>
+                        A <placeName ref="#RV">Ravenna</placeName> piove
+                        <lb xml:id="retro_lb_02" facs="#C1retro_02"/>
+                        sempre: è una gioia
+                        <lb xml:id="retro_lb_03" facs="#C1retro_03"/>
+                        per chi non è andato
+                        <lb xml:id="retro_lb_04" facs="#C1retro_04"/>
+                        ai bagni. Per ora 
+                        <lb xml:id="retro_lb_05" facs="#C1retro_05"/>
+                        niente di nuovo,
+                        <lb xml:id="retro_lb_06" facs="#C1retro_06"/>
+                        tutti bene. <date xml:id="data_2" when="1913-07-23">Stasera</date>
+                        <lb xml:id="retro_lb_07" facs="#C1retro_07"/>
+                        qui c'è musica, <w>co-
+                        <lb xml:id="retro_lb_08" facs="#C1retro_08" break="no"/>
+                        me</w> ieri sera che fu
+                        <lb xml:id="retro_lb_09" facs="#C1retro_09"/>
+                        <date when="--07-23" xml:id="data_3"><persName type="honorific"><abbr>S.</abbr>Apollinare</persName></date>: ad <placeName next="#na" xml:id="aro">Aro-</placeName>
+                        <lb xml:id="retro_lb_10" facs="#C1retro_10" break="no"></lb><placeName prev="#aro" xml:id="na">na</placeName>, niente.
+                    </ab>
+                </div>
+                <div type="closer">
+                    <lb xml:id="retro_lb_11" facs="#C1retro_11"/>
+                    <salute>Saluti affettuosi</salute>
+                    <lb xml:id="retro_lb_12" facs="#C1retro_12"/> 
+                    <signed><persName ref="#G">Giuseppe</persName></signed>
+                </div>
+                <div type="destination">
+                    <p>
+                        <address>
+
+                            <addrLine xml:id="retro_add_lb_01" facs="#C1retro_address01">
+                                Signorina
+                            </addrLine>
+
+                            <addrLine xml:id="retro_add_lb_02" facs="#C1retro_address02">
+                                <persName ref="#OT">Olivia Turtura</persName>
+                            </addrLine>
+
+                            <addrLine xml:id="retro_add_lb_03" facs="#C1retro_address03">
+                                presso <abbr>sigg.</abbr><persName><surname>Cibecchini</surname></persName>
+                            </addrLine>
+
+                            <addrLine xml:id="retro_add_lb_04" facs="#C1retro_address04">
+                                <name type="street">Via <persName>Cavour</persName> <num type="cardinal">12</num></name>
+                            </addrLine>
+
+                            <addrLine xml:id="retro_add_lb_05" facs="#C1retro_address05"> 
+                                <placeName ref="#AR">Arona</placeName>
+                            </addrLine>
+
+                            <addrLine xml:id="retro_add_lb_06" facs="#C1retro_address06">
+                                (<geogName type="Lago" ref="#LM">Lago Maggiore</geogName>)
+                            </addrLine>
+                        </address>
+                    </p>
+                </div>
+                <div type="add">
+                        <p>
+                            <num type="cardinal" value="11">67</num>
+                        </p>
+                </div>
+            </div>
+        </body>
+        <back>
+            <div type="note">
+                <note resp="#FM">
+                <p>Non si hanno notizie sul mittente della cartolina,<persName ref="#G">Giuseppe</persName>, che invia la cartolina da <placeName>Ravenna</placeName> ad <placeName>Arona</placeName>, situata sul <geogName>Lago Maggiore</geogName>, luogo in cui probabilmente 
+                    <persName>Oliva</persName> si trovava in villeggiatura. La cartolina è destinata presso i signori <persName>Cibecchini</persName>.</p></note>
+            </div>
+        </back>
+    </text>
+</TEI>

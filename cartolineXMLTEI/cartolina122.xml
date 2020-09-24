@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="cartolina_7694-122">
+   <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+      <fileDesc>
+         <titleStmt>
+            <title>[Donna che sorride tra i fiori] - Edizione digitale</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <choice>
+                  <abbr>Unipi</abbr>
+                  <expan instant="false">Università di
+                            <placeName ref="list.xml#PI" instant="false" full="yes">Pisa</placeName>
+                  </expan>
+               </choice>
+            </publisher>
+            <pubPlace ref="list.xml#PI">Pisa</pubPlace>
+            <availability default="false">
+               <p part="N">Available under licence only</p>
+            </availability>
+            <date when="2019" instant="false">2019</date>
+            <distributor>
+               <orgName ref="list.xml#LCD" instant="false" full="yes">
+                  <choice>
+                     <abbr>LabCD</abbr>
+                     <expan instant="false">Laboratorio di Cultura Digitale</expan>
+                  </choice>
+               </orgName>
+            </distributor>
+            <address>
+               <addrLine>Laboratorio di Cultura Digitale - Università di Pisa</addrLine>
+               <addrLine>
+                  <placeName ref="list.xml#PI" instant="false" full="yes">Pisa</placeName>
+               </addrLine>
+            </address>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <bibl default="false" status="draft">
+               <title type="custom" resp="list.xml#ES">[Donna che sorride tra i fiori]</title>
+            </bibl>
+            <msDesc status="draft"><!-- descrizione del manoscritto -->
+               <msIdentifier><!-- info per identificare il manoscritto -->
+                  <country ref="list.xml#IT">Italia</country>
+                  <settlement ref="list.xml#SP">La Spezia (SP)</settlement>
+                  <!-- collocazione specifica -->
+                  <repository ref="list.xml#MCE">Museo Civico Etnografico "Giovanni Podenzana", Sezione dei cimeli garibaldini e della Prima Guerrra Mondiale</repository>
+                  <!-- codice identificativo -->
+                  <idno type="postcard_id">7694_122_001/002</idno>
+               </msIdentifier>
+               <!-- Informazioni sul contenuto della cartolina -->
+               <!-- DESCRIZIONE -->
+               <msContents>
+                  <summary>Cartolina Artistica</summary>
+                  <textLang>Italiano</textLang>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType>Cartolina</objectType>
+                           <material>Carta</material>
+                           <dimensions unit="cm">
+                              <height>9</height>
+                              <width>14</width>
+                           </dimensions>
+                           <stamp type="postage"> Francobollo - Regno d'Italia </stamp>
+                           <stamp type="postmark">Timbro della Ferrovia di Modena </stamp>
+                        </support>
+                        <condition>Buono</condition>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc default="false">
+            <correspAction type="sent">
+               <persName ref="list.xml#GC" instant="false" full="yes">Giovanni Coliola</persName>
+               <placeName ref="list.xml#MO" instant="false" full="yes">Modena</placeName>
+               <date type="writing" when="1917-11-29" instant="false">1917/11/29</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="list.xml#GT" instant="false" full="yes"> Giuseppe Turtura</persName>
+               <placeName ref="list.xml#RV" instant="false" full="yes"> Ravenna </placeName>
+            </correspAction>
+         </correspDesc>
+         <textClass default="false">
+            <keywords><!-- soggettario --><!-- tipologia --><!-- descrizione -->
+               <term>Cartolina </term>
+               <term>Cartolina Artistica </term>
+               <term>Donna che sorride tra i fiori</term>
+            </keywords>
+         </textClass>
+         <langUsage default="false">
+            <language ident="it-IT">italiano</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <facsimile xmlns="http://www.tei-c.org/ns/1.0">
+      <surface type="fronte">
+         <graphic url="img-cartoline/7694-122F.jpg"/>
+         <note anchored="true"> Immagine del fronte della cartolina </note>
+      </surface>
+      <surface type="retro">
+         <graphic url="img-cartoline/7694-122R.jpg"/>
+         <zone xml:id="lineac3_1"
+               ulx="461"
+               uly="19"
+               lrx="583"
+               lry="154"
+               rotate="0"/>
+         <zone xml:id="lineac3_2"
+               ulx="295"
+               uly="156"
+               lrx="583"
+               lry="365"
+               rotate="0"/>
+         <zone xml:id="lineac3_3"
+               ulx="35"
+               uly="23"
+               lrx="256"
+               lry="342"
+               rotate="0"/>
+         <zone xml:id="lineac3_4"
+               ulx="6"
+               uly="140"
+               lrx="30"
+               lry="361"
+               rotate="0"/>
+         <zone xml:id="lineac3_5"
+               ulx="327"
+               uly="45"
+               lrx="409"
+               lry="104"
+               rotate="0"/>
+         <note type="nota_facsimile" anchored="true">Immagine del retro della cartolina a cui corrisponde un testo</note>
+      </surface>
+   </facsimile>
+   <text>
+      <front xmlns="http://www.tei-c.org/ns/1.0"><!-- testo tipografico -->
+         <div type="tipografia" part="N" org="uniform" sample="complete">
+            <p part="N">
+               <s rend="writing-mode(vertical-lr) text-orientation(sideways)" part="N">
+                              Proprietà artistica riservata N. 
+                              <num type="cardinal" value="2018">2018</num> - 3                          
+                        </s>
+            </p>
+         </div>
+      </front>
+      <body xmlns="http://www.tei-c.org/ns/1.0">
+            <div type="fronte" part="N" org="uniform" sample="complete">
+                  <figure>
+                        <figDesc>Viso di una donna sorridente immersa tra i fiori.
+                        </figDesc>
+                        <head>Donna che sorride tra i fiori</head>
+                  </figure>
+               </div>
+         <div type="retro" part="N" org="uniform" sample="complete">
+            <div type="message" part="N" org="uniform" sample="complete">
+               <opener>
+                  <dateline>
+                     <lb n="1"/>
+                     <s part="N">
+                        <placeName ref="list.xml#MO" instant="false" full="yes">Modena</placeName>, li 
+                                    <date when="1918-11-09" instant="false">12/6.1917</date>
+                     </s>
+                  </dateline>
+               </opener>
+               <div type="postcard-body" part="N" org="uniform" sample="complete">
+                  <p part="N">
+                     <lb n="2"/>
+                              Rammentandola.
+                              <lb n="3"/>
+                              Affettuosamente la saluto.
+                        </p>
+               </div>
+               <closer>
+                  <s part="N">
+                     <lb n="4"/>
+                              Suo devoto 
+                        </s>
+                  <lb n="5"/>
+                  <signed>
+                     <persName instant="false" full="yes">
+                        <forename ref="list.xml#GC" full="yes">Giovannino</forename>
+                     </persName>
+                  </signed>
+               </closer>
+            </div>
+            <div type="address-destination"
+                 part="N"
+                 org="uniform"
+                 sample="complete">
+               <p part="N">
+                  <address>
+                     <addrLine>
+                        <lb n="6"/>
+                              Gent Sir.re
+                              <lb n="7"/>
+                              Giuseppe Turtura
+                              <lb n="8"/>
+                              Via Girolamo <choice>
+                           <orig>Rosfi</orig>
+                           <reg resp="list.xml#LR" cert="high" instant="false">Rossi</reg>
+                        </choice> 58
+                              <lb n="9"/>
+                              Ravenna
+                        </addrLine>
+                  </address>
+               </p>
+            </div>
+            <div type="postmark-postage"
+                 part="N"
+                 org="uniform"
+                 sample="complete">
+               <ab part="N">
+                  <stamp type="postmark">
+                     <mentioned>
+                        <placeName ref="#MO" instant="false" full="yes"> MODENA </placeName> FERROVIA </mentioned>
+                     <date when="1917" instant="false">12.6.17.</date>
+                     <num type="cardinal">21</num>
+                  </stamp>
+                  <stamp type="postage">francobollo da 5 centesimi del Regno d'Italia</stamp>
+               </ab>
+            </div>
+            <div type="secondamano" part="N" org="uniform" sample="complete">
+               <ab type="paratext" part="N">
+                  <add instant="false" status="unremarkable">
+                     <num type="cardinal">
+                        <idno> 122 </idno>
+                     </num>
+                  </add>
+               </ab>
+            </div>
+         </div>
+      </body>
+      <back>
+         <div type="linguistic">
+            <ab>
+               <seg lemma="rammentare">
+                  <w type="form">Rammentando-</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="la">
+                  <w type="form">la</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="affettuoso">
+                  <w type="form">affettuosamente</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="il">
+                  <w type="form">la</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="saluto">
+                  <w type="form">saluto</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma=".">
+                  <w type="form">.</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="suo">
+                  <w type="form">Suo</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="devoto">
+                  <w type="form">devoto</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="Giovannino">
+                  <w type="form">Giovannino</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+            </ab>
+         </div>
+      </back>
+   </text>
+</TEI>

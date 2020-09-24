@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE TEI SYSTEM 'myTEI.dtd'>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cartolina_7694-007">
+      <teiHeader>
+            <fileDesc>
+                  <titleStmt>
+                        <title>Giulietta e Romeo - Edizione digitale</title>
+                  </titleStmt>
+                  <publicationStmt xmlns="http://www.tei-c.org/ns/1.0">
+                        <!-- contiene informazioni sulla pubblicazione e distribuzione del documento digitale -->
+                        <publisher>
+                              <choice>
+                                    <abbr>Unipi</abbr>
+                                    <expan>
+                                          Università di
+                                          <placeName ref="list.xml#PI">Pisa</placeName>
+                                    </expan>
+                              </choice>
+                        </publisher>
+                        <pubPlace ref="list.xml#PI">Pisa</pubPlace>
+                        <availability>
+                              <p>Available under licence only</p>
+                        </availability>
+                        <date when="2019">2019</date>
+                        <distributor>
+                              <orgName ref="list.xml#LCD">
+                                    <choice>
+                                          <abbr>LabCD</abbr>
+                                          <expan>Laboratorio di Cultura Digitale</expan>
+                                    </choice>
+                              </orgName>
+                        </distributor>
+                        <address>
+                              <addrLine>Laboratorio di Cultura Digitale - Università di Pisa</addrLine>
+                              <addrLine>
+                                    <placeName ref="list.xml#PI">Pisa</placeName>
+                              </addrLine>
+                        </address>
+                  </publicationStmt>
+                  <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
+                        <bibl type="postcard">
+                                    <title>Giulietta e Romeo</title> 
+                                    <publisher>
+                                          <orgName ref="list.xml#SM">Sculture Mastroianni</orgName>
+                                    </publisher>
+                                    <pubPlace ref="list.xml#RO"> Roma </pubPlace>
+                              </bibl>
+                        <msDesc>
+                              <!-- descrizione del manoscritto -->
+                              <msIdentifier>
+                                          <!-- info per identificare il manoscritto -->
+                                          <country ref="list.xml#IT">Italia</country>
+                                          <settlement ref="list.xml#SP">La Spezia (SP)</settlement>
+                                          <!-- collocazione specifica -->
+                                          <repository ref="list.xml#MCE">Museo Civico Etnografico "Giovanni Podenzana", Sezione dei cimeli garibaldini e della Prima Guerrra Mondiale</repository>
+                                          <!-- codice identificativo -->
+                                          <idno type="postcard_id">7694_007_001/002</idno>
+                                    </msIdentifier>
+                              <msContents>
+                                    <summary>Cartolina Artistica</summary>
+                                    <textLang mainLang="ita">Italiano</textLang>
+                              </msContents>
+                              <physDesc>
+                                    <!-- descrizione fisica del manoscritto -->
+                                    <objectDesc>
+                                          <supportDesc>
+                                                <support>
+                                                      <objectType>Cartolina</objectType>
+                                                      <material>Carta</material>
+                                                      <dimensions unit="cm">
+                                                            <height>9</height>
+                                                            <width>14</width>
+                                                      </dimensions>
+                                                </support>
+                                                <condition>Buona</condition>
+                                          </supportDesc>
+                                    </objectDesc>
+                                    <handDesc>
+                                          <handNote>
+                                                <p> Il testo nel recto della cartolina appartiene alla mano di
+                                        Giovanni Coliola. </p>
+                                          </handNote>
+                                          <handNote>
+                                                <p>Nell'angolo in alto a destra della parte superiore della
+                                        cartolina è presente un 7, numero di inventario della cartolina, aggiunto dal catalogatore
+                                    </p>
+                                          </handNote>
+                                    </handDesc>
+                              </physDesc>
+                        </msDesc>
+                  </sourceDesc>
+            </fileDesc>
+            <profileDesc xmlns="http://www.tei-c.org/ns/1.0">
+                  <!-- Descrizione delle azioni relative a un atto di corrispondenza -->
+                  <correspDesc>
+                              <correspAction type="sent">
+                                    <persName ref="list.xml#GC">Giovanni Coliola</persName>
+                              </correspAction>
+                              <correspAction type="received">
+                                    <persName ref="list.xml#OT">Oliva Turtura</persName>
+                              </correspAction>
+                  </correspDesc>
+                  <!-- Info di classificazione del testo -->
+                  <textClass>
+                              <keywords>
+                                    <!--soggettario-->
+                                    <term>Cartolina </term>
+                                    <!--tipologia-->
+                                    <term>Cartolina Artistica </term>
+                                    <!--descrizione-->
+                                    <term>Soldati</term>
+                                    <term>Bandiera italiana</term>
+                              </keywords>
+                  </textClass>
+                  <!-- Linguaggio usato nel testo -->
+                  <langUsage>
+                        <language ident="it-IT" usage="98">Italiano del Novecento</language>
+                  </langUsage>
+            </profileDesc>
+      </teiHeader>
+      <facsimile xmlns="http://www.tei-c.org/ns/1.0">
+                  <surface xml:id="fronte_postcard_07" type="fronte">
+                        <graphic url="img-cartoline/7694-007F.jpg" width="389px" height="602px" />
+                  </surface>
+                  <surface xml:id="retro_postcard_07" type="retro">
+                        <graphic url="img_cartoline/7694-007R.jpg" width="390px" height="602px" />
+                        <!-- testo cartolina -->
+                        <!-- DATA -->
+                        <zone type="handWriting" xml:id="lineText_1-07" start="#lineText-1-07" ulx="505" uly="7" lrx="728" lry="85"/>
+                        <zone type="handWriting" xml:id="lineText_2-07" start="#lineText-2-07" ulx="218" uly="8" lrx="458" lry="99"/>
+                        <zone type="handWriting" xml:id="lineText_3-07" start="#lineText-3-07" ulx="19" uly="71" lrx="818" lry="180"/>
+                        <zone type="handWriting" xml:id="lineText_4-07" start="#lineText-4-07" ulx="45" uly="189" lrx="801" lry="284"/>
+                        <zone type="handWriting" xml:id="lineText_5-07" start="#lineText-5-07" ulx="25" uly="277" lrx="791" lry="342"/>
+                        <zone type="handWriting" xml:id="lineText_6-07" start="#lineText-6-07" ulx="13" uly="347" lrx="799" lry="412"/>
+                        <zone type="handWriting" xml:id="lineText_7-07" start="#lineText-7-07" ulx="11" uly="425" lrx="697" lry="480"/>
+                        <zone type="handWriting" xml:id="lineText_8-07" start="#lineText-8-07" ulx="7" uly="477" lrx="738" lry="547"/>
+                        <zone type="handWriting" xml:id="lineText_9-07" start="#lineText-9-07" ulx="67" uly="554" lrx="821" lry="609"/>
+                        <zone type="handWriting" xml:id="lineText_10-07" start="#lineText-10-07" ulx="6" uly="607" lrx="820" lry="683"/>
+                        <zone type="handWriting" xml:id="lineText_11-07" start="#lineText-11-07" ulx="13" uly="661" lrx="766" lry="746"/>
+                        <zone type="handWriting" xml:id="lineText_12-07" start="#lineText-12-07" ulx="30" uly="756" lrx="821" lry="820"/>
+                        <zone type="handWriting" xml:id="lineText_13-07" start="#lineText-13-07" ulx="7" uly="827" lrx="808" lry="895"/>
+                        <zone type="handWriting" xml:id="lineText_14-07" start="#lineText-14-07" ulx="23" uly="899" lrx="763" lry="956"/>
+                        <zone type="handWriting" xml:id="lineText_15-07" start="#lineText-15-07" ulx="12" uly="961" lrx="803" lry="1039"/>
+                        <zone type="handWriting" xml:id="lineText_16-07" start="#lineText-16-07" ulx="8" uly="1032" lrx="783" lry="1090"/>
+                        <zone type="handWriting" xml:id="lineText_17-07" start="#lineText-17-07" ulx="2" uly="1097" lrx="805" lry="1178"/>
+                        <zone type="handWriting" xml:id="lineText_18-07" start="#lineText-18-07" ulx="7" uly="1162" lrx="793" lry="1217"/>
+                        <zone type="handWriting" xml:id="lineText_19-07" start="#lineText-19-07" ulx="23" uly="1205" lrx="575" lry="1265"/>
+                        <!-- FIRMA -->
+                        <zone type="handWriting" xml:id="lineText_20-07" start="#lineText-20-07" ulx="586" uly="1209" lrx="826" lry="1280"/>
+                        <!-- TIPOGRAFIA -->
+                        <!-- sculture mastroianni-->
+                        <zone type="print" xml:id="edizione_07" start="#edizione-07" ulx="10" uly="42" lrx="396" lry="145"/>
+                        <!-- giulietta e romeo-->
+                        <zone type="print" xml:id="title_07" start="#title-07"  ulx="325" uly="130" lrx="513" lry="199"/>
+                        <!-- cromogliptica-->
+                        <zone type="print" xml:id="publication_07" start="#publication-07" ulx="475" uly="57" lrx="807" lry="87"/>
+                        <!-- stampe centro-->
+                        <zone type="print" xml:id="riprod_07" start="#riprod-07" ulx="19" uly="570" lrx="819" lry="610"/>
+                        <!-- 7 (catalogazione) -->
+                        <zone type="catalog" xml:id="number7_07" start="#number7-07" ulx="720" uly="456" lrx="802" lry="528"/>
+                  </surface>
+      </facsimile>
+      <text>
+            <!-- informazioni peritestuali -->
+            <front>
+            <!-- testo tipografico -->
+                  <div type="tipografia">
+                              <p rend="writing-mode(horizontal-lr) text-orientation(sideways)">
+                                    <s facs="#edizione_07" xml:id="edizione-07">
+                                          <orgName ref="list.xml#SM" type="typography">
+                                          Sculture MASTROIANNI
+                                          </orgName>
+                                          <placeName ref="list.xml#RO">Roma</placeName>
+                                          Edizione propria 
+                                          N. <num type="cardinal" value="8">8</num>
+                                    </s>
+                                    <s facs="#publication_07" xml:id="publication-07">
+                                          <orgName ref="list.xml#AM" type="typography">
+                                          "Cromogliplica" A.Marzi - 
+                                          <placeName ref="list.xml#RO">Roma</placeName>
+                                          </orgName>
+                                    </s>
+                                    <s facs="#title_07" xml:id="title-07">
+                                          Giulietta e Romeo. 
+                                          Juliette et Romeo.
+                                    </s>
+                              </p>
+                              <p rend="writing-mode(horizontal-lr) text-orientation(sideways)">
+                                    <s facs="riprod_07" xml:id="riprod-07">
+                                          Riproduzione interdetta
+                                    </s>
+                                    <s>
+                                          Stampata in Italia
+                                    </s>
+                              </p>
+                  </div>
+            </front>
+            <body>
+                  <div type="fronte">
+                        <figure>
+                              <head>Giulietta e Romeo</head>
+                              <figDesc>In primo piano il bacio tra Giulietta e Romeo seduti su una
+                            balaustra. Sul fondo il giardino di una residenza nobiliare</figDesc>
+                        </figure>
+                  </div>
+                  <div type="retro">
+                        <div type="message">
+                              <opener xmlns="http://www.tei-c.org/ns/1.0">
+                                    <dateline>
+                                          <lb n="1" facs="#lineText_1-07" xml:id="lineText-1-07" />
+                                          <s>
+                                                <date when="1916-12-02">li 2/12-1916.</date>
+                                          </s>
+                                    </dateline>
+                              </opener>
+                              <div xmlns="http://www.tei-c.org/ns/1.0" type="postcard-body">
+                                    <p>
+                                          <lb n="2" facs="#lineText_2-07" xml:id="lineText-2-07" />
+                                          Oliva,
+                                          <lb n="3" facs="#lineText_3-07" xml:id="lineText-3-07"/>
+                                          È un desiderio? È un martirio?
+                                          <lb n="4" facs="#lineText_4-07" xml:id="lineText-4-07"/>
+                                          Quando, quando potrò confon-
+                                          <lb n="5" facs="#lineText_5-07" xml:id="lineText-5-07"/>
+                                          dere i miei sospiri d'amore con-
+                                          <lb n="6" facs="#lineText_6-07" xml:id="lineText-6-07"/>
+                                          i tuoi? quando conferiranno
+                                          <lb n="7" facs="#lineText_7-07" xml:id="lineText-7-07"/>
+                                          questi affanni? e come?
+                                          <lb n="8" facs="#lineText_8-07" xml:id="lineText-8-07"/>
+                                          Sarai tu la mia buona
+                                          <lb n="9" facs="#lineText_9-07" xml:id="lineText-9-07"/>
+                                          consolatrice? perchè l'animo
+                                          <lb n="10" facs="#lineText_10-07" xml:id="lineText-10-07"/>
+                                          mio ha bisogno di un solo con-
+                                          <lb n="11" facs="#lineText_11-07" xml:id="lineText-11-07"/>
+                                          forto : il tuo. Ho bisogno
+                                          <lb n="12" facs="#lineText_12-07" xml:id="lineText-12-07"/>
+                                          d'un cuore che sappia elevarmi
+                                          <lb n="13" facs="#lineText_13-07" xml:id="lineText-13-07"/>
+                                          sino all'ideale più puro, col
+                                          <lb n="14" facs="#lineText_14-07" xml:id="lineText-14-07"/>
+                                          concorso leale di quello mi
+                                          <lb n="15" facs="#lineText_15-07" xml:id="lineText-15-07"/>
+                                          sento capace di scuot<unclear reason="faded" agent="ink">e</unclear>re, di dis-
+                                          <lb n="16" facs="#lineText_16-07" xml:id="lineText-16-07"/>
+                                          sipare le grette insidie.....
+                                          <lb n="17" facs="#lineText_17-07" xml:id="lineText-17-07"/>
+                                          io solo potrei cadere nell'abbie-
+                                          <lb n="18" facs="#lineText_18-07" xml:id="lineText-18-07"/>
+                                          zione.
+                                    </p>
+                              </div>
+                              <closer xmlns="http://www.tei-c.org/ns/1.0">
+                                          <lb n="19" facs="#lineText_19-07" xml:id="lineText-19-07"/>
+                                          Amami, come io su-
+                                          <lb n="20" facs="#lineText_20-07" xml:id="lineText-20-07"/>
+                                          blimamente t'amo.
+                                          <signed>
+                                                <persName>
+                                                      <forename ref="lis.xml#GC">Giov<unclear reason="faded" resp="list.xml#LR" cert="high">annino</unclear></forename>
+                                                </persName>
+                                          </signed>
+                              </closer>
+                        </div>>
+                        <div type="secondamano">
+                              <ab type="paratext">
+                                    <add facs="#number7_07" xml:id="number7-07">
+                                          <num type="cardinal">
+                                                7 
+                                          </num>
+                                    </add>
+                              </ab>
+                        </div>
+                  </div>
+            </body>
+      </text>
+</TEI>

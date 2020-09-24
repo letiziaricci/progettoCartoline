@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xml:id="cartolina_7694-035">
+   <tei:teiHeader/>
+   <tei:text>
+      <tei:front/>
+      <tei:body>
+         <tei:div type="retro">
+            <tei:div type="message">
+               <tei:opener xmlns="http://www.tei-c.org/ns/1.0">
+                  <tei:dateline/>
+               </tei:opener>
+               <tei:div xmlns="http://www.tei-c.org/ns/1.0" type="postcard-body">
+                  <tei:p>
+                     <tei:lb/>            Carisfima Oliva<tei:lb/>            Finalmente! Credevo pro-<tei:lb/>            pro che mi avessi dimenticato! Speriamo <tei:lb/>            che, come dici, mi scriverai più sovente per <tei:lb/>            l'avvenire. Godo nel saperti in salute;<tei:lb/>            mi meraviglia la tua nuova profefsione<tei:lb/>            Perchè? E i tuoi scolari? Puoi vivere sen-<tei:lb/>            za di loro? E il latino? Non potrò a vere l'o-<tei:lb/>            nore di chiamarti profefsorefsa? Dirai che sono <tei:lb/>            Molto curioso, anzi più indiscreto che curioso, <tei:lb/>            ma che vuoi mi meraviglia talmente il <tei:lb/>            tuo nuovo indirizzo, che a rischio della <tei:lb/>            tua collera , permetto di formularti<tei:lb/>            queste domande. Fammi sapere qualche <tei:lb/>            cosa, scrivimi a lungo, non cominciare <tei:lb/>            niente però e mi farai <tei:lb/>            veramente piacere. Io sto <tei:lb/>            benissimo come tutti noi e come di voi non dubito</tei:p>
+                  <tei:p type="fronte"/>
+               </tei:div>
+               <tei:closer xmlns="http://www.tei-c.org/ns/1.0">
+                  <tei:s>
+                     <tei:lb/>Saluta tutti caramente anche <tei:lb/>a nome di mamma e <tei:signed>
+                        <tei:persName>
+                           <tei:forename ref="Nino">Nino</tei:forename>
+                        </tei:persName>
+                     </tei:signed>e <tei:lb/>tu ricevi un abbraccio affettuoso <tei:lb/>da Mario. </tei:s>
+               </tei:closer>
+            </tei:div>
+            <tei:div type="postmark-postage">
+               <tei:ab/>
+            </tei:div>
+            <tei:div type="secondamano">
+               <tei:ab type="paratext">
+                  <tei:add/>
+               </tei:ab>
+            </tei:div>
+         </tei:div>
+      </tei:body>
+   </tei:text>
+</tei:TEI>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xml:id="cartolina_7694-024">
+   <tei:teiHeader/>
+   <tei:text>
+      <tei:front/>
+      <tei:body>
+         <tei:div type="retro">
+            <tei:div type="message">
+               <tei:opener xmlns="http://www.tei-c.org/ns/1.0">
+                  <tei:dateline>
+                     <tei:lb/>
+                     <tei:s>            Modena li 31/12-1917.</tei:s>
+                  </tei:dateline>
+               </tei:opener>
+               <tei:div xmlns="http://www.tei-c.org/ns/1.0" type="postcard-body">
+                  <tei:p>
+                     <tei:lb/>            Mia cara Oliva, sono in vivo orgasmo<tei:lb/>            per ottenere un breve permesfo, chisfà che <tei:lb/>            non venga appagato questo mio grande desiderio<tei:lb/>            Sarebbe una gioia troppo bella. Ti penso <tei:lb/>            sempre con tutta l'anima, penso alla mia <tei:lb/>            Oliva, al mio amore lontano a tante tante <tei:lb/>            belle cose e mi struggo. Dall'ansia febbrile <tei:lb/>            di venire a posare un caro e purisfimo <tei:lb/>            bacio sulla tua fronte. </tei:p>
+                  <tei:p type="fronte"/>
+               </tei:div>
+               <tei:closer xmlns="http://www.tei-c.org/ns/1.0">
+                  <tei:s>
+                     <tei:lb/>Auguri infiniti <tei:lb/>per il nuovo anno a tutti tuo <tei:signed>
+                        <tei:persName>
+                           <tei:forename ref="Giovannino">Giovannino</tei:forename>
+                        </tei:persName>
+                     </tei:signed>
+                  </tei:s>
+               </tei:closer>
+            </tei:div>
+            <tei:div type="postmark-postage">
+               <tei:ab/>
+            </tei:div>
+            <tei:div type="secondamano">
+               <tei:ab type="paratext">
+                  <tei:add/>
+               </tei:ab>
+            </tei:div>
+         </tei:div>
+      </tei:body>
+   </tei:text>
+</tei:TEI>

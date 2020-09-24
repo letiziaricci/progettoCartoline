@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI SYSTEM 'myTEI.dtd'>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cartolina_7694-222">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Dévouement - Edizione digitale</title>
+         </titleStmt>
+         <publicationStmt xmlns="http://www.tei-c.org/ns/1.0">
+            <publisher>
+               <choice>
+                  <abbr>Unipi</abbr>
+                  <expan>Università di
+                            <placeName ref="list.xml#PI">Pisa</placeName>
+                  </expan>
+               </choice>
+            </publisher>
+            <pubPlace ref="list.xml#PI">Pisa</pubPlace>
+            <availability>
+               <p>Available under licence only</p>
+            </availability>
+            <date when="2019">2019</date>
+            <distributor>
+               <orgName ref="list.xml#LCD">
+                  <choice>
+                     <abbr>LabCD</abbr>
+                     <expan>Laboratorio di Cultura Digitale</expan>
+                  </choice>
+               </orgName>
+            </distributor>
+            <address>
+               <addrLine>Laboratorio di Cultura Digitale - Università di Pisa</addrLine>
+               <addrLine>
+                  <placeName ref="list.xml#PI">Pisa</placeName>
+               </addrLine>
+            </address>
+         </publicationStmt>
+         <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
+            <bibl>
+               <title>Dévouement</title>
+               <author ref="list.xml#HT">Henry Tenré</author>
+               <publisher>
+                    <orgName ref="list.xml#IL">I. Lapina</orgName> 
+                </publisher>
+               <pubPlace ref="list.xml#PA">Parigi</pubPlace>
+               <date when="1917">1917</date>
+            </bibl>
+            <msDesc>
+               <!-- descrizione del manoscritto -->
+                <msIdentifier>
+                    <!-- info per identificare il manoscritto -->
+                    <country ref="list.xml#IT">Italia</country>
+                    <settlement ref="list.xml#SP">La Spezia (SP)</settlement>
+                    <!-- collocazione specifica -->
+                    <repository ref="list.xml#MCE">Museo Civico Etnografico "Giovanni Podenzana", Sezione dei cimeli garibaldini e della Prima Guerrra Mondiale</repository>
+                    <!-- codice identificativo -->
+                    <idno type="postcard_id">7694_222_001/002</idno>
+                </msIdentifier>
+               <msContents>
+                  <summary>Cartolina Artistica</summary>
+                  <textLang>Italiano</textLang>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType>Cartolina</objectType>
+                           <material>Carta</material>
+                           <dimensions unit="cm">
+                              <height>9</height>
+                              <width>14</width>
+                           </dimensions>
+                           <stamp>francobollo - Regno d'Italia</stamp>
+                        </support>
+                        <condition>Discreto</condition>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc xmlns="http://www.tei-c.org/ns/1.0">
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="list.xml#L">Luigia</persName>
+               <date type="writing" when="1917-12-22">1917/12/22</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="list.xml#LG">Luigi Castaldo</persName>
+               <placeName ref="list.xml#MO">Modena</placeName>
+            </correspAction>
+         </correspDesc>
+         <textClass>
+            <keywords scheme="">
+               <term>Cartolina </term>
+               <term>Cartolina Artistica </term>
+               <term>Donna della Croce Rossa</term>
+            </keywords>
+         </textClass>
+         <langUsage>
+            <language ident="it-IT">italiano</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <!-- informazioni peritestuali -->
+       <front>
+            <!-- testo tipografico -->
+            <div type="tipografia">
+                    <p>
+                        <s rend="writing-mode(vertical-lr) text-orientation(sideways)">
+                                <persName ref="list.xml#EF" type="author">
+                                H. TENRE. Devouement.
+                                          Devotedness.
+                                </persName>
+                        </s>
+                    </p>
+                    <p>
+                        <s rend="writing-mode(vertical-lr) text-orientation(sideways)">
+                                PRINTED IN PARIS - I. LAPINA
+                        </s>
+                    </p>
+            </div>
+      </front>
+      <body>
+         <div xmlns="http://www.tei-c.org/ns/1.0"
+              facs="img-cartoline/7694-222F.jpg"
+              type="fronte">
+            <figure>
+               <graphic url="img-cartoline/7694-222F.jpg"/>
+               <figDesc>Crocerossina guarda all'orizzonte</figDesc>
+               <head>Dévouement di Henry Tenre</head>
+            </figure>
+            <p tipe="message">
+                    <lb n="1"/>
+                    Ti ricordi?
+            </p>
+         </div>
+         <div type="retro">
+            <div type="message">
+                <opener xmlns="http://www.tei-c.org/ns/1.0">
+                    <dateline>
+                        <lb n="2"/>
+                        <s>
+                                <date when="1917-11-22">22/<subst><add>11</add><del>12</del></subst> 17</date>
+                        </s>
+                    </dateline>
+                </opener>
+                <div xmlns="http://www.tei-c.org/ns/1.0" type="postcard-body">
+                    <p>
+                        <lb n="3"/>
+                        Saluti 
+                    </p>
+                </div>
+                <closer xmlns="http://www.tei-c.org/ns/1.0">
+                    <lb n="4"/>
+                    <signed>
+                        <persName>
+                            <forename ref="list.xml#L">Luigia</forename>
+                        </persName>
+                    </signed>
+                </closer>
+            </div>
+            <div xmlns="http://www.tei-c.org/ns/1.0" type="address-destination">
+               <p>
+                  <address>
+                        <addrLine>
+                            <lb n="5"/>
+                            Tenente
+                            <lb n="6"/>
+                            Gastaldo Sig. Luigi
+                            <lb n="7"/>
+                            Uff.cio <gap reason="illegible"/>
+                            <lb n="8"/>
+                            36a Fanteria
+                            <lb n="9"/>
+                            Modena
+                        </addrLine>
+                  </address>
+               </p>
+            </div>
+            <div type="postmark-postage">
+               <ab>
+                  <stamp xmlns="http://www.tei-c.org/ns/1.0" type="postmark">
+                     <date when="1917-12-22">1917/12/22</date>
+                  </stamp>
+                  <stamp xmlns="http://www.tei-c.org/ns/1.0" type="postage">Francobollo da 5 centesimi di Poste Italiane</stamp>
+               </ab>
+            </div>
+            <div type="secondamano">
+               <ab type="paratext">
+                  <add cert="medium">
+                     <num xmlns="http://www.tei-c.org/ns/1.0" type="cardinal" value="222">
+                                    222
+                                </num>
+                  </add>
+               </ab>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

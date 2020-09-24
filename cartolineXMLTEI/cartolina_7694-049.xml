@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xml:id="cartolina_7694-049">
+   <tei:teiHeader/>
+   <tei:text>
+      <tei:front/>
+      <tei:body>
+         <tei:div type="retro">
+            <tei:div type="message">
+               <tei:opener xmlns="http://www.tei-c.org/ns/1.0">
+                  <tei:dateline>
+                     <tei:lb/>
+                     <tei:s>            Z. O. li 16/1-1917.</tei:s>
+                  </tei:dateline>
+               </tei:opener>
+               <tei:div xmlns="http://www.tei-c.org/ns/1.0" type="postcard-body">
+                  <tei:p>
+                     <tei:lb/>            Carisfima Oliva, <tei:lb/>            Oggi sto alquanto bene e ho ripreso servizio.<tei:lb/>            Circa la mia provigione ti dico che siamo al <tei:lb/>            giorno 28  sono ancora <tei:gap reason="illegible"/> magg. poi ti dirò <tei:lb/>            qualche altra cosa. Cara Oliva io ti penso tanto<tei:lb/>            tanto infinitamente e vorrei correre da te, invece.<tei:lb/>            La mia salute è un po' cagionevole, mangio <tei:lb/>            pochissimo e dimagro, mi manca tutto, tutto.<tei:lb/>            Oliva, Oliva, ti voglio tanto bene un bene infinito<tei:lb/>            dell'animo, un bene ardente appasfionato.<tei:lb/>            T'amo, t'amo immensamente più della mia <tei:lb/>            vita.  </tei:p>
+                  <tei:p type="fronte"/>
+               </tei:div>
+               <tei:closer xmlns="http://www.tei-c.org/ns/1.0">
+                  <tei:s>
+                     <tei:lb/>per sempre <tei:signed>
+                        <tei:persName>
+                           <tei:forename ref="Giovannino">Giovannino</tei:forename>
+                        </tei:persName>
+                     </tei:signed>
+                  </tei:s>
+               </tei:closer>
+            </tei:div>
+            <tei:div type="postmark-postage">
+               <tei:ab/>
+            </tei:div>
+            <tei:div type="secondamano">
+               <tei:ab type="paratext">
+                  <tei:add/>
+               </tei:ab>
+            </tei:div>
+         </tei:div>
+      </tei:body>
+   </tei:text>
+</tei:TEI>

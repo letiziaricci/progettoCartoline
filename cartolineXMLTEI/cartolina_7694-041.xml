@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xml:id="cartolina_7694-041">
+   <tei:teiHeader/>
+   <tei:text>
+      <tei:front/>
+      <tei:body>
+         <tei:div type="retro">
+            <tei:div type="message">
+               <tei:opener xmlns="http://www.tei-c.org/ns/1.0">
+                  <tei:dateline>
+                     <tei:lb/>
+                     <tei:s>            Forlì - 28-IX-14</tei:s>
+                  </tei:dateline>
+               </tei:opener>
+               <tei:div xmlns="http://www.tei-c.org/ns/1.0" type="postcard-body">
+                  <tei:p>
+                     <tei:lb/>            Rispettosamente la saluto </tei:p>
+                  <tei:p type="fronte"/>
+               </tei:div>
+               <tei:closer xmlns="http://www.tei-c.org/ns/1.0">
+                  <tei:s>
+                     <tei:lb/>devuto <tei:lb/>
+                     <tei:signed>
+                        <tei:persName>
+                           <tei:forename ref="Massimo">Massimo</tei:forename>
+                        </tei:persName>
+                     </tei:signed>
+                     <tei:signed>
+                        <tei:persName>
+                           <tei:surname>Buti</tei:surname>
+                        </tei:persName>
+                     </tei:signed>
+                  </tei:s>
+               </tei:closer>
+            </tei:div>
+            <tei:div xmlns="http://www.tei-c.org/ns/1.0" type="address-destination">
+               <tei:p>
+                  <tei:address>
+                     <tei:addrLine>
+                        <tei:lb/>            Castiglione <tei:lb/>            Ravenna <tei:lb/>            Per la Esimia Sig.na <tei:lb/>            Oliva X........ <tei:lb/>            Maestra elementare <tei:lb/>            (presfo la Sig. Enrichetta Buti)<tei:lb/>            Castiglione </tei:addrLine>
+                  </tei:address>
+               </tei:p>
+            </tei:div>
+            <tei:div type="postmark-postage">
+               <tei:ab/>
+            </tei:div>
+            <tei:div type="secondamano">
+               <tei:ab type="paratext">
+                  <tei:add/>
+               </tei:ab>
+            </tei:div>
+         </tei:div>
+      </tei:body>
+   </tei:text>
+</tei:TEI>

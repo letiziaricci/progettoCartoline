@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE TEI SYSTEM 'myTEI.dtd'[
+    <!ENTITY agrave "&#224;">
+    <!ENTITY egrave "&#232;">
+    <!ENTITY eacute "&#233;">
+    <!ENTITY ograve "&#242;">
+    <!ENTITY quest "&#63;">
+    <!ENTITY ndash "&#45;">
+    <!ENTITY frasl "&#x2044;">
+    <!ENTITY apos "&#39;">
+    <!ENTITY quot "&#34;">
+    <!ENTITY star "&#x2605;">
+]>
+<TEI xml:id="cartolina_7694-138" >
+        <teiHeader xml:lang="ita">
+            <fileDesc>
+                <titleStmt>
+                    <title>Cartolina n.138</title>
+                    <respStmt>
+                        <resp> Trascrizione di </resp>
+                        <name type="person" xml:id="A" > Arianna Ricciarelli </name>
+                        <name type="person" xml:id="G" > Giulia Cultrera </name>
+                    </respStmt>
+                    <!-- Ente Di Appartenenza -->
+                    <respStmt xml:id="ente">
+                        <resp> Ente di Appartenenza: </resp>
+                        <name type="comune" xml:id="SP"> Comune della Spezia </name>
+                    </respStmt>                     
+                </titleStmt>
+
+                <editionStmt>
+                    <edition>Studenti di Storia Pubblica Digitale, Corso di Laurea Magistrale di Informatica Umanistica, <orgName type="acronym" ref="#UNIPI">Universit&agrave; di Pisa</orgName>,
+                        <!-- Compilazione -->
+                        <date> 2019 </date>
+                    </edition> 
+                    <!-- Compilatori --> 
+                    <respStmt>
+                        <resp>Codifica a cura di: </resp>
+                        <name type="person" ref="#A" > Arianna Ricciarelli e</name> 
+                        <name type="person" ref="#G" > Giulia Cultrera </name>
+                    </respStmt>                  
+                    <!-- Referente Scientifico -->
+                    <respStmt>
+                        <resp>Compilatore: </resp>
+                        <name  xml:id="TM"> Tommaso Castagneto </name>
+                    </respStmt>
+                    <respStmt>
+                        <resp>Responsabile scientifico: </resp>
+                        <name  xml:id="GP"> Giacomo Paolicchi </name>
+                        <name  xml:id="ES"> Enrica Salvatori </name>
+                    </respStmt>
+                    <respStmt>
+                        <resp>Funzionario responsabile: </resp>
+                        <name  xml:id="MR"> Marzia Ratti </name>
+                    </respStmt>
+                </editionStmt>
+
+                <publicationStmt>
+                    <publisher> <gi>Editore: </gi><orgName type="acronym" ref="#UNIPI">Unipi</orgName> </publisher>
+                    <pubPlace> <gi>Luogo: </gi>Pisa </pubPlace>
+                    <availability>
+                        <p> Disponibile solo su licenza </p>
+                    </availability>
+                    <date  when="2019"><gi>Anno: </gi>2019 </date>
+                    <distributor><gi>Sigla distributore: </gi><orgName type="acronym" ref="#LabCD">LabCD</orgName> </distributor>
+                    <address>
+                        <addrLine><gi>Distributore: </gi><orgName type="acronym" ref="#LabCD">Laboratorio di Cultura Digitale</orgName> - <orgName type="acronym" ref="#UNIPI">Universit&agrave; di Pisa</orgName>, </addrLine>
+                        <addrLine> Pisa </addrLine>
+                    </address>
+                </publicationStmt>
+
+                <notesStmt>
+                    <note n="5">E' presente il Fracobollo del Regno d'Italia da 5 centesimi raffigurante il re Vittorio Emanuele III.
+                                Il timbro sopra il francobollo è poco leggibile ma, osservando bene, possiamo intendere che sia scritto "Modena &star; Ferrovia &star;" 
+                                con una serie di numeri.
+                    </note>
+                    <note n="6"> Su entrambi i lati sono presenti macchie e aloni scuri dovuti al passare del tempo. Sul retro è inoltre presente il numero identificativo del nostro catalogo 
+                                <num type="cardinal">(138)</num>.
+                    </note>
+                    <note n="7">Il codice 806-4 vicino alle linee, si suppone essere il codice identificativo della cartolina al momento della stampa.
+                    </note>
+                </notesStmt>
+
+                <sourceDesc>
+                    <bibl>
+                        <!-- Titolo ricavato dalla cartolina -->
+                        <title  type="custom"> Donna in Camera </title>
+                    </bibl>
+
+                    <msDesc>
+                        <!-- Codice identificativo della cartolina -->
+                        <msIdentifier>
+                            <country><gi>Nazione: </gi>Italia</country>
+                            <settlement type="city"><gi>Città: </gi>La Spezia (SP) </settlement>
+                            <repository> 
+                                Museo Civico Etnografico &quot;Giovanni Podenzana&quot;, Sezione dei cimeli garibaldini e della Prima Guerra Mondiale 
+                            </repository>
+                                <idno>7694_138_001/002</idno>
+                        </msIdentifier>
+                    <!-- Informazioni sul contenuto e descrizione generica delle tre cartoline -->
+                        <msContents>
+                            <summary>Cartolina Artistica</summary>
+                            <textLang><gi>Lingua: </gi>Italiano </textLang>
+                        </msContents>
+
+                        <physDesc>
+                            <objectDesc>
+                                <supportDesc>
+                                    <support>
+                                        <objectType> Cartolina </objectType> 
+                                        <material> Carta </material>
+                                        <dimensions unit="cm">
+                                            <height> 9 </height>
+                                            <width>14 </width>
+                                        </dimensions>
+                                    </support>
+                                    <!-- Conservazione buono= non occorrono interventi di restauro;-->
+                                    <condition><gi>Stato: </gi>Buono </condition>
+                                </supportDesc>
+                            </objectDesc>
+                        </physDesc>
+                    </msDesc>                   
+                </sourceDesc>
+            </fileDesc>
+
+            <profileDesc>
+                <correspDesc>
+                    <correspAction  type="inviato">
+                        <persName  ref="#GC"/>
+                        <placeName ref="#MO"/> 
+                        <!-- Dati di invio da timbro (postage) o da manoscritto (writing) -->
+                        <date  type="postage" when="12/10/1917"> 12/10/1917 </date>
+                        <date  type="writing" when="11/10/1917"> 11/10/1917 </date>
+                    </correspAction>
+
+                    <correspAction  type="received">
+                        <persName  ref="#OT"/>
+                        <placeName ref="#RV"/> 
+                    </correspAction>
+
+                    <correspContext>
+                        <ref type="prev" target="#cartolina121"> 
+                            <persName ref="#GC"> Giovanni Coliola </persName> 
+                            <persName ref="#OT"> Oliva Turtura </persName> 
+                            <date when="21/06/1917">21/06/1917</date>
+                        </ref>
+                         <ref type="next" target="#cartolina190"> 
+                            <persName ref="#GC"> Giovanni Coliola </persName> 
+                            <persName ref="#OT"> Oliva Turtura </persName> 
+                            <date when="26/11/1917">26/11/1917</date>
+                        </ref>
+                    </correspContext>
+                </correspDesc> 
+                
+                <textClass>
+                    <keywords>
+                        <!-- soggettario -->
+                        <term> Donna vestita di azzurro in camera davanti allo specchio </term>
+                        <!-- tipologia -->
+                        <term> Artistica </term>
+                        <!-- descrizione -->
+                        <term> Cartolina Artistica </term>
+                    </keywords>
+                </textClass>
+            </profileDesc>
+        </teiHeader>
+        
+        <facsimile>
+            <surface xml:id="F138" start="#F2" ulx="0" uly="0" lrx="549" lry="344">
+                <graphic url="img/138F.jpg"/>
+            </surface>
+            <surface xml:id="R138" start="#R2" ulx="0" uly="0" lrx="549" lry="344">
+                <graphic url="img/138R.jpg"/>
+                <!-- timbro e francobollo -->
+                <zone xml:id="cart_138_01" ulx="10" uly="42" lrx="140" lry="173" rendition="Line"/>
+                <!-- Indirizzo e destinatario-->
+                <zone xml:id="cart_138_02" ulx="97" uly="281" lrx="168" lry="52" rendition="Line"/>
+                <zone xml:id="cart_138_03" ulx="209" uly="281" lrx="168" lry="13" rendition="Line"/>
+                <zone xml:id="cart_138_04" ulx="212" uly="281" lrx="267" lry="1" rendition="Line"/>
+                <zone xml:id="cart_138_05" ulx="264" uly="255" lrx="321" lry="6" rendition="Line"/>
+                <!-- Codice stampato di lato -->
+                <zone xml:id="cart_138_06" ulx="312" uly="263" lrx="335" lry="311" rendition="Line"/>
+                <!-- Luogo e data -->
+                <zone xml:id="cart_138_07" ulx="30" uly="283" lrx="318" lry="348" rendition="Line"/>
+                <!-- intero testo -->
+                <zone xml:id="cart_138_08" ulx="17" uly="343" lrx="340" lry="424" rendition="Line"/>
+                <!-- saluto -->
+                <zone xml:id="cart_138_09" ulx="46" uly="414" lrx="148" lry="446" rendition="Line"/>
+                <!-- firma -->
+                <zone xml:id="cart_138_10" ulx="8" uly="441" lrx="319" lry="525" rendition="Line"/>
+            </surface>
+        </facsimile>
+
+        <text  type="cartolina" xml:id="donnaCamera" xml:lang="ita">
+            <!-- Trascrizione -->
+            <body>
+                <div  type="fronte" facs="#F138" xml:id="F2">
+                    <figure>
+                        <graphic  url="img/138F.jpg" xml:id="c2" n="138"/>
+                        <figDesc> Donna vestita di blu in camera davanti allo specchio </figDesc>
+                        <head> Donna in Camera </head>
+                    </figure>
+                </div>
+                <div type="retro" facs="#R138" xml:id="R2">
+                     <div type="destination">
+                        <p style="stamp">
+                            <!-- francobolli -->
+                            <stamp type="timbro-postale" n="1" facs="#cart_138_01">
+                                <mentioned> 
+                                    <unclear reason="faded" resp="#AG"> &star; Modena &star; Ferrovia</unclear>
+                                </mentioned>
+                                <date  when="12/10/1917"> 12.10.17.20 </date> 
+                            </stamp>
+                            <stamp type="affrancatura" n="2" facs="#cart_138_01"> <lb n="5"/>Francobollo da 5 centesimi del Regno d&apos;Italia </stamp>
+                        </p>
+                        <p style="indirizzo">
+                            <address>
+                                <addrLine facs="#cart_138_02"> 
+                                    <lb n="6"/>
+                                    <choice> 
+                                        <abbr> <hi rend="decorated">G</hi>ent<am>.</am></abbr> 
+                                        <expan> Gent <ex> ilissima </ex> </expan>
+                                    </choice>
+                                    <choice>
+                                        <abbr> <hi rend="decorated">S</hi>ig<am>.</am>na </abbr> 
+                                        <expan> Sig<ex>nori</ex>na </expan>
+                                    </choice>
+                                </addrLine>
+                                <addrLine facs="#cart_138_03"> 
+                                    <lb n="7"/>
+                                    <persName  ref="#OT"> 
+                                        <name type="person"> <hi rend="decorated">O</hi>liva </name>
+                                        <space/>
+                                        <surname> <hi rend="decorated">T</hi>urtura </surname>
+                                    </persName> 
+                                </addrLine>
+                                <addrLine facs="#cart_138_04"> 
+                                    <lb n="8"/>
+                                    <hi rend="decorated">V</hi>ia 
+                                    <hi rend="decorated">G</hi>irolamo 
+                                    <hi rend="decorated">R</hi>ossi 
+                                    <num type="cardinal">58</num> 
+                                </addrLine>
+                                <addrLine facs="#cart_138_05"> 
+                                    <placeName ref="#RV"> 
+                                        <lb n="9" /><district type="comune"><hi rend="decorated">Ravenna</hi></district> 
+                                    </placeName> 
+                                </addrLine>
+                            </address>
+                            </p>
+                            <p><num n="1" type="cardinal" facs="#cart_138_06"> 806-4. </num></p>
+                        
+                    </div>
+                    <div  type="message">
+                        <opener >
+                            <lb n="1" />
+                            <dateline facs="#cart_138_07">
+                               <name type="place" ref="#MO"> 
+                                    <hi rend="decorated">M</hi>odena, 
+                                </name>
+                                <date when="11/10/1917"> 
+                                     <distinct type="archaic"> li </distinct> <num type="cardinal">11 &frasl; <add place="below">10</add> <space/> 17</num> &ndash; &ndash; 
+                                </date>
+                            </dateline>
+                        </opener>
+                        <p><lb n="2"/> 
+                            <s facs="#cart_138_08"> 
+                                <num type="cardinal" value="1000"> <hi rend="decorated">M</hi>ille </num> 
+                                affettuosi pensieri 
+                            </s>
+                        </p>
+                        <closer>
+                            <lb n="3"/> <salute> <s facs="#cart_138_09"> tuo </s></salute> 
+                            <lb n="4"/> <signed facs="#cart_138_10"> 
+                                 <hi rend="decorated"> Giovannino </hi>
+                            </signed>
+                        </closer>
+                    </div>
+                    <div type="add">
+                            <ab type="catalogazione">
+                                <num type="cardinal" value="138">
+                                        138
+                                </num>
+                            </ab>
+                        </div>
+                    
+                </div>
+            </body>
+        </text>
+    </TEI>

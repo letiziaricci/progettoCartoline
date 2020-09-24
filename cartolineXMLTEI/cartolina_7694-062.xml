@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xml:id="cartolina_7694-062">
+   <tei:teiHeader/>
+   <tei:text>
+      <tei:front/>
+      <tei:body>
+         <tei:div type="retro">
+            <tei:div type="message">
+               <tei:opener xmlns="http://www.tei-c.org/ns/1.0">
+                  <tei:dateline>
+                     <tei:lb/>
+                     <tei:s>            20/9/12</tei:s>
+                  </tei:dateline>
+               </tei:opener>
+               <tei:div xmlns="http://www.tei-c.org/ns/1.0" type="postcard-body">
+                  <tei:p>
+                     <tei:lb/>            Saluti da Ferrara </tei:p>
+                  <tei:p type="fronte"/>
+               </tei:div>
+               <tei:closer xmlns="http://www.tei-c.org/ns/1.0">
+                  <tei:s>
+                     <tei:lb/>
+                     <tei:signed>
+                        <tei:persName>
+                           <tei:forename ref="Pia">Pia</tei:forename>
+                        </tei:persName>
+                     </tei:signed>
+                  </tei:s>
+               </tei:closer>
+            </tei:div>
+            <tei:div xmlns="http://www.tei-c.org/ns/1.0" type="address-destination">
+               <tei:p>
+                  <tei:address>
+                     <tei:addrLine>
+                        <tei:lb/>            Signorina <tei:lb/>            Oliva Turtura <tei:lb/>            Girolamo Rosfi <tei:lb/>            60 <tei:lb/>            Ravenna</tei:addrLine>
+                  </tei:address>
+               </tei:p>
+            </tei:div>
+            <tei:div type="postmark-postage">
+               <tei:ab/>
+            </tei:div>
+            <tei:div type="secondamano">
+               <tei:ab type="paratext">
+                  <tei:add/>
+               </tei:ab>
+            </tei:div>
+         </tei:div>
+      </tei:body>
+   </tei:text>
+</tei:TEI>

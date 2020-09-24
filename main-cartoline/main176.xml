@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8"?>
+   <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cartolina_7694-176" > 
+   <teiHeader>
+     <fileDesc>
+                <titleStmt>                   
+                   <!-- TITOLO NB: non corrisponde completamente alla voce TITOLO della tabella perché si tratta del titolo della edizione digitale -->
+                   <title type="sub">  Baci mattutini </title>
+                </titleStmt>
+                
+                
+                <publicationStmt> <!--obbligatorio quindi solo publisher-->
+                    <publisher> 
+                        <orgName ref="#UNIPI"> Unipi </orgName> 
+                    </publisher>    
+                </publicationStmt> 
+                
+                <notesStmt>
+                    <note n="1">
+                        Sul retro troviamo una stampa "Cromoscultura Mastroianni Edit. A. Traldi - Milano" e un'altra
+                        "Autorixation de A.Noyer - Edit. Paris".
+                    </note>
+                    <note n="2">
+                        Sulla base delle cartoline che abbiamo a disposizione, sappiamo con sicurezza che l'arco temporale in cui si è tenuta la corrispondenza va dal 1911 al 1918. 
+                        Non conosciamo, invece, la sua data d'inizio e di fine.
+                    </note>
+                    <note n="3"> 
+                        In questa cartolina non è specificato il destinatario tramite indirizzo e non vi è nè timbro nè francobollo. 
+                        Riteniamo che la città della destinataria (Oliva) sia Ravenna, dove la donna ha ricevuto dallo stesso mittente 
+                        altre cartoline, presenti nella raccolta di riferimento del progetto.
+                    </note>
+                </notesStmt>
+                
+                
+                <sourceDesc>
+                    <bibl>
+                        <!-- TITOLO Quello che si ricava dalla cartolina; Se un documento composto da immagini
+                            non presenta un titolo o altri elementi considerabili come titolo, si formula un titolo sintetico
+                            registrandolo entro parentesi quadre [Venere al bagno] ma indicando dentro la codifica come qui sotto esemplificato-->
+                        
+                        <title type="custom" resp="#ES">[Baci mattutini]</title>
+                        <author ref="#GC">Giovanni </author>
+                        <!-- PRODUZIONE Chi ha prodotto / pubblicato la cartolina. Se non presente togliere il tag  -->
+                        <publisher> 
+                            <orgName ref="#AT">Edizioni Alberto Traldi </orgName><!--si tratta di una casa editrice-->
+                        </publisher> 
+                        <!-- LUOGO -->
+                        <pubPlace n="00"> Milano</pubPlace>
+                        <publisher n="primoed"> <ptr target="#AN"/>A. Noyer</publisher>
+                        <pubPlace xml:id="Paris"> Parigi </pubPlace>
+                        <date when="1917-11-29"> 29/11/17</date>
+                    </bibl>
+                    
+                    <msDesc>
+                     
+                        <msIdentifier>                         
+                            <!-- CODICE IDENTIFICATIVO -->
+                            <idno>7694_176_001/002</idno>
+                        </msIdentifier>
+                        
+                        <!-- Informazioni sul contenuto della cartolina -->
+                        <!-- DESCRIZIONE -->
+                        <msContents>
+                            <summary>Cartolina Artistica</summary>
+                            <textLang>Italiano</textLang>
+                        </msContents>
+            
+                    </msDesc>
+                    
+                    <!-- NOMI -->
+                    <listPerson>                 
+                        <person >
+                            <persName ref="#GC">
+                                <forename>Giovanni</forename>
+                                <surname>Coliola</surname>
+                            </persName>
+                            <sex>M</sex>
+                            <occupation n="1"><certainty locus="value" target="https://www.slideshare.net/trapelicino/giacomo-paolicchicartoline-della-grande-guerra-al-museo-etnografico-della-spezia" cert="high"> <desc> Tenente Colonnello[maggiore] </desc></certainty> </occupation>
+                        </person>
+                        <person>
+                            <persName ref="#OT">
+                                <forename>Oliva</forename>
+                                <surname>Turtura</surname>
+                            </persName>
+                            <sex>F</sex>
+                            <education from="1914" to="1915"> <certainty locus="value" target="https://archiviostorico.unibo.it/it/patrimonio-documentario/fascicolo-studenti/?record=105549" cert="high"> <desc> Corso di perfezionamento per i licenziati delle Scuole Normali </desc> </certainty> </education>
+                        </person>
+                        
+                        <person xml:id="AN">
+                            <persName>
+                                <forename> 
+                                    <choice>
+                                        <expan>Armand</expan>
+                                        <abbr>A.</abbr>
+                                    </choice>
+                                </forename>
+                                <surname>Noyer</surname>
+                            </persName>
+                            <sex>M</sex>
+                            <nationality key="fr">francese</nationality>
+                            <occupation n="2"><certainty locus="value" target="https://fr.wikibooks.org/wiki/Photographie/Soci%C3%A9t%C3%A9s_et_Organisations/%C3%89diteurs_de_cartes_postales/Armand_Noyer" cert="high"> <desc> Editore di cartoline </desc> </certainty> </occupation>
+                        </person>                      
+                    </listPerson>
+                    
+                    <!--LUOGHI-->
+                    <listPlace>
+                        <place>
+                            <placeName ref="#RV">Ravenna</placeName>
+                            <settlement type="località">città</settlement>
+                            <district type="comune">Ravenna</district>
+                            <district type="provincia">RV</district>
+                            <country key="N">IT</country>
+                        </place> 
+                        
+                        <place>
+                            <placeName ref="#MO">Modena</placeName>
+                            <settlement type="località">città</settlement>
+                            <district type="comune">Modena</district>
+                            <district type="provincia">MO</district>
+                            <country key="N">IT</country>
+                        </place>       
+                    </listPlace>
+                    
+                  
+                    <listOrg>
+                        <org xml:id="AT">
+                            <orgName> Edizioni 
+                                <persName> 
+                                    <forename>
+                                        <choice>
+                                            <expan>Alberto</expan>
+                                            <abbr type="nome">A.</abbr>
+                                        </choice>
+                                    </forename>
+                                    <surname>Traldi</surname>
+                                </persName>
+                            </orgName>
+                        </org>                   
+                    </listOrg>
+                </sourceDesc>     
+            </fileDesc>
+            
+            <profileDesc>
+                <correspDesc>
+                    <correspAction type="sent">
+                        <persName ref="#GC"> Giovanni Coliola</persName> 
+                        <placeName ref="#MO">Modena</placeName>
+                        <date type="writing" when="1917-11-29">1917/11/29</date>
+                    </correspAction>
+                    <correspAction type="received">
+                        <persName type="Turtura" ref="#OT">Oliva Turtura</persName>
+                        <placeName ref="#RV"> Ravenna </placeName> 
+                    </correspAction>
+                    
+                </correspDesc>
+                
+                <textClass>
+                    <keywords>
+                        <!-- soggettario -->
+                        <!-- tipologia -->
+                        <!-- descrizione -->
+                        <term>Cartolina </term>
+                        <term>Cartolina Artistica </term>
+                        <term>Coppia di innamorati</term>
+                    </keywords>
+                </textClass>
+                
+                <langUsage>
+                        <language ident="it" usage="98">italiano del Novecento</language>
+                        <language ident="latinism" usage="02">latinismi, forme desuete</language> 
+                </langUsage>
+            </profileDesc>
+       
+    <encodingDesc>
+        <editorialDecl>
+            <interpretation>
+                <p>
+                    <list>
+                        <item>
+                            <choice xml:id="N">
+                                <expan>Numero</expan>
+                                <abbr>N.</abbr>
+                            </choice>
+                        </item>
+                        <item> 
+                            <choice>
+                                <orig> li </orig>
+                                <reg> il </reg>
+                            </choice>
+                        </item> 
+                        
+                        <item> 
+                            <choice> 
+                                <expan>Gentile </expan> 
+                                <abbr type="titolo">Gent </abbr>
+                            </choice> 
+                        </item> 
+                        
+                        <item> 
+                            <choice > 
+                                <expan>Girolamo </expan> 
+                                <abbr type="nome">G.</abbr>
+                            </choice> 
+                        </item>   
+                        
+                    </list>
+                </p>
+            </interpretation>
+            <hyphenation eol="none">
+                <p> Le parole hypheanated che compaiono alla fine della linea nell'edizione digitale non sono state riformate </p>
+            </hyphenation>
+        </editorialDecl>
+    </encodingDesc>
+ </teiHeader>
+    
+    
+  <text type="cartolina" xml:id="cartolina2" n="2">
+        <body xml:lang="ita">
+            
+            <div xml:id="fronte_seconda_cartolina" >
+                <figure>
+                    <pb facs="#front2" n="1" xml:id="fronte-2"/> 
+                    <figDesc>
+                        <desc> Due pastori si baciano all'alba su di un pascolo </desc>
+                    </figDesc>
+                </figure>
+            </div>
+
+            <div xml:id="retro_seconda_cartolina" type="rt">
+
+               <pb facs="#back2" n="2" xml:id="back-2"/>
+                <head xml:id="scrittastampata2" type="rtr">                
+                        <abbr>N.<ptr target="#N"/></abbr>                   
+                    <num type="cardinal">
+                        <idno>158 </idno>
+                    </num>
+                    <title xml:lang="fr"> Baiser Matinal. </title> 
+                </head>
+                
+               <div type="rtrHand" xml:id="Archivio2">
+                   <p> <num type="cardinal"> <idno> 176 </idno> </num> </p>  
+               </div>
+  
+               <div xml:id="secopen" type="rtr"> 
+                    
+                    <dateline>
+                        <placeName ref="#MO">  Modena </placeName>, <distinct type="forma_desueta"> li <ptr target="#li"/> </distinct> 
+                        <date when="1917-11-29"> 29/11-17 </date>
+                    </dateline>
+                    
+                </div>
+                
+                <div> 
+                   <div xml:id="testoresto_2" type="rtr">
+                     <salute rend="align(left)">
+                        <s>
+                            <persName ref="#OT"> <forename> Oliva </forename> </persName> mia,
+                        </s>
+                     </salute>
+                    <p> <lb/> Non puoi credere quanto mi sia diventato </p>
+                    <p> <lb/> odioso questo materialismo fugato, assillante, avido; </p>
+                    <p>  <lb/>che vivo in una <distinct>incusante <ptr target="#lat"/></distinct> monotonia di fredda </p> 
+                    <p> <lb/> solitudine. Non una favola buona, un consiglio </p>
+                    <p> <lb/> non <unclear reason="inaudible"> perfido </unclear>, uno sguardo affettuoso, nulla che si </p>
+                    <p> <lb/> allontani, si elevi dall' insulsa obbrobriosa </p>
+                    <p> <lb/> sterile norma delle cose inanimate che ti circonda </p>
+                    <p> <lb/>no,  nulla per questa mia anima <distinct> sitibonda <ptr target="#des"/></distinct> </p>
+                    <p> <lb/> D'affetto, D'amore, Di pace. </p> <closer>  tuo  <signed> <persName ref="#GC"> <forename type="diminutivo"> Giovannino </forename> </persName> </signed> <!--c'è un altro modo per indicare che si tratta di un diminutivo?-->                        
+                    </closer>
+                </div>
+                </div>
+                             
+                <div type="rtr" rend="vertical" xml:id="scritte_stampate_14"> 
+                    <p> <lb/>Cromoscultura <persName> Mastroianni </persName>  
+                        <orgName ref="#AT">                            
+                                <abbr> Edit. </abbr> 
+                                <abbr>A.</abbr> Traldi                            
+                        </orgName> 
+                        <placeName> Milano </placeName> 
+                    </p>
+                    <p xml:lang="fr"> <lb/>Autorixation de <persName ref="#AN"> <abbr> A. </abbr> NOYER </persName> - <abbr> Edit.</abbr> <placeName> Paris </placeName> </p>
+                    <p> <lb/>PRODUZIONE ITALIANA  </p>
+                </div>
+
+            </div>
+            
+        </body>
+        
+        <back>
+           <div>
+            <entry xml:id="lat">
+                <sense> 
+                    <distinct type="latinismo"> incusante </distinct>  
+                    <etym> dall'ablativo 
+                        <lang> latino </lang> 
+                        del verbo 
+                        <mentioned> incuso </mentioned> 
+                    </etym> 
+                    <def> accusare </def> 
+                </sense> 
+            </entry>
+            
+            
+            <entry xml:id="des"> 
+                <sense>
+                    <distinct type="forma_desueta"> sitibonda </distinct> 
+                    <xr type="syn"> 
+                        <ref>bramoso </ref> 
+                    </xr> 
+                    <xr type="syn"> 
+                        <ref>assetato </ref> 
+                    </xr>
+                </sense>
+            </entry>
+            </div>
+        </back>
+    </text>
+    
+    
+    
+    
+    <facsimile>
+        
+        <surface xml:id="front2" start="#fronte_seconda_cartolina" type="ff">
+            <graphic url='7694-176F.jpg' />
+            <note type="nota_facsimile">L'immagine si trova sul fronte della cartolina e non presenta scritte.</note>
+        </surface>
+        
+        
+        <surface xml:id="back2" start="#retroseconda_cartolina" type="rr">
+            <graphic xml:id="imgretro_2" url='7694-176R.jpg' />
+            <zone xml:id="lineac2_1" ulx="250" uly="8" lrx="468" lry="39"  />
+            <zone xml:id="lineac2_2" ulx="39" uly="41" lrx="575" lry="372" />
+            <zone xml:id="lineac2_3" ulx="14" uly="13" lrx="149" lry="33" />            
+            <zone xml:id="lineac2_4" ulx="10" uly="57" lrx="30" lry="352"/>
+            <zone xml:id="lineac2_5" ulx="500" uly="10" lrx="565" lry="32"/>
+            <note  type="nota_facsimile">Immagine del retro della cartolina a cui corrisponde un testo</note>
+        </surface>
+        
+        
+    </facsimile>             
+</TEI>

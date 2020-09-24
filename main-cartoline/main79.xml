@@ -1,0 +1,452 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cartolina_7694-079">
+	<teiHeader xml:lang="it">
+ 		<fileDesc>
+  			<titleStmt>
+  				<!-- TITOLO -->
+   			<title>La partita a scacchi - Edizione digitale<idno> 7694_079_001/002</idno></title>
+				<author xml:id="GI1"><persName>Gerolamo Induno</persName></author>
+				<!-- TRASCRITTORE -->
+				
+				<respStmt>
+					<resp>Trascrizione di:</resp>
+					<name xml:id="gmc1"><persName>Gennaro Mauro Colonna, matr. 550463 </persName>e <persName>Justin Elom Akumah, matr. 543741</persName></name>
+				</respStmt>
+				<!-- ENTE DI APPARTENENZA -->
+				<respStmt>
+					<resp>Ente di Appartenenza</resp>
+					<name type="comune" xml:id="SP2">Comune di <placeName>La Spezia</placeName></name>
+				</respStmt>
+  			</titleStmt>
+  			<editionStmt>
+				<edition>Edizione Studenti Unipi  <!-- COMPILAZIONE -->
+					<date>2018</date>
+				</edition>
+				<!-- NOME COMPILATORE -->
+				<respStmt>
+					<resp xml:id="compilato">Compilato da:</resp>
+					<name xml:id="TC"><persName>Tommaso Castagneto</persName></name>
+				</respStmt>
+				<!-- NOME CODIFICATORE -->
+				<respStmt>
+					<resp xml:id="codificato">Codificato da:</resp>
+					<name xml:id="gmc2"><persName>Gennaro Mauro Colonna </persName>e</name>
+					<name xml:id="jea2"><persName>Justin Elom Akumah</persName></name>
+				</respStmt>
+				<!-- REFERENTE SCIENTIFICO -->
+				<respStmt>
+					<resp xml:id="refAccad">Referente Accademico:</resp>
+					<name xml:id="AMDG"><persName>Angelo Mario Del Grosso</persName></name>
+				</respStmt>
+				<respStmt>
+					<resp xml:id="refScien">Referenti Scientifici:</resp>
+					<name xml:id="GP"><persName>Giacomo Paolicchi</persName></name>
+					<name xml:id="ES"><persName>Enrica Salvatori</persName></name>
+				</respStmt>
+				<respStmt>
+					<resp xml:id="funzResp">Funzionario responsabile:</resp>
+					<name xml:id="ER"><persName>E. Ratti</persName></name>
+				</respStmt>
+			</editionStmt>
+  			<publicationStmt>
+				<publisher xml:id="editore"><orgName>Unipi</orgName></publisher>
+				<pubPlace>Pisa</pubPlace>
+				<availability>
+					<p xml:id="licenza">Available under licence only</p>
+				</availability>
+				<date when="2019">2019</date>
+				<distributor><name ref="http://www.labcd.unipi.it/">LabCD</name>
+				<graphic url="images/Unipi-Labcd_Blu.png"/>
+				</distributor>
+				<address>
+					<addrLine xml:id="dipartimento"><name ref="http://www.fileli.unipi.it">Dipartimento di Filologia, Letteratura, Linguistica</name></addrLine>
+ 					<street>Piazza Torricelli, 2 (Palazzo Matteucci)</street>
+ 					<postCode>56126</postCode>
+ 					<name xml:id="citta"><placeName>Pisa</placeName></name>
+ 					<name xml:id="nazione"><country>Italy</country></name>
+				</address>
+			</publicationStmt>
+			<!-- NOTE -->
+			<notesStmt>
+				<note xml:id="derivazione">Cartolina tratta da: <title><emph rend="italic"> "La partita a scacchi"</emph> opera pittorica di <persName>Gerolamo Induno</persName></title> </note>
+			</notesStmt>
+  			<sourceDesc>
+   			<bibl>
+    				<title level="m">[La partita a scacchi]</title>
+    				<name>
+						<persName><name ref="http://it.wikipedia.org/wiki/Gerolamo_Induno">Gerolamo Induno</name></persName>
+						<graphic url="images/GerolamoInduno.png"/> 
+							<date when="1825-12-13">12 Dicembre 1825</date> 
+								<placeName>
+ 									<settlement type="city">Milano</settlement>
+ 									<country key="IT">Italia</country>
+ 								</placeName>
+ 								<placeName>
+ 									<date when="1890-12-18">18 Dicembre 1890</date>
+   								<settlement type="city">Milano</settlement>
+   								<country key="IT">Italia</country>
+   							</placeName>
+ 						<ref target="http://it.wikipedia.org/wiki/Gerolamo_Induno"/>
+ 					</name>
+    				<!-- PRODUZIONE -->
+					<publisher xml:id="esb">E. SBORGI</publisher>
+					<!-- LUOGO -->
+					<pubPlace xml:id="city">Firenze</pubPlace>
+					<!-- CRONOLOGIA -->
+					<date><note>non definibile</note></date>
+    				<idno>7694_079_001/002</idno>
+    				<note>codice identificativo della cartolina nel corpora cartoline</note>
+    			</bibl>
+   			<msDesc>
+				<!-- COLLOCAZIONE SPECIFICA -->
+				<!-- CODICE IDENTIFICATIVO -->
+					<msIdentifier>
+						<country>Italia</country>
+						<settlement>La Spezia (SP)</settlement>
+						<!-- COLLOCAZIONE SPECIFICA -->
+						<repository>Museo Civico Etnografico "Giovanni Podenzana", Sezione dei cimeli garibaldini e della Prima Guerrra Mondiale</repository>
+						<!-- CODICE IDENTIFICATIVO -->
+						<idno>7694_079_001/002</idno>
+						<!-- TITOLO -->
+						<msName>La partita a scacchi</msName>
+					</msIdentifier>
+					<!-- Informazioni sul contenuto della cartolina -->
+					<!-- DESCRIZIONE -->
+					<msContents>
+						<summary>Cartolina Artistica</summary>
+						<textLang>Italiano</textLang>
+					</msContents>
+					<!-- DESCRIZIONE FISICA-->
+					<physDesc>
+						<objectDesc>
+							<supportDesc>
+								<support>
+									<objectType>Cartolina Artistica</objectType>
+									<!-- MATERIALI -->
+									<material>Carta</material>
+									<!-- DIMENSIONE -->
+									<dimensions unit="cm">
+										<height>9 x </height>
+										<width>14 cm</width>
+									</dimensions>
+									<dimensions type="cartolina">
+										<height quantity="9" unit="cm"/>
+										<width quantity="14"/>
+									</dimensions>
+									<stamp><note resp="#gmc">Cartolina non affrancata;assenti i timbri postali</note></stamp>
+								</support>
+								<!-- CONSERVAZIONE -->
+								<condition>Buono</condition>
+							</supportDesc>
+							</objectDesc>
+					</physDesc>
+					
+					<history>
+						<summary>
+							<p n="1">Non sono disponibili informazioni dettagliate sulla storia della cartolina, che forse è stata
+								consegnata a mano, mentre lo sono in merito all'opera pittorica da cui essa trae origine.</p>
+							<p n="2">La partita a scacchi è una replica autografa del dipinto con lo stesso soggetto conservato
+								presso la <name ref="http://www.gam-milano.com/it/home">GAM di Milano</name>.</p>
+								<p> Il quadro trae ispirazione dall’opera teatrale in versi <name ref="https://it.wikipedia.org/wiki/Una_partita_a_scacchi">"Una partita
+									a scacchi"</name> di <name ref="https://it.wikipedia.org/wiki/Giuseppe_Giacosa">Giuseppe Giacosa</name>
+									 inscenata per la prima volta a <name key="NA" type="place">Napoli</name> nel 1873.</p>
+							<p n="3">Tenuto conto degli eventi storici dell'epoca, del carattere dell' <persName>Induno</persName>,
+								descritto come pittore e Patriota, la sua opera <emph rend="italic">"La partita a scacchi"</emph> potrebbe essere
+								letta come allegoria degli eventi di quella giovanissima <name key="IT" type="place">Italia</name> unita da appena
+								una decina d'anni e dando così origine alla<name ref="https://it.wikipedia.org/wiki/Questione_romana">"Questione Romana" dal 1861</name> .</p>
+							<p n="4">Nel 1870 con la presa di <name ref="https://it.wikipedia.org/wiki/Porta_Pia">Porta Pia</name>, atto simbolicamente molto significativo, 
+							<name ref="https://it.wikipedia.org/wiki/Papa_Pio_IX">Pio IX</name> scomunicava tutti i colpevoli dell'impresa ( e dell'affronto) e si ritirava, 
+							offeso, sull'<name ref="https://it.wikipedia.org/wiki/Aventino">Aventino</name> .</p> 
+							<p n="5">Si era aperta una sorte di partita a scacchi, a cui assistettero le nazioni d'Europa;
+								in particolare la <name key="FR" type="place">Francia</name>, che con <name ref="https://it.wikipedia.org/wiki/Napoleone_III_di_Francia">Napoleone III</name>
+								aveva sostenuto <name ref="https://it.wikipedia.org/wiki/Casa_Savoia">casa Savoia</name> e il <name ref="https://it.wikipedia.org/wiki/Regno_di_Sardegna">Regno di Sardegna</name> ma che ora stava vivendo un periodo difficile
+								 e il <name ref="https://it.wikipedia.org/wiki/Sovrani_di_Spagna">Regno di Spagna</name> che aveva parteggiato per <name ref="https://it.wikipedia.org/wiki/Borbone">casa Borbone</name> 
+								 e il <name ref="https://it.wikipedia.org/wiki/Regno_delle_Due_Sicilie">Regno delle due Sicilie</name> e ora per il <name ref="https://it.wikipedia.org/wiki/Storia_della_Citt%C3%A0_del_Vaticano">Vaticano</name>
+								 ; la partita, tra mosse e contromosse, si chiuderà con una <emph rend="italic">patta</emph> 59 anni dopo, il 29 Febbraio 1929, con la sottoscrizione tra
+								Italia e Vaticano dei <name ref="https://it.wikipedia.org/wiki/Patti_Lateranensi">Patti Lateranensi</name>.</p>
+							<p n="6"> L'interpretazione qui data dal codificatore, del resto avvolarata dal libretto del Giacosa per
+								la omonima opera teatrale in versi <emph rend="italic">"Una partita a scacchi"</emph> inscenata per la prima
+								volta, guarda caso, a <name key="NA" type="place">Napoli</name> nel 1873 e parla di un matrimoniuo difficle da farsi e che, appunto,
+								apre con un litigio, resta una interpretazione del tutto personale che non cambia il significato
+								reale che all'opera pittorica il suo autore Gerolamo Induno abbia voluto a suo tempo dare. </p>
+						</summary>
+					</history>
+ 					
+					
+							
+					<!-- TIPOLOGIA -->
+					<additional>
+						<adminInfo>
+							<note>
+							<p>Il fronte illustrato della cartolina riproduce la scena tratta dall'opera di <persName>Gerolamo Induno</persName> dal titolo La partita a scacchi</p> 
+									<watermark>Il soggetto principale è inserito all'interno di una cornice floreale</watermark>
+									<watermark>Nella parte inferiore della cornice floreale sono inseriti i versi di <name ref="https://it.wikipedia.org/wiki/Giovanni_Marradi">Giovanni Marradi</name>:
+									</watermark>
+										<quote>
+									   	<lg> 
+									   		<l>Non ha profumi il fior della parola</l>
+									        	<l>Se non l'effonde l'anima segreta</l>
+									   	</lg>
+									   </quote>
+									<p>Il retro della cartolina presenta:</p>
+										<watermark>In alto a destra uno spazio assegnato al francobollo indicato con un rettangolo all'interno del quale la scritta Stampata in Italia</watermark>
+										<watermark>In alto e in posizione centrale un simbolo grafico con la scritta <orgName>Sborgi</orgName> di cui la lettera <hi rend="italic">i</hi> si estende a forma di
+										tavolozza per colori</watermark>
+   									<watermark>Immediatamente sotto la scritta <orgName>Sborgi</orgName>, una retta disegnata verticalmente separa lo spazio in due parti: 
+   									a sinistra l'area destinata alla comunicazione, a destra la componente indirizzo</watermark>
+   									<watermark>All'estrema sinistra dello spazio di comunicazione si nota, in verticale, la rivendicazione della proprietà artistica</watermark>
+   									<watermark>Proprietà Artistica E. Sborgi Firenze</watermark>
+   									<num type="cardinal" value="100">100</num>
+										<desc>Numero riportato al termine della retta verticale in fase tipografica</desc>
+									<stamp>Cartolina non affrancata; assenti i timbri postali</stamp>
+									<ab facs="numero identificativo" type="mano di terza persona">
+										<num type="cardinal" value="79">79</num>
+										<desc>Annotazione a mano del numero assegnato nella collezione da parte di terzi</desc>
+            					</ab>
+							</note>
+						</adminInfo>
+					</additional>
+				</msDesc>
+				<!-- NOMI -->
+				<listPerson>
+				   <person xml:id="EB">
+						<persName>
+							<forename>E.</forename>  
+							<surname>Barbagelato</surname>
+						</persName>
+						<sex value="M">Maschio</sex>
+						<occupation n="1">[Soldato]</occupation>
+						<note>Mittente della cartolina</note>
+					</person>
+					<person xml:id="OT">
+						<persName>
+							<forename>Oliva</forename>  
+							<surname>Turtura</surname>
+						</persName>
+						<sex value="F">Femmina</sex>
+						<occupation n="1"/>
+						<note>Destinatario della cartolina</note>
+					</person>
+				</listPerson>
+				
+				<listPlace>
+						<place xml:id="SP3">
+							<placeName type="city">La Spezia</placeName>
+							
+							<settlement type="indirizzo">assente</settlement>
+							<district type="city">La Spezia</district>
+						</place>
+						<place xml:id="RA">
+							<placeName type="city">Ravenna</placeName>
+							<settlement type="indirizzo">assente</settlement>
+							<district type="city">Ravenna</district>
+							<note/>
+						</place>
+				</listPlace>
+				
+				
+				<listOrg>
+					<org xml:id="MESP">
+ 						<name ref="http://etnografico.museilaspezia.it/">Museo Civico Etnografico di La Spezia</name>
+ 							<desc>Sezione dei cimeli garibaldini e della Prima Guerra Mondiale
+ 									<name>Giovanni Podenzana</name>
+ 							</desc>
+ 					</org>
+				</listOrg>
+  			</sourceDesc>
+ 		</fileDesc>
+ 		<profileDesc>
+		
+			<correspDesc>
+				<correspAction type="sent">
+				   <persName ref="#EB"/>
+				   <placeName ref="SP3"/>
+					<!--<persName xml:id="Mittente">E. Barbagelato</persName> -->
+					<!--<placeName xml:id="partenza">Spezia</placeName> -->
+					<!-- DATA -->
+					<date when="1917-06-13">13 Giugno 1917</date>
+				</correspAction>
+				<correspAction type="received">
+					<persName xml:id="Destinatario">Oliva Turtura</persName>
+					<placeName xml:id="città">Ravenna</placeName>
+				</correspAction>
+				<correspContext>
+					<p>Grazie!? Perché?</p>
+ 					<p> Per così umile offerta? </p>
+ 					<p>Devot.mo</p>
+ 					<note><abbr> Devot.mo</abbr> abbreviazione per Devotissimo</note>
+ 					<p>E. Barbagelato</p>
+				</correspContext>
+			</correspDesc>
+			<textClass>
+				<keywords scheme="">
+					<!-- soggettario -->
+					<term> Cartolina </term>
+					<!-- tipologia -->
+					<term> Cartolina Artistica </term>
+					<!-- descrizione -->
+					<term>La partita a scacchi</term>
+				</keywords>
+			</textClass>
+			<langUsage>
+				<language ident="it-IT">italiano</language>
+			</langUsage>
+		</profileDesc>
+	</teiHeader>
+
+	<!-- DEFINIZIONE -->
+		<text type="cartolina">
+		<!-- TRASCRIZIONE -->
+ 			<body>
+  				
+  				
+  				
+  				
+  				<div type="fronte">
+   				<figure xml:id="illustrazione">
+    					
+      				<head><name ref="popup/fronte-079.html">Fronte della cartolina "La partita a scacchi"</name></head>
+    					<figDesc>La partita a scacchi è una replica autografa del dipinto con lo stesso soggetto conservato presso la
+						GAM di Milano. Il quadro trae ispirazione dall’opera teatrale in versi Una partita a scacchi di Giuseppe
+						Giacosa inscenata per la prima volta a Napoli nel 1873. </figDesc>
+ 						   	<figDesc>Il soggetto principale è inserito all'interno di una cornice floreale che contiene due versi di una poesia amorosa di Giovanni Marradi.
+ 						   	         <quote>
+ 						   	         	<lg> 
+ 						   	         		<l>Non ha profumi il fior della parola</l>
+									        		<l>Se non l'effonde l'anima segreta</l>
+									   		</lg>
+ 						   	         </quote>
+ 						   	         
+ 						   	</figDesc>
+   				</figure>
+  				</div>
+  				<div type="retro">
+  					<figure xml:id="iscrizioni">
+    					
+      				<head><name ref="popup/retro-079.html">Retro della cartolina "La partita a scacchi"</name></head>
+    					<figDesc>Il retro della cartolina è suddiviso in due zone: componente messaggio e componente indirizzo.
+    					Sono riportate le informazioni tipografiche e marcata l'area per l'affissione del francobollo.
+ 						</figDesc>
+   				</figure>
+   				
+         	</div>
+
+				<div type="terzaMano">
+ 					<ab facs="nota a mano" type="numero">
+ 					<note type="annotazione" place="margine">
+ 					<num value="79">79</num>
+ 					<desc>Annotazione manuale del numero 79 da parte di una terza mano</desc>
+ 					</note>
+ 					</ab>
+ 				</div>
+
+				<!-- qui dentro la componente messaggio come segue -->
+			
+				<div type="message" xml:lang="it">
+ 					
+ 					<l>Luogo e data: <placeName ref="#SP3"/>
+  						<date when="1917-06-13">13- <num type="roman" value="6">VI</num>-1917</date>
+ 					
+ 					</l>
+ 					<l>Grazie!? Perché?</l>
+ 					<l> Per così umile offerta? </l>
+ 					<l>Devot.mo</l>
+ 					<note><abbr> Devot.mo</abbr>abbreviazione per Devotissimo</note>
+ 					<signed><persName>E. Barbagelato</persName></signed>
+ 				
+ 				</div>
+ 				
+ 				<div type="received" xml:lang="it">
+ 								<ab>
+        							<stamp type="publicity">STAMPATA IN ITALIA</stamp>
+            					<stamp type="postmark"><add>Assente</add></stamp>
+            					<stamp type="postage"><add>Assente</add></stamp>
+        						</ab>
+        						<!-- lo anonimous block di sotto è un espediente per aggirare l'ostacolo delle gerarchie sovrapposte che mi si presenta inserendo direttamente
+        						     il blocco <address> il quale produce  l'invalidazione  -->
+        						<ab>
+        							<address>
+										<addrLine n="1">Alla Delicatissima</addrLine>
+										<addrLine n="2"><abbr>Sig.na</abbr> <persName>Oliva Turtura</persName></addrLine>
+										<note><abbr> Sig.na</abbr>abbreviazione per Signorina</note>
+										<addrLine n="3">a</addrLine>
+										<settlement type="city">RAVENNA</settlement>
+									</address>
+        						</ab>
+ 				</div>
+						
+ 		</body>
+	</text>
+	<facsimile>
+		    	   
+			<surface xml:id="fronte" type="illustrazione">
+			<!-- fronte cartolina -->
+			<graphic url="images/7694-079F_map.png" width="816px" height="536px"/>
+					<!-- fronte cartolina cornice floreale-->	
+					<zone xml:id="cornice" points ="4,3,816,3,814,531,694,527,693,54,106,52,101,461,690,460,685,523,3,529"/>
+					
+					<!-- area del soggetto della cartolina 	-->				
+					<zone xml:id="soggetto" points ="119,54,692,450"/>
+					
+					<!-- versi poetici 		-->			
+					<zone xml:id="versi" points ="175,462,658,528"/>
+			</surface>
+			
+<!-- retro della cartolina  -->	
+			<surface xml:id="retro" type="iscrizioni" >
+			
+				<graphic url="images/7694-079R_map.png" width="816px" height="536px" /> 
+					
+					<!-- elementi tipografici -->
+										
+					<zone xml:id=" ProprietàArtisticaSborgi" points = "4,115,36,417"/>
+					<!-- Proprieta Artistica E. SBORGI - Firenze  -->
+					
+					<zone xml:id="logoSBORGI" points = "360,22,470,92"/>
+					<!-- logo SBORGI 		-->
+					
+					<zone xml:id="linea_verticale" points = "394,87,428,483"/>
+					<!-- linea verticale di seprazione area messaggio da area indirizzo -->	
+														
+					<zone xml:id="spazioFrancobollo" points = "663,22,801,172"/>
+					<!-- spazio per il francobollo 	-->
+					
+					
+					<!-- elementi manoscritti: componente indirizzo -->
+														
+					<zone xml:id="prima_linea_componente_indirizzo-AllaDelicatissima" points = "427,221,796,265"/>
+					<!-- prima linea componente indirizzo: "Alla Delicatissima" -->	
+					
+					<zone xml:id="prima_linea_componente_indirizzo-Sig.na_Oliva_Turtura" points = "428,272,802,329"/>
+					<!-- seconda linea componente indirizzo: "Sig.na Oliva Turtura"  -->
+
+					<zone xml:id="terza_linea_componente_indirizzo" points = "722,371,503,334"/>
+					<!-- terza linea componente indirizzo: "a"  -->
+
+					<zone xml:id="quarta_linea_componente_indirizzo_Ravenna" points = "431,384,808,476"/>
+					<!-- quarta linea componente indirizzo: "Ravenna" 	-->	
+					
+					<!-- elementi manoscritti: componente messaggio 	-->	
+					
+					<zone xml:id="città-di-spedizione-data" points = " 115,66,179,20,427,292,373,320" />
+					<!-- area messaggio: città di spedizione e data  -->
+							
+					<zone xml:id="prima_riga_messaggio" points = " 55,166,145,101,429,385,367,439" />
+					<!-- prima riga di messaggio: "Grazie!? Perché?" -->
+					
+					<zone xml:id="seconda_riga_messaggio" points = " 46,208,113,191,379,467,316,503" />
+					<!-- seconda riga di messaggio:"Per così umile offerta?" -->
+					
+					<zone xml:id="forma_di_saluto_Devotissimo" points = " 131,370,163,334,304,485,269,516" />
+					<!-- forma di saluto:"Devotissimo" -->	
+					
+					<zone xml:id="firma_del_mittente-E.Barbagelato" points = " 31,397,84,328,263,504,196,529"/>
+					<!-- firma del mittente:"E. Barbagelato" --> 
+					
+					
+					<!-- elementi manoscritti di mano terza 	-->
+					<zone xml:id="numero-cartolina-inserito-da-mano-terza" points="4,8,75,58"/>
+					<!-- numero della cartolina inserito da una mano terza --> 
+			</surface>
+	</facsimile>
+</TEI>

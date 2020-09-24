@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI SYSTEM 'myTEI.dtd'>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cartolina_7694-175">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>[Dono della morte] - Edizione digitale</title>
+         </titleStmt>
+         <publicationStmt xmlns="http://www.tei-c.org/ns/1.0">
+            <publisher>
+               <choice>
+                  <abbr>Unipi</abbr>
+                  <expan>Università di
+                            <placeName ref="list.xml#PI">Pisa</placeName>
+                  </expan>
+               </choice>
+            </publisher>
+            <pubPlace ref="list.xml#PI">Pisa</pubPlace>
+            <availability>
+               <p>Available under licence only</p>
+            </availability>
+            <date when="2019">2019</date>
+            <distributor>
+               <orgName ref="list.xml#LCD">
+                  <choice>
+                     <abbr>LabCD</abbr>
+                     <expan>Laboratorio di Cultura Digitale</expan>
+                  </choice>
+               </orgName>
+            </distributor>
+            <address>
+               <addrLine>Laboratorio di Cultura Digitale - Università di Pisa</addrLine>
+               <addrLine>
+                  <placeName ref="list.xml#PI">Pisa</placeName>
+               </addrLine>
+            </address>
+         </publicationStmt>
+         <sourceDesc xmlns="http://www.tei-c.org/ns/1.0"> <!-- contiene informazoni relative alla fonte originale -->
+            <bibl>
+               <title type="custom" resp="list.xml#ES">[Dono della morte]</title>
+               <!-- titolo tra parentesi quadre perchè titolo formulato da terzi-->
+               <publisher>
+                  <orgName ref="list.xml#URS">
+                     <choice>
+                        <abbr>Uff.</abbr>
+                        <expan>Uff<ex>icio</ex>
+                        </expan>
+                     </choice>
+                     <choice>
+                        <abbr>Rev.</abbr>
+                        <expan>Rev<ex>isioni</ex>
+                        </expan>
+                     </choice> Stampa
+                        </orgName>
+               </publisher>
+               <availability>
+                  <p>Proprietà artistica riservata </p>
+               </availability>
+               <pubPlace ref="list.xml#MI">Milano</pubPlace>
+               <date when="1917-07-10">10-7-17</date>
+            </bibl>
+            <msDesc> <!-- contiene la descrizione del manoscritto -->
+               <msIdentifier>
+                  <!-- info per identificare il manoscritto -->
+                  <country ref="list.xml#IT">Italia</country>
+                  <settlement ref="list.xml#SP">La Spezia (SP)</settlement>
+                  <!-- collocazione specifica -->
+                  <repository ref="list.xml#MCE">Museo Civico Etnografico "Giovanni Podenzana", Sezione dei cimeli garibaldini e della Prima Guerrra Mondiale</repository>
+                  <!-- codice identificativo -->
+                  <idno type="postcard_id">7694_175_001/002</idno>
+                </msIdentifier>
+               <msContents> <!-- contenuto intellettuale del manoscritto-->
+                  <summary>Cartolina Artistica </summary>
+                  <textLang mainLang="ita">Italiano</textLang>
+               </msContents>
+               <physDesc> <!-- contiene la descrizione fisica del manoscritto -->
+                  <objectDesc>
+                     <supportDesc>
+                        <support> <!-- descrizione dei materiali che costituiscono il supporto fisico della parte scritta del manoscritto-->
+                           <objectType> Cartolina</objectType>
+                           <material>Carta</material>
+                           <measure type="composition" unit="foglio" quantity="1">1</measure>
+                           <dimensions unit="cm">
+                              <height>14</height>
+                              <width>9</width>
+                           </dimensions>
+                           <!-- descrizione del francobollo e dei timbri -->
+                           <stamp type="postage"> Francobollo di forma rettangolare delle Poste Italiane di colore verde da 5 centesimi, coperto quasi interamente dall'annullo postale.
+									</stamp>
+                           <stamp type="postmark">
+									Timbro di partenza poco leggibile.
+									</stamp>
+                           <!-- descrizione generale della cartolina -->
+                           <p>La parte del fronte presenta l'immagine artistica di <persName ref="list.xml#TCorb">T. Corbella</persName>: la Morte offre su un vassoio una testa in dono ad una figura in trono.
+									 Il retro è il vero corpo della lettera: presenta un timbro, il francobollo, le indicazoni del luogo del mittente, ma non è firmata, il messaggio e tutte le indicazioni del destinatario,
+									 al centro della cartolina in verticale, si trova la stampa "Proprietà artistica riservata - Uff. Rev. Stampa Milano 10-7-17 N 1482".
+									</p>
+                        </support>
+                        <condition> <!-- descrizione delle condizioni fisiche della cartolina -->
+									Cartolina in buone condizioni fisiche, la carta invecchiata ha assunto un colore beige sul retro, la scrittura è realizzata con inchiostro nero. Nel retro si trova un timbro visibile ed uno di cui si intravede solo un margine.
+									Il foglio presenta delle macchie probabilemnte d'inchiostro espanso dall'umidità, fattore che non ha riportato conseguenze rilevanti.
+								</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <p>Scritta a mano leggibile</p>
+                  </handDesc>
+                  <!-- descrizione del tipo di scrittura nella cartolina -->
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc xmlns="http://www.tei-c.org/ns/1.0"><!-- descrizione dettagliata degli aspetti non bibliografici  -->
+         <correspDesc><!-- contiene la descrizione delle azioni relative a un atto di corrispondenza -->
+            <correspAction type="sent">
+               <placeName ref="list.xml#MO">Modena</placeName>
+               <date type="postmark" when="1917-10-22">22/10/1917</date>
+               <note>La data scritta sul timbro di partenza è poco leggibile</note>
+               <date type="writing" when="1917-10-22">22/10/1917</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="list.xml#OT">Oliva Turtura</persName>
+               <placeName ref="list.xml#RV">Ravenna</placeName>
+            </correspAction>
+         </correspDesc>
+         <textClass> <!-- contiene le informazioni che descrivono la natura o l'argomento del testo -->
+            <keywords scheme="http://etnografico.museilaspezia.it/">
+               <term>Cartolina </term>
+               <!-- soggettario -->
+               <term>Cartolina Artistica </term>
+               <!-- tipologia -->
+               <term>Dono della morte</term>
+               <!-- descrizione -->
+            </keywords>
+         </textClass>
+         <langUsage> <!-- lingua usato nel testo -->
+            <language ident="it-IT">italiano</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <facsimile xmlns="http://www.tei-c.org/ns/1.0"> <!-- rappresentazione della fonte scritta sotto forma di una serie di immagini-->
+         <surface n="1" xml:id="i7694-175Rl"><!-- definisce una superficie scritta in termini di uno spazio rettangolare di coordinate-->
+            <graphic url="img-cartoline/7694-175R.jpg" width="1637px" height="1055px"/>
+            <!-- retro della cartolina parte sinistra -->
+            <!--copyright-->
+            <zone type="print" xml:id="line_publication-175" start="#line-publication-175"
+                  ulx="717"
+                  uly="37"
+                  lrx="749"
+                  lry="902"/>
+             <!--Modena - data-->
+            <zone type="handWriting" xml:id="lineText_1-175" start="#lineText-1-175"
+                  ulx="561"
+                  uly="94"
+                  lrx="710"
+                  lry="899"/>
+            <zone type="handWriting" xml:id="lineText_2-175" start="#lineText-2-175"
+                  ulx="393"
+                  uly="88"
+                  lrx="543"
+                  lry="893"/>
+            <zone type="handWriting" xml:id="lineText_3-175" start="#lineText-3-175"
+                  ulx="246"
+                  uly="89"
+                  lrx="369"
+                  lry="410"/>
+            <!-- parte di destra con l'indirizzo -->
+            <!--Sig.na-->
+            <zone type="handWriting" xml:id="lineText_4-175" start="#lineText-4-175"
+                  ulx="747"
+                  uly="338"
+                  lrx="1089"
+                  lry="493"/>
+            <zone type="handWriting" xml:id="lineText_5-175" start="#lineText-5-175"
+                  ulx="774"
+                  uly="511"
+                  lrx="1604"
+                  lry="638"/>
+            <zone type="handWriting" xml:id="lineText_6-175" start="#lineText-6-175"
+                  ulx="761"
+                  uly="652"
+                  lrx="1590"
+                  lry="806"/>
+            <!-- Ravenna -->
+            <zone type="handWriting" xml:id="lineText_7-175" start="#lineText-7-175"
+                  ulx="834"
+                  uly="809"
+                  lrx="1589"
+                  lry="1002"/>
+            <!-- retro della cartolina parte destra -->
+            <!-- catalogazione -->
+            <zone type="catalog" xml:id="number175_175" start="#number175-175"
+                  ulx="1002"
+                  uly="98"
+                  lrx="1131"
+                  lry="199"/>
+            <!-- francobollo -->
+            <zone type="postmark" xml:id="stamp_175" start="#stamp-175"
+                  ulx="1335"
+                  uly="13"
+                  lrx="1590"
+                  lry="316"/>
+            <!--timbro a destra-->
+            <zone type="postage" xml:id="stamp_right-175" start="#stamp-right-175"
+                  ulx="1223"
+                  uly="31"
+                  lrx="1553"
+                  lry="365"/>
+            <!--timbro canc. -->
+            <zone type="postage" xml:id="stamp_canc-175" start="#stamp-canc-175"
+                  ulx="1358"
+                  uly="191"
+                  lrx="1635"
+                  lry="325"/>
+         </surface>
+         <surface n="3" xml:id="i7694-175F"> <!-- definisce una superficie scritta in termini di uno spazio rettangolare di coordinate-->
+            <graphic url="img-cartoline/7694-175F.jpg" width="1629px" height="1056px"/>
+            <zone ulx="137"
+                  uly="401"
+                  lrx="620"
+                  lry="1054"
+                  rendition="HotSpot"
+                  xml:id="i175F_hotspot_01"/>
+            <!--Uomo Teschio-->
+            <zone ulx="492"
+                  uly="506"
+                  lrx="738"
+                  lry="632"
+                  rendition="HotSpot"
+                  xml:id="i175F_hotspot_02"/>
+            <!--Testa su Vassoio-->
+            <zone ulx="744"
+                  uly="81"
+                  lrx="1535"
+                  lry="948"
+                  rendition="HotSpot"
+                  xml:id="i175F_hotspot_03"/>
+            <!--Uomo su Trono-->
+            <zone ulx="1152"
+                  uly="581"
+                  lrx="1394"
+                  lry="956"
+                  rendition="HotSpot"
+                  xml:id="i175F_hotspot_04"/>
+            <!--Falco-->
+            <zone ulx="963"
+                  uly="854"
+                  lrx="1199"
+                  lry="977"
+                  rendition="HotSpot"
+                  xml:id="i175F_hotspot_05"/>
+            <!--Testa per Terra-->
+            <zone ulx="1445"
+                  uly="542"
+                  lrx="1587"
+                  lry="961"
+                  rendition="HotSpot"
+                  xml:id="i175F_hotspot_06"/>
+            <!--Testa appesa destra-->
+            <zone ulx="1274"
+                  uly="0"
+                  lrx="1616"
+                  lry="45"
+                  rendition="HotSpot"
+                  xml:id="i175F_hotspot_07"/>
+            <!--scritta in alto destra-->
+         </surface>
+   </facsimile>
+   <text>
+      <!-- informazioni peritestuali -->
+      <front>
+            <!-- testo tipografico -->
+            <div type="tipografia">
+                  <p>
+                        <s rend="writing-mode(vertical-lr) text-orientation(sideways)">
+                              Proprietà artistica riservata - 
+                              <orgName ref="list.xml#URS">
+                                    <choice>
+                                          <abbr>Uff.</abbr>
+                                          <expan>Uff<ex>icio</ex>
+                                          </expan>
+                                    </choice>
+                                    <choice>
+                                          <abbr>Rev.</abbr>
+                                          <expan>Rev<ex>isioni</ex>
+                                          </expan>
+                                    </choice> Stampa
+			            </orgName>
+                              <placeName ref="#lMI">Milano</placeName>
+                              <date when="1917-07-10">10-7-17</date>
+                              N. 
+                              <num type="cardinal" value="1482">1482</num>                           
+                        </s>
+                  </p>
+            </div>
+      </front>
+      <body>
+         <div xmlns="http://www.tei-c.org/ns/1.0" type="fronte">
+            <figure xml:id="i7694-075Fall" facs="#i7694-064F"> <!--che contiene tutta l'immagine-->
+               <figure xml:id="i175F_hsf_01" facs="#i175F_hotspot_01"> <!-- uomo teschio -->
+                  <figDesc>Figura scheletrica. Indossa un lungo mantello rosso scuro che copre interamente il resto dello scheletro, tralasciando fuori le ossa delle mani che reggono il vassoio su cui è appoggiata la testa. Rappresenta la morte.</figDesc>
+               </figure>
+               <figure xml:id="i175F_hsf_02" facs="#i175F_hotspot_02"> <!-- testa su vassoio -->
+                  <figDesc>Testa presubabilmente di una donna con copricapo di color bianco con uno stemma rosso, appoggiata su un vassoio.</figDesc>
+               </figure>
+               <figure xml:id="i175F_hsf_03" facs="#i175F_hotspot_03"> <!-- uomo su trono-->
+                  <figDesc>Uomo seduto su un trono, dai capelli lunghi biondi che cadono sulle spalle, vestito con una pelliccia marrone e dei sandali. Il volto è rivolto verso lo scheletro a cui fa segno di porgergli il dono che gli ha portato.</figDesc>
+               </figure>
+               <figure xml:id="i175F_hsf_04" facs="#i175F_hotspot_04"> <!-- falco -->
+                  <figDesc>Falco di color nero accanto all'uomo seduto sul trono.</figDesc>
+               </figure>
+               <figure xml:id="i175F_hsf_05" facs="#i175F_hotspot_05"> <!-- testa per terra -->
+                  <figDesc>Testa di un uomo a terra, di color scuro probabilmente a causa del tempo trascorso dalla sua decapitazione.</figDesc>
+               </figure>
+               <figure xml:id="i175F_hsf_06" facs="#i175F_hotspot_06"> <!-- testa appesa in basso a sinistra -->
+                  <figDesc>Testa presubilmente di una donna dai capelli lunghi. Attaccatta al tronco di un albero tramite un chiodo nei capelli. Il colore del volto è scuro, probabilmente a causa del tempo passato dalla sua decapitazione.</figDesc>
+               </figure>
+               <figure xml:id="i175F_hsf_07" facs="#i175F_hotspot_07"> <!-- scritta in alto a sinistra -->
+                  <figDesc>T. Corbella è la firma dell'autore dell'opera nella parte frontale della cartolina.</figDesc>
+               </figure>
+            </figure>
+         </div>
+         <div type="retro">
+            <div type="message">
+                  <opener xmlns="http://www.tei-c.org/ns/1.0">
+                        <dateline>
+                              <lb n="1" facs="#lineText_1-175" xml:id="lineText-1-175"/>
+                              <s>
+                                    <placeName ref="list.xml#lRV">Modena</placeName>, li 
+                                    <date when="1918-11-09">22/10-17</date>.
+                              </s>
+                        </dateline>
+                  </opener>
+                  <div xmlns="http://www.tei-c.org/ns/1.0" type="postcard-body">
+                        <p>
+                              <lb n="2" facs="#lineText_2-175" xml:id="lineText-2-175"/>
+                              Saluti affettuosissimi
+                              <lb n="3" facs="#lineText_3-175" xml:id="lineText-3-175"/>
+                              a tutti.
+                        </p>
+                  </div>
+            </div>
+            <div xmlns="http://www.tei-c.org/ns/1.0" type="address-destination">
+               <p>
+                  <address>
+                        <addrLine>
+                              <lb n="4" facs="#lineText_4-175" xml:id="lineText-4-175"/>
+                              Sig.na
+                              <lb n="5" facs="#lineText_5-175" xml:id="lineText-5-175"/>
+                              Oliva Turtura
+                              <lb n="6" facs="#lineText_6-175" xml:id="lineText-6-175"/>
+                              Via Girolamo <choice>
+                                                <orig>Rosfi</orig>
+                                                <reg resp="list.xml#LR" cert="high">Rossi</reg>
+                                           </choice> 58
+                              <lb n="7" facs="#lineText_7-175" xml:id="lineText-7-175"/>
+                              Ravenna
+                        </addrLine>
+                  </address>
+               </p>
+            </div>
+            <div type="postmark-postage">
+               <ab>
+                  <stamp xmlns="http://www.tei-c.org/ns/1.0" type="postage" rend="rectangular" facs="#stamp_175" xml:id="stamp-175">
+                     <mentioned rend="uppercase">Poste Italiane 5 centesimi</mentioned>
+                  </stamp>
+                  <stamp xmlns="http://www.tei-c.org/ns/1.0" type="postmark" rend="circular" facs="#stamp_right-175" xml:id="stamp-right-175">
+                     <mentioned rend="uppercase">
+                        <unclear reason="faded">
+                           <placeName ref="list.xml#MO">Modena</placeName>
+                           <date when="1917-10-22"> 22.10.17</date>.20
+                        </unclear>
+                     </mentioned>
+                  </stamp>
+                  <stamp xmlns="http://www.tei-c.org/ns/1.0" type="postmark" rend="circular" facs="#stamp_canc-175" xml:id="stamp-canc-175">
+                     <mentioned>
+                        <gap reason="illegible"/>
+                     </mentioned>
+                  </stamp>
+               </ab>
+            </div>
+            <div type="secondamano">
+               <ab type="paratext">
+                  <add acs="#number175_175" xml:id="number175-175">
+                     <num xmlns="http://www.tei-c.org/ns/1.0" value="175">175</num>
+                  </add>
+               </ab>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

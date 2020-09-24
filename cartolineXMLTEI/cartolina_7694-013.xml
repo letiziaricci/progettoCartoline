@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xml:id="cartolina_7694-013">
+   <tei:teiHeader/>
+   <tei:text>
+      <tei:front/>
+      <tei:body>
+         <tei:div type="retro">
+            <tei:div type="message">
+               <tei:opener xmlns="http://www.tei-c.org/ns/1.0">
+                  <tei:dateline>
+                     <tei:lb/>
+                     <tei:s>            Ravenna 9 Ottobre 916 </tei:s>
+                  </tei:dateline>
+               </tei:opener>
+               <tei:div xmlns="http://www.tei-c.org/ns/1.0" type="postcard-body">
+                  <tei:p>
+                     <tei:lb/>            Giovannino mio <tei:lb/>            ti amo, ti amo pazzamente...<tei:lb/>            Giovannino Giovannino <tei:lb/>            Giovannino.... lascia che <tei:lb/>            io ti chiami ardentemente così<tei:lb/>            mille volte, lascia che io metta nel <tei:lb/>            tuo nome tutto l'impeto di pasfione<tei:lb/>            che erompe dal cuor mio.....<tei:lb/>            non so dirti che così: perchè avrei troppo<tei:lb/>            da dirti ....<tei:lb/>            Perche non puoi più scrivermi a <tei:lb/>            lungo? Fallo sempre quando lo puoi,<tei:lb/>            se non saprai mai quanto pure <tei:lb/>            posfano parmi le tue dolci parole <tei:lb/>            anche io lo farò sempre (forse<tei:lb/>            stasfera) Ho bisogno di sentirmi viva <tei:lb/>            se mi <tei:gap reason="illegible"/>, ho bisogno <tei:lb/>            di te, del tuo aiuto.... Giovannino <tei:lb/>            Giovannino mi vuoi <tei:lb/>            bene davvero? Tu puoi ancora <tei:lb/>            sapere quanto t'ami e desideri<tei:lb/>            la tua Oliva.... Mi scriverai a lungo? <tei:lb/>            Sì Giovannino scrivimi e parlami <tei:gap reason="illegible"/>
+                     <tei:lb/>            di te, accontentami. Aspetto ancora <tei:lb/>            la famosa fotografia e puoi immaginare con che ansia....</tei:p>
+                  <tei:p type="fronte">
+                     <tei:lb/>            Ricorderei con più gioia te in persona.. <tei:lb/>            Giovannino amami amami<tei:lb/>            Scrivi </tei:p>
+               </tei:div>
+               <tei:closer xmlns="http://www.tei-c.org/ns/1.0">
+                  <tei:s>
+                     <tei:lb/>
+                     <tei:signed>
+                        <tei:persName>
+                           <tei:forename ref="Oliva">Oliva</tei:forename>
+                        </tei:persName>
+                     </tei:signed>
+                  </tei:s>
+               </tei:closer>
+            </tei:div>
+            <tei:div type="postmark-postage">
+               <tei:ab/>
+            </tei:div>
+            <tei:div type="secondamano">
+               <tei:ab type="paratext">
+                  <tei:add/>
+               </tei:ab>
+            </tei:div>
+         </tei:div>
+      </tei:body>
+   </tei:text>
+</tei:TEI>

@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI SYSTEM 'myTEI.dtd'>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cartolina_7694-197">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>La casa della fioraia - Edizione digitale</title>
+         </titleStmt>
+         <publicationStmt xmlns="http://www.tei-c.org/ns/1.0">
+            <publisher>
+               <choice>
+                  <abbr>Unipi</abbr>
+                  <expan>Università di
+                            <placeName ref="list.xml#PI">Pisa</placeName>
+                  </expan>
+               </choice>
+            </publisher>
+            <pubPlace ref="list.xml#PI">Pisa</pubPlace>
+            <availability>
+               <p>Available under licence only</p>
+            </availability>
+            <date when="2019">2019</date>
+            <distributor>
+               <orgName>
+                  <choice>
+                     <abbr>LabCD</abbr>
+                     <expan>Laboratorio di Cultura Digitale</expan>
+                  </choice>
+               </orgName>
+            </distributor>
+            <address>
+               <addrLine>Laboratorio di Cultura Digitale - Università di Pisa</addrLine>
+               <addrLine>
+                  <placeName ref="list.xml#PI">Pisa</placeName>
+               </addrLine>
+            </address>
+         </publicationStmt>
+         <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
+            <bibl>
+               <title>La casa della fioraia</title>
+               <author ref="list.xml#RS">Rubens Santoro</author>
+               <!-- PRODUZIONE Chi ha prodotto / pubblicato la cartolina. Se non presente togliere il tag  -->
+               <publisher>
+                  <orgName ref="list.xml#BT">Casa editrice d'Arte Bestetti e Tumminelli</orgName>
+               </publisher>
+               <!-- LUOGO -->
+               <pubPlace ref="list.xml#MI">Milano</pubPlace>
+            </bibl>
+            <msDesc>
+               <!-- descrizione del manoscritto -->
+                 <msIdentifier>
+                        <!-- info per identificare il manoscritto -->
+                        <country ref="list.xml#IT">Italia</country>
+                        <settlement ref="list.xml#SP">La Spezia (SP)</settlement>
+                        <!-- collocazione specifica -->
+                        <repository ref="list.xml#MCE">Museo Civico Etnografico "Giovanni Podenzana", Sezione dei cimeli garibaldini e della Prima Guerrra Mondiale</repository>
+                        <!-- codice identificativo -->
+                        <idno type="postcard_id">7694_197_001/002</idno>
+               </msIdentifier>
+               <!-- Informazioni sul contenuto della cartolina -->
+               <!-- DESCRIZIONE -->
+               <msContents>
+                  <summary>Cartolina Celebrativa</summary>
+                  <textLang>Italiano</textLang>
+                  <msItem n="1" facs="#fronte3">
+                     <author>
+                        <persName ref="list.xml#RS">Rubens Santoro</persName>
+                     </author>
+                     <title>Sommeil Interrompu</title>
+                  </msItem>
+                  <msItem n="2" facs="#retro3">
+                     <author>
+                        <persName ref="list.xml#GC">Giovanni Coliola</persName>
+                     </author>
+                     <title>Cartolina di Giuseppe a Oliva Turtura, Modena 14/01/1918</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType>Cartolina</objectType>
+                           <!-- MATERIALI -->
+                           <material>Carta</material>
+                           <!-- DIMENSIONE -->
+                           <dimensions unit="cm">
+                              <height>9</height>
+                              <width>14</width>
+                           </dimensions>
+                           <stamp>Non sono presenti francobolli.</stamp>
+                        </support>
+                        <condition>Buono</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <summary>Scrittura eseguita a mano leggibile, in corsivo, con una annotazione nella parte superiore destra del retro.</summary>
+                     <handNote n="1">Annotazione di un catalogatore che presenta il numero 197, 
+                                relativo alla classificazione delle 227 cartoline appartenente al museo di La Spezia.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <p part="N">La cartolina è stata scritta il <origDate instant="false">14 Gennaio 1918</origDate> a <origPlace instant="false">Modena</origPlace>, quando ancora si combatteva al fronte in occasione della <date from="1914" to="1918" instant="false">Prima Guerra Mondiale</date>. Il mittente è <persName ref="#GI" instant="false" full="yes">Giovanni Coliola</persName>,
+                      un tenente colonnello che, dovendosi spostare spesso a causa della guerra, scrive alla donna amata lontana da lui.</p>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc xmlns="http://www.tei-c.org/ns/1.0"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="list.xml#GC">Giovanni Coliola</persName>
+               <placeName ref="list.xml#MO">Modena</placeName>
+               <!-- DATA data di invio da timbro (postage) o da manoscritto (writing) -->
+               <date type="writing" when="1918-01-14">14/1/1918</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="list.xml#OT">Oliva Turtura</persName>
+               <note>Non sono specificati nè il luogo nè la data di arrivo</note>
+            </correspAction>
+         </correspDesc>
+         <textClass>
+            <keywords><!-- soggettario --><!-- tipologia --><!-- descrizione -->
+               <term>Cartolina </term>
+               <term>Cartolina Celebrativa </term>
+               <term>Una donna seduta su dei gradini con in mano dei fiori</term>
+            </keywords>
+         </textClass>
+         <langUsage>
+            <language ident="it-IT">italiano</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <facsimile xmlns="http://www.tei-c.org/ns/1.0"
+                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+         <surface><!-- Fronte -->
+            <graphic url="img-cartoline/7694-197F.jpg"
+                     width="350px"
+                     height="540px"
+                     xml:id="retro_postcard_197"/>
+            <zone type="handWriting" xml:id="lineText_19-197" start="#lineText-19-197"
+                  ulx="3"
+                  uly="495"
+                  lrx="346"
+                  lry="523"/>
+            <!-- prima riga -->
+            <zone type="handWriting" xml:id="lineText_20-197" start="#lineText-20-197"
+                  ulx="3"
+                  uly="520"
+                  lrx="344"
+                  lry="539"/>
+            <!-- seconda riga -->
+         </surface>
+         <surface n="2" corresp="#retro197"><!-- Retro -->
+            <graphic url="img-cartoline/7694-197R.jpg" width="357px" height="554px" xml:id="retro3"/>
+            <!--stampe-->
+            <zone ulx="13"
+                  uly="13"
+                  lrx="326"
+                  lry="23"
+                  xml:id="stampa01"
+                  rotate="0"/>
+            <zone ulx="34"
+                  uly="62"
+                  lrx="78"
+                  lry="233"
+                  xml:id="stampa02"
+                  rotate="0"/>
+            <zone ulx="301"
+                  uly="72"
+                  lrx="332"
+                  lry="398"
+                  xml:id="stampa03"
+                  rotate="0"/>
+            <!--TTESTO-->
+            <zone type="handWriting" xml:id="lineText_1-197" start="#lineText-1-197"
+                  ulx="114"
+                  uly="4"
+                  lrx="351"
+                  lry="35"/>
+            <!-- data -->
+            <zone type="handWriting" xml:id="lineText_2-197" start="#lineText-2-197"
+                  ulx="13"
+                  uly="33"
+                  lrx="191"
+                  lry="66"/>
+            <!-- Oliva mia, -->
+            <zone type="handWriting" xml:id="lineText_3-197" start="#lineText-3-197"
+                  ulx="61"
+                  uly="63"
+                  lrx="322"
+                  lry="93"/>
+            <!-- Sono giunto solo. -->
+            <zone type="handWriting" xml:id="lineText_4-197" start="#lineText-4-197"
+                  ulx="57"
+                  uly="101"
+                  lrx="352"
+                  lry="131"/>
+            <!-- Per tutta la durata del  -->
+            <zone type="handWriting" xml:id="lineText_5-197" start="#lineText-5-197"
+                  ulx="28"
+                  uly="133"
+                  lrx="345"
+                  lry="165"/>
+            <!-- viaggio ho ostinatamente  -->
+            <zone type="handWriting" xml:id="lineText_6-197" start="#lineText-6-197"
+                  ulx="8"
+                  uly="167"
+                  lrx="351"
+                  lry="197"/>
+            <!-- pensato a te, alle tue parole  -->
+            <zone type="handWriting" xml:id="lineText_7-197" start="#lineText-7-197"
+                  ulx="9"
+                  uly="198"
+                  lrx="352"
+                  lry="224"/>
+            <!-- alle tue speranze, al vostro  -->
+            <zone type="handWriting" xml:id="lineText_8-197" start="#lineText-8-197"
+                  ulx="9"
+                  uly="234"
+                  lrx="350"
+                  lry="259"/>
+            <!-- amore, poi non ho saputo  -->
+            <zone type="handWriting" xml:id="lineText_9-197" start="#lineText-9-197"
+                  ulx="5"
+                  uly="261"
+                  lrx="354"
+                  lry="292"/>
+            <!-- chiarire certi tuoi pensieri am- -->
+            <zone type="handWriting" xml:id="lineText_10-197" start="#lineText-10-197"
+                  ulx="5"
+                  uly="289"
+                  lrx="347"
+                  lry="324"/>
+            <!-- bigui, oscuri, fa niente… -->
+            <zone type="handWriting" xml:id="lineText_11-197" start="#lineText-11-197"
+                  ulx="5"
+                  uly="325"
+                  lrx="353"
+                  lry="352"/>
+            <!-- in seguito sarai più confi- -->
+            <zone type="handWriting" xml:id="lineText_12-197" start="#lineText-12-197"
+                  ulx="6"
+                  uly="356"
+                  lrx="344"
+                  lry="390"/>
+            <!-- denziale… chissà. Ti sia  -->
+            <zone type="handWriting" xml:id="lineText_13-197" start="#lineText-13-197"
+                  ulx="4"
+                  uly="390"
+                  lrx="344"
+                  lry="420"/>
+            <!-- di conforto il saperti tanto  -->
+            <zone type="handWriting" xml:id="lineText_14-197" start="#lineText-14-197"
+                  ulx="8"
+                  uly="421"
+                  lrx="352"
+                  lry="456"/>
+            <!-- tanto amata, adorata, nel  -->
+            <zone type="handWriting" xml:id="lineText_15-197" start="#lineText-15-197"
+                  ulx="5"
+                  uly="456"
+                  lrx="353"
+                  lry="489"/>
+            <!-- più vero significato, t’auguro  -->
+            <zone type="handWriting" xml:id="lineText_16-197" start="#lineText-16-197"
+                  ulx="8"
+                  uly="487"
+                  lrx="356"
+                  lry="519"/>
+            <!-- che ciò valga almeno qualche  -->
+            <zone type="handWriting" xml:id="lineText_17-197" start="#lineText-17-197"
+                  ulx="4"
+                  uly="516"
+                  lrx="356"
+                  lry="545"/>
+            <!-- volta, a squarciare il velo di me- -->
+            <zone type="handWriting" xml:id="lineText_18-197" start="#lineText-18-197"
+                  ulx="4"
+                  uly="538"
+                  lrx="349"
+                  lry="553"/>
+            <!-- stizia che adombra i tuoi pensieri. -->
+         </surface>
+   </facsimile>
+   <text>
+      <!-- informazioni peritestuali -->
+      <front>
+            <!-- testo tipografico -->
+            <div type="tipografia">
+                  <p>
+                        <s rend="writing-mode(horizontal-lr) text-orientation(sideways)">
+                              Proprietà art. riserv. - 
+                              <orgName ref="list.xml#BT" type="typography">
+                              Casa Ed. d'Arte Bestetti e Tumminelli - 
+                              </orgName>
+                              <placeName ref="list.xml#MI">Milano</placeName>
+                        </s>
+                  </p>
+                  <p>
+                        <s rend="writing-mode(vertical-lr) text-orientation(sideways)">
+                              XI ESPOSIZIONE INTERNAZIONALE D'ARTE
+                              DELLA CITTÀ DI VENEZIA - MCMXIV
+                        </s>
+                  </p>
+                  <p>
+                        <s rend="writing-mode(vertical-lr) text-orientation(sideways)">
+                              <persName ref="list.xml#RS" type="author">RUBENS SANTORO</persName>
+                              La casa della fioraia
+                              La Maison de la Bouquetiere
+                              Das House des Blumenmadchen
+                              The house of the flower-girl
+                        </s>
+                  </p>
+            </div>
+      </front>
+      <body>
+         <div xmlns="http://www.tei-c.org/ns/1.0"
+              xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+              type="fronte">
+            <figure>
+               <figDesc>La cartolina rappresenta una giovane donna, una fioraia, che tiene infatti in mano e vicino a sè dei fiori. La donna è seduta sui gradini che permettono l'accesso alla sua casa. Dalla porta aperta notiamo sullo sfondo un giardino ricco di vegetazione</figDesc>
+               <head>La casa della fioraia</head>
+            </figure>
+            <closer xmlns="http://www.tei-c.org/ns/1.0">
+                  <s  type="message">
+                        <lb n="19" facs="#lineText_19-197" xml:id="lineText-19-197"/>
+                        Sarei felice? Un bacio purissi
+                        <lb n="20" facs="#lineText_20-197" xml:id="lineText-20-197"/>
+                        mo, tuo 
+                  </s>
+                  <signed>
+                     <persName>
+                        <forename ref="list.xml#GC">Giovannino</forename>
+                     </persName>
+                  </signed>
+            </closer>
+         </div>
+         <div type="retro">
+            <div type="message">
+                  <opener xmlns="http://www.tei-c.org/ns/1.0">
+                        <dateline>
+                              <lb n="1" facs="#lineText_1-197" xml:id="lineText-1-197"/>
+                              <s>
+                                    <placeName ref="list.xml#MO">Modena</placeName>, li 
+                                    <date when="1918-01-14">14/1-1918</date>
+                              </s>
+                        </dateline>
+                  </opener>
+                  <div xmlns="http://www.tei-c.org/ns/1.0" type="postcard-body">
+                        <p>
+                              <lb n="2" facs="#lineText_2-197" xml:id="lineText-2-197"/>
+                              Oliva mia,
+                              <lb n="3" facs="#lineText_3-197" xml:id="lineText-3-197"/>
+                              sono giunto solo.
+                              <lb n="4" facs="#lineText_4-197" xml:id="lineText-4-197"/>
+                              Per tutta la durata del
+                              <lb n="5" facs="#lineText_5-197" xml:id="lineText-5-197"/>
+                              viaggio ho ostinatamente
+                              <lb n="6" facs="#lineText_6-197" xml:id="lineText-6-197"/>
+                              pensato a te, alle tue parole
+                              <lb n="7" facs="#lineText_7-197" xml:id="lineText-7-197"/>
+                              alle tue speranze, al nostro
+                              <lb n="8" facs="#lineText_8-197" xml:id="lineText-8-197"/>
+                              amore, poi non ho saputo
+                              <lb n="9" facs="#lineText_9-197" xml:id="lineText-9-197"/>
+                              chiarire certi tuoi <unclear reason="faded" resp="list.xml#LR">pe</unclear>nsieri am-
+                              <lb n="10" facs="#lineText_10-197" xml:id="lineText-10-197"/>
+                              bigui, oscuri, fa niente...
+                              <lb n="11" facs="#lineText_11-197" xml:id="lineText-11-197"/>
+                              in seguito sarai più confi-
+                              <lb n="12" facs="#lineText_12-197" xml:id="lineText-12-197"/>
+                              denziale... chisfà. Ti sia
+                              <lb n="13" facs="#lineText_13-197" xml:id="lineText-13-197"/>
+                              di conforto il saperti tanto
+                              <lb n="14" facs="#lineText_14-197" xml:id="lineText-14-197"/>
+                              tanto amata, adorata, nel
+                              <lb n="15" facs="#lineText_15-197" xml:id="lineText-15-197"/>
+                              più vero significato, t’auguro
+                              <lb n="16" facs="#lineText_16-197" xml:id="lineText-16-197"/>
+                              che ciò valga almeno qualche
+                              <lb n="17" facs="#lineText_17-197" xml:id="lineText-17-197"/>
+                              volta, a squarciare il velo di me-
+                              <lb n="18" facs="#lineText_18-197" xml:id="lineText-18-197"/>
+                              stizia che adombra i tuoi pensieri.
+                        </p>
+                  </div>
+            </div>
+            <div type="secondamano">
+               <ab type="paratext">
+                  <add cert="medium">
+                     <num xmlns="http://www.tei-c.org/ns/1.0"
+                          type="cardinal"
+                          value="197">197</num>
+                  </add>
+               </ab>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

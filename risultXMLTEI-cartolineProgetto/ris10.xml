@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI SYSTEM 'myTEI.dtd'>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cartolina_7694-010">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>La fede - Edizione digitale</title>
+         </titleStmt>
+         <publicationStmt>
+            <!-- contiene informazioni sulla pubblicazione e distribuzione del documento digitale -->
+            <publisher>
+                  <choice>
+                        <abbr>Unipi</abbr>
+                        <expan>
+                              Università di
+                              <placeName ref="list.xml#PI">Pisa</placeName>
+                         </expan>
+                  </choice>
+            </publisher>
+            <pubPlace ref="list.xml#PI">Pisa</pubPlace>
+                  <availability>
+                        <p>Available under licence only</p>
+                  </availability>
+                  <date when="2019">2019</date>
+                  <distributor>
+                        <orgName ref="list.xml#LCD">
+                              <choice>
+                                    <abbr>LabCD</abbr>
+                                    <expan>Laboratorio di Cultura Digitale</expan>
+                              </choice>
+                        </orgName>
+                  </distributor>
+                  <address>
+                        <addrLine>Laboratorio di Cultura Digitale - Università di Pisa</addrLine>                              
+                        <addrLine>
+                              <placeName ref="list.xml#PI">Pisa</placeName>
+                        </addrLine>
+                  </address>
+            </publicationStmt>
+         <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
+            <bibl>
+               <title type="custom" resp="list.xml#ES">La Fede</title>
+               <publisher>
+                        <persName ref="list.xml#SB">Stefano Bersani</persName>
+               </publisher>
+            </bibl>
+            <msDesc>
+                  <!-- descrizione del manoscritto -->
+                  <msIdentifier>
+                              <!-- info per identificare il manoscritto -->
+                              <country ref="list.xml#IT">Italia</country>
+                              <settlement ref="list.xml#lSP">La Spezia (SP)</settlement>
+                              <!-- collocazione specifica -->
+                              <repository ref="list.xml#MCE">Museo Civico Etnografico "Giovanni Podenzana", Sezione dei cimeli garibaldini e della Prima Guerrra Mondiale</repository>
+                              <!-- codice identificativo -->
+                              <idno type="postcard_id">7694_010_001/002</idno>
+                        </msIdentifier>
+                        <!-- Informazioni sul contenuto della cartolina -->
+                        <msContents>
+                              <summary>Cartolina Artistica</summary>
+                              <textLang mainLang="ita">Italiano</textLang>
+                        </msContents>
+                        <physDesc>
+                              <!-- descrizione fisica del manoscritto -->
+                              <objectDesc>
+                                    <supportDesc>
+                                          <support>
+                                                <objectType>Cartolina</objectType>
+                                                <material>Carta</material>
+                                                <dimensions unit="cm">
+                                                      <height>9</height>
+                                                      <width>14</width>
+                                                </dimensions>
+                                           </support>
+                                           <condition>
+                                                      Cartolina in buone condizioni fisiche e ben leggibile.
+                                          </condition>
+                                    </supportDesc>
+                               </objectDesc>
+                         </physDesc>
+                   </msDesc>
+            </sourceDesc>
+      </fileDesc>
+      <profileDesc xmlns="http://www.tei-c.org/ns/1.0">
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="list.xml#GC">Giovanni Coliola</persName>
+               <placeName ref="list.xml#ZG">Zona di guerra</placeName>
+               <date type="writing" when="1916-11-07">1917/11/7</date>
+            </correspAction>
+            <correspAction type="received">
+                  <persName ref="list.xml#OT">Oliva Turtura</persName>
+            </correspAction>
+         </correspDesc>
+         <textClass>
+            <keywords>
+                    <!-- soggettario -->
+                    <!-- tipologia -->
+                    <!-- descrizione -->
+               <term>Cartolina </term>
+               <term>Cartolina Artistica </term>
+               <term>Immagine di donna che prega</term>
+            </keywords>
+         </textClass>
+         <langUsage>
+            <language ident="it">italiano</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+      <facsimile>
+            <!-- Definizione della superficie di scrittura in termini di uno spazio espresso attraverso un sistema di coordinate -->
+         <surface xml:id="fronte_postcard_010" start="fronte_postcard-010" type="fronte">
+            <graphic url="img-cartoline/7694-010F.jpg"/>
+            <note type="nota_facsimile">L'immagine si trova sul fronte della cartolina e non presenta scritte.</note>
+         </surface>
+         <surface xml:id="retro_postcard_010" start="retro_postcard-010" type="retro">
+            <graphic url="img-cartoline/7694-010R.jpg" width="650px" height="419px"/>
+            <!-- TESTO CARTOLINA -->
+            <!-- zona di guerra -->
+            <zone type="handWriting" xml:id="lineText_1-10" start="#lineText-1-10" ulx="47" uly="2" lrx="187" lry="34" />
+            <!-- data -->
+            <zone type="handWriting" xml:id="lineText_2-10" start="#lineText-2-10" ulx="189" uly="8" lrx="329" lry="64" />
+            <zone type="handWriting" xml:id="lineText_3-10" start="#lineText-3-10" ulx="40" uly="40" lrx="149" lry="68" />
+            <zone type="handWriting" xml:id="lineText_4-10" start="#lineText-4-10" ulx="19" uly="67" lrx="369" lry="86" />
+            <zone type="handWriting" xml:id="lineText_5-10" start="#lineText-5-10" ulx="18" uly="97" lrx="405" lry="122" />
+            <zone type="handWriting" xml:id="lineText_6-10" start="#lineText-6-10" ulx="17" uly="128" lrx="397" lry="151" />
+            <zone type="handWriting" xml:id="lineText_7-10" start="#lineText-7-10" ulx="17" uly="161" lrx="394" lry="177" />
+            <zone type="handWriting" xml:id="lineText_8-10" start="#lineText-8-10" ulx="16" uly="184" lrx="383" lry="207" />
+            <zone type="handWriting" xml:id="lineText_9-10" start="#lineText-9-10" ulx="15" uly="220" lrx="392" lry="243" />
+            <zone type="handWriting" xml:id="lineText_10-10" start="#lineText-10-10" ulx="15" uly="252" lrx="390" lry="277" />
+            <zone type="handWriting" xml:id="lineText_11-10" start="#lineText-11-10" ulx="17" uly="284" lrx="394" lry="310" />
+            <zone type="handWriting" xml:id="lineText_12-10" start="#lineText-12-10" ulx="16" uly="318" lrx="366" lry="341" />
+            <zone type="handWriting" xml:id="lineText_13-10" start="#lineText-13-10" ulx="16" uly="348" lrx="409" lry="375" />
+            <zone type="handWriting" xml:id="lineText_14-10" start="#lineText-14-10" ulx="14" uly="378" lrx="405" lry="404" />
+            <zone type="handWriting" xml:id="lineText_15-10" start="#lineText-15-10" ulx="13" uly="411" lrx="406" lry="435" />
+            <zone type="handWriting" xml:id="lineText_16-10" start="#lineText-16-10" ulx="13" uly="441" lrx="327" lry="473" />
+            <zone type="handWriting" xml:id="lineText_17-10" start="#lineText-17-10" ulx="13" uly="475" lrx="373" lry="504" />
+            <zone type="handWriting" xml:id="lineText_18-10" start="#lineText-18-10" ulx="29" uly="505" lrx="349" lry="536" />
+            <zone type="handWriting" xml:id="lineText_19-10" start="#lineText-19-10" ulx="19" uly="533" lrx="385" lry="556" />
+            <zone type="handWriting" xml:id="lineText_20-10" start="#lineText-20-10" ulx="58" uly="557" lrx="397" lry="585" />
+            <zone type="handWriting" xml:id="lineText_21-10" start="#lineText-21-10" ulx="89" uly="584" lrx="389" lry="623" />
+            <zone type="handWriting" xml:id="lineText_22-10" start="#lineText-22-10" ulx="48" uly="609" lrx="179" lry="644" />
+            <!-- firma -->
+            <zone type="handWriting" xml:id="lineText_23-10" start="#lineText-23-10" ulx="211" uly="621" lrx="373" lry="649" />
+            <!-- STAMPE -->
+            <!-- Stefano Bersani -->
+            <zone type="print" xml:id="publication_10" start="#publication-10" ulx="369" uly="400" lrx="387" lry="611" />
+            <!-- proprietà aritistica -->
+            <zone type="print" xml:id="stampa_10" start="#stampa-10" ulx="122" uly="626" lrx="347" lry="640" />
+            <!-- logo casa editrice -->
+            <zone type="print" xml:id="logo_10" start="#logo-10" ulx="24" uly="554" lrx="86" lry="614" />
+            <!-- 10 (catalogazione) -->
+            <zone type="catalog" xml:id="number10_10" start="#number10-10" ulx="346" uly="10" lrx="376" lry="32" />
+         </surface>
+      </facsimile>
+   <text>
+      <!-- informazioni peritestuali -->
+      <front>
+            <!-- testo tipografico -->
+            <div type="tipografia">
+                  <p facs="#publication_10" xml:id="publication-10">
+                        <s rend="writing-mode(vertical-lr) text-orientation(sideways)">
+                              <persName ref="list.xml#EF" type="author">
+                                    STEFANO BERSANI
+                              </persName>
+                              - La Fede
+                        </s>
+                  </p>
+                  <p rend="writing-mode(horizontal-lr) text-orientation(sideways)">
+                        <s facs="stampa_10" xml:id="stampa-10">
+                              Proprietà artistica riservata - Serie V - N. 29
+                        </s>
+                  </p>
+                  <ab facs="logo_10" xml:id="logo-10">
+                        Logo casa editrice
+                  </ab>
+            </div>
+      </front>
+      <body>
+         <div xmlns="http://www.tei-c.org/ns/1.0" type="fronte" xml:id="fronte-postcard-010" facs="#fronte_postcard_010">
+            <figure>
+                  <graphic url="img-cartolina/7694-010F.jpg" />
+                   <!-- Descrizione dell'immagine in linguaggio naturale -->
+                  <figDesc>
+                  <desc> Nella cartolina vediamo rappresentata una donna seduta immersa nella natura nell'atto di pregare.</desc>
+               </figDesc>
+            </figure>
+         </div>
+         <div type="retro">
+            <div type="message">
+                  <opener>
+                        <dateline>
+                              <lb n="1"/>
+                              <s>
+                                    <placeName facs="#lineText_1-10" xml:id="lineText-1-10" ref="list.xml#pZG">Zona di guerra</placeName>, li 
+                                    <date facs="#lineText_2-10" xml:id="lineText-2-10" when="1916-07-11">11/7-16 </date>
+                              </s>
+                        </dateline>
+                  </opener>
+                  <div type="postcard-body">
+                  <p>
+                     <lb n="2" facs="#lineText_3-10" xml:id="lineText-3-10"/>
+                     Oliva mia,
+                     <lb n="3" facs="#lineText_4-10" xml:id="lineText-4-10"/>
+                     Godo la <choice>
+                                 <orig>freschisfima</orig>
+                                 <reg resp="list.xml#LR" cert="high">freschissima</reg>
+                             </choice> aura che aleggia
+                     <lb facs="#lineText_5-10" xml:id="lineText-5-10"/>
+                     nell'ombra d'un castagneto, la godo con
+                     <lb facs="#lineText_6-10" xml:id="lineText-6-10"/>
+                     infinita voluttà, con immensa compiacen-
+                     <lb facs="#lineText_7-10" xml:id="lineText-7-10"/>
+                     za. Vado rileggendo le tue vecchie
+                     <lb facs="#lineText_8-10" xml:id="lineText-8-10"/>
+                     lettere, illudendo l'amor mio con
+                     <lb facs="#lineText_9-10" xml:id="lineText-9-10"/>
+                     pietoso <choice>
+                                    <orig>artefizio</orig>
+                                    <reg resp="list.xml#LR" cert="high">arteficio</reg>
+                              </choice> che giova per altro
+                     <lb facs="#lineText_10-10" xml:id="lineText-10-10"/>
+                     a ripensare più profondamente sui
+                     <lb facs="#lineText_11-10" xml:id="lineText-11-10"/>
+                     tuoi pensieri, sui tuoi proponiment-
+                     <lb facs="#lineText_12-10" xml:id="lineText-12-10"/>
+                     ti, sulla tua affettuosa indole.
+                     <lb facs="#lineText_13-10" xml:id="lineText-13-10"/>
+                     Oliva mia perchè non scrivi più?
+                     <lb facs="#lineText_14-10" xml:id="lineText-14-10"/>
+                     Sono vivamente addolorato del tuo
+                     <lb facs="#lineText_15-10" xml:id="lineText-15-10"/>
+                     lungo silenzio, del tuo tenace <gap reason="illegible" extent="6" unit="char"/>-
+                     <lb facs="#lineText_16-10" xml:id="lineText-16-10"/>
+                     <gap reason="illegible" extent="4" unit="char"/>. È colpa della Posta?
+                     <lb facs="#lineText_17-10" xml:id="lineText-17-10"/>
+                     Tu mi pensi e mi ami sempre?
+                     <lb facs="#lineText_18-10" xml:id="lineText-18-10"/>
+                     Evvero Oliva, scrivilo subito
+                     <lb facs="#lineText_19-10" xml:id="lineText-19-10"/>
+                     subito, riconfermalo. Ho bisogno
+                     <lb facs="#lineText_20-10" xml:id="lineText-20-10"/>
+                     delle tue amorevoli parole, sai?
+                  </p>
+               </div>
+               <closer>
+                  <s>
+                     <lb facs="#lineText_21-10" xml:id="lineText-21-10"/>
+                     Con <choice>
+                              <orig>tenerisfimo</orig>
+                              <reg resp="list.xml#LR" cert="high">tenerissimo</reg>
+                         </choice> ed immutato 
+                     <lb facs="#lineText_22-10" xml:id="lineText-22-10"/>
+                     affetto tuo 
+                  </s>
+                  <signed facs="#lineText_23-10" xml:id="lineText-23-10">
+                        <persName>
+                           <forename ref="list.xml#GC">Giovannino</forename>
+                        </persName>
+                   </signed>
+               </closer>
+            </div>
+            <div type="secondamano">
+               <ab type="paratext">
+                  <add facs="#number10_10" xml:id="number10-10">
+                     <num type="cardinal"> 10 </num>
+                  </add>
+               </ab>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

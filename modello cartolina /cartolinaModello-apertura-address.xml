@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc> <!-- contiene le informazioni relative al documento digitale-->
+            <titleStmt> <!-- titolo e responsabili dell'edizione digitale -->
+                <title>La balancoire improvisee - Edizione digitale</title>
+                <respStmt>
+                    <resp>Trascritto da:</resp>
+                    <name ref="#LR">Letizia Ricci</name>
+                </respStmt> 
+
+                <respStmt>
+                    <resp>Ente di Appartenenza:</resp>
+                    <name type="comune">Comune di
+						<placeName ref="#SP">La Spezia</placeName>
+					</name>
+				</respStmt>
+                
+            </titleStmt>
+            
+            <editionStmt> <!-- contiene informazion sull'edizione -->
+                <edition> Tirocinio
+                    <date when="2018">2018</date>
+                </edition>
+                
+                <respStmt>
+                    <resp>Codificato da:</resp>
+                    <name ref="#LR">Letizia Ricci</name>
+                </respStmt>
+                
+                <respStmt>
+                   
+                    <resp>Compilatore:</resp>
+                    <name ref="#LR">Letizia Ricci</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Responsabile scientifico:</resp>
+                    <name ref="#GP">Giacomo Paolicchi</name>
+                    <name ref="#ES">Enrica Salvatori</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Funzionario responsabile:</resp>
+                    <name ref="#MR">Marzia Ratti</name>
+                </respStmt>
+            </editionStmt>
+            
+            <publicationStmt> <!-- contiene informazioni sulla pubblicazione e distribuzione del documento digitale -->
+                <publisher>
+                    <choice>
+                        <abbr>Unipi</abbr>
+                        <expan>Università di
+                            <placeName ref="#Pi">Pisa</placeName>
+                        </expan>
+                    </choice>
+                </publisher>
+                <pubPlace ref="#Pi">Pisa</pubPlace>
+                <availability>
+                    <p>Available under licence only</p>
+                </availability>
+                <date when="2019">2019</date>
+                <distributor>
+					<orgName ref="">
+						<choice>
+                      	  <abbr>LabCD</abbr>
+                       	 <expan>Laboratorio di Cultura Digitale</expan>
+                   		 </choice>
+					</orgName>
+				</distributor>
+                <address>
+                    <addrLine>Laboratorio di Cultura Digitale - Università di Pisa</addrLine>
+                    <addrLine><placeName ref="#Pi">Pisa</placeName></addrLine>
+				</address>
+			</publicationStmt>
+            
+            <notesStmt>
+                <note> </note>
+            </notesStmt>
+            
+            <sourceDesc> <!-- contiene informazoni relative alla fonte originale -->
+                <bibl> 
+                    <title type="custom" resp="#ES">La balancoire improvisee</title>
+                    <author ref="#DM">
+                        <persName ref="#DM">D. Mastroianni </persName>
+                    </author>
+                    <publisher ref="#AN">
+                        <persName ref="#AN">A. Noyer </persName>
+                    </publisher>
+                    <pubPlace ref="#P">Parigi</pubPlace>
+                    <date when="1918">1918</date>
+                </bibl>
+
+                <msDesc> <!-- contiene la descrizione del manoscritto -->
+                    <msIdentifier> <!-- informazioni che identificano il manoscritto -->
+                        <country>Italia</country>
+                        <settlement ref="" type="city">La Spezia (SP)</settlement>
+                        <!-- COLLOCAZIONE SPECIFICA -->
+                        <repository>Museo Civico Etnografico "Giovanni Podenzana", Sezione dei cimeli garibaldini e della Prima Guerrra Mondiale</repository>
+                        <!-- CODICE IDENTIFICATIVO -->
+                        <idno type="inventory">7694_065_001/002</idno> <!-- codice della singola cartolina -->
+                    </msIdentifier>
+
+                    <msContents> <!-- contenuto intellettuale del manoscritto-->
+                        <summary>Cartolina Artistica</summary>
+                        <textLang mainLang="ita">Italiano</textLang>
+                    </msContents>
+                      
+                    <physDesc> <!-- contiene la descrizione fisica del manoscritto -->
+                        <objectDesc>
+                            <supportDesc>
+                                <support> <!-- descrizione dei materiali che costituiscono il supporto fisico della parte scritta del manoscritto-->
+                                    <objectType>Cartolina</objectType>
+                                    <material>Carta</material>
+                                    <dimensions unit="cm">
+                                        <height>9</height>
+                                        <width>14</width>
+                                    </dimensions>
+                                </support>
+                                <!-- descrizione delle condizioni fisiche della cartolina -->
+                                <condition>Cartolina in discrete condizioni fisiche, sono presenti alcune macchie d'inchiostro sbiadite. </condition>
+                            </supportDesc>
+                        </objectDesc>
+                        <handDesc> <!-- descrizione del tipo di scrittura nella cartolina -->
+							<p>Scritta a mano leggibile</p>
+						</handDesc>
+                    </physDesc> 
+                </msDesc>   
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc> <!-- descrizione dettagliata degli aspetti non bibliografici -->
+            <correspDesc> <!-- contiene la descrizione delle azioni relative a un atto di corrispondenza -->
+                <correspAction type="sent">
+                    <persName ref="G" role="writer">Giuseppe</persName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#OT">Oliva Turtura</persName>
+                </correspAction>
+            </correspDesc>
+            
+            <textClass> <!-- contiene le informazioni che descrivono la natura o l'argomento  -->
+                <keywords scheme="http://etnografico.museilaspezia.it/">
+                    <term>Cartolina </term>  <!-- soggettario -->
+                    <term>Cartolina Artistica </term>  <!-- tipologia -->
+                    <term>Una coppia di giovani che si intrattengono su un'amaca improvvisata nel bosco </term> <!-- descrizione -->
+				</keywords>
+            </textClass>
+            
+            <langUsage> <!-- lingua usato nel testo -->
+				<language ident="it-IT">Italiano</language>
+			</langUsage>
+        </profileDesc>
+
+        <encodingDesc> <!-- descrizione della codifica -->
+			<p>Codifica di base rispettando le forme e le informazioni lessicali, la punteggiatura e la sillabazione del documento,
+            normalizzando il tutto per la codifica. Validazione delle cartoline con con xmllint e creazione della DTD con tei-Roma.</p>
+		</encodingDesc>
+        
+    </teiHeader>
+    
+    <facsimile> <!-- rappresentazione della fonte scritta sotto forma di una serie di immagini-->
+        <surface n="1" xml:id="" ulx="3" uly="14" lrx="873" lry="1054"> <!-- definisce una superficie scritta in termini di uno spazio rettangolare di coordinate-->
+			<graphic url="nomefile.jpg" width="1645px" height="1054px" />
+			<!-- retro della cartolina parte sinistra -->
+			<zone ulx="118" uly="22" lrx="708" lry="137" rendition="Line" xml:id=""/> 
+			<zone ulx="120" uly="182" lrx="810" lry="299" rendition="Line" xml:id=""/>
+		</surface>
+    </facsimile>
+
+    <text type="cartolina" xml:id="">
+        <!-- TRASCRIZIONE -->
+        <body>
+            <div type="fronte" xml:id="" facs="">
+                <figure xml:id="" >
+                    <graphic url="nomefile.jpg" />
+                    <figDesc>Una coppia di giovani che si intrattengono su un'amaca improvvisata nel bosco </figDesc>
+                    <head>La balancoire improvisee</head> <!-- titolo dell'immagine/cartolina -->
+                </figure>
+            </div>
+            <div type="retro" facs="">
+                <opener> <!-- contiene l'inizio della cartolina con luogo e data -->
+					<dateline>
+						<lb xml:id="" facs=""/>
+						<s type="sentence" n="s1">
+							<placeName ref="">Ravenna</placeName>
+							<date when="1913/08/01">1-VIII-913</date>
+						</s>
+					</dateline>
+				</opener>
+                <div type="postcard-body" > <!-- contiene il testo della cartolina -->
+                    <p>
+						<s type="sentence" n="s2">
+						<lb xml:id="" facs=""/>A Ravenna nulla di nuo- 
+						<lb xml:id="" facs=""/>vo. Salute ottima.</s>
+                        <lb xml:id="" facs=""/><s type="sentence" n="s3"> Oggi ho ricevuto una cartoli-
+                        <lb xml:id="" facs=""/>na della Carolina da Crema. </s>
+                        <lb xml:id="" facs=""/> <s type="sentence" n="s4"> Non so come contraccambiar-
+                        <lb xml:id="" facs=""/>la avendone ora perduto 
+                        <lb xml:id="" facs=""/>le traccie. </s> <s type="sentence" n="s5"> È una lepre 
+                        <lb xml:id="" facs=""/>quella più svelta di te 
+                        <lb xml:id="" facs=""/>e tiene il récord dei viag-
+                        <lb xml:id="" facs=""/>gi: se mi dirai l'indi-
+                        <lb xml:id="" facs=""/>rizzo la raggiungerò con 
+                        <lb xml:id="" facs=""/>una cartolina. </s> <s type="sentence" n="s6"> Ieri l'al-
+                        <lb xml:id="" facs=""/>tro ti scrissi e ora avrai 
+                        <lb xml:id="" facs=""/>già ricevuto. </s> <s type="sentence" n="s7"> I tuoi di 
+                        <lb xml:id="" facs=""/>casa ti salutano con me.
+						</s>
+                    </p>
+                </div>
+                <closer> <!-- contiene le conclusioni della cartolina con saluti e firma -->
+					<salute>
+						<s type="sentence" n="s8">
+							<lb xml:id="" facs=""/> Divertiti e stà allegra.
+						</s>
+					</salute>
+					<lb xml:id="" n="" facs=""/>
+					<signed rend="aligne(center)">
+						<persName ref="" role="sender">
+							<forename>
+								<hi rend="underline">Giuseppe</hi>
+							</forename>
+						</persName>
+					</signed>
+				</closer>
+                <div type="address-destination"> <!-- informazioni del destinatario -->
+                    <p>
+                        <address>
+                            <lb xml:id="" facs=""/><addrLine> Signorina </addrLine>
+                            <lb xml:id="" facs=""/>
+                            <addrLine>
+                                <persName ref="">Oliva Turtura </persName>
+                            </addrLine>
+                            <lb xml:id="" facs=""/> Presso il 
+                            <addrLine>
+                                <choice>
+                                    <abbr type="title">Sig</abbr>
+                                    <expan>Sig<ex>nor</ex></expan>
+                                </choice>
+                                <persName ref="">Cibecchini </persName>
+                            </addrLine>
+                            <lb xml:id="" facs=""/>
+                            <addrLine> Via Cavour <num type="cardinal">12</num></addrLine>
+                            <lb xml:id="" facs="" />
+                            <addrLine>
+                                <placeName ref="">(Lago Maggiore)</placeName>
+                                <placeName ref="">Arona</placeName>
+                            </addrLine>
+                        </address>
+                    </p>
+                </div> 
+                <div type="postmark-postage">
+                    <ab xml:id="" facs="">
+                        <stamp type="postmark">  <!-- timbro -->
+                            <mentioned rend="circle">
+                                <gap reason="illegible" agent="faded" unit="chars"/>
+                                <mentioned>
+                                    <hi rend="align(center)">
+                                        <unclear reason="faded" agent="time" cert="high">22.3.13.22</unclear>
+                                    </hi>
+                                </mentioned>
+                            </mentioned>
+                        </stamp>
+                        <stamp type="postmark">  <!-- timbro -->
+                            <mentioned rend="circle">
+                                <gap reason="illegible" agent="faded" unit="chars"/>
+                                <mentioned>
+                                    <hi rend="align(center)">
+                                        <unclear reason="faded" agent="time" cert="high">22.3.13.22</unclear>
+                                    </hi>
+                                </mentioned>
+                            </mentioned>
+                        </stamp>
+                        <stamp type="postmark">  <!-- timbro -->
+                            <mentioned rend="circle">
+                                <gap reason="illegible" agent="faded" unit="chars"/>
+                                <mentioned>
+                                    <hi rend="align(center)">
+                                        <unclear reason="faded" agent="time" cert="high">22.3.13.22</unclear>
+                                    </hi>
+                                </mentioned>
+                            </mentioned>
+                        </stamp>
+
+                        <stamp type="postage"> <!-- francobollo -->
+                            <mentioned rend="color(green)">
+                                <orgName ref="">Poste italiane</orgName>
+                                <hi>
+                                    <num rend="double" type="cardinal" value="5">5</num> centesimi 
+                                    <num rend="double" type="cardinal" value="5">5</num>
+                                </hi>
+                            </mentioned>
+                        </stamp>
+                    </ab>  
+                </div>
+                <div type="add"> <!-- numero di seconda mano -->
+                    <ab type="paratext" subtype="addition" hand="#h1" xml:id="" facs="">
+                            <add cert="medium">
+                                <num type="cardinal" value="65">65</num>
+                            </add>
+                    </ab>
+                </div>   
+            </div>
+        </body>
+    </text>
+</TEI>

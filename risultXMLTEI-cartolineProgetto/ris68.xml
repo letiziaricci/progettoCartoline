@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI SYSTEM 'myTEI.dtd'>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cartolina_7694-068">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>L'aubade - Edizione digitale</title>
+         </titleStmt>
+         <publicationStmt xmlns="http://www.tei-c.org/ns/1.0">
+            <publisher>
+               <choice>
+                  <abbr>Unipi</abbr>
+                  <expan>Università di
+                            <placeName ref="list.xml#PI">Pisa</placeName>
+                  </expan>
+               </choice>
+            </publisher>
+            <pubPlace ref="list.xml#PI">Pisa</pubPlace>
+            <availability>
+               <p>Available under licence only</p>
+            </availability>
+            <date when="2019">2019</date>
+            <distributor>
+               <orgName ref="list.xml#LCD">
+                  <choice>
+                     <abbr>LabCD</abbr>
+                     <expan>Laboratorio di Cultura Digitale</expan>
+                  </choice>
+               </orgName>
+            </distributor>
+            <address>
+               <addrLine>Laboratorio di Cultura Digitale - Università di Pisa</addrLine>
+               <addrLine>
+                  <placeName ref="list.xml#PI">Pisa</placeName>
+               </addrLine>
+            </address>
+         </publicationStmt>
+         <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
+            <bibl>
+               <title>L'aubade</title>
+               <author ref="list.xml#DM">D. Mastroianni</author>
+               <publisher>
+                        <persName ref="list.xml#pAN">A. Noyer </persName>
+               </publisher>
+               <availability> 
+                        <p>Copyright</p>
+               </availability>
+               <pubPlace ref="list.xml#P">Parigi</pubPlace>
+               <date when="1912"> 1912</date>>
+            </bibl>
+            <msDesc>
+                  <!-- descrizione del manoscritto -->
+                  <msIdentifier>
+                        <!-- info per identificare il manoscritto -->
+                        <country ref="list.xml#IT">Italia</country>
+                        <settlement ref="list.xml#SP">La Spezia (SP)</settlement>
+                        <!-- collocazione specifica -->
+                        <repository ref="list.xml#MCE">Museo Civico Etnografico "Giovanni Podenzana", Sezione dei cimeli garibaldini e della Prima Guerrra Mondiale</repository>
+                        <!-- codice identificativo -->
+                        <idno type="postcard_id">7694_068_001/002</idno>
+                  </msIdentifier>
+               <!-- Informazioni sul contenuto della cartolina -->
+               <msContents>
+                  <summary>Cartolina Artistica</summary>
+                  <textLang>Italiano</textLang>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType>Cartolina</objectType>
+                           <!-- MATERIALI -->
+                           <material>Carta</material>
+                           <!-- DIMENSIONE -->
+                           <dimensions unit="cm">
+                              <height>9</height>
+                              <width>14</width>
+                           </dimensions>
+                           <stamp type="postage">2 rancobolli da 5 centesimi delle Poste Italiane di colore verde</stamp>
+                        <stamp type="postmark">4 timbri</stamp>
+                        </support>
+                        <condition>Buono</condition>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc xmlns="http://www.tei-c.org/ns/1.0">
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="list.xml#Pia">Pia</persName>
+               <!-- città di invio da timbro (postage) o da manoscritto (writing) -->
+               <placeName type="writing" ref="list.xml#VR">Verona</placeName>
+               <!-- DATA data di invio da timbro (postage) o da manoscritto (writing) -->
+               <date type="postage" when="1912-09-21">21-9-12</date>
+               <date type="writing" when="1912-09-21">21-9-12</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="list.xml#OT">Oliva Turtura</persName>
+               <placeName ref="list.xml#RV">Ravenna</placeName>
+            </correspAction>
+         </correspDesc>
+         <textClass>
+            <keywords>
+                    <!-- soggettario -->
+                    <!-- tipologia -->
+                    <!-- descrizione -->
+               <term>Cartolina </term>
+               <term>Cartolina Artistica </term>
+               <term>L'aubade</term>
+            </keywords>
+         </textClass>
+         <langUsage>
+            <language ident="it-IT">italiano</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <facsimile xmlns="http://www.tei-c.org/ns/1.0" xml:id="immagineAnnotata68">
+         <surface xml:id="fronte68" start="#cartolina_fronte68">
+            <graphic url="img-cartoline/7694-068F.jpg" width="1037.007812px" height="1634.007812px"/>
+         </surface>
+   </facsimile>
+   <facsimile xmlns="http://www.tei-c.org/ns/1.0" xml:id="testoAnnotato68">
+         <surface xml:id="retro68" start="#cartolina_retro68">
+            <graphic url="img-cartoline/7694-068R.jpgg" width="1641.007812px" height="1038.007812px"/>
+            <zone ulx="0" uly="0" lrx="717" lry="1015"/>
+            <!--testo retro-->
+            <zone ulx="715" uly="357" lrx="1633" lry="1035"/>
+            <!--indirizzo-->
+            <zone ulx="563" uly="15" lrx="1633" lry="481"/>
+            <!--timbro e francobollo-->
+         </surface>
+   </facsimile>
+   <text>
+   <front xml:id ="i7694-064Rl_copy" facs="#i7694-064Rl"> <!-- parte preliminare in questo caso stampa del copyright-->
+            <div type="print" rend="vertical">
+                  <p>Copyright by
+                        <persName ref="list.xml#AN">
+                              <abbr>A.</abbr> Noyer
+                        </persName>.
+                        <date>1912</date>. – Allegorie
+                        <choice>
+                              <abbr>N°</abbr>
+                              <expan>N<ex>umero</ex></expan>
+                        </choice>
+                        186
+                  </p>
+            </div>
+      </front>
+      <body>
+         <div xmlns="http://www.tei-c.org/ns/1.0"
+              type="fronte"
+              facs="#fronte"
+              xml:id="cartolina_fronte-68">
+            <figure>
+               <head>
+                  <lb/>
+                  <title>L'aubade</title> di <persName>Domenico Mastroianni</persName>
+               </head>
+               <lb/>
+               <figDesc>L'immagine in bianco e nero rappresenta una donna affacciata ad un balcone, intenta ad ascoltare
+                    tre amorini che suonano su una barca. La donna sembra lieta, con la mano destra tiene lo scialle che ha sulle spalle,
+                    mentre la sinistra è appoggiata al balcone. In basso, sul fiume sotto al balcone, i tre amorini recano in mano ognuno
+                    un diverso strumento: l'ultimo sta suonando un violoncello, quello centrale uno strumento a fiato, che sembra un oboe o 
+                    un clarinetto, mentre quello in cima tiene in mano i due remi per condurre la barca.
+                    Tutta la scena è inserita in un ambiente bucolico, le strutture architettoniche sono ricoperte di erbe rampicanti.
+                    </figDesc>
+            </figure>
+         </div>
+         <div type="retro">
+            <div type="message">
+                  <opener xmlns="http://www.tei-c.org/ns/1.0">
+                        <dateline>
+                              <lb n="1"/>
+                              <s>
+                                    <placeName ref="list.xml#VR"><unclear reason="faded" resp="list.xml#LR">Verona</unclear></placeName>
+                                    <date when="1912-09-21">21-9-12</date>
+                              </s>
+                        </dateline>
+                  </opener>
+            <div xmlns="http://www.tei-c.org/ns/1.0" type="postcard-body">
+               <p>
+                  <lb n="2"/>
+                  Partirò lunedì
+                  <lb n="3"/>
+                  col treno delle 17 circa.
+               </p>
+            </div>
+            <closer xmlns="http://www.tei-c.org/ns/1.0">
+                  <s>
+                  <lb n="4"/>
+                  Vogliami bene e 
+                  <lb n="5"/>
+                  Arrivederci tua 
+                  </s>
+                  <lb n="6"/>
+                  <signed>
+                     <persName>
+                        <forename ref="list.xml#Pia">Pia</forename>
+                     </persName>
+                  </signed>
+            </closer>
+            </div>
+            <div xmlns="http://www.tei-c.org/ns/1.0" type="address-destination">
+               <p>
+                  <address>
+                        <addrLine>
+                              <lb n="7"/>
+                              Signorina
+                              <lb n="8"/>
+                              Oliva Turtura
+                              <lb n="9"/>
+                              Girolamo <choice>
+                                           <orig>Rosfi</orig>
+                                          <reg resp="list.xml#LR" cert="high">Rossi</reg>
+                                       </choice>
+                              <lb n="10"/>
+                              Ravenna
+                        </addrLine>
+                  </address>
+               </p>
+            </div>
+            <div type="postmark-postage">
+               <ab>
+                  <stamp xmlns="http://www.tei-c.org/ns/1.0" type="postmark">
+                     <mentioned>. Ravenna . |arrivi e partenze|</mentioned>
+                     <date when="1912-9-21">21 9 - 12</date>
+                  </stamp>
+                  <stamp xmlns="http://www.tei-c.org/ns/1.0" type="postmark">
+                     <mentioned>Ferrara</mentioned>
+                     <note>Il francobollo è illeggibile.</note>
+                  </stamp>
+                  <stamp xmlns="http://www.tei-c.org/ns/1.0" type="postmark">
+                     <note>Il francobollo è illeggibile.</note>
+                  </stamp>
+                  <stamp xmlns="http://www.tei-c.org/ns/1.0" type="postmark">
+                     <note>Il francobollo è illeggibile.</note>
+                  </stamp>
+                  <stamp xmlns="http://www.tei-c.org/ns/1.0" type="postage">due francobolli da 5 centesimi del Regno d'Italia</stamp>
+               </ab>
+            </div>
+            <div type="secondamano">
+               <ab type="paratext">
+                  <add>
+                     <num xmlns="http://www.tei-c.org/ns/1.0" type="cardinal" value="68">
+                        68
+                        </num>
+                  </add>
+               </ab>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xml:id="cartolina_7694-037">
+   <tei:teiHeader/>
+   <tei:text>
+      <tei:front/>
+      <tei:body>
+         <tei:div type="retro">
+            <tei:div type="message">
+               <tei:opener xmlns="http://www.tei-c.org/ns/1.0">
+                  <tei:dateline>
+                     <tei:lb/>
+                     <tei:s>            30/11-1916</tei:s>
+                  </tei:dateline>
+               </tei:opener>
+               <tei:div xmlns="http://www.tei-c.org/ns/1.0" type="postcard-body">
+                  <tei:p>
+                     <tei:lb/>            (ore 12) <tei:lb/>            Oliva,<tei:lb/>            È il tuo Giovannino che t'invoca, <tei:lb/>            che t'ama ardentemente, divinamente!<tei:lb/>            Quando ci sarà concesfo d'amarci come <tei:lb/>            proprio il nostro cuore ci detta? Quando io<tei:lb/>            soavemente potrò adagiare il mio capo<tei:lb/>            ormai stordito tanto, felicemente sul <tei:lb/>            tuo purisfimo grembo e dormire <tei:lb/>            come il fanciullo lieto suole, tran-<tei:lb/>            quillo, sotto lo sguardo vigile della<tei:lb/>            madre? Io ti voglio tanto, tanto <tei:lb/>            lume, un mondo di lume puro ardente.<tei:lb/>            E tu, al tuo Giovannino???<tei:lb/>            Pensa un pochino al tuo Giovan-<tei:lb/>            nino?!!  </tei:p>
+                  <tei:p type="fronte"/>
+               </tei:div>
+               <tei:closer xmlns="http://www.tei-c.org/ns/1.0">
+                  <tei:s>
+                     <tei:lb/>Un bacio affettuoso <tei:lb/>con tutto il trasporto dell'anima <tei:lb/>mia tuo <tei:lb/>
+                     <tei:signed>
+                        <tei:persName>
+                           <tei:forename ref="Giovannino">Giovannino</tei:forename>
+                        </tei:persName>
+                     </tei:signed>
+                  </tei:s>
+               </tei:closer>
+            </tei:div>
+            <tei:div type="postmark-postage">
+               <tei:ab/>
+            </tei:div>
+            <tei:div type="secondamano">
+               <tei:ab type="paratext">
+                  <tei:add/>
+               </tei:ab>
+            </tei:div>
+         </tei:div>
+      </tei:body>
+   </tei:text>
+</tei:TEI>

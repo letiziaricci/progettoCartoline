@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE TEI SYSTEM 'myTEI.dtd'[
+    <!ENTITY agrave "&#224;">
+    <!ENTITY egrave "&#232;">
+    <!ENTITY eacute "&#233;">
+    <!ENTITY ograve "&#242;">
+    <!ENTITY quest "&#63;">
+    <!ENTITY ndash "&#45;">
+    <!ENTITY frasl "&#x2044;">
+    <!ENTITY apos "&#39;">
+    <!ENTITY quot "&#34;">
+    <!ENTITY star "&#x2605;">
+]>
+<TEI xml:id="cartolina_7694-121">
+        <teiHeader xml:lang="ita">
+            <fileDesc>
+                <titleStmt>
+                    <title>Cartolina n.121</title> 
+                    <respStmt>
+                        <resp> Trascrizione di </resp>
+                        <name type="person" xml:id="A" > Arianna Ricciarelli </name>
+                        <name type="person" xml:id="G" > Giulia Cultrera </name>
+                    </respStmt>
+                    <!-- Ente Di Appartenenza -->
+                    <respStmt xml:id="ente">
+                        <resp> Ente di Appartenenza: </resp>
+                        <name type="comune" xml:id="SP"> Comune della Spezia </name>
+                    </respStmt>                   
+                </titleStmt>
+
+                <editionStmt>
+                    <edition>Studenti di Storia Pubblica Digitale, Corso di Laurea Magistrale di Informatica Umanistica, <orgName type="acronym" ref="#UNIPI">Universit&agrave; di Pisa</orgName>,
+                        <!-- Compilazione -->
+                        <date> 2019 </date>
+                    </edition> 
+                    <!-- Compilatori --> 
+                    <respStmt>
+                        <resp>Codifica a cura di: </resp>
+                        <name type="person" ref="#A" > Arianna Ricciarelli e</name> 
+                        <name type="person" ref="#G" > Giulia Cultrera </name>
+                    </respStmt>                  
+                    <!-- Referente Scientifico -->
+                    <respStmt>
+                        <resp>Compilatore: </resp>
+                        <name  xml:id="TM"> Tommaso Castagneto </name>
+                    </respStmt>
+                    <respStmt>
+                        <resp>Responsabile scientifico: </resp>
+                        <name  xml:id="GP"> Giacomo Paolicchi </name>
+                        <name  xml:id="ES"> Enrica Salvatori </name>
+                    </respStmt>
+                    <respStmt>
+                        <resp>Funzionario responsabile: </resp>
+                        <name  xml:id="MR"> Marzia Ratti </name>
+                    </respStmt>
+                </editionStmt>
+
+                <publicationStmt>
+                    <publisher> <gi>Editore: </gi><orgName type="acronym" ref="#UNIPI">Unipi</orgName> </publisher>
+                    <pubPlace> <gi>Luogo: </gi>Pisa </pubPlace>
+                    <availability>
+                        <p> Disponibile solo su licenza </p>
+                    </availability>
+                    <date  when="2019"><gi>Anno: </gi>2019 </date>
+                    <distributor><gi>Sigla distributore: </gi><orgName type="acronym" ref="#LabCD">LabCD</orgName> </distributor>
+                    <address>
+                        <addrLine><gi>Distributore: </gi><orgName type="acronym" ref="#LabCD">Laboratorio di Cultura Digitale</orgName> - <orgName type="acronym" ref="#UNIPI">Universit&agrave; di Pisa</orgName>, </addrLine>
+                        <addrLine> Pisa </addrLine>
+                    </address>
+                </publicationStmt>
+
+                <notesStmt>
+                    <note n="2">La cartolina non è stata spedita: è priva di francobollo e di timbro postale.
+                        Al loro posto rimane la stampa <foreign xml:lang="eng">"Made in Italy"</foreign>. 
+                        Per tale motivo, è stato omesso l'elemento <gi scheme="TEI">correspAction</gi>.
+                    </note>
+                    <note n="3"> Su entrambi i lati sono presenti macchie e aloni scuri dovuti al passare del tempo. 
+                    Sul retro è presente il numero identificativo del nostro catalogo <num type="cardinal">(121)</num>, ripetuto due volte.
+                    </note>
+                </notesStmt>
+            
+                <sourceDesc>
+                    <bibl>
+                        <!-- Titolo ricavato dalla cartolina -->
+                        <title  type="custom"> Donna che sorride </title>
+                    </bibl>
+
+                    <msDesc>
+                        <!-- Codice identificativo della cartolina -->
+                        <msIdentifier>
+                            <country><gi>Nazione: </gi>Italia</country>
+                            <settlement type="city"><gi>Città: </gi>La Spezia (SP) </settlement>
+                            <repository> 
+                                Museo Civico Etnografico &quot;Giovanni Podenzana&quot;, Sezione dei cimeli garibaldini e della Prima Guerra Mondiale 
+                            </repository>
+                                <idno>7694_121_001/002</idno>
+                        </msIdentifier>
+                    <!-- Informazioni sul contenuto e descrizione generica delle tre cartoline -->
+                        <msContents>
+                            <summary>Cartolina Artistica</summary>
+                            <textLang><gi>Lingua: </gi>Italiano </textLang>
+                        </msContents>
+
+                        <physDesc>
+                            <objectDesc>
+                                <supportDesc>
+                                    <support>
+                                        <objectType> Cartolina </objectType> 
+                                        <material> Carta </material>
+                                        <dimensions unit="cm">
+                                            <height> 9 </height>
+                                            <width>14 </width>
+                                        </dimensions>
+                                    </support>
+                                    <!-- Conservazione buono= non occorrono interventi di restauro;-->
+                                    <condition><gi>Stato: </gi>Buono </condition>
+                                </supportDesc>
+                            </objectDesc>
+                        </physDesc>
+                    </msDesc>                  
+                </sourceDesc>
+            </fileDesc>
+
+            <profileDesc>
+                <correspDesc>
+                    <correspContext> 
+                         <ref type="next" target="#cartolina138"> 
+                            <persName ref="#GC"> Giovanni Coliola </persName> 
+                            <persName ref="#OT"> Oliva Turtura </persName>  
+                            <date when="11/10/1917">11/10/1917</date>
+                        </ref>
+                    </correspContext>
+                </correspDesc> 
+                
+                <textClass>
+                    <keywords>
+                        <!-- soggettario -->
+                        <term> Donna in rosso con cerchietto sorridente </term>
+                        <!-- tipologia -->
+                        <term> Artistica </term>
+                        <!-- descrizione -->
+                        <term> Cartolina Artistica </term>
+                    </keywords>
+                </textClass>
+            </profileDesc>
+        </teiHeader>
+        
+        <facsimile>
+            <surface xml:id="F121" start="#F1" ulx="0" uly="0" lrx="549" lry="344">
+                <graphic url="img/121F.jpg"/>
+            </surface>
+            <surface xml:id="R121" start="#R1" ulx="0" uly="0" lrx="549" lry="344">
+                <graphic url="img/121R.jpg"/>
+                <!-- data - Modena, lì 21/6-1917 -->
+                <zone xml:id="cart_121_01" ulx="93" uly="0" lrx="344" lry="30" rendition="Line"/>
+                <!-- saluto iniziale - Oliva cara -->
+                <zone xml:id="cart_121_02" ulx="11" uly="11" lrx="162" lry="45" rendition="Line"/>
+                <!-- Intero Testo -->
+                <!-- Ieri non ti scrissi, non ne ebbi -->
+                <zone xml:id="cart_121_03" ulx="0" uly="41" lrx="344" lry="76" rendition="Line"/>
+                <!-- il tempo perchè fui comandato -->
+                <zone xml:id="cart_121_04" ulx="0" uly="79" lrx="344" lry="111" rendition="Line"/>              
+                <!-- in servizio di truppa in occa- -->
+                <zone xml:id="cart_121_05" ulx="0" uly="114" lrx="344" lry="147" rendition="Line"/>              
+                <!-- sione della consegna in caserma -->
+                <zone xml:id="cart_121_06" ulx="0" uly="150" lrx="344" lry="179" rendition="Line"/>            
+                <!-- delle truppe. Oggi idem, ma -->
+                <zone xml:id="cart_121_07" ulx="0" uly="180" lrx="344" lry="227" rendition="Line"/>              
+                <!-- si può respirare un poco e ne -->
+                <zone xml:id="cart_121_08" ulx="0" uly="222" lrx="344" lry="256" rendition="Line"/>              
+                <!-- approfitto per inviarti i miei -->
+                <zone xml:id="cart_121_09" ulx="0" uly="258" lrx="344" lry="291" rendition="Line"/>              
+                <!-- migliori ed affettuosi baci. -->
+                <zone xml:id="cart_121_10" ulx="0" uly="290" lrx="344" lry="324" rendition="Line"/>              
+                <!-- Tu nemmeno mi hai scritto. -->
+                <zone xml:id="cart_121_11" ulx="0" uly="322" lrx="344" lry="358" rendition="Line"/>              
+                <!-- Perchè? Questa sera spero -->
+                <zone xml:id="cart_121_12" ulx="0" uly="360" lrx="344" lry="390" rendition="Line"/>              
+                <!-- di poterti scrivere lungamente. -->
+                <zone xml:id="cart_121_13" ulx="0" uly="392" lrx="344" lry="422" rendition="Line"/>
+                <!-- Abbiti un dolcissimo bacio -->
+                <zone xml:id="cart_121_14" ulx="0" uly="429" lrx="344" lry="467" rendition="Line"/>
+                <!-- Saluto finale 1 - dal tuo -->
+                <zone xml:id="cart_121_15" ulx="27" uly="468" lrx="149" lry="505" rendition="Line"/>
+                <!-- Firma - Giovannino -->
+                <zone xml:id="cart_121_16" ulx="128" uly="479" lrx="344" lry="516" rendition="Line"/>
+                <!-- Saluto finale 2 - Saluti a tutti -->
+                <zone xml:id="cart_121_17" ulx="7" uly="516" lrx="203" lry="547" rendition="Line"/>
+                <!-- Proprietà artistica riservata -->
+                <zone xml:id="cart_121_18" ulx="309" uly="542" lrx="116" lry="521" rendition="Line"/>
+            </surface>
+        </facsimile>
+
+        <text  type="cartolina" xml:id="donnaSorridente" xml:lang="ita">
+            <!-- Trascrizione -->
+            <body xml:id="body">
+                <div type="fronte" facs="#F121" xml:id="F1">
+                    <figure>
+                        <graphic url="img/121F.jpg" xml:id="c1" n="121"/>
+                        <figDesc> Donna in rosso con cerchietto sorridente </figDesc>
+                        <head> Donna che sorride </head>
+                    </figure>
+                </div>
+                <div type="retro" facs="#R121" xml:id="R1">
+                    <div type="message">
+                        <opener>
+                            <lb n="1"/><dateline facs="#cart_121_01">
+                                <name type="place" ref="#MO"> Modena, </name>
+                                <date when="21/06/1917"> 
+                                    <distinct type="archaic"> li </distinct> 
+                                    <num type="cardinal">21 &frasl; <add place="below">6</add> <space/> &ndash; 1917 &ndash;</num>
+                                </date>
+                            </dateline>
+                            <salute><s facs="#cart_121_02">
+                                <lb n="2"/><name type="person" ref="#OT"><hi rend="decorated">O</hi>liva </name> cara,</s>
+                            </salute>
+                        </opener> 
+                        <p>
+                            <s facs="#cart_121_03"><lb n="3"/> <hi rend="decorated">I</hi>eri non ti scrissi, non ne ebbi </s>
+                            <s facs="#cart_121_04"><lb n="4"/> il tempo perch&eacute; fui comandato </s>
+                            <s facs="#cart_121_05"><lb n="5"/> in servizio di truppa in occa&ndash;</s>
+                            <s facs="#cart_121_06"><lb n="6" break="no"/>  sione della consegna in caserma </s>
+                            <s facs="#cart_121_07"><lb n="7"/> delle truppe <space quantity="1" unit="chars" dim="horizontal"/>. Oggi idem, ma</s>
+                            <s facs="#cart_121_08"><lb n="8"/> si pu&ograve; respirare un poco e ne </s>
+                            <s facs="#cart_121_09"><lb n="9"/> approfitto per inviarti i miei </s>
+                            <s facs="#cart_121_10"><lb n="10"/> migliori ed affettuosi baci<space quantity="1" unit="chars" dim="horizontal"/>.</s>
+                            <s facs="#cart_121_11"><lb n="11"/> Tu nemmeno mi hai scritto<space quantity="1" unit="chars" dim="horizontal"/>.</s>
+                            <s facs="#cart_121_12"><lb n="12"/> Perch&eacute;&quest; Questa sera spero </s>
+                            <s facs="#cart_121_13"><lb n="13"/> di poterti scrivere lungamente.</s>
+                            <s facs="#cart_121_14"><lb n="14"/> <distinct type="archaic"> Abbiti </distinct> un dolcissimo bacio</s>
+                        </p>
+                        <closer>
+                            <salute ><s facs="#cart_121_15">
+                                <lb n="15"/> dal tuo </s>
+                            </salute>   
+                            <signed facs="#cart_121_16"><lb n="16"/>
+                                <name type="person" ref="#GC"><hi rend="decorated"> Giovannino </hi></name>
+                            </signed>
+                            <salute ><s facs="#cart_121_17">
+                                <lb n="17"/> Saluti a tutti <space quantity="1" unit="chars" dim="horizontal"/>.</s>
+                            </salute> 
+                        </closer>
+                        <div type="add">
+                            <ab type="catalogazione">
+                                <num type="cardinal" value="121">
+                                        121
+                                </num>
+                            </ab>
+                        </div>
+                        <note>
+                            <s facs="#cart_121_18"><lb n="18"/> Proprietà artistica riservata <gap reason="illegible"/>N° <num type="cardinal">200</num>[..]</s>
+                        </note>
+                    </div>
+                </div>
+            </body>
+        </text>
+    </TEI>

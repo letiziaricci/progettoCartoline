@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cartolina_7694-010" > 
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>                   
+                <!-- TITOLO NB: non corrisponde completamente alla voce TITOLO della tabella perché si tratta del titolo della edizione digitale -->
+                <title type="sub" xml:id="title10"> La fede </title>
+            </titleStmt>
+            
+            
+            <publicationStmt> <!--obbligatorio quindi solo publisher-->
+                <publisher> 
+                    <orgName ref="#UNIPI"> Unipi </orgName> 
+                </publisher>    
+            </publicationStmt> 
+            
+            <notesStmt xml:id="note10">
+                <note n="1">
+                    Sul retro troviamo la scritta "Proprietà artistica riservata - Serie V - n°29"
+                    Troviamo inoltre la scritta "STEFANO BERSANI - La Fede.", cioè il titolo dell'opera sul fronte.
+                    Troviamo, infine, un logo, probabilmente appartenente all'azienda che si è occupata della stampa della cartolina.
+                    Presente anche un numero (10) che identifica la cartolina nell'archivio del progetto.
+                </note>
+                <note n="2">
+                    Sulla base delle cartoline che sono presenti in archivio, possiamo dedurre che la corrispondenza va sicuramente dal 1911 al 1918; non sappiamo però la data effettiva di inizio e di fine corrispondenza.
+                </note>
+                <note n="3"> 
+                    Nella cartolina non sono presenti timbri e francobolli, e non è presente nemmeno un indirizzo; riteniamo comunque che l'indirizzo sia lo stesso delle altre cartoline poichè 
+                    leggendo la cartolina vediamo che Giovannino si appella ad Oliva, quindi la residenza si può collocare nella stessa delle altre cartoline.
+                </note>
+            </notesStmt>
+            
+            
+            <sourceDesc>
+                <bibl>
+                    <!-- TITOLO Quello che si ricava dalla cartolina; Se un documento composto da immagini
+                            non presenta un titolo o altri elementi considerabili come titolo, si formula un titolo sintetico
+                            registrandolo entro parentesi quadre [Venere al bagno] ma indicando dentro la codifica come qui sotto esemplificato-->
+                    
+                    <title type="custom" resp="#ES">[La fede]</title>
+                    <author ref="#GC">Giovanni </author>
+                </bibl>
+                
+                <msDesc>
+                    
+                    <msIdentifier>                         
+                        <!-- CODICE IDENTIFICATIVO -->
+                        <idno>7694_010_001/002</idno>
+                    </msIdentifier>
+                    
+                    <!-- Informazioni sul contenuto della cartolina -->
+                    <!-- DESCRIZIONE -->
+                    <msContents>
+                        <summary>Cartolina Artistica</summary>
+                        <textLang>Italiano</textLang>
+                    </msContents>
+                    
+                </msDesc>
+                
+                <!-- NOMI -->
+                <listPerson>                 
+                    <person >
+                        <persName ref="#GC">
+                            <forename>Giovanni</forename>
+                            <surname>Coliola</surname>
+                        </persName>
+                        <sex>M</sex>
+                        <occupation n="1"><desc> Tenente Colonnello[maggiore] </desc> </occupation>
+                    </person>
+                    <person>
+                        <persName ref="#OT">
+                            <forename>Oliva</forename>
+                            <surname>Turtura</surname>
+                        </persName>
+                        <sex>F</sex>
+                    </person>
+                    
+                    <person xml:id="SB">
+                        <persName>
+                            <forename> 
+                                <choice>
+                                    <expan>Stefano</expan>
+                                    <abbr>S.</abbr>
+                                </choice>
+                            </forename>
+                            <surname>Bersani</surname>
+                        </persName>
+                        <sex>M</sex>
+                        <nationality key="it">italiano</nationality>
+                    </person>                      
+                </listPerson>
+                
+                <!--LUOGHI-->
+                <listPlace>
+                    <place>
+                        <placeName ref="#ZG">Zona di guerra</placeName>
+                        <country>N.D.</country>
+                    </place> 
+                    
+                </listPlace>
+            </sourceDesc>     
+        </fileDesc>
+        
+        <profileDesc>
+            <correspDesc xml:id="corresp10">
+                <correspAction type="sent">
+                    <persName ref="#GC"> Giovanni Coliola</persName> 
+                    <placeName ref="#ZG">Zona di guerra</placeName>
+                    <date type="writing" when="1916-11-07">1917/11/7</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName type="Turtura" ref="#OT">Oliva Turtura</persName>
+                </correspAction>
+                
+            </correspDesc>
+            
+            <textClass>
+                <keywords>
+                    <!-- soggettario -->
+                    <!-- tipologia -->
+                    <!-- descrizione -->
+                    <term>Cartolina </term>
+                    <term>Cartolina Artistica </term>
+                    <term>Donna che prega</term>
+                </keywords>
+            </textClass>
+            
+            <langUsage>
+                <language ident="it" usage="98">italiano del Novecento</language>
+                <language ident="des" usage="03"> forme desuete</language> 
+            </langUsage>
+        </profileDesc>
+        
+        <encodingDesc>
+            <editorialDecl>
+                <interpretation>
+                    <p>
+                        <list>
+                            <item> 
+                                <choice>
+                                    <orig> li </orig>
+                                    <reg> il </reg>
+                                </choice>
+                            </item>  
+                            
+                        </list>
+                    </p>
+                </interpretation>
+            </editorialDecl>
+        </encodingDesc>
+    </teiHeader>
+    
+    
+    <text type="cartolina" n="2">
+        <body xml:lang="ita">
+            
+            <div xml:id="fronte_seconda_cartolina"  type="fronte">
+                <figure>
+                    <pb facs="#front2" n="1" xml:id="fronte-2"/> 
+                    <figDesc>
+                        <desc> Nella cartolina è rappresentata una fanciulla intenta a pregare in un luogo all'aperto, circondata da fiori colorati.</desc>
+                    </figDesc>
+                </figure>
+            </div>
+            
+            <div xml:id="retrocartolina10" type="retro">
+                
+                <pb facs="#back2" n="2" xml:id="back-2"/>
+                <head xml:id="scrittastampata2" type="rtr">                
+                </head>
+                
+                <div type="rtrArchivio" xml:id="Archivio2" facs="#numerocartolina">
+                    <p> <num type="cardinal"> <idno> 10 </idno> </num> </p>  
+                </div>
+                
+                <div xml:id="secopen" type="rtr"> 
+                    
+                    <dateline xml:id="data2" facs="#data10">
+                        <placeName ref="#ZG">  Zona di guerra </placeName>, <distinct type="forma_desueta"> li <ptr target="#li"/> </distinct> 
+                        <date when="1916-11-07"> 7/11-16 </date>
+                    </dateline>
+                    
+                </div>
+                
+                <div xml:id="testoRetro10"> 
+                    <div xml:id="testoresto10" type="rtr">
+                        <salute rend="align(left)" xml:id="line1" facs="#riga1">
+                            <s>
+                                <persName ref="#OT" > <forename> Oliva </forename> </persName> mia,
+                            </s>
+                        </salute>
+                        <p xml:id="line2" facs="#riga2"> <lb/> Godo la freschissima aura <distinct>ch'aleggia<ptr target="#des"/></distinct> </p>
+                        <p xml:id="line3" facs="#riga3"> <lb/> nell'ombra d'un castagneto, la godo con </p>
+                        <p xml:id="line4" facs="#riga4">  <lb/>Infinita voluttà, con immenso compiacenza.</p> 
+                        <p xml:id="line5" facs="#riga5"> <lb/> Vado rileggendo le tue vecchie </p>
+                        <p xml:id="line6" facs="#riga6"> <lb/>lettere, illudendo l'amor mio con</p>
+                        <p xml:id="line7" facs="#riga7"> <lb/> pietoso <distinct>artifizio<ptr target="des"/></distinct> che giova per altro </p>
+                        <p xml:id="line8" facs="#riga8"> <lb/> Ripensare più profondamente sui </p>
+                        <p xml:id="line9"  facs="#riga9"> <lb/> Tuoi pensieri, sui tuoi proponimenti,</p>
+                        <p xml:id="line10" facs="#riga10"> <lb/> Sulla tua affettuosa indola.</p>
+                        <p xml:id="line11" facs="#riga11"> <lb/> Olivia mia perché non scrivi più?</p>
+                        <p xml:id="line12" facs="#riga12"> <lb/> Sono vivamente addolorato dal tuo</p>
+                        <p xml:id="line13" facs="#riga13"> <lb/> Lungo silenzio, dal tuo tenace <gap reason="illegible" extent="one or two words" atLeast="1" atMost="2" unit="words" /></p>
+                        <p xml:id="line14" facs="#riga14"> <lb/> E' colpa della sosta?</p>
+                        <p xml:id="line15" facs="#riga15"> <lb/> Tu mi pensi e mi ami sempre?</p>
+                        <p xml:id="line16" facs="#riga16"> <lb/> <distinct>Evvero<ptr target="des"/></distinct> Oliva, scrivilo subito</p>
+                        <p xml:id="line17" facs="#riga17"> <lb/> subito, riconfermalo. Ho bisogno</p>
+                        <p xml:id="line18" facs="#riga18"> <lb/> delle tue amorevoli parole, sai?</p>
+                        <p xml:id="line19" facs="#riga19"> <lb/> Con tantissimo ed immutato</p>
+                        <p xml:id="line20" facs="#riga20"> <lb/> affetto </p> 
+                        <closer xml:id="lineFirma" facs="#firma">  tuo  <signed> <persName ref="#GC"> <forename type="diminutivo" > Giovannino </forename> </persName> </signed></closer> 
+                    </div>
+                </div>
+            </div>
+        </body>
+        
+        <back>
+            <div>
+                
+                <entry xml:id="des10"> 
+                    <sense>
+                        <distinct type="forma_desueta"> ch'aleggia </distinct> 
+                        <xr type="syn"> 
+                            <ref> che si diffonde </ref> 
+                        </xr> 
+                    </sense>
+                    <sense>
+                        <distinct type="forma_desueta">artifizio</distinct>
+                        <xr type="syn">
+                            <ref>artificio</ref>
+                        </xr>
+                    </sense>
+                    <sense>
+                        <distinct type="forma_desueta">Evvero </distinct>
+                        <xr type="syn">
+                            <ref>è vero</ref>
+                        </xr>
+                    </sense>
+                </entry>
+                
+            </div>
+        </back>
+    </text>
+    
+    
+    
+    
+    <facsimile>
+        
+        <surface xml:id="front2" start="#frontecartolina10" type="ff">
+            <graphic url='7694-176F.jpg' />
+            <note type="nota_facsimile">L'immagine si trova sul fronte della cartolina e non presenta scritte.</note>
+        </surface>
+        
+        
+        <surface xml:id="back10" start="#retroseconda_cartolina" type="rr">
+            <graphic xml:id="retro10"  url='7694-010R.jpg' width='410.4px' height='650.4px' />
+            <zone xml:id="zonaguerra" start="#data" ulx="47" uly="2" lrx="187" lry="34" />
+            <zone xml:id="data10" start="#data2" ulx="189" uly="8" lrx="329" lry="64" />
+            <zone xml:id="numerocartolina" start="#Archivio2" ulx="346" uly="10" lrx="376" lry="32" />
+            <zone xml:id="riga1" start="#line1" ulx="40" uly="40" lrx="149" lry="68" />
+            <zone xml:id="riga2" start="#line2" ulx="19" uly="67" lrx="369" lry="86" />
+            <zone xml:id="riga3" start="#line3" ulx="18" uly="97" lrx="405" lry="122" />
+            <zone xml:id="riga4" start="#line4" ulx="17" uly="128" lrx="397" lry="151" />
+            <zone xml:id="riga5" start="#line5" ulx="17" uly="161" lrx="394" lry="177" />
+            <zone xml:id="riga6" start="#line6" ulx="16" uly="184" lrx="383" lry="207" />
+            <zone xml:id="riga7" start="#line7" ulx="15" uly="220" lrx="392" lry="243" />
+            <zone xml:id="riga8" start="#line8" ulx="15" uly="252" lrx="390" lry="277" />
+            <zone xml:id="riga9" start="#line9" ulx="17" uly="284" lrx="394" lry="310" />
+            <zone xml:id="riga10" start="#line10" ulx="16" uly="318" lrx="366" lry="341" />
+            <zone xml:id="riga11" start="#line11" ulx="16" uly="348" lrx="409" lry="375" />
+            <zone xml:id="riga12" start="#line12" ulx="14" uly="378" lrx="405" lry="404" />
+            <zone xml:id="riga13" start="#line13" ulx="13" uly="411" lrx="406" lry="435" />
+            <zone xml:id="riga14" start="#line14" ulx="13" uly="441" lrx="327" lry="473" />
+            <zone xml:id="riga15" start="#line15" ulx="13" uly="475" lrx="373" lry="504" />
+            <zone xml:id="riga16" start="#line16" ulx="29" uly="505" lrx="349" lry="536" />
+            <zone xml:id="riga17" start="#line17" ulx="19" uly="533" lrx="385" lry="556" />
+            <zone xml:id="riga18" start="#line18" ulx="58" uly="557" lrx="397" lry="585" />
+            <zone xml:id="riga19" start="#line19" ulx="89" uly="584" lrx="389" lry="623" />
+            <zone xml:id="riga20" start="#line20" ulx="48" uly="609" lrx="179" lry="644" />
+            <zone xml:id="firma" start="#lineFirma" ulx="211" uly="621" lrx="373" lry="649" />
+            <zone xml:id="stefanobersani_fede" ulx="369" uly="400" lrx="387" lry="611" />
+            <zone xml:id="proprieta_numeroserie" ulx="122" uly="626" lrx="347" lry="640" />
+            <zone xml:id="logo_casaeditrice" ulx="24" uly="554" lrx="86" lry="614" />
+        </surface>
+        
+        
+    </facsimile>             
+</TEI>

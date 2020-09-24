@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI SYSTEM 'myTEI.dtd'>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cartolina_7694-137">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>[Donna che fuma] - Edizione digitale</title>
+         </titleStmt>
+         <publicationStmt xmlns="http://www.tei-c.org/ns/1.0">
+            <publisher>
+               <choice>
+                  <abbr>Unipi</abbr>
+                  <expan>Università di
+                            <placeName ref="list.xml#PI">Pisa</placeName>
+                  </expan>
+               </choice>
+            </publisher>
+            <pubPlace ref="list.xml#PI">Pisa</pubPlace>
+            <availability>
+               <p>Available under licence only</p>
+            </availability>
+            <date when="2019">2019</date>
+            <distributor>
+               <orgName ref="list.xml#LCD">
+                  <choice>
+                     <abbr>LabCD</abbr>
+                     <expan>Laboratorio di Cultura Digitale</expan>
+                  </choice>
+               </orgName>
+            </distributor>
+            <address>
+               <addrLine>Laboratorio di Cultura Digitale - Università di Pisa</addrLine>
+               <addrLine>
+                  <placeName ref="list.xml#PI">Pisa</placeName>
+               </addrLine>
+            </address>
+         </publicationStmt>
+         <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
+            <bibl>
+               <title type="custom" resp="list.xml#ES">[Donna che fuma]</title>
+            </bibl>
+            <msDesc>
+               <!-- descrizione del manoscritto -->
+                  <msIdentifier>
+                        <!-- info per identificare il manoscritto -->
+                        <country ref="list.xml#IT">Italia</country>
+                        <settlement ref="list.xml#SP">La Spezia (SP)</settlement>
+                        <!-- collocazione specifica -->
+                        <repository ref="list.xml#MCE">Museo Civico Etnografico "Giovanni Podenzana", Sezione dei cimeli garibaldini e della Prima Guerrra Mondiale</repository>
+                        <!-- codice identificativo -->
+                        <idno type="postcard_id">7694_137_001/002</idno>
+                  </msIdentifier>
+               <msContents>
+                  <summary>Cartolina Artistica</summary>
+                  <textLang>Italiano</textLang>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType>Cartolina</objectType>
+                           <material>Carta</material>
+                           <dimensions unit="cm">
+                              <height>9</height>
+                              <width>14</width>
+                           </dimensions>
+                           <stamp type="postage"> Francobollo - Regno d'Italia </stamp>
+                           <stamp type="postmark">Timbro della Ferrovia di Modena </stamp>
+                        </support>
+                        <condition>Buono</condition>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc xmlns="http://www.tei-c.org/ns/1.0">
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="list.xml#GC">Giovannino</persName>
+               <placeName ref="list.xml#MO">Modena</placeName>
+               <date type="writing" when="1917-10-12">1917/12/10</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="list.xml#OT">Oliva</persName>
+               <placeName ref="list.xml#RV">Ravenna</placeName>
+            </correspAction>
+         </correspDesc>
+         <textClass>
+            <keywords>
+               <term>Cartolina </term>
+               <term>Cartolina Artistica </term>
+               <term>Donna in verde che fuma una sigaretta</term>
+            </keywords>
+         </textClass>
+         <langUsage>
+            <language ident="it-IT">italiano</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <facsimile xmlns="http://www.tei-c.org/ns/1.0">
+         <surface type="fronte">
+            <graphic url="img-cartoline/7694-137F.jpg"/>
+         </surface>
+         <surface type="retro">
+            <graphic url="img-cartoline/7694-137R.jpg"/>
+            <zone xml:id="cid137" ulx="355" uly="43" lrx="423" lry="71"/>
+            <zone xml:id="caddress137"
+                  ulx="298"
+                  uly="143"
+                  lrx="580"
+                  lry="363"/>
+            <zone xml:id="cprint137" ulx="260" uly="360" lrx="304" lry="376"/>
+            <zone xml:id="cintro137" ulx="208" uly="40" lrx="267" lry="349"/>
+            <zone xml:id="ctesto137" ulx="32" uly="55" lrx="195" lry="330"/>
+            <zone xml:id="cfrancobollo137"
+                  ulx="457"
+                  uly="26"
+                  lrx="580"
+                  lry="117"/>
+         </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div xmlns="http://www.tei-c.org/ns/1.0"
+              facs="#fronte137"
+              type="fronte"
+              xml:id="frontedesc137">
+            <figure>
+               <figDesc> Donna in età avanzata vestita di verde seduta su una poltrona mentre tiene tra le dita una sigaretta.
+                    il ritratto è usurato dal tempo. </figDesc>
+               <head>[Donna che fuma]</head>
+            </figure>
+         </div>
+         <div type="retro">
+            <div type="message">
+                  <opener xmlns="http://www.tei-c.org/ns/1.0">
+                        <dateline>
+                              <lb n="1"/>
+                              <s>
+                                    <placeName ref="list.xml#MO">Modena</placeName> li
+                                    <date when="1917-10-12">12/10-17</date>
+                              </s>
+                        </dateline>
+                  </opener>
+                  <div xmlns="http://www.tei-c.org/ns/1.0" type="postcard-body">
+                        <p>
+                              <lb n="2"/>
+                              <choice>
+                                    <orig>Affettuosisfimi</orig>
+                                    <reg resp="list.xml#LR" cert="high">Affettuosissimi</reg>
+                              </choice>
+                        </p>
+                  </div>
+                  <closer xmlns="http://www.tei-c.org/ns/1.0">
+                        <lb n="3"/>
+                        <signed>
+                              <persName ref="list.xml#GC">
+                                    <forename>Giovannino</forename>
+                               </persName>
+                        </signed>
+                  </closer>
+            </div>
+            <div xmlns="http://www.tei-c.org/ns/1.0" type="address-destination">
+                  <p>
+                        <address>
+                              <addrLine>
+                                    <lb n="4"/>
+                                    Gent. Sig.na
+                                    <lb n="5"/>
+                                    Oliva Turtura
+                                    <lb n="6"/>
+                                    Via Girolamo <choice>
+                                                      <orig>Rosfi</orig>
+                                                      <reg resp="list.xml#LR" cert="high">Rossi</reg>
+                                                 </choice> 58
+                                    <lb n="7"/>
+                                    Ravenna
+                              </addrLine>
+                        </address>
+                  </p>
+            </div>
+            <div type="postmark-postage">
+               <ab>
+                  <stamp xmlns="http://www.tei-c.org/ns/1.0" type="postmark">
+                     <mentioned>
+                        <placeName ref="#MO"> MODENA </placeName>
+                        <unclear reason="damaged"> FERROVIA </unclear>
+                     </mentioned>
+                     <date when="1917">12.10. <unclear reason="damaged"> 17 </unclear>
+                     </date>
+                  </stamp>
+                  <stamp xmlns="http://www.tei-c.org/ns/1.0" type="postage">francobollo da 5 centesimi del Regno d'Italia</stamp>
+               </ab>
+            </div>
+            <div type="secondamano">
+               <ab type="paratext">
+                  <add>
+                     <num type="cardinal"> 137 </num>
+                  </add>
+               </ab>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

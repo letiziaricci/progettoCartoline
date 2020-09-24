@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xml:id="cartolina_7694-003">
+<teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+      <fileDesc>
+         <titleStmt>
+            <title>La lettura - Edizione digitale</title>
+         </titleStmt>
+         <publicationStmt><!-- contiene informazioni sulla pubblicazione e distribuzione del documento digitale -->
+            <publisher>
+               <choice>
+                  <abbr>Unipi</abbr>
+                  <expan instant="false">
+                                          Università di
+                                          <placeName ref="list.xml#PI" instant="false" full="yes">Pisa</placeName>
+                  </expan>
+               </choice>
+            </publisher>
+            <pubPlace ref="list.xml#PI">Pisa</pubPlace>
+            <availability default="false">
+               <p part="N">Available under licence only</p>
+            </availability>
+            <date when="2019" instant="false">2019</date>
+            <distributor>
+               <orgName ref="list.xml#LCD" instant="false" full="yes">
+                  <choice>
+                     <abbr>LabCD</abbr>
+                     <expan instant="false">Laboratorio di Cultura Digitale</expan>
+                  </choice>
+               </orgName>
+            </distributor>
+            <address>
+               <addrLine>Laboratorio di Cultura Digitale - Università di Pisa</addrLine>
+               <addrLine>
+                  <placeName ref="list.xml#PI" instant="false" full="yes">Pisa</placeName>
+               </addrLine>
+            </address>
+         </publicationStmt>
+         <sourceDesc default="false"><!-- contiene informazoni relative alla fonte originale -->
+            <bibl type="postcard" default="false" status="draft">
+               <title type="custom" resp="list.xml#ES">La lettura</title>
+               <!-- titolo tra parentesi quadre perchè titolo formulato da terzi-->
+               <author>
+                  <persName ref="list.xml#CI">Camillo Innocenti</persName>
+               </author>
+            </bibl>
+            <msDesc status="draft"><!-- descrizione del manoscritto -->
+               <msIdentifier><!-- info per identificare il manoscritto -->
+                  <country ref="list.xml#IT">Italia</country>
+                  <settlement ref="list.xml#SP">La Spezia (SP)</settlement>
+                  <!-- collocazione specifica -->
+                  <repository ref="list.xml#MCE">Museo Civico Etnografico "Giovanni Podenzana", Sezione dei cimeli garibaldini e della Prima Guerrra Mondiale</repository>
+                  <!-- codice identificativo -->
+                  <idno type="postcard_id">7694_003_001/002</idno>
+               </msIdentifier>
+               <!-- Informazioni sul contenuto della cartolina -->
+               <msContents>
+                  <summary>Cartolina Artistica</summary>
+                  <textLang mainLang="ita">Italiano</textLang>
+               </msContents>
+               <physDesc><!-- descrizione fisica del manoscritto -->
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType>Cartolina</objectType>
+                           <material>Carta</material>
+                           <dimensions unit="cm">
+                              <height>9</height>
+                              <width>14</width>
+                           </dimensions>
+                           <stamp type="postage">Francobollo da 5 centesimi delle Poste Italiane di colore verde</stamp>
+                           <stamp type="postmark">Timbro di partenza, circolare e in parte sovrapposto al francobollo</stamp>
+                        </support>
+                        <condition>
+                                    Cartolina in buone condizioni fisiche e ben leggibile.
+                           </condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <!-- descrizione del tipo di scrittura usato nella cartolina -->
+                  <handDesc>
+                     <p part="N">La cartolina presenta del testo stampato, contenente informazioni sulla cartolina e sull'edizione, e del testo scritto a mano dal mittente.</p>
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc><!-- Descrizione delle azioni relative a un atto di corrispondenza -->
+         <correspDesc default="false">
+            <correspAction type="sent">
+               <persName ref="list.xml#GC" instant="false" full="yes">Giovanni Coliola</persName>
+               <placeName ref="list.xml#BO" instant="false" full="yes">Bologna</placeName>
+               <date type="writing" when="1917-05-22" instant="false">22/05/1917</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="list.xml#OT" instant="false" full="yes">Oliva Turtura</persName>
+               <placeName ref="list.xml#RV" instant="false" full="yes"> Ravenna </placeName>
+            </correspAction>
+         </correspDesc>
+         <textClass default="false"><!-- Info di classificazione del testo -->
+            <keywords><!-- soggettario --><!-- tipologia --><!-- descrizione -->
+               <term>Cartolina</term>
+               <term>Cartolina Artistica</term>
+               <term>Maria con bambino e angelo</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <tei:text>
+            <front xmlns="http://www.tei-c.org/ns/1.0"><!-- testo tipografico -->
+                  <div type="tipografia" part="N" org="uniform" sample="complete">
+                     <p rend="writing-mode(vertical-lr) text-orientation(sideways)" part="N">
+                        <s>
+                              Proprietà artistica riservata - N. 8
+                         </s>
+                     </p>
+                     <p rend="writing-mode(horizontal-lr) text-orientation(sideways)" part="N">
+                              <s>
+                                          <persName ref="list.xml#LC" type="author" instant="false" full="yes">
+                                                CAMILLO INNOCENTI </persName> - La lettura
+                                                                                La lecture
+                                                                                Die Lesung
+                                                                                The reading
+                              </s>
+                     </p>
+                  </div>
+               </front>
+      <tei:body>
+         <div type="fronte">
+                <figure>
+                   <graphic url="img-cartoline/7694-003F.jpg"/>
+                   <figDesc>
+                      <desc>Due donne sedute in un soggiorno una che legge e l'altra che ascolta</desc>
+                   </figDesc>
+                   <head>La lettura</head>
+                </figure>
+                <p part="N">
+                   <persName ref="list.xml#BM" instant="false" full="yes">B. Mastroianni</persName>
+                </p>
+         </div>
+         <tei:div type="retro">
+            <tei:div type="message">
+               <tei:opener xmlns="http://www.tei-c.org/ns/1.0">
+                  <tei:dateline>
+                     <tei:lb n="1"/>
+                     <tei:s>            
+                              <placeName ref="list.xml#BO">Bologna</placeName>, li 
+                              <date when="1917-12-21">21/5-1917</date>.
+                     </tei:s>
+                  </tei:dateline>
+               </tei:opener>
+               <tei:div xmlns="http://www.tei-c.org/ns/1.0" type="postcard-body">
+                  <tei:p>
+                     <tei:lb n="2"/>
+                     <choice>
+                              <orig>Cordialisfimi</orig>
+                              <reg resp="list.xml#LR" cert="high" instant="false">Cordialissimi</reg>
+                     </choice> saluti
+                     <tei:lb n="3"/>
+                     affettuosi a tutti
+                  </tei:p>
+               </tei:div>
+               <tei:closer xmlns="http://www.tei-c.org/ns/1.0">
+                  <tei:s>
+                     <tei:lb n="4"/>
+                     <tei:signed>
+                        <tei:persName>
+                           <tei:forename ref="list.xml#GC">Giovannino</tei:forename>
+                        </tei:persName>
+                     </tei:signed>
+                  </tei:s>
+               </tei:closer>
+            </tei:div>
+            <tei:div xmlns="http://www.tei-c.org/ns/1.0" type="address-destination">
+               <tei:p>
+                  <tei:address>
+                     <tei:addrLine>
+                        <tei:lb n="5"/>
+                        Gent.ma Sig.na
+                        <tei:lb n="6"/>
+                        Oliva Turtura
+                        <tei:lb n="7"/>
+                        Via Girolamo <choice>
+                                          <orig>Rosfi</orig>
+                                          <reg resp="list.xml#LR" cert="high" instant="false">Rossi</reg>
+                                    </choice> 58
+                        <tei:lb n="8"/>
+                        Ravenna
+                     </tei:addrLine>
+                  </tei:address>
+               </tei:p>
+            </tei:div>
+            <tei:div type="postmark-postage">
+               <tei:ab>
+                        <stamp type="postmark">
+                                    <mentioned>
+                                       AMB. BOLOGNA - ANCONA
+                                    </mentioned>
+                                    <date when="1917/05/22">> 22.5.17 </date>
+                        </stamp>
+                        <stamp type="postage">
+                                    <mentioned>
+                                       <orgName ref="list.xml#PI" instant="false" full="yes">Poste italiane</orgName>
+                                       <hi>
+                                          <num rend="double" type="cardinal" value="5">5</num>
+                                                                     centesimi
+                                          <num rend="double" type="cardinal" value="5">5</num>
+                                       </hi>
+                                    </mentioned>
+                        </stamp>
+               </tei:ab>
+            </tei:div>
+            <tei:div type="secondamano">
+                  <ab type="paratext" part="N">
+                        <add>
+                              <num type="cardinal"> 3 </num>
+                        </add>
+                  </ab>
+            </tei:div>
+         </tei:div>
+      </tei:body>
+   </tei:text>
+</tei:TEI>

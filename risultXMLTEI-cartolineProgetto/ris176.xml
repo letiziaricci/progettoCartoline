@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI SYSTEM 'myTEI.dtd'>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cartolina_7694-176">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>[Baci mattutini] - Edizione digitale</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <choice>
+                  <abbr>Unipi</abbr>
+                  <expan>Università di
+                            <placeName ref="list.xml#PI">Pisa</placeName>
+                  </expan>
+               </choice>
+            </publisher>
+            <pubPlace ref="list.xml#PI">Pisa</pubPlace>
+            <availability>
+               <p>Available under licence only</p>
+            </availability>
+            <date when="2019">2019</date>
+            <distributor>
+               <orgName ref="list.xml#LCD">
+                  <choice>
+                     <abbr>LabCD</abbr>
+                     <expan>Laboratorio di Cultura Digitale</expan>
+                  </choice>
+               </orgName>
+            </distributor>
+            <address>
+               <addrLine>Laboratorio di Cultura Digitale - Università di Pisa</addrLine>
+               <addrLine>
+                  <placeName ref="list.xml#PI">Pisa</placeName>
+               </addrLine>
+            </address>
+         </publicationStmt>
+         <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
+            <bibl>
+               <title type="custom" resp="list.xml#ES">[Baci mattutini]</title>
+               <author ref="list.xml#AM">A. Mastroianni </author>
+               <publisher>
+                  <orgName ref="list.xml#EAT">Edizioni Alberto Traldi </orgName>
+                  <!--si tratta di una casa editrice-->
+               </publisher>
+               <!-- LUOGO -->
+               <pubPlace ref="list.xml#MI"> Milano</pubPlace>
+            </bibl>
+            <msDesc>
+                <!-- descrizione del manoscritto -->
+                <msIdentifier>
+                        <!-- info per identificare il manoscritto -->
+                        <country ref="list.xml#IT">Italia</country>
+                        <settlement ref="list.xml#SP">La Spezia (SP)</settlement>
+                        <!-- collocazione specifica -->
+                        <repository ref="list.xml#MCE">Museo Civico Etnografico "Giovanni Podenzana", Sezione dei cimeli garibaldini e della Prima Guerrra Mondiale</repository>
+                        <!-- codice identificativo -->
+                        <idno type="postcard_id">7694_0176_001/002</idno>
+                </msIdentifier>
+               <!-- Informazioni sul contenuto della cartolina -->
+               <!-- DESCRIZIONE -->
+               <msContents>
+                  <summary>Cartolina Artistica</summary>
+                  <textLang>Italiano</textLang>
+               </msContents>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc xmlns="http://www.tei-c.org/ns/1.0">
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="list.xml#GC">Giovanni Coliola</persName>
+               <placeName ref="list.xml#MO">Modena</placeName>
+               <date type="writing" when="1917-11-29">1917/11/29</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="list.xml#OT">Oliva Turtura</persName>
+               <placeName ref="list.xml#RV"> Ravenna </placeName>
+            </correspAction>
+         </correspDesc>
+         <textClass>
+            <keywords>
+                        <!-- soggettario -->
+                        <!-- tipologia -->
+                        <!-- descrizione -->
+               <term>Cartolina </term>
+               <term>Cartolina Artistica </term>
+               <term>Coppia di innamorati</term>
+            </keywords>
+         </textClass>
+         <langUsage>
+            <language ident="it" usage="98">italiano del Novecento</language>
+            <language ident="latinism" usage="02">latinismi, forme desuete</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <facsimile xmlns="http://www.tei-c.org/ns/1.0">
+         <surface xml:id="front2" start="#fronte_seconda_cartolina" type="ff">
+            <graphic url="7694-176F.jpg"/>
+            <note type="nota_facsimile">L'immagine si trova sul fronte della cartolina e non presenta scritte.</note>
+         </surface>
+         <surface xml:id="back2" start="#retroseconda_cartolina" type="rr">
+            <graphic xml:id="imgretro_2" url="7694-176R.jpg"/>
+            <zone xml:id="lineac2_1" ulx="250" uly="8" lrx="468" lry="39"/>
+            <zone xml:id="lineac2_2" ulx="39" uly="41" lrx="575" lry="372"/>
+            <zone xml:id="lineac2_3" ulx="14" uly="13" lrx="149" lry="33"/>
+            <zone xml:id="lineac2_4" ulx="10" uly="57" lrx="30" lry="352"/>
+            <zone xml:id="lineac2_5" ulx="500" uly="10" lrx="565" lry="32"/>
+            <note type="nota_facsimile">Immagine del retro della cartolina a cui corrisponde un testo</note>
+         </surface>
+   </facsimile>
+   <text>
+        <!-- informazioni peritestuali -->
+        <front>
+                <!-- testo tipografico -->
+                <div type="tipografia">
+                        <p>
+                                <s rend="writing-mode(vertical-lr) text-orientation(sideways)">
+                                        <orgName ref="list.xml#CM" type="author">
+                                        Cromoscultura Mastroianni
+                                        </orgName>
+                                </s>
+                                <s rend="writing-mode(vertical-lr) text-orientation(sideways)">
+                                        Edit.<persName ref="list.xml#AT" type="typography">A. Tradi</persName> - 
+                                        <placeName ref="list.xml#MI">Milano</placeName>
+                                </s>
+                                <s rend="writing-mode(vertical-lr) text-orientation(sideways)">
+                                        Autorixation de <persName ref="list.xml#AN" type="typography">A. NOYER</persName> - Edit 
+                                        <placeName ref="list.xml#PA">Paris</placeName>
+                                </s>
+                        </p>
+                        <p>
+                                <s rend="writing-mode(vertical-lr) text-orientation(sideways)">
+                                        PRODUZIONE ITALIANA
+                                </s>
+                        </p>
+                </div>
+        </front>
+      <body>
+         <div type="retro">
+             <div type="message">
+                        <opener xmlns="http://www.tei-c.org/ns/1.0">
+                                <dateline>
+                                        <lb n="1"/>
+                                        <s>
+                                                <placeName ref="list.xml#MO">Modena</placeName>, li 
+                                                <date when="1917-11-29">29/11-17</date>
+                                        </s>
+                                </dateline>
+                        </opener>
+                        <div xmlns="http://www.tei-c.org/ns/1.0" type="postcard-body">
+                                <p>
+                                        <lb n="2"/>
+                                        Oliva mia,
+                                        <lb n="3"/>
+                                        Non puoi credere quanto mi sia diventato
+                                        <lb n="4"/>
+                                        odioso questo materialismo fugato, <choice>
+                                                                                <orig>asfillante</orig>
+                                                                                <reg resp="list.xml#LR" cert="high">assillante</reg>
+                                                                          </choice>, avido;
+                                        <lb n="5"/>
+                                        che vivo in una <choice>
+                                                                <orig>incufante</orig>
+                                                                <reg resp="list.xml#LR" cert="high">incusante</reg>
+                                                        </choice> monotonia di fredda
+                                        <lb n="6"/>
+                                        solitudine. Non una favola buona, un consiglio
+                                        <lb n="7"/>
+                                        un sorriso, uno sguardo affettuoso, nulla che si
+                                        <lb n="8"/>
+                                        allontani, si elevi dall'insulsa obbrobriosa
+                                        <lb n="9"/>
+                                        sterile norma delle cose inanimate che ti circonda
+                                        <lb n="10"/>
+                                        no, nulla per questa mia anima sitibonda
+                                        <lb n="11"/>
+                                        d'affetto, d'amore, di pace.
+                                </p>
+                        </div>
+                        <closer xmlns="http://www.tei-c.org/ns/1.0">
+                                <lb n="12"/>
+                                tuo <signed>
+                                        <persName>
+                                                <forename ref="list.xml#GC">Giovannino</forename>
+                                        </persName>
+                                </signed>
+                        </closer>
+            </div>
+            <div type="secondamano">
+               <ab type="paratext">
+                  <add>
+                     <num xmlns="http://www.tei-c.org/ns/1.0" type="cardinal">
+                        <idno> 176 </idno>
+                     </num>
+                  </add>
+               </ab>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="cartolina_7694-215">
+   <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+      <fileDesc>
+         <titleStmt>
+            <title>Trionfo di amorini - Edizione digitale</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <choice>
+                  <abbr>Unipi</abbr>
+                  <expan instant="false">Università di
+                            <placeName ref="list.xml#PI" instant="false" full="yes">Pisa</placeName>
+                  </expan>
+               </choice>
+            </publisher>
+            <pubPlace ref="list.xml#PI">Pisa</pubPlace>
+            <availability default="false">
+               <p part="N">Available under licence only</p>
+            </availability>
+            <date when="2019" instant="false">2019</date>
+            <distributor>
+               <orgName ref="list.xml#LCD" instant="false" full="yes">
+                  <choice>
+                     <abbr>LabCD</abbr>
+                     <expan instant="false">Laboratorio di Cultura Digitale</expan>
+                  </choice>
+               </orgName>
+            </distributor>
+            <address>
+               <addrLine>Laboratorio di Cultura Digitale - Università di Pisa</addrLine>
+               <addrLine>
+                  <placeName ref="list.xml#PI" instant="false" full="yes">Pisa</placeName>
+               </addrLine>
+            </address>
+         </publicationStmt>
+         <sourceDesc n="215" default="false">
+            <bibl default="false" status="draft">
+               <title>Trionfo di amorini</title>
+               <author>
+                  <persName ref="list.xml#PA" instant="false" full="yes">P. ALBANI</persName>
+               </author>
+               <pubPlace ref="list.xml#GE">Genova</pubPlace>
+               <!-- CRONOLOGIA-->
+               <date when="1918" instant="false">1918</date>
+            </bibl>
+            <msDesc status="draft"><!-- descrizione del manoscritto -->
+               <msIdentifier><!-- info per identificare il manoscritto -->
+                  <country ref="list.xml#IT">Italia</country>
+                  <settlement ref="list.xml#SP">La Spezia (SP)</settlement>
+                  <!-- collocazione specifica -->
+                  <repository ref="list.xml#MCE">Museo Civico Etnografico "Giovanni Podenzana", Sezione dei cimeli garibaldini e della Prima Guerrra Mondiale</repository>
+                  <!-- codice identificativo -->
+                  <idno type="postcard_id">7694_215_001/002</idno>
+               </msIdentifier>
+               <!-- Informazioni sul contenuto della cartolina -->
+               <msContents>
+                  <summary>Cartolina Artistica</summary>
+                  <textLang>Italiano</textLang>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType>Cartolina</objectType>
+                           <!-- MATERIALI -->
+                           <material>Carta</material>
+                           <!-- DIMENSIONE -->
+                           <dimensions unit="cm">
+                              <height>9</height>
+                              <width>14</width>
+                           </dimensions>
+                           <stamp>Francobollo - Poste Italiane 5 centesimi</stamp>
+                        </support>
+                        <!-- CONSERVAZIONE -->
+                        <condition>Buono</condition>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc default="false">
+            <correspAction type="sent">
+               <persName ref="list.xml#GC" instant="false" full="yes">Giovanni Coliola</persName>
+               <placeName ref="list.xml#MO" instant="false" full="yes">Modena</placeName>
+               <date type="postage" when="1918-02-14" instant="false">14-02-1918</date>
+               <date type="writing" when="1918-02-14" instant="false">14-02-1918</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="list.xml#OT" instant="false" full="yes">Oliva Turtura</persName>
+               <placeName ref="list.xml#RV" instant="false" full="yes">
+                  <address>
+                     <addrLine>Via Gerolamo Rossi - 58</addrLine>
+                     <addrLine>Ravenna</addrLine>
+                  </address>
+               </placeName>
+            </correspAction>
+         </correspDesc>
+         <textClass default="false">
+            <keywords><!-- soggettario -->
+               <term>Cartolina </term>
+               <!-- tipologia -->
+               <term>Cartolina Artistica </term>
+               <!-- descrizione -->
+               <term>Amorini in trionfo su di un carro dorato</term>
+            </keywords>
+         </textClass>
+         <langUsage default="false">
+            <language ident="it-IT">italiano</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <facsimile xmlns="http://www.tei-c.org/ns/1.0">
+      <surface xml:id="surface7694-215F"><!-- FRONTE -->
+         <graphic url="img-cartoline/7694-215F.jpg" width="814px" height="520px"/>
+      </surface>
+      <surface xml:id="surface7694-215R"><!-- RETRO -->
+         <graphic url="img-cartoline/7694-215R.jpg" width="814px" height="516px"/>
+         <zone type="postage-postmark"
+               xml:id="stamp_215"
+               start="#stamp-215"
+               ulx="447"
+               uly="3"
+               lrx="577"
+               lry="115"
+               rotate="0"/>
+         <!-- Francobollo + timbro -->
+         <zone type="catalog"
+               xml:id="number215_215"
+               start="#number215-215"
+               ulx="355"
+               uly="29"
+               lrx="415"
+               lry="69"
+               rotate="0"/>
+         <!-- numero 215 -->
+         <!-- TESTO -->
+         <zone type="handWriting"
+               xml:id="lineText_1-215"
+               start="#lineText-1-215"
+               ulx="217"
+               uly="80"
+               lrx="267"
+               lry="291"
+               rotate="0"/>
+         <!-- modena -->
+         <zone type="handWriting"
+               xml:id="lineText_2-215"
+               start="#lineText-2-215"
+               ulx="173"
+               uly="38"
+               lrx="212"
+               lry="289"
+               rotate="0"/>
+         <!-- prima riga -->
+         <zone type="handWriting"
+               xml:id="lineText_3-215"
+               start="#lineText-3-215"
+               ulx="141"
+               uly="18"
+               lrx="166"
+               lry="287"
+               rotate="0"/>
+         <!-- seconda riga -->
+         <zone type="handWriting"
+               xml:id="lineText_4-215"
+               start="#lineText-4-215"
+               ulx="31"
+               uly="19"
+               lrx="121"
+               lry="285"
+               rotate="0"/>
+         <!-- tuo Giovannino -->
+         <!-- ADDRESS -->
+         <zone type="handWriting"
+               xml:id="lineText_5-215"
+               start="#lineText-5-215"
+               ulx="289"
+               uly="120"
+               lrx="536"
+               lry="174"
+               rotate="0"/>
+         <!-- gentile sig.na -->
+         <zone type="handWriting"
+               xml:id="lineText_6-215"
+               start="#lineText-6-215"
+               ulx="321"
+               uly="179"
+               lrx="574"
+               lry="215"
+               rotate="0"/>
+         <!-- oliva turtura -->
+         <zone type="handWriting"
+               xml:id="lineText_7-215"
+               start="#lineText-7-215"
+               ulx="283"
+               uly="217"
+               lrx="573"
+               lry="263"
+               rotate="0"/>
+         <!-- via gerolamo rossi 58 -->
+         <zone type="handWriting"
+               xml:id="lineText_8-215"
+               start="#lineText-8-215"
+               ulx="287"
+               uly="273"
+               lrx="558"
+               lry="357"
+               rotate="0"/>
+         <!-- ravenna -->
+         <zone type="print"
+               xml:id="line_publication-215"
+               start="#line-publication-215"
+               ulx="7"
+               uly="108"
+               lrx="23"
+               lry="248"
+               rotate="0"/>
+         <!-- proprietà artistica riservata -->
+         <zone type="print"
+               xml:id="title_215"
+               start="#title-215"
+               ulx="15"
+               uly="291"
+               lrx="236"
+               lry="343"
+               rotate="0"/>
+         <!-- autore e traduzioni nome cartolina -->
+      </surface>
+   </facsimile>
+   <text>
+      <front xmlns="http://www.tei-c.org/ns/1.0"><!-- testo tipografico -->
+         <div type="tipografia" part="N" org="uniform" sample="complete">
+            <p facs="#line_publication-215" xml:id="line-publication-215" part="N">
+               <s rend="writing-mode(horizontal-lr) text-orientation(sideways)" part="N">
+                              Proprietà artistica riservata.
+                        </s>
+            </p>
+            <p facs="#title_215" xml:id="title-215" part="N">
+               <s rend="writing-mode(horizontal-lr) text-orientation(sideways)" part="N">
+                              2501. <persName ref="list.xml#PA" type="author" instant="false" full="yes">P. ALBANI</persName>
+                              Trionfo di amorini.
+                              Triomphe de petits amours.
+                              Triumph the Cupids.
+                              Triumph der Liebesgotter.
+                              (<placeName ref="list.xml#GE" instant="false" full="yes">Genova, Palazzo Bianco</placeName>)
+                        </s>
+            </p>
+         </div>
+      </front>
+      <body xmlns="http://www.tei-c.org/ns/1.0">
+         <div type="fronte"
+              facs="#surface7694-215F"
+              part="N"
+              org="uniform"
+              sample="complete">
+            <figure>
+               <head>Trionfo di amorini</head>
+               <figDesc>Amorini in trionfo su di un carro dorato</figDesc>
+            </figure>
+         </div>
+         <div type="retro" part="N" org="uniform" sample="complete">
+            <div type="message" part="N" org="uniform" sample="complete">
+               <opener>
+                  <dateline>
+                     <lb n="1" facs="#lineText_1-215" xml:id="lineText-1-215"/>
+                     <s part="N">
+                        <placeName ref="list.xml#MO" instant="false" full="yes">Modena</placeName>, 
+                                    <date when="1918-02-04" instant="false">4/02-18</date>
+                     </s>
+                  </dateline>
+               </opener>
+               <div type="postcard-body" part="N" org="uniform" sample="complete">
+                  <p part="N">
+                     <lb n="2" facs="#lineText_2-215" xml:id="lineText-2-215"/>
+                              Con affetto profondo
+                              <lb n="3" facs="#lineText_3-215" xml:id="lineText-3-215"/>
+                              rivolgo a te il mio pensiero
+                        </p>
+               </div>
+               <closer>
+                  <lb n="4" facs="#lineText_4-215" xml:id="lineText-4-215"/>
+                        tuo
+                        <signed>
+                     <persName instant="false" full="yes">
+                        <forename ref="list.xml#GC" full="yes">Giovannino</forename>
+                     </persName>
+                  </signed>
+               </closer>
+            </div>
+            <div type="address-destination"
+                 part="N"
+                 org="uniform"
+                 sample="complete">
+               <p part="N">
+                  <address>
+                     <addrLine>
+                        <lb n="5" facs="#lineText_5-215" xml:id="lineText-5-215"/>
+                              Gent Sig.na
+                              <lb n="6" facs="#lineText_6-215" xml:id="lineText-6-215"/>
+                              Oliva Turtura
+                              <lb n="7" facs="#lineText_7-215" xml:id="lineText-7-215"/>
+                              Via Girolamo <choice>
+                           <orig>Rosfi</orig>
+                           <reg resp="list.xml#LR" cert="high" instant="false">Rossi</reg>
+                        </choice> 58
+                              <lb n="8" facs="#lineText_8-215" xml:id="lineText-8-215"/>
+                              Ravenna
+                        </addrLine>
+                  </address>
+               </p>
+            </div>
+            <div type="postmark-postage"
+                 part="N"
+                 org="uniform"
+                 sample="complete">
+               <ab type="postage-postmark"
+                   facs="#stamp_215"
+                   xml:id="stamp-215"
+                   part="N">
+                  <stamp type="postmark">
+                     <mentioned>Modena Ferrovia</mentioned>
+                     <date when="1918-02-14" instant="false">14.2.1918</date>
+                  </stamp>
+                  <stamp type="postage">
+                     <hi rend="uppercase">poste
+                            italiane 5 centesimi</hi>
+                  </stamp>
+               </ab>
+            </div>
+            <div type="secondamano" part="N" org="uniform" sample="complete">
+               <ab type="paratext" part="N">
+                  <add facs="#number215_215"
+                       xml:id="number215-215"
+                       instant="false"
+                       status="unremarkable">
+                     <num type="cardinal">215</num>
+                  </add>
+               </ab>
+            </div>
+         </div>
+      </body>
+      <back>
+         <div type="linguistic">
+            <ab>
+               <seg lemma="con">
+                  <w type="form">Con</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="affetto">
+                  <w type="form">affetto</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="profondo">
+                  <w type="form">profondo</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="rivolgere">
+                  <w type="form">rivolgo</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="a">
+                  <w type="form">a</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="te">
+                  <w type="form">te</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="il">
+                  <w type="form">il</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="mio">
+                  <w type="form">mio</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="pensiero">
+                  <w type="form">pensiero</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="tuo">
+                  <w type="form">tuo</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="Giovannino">
+                  <w type="form">Giovannino</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+            </ab>
+         </div>
+      </back>
+   </text>
+</TEI>

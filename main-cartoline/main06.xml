@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cartolina_7694-006">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title type="main">Coppia di innamorati</title>
+
+                    <respStmt>
+                        <resp>Trascrizione a cura di:</resp>
+                        <name ref="#EC">Erica Cau</name>
+                        <name ref="#AI">Alice Isola</name>
+                    </respStmt>
+
+                    <respStmt>
+                        <resp>Ente di Appartenenza:</resp>
+                        <name type="comune" ref="#SP">Comune di La Spezia</name>
+                    </respStmt>
+                </titleStmt>
+
+                <editionStmt>
+                    <edition>Studenti di Storia Pubblica Digitale, Corso di Laurea Magistrale e
+                        Triennale di Informatica Umanistica, Università di Pisa <date when="2019-02"
+                            >Febbraio 2019</date>
+                    </edition>
+                    <respStmt>
+                        <resp>encoding by:</resp>
+                        <name ref="#EC">Erica Cau</name>
+                        <name ref="#AI">Alice Isola</name>
+                    </respStmt>
+                    <respStmt>
+                        <resp>Compilatore:</resp>
+                        <name ref="#TC">Tommaso Castagneto</name>
+                    </respStmt>
+                    <respStmt>
+                        <resp>Responsabile scientifico:</resp>
+                        <name ref="#GP">Giacomo Paolicchi</name>
+                        <name ref="#ES">Enrica Salvatori</name>
+                    </respStmt>
+                    <respStmt>
+                        <resp>Funzionario responsabile</resp>
+                        <name ref="#MR">Marzia Ratti</name>
+                    </respStmt>
+                </editionStmt>
+
+                <publicationStmt>
+                    <publisher>Unipi</publisher>
+                    <pubPlace>Pisa</pubPlace>
+                    <availability>
+                        <p>Available under licence only</p>
+                    </availability>
+                    <date when="2019">2019</date>
+                    <distributor>LabCD</distributor>
+                    <address>
+                        <addrLine>Laboratorio di Cultura Digitale - Università di Pisa</addrLine>
+                        <addrLine>Pisa</addrLine>
+                    </address>
+                </publicationStmt>
+
+                <sourceDesc>
+                    <bibl>
+                        <title>Bacio Furtivo</title>
+                        <publisher>"Cromogliptica" A.Marzi</publisher>
+                        <pubPlace>Roma</pubPlace>
+                    </bibl>
+                    <msDesc>
+                        <msIdentifier>
+                            <country>Italia</country>
+                            <settlement>La Spezia (SP)</settlement>
+                            <repository>Museo Civico Etnografico "Giovanni Podenzana", Sezione dei
+                                cimeli garibaldini e della Prima Guerrra Mondiale</repository>
+                            <idno>7694-006_001/002</idno>
+                        </msIdentifier>
+
+                        <msContents>
+                            <summary>Cartolina Artistica</summary>
+                            <textLang>Italiano</textLang>
+                        </msContents>
+                        <physDesc>
+                            <objectDesc>
+                                <supportDesc>
+                                    <support>
+                                        <objectType>Cartolina</objectType>
+                                        <material>Carta</material>
+                                        <dimensions unit="cm">
+                                            <height>9</height>
+                                            <width>14</width>
+                                        </dimensions>
+                                    </support>
+                                    <condition>Buono</condition>
+                                </supportDesc>
+                            </objectDesc>
+                            <handDesc>
+                                <handNote>
+                                    <p>Il testo nel recto della cartolina appartiene alla mano di
+                                        Giovanni Coliola</p>
+                                </handNote>
+                                <handNote>
+                                    <p>Nell'angolo in alto a destra della parte superiore della
+                                        cartolina è presente un 6, numero di inventario della cartolina, aggiunto dal catalogatore
+                                    </p>
+                                </handNote>
+                            </handDesc>
+                        </physDesc>
+                    </msDesc>
+
+                    <listPerson>
+                        <person xml:id="GC">
+                            <persName>
+                                <forename>Giovanni</forename>
+                                <surname>Coliola </surname>
+                            </persName>
+                            <sex>M</sex>
+                            <occupation n="1">Tenente colonnello</occupation>
+                        </person>
+                        <person xml:id="OT">
+                            <persName>
+                                <forename>Oliva</forename>
+                                <surname>Turtura</surname>
+                            </persName>
+                            <sex>F</sex>
+                        </person>
+                    </listPerson>
+                 </sourceDesc>
+            </fileDesc>
+            <profileDesc>
+                <correspDesc>
+                    <correspAction type="sent">
+                        <persName ref="#GC"/>
+                    </correspAction>
+                    <correspAction type="received">
+                        <persName ref="#OT"/>
+                    </correspAction>
+                </correspDesc>
+                <langUsage>
+                    <language ident="it-IT" usage="98">Italiano del Novecento</language>
+                    <language ident="fr-FR" usage="2">Francese 
+                        <note>(lingua utilizzata per il titolo alternativo della cartolina nel recto)</note>
+                    </language>
+                </langUsage>
+            </profileDesc>
+        </teiHeader>
+
+        <facsimile xml:id="cartolina_006">
+            <!-- FRONTE -->
+            <surfaceGrp>
+                <surface xml:id="cartolina_facs_006_f" type="fronte_cartolina">
+                    <graphic url="img_cartoline/7694-006F.jpg" width="390px" height="602px"/>
+                </surface>
+                <!-- RECTO -->
+                <surface xml:id="cartolina_facs_006_r" type="recto_cartolina">
+                    <graphic url="img_cartoline/7694-006R.jpg" width="390px" height="602px"/>
+                    <zone ulx="5" uly="29" lrx="134" lry="62" rendition="Line"
+                        xml:id="r_intestazione6_1"/>
+                    <!--SCULTURE MASTROIANNI ROMA-->
+                    <zone ulx="181" uly="27" lrx="319" lry="40" rendition="Line"
+                        xml:id="r_intestazione6_2"/>
+                    <!--CROMOGLIPTICA-->
+                    <zone ulx="599" uly="114" lrx="645" lry="149" rendition="Line"
+                        xml:id="r_intestazione6_3"/>
+                    <!--AM-->
+                    <zone ulx="683" uly="105" lrx="748" lry="161" rendition="Line"
+                        xml:id="r_intestazione6_4"/>
+                    <!--6-->
+                    <zone ulx="455" uly="63" lrx="785" lry="100" rendition="Line"
+                        xml:id="r_intestazione6_5"/>
+                    <!--BACIO FURTIVO-->
+
+                    <zone ulx="60" uly="98" lrx="307" lry="186" rendition="Line"
+                        xml:id="r_lettera_006_1"/>
+                    <!--RIGA 1-->
+                    <zone ulx="37" uly="179" lrx="817" lry="273" rendition="Line"
+                        xml:id="r_lettera_006_2"/>
+                    <!--RIGA 2-->
+                    <zone ulx="31" uly="272" lrx="826" lry="351" rendition="Line"
+                        xml:id="r_lettera_006_3"/>
+                    <!--RIGA 3-->
+                    <zone ulx="33" uly="357" lrx="778" lry="407" rendition="Line"
+                        xml:id="r_lettera_006_4"/>
+                    <!-- RIGA 4 -->
+                    <zone ulx="32" uly="425" lrx="817" lry="517" rendition="Line"
+                        xml:id="r_lettera_006_5"/>
+                    <!-- RIGA 5-->
+                    <zone ulx="36" uly="517" lrx="825" lry="585" rendition="Line"
+                        xml:id="r_lettera_006_6"/>
+                    <!-- RIGA 6-->
+                    <zone ulx="59" uly="568" lrx="599" lry="627" rendition="Line"
+                        xml:id="r_lettera_006_7"/>
+                    <!--RIGA 7-->
+                    <zone ulx="22" uly="750" lrx="358" lry="794" rendition="Line"
+                        xml:id="r_intestazione6_7"/>
+                    <!--RIPRODUZIONE-->
+                    <zone ulx="729" uly="753" lrx="997" lry="791" rendition="Line"
+                        xml:id="r_intestazione6_8"/>
+                    <!--STAMPATA IN ITALIA-->
+                    <zone ulx="14" uly="630" lrx="769" lry="695" rendition="Line"
+                        xml:id="r_lettera_006_8"/>
+                    <!--RIGA 8-->
+                    <zone ulx="32" uly="699" lrx="801" lry="785" rendition="Line"
+                        xml:id="r_lettera_006_9"/>
+                    <!--RIGA 9-->
+                    <zone ulx="42" uly="793" lrx="760" lry="883" rendition="Line"
+                        xml:id="r_lettera_006_10"/>
+                    <!--RIGA 10-->
+                    <zone ulx="49" uly="896" lrx="806" lry="999" rendition="Line"
+                        xml:id="r_lettera_006_11"/>
+                    <!--RIGA 11-->
+                    <zone ulx="33" uly="1002" lrx="774" lry="1088" rendition="Line"
+                        xml:id="r_lettera_006_12"/>
+                    <!--RIGA 12-->
+                    <zone ulx="28" uly="1094" lrx="804" lry="1171" rendition="Line"
+                        xml:id="r_lettera_006_13"/>
+                    <!-- RIGA 13-->
+                    <zone ulx="20" uly="1162" lrx="252" lry="1218" rendition="Line"
+                        xml:id="r_lettera_006_14"/>
+                    <!-- RIGA 14-->
+                    <zone ulx="263" uly="1153" lrx="763" lry="1249" rendition="Line"
+                        xml:id="r_lettera_006_15"/>
+                    <!-- FIRMA GIOVANNI COLIOLA-->
+                </surface>
+            </surfaceGrp>
+        </facsimile>
+
+        <!--TESTO PRIMA CARTOLINA-->
+        <text type="cartolina" xml:id="cartolina_7694_006">
+            <body xml:lang="ita">
+                <div type="fronte">
+                    <figure>
+                        <head>Bacio furtivo</head>
+                        <figDesc>In primo piano il bacio furtivo tra due innamorati davanti ad un
+                            muro ricoperto d'edera. A destra, in secondo piano, un palazzo
+                            signorile.</figDesc>
+                        <note place="bottom" facs="#7694-006_f_h_01">Nella parte inferiore è
+                            presente la scritta <orgName>D<supplied reason="omitted-in-original">[OMENICO]</supplied> MASTROIANNI</orgName>
+                            <placeName>ROME</placeName>
+                        </note>
+                    </figure>
+                </div>
+                <!--RECTO-->
+                <div type="recto">
+                    <div type="contenuto_trascrizione">
+                        <!--CODIFICA SCRITTE NELLA CARTOLINA-->
+                        <pb xml:id="cartolina_006_r" facs="#cartolina_facs_006_r"/>
+                        <!--CORPO DELLA LETTERA-->
+                        <opener>
+                            <lb xml:id="riga_lettera_006_1" n="fr_01" facs="#r_lettera_006_1"/>
+                            <salute xml:id = "salute_1" rend="align(left)">
+                                <persName>Oliva</persName>, </salute>
+                        </opener>
+                        <ab type="parag" n="ab_6_01">
+                            <s type="sentence" n="s_02">
+                                <lb xml:id="riga_lettera_006_2" n="fr_02" facs="#r_lettera_006_2"/>Lo sai che t'amo tanto, <w>tan- 
+                                <lb xml:id="riga_lettera_006_3" n="fr_03" facs="#r_lettera_006_3" break="no"/>to</w> ebbene l'amor mio non 
+                                <lb xml:id="riga_lettera_006_4" n="fr_04" facs="#r_lettera_006_4"/>muore più; tanto che la 
+                                <lb xml:id="riga_lettera_006_5" n="fr_05" facs="#r_lettera_006_5"/>mia <persName ref="#OT">Oliva</persName> mi saprà <w>inspi- 
+                                <lb xml:id="riga_lettera_006_6" n="fr_06" facs="#r_lettera_006_6" break="no"/>rare</w> tante cose <hi rend= "underline">belle</hi> e buone
+                                <lb xml:id="riga_lettera_006_7" n="fr_07" facs="#r_lettera_006_7"/>saprà darmi tante 
+                                <lb xml:id="riga_lettera_006_8" n="fr_08" facs="#r_lettera_006_8"/>belle consolazioni ed un 
+                                <lb xml:id="riga_lettera_006_9" n="fr_09" facs="#r_lettera_006_9"/>affetto grande, smisurato, 
+                                <lb xml:id="riga_lettera_006_10" n="fr_10" facs="#r_lettera_006_10"/>infinito, puro, eterno 
+                                <lb xml:id="riga_lettera_006_11" n="fr_11" facs="#r_lettera_006_11"/>che ci eleverà sulla <w>commu-
+                                <lb xml:id="riga_lettera_006_12" n="fr_12" facs="#r_lettera_006_12" break="no"/>ne</w> mediocrità degli <w>uo- 
+                                <lb xml:id="riga_lettera_006_13" n="fr_13" facs="#r_lettera_006_13" break="no"/>mini</w>, nel silenzio dei nostri 
+                                <lb xml:id="riga_lettera_006_14" n="fr_14" facs="#r_lettera_006_14"/>cuori: </s>
+                        </ab>
+                        <!-- CHIUSURA LETTERA -->
+                        <closer>
+                            <lb xml:id="riga_lettera_006_15" n="fr_15" facs="#r_lettera_006_15"/>
+                            <signed>
+                                <hi rend="align(right)" xml:id = "firma_1">
+                                    <persName ref="#GC"><hi rend="underline">Giovannino</hi></persName>
+                                </hi>
+                            </signed>
+                        </closer>
+                    </div>
+                    <div type="stampe_cartolina">
+                        <ab type = "stampe" xml:id = "ab_6_02">
+                            <s facs = "#r_intestazione6_1"> Sculture MASTROIANNI Roma Edizione propria N.46 </s>
+                            <s facs = "#r_intestazione6_2"> <orgName>"Cromogliptica" A. Marzi</orgName> - <placeName>Roma</placeName> </s>
+                            <s facs = "#r_intestazione6_3"> AM </s>
+                            <s facs = "#r_intestazione6_4" type="catalog"> 6 </s>
+                            <s facs = "#r_intestazione6_5">Bacio furtivo</s>
+                            <s facs = "#r_intestazione6_5">Baiser furtif</s>
+                        </ab>
+                    </div>
+                </div>
+            </body>
+        </text>
+    </TEI>

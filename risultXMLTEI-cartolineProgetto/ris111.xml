@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI SYSTEM 'myTEI.dtd'>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cartolina_7694-111">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>[Donna con le rose] - Edizione digitale</title>
+         </titleStmt>
+         <publicationStmt xmlns="http://www.tei-c.org/ns/1.0">
+            <publisher>
+               <choice>
+                  <abbr>Unipi</abbr>
+                  <expan>Università di
+                            <placeName ref="list.xml#PI">Pisa</placeName>
+                  </expan>
+               </choice>
+            </publisher>
+            <pubPlace ref="list.xml#PI">Pisa</pubPlace>
+            <availability>
+               <p>Available under licence only</p>
+            </availability>
+            <date when="2019">2019</date>
+            <distributor>
+               <orgName ref="list.xml#LCD">
+                  <choice>
+                     <abbr>LabCD</abbr>
+                     <expan>Laboratorio di Cultura Digitale</expan>
+                  </choice>
+               </orgName>
+            </distributor>
+            <address>
+               <addrLine>Laboratorio di Cultura Digitale - Università di Pisa</addrLine>
+               <addrLine>
+                  <placeName ref="list.xml#PI">Pisa</placeName>
+               </addrLine>
+            </address>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="custom" resp="list.xml#ES">Donna con le rose</title>
+                <publisher>
+                        <orgName ref="list.xml#URS">
+                     <choice>
+                        <abbr>Uff.</abbr>
+                        <expan>Uff<ex>icio</ex>
+                        </expan>
+                     </choice>
+                     <choice>
+                        <abbr>Rev.</abbr>
+                        <expan>Rev<ex>isioni</ex>
+                        </expan>
+                     </choice> Stampa
+			</orgName>
+                </publisher>
+                <pubPlace ref="list.xml#MI">Milano</pubPlace>
+                <date when="1917-06-11"> 11-06-17</date>
+            </bibl>
+            <msDesc>
+               <!-- descrizione del manoscritto -->
+                <msIdentifier>
+                        <!-- info per identificare il manoscritto -->
+                        <country ref="list.xml#IT">Italia</country>
+                        <settlement ref="list.xml#SP">La Spezia (SP)</settlement>
+                        <!-- collocazione specifica -->
+                        <repository ref="list.xml#MCE">Museo Civico Etnografico "Giovanni Podenzana", Sezione dei cimeli garibaldini e della Prima Guerrra Mondiale</repository>
+                        <!-- codice identificativo -->
+                        <idno type="postcard_id">7694_111_001/002</idno>
+                </msIdentifier>
+               <!-- Informazioni sul contenuto della cartolina -->
+               <!-- DESCRIZIONE -->
+               <msContents>
+                  <summary>Cartolina Artistica</summary>
+                  <textLang>Italiano</textLang>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <stamp type="postage"> Francobollo - Regno d'Italia </stamp>
+                           <stamp type="postmark">Timbro di partenza </stamp>
+                           <objectType>Cartolina</objectType>
+                           <!-- MATERIALI -->
+                           <material>Carta</material>
+                           <!-- DIMENSIONE -->
+                           <dimensions unit="cm">
+                              <height>9</height>
+                              <width>14</width>
+                           </dimensions>
+                        </support>
+                        <!-- CONSERVAZIONE -->
+                        <condition>Ottimo</condition>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc xmlns="http://www.tei-c.org/ns/1.0">
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="list.xml#GC">
+                  <forename>Giovanni</forename>
+                  <surname>Coliola</surname>
+               </persName>
+               <placeName ref="list.xml#MO">Modena</placeName>
+               <date type="writing" when="19170903">03/09/1917</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="list.xml##OT">
+                  <forename>Oliva</forename>
+                  <surname>Turtura</surname>
+               </persName>
+               <placeName ref="list.xml##RV">Ravenna</placeName>
+            </correspAction>
+         </correspDesc>
+         <textClass>
+            <keywords>
+               <term>Cartolina </term>
+               <term>Cartolina Artistica </term>
+               <term>Donna (in lilla) sdraiata sul letto con un mazzo di rose</term>
+            </keywords>
+         </textClass>
+         <langUsage>
+            <language ident="it-IT">La lingua usata per la codifica è l'italiano</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <facsimile xmlns="http://www.tei-c.org/ns/1.0" xml:id="facsimile3">
+         <surface xml:id="fronte3" start="cartolina_fronte3">
+            <!-- tutta l'immagine -->
+            <graphic url="img-cartoline/7694-111F.jpg" width="1659px" height="1058px"/>
+         </surface>
+         <surface xml:id="retro3" start="cartolina_retro3">
+            <graphic url="img-cartoline/7694-111F.jpg" width="1655px" height="1063px"/>
+            <!-- parte sinistra -->
+            <zone ulx="108" uly="50" lrx="744" lry="1016" xml:id="zone9"/>
+            <!-- parte in alto a destra (timbro e francobollo)-->
+            <zone ulx="1176" uly="8" lrx="1625" lry="345" xml:id="zone10"/>
+            <!-- parte in basso a destra -->
+            <zone ulx="811" uly="306" lrx="1641" lry="1026" xml:id="zone11"/>
+            <!--Zona id  cartina-->
+            <zone ulx="9" uly="11" lrx="165" lry="131" xml:id="zone12"/>
+         </surface>
+   </facsimile>
+   <text>
+     <!-- informazioni peritestuali -->
+      <front>
+            <!-- testo tipografico -->
+            <div type="tipografia">
+                  <p>
+                        <s rend="writing-mode(vertical-lr) text-orientation(sideways)">
+                              Proprietà artistica riservata - 
+                              <orgName ref="list.xml#URS">
+                                    <choice>
+                                          <abbr>Uff.</abbr>
+                                          <expan>Uff<ex>icio</ex>
+                                          </expan>
+                                    </choice>
+                                    <choice>
+                                          <abbr>Rev.</abbr>
+                                          <expan>Rev<ex>isioni</ex>
+                                          </expan>
+                                    </choice> Stampa
+			            </orgName>
+                              <placeName ref="list.xml#MI">Milano</placeName>
+                              <date when="1917-06-11">11-6-17</date>
+                              N. 
+                              <num type="cardinal" value="1139">1139</num>
+                        </s>
+                  </p>
+            </div>
+      </front>
+      <body>
+         <div xmlns="http://www.tei-c.org/ns/1.0" type="fronte">
+            <figure>
+               <head>
+                  <title>Donna sdraiata con mazzo di rose</title>
+               </head>
+               <figDesc>L'immagine descrive una donna dalla carnagione chiara, con labbra
+                        vermiglie e un velo di trucco. I mossi capelli corti portati all'altezza del
+                        collo la fanno dolcemente adagiare su quello che pare un cuscino dal colore
+                        purpureo. Adagiato con lei, vi è un mazzo di rose rosse e gialle. Una veste
+                        ne lascia intuire le femminili forme. Quasi adagiata sulla sua schiena.
+                        troviamo la firma dell'autore "T.Corbella" </figDesc>
+            </figure>
+         </div>
+         <div type="retro">
+                <div type="message">
+                        <opener xmlns="http://www.tei-c.org/ns/1.0">
+                                <dateline>
+                                        <lb n="1"/>
+                                        <s>
+                                                <placeName ref="list.xml#MO">Modena</placeName> 
+                                                <date when="1917-09-03">3/9-17</date>.
+                                         </s>
+                                </dateline>
+                        </opener>
+                        <closer xmlns="http://www.tei-c.org/ns/1.0">
+                              <lb n="2"/>
+                              <signed>
+                                    <persName>
+                                          <forename ref="list.xml#GC">Giovannino</forename>
+                                    </persName>
+                              </signed>
+                        </closer>
+                </div>
+            <div xmlns="http://www.tei-c.org/ns/1.0" type="address-destination">
+                <p>
+                        <address>
+                                <addrLine>
+                                        <lb n="3"/>
+                                        Gent Sig.na 
+                                        <lb n="4"/>
+                                        Oliva Turtura
+                                        <lb n="5"/>
+                                        Via Girolano <choice>
+                                                            <orig>Rosfi</orig>
+                                                            <reg resp="list.xml#LR" cert="high">Rossi</reg>
+                                                      </choice> 58
+                                        <lb n="6"/>
+                                        Ravenna
+                                </addrLine>
+                        </address>
+                </p>
+            </div>
+            <div type="postmark-postage">
+               <ab>
+                  <stamp xmlns="http://www.tei-c.org/ns/1.0" type="postmark">
+                     <mentioned>
+                        <placeName ref="#MO"> MODENA </placeName>
+                        <w> FERROVIA </w>
+                     </mentioned>
+                  </stamp>
+                  <stamp xmlns="http://www.tei-c.org/ns/1.0" type="postage">Francobollo da 5 centesimi del Regno d'Italia</stamp>
+               </ab>
+            </div>
+            <div type="secondamano">
+               <ab type="paratext">
+                  <add>
+                     <num type="cardinal">111</num>
+                  </add>
+               </ab>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

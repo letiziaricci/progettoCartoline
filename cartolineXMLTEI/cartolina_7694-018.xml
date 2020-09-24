@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xml:id="cartolina_7694-018">
+   <tei:teiHeader/>
+   <tei:text>
+      <tei:front/>
+      <tei:body>
+         <tei:div type="retro">
+            <tei:div type="message">
+               <tei:opener xmlns="http://www.tei-c.org/ns/1.0">
+                  <tei:dateline/>
+               </tei:opener>
+               <tei:div xmlns="http://www.tei-c.org/ns/1.0" type="postcard-body">
+                  <tei:p>
+                     <tei:lb/>            Ricambia e <tei:lb/>            saluta <tei:lb/>
+                     <tei:gap reason="illegible"/>
+                  </tei:p>
+                  <tei:p type="fronte"/>
+               </tei:div>
+               <tei:closer xmlns="http://www.tei-c.org/ns/1.0">
+                  <tei:s>
+                     <tei:lb/>RR </tei:s>
+               </tei:closer>
+            </tei:div>
+            <tei:div xmlns="http://www.tei-c.org/ns/1.0" type="address-destination">
+               <tei:p>
+                  <tei:address>
+                     <tei:addrLine>
+                        <tei:lb/>            All' Inclitta Signorina <tei:lb/>            Illustre Oliva Turtura <tei:lb/>            Via Girolamo Rosfi <tei:lb/>            Ravenna S. Vittore</tei:addrLine>
+                  </tei:address>
+               </tei:p>
+            </tei:div>
+            <tei:div type="postmark-postage">
+               <tei:ab/>
+            </tei:div>
+            <tei:div type="secondamano">
+               <tei:ab type="paratext">
+                  <tei:add/>
+               </tei:ab>
+            </tei:div>
+         </tei:div>
+      </tei:body>
+   </tei:text>
+</tei:TEI>

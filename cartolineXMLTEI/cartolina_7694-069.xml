@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xml:id="cartolina_7694-069">
+   <tei:teiHeader/>
+   <tei:text>
+      <tei:front/>
+      <tei:body>
+         <tei:div type="retro">
+            <tei:div type="message">
+               <tei:opener xmlns="http://www.tei-c.org/ns/1.0">
+                  <tei:dateline/>
+               </tei:opener>
+               <tei:div xmlns="http://www.tei-c.org/ns/1.0" type="postcard-body">
+                  <tei:p>
+                     <tei:lb/>            Carisfima Oliva<tei:lb/>            posfibile che la nostra <tei:lb/>            amicizia sia sfumata come in <tei:lb/>            una cartolina illustrata?<tei:lb/>            Ti prego scrivimi presto, perchè<tei:lb/>            io aspetto , e pensarsi reciproca-<tei:lb/>            mente va bene, ma non <tei:lb/>            basta. Ti diverti a Ravenna?<tei:lb/>            Io tanto qui a Ferrara.<tei:lb/>            Però l'altra settimana, ebbi alcune <tei:lb/>            febbrette ora sto bene e così <tei:lb/>            spero di te anzi di tutti voi. </tei:p>
+                  <tei:p type="fronte"/>
+               </tei:div>
+               <tei:closer xmlns="http://www.tei-c.org/ns/1.0">
+                  <tei:s>
+                     <tei:lb/>Ciao, ti bacio con affetto, tua <tei:lb/>
+                     <tei:signed>
+                        <tei:persName>
+                           <tei:forename ref="Pia">Pia</tei:forename>
+                        </tei:persName>
+                     </tei:signed>
+                  </tei:s>
+               </tei:closer>
+            </tei:div>
+            <tei:div xmlns="http://www.tei-c.org/ns/1.0" type="address-destination">
+               <tei:p>
+                  <tei:address>
+                     <tei:addrLine>
+                        <tei:lb/>            Demoiselle <tei:lb/>            Oliva Turtura <tei:lb/>            Girolamo Rossi<tei:lb/>            60 <tei:lb/>            Ravenna </tei:addrLine>
+                  </tei:address>
+               </tei:p>
+            </tei:div>
+            <tei:div type="postmark-postage">
+               <tei:ab/>
+            </tei:div>
+            <tei:div type="secondamano">
+               <tei:ab type="paratext">
+                  <tei:add/>
+               </tei:ab>
+            </tei:div>
+         </tei:div>
+      </tei:body>
+   </tei:text>
+</tei:TEI>

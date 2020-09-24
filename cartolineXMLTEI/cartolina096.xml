@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xml:id="cartolina_7694-096">
+<teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+      <fileDesc>
+         <titleStmt>
+            <title>La scultura - Edizione digitale</title>
+         </titleStmt>
+         <publicationStmt><!-- contiene informazioni sulla pubblicazione e distribuzione del documento digitale -->
+            <publisher>
+               <choice>
+                  <abbr>Unipi</abbr>
+                  <expan instant="false">
+                              Università di
+                  <placeName ref="list.xml#PI" instant="false" full="yes">Pisa</placeName>
+                  </expan>
+               </choice>
+            </publisher>
+            <pubPlace ref="list.xml#PI">Pisa</pubPlace>
+            <availability default="false">
+               <p part="N">Available under licence only</p>
+            </availability>
+            <date when="2019" instant="false">2019</date>
+            <distributor>
+               <orgName ref="list.xml#LCD" instant="false" full="yes">
+                  <choice>
+                     <abbr>LabCD</abbr>
+                     <expan instant="false">Laboratorio di Cultura Digitale</expan>
+                  </choice>
+               </orgName>
+            </distributor>
+            <address>
+               <addrLine>Laboratorio di Cultura Digitale - Università di Pisa</addrLine>
+               <addrLine>
+                  <placeName ref="list.xml#PI" instant="false" full="yes">Pisa</placeName>
+               </addrLine>
+            </address>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <bibl default="false" status="draft">
+               <title type="custom" resp="list.xml#ES">La scultura</title>
+               <publisher>
+                        <persName ref="list.xml#AB" instant="false" full="yes">Abertiglia</persName>
+                     </publisher>
+            </bibl>
+            <msDesc status="draft"><!-- descrizione del manoscritto -->
+               <msIdentifier><!-- info per identificare il manoscritto -->
+                  <country ref="list.xml#IT">Italia</country>
+                  <settlement ref="list.xml#lSP">La Spezia (SP)</settlement>
+                  <!-- collocazione specifica -->
+                  <repository ref="list.xml#MCE">Museo Civico Etnografico "Giovanni Podenzana", Sezione dei cimeli garibaldini e della Prima Guerrra Mondiale</repository>
+                  <!-- codice identificativo -->
+                  <idno type="postcard_id">7694_096_001/002</idno>
+               </msIdentifier>
+               <!-- Informazioni sul contenuto della cartolina -->
+               <msContents>
+                  <summary>Cartolina Artistica</summary>
+                  <textLang mainLang="ita">Italiano</textLang>
+               </msContents>
+               <physDesc><!-- descrizione fisica del manoscritto -->
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType>Cartolina</objectType>
+                           <material>Carta</material>
+                           <dimensions unit="cm">
+                              <height>9</height>
+                              <width>14</width>
+                           </dimensions>
+                        </support>
+                        <condition>
+                              Cartolina in buone condizioni fisiche e ben leggibile.
+                        </condition>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc default="false">
+            <correspAction type="sent">
+               <persName ref="list.xml#GC" instant="false" full="yes">Giovanni Coliola</persName>
+               <placeName ref="list.xml#MO" instant="false" full="yes">Modena</placeName>
+               <date type="writing" when="1917-06-06" instant="false">6/6/1917</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="list.xml#OT" instant="false" full="yes">Oliva Turtura</persName>
+            </correspAction>
+         </correspDesc>
+         <textClass default="false">
+            <keywords><!-- soggettario --><!-- tipologia --><!-- descrizione -->
+               <term>Cartolina </term>
+               <term>Cartolina Artistica </term>
+               <term>Immagine di donna che prega</term>
+            </keywords>
+         </textClass>
+         <langUsage default="false">
+            <language ident="it">italiano</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <front xmlns="http://www.tei-c.org/ns/1.0"><!-- testo tipografico -->
+            <div type="tipografia" part="N" org="uniform" sample="complete">
+               <p >
+                  <s rend="writing-mode(horizontal-lr) text-orientation(sideways)" part="N">
+                        LA SCULTURA
+                  </s>
+               </p>
+               <p rend="writing-mode(vertical-lr) text-orientation(sideways)" part="N">
+                  <s >
+                                 Proprietà artistica riservata - N. 1018
+                  </s>
+               </p>
+            </div>
+      </front>
+      <body>
+          <div type="fronte">
+            <figure>
+                  <graphic url="img-cartolina/7696-093F.jpg"/>
+                  <!-- Descrizione dell'immagine in linguaggio naturale -->
+                  <figDesc>
+                        <desc>Bambino che scolpisce una statua e bambina che osserva</desc>
+                  </figDesc>
+            </figure>
+         </div>
+         <div type="retro">
+            <div type="message">
+               <opener xmlns="http://www.tei-c.org/ns/1.0">
+                  <dateline>
+                     <lb n="1"/>
+                     <s>Modena, li 6/6-1917.</s>
+                  </dateline>
+               </opener>
+               <div xmlns="http://www.tei-c.org/ns/1.0" type="postcard-body">
+                  <p>
+                     <lb n="2"/>
+                     Forse ti parrà una pasfione morbosa,
+                     <lb n="3"/>
+                     forse, se gli eventi rimangono avversi
+                     <lb n="4"/>
+                     parrà diventare.... è già il tormento
+                     <lb n="5"/>
+                     lo affanno dell'animo e non cesfa
+                     <lb n="6"/>
+                     e non muore. Ti parrà debolezza di
+                     <lb n="7"/>
+                     spirito malato, un pensiero forse. persi-
+                     <lb n="8"/>
+                     stente, indistruttibile, qual'è il mio
+                     <lb n="9"/>
+                     per te? E come si dovrebbe amare?
+                  </p>
+               </div>
+               <closer xmlns="http://www.tei-c.org/ns/1.0">
+                     <lb n="10"/>
+                     <signed>
+                        <persName>
+                           <forename ref="list.xml#GC">Giovannino</forename>
+                        </persName>
+                     </signed>
+               </closer>
+            </div>
+            <div xmlns="http://www.tei-c.org/ns/1.0" type="address-destination">
+               <p>
+                        <address>
+                                    <addrLine>
+                                          <lb n="11"/>
+                                          Gent.ma Sig.na
+                                          <lb n="12"/>
+                                          Oliva Turtura
+                                          <lb n="13"/>
+                                          Via Girolamo Rosfi 58
+                                          <lb n="14"/>
+                                          Ravenna
+                                    </addrLine>
+                        </address>
+               </p>
+            </div>
+            <div type="postmark-postage">
+                        <ab part="N">
+                           <stamp type="postmark">
+                              <mentioned>
+                                 MODENA 7.6.17.16 FERROVIA
+                             </mentioned>
+                           </stamp>
+                           <stamp type="postmark">
+                              <mentioned>
+                                    MODENA 7.6.17.16 FERROVIA
+                              </mentioned>
+                           </stamp>
+                           <stamp type="postmark">
+                                    <mentioned>
+                                       <gap reason="illegible"
+                                            agent="faded"
+                                            atLeast="2"
+                                            atMost="6"
+                                            unit="chars"
+                                            instant="false"/>
+                                       MODENA
+                                    </mentioned>
+                           </stamp>
+                           <stamp type="postmark">
+                                    <mentioned>
+                                       <gap reason="illegible"
+                                            agent="faded"
+                                            atLeast="2"
+                                            atMost="6"
+                                            unit="chars"
+                                            instant="false"/>
+                                    </mentioned>
+                           </stamp>
+                           <stamp type="postage">Poste italiane 10 centesimi</stamp>
+                        </ab>
+            </div>
+            <div type="secondamano" part="N" org="uniform" sample="complete">
+                        <ab type="paratext" part="N">
+                           <add>
+                              <num type="cardinal">96</num>
+                           </add>
+                        </ab>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

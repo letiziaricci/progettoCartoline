@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI SYSTEM 'myTEI.dtd'>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cartolina_7694-092">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>[Donna in posa] - Edizione digitale</title>
+         </titleStmt>
+         <publicationStmt xmlns="http://www.tei-c.org/ns/1.0">
+            <publisher>
+               <choice>
+                  <abbr>Unipi</abbr>
+                  <expan>Università di
+                            <placeName ref="list.xml#PI">Pisa</placeName>
+                  </expan>
+               </choice>
+            </publisher>
+            <pubPlace ref="list.xml#PI">Pisa</pubPlace>
+            <availability>
+               <p>Available under licence only</p>
+            </availability>
+            <date when="2019">2019</date>
+            <distributor>
+               <orgName ref="list.xml#LCD">
+                  <choice>
+                     <abbr>LabCD</abbr>
+                     <expan>Laboratorio di Cultura Digitale</expan>
+                  </choice>
+               </orgName>
+            </distributor>
+            <address>
+               <addrLine>Laboratorio di Cultura Digitale - Università di Pisa</addrLine>
+               <addrLine>
+                  <placeName ref="list.xml#PI">Pisa</placeName>
+               </addrLine>
+            </address>
+         </publicationStmt>
+         <sourceDesc xmlns="http://www.tei-c.org/ns/1.0"> <!-- contiene informazoni relative alla fonte originale -->
+            <bibl>
+               <title type="custom" resp="list.xml#ES">[Donna in posa]</title>
+               <!-- titolo tra parentesi quadre perchè titolo formulato da terzi-->
+               <publisher>
+                  <orgName ref="list.xml#URS">
+                     <choice>
+                        <abbr>Uff.</abbr>
+                        <expan>Uff<ex>icio</ex>
+                        </expan>
+                     </choice>
+                     <choice>
+                        <abbr>Rev.</abbr>
+                        <expan>Rev<ex>isioni</ex>
+                        </expan>
+                     </choice> Stampa
+			</orgName>
+               </publisher>
+               <availability>
+                  <p>Proprietà artistica riservata</p>
+               </availability>
+               <pubPlace ref="list.xml#MI">Milano</pubPlace>
+            </bibl>
+            <msDesc> <!-- contiene la descrizione del manoscritto -->
+               <msIdentifier> <!-- informazioni che identificano il manoscritto -->
+                  <country>Italia</country>
+                  <settlement ref="list.xml#SP" type="city">La Spezia (SP)</settlement>
+                  <repository ref="list.xml#MCE">Museo Civico Etnografico "Giovanni Podenzana", Sezione dei cimeli garibaldini e della Prima Guerrra Mondiale</repository>
+                  <idno type="postcard_id">7694_092_001/002</idno>
+                  <!-- codice della singola cartolina -->
+               </msIdentifier>
+               <msContents> <!-- contenuto intellettuale del manoscritto-->
+                  <summary>Cartolina Artistica </summary>
+                  <textLang mainLang="ita">Italiano</textLang>
+               </msContents>
+               <physDesc> <!-- contiene la descrizione fisica del manoscritto -->
+                  <objectDesc>
+                     <supportDesc>
+                        <support> <!-- descrizione dei materiali che costituiscono il supporto fisico della parte scritta del manoscritto-->
+                           <objectType> Cartolina</objectType>
+                           <material>Carta</material>
+                           <measure type="composition" unit="foglio" quantity="1">1</measure>
+                           <dimensions unit="cm">
+                                    <height>14</height>
+                                    <width>9</width>
+                           </dimensions>
+                        </support>
+                        <condition> <!-- descrizione delle condizioni fisiche della cartolina -->
+				Cartolina in buone condizioni fisiche in parte invecchiata, la scrittura è realizzata con inchiostro nero.
+				Il foglio presenta una piccola piegatura rialzata sull'immagine artistica nel fronte e una piegatura nell'angolo in alto a sinistra nella parte del retro. Nella parte finale del testo è presente una sbavatura d'inchiostro.
+				</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <p>Scritta a mano leggibile</p>
+                  </handDesc>
+                  <!-- descrizione del tipo di scrittura nella cartolina -->
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc xmlns="http://www.tei-c.org/ns/1.0"> <!-- descrizione dettagliata degli aspetti non bibliografici -->
+         <correspDesc> <!-- contiene la descrizione delle azioni relative a un atto di corrispondenza -->
+            <correspAction type="sent">
+               <persName ref="list.xml#GC" role="writer">Giovanni Coliola</persName>
+               <placeName ref="list.xml#MO">Modena</placeName>
+               <!-- ho cambiato postage-->
+               <date type="writing" when="1917-07-18">18/07/1917</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="list.xml#OT">Oliva Turtura</persName>
+            </correspAction>
+         </correspDesc>
+         <textClass> <!-- contiene le informazioni che descrivono la natura o l'argomento del testo -->
+            <keywords scheme="http://etnografico.museilaspezia.it/">
+               <term>Cartolina </term>
+               <!-- soggettario -->
+               <term>Cartolina Artistica </term>
+               <!-- tipologia -->
+               <term>Ritratto di una donna in posa</term>
+               <!-- descrizione -->
+            </keywords>
+         </textClass>
+         <langUsage> <!-- lingua usato nel testo -->
+            <language ident="it-IT">italiano</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <facsimile xmlns="http://www.tei-c.org/ns/1.0"> <!-- rappresentazione della fonte scritta sotto forma di una serie di immagini-->
+         <surface n="1" xml:id="i7694-092R"> <!-- definisce una superficie scritta in termini di uno spazio rettangolare di coordinate-->
+            <graphic url="img-cartoline/7694-092R.jpg" width="1640px" height="1021px"/>
+            <!-- RETRO CARTOLINA -->
+            <!-- scritta verticale -->
+            <zone type="print" xml:id="line_publication-92" start="#line-publication-92"
+                  ulx="34"
+                  uly="69"
+                  lrx="88"
+                  lry="970"/>
+            <!-- prima riga di testo -->
+            <zone type="handWriting" xml:id="lineText_1-92" start="#lineText-1-92"
+                  ulx="314"
+                  uly="2"
+                  lrx="1403"
+                  lry="167"/>
+            <zone type="handWriting" xml:id="lineText_2-92" start="#lineText-2-92"
+                  ulx="119"
+                  uly="133"
+                  lrx="1525"
+                  lry="219"/>
+            <zone type="handWriting" xml:id="lineText_3-92" start="#lineText-3-92"
+                  ulx="96"
+                  uly="250"
+                  lrx="1542"
+                  lry="368"/>
+            <zone type="handWriting" xml:id="lineText_4-92" start="#lineText-4-92"
+                  ulx="94"
+                  uly="385"
+                  lrx="1628"
+                  lry="478"/>
+            <zone type="handWriting" xml:id="lineText_5-92" start="#lineText-5-92"
+                  ulx="78"
+                  uly="495"
+                  lrx="1622"
+                  lry="639"/>
+            <zone type="handWriting" xml:id="lineText_6-92" start="#lineText-6-92"
+                  ulx="82"
+                  uly="668"
+                  lrx="1362"
+                  lry="771"/>
+            <zone type="handWriting" xml:id="lineText_7-92" start="#lineText-7-92"
+                  ulx="128"
+                  uly="787"
+                  lrx="780"
+                  lry="886"/>
+            <zone type="handWriting" xml:id="lineText_8-92" start="#lineText-8-92"
+                  ulx="663"
+                  uly="790"
+                  lrx="1528"
+                  lry="972"/>
+            <!-- seconda mano (numero 92) -->
+            <zone type="catalog" xml:id="number92_92" start="#number92-92"
+                  ulx="1475"
+                  uly="1"
+                  lrx="1594"
+                  lry="85"/>
+         </surface>
+         <surface n="2" xml:id="i7694-092F">	
+         <!-- definisce una superficie scritta in termini di uno spazio rettangolare di coordinate-->
+            <graphic url="img-cartoline/7694-092F.jpg" width="1016px" height="1640px"/>
+            <!-- fronte della cartolina (immagine artistica) -->
+            <zone ulx="161"
+                  uly="61"
+                  lrx="977"
+                  lry="1082"
+                  rendition="HotSpot"
+                  xml:id="i092F_hotspot_01"/>
+            <!--Donna-->
+            <zone ulx="85"
+                  uly="1098"
+                  lrx="471"
+                  lry="1148"
+                  rendition="HotSpot"
+                  xml:id="i092F_hotspot_02"/>
+            <!-- scritta-->
+            <zone ulx="4"
+                  uly="4"
+                  lrx="53"
+                  lry="38"
+                  rendition="HotSpot"
+                  xml:id="i092F_hotspot_03"/>
+            <!-- piega in alto a sinistra -->
+         </surface>
+   </facsimile>
+   <text>
+      <!-- informazioni peritestuali -->
+      <front>
+            <!-- testo tipografico -->
+            <div type="tipografia">
+                  <p facs="#line_publication-92" xml:id="line-publication-92">
+                        <s rend="writing-mode(vertical-lr) text-orientation(sideways)">
+                              Proprietà artistica riservata - 
+                              <orgName ref="list.xml#URS">
+                                    <choice>
+                                          <abbr>Uff.</abbr>
+                                          <expan>Uff<ex>icio</ex>
+                                          </expan>
+                                    </choice>
+                                    <choice>
+                                          <abbr>Rev.</abbr>
+                                          <expan>Rev<ex>isioni</ex>
+                                          </expan>
+                                    </choice> Stampa
+			            </orgName>
+                              N. 
+                              <num type="cardinal" value="707">737</num>
+                              <placeName ref="list.xml#MI">Milano</placeName>,
+                              <date when="1917-05-08">8-5-1917</date>                           
+                        </s>
+                  </p>
+            </div>
+      </front>
+      <body>
+         <div xmlns="http://www.tei-c.org/ns/1.0" type="fronte">
+            <figure xml:id="i7694-092Fall" facs="#i7694-092F"> <!-- contiene tutta l'immagine-->
+               <figure xml:id="i092F_hs_01" facs="#i092F_hotspot_01"> <!-- Donna -->
+                  <figDesc>Ritratto di una giovane donna, di bella presenza, con occhi chiari. I capelli rossi sono raccolti in un foulard giallo legato dietro al collo con un fiocco. Probabilmente di origine benestante.
+						Lo sguardo della donna è rivolto alla sua sinistra come se stesse guardando qualcuno in lontananza.</figDesc>
+               </figure>
+               <figure xml:id="i092F_hs_02" facs="#i092F_hotspot_02"> <!-- scritta -->
+                  <figDesc>T. Corbella è la firma dell'autore dell'opera raffigurata nel fronte della cartolina.</figDesc>
+               </figure>
+               <figure xml:id="i092F_hs_03" facs="#i092F_hotspot_03"> <!-- piegatura -->
+                  <figDesc>Nella parte frontale della cartolina, in alto a sinistra è presente una piccola piegatura dell'angolo.</figDesc>
+               </figure>
+            </figure>
+         </div>
+         <div type="retro">
+            <div type="message">
+                  <opener xmlns="http://www.tei-c.org/ns/1.0">
+                        <dateline>
+                              <lb n="1" facs="#lineText_1-92" xml:id="lineText-1-92"/>
+                              <s>
+                                    <placeName ref="list.xml#RV">Modena</placeName>, li 
+                                    <date when="1917-07-18">18/7-17.</date>
+                              </s>
+                        </dateline>
+                  </opener>
+                  <div xmlns="http://www.tei-c.org/ns/1.0" type="postcard-body">
+                        <p>
+                              <lb n="2" facs="#lineText_2-92" xml:id="lineText-2-92"/>
+                              Oliva mia, accetta un bacio
+                              <lb n="3" facs="#lineText_3-92" xml:id="lineText-3-92"/>
+                              e in quel bacio tutta l'anima
+                              <lb n="4" facs="#lineText_4-92" xml:id="lineText-4-92"/>
+                              mia, il mio amore grande grande.
+                              <lb n="5" facs="#lineText_5-92" xml:id="lineText-5-92"/>
+                              Salutami la mamma, l'antonietta,
+                              <lb n="6" facs="#lineText_6-92" xml:id="lineText-6-92"/>
+                              il babbo, la zia e la Giovannetta.
+                        </p>
+                  </div>
+                  <closer xmlns="http://www.tei-c.org/ns/1.0">
+                        <s>
+                              <lb n="7" facs="#lineText_7-92" xml:id="lineText-7-92"/>
+                              Per sempre tuo
+                        </s>
+                        <lb/>
+                        <signed>
+                              <persName>
+                                    <forename ref="list.xml#GC">Giovannino</forename>
+                              </persName>
+                        </signed>
+                  </closer>
+            </div>
+            <div type="postmark-postage">
+               <ab/>
+            </div>
+            <div type="secondamano">
+               <ab type="paratext">
+                  <add facs="#number92_92" xml:id="number92-92">
+                     <num xmlns="http://www.tei-c.org/ns/1.0" value="92">92</num>
+                  </add>
+               </ab>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

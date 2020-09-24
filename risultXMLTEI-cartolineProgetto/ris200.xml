@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI SYSTEM 'myTEI.dtd'>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cartolina_7694-200">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Venezia - Edizione digitale</title>
+         </titleStmt>
+         <publicationStmt xmlns="http://www.tei-c.org/ns/1.0">
+            <publisher>
+               <choice>
+                  <abbr>Unipi</abbr>
+                  <expan>Università di
+                            <placeName ref="list.xml#PI">Pisa</placeName>
+                  </expan>
+               </choice>
+            </publisher>
+            <pubPlace ref="list.xml#PI">Pisa</pubPlace>
+            <availability>
+               <p>Available under licence only</p>
+            </availability>
+            <date when="2019">2019</date>
+            <distributor>
+               <orgName ref="list.xml#LCD">
+                  <choice>
+                     <abbr>LabCD</abbr>
+                     <expan>Laboratorio di Cultura Digitale</expan>
+                  </choice>
+               </orgName>
+            </distributor>
+            <address>
+               <addrLine>Laboratorio di Cultura Digitale - Università di Pisa</addrLine>
+               <addrLine>
+                  <placeName ref="list.xml#PI">Pisa</placeName>
+               </addrLine>
+            </address>
+         </publicationStmt>
+         <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
+            <bibl>
+               <title>Venezia</title>
+               <author ref="list.xml#GB">Giuseppe Bertini</author>
+               <publisher>
+                    <orgName ref="list.xml#RIT">Racc. del dott. cav. uff. I. Tonta</orgName>
+                </publisher>
+               <pubPlace ref="list.xml#MI">Milano</pubPlace>
+               <date when="1918">1918</date>
+            </bibl>
+            <msDesc>
+                <!-- descrizione del manoscritto -->
+                <msIdentifier>
+                    <!-- info per identificare il manoscritto -->
+                    <country ref="list.xml#IT">Italia</country>
+                    <settlement ref="list.xml#SP">La Spezia (SP)</settlement>
+                    <!-- collocazione specifica -->
+                    <repository ref="list.xml#MCE">Museo Civico Etnografico "Giovanni Podenzana", Sezione dei cimeli garibaldini e della Prima Guerrra Mondiale</repository>
+                    <!-- codice identificativo -->
+                    <idno type="postcard_id">7694_200_001/002</idno>
+                </msIdentifier>
+                <msContents>
+                    <summary>Cartolina Artistica</summary>
+                     <textLang>Italiano</textLang>
+                 </msContents>
+                 <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType>Cartolina</objectType>
+                           <material>Carta</material>
+                           <dimensions unit="cm">
+                              <height>9</height>
+                              <width>14</width>
+                           </dimensions>
+                           <stamp type="postage">francobollo - Poste Italiane</stamp>
+                        </support>
+                        <condition>Discreto</condition>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc xmlns="http://www.tei-c.org/ns/1.0">
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="list.xml#GC">Giovanni Coliola</persName>
+               <placeName ref="list.xml#FO">Formigine</placeName>
+               <date type="writing" when="1918-02-12">1918/02/12</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="list.xml#OT">Oliva Turtura</persName>
+               <placeName ref="list.xml#RA">Ravenna</placeName>
+            </correspAction>
+         </correspDesc>
+         <textClass>
+            <keywords>
+               <term>Cartolina</term>
+               <term>Cartolina Artistica</term>
+               <term>Paesaggio</term>
+            </keywords>
+         </textClass>
+         <langUsage>
+            <language ident="it-IT">italiano</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <text>
+    <!-- informazioni peritestuali -->
+      <front>
+            <!-- testo tipografico -->
+            <div type="tipografia">
+                  <p>
+                        <s rend="writing-mode(horizontal-lr) text-orientation(sideways)">
+                              Proprietà artistica riservata.
+                        </s>
+                  </p>
+                  <p>
+                        <s rend="writing-mode(vertical-lr) text-orientation(sideways)">
+                              2664. <persName ref="list.xml#GB" type="author">G. BERTINI</persName> - Venezia.
+                                                                                                      Venise.
+                                                                                                      Venice.
+                                                                                                      Venedig.
+                              <orgName ref="list.xml#RIT" type="typography">
+                              (<placeName ref="list.xml#MI">Milano</placeName>, Racc. del dott. cav. uff. I. Tonta)
+                              </orgName>
+                        </s>
+                  </p>
+            </div>
+      </front>
+      <body>
+         <div xmlns="http://www.tei-c.org/ns/1.0"
+              type="fronte">
+            <figure>
+               <graphic url="img-cartoline/7694-200F.jpg"/>
+               <figDesc>Veduta della laguna di Venezia</figDesc>
+               <head>Venezia</head>
+            </figure>
+         </div>
+         <div type="retro">
+            <div type="message">
+                <opener xmlns="http://www.tei-c.org/ns/1.0">
+                    <dateline>
+                        <lb n="1"/>
+                        <s>
+                            <placeName ref="list.xml#FO">Formigine</placeName>, li 
+                            <date when="1918-02-19">19/2-18</date>
+                        </s>
+                    </dateline>
+                </opener>
+                <div xmlns="http://www.tei-c.org/ns/1.0" type="postcard-body">
+                    <p>
+                        <lb n="2"/>
+                        <choice>
+                            <sic>Pensoti</sic>
+                            <corr resp="list.xml#LR" cert="high">Ti penso</corr>
+                        </choice>, <choice>
+                                    <orig>carisfimi</orig>
+                                    <reg resp="list.xml#LR" cert="high">carissimi</reg>
+                                 </choice>
+                        <lb n="3"/>
+                        ed ardenti
+                    </p>
+                </div>
+                <closer xmlns="http://www.tei-c.org/ns/1.0">
+                        <lb n="4"/>
+                        tuo
+                        <lb n="5"/>
+                        <signed>
+                            <persName>
+                                <forename ref="list.xml#GC">Giovannino</forename>
+                            </persName>
+                        </signed>
+                </closer>
+            </div>
+            <div xmlns="http://www.tei-c.org/ns/1.0" type="address-destination">
+               <p>
+                  <address>
+                        <addrLine>
+                            <lb n="6"/>
+                            Gent Sig.na
+                            <lb n="7"/>
+                            Oliva Turtura
+                            <lb n="8"/>
+                            Via Girolamo <choice>
+                                            <orig>Rosfi</orig>
+                                            <reg resp="list.xml#LR" cert="high">Rossi</reg>
+                                        </choice> 58
+                            <lb/>
+                            Ravenna
+                        </addrLine>
+                  </address>
+               </p>
+            </div>
+            <div type="postmark-postage">
+               <ab>
+                  <stamp xmlns="http://www.tei-c.org/ns/1.0" type="postmark">
+                     <mentioned>Formigine ★ Modena</mentioned>
+                     <date when="1918-02-16">1918/02/16</date>
+                  </stamp>
+                  <stamp xmlns="http://www.tei-c.org/ns/1.0" type="postage">Francobollo da 5 centesimi di Poste Italiane</stamp>
+               </ab>
+            </div>
+            <div type="secondamano">
+               <ab type="paratext">
+                  <add cert="medium">
+                     <num xmlns="http://www.tei-c.org/ns/1.0" type="cardinal" value="200">
+                                    200
+                                </num>
+                  </add>
+               </ab>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

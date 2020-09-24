@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xml:id="cartolina_7694-088">
+   <tei:teiHeader/>
+   <tei:text>
+      <tei:front/>
+      <tei:body>
+         <tei:div type="retro">
+            <tei:div type="message">
+               <tei:opener xmlns="http://www.tei-c.org/ns/1.0">
+                  <tei:dateline/>
+               </tei:opener>
+               <tei:div xmlns="http://www.tei-c.org/ns/1.0" type="postcard-body">
+                  <tei:p>
+                     <tei:lb/>            Oliva mia. In questo momento ti sono vicino più<tei:lb/>            di quanto si posfa capirlo. Sento nel blando abbando-<tei:lb/>            no della sera il tuo ardente affetto e mi ci rifugio.<tei:lb/>            Provo la dolce sensazione della riminiscenza, che <tei:lb/>            come una mamma pietosa e buona rievoca il pasfato <tei:lb/>            felice della fanciullezza trascorsa, pasfa poi ad invo-<tei:lb/>            care l'avvenire del figlio, così del nostro amore:<tei:lb/>            alle soavità pasfate, alle delicatezze sentimentali fuorvia-<tei:lb/>            te, ai dolci dolori sofferti, ci aspettano altre gioie più<tei:lb/>            intime, affetti più saldi, amore, adorazione, venerazione.<tei:lb/>            E veramente sento di amarti tanto, tanto. Oliva cara. <tei:lb/>            In una parola, in uno sguardo, in un bacio tutta l'ani-<tei:lb/>            ma mia, la mia vita tutta in eterno </tei:p>
+                  <tei:p type="fronte"/>
+               </tei:div>
+               <tei:closer xmlns="http://www.tei-c.org/ns/1.0">
+                  <tei:s>
+                     <tei:lb/>
+                     <tei:signed>
+                        <tei:persName>
+                           <tei:forename ref="Giovannino">Giovannino</tei:forename>
+                        </tei:persName>
+                     </tei:signed>
+                  </tei:s>
+               </tei:closer>
+               <tei:closer xmlns="http://www.tei-c.org/ns/1.0">
+                  <tei:s>
+                     <tei:lb/>Saluti affettuosi a tutti <tei:lb/>
+                     <tei:signed>
+                        <tei:persName>
+                           <tei:forename ref="Giovannino">Giovannino</tei:forename>
+                        </tei:persName>
+                     </tei:signed>
+                  </tei:s>
+               </tei:closer>
+            </tei:div>
+            <tei:div type="postmark-postage">
+               <tei:ab/>
+            </tei:div>
+            <tei:div type="secondamano">
+               <tei:ab type="paratext">
+                  <tei:add/>
+               </tei:ab>
+            </tei:div>
+         </tei:div>
+      </tei:body>
+   </tei:text>
+</tei:TEI>

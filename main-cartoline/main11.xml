@@ -1,0 +1,431 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<?xml-model href="../teiCustom.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cartolina_7694-011">
+    <teiHeader>
+        <!-- Descrizione del file elettronico -->
+        <fileDesc>
+            <!-- Info titolo edizione digitale e responsabilità del contenuto  -->
+            <titleStmt>
+                <title xml:lang="ita">Giulio Fantoni al capitano Cogliola Giovanni, Ravenna, 9 Novembre 1918</title>
+                <respStmt>
+                    <!-- trascrittori -->
+                    <resp>Trascrizione a cura di</resp>
+                    <persName ref="#GC">Giacomo Cerretini</persName>
+                    <persName ref="#DB">Duccio Breschi</persName>
+                    <persName ref="#CP">Camilla Poggianti</persName>
+                </respStmt>
+                <respStmt>
+                    <!-- ente di appartenenza -->
+                    <resp>Ente di Appartenenza</resp>
+                    <name type="comune" ref="#lSP">Comune della Spezia</name>
+                </respStmt>
+            </titleStmt>
+
+            <!-- Info riguardanti l'edizione -->
+            <editionStmt>
+                <edition>Studenti di Codifica di Testi, Corso di Laurea Triennale di Informatica Umanistica, Università di Pisa
+                    <date when="2018-12">Dicembre 2018</date>
+                </edition>
+                <respStmt>
+                    <!-- compilatori -->
+                    <resp>Codificato da</resp>
+                    <persName ref="#CP">C.Poggianti</persName>
+                    <persName ref="#DB">D.Breschi</persName>
+                    <persName ref="#GC">G.Cerretini</persName>
+                </respStmt>
+                <respStmt>
+                    <!-- referente scientifico -->
+                    <resp>Compilatore</resp>
+                    <persName ref="#pTC">Tommaso Castagneto</persName>
+                </respStmt>
+                <respStmt>
+                    <!--responsabile scientifico-->
+                    <resp>Responsabile scientifico</resp>
+                    <persName ref="#pGP">Giacomo Paolicchi</persName>
+                    <persName ref="#pES">Enrica Salvatori</persName>
+                </respStmt>
+                <respStmt>
+                    <!--funzionario responsabile-->
+                    <resp>Funzionario responsabile</resp>
+                    <persName ref="#pER">E. Ratti</persName>
+                </respStmt>
+            </editionStmt>
+
+            <!-- Info sulla pubblicazione e distribuzione del documento elettronico -->
+            <publicationStmt>
+                <publisher ref="#oUNIPI">
+                    <choice>
+                        <abbr>Unipi</abbr>
+                        <expan>Università di 
+                            <placeName ref="#lPI">Pisa</placeName>
+                        </expan>
+                    </choice>
+                </publisher>
+                <pubPlace ref="#lPI">Pisa</pubPlace>
+                <availability>
+                    <p>Available under licence only</p>
+                </availability>
+                <date when="2019">2019</date>
+                <distributor ref="#oCD">
+                    <choice>
+                        <abbr>LabCD</abbr>
+                        <expan>Laboratorio di Cultura Digitale</expan>
+                    </choice>
+                </distributor>
+                <address>
+                    <addrLine>Laboratorio di Cultura Digitale - Università di Pisa</addrLine>
+                    <addrLine>Pisa</addrLine>
+                </address>
+            </publicationStmt>
+
+            <!-- Info sulla fonte originale da cui deriva il documento elettronico -->
+            <sourceDesc>
+                <bibl type="postcard">
+                    <title type="custom" resp="#pES">[Soldati al fronte]</title>                    <!-- fra parentesi quadre perchè non è il titolo originale ma un titolo sintetico formulato da terzi -->
+                    <!-- Info editoriali -->
+                    <publisher ref="#oEF">Eliocromia 
+                        <persName ref="pF">Fumagalli</persName> &amp; C
+                    </publisher>
+                    <pubPlace ref="#lMI">Milano</pubPlace>
+                    <date when="1916">1916</date>
+                </bibl>
+                <msDesc>
+                    <!-- descrizione del manoscritto -->
+                    <msIdentifier>
+                        <!-- info per identificare il manoscritto -->
+                        <country ref="#lIT">Italia</country>
+                        <settlement ref="#lSP">La Spezia (SP)</settlement>
+                        <!-- collocazione specifica -->
+                        <repository ref="#oMCE">Museo Civico Etnografico "Giovanni Podenzana", Sezione dei cimeli garibaldini e della Prima Guerrra Mondiale</repository>
+                        <!-- codice identificativo -->
+                        <idno type="postcard_id">7694_011_001/002</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <!-- Info sul contenuto della cartolina -->
+                        <summary>Cartolina Artistica</summary>
+                        <msItem>
+                            <textLang xml:id="lang_ITA" mainLang="ita">Italiano</textLang>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <!-- descrizione fisica del manoscritto -->
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType>Cartolina</objectType>
+                                    <material>Carta</material>
+                                    <dimensions unit="cm">
+                                        <height>9</height>
+                                        <width>14</width>
+                                    </dimensions>
+                                    <!-- descrizione fisica dei 2 timbri -->
+                                    <stamp type="postmark" n="stamp_left_011"> 
+                                        Il timbro sinistro è parzialmente tagliato superiormente.
+                                        È solo parzialmente leggibile a causa delle sbavature d'inchiostro.
+                                    </stamp>
+                                    <stamp type="postmark" n="stamp_right_011">
+                                        Il timbro destro è interamente contenuto sul supporto cartaceo, ma è
+                                        solo parzialmente leggibile a causa di sbavature d'inchiostro.
+                                    </stamp>
+                                    <!-- descrizione fisica del francobollo -->
+                                    <stamp type="postage" n="stamp_right_011">
+                                         Francobollo di forma rettangolare color rosso e capovolto, parzialmente coperto dall'annullo postale.
+                                    </stamp>
+                                    <!-- descrizione fisica della cartolina -->
+                                    <p>
+                                        Cartolina in buone condizioni fisiche, con testo solo sul verso e retro con dipinto d'autore. Cartoncino senza filigrana, colore avorio, con testo in inchiostro nero. 
+                                        La parte retro presenta l’indirizzo, il testo scritto su due colonne le quali dividono mittente e destinatario,  il francobollo, il timbro di partenza e il timbro di arrivo; 
+                                        La parte fronte presenta una rappresentazione artistica. 
+                                    </p>
+                                </support>
+                                <!-- descrizione delle condizioni fisiche di conservazione della cartolina -->
+                                <condition>
+                                    Cartolina in buone condizioni fisiche, eccetto i timbri solo parzialmente leggibili
+                                </condition>
+                            </supportDesc>
+                        </objectDesc>
+                        <!-- descrizione del tipo di scrittura usato nella cartolina -->
+                        <handDesc>
+                            <p>La cartolina presenta del testo stampato, contenente informazioni sulla cartolina e sull'edizione, e del testo scritto a mano dal mittente.</p>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+
+        <!-- Descrizione degli aspetti non bibliografici -->
+        <profileDesc>
+            <!-- Descrizione delle azioni relative a un atto di corrispondenza -->
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#pGF">Giulio Fantoni</persName>
+                    <placeName ref="#lRV">Ravenna</placeName>
+                    <date type="writing" when="1918-11-09">9 Novembre 1918</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#pGC">Cogliola Giovanni</persName>
+                    <placeName ref="#oGDCF">
+                        <num type="ordinal" value="11">11&#176;</num> Gruppo D'Assalto, 
+                        <num type="ordinal" value="2">2&#7491;</num> Divisione, 
+                        <num type="ordinal" value="5">5&#7491;</num> Compagnia
+                    </placeName>
+                </correspAction>
+            </correspDesc>
+
+            <!-- Info di classificazione del testo -->
+            <textClass>
+                <keywords>
+                    <!--soggettario-->
+                    <term>Cartolina </term>
+                    <!--tipologia-->
+                    <term>Cartolina Artistica </term>
+                    <!--descrizione-->
+                    <term>Soldati</term>
+                    <term>Bandiera italiana</term>
+                </keywords>
+            </textClass>
+
+            <!-- Linguaggio usato nel testo -->
+            <langUsage>
+                <language ident="it-IT">Italiano</language>
+            </langUsage>
+        </profileDesc>
+
+        <!-- Descrizione della codifica -->
+        <encodingDesc>
+            <p>
+                Check sintattico con xmllint e validazione con schema RNG.
+                Codifica seguendo il metodo "parallel-trascription".                        
+                Codifica di base rispettando le forme e le informazioni lessicali, la punteggiatura e la sillabazione del documento, 
+                normalizzando il tutto per la codifica. 
+                Con appositi attributi è stata specificata anche la resa grafica di alcuni elementi.
+            </p>
+        </encodingDesc>
+
+        <!-- Storia delle revisioni del documento digitale -->
+        <revisionDesc>
+            <change when="2018-11-28" resp="#CP #DB #CG">Inizio creazione teiHeader e bozza dati spedizione.</change>
+            <change when="2018-12-03" resp="#CP #DB #CG">Fine teiHeader, realizzazione delle zone e facsimili, inizio codifica del retro della cartolina.</change>
+            <change when="2018-12-05" resp="#CP #DB #CG">Piccoli accorgimenti.</change>
+            <change when="2018-12-10" resp="#CP #DB #CG">Fine codifica cartolina, piccole correzioni di attributi.</change>
+            <change when="2018-12-17" resp="#CP #DB #CG">Codifica delle info stampate sulla cartolina</change>
+            <change when="2018-12-18" resp="#CP #DB #CG">Correzione della codifica seguendo il modello fornito dal docente</change>
+            <change when="2018-12-19" resp="#CP #DB #CG">Aggiunta di informazioni e riferimenti</change>
+            <change when="2018-12-23" resp="#CP #DB #CG">Piccole modifiche</change>
+            <change when="2019-01-04" resp="#CP #DB #CG">Aggiunta di commenti</change>
+        </revisionDesc>
+    </teiHeader>
+
+    <!-- Rappresentazione digitale di una fonte con testo scritto espressa attraverso un insieme di immagini -->
+    <facsimile>
+        <!-- Definizione della superficie di scrittura in termini di uno spazio espresso attraverso un sistema di coordinate -->
+        <surface>
+            <!-- zonazione retro della cartolina -->
+            <graphic xml:id="retro_postcard_011" url="retro.jpg" width="1628px" height="1053px" />
+            <!-- prima pagina, lato sinistro -->
+            <zone type="handWriting" xml:id="line_PlaceDate" start="#line-PlaceDate" points="190,165 261,32 301,41 298,83 499,88 573,28 742,10 851,51 755,169 637,161 598,229 477,191 429,155 273,161 247,205" />
+            <zone type="handWriting" xml:id="lineText_1_011" start="#lineText-1" points="90,349 61,317 104,236 199,174 177,264 290,232 501,222 783,241 755,310 425,328" />
+            <zone type="handWriting" xml:id="lineText_2_011" start="#lineText-2" points="69,403 140,314 293,338 387,323 519,316 501,373 661,368 705,325 755,377 698,427 349,436 100,430" />
+            <zone type="handWriting" xml:id="lineText_3_011" start="#lineText-3" points="83,562 73,522 162,435 198,436 167,488 305,487 348,445 372,450 369,482 643,490 664,435 754,432 680,550 587,569" />
+            <zone type="handWriting" xml:id="lineText_4_011" start="#lineText-4" points="75,623 124,585 227,597 252,567 274,570 276,592 496,590 530,555 567,561 534,608 612,596 702,553 721,606 668,652 453,675 87,657" />
+            <zone type="handWriting" xml:id="lineText_5_011" start="#lineText-5" points="66,726 162,670 214,684 203,722 315,724 340,686 366,687 365,721 478,711 516,680 683,670 805,684 850,688 884,658 909,678 823,768 547,763 224,782 87,782" />
+            <zone type="handWriting" xml:id="lineText_6_011" start="#lineText-6" points="68,792 139,768 166,802 243,799 266,785 451,768 601,765 779,780 876,772 804,872 361,863 186,876 0,913 0,858" />
+            <!-- Testo in verticale -->
+            <zone type="handWriting" xml:id="line_vertical_hw_011" start="#line-vertical-hw-011" ulx="44" uly="22" lrx="69" lry="747" />
+            <!-- tuo amico -->
+            <zone type="handWriting" xml:id="lineText_7_011" start="#lineText-7" points="168,959 160,910 236,878 316,872 399,903 648,898 802,936 744,972 499,960" />
+            <!-- Giulio Fantoni -->
+            <zone type="handWriting" xml:id="lineText_8_011" start="#lineText-8" points="87,1053 90,1031 314,958 526,999 597,958 623,961 573,1001 710,1009 782,988 888,996 839,1053" />
+            <!-- Vertical stamp-writing -->
+            <zone type="print" xml:id="line_vertical_sw_011" start="#line-vertical-sw-011" ulx="24" uly="283" lrx="48" lry="772" />
+            <!-- 1006 -->
+            <zone type="print" xml:id="line_1006_011" start="#line-1006" ulx="776" uly="980" lrx="832" lry="1005" />
+            <!-- seconda pagina - testo -->
+            <zone type="handWriting" xml:id="lineDest_1_011" start="#lineDest-1" points="942,359 1160,410 1366,437 1280,497 946,508 871,563 851,559 896,503 783,502" />
+            <zone type="handWriting" xml:id="lineDest_2_011" start="#lineDest-2" points="897,643 786,636 805,605 915,537 946,540 916,587 984,583 1047,534 1091,536 1091,587 1112,581 1152,537 1201,542 1171,581 1206,584 1336,525 1409,548 1394,587 1459,578 1579,595 1602,561 1627,564 1627,647 1431,622 1244,638 1185,709 1149,698 1142,636 952,644 919,683 892,675" />
+            <zone type="handWriting" xml:id="lineDest_3_011" start="#lineDest-3" points="921,722 971,664 1052,658 1108,640 1128,642 1106,680 1300,668 1304,635 1399,631 1428,647 1494,646 1603,651 1627,664 1627,724 1408,716 1244,733 1183,739 1060,717 1026,753" />
+            <zone type="handWriting" xml:id="lineDest_4_011" start="#lineDest-4" points="918,799 885,779 899,724 984,731 1030,752 1045,714 1113,712 1119,739 1310,726 1417,716 1583,779 1570,800 1225,778 1046,790" />
+            <zone type="handWriting" xml:id="lineDest_5_011" start="#lineDest-5" points="880,846 936,795 1107,778 1118,797 1101,817 1263,806 1372,811 1507,791 1554,817 1533,857 1295,882 1156,886 888,864" />
+            <zone type="handWriting" xml:id="lineDest_6_011" start="#lineDest-6" points="1013,985 1021,934 1140,888 1285,856 1286,869 1200,922 1336,929 1308,885 1359,879 1406,903 1533,863 1552,873 1494,925 1596,918 1627,929 1627,983 1490,974 1392,1001 1359,973 1134,980 1100,996 1041,1002" />
+            <!-- 11 (catalogazione) -->
+            <zone type="catalog" xml:id="number11_011" start="#number11-011" points="1465,470 1492,422 1545,413 1557,480 1496,492" />
+            <!-- timbro SX -->
+            <zone type="postage" xml:id="stamp_left_011" start="#stamp-left" points="817,1 770,79 769,176 827,267 934,313 1044,281 1109,201 1115,101 1067,3" />
+            <!-- timbro DX e francobollo-->
+            <zone type="postage" xml:id="stamp_right_011" start="#stamp-right" points="1422,21 1304,24 1303,52 1254,113 1236,213 1273,301 1356,365 1455,367 1537,321 1579,223 1577,141 1555,92 1554,27" />
+        </surface>
+        <!-- immagine | fronte della cartolina -->
+        <surface>
+            <graphic xml:id="fronte_postcard_011" url="fronte.jpg" width="1058px" height="1639px" />
+            <!-- firma dell'autore dell'immagine -->
+            <zone xml:id="picture_sig_011" start="#picture-sign" ulx="2" uly="1599" lrx="181" lry="1639" />
+        </surface>
+    </facsimile>
+
+    <!-- testo -->
+    <text xml:lang="it" type="postcard">
+        <!-- informazioni peritestuali -->
+        <front>
+            <!-- testo tipografico sul retro della cartolina -->
+            <div type="typo">
+                <p xml:id="line-vertical-sw-011" facs="#line_vertical_sw_011">
+                    <s rend="writing-mode(vertical-lr) text-orientation(sideways)">
+                        <orgName ref="#oEF" type="typography">
+                            Eliocromia 
+                            <persName ref="#pF">Fumagalli</persName> &amp; C. -
+                            <placeName ref="#lMI">Milano</placeName>
+                        </orgName>
+                    </s>
+                </p>
+                <ab xml:id="line-1006-011" facs="#line_1006_011">
+                    <num type="cardinal" value="1006">1006</num>
+                </ab>
+            </div>
+        </front>
+        <body>
+            <!-- ............ FRONTE | IMG | RECTO ............ -->
+            <div type="fronte" xml:id="fronte-postcard-011" facs="#fronte_postcard_011">
+                <figure>
+                    <graphic url="fronte.jpg"/>
+                    <!-- Descrizione dell'immagine in linguaggio naturale -->
+                    <figDesc>
+                        Il fronte della cartolina è la stampa di un dipinto raffigurante dei soldati vestiti in grigio armati di fucili e baionette. In primo piano, 3 soldati sono ben definiti, dietro di essi, gli altri soldati risultano più sfocati fino ad essere indistinguibili.
+                        Il gruppo sta trasportando una bandiera italiana con al centro uno stemma del regno d'Italia.
+                    </figDesc>
+                    <!-- titolo dell'immagine / della cartolina -->
+                    <head>[Soldati al Fronte]</head>
+                </figure>
+            </div>
+            <!-- ............ RETRO | TEXT | VERSO ............ -->
+            <div type="retro" xml:id="retro-postcard-011" facs="#retro_postcard_011">
+                <!-- div per le info di stampa della cartolina -->
+                <div type="message">
+                    <!--luogo e data di scrittura della cartolina-->
+                    <opener xml:id="line-PlaceDate" facs="#line_PlaceDate">
+                        <dateline rend="align(right)">
+                            <placeName ref="#lRV">Ravenna</placeName>
+                            <date when="1918-11-09">9/11/918</date>
+                        </dateline>
+                        <!--saluto iniziale-->
+                        <salute>
+                            <s>
+                                <lb xml:id="lineText-1-011" facs="#lineText_1_011" />
+                                A voi miei cari
+                                <lb type="sameline" xml:id="lineText-2-011" facs="#lineText_2_011" />
+                                Eroi!
+                            </s>
+                            <s> 
+                                Il mio
+                                <lb xml:id="lineText-3-011" facs="#lineText_3_011" />
+                                bacio e il
+                                <lb xml:id="lineText-4-011" facs="#lineText_4_011" />
+                                mio saluto
+                            </s>
+                        </salute>
+                    </opener>
+                    <!--contenuto del messaggio-->
+                    <p>
+                        <s>
+                            <lb xml:id="lineText-5-011" facs="#lineText_5_011"/>
+                            Evviva la Vittoria!
+                        </s>
+                        <s>
+                            <lb xml:id="lineText-6-011" facs="#lineText_6_011"/>
+                            Evviva l'
+                            <country ref="lIT">Italia</country>!
+                        </s>
+                    </p>
+                    <!--saluto finale e firma-->
+                    <p>
+                        <!-- Testo ruotato 90° -->
+                        <s rend="writing-mode(vertical-rl) text-orientation(sideways) overwrite">
+                            <lb xml:id="line-vertical-hw-011" facs="#line_vertical_hw_011"/>
+                            Mi raccomando quella sola 
+                            <unclear reason="illegible" agent="ink" cert="medium"> XO</unclear>
+                        </s>
+                    </p>
+                    <closer rend="align(right)">
+                        <!-- Firma del mittente -->
+                        <signed xml:id="lineText-8-011" facs="#lineText_8_011">
+                            <s>
+                                <lb xml:id="lineText-7-011" facs="#lineText_7_011"/>
+                                Tuo amico
+                                <lb/>
+                                <persName ref="#pGF">Giulio Fantoni</persName>
+                            </s>
+                        </signed>
+                    </closer>
+                </div>
+                <div type="destination">
+                    <div n="1">
+                        <ab>
+                            <!-- Timbro sinistro -->
+                            <stamp type="postmark" rend="transform(rotateZ(45deg))">
+                                <mentioned rend="circle">
+                                    <gap reason="illegible" agent="ink" atLeast="15" atMost="25" unit="chars"/>
+                                    <mentioned>
+                                        <hi rend="align(center)">
+                                            <unclear reason="faded" agent="time" cert="medium">10.11.</unclear>
+                                            <gap reason="illegible" agent="faded" atLeast="2" atMost="4" unit="chars"/>
+                                        </hi>
+                                    </mentioned>
+                                </mentioned>
+                            </stamp>
+                            <!-- Timbro destro -->
+                            <stamp type="postmark">
+                                <mentioned rend="circle">
+                                    <gap reason="illegible" agent="ink" atLeast="15" atMost="25" unit="chars"/>
+                                    <mentioned>
+                                        <hi rend="align(center)">
+                                            <unclear reason="faded" agent="time" cert="medium">10</unclear>
+                                            <unclear reason="faded" agent="time" cert="low">.11.</unclear>
+                                            <gap reason="illegible" agent="faded" atLeast="2" atMost="4" unit="chars"/>
+                                        </hi>
+                                    </mentioned>
+                                </mentioned>
+                            </stamp>
+                            <!-- Francobollo -->
+                            <stamp type="postage" rend="transform(rotateZ(180deg))">
+                                <mentioned rend="color(red)">
+                                    <orgName ref="#oPI">Poste italiane</orgName>
+                                    <hi>
+                                        <num rend="double" type="cardinal" value="10">10</num> centesimi 
+                                        <num rend="double" type="cardinal" value="10">10</num>
+                                    </hi>
+                                </mentioned>
+                            </stamp>
+                        </ab>
+                    </div>
+                    <div n="2">
+                        <p>
+                            <address>
+                                <!-- Righe della sezione: Destinatario -->
+                                <addrLine xml:id="lineDest-1-011" facs="#lineDest_1_011">Capitano</addrLine>
+                                <addrLine xml:id="lineDest-2-011" facs="#lineDest_2_011">
+                                    <persName ref="#pGC"> Cogliola Giovanni</persName>
+                                </addrLine>
+                                <addrLine xml:id="lineDest-3-011" facs="#lineDest_3_011">11&#176; Gruppo D'Assalto</addrLine>
+                                <addrLine xml:id="lineDest-4-011" facs="#lineDest_4_011">2&#7491; Divisione</addrLine>
+                                <addrLine xml:id="lineDest-5-011" facs="#lineDest_5_011">5&#7491; Compagnia</addrLine>
+                                <addrLine xml:id="lineDest-6-011" facs="#lineDest_6_011">
+                                    <unclear cert="low" reason="calligraphy">Faro</unclear> di Guerra
+                                </addrLine>
+                            </address>
+                        </p>
+                    </div>
+                    <div type="add">
+                        <!-- identificativo di catalogazione -->
+                        <ab xml:id="number11-011" facs="#number11_011">
+                            <add cert="medium">
+                                <num type="cardinal" value="11">
+                                    <ptr target="#note_1"/>
+                                    11
+                                </num>
+                            </add>
+                        </ab>
+                    </div>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI SYSTEM 'myTEI.dtd'>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cartolina_7694-038">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Donna che scrive - Edizione digitale</title>
+         </titleStmt>
+         <publicationStmt xmlns="http://www.tei-c.org/ns/1.0">
+            <publisher>
+               <choice>
+                  <abbr>Unipi</abbr>
+                  <expan>Università di
+                            <placeName ref="list.xml#PI">Pisa</placeName>
+                  </expan>
+               </choice>
+            </publisher>
+            <pubPlace ref="list.xml#PI">Pisa</pubPlace>
+            <availability>
+               <p>Available under licence only</p>
+            </availability>
+            <date when="2019">2019</date>
+            <distributor>
+               <orgName ref="list.xml#LCD">
+                  <choice>
+                     <abbr>LabCD</abbr>
+                     <expan>Laboratorio di Cultura Digitale</expan>
+                  </choice>
+               </orgName>
+            </distributor>
+            <address>
+               <addrLine>Laboratorio di Cultura Digitale - Università di Pisa</addrLine>
+               <addrLine>
+                  <placeName ref="list.xml#PI">Pisa</placeName>
+               </addrLine>
+            </address>
+         </publicationStmt>
+         <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
+            <bibl>
+               <title type="custom" resp="list.xml#ES">Donna che scrive</title>
+               <!-- PRODUZIONE Chi ha prodotto / pubblicato la cartolina. Se non presente togliere il tag  -->
+               <publisher>
+                        <orgName ref="list.xml#DGM">D.G.M.</orgName>
+               </publisher>
+            </bibl>
+            <msDesc>
+               <!-- descrizione del manoscritto -->
+               <msIdentifier>
+                        <!-- info per identificare il manoscritto -->
+                        <country ref="list.xml#IT">Italia</country>
+                        <settlement ref="list.xml#SP">La Spezia (SP)</settlement>
+                        <!-- collocazione specifica -->
+                        <repository ref="list.xml#MCE">Museo Civico Etnografico "Giovanni Podenzana", Sezione dei cimeli garibaldini e della Prima Guerrra Mondiale</repository>
+                        <!-- codice identificativo -->
+                        <idno type="postcard_id">7694_038_001/002</idno>
+                  </msIdentifier>
+               <!-- Informazioni sul contenuto della cartolina -->
+               <!-- DESCRIZIONE -->
+               <msContents>
+                  <summary>Cartolina Artistica</summary>
+                  <textLang mainLang="ita">Italiano</textLang>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType>Cartolina</objectType>
+                           <!-- MATERIALI -->
+                           <material>Carta</material>
+                           <!-- DIMENSIONE -->
+                           <dimensions unit="cm">
+                              <height>9</height>
+                              <width>14</width>
+                           </dimensions>
+                          <stamp type="postage">Francobollo da 10 centesimi delle Poste Italiane di colore rosso</stamp>
+                          <stamp type="postmark">Timbro di partenza, circolare poco visibile</stamp>
+                          <stamp type="postmark">Timbro di partenza, circolare poco visibile</stamp>
+                          <stamp type="postmark">Timbro di arrivo, circolare poco visibile</stamp>
+                        </support>
+                        <condition>Buono</condition>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc xmlns="http://www.tei-c.org/ns/1.0">
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="list.xml#GMM">Giuseppe Magi Morfede</persName>
+               <placeName ref="list.xml#FI">Firenze</placeName>
+               <!-- DATA data di invio da timbro (postage) o da manoscritto (writing) -->
+               <date type="postage" when="1916-12-20">1916/12/20</date>
+               <date type="writing" when="1916-12-20">1916/12/20</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="list.xml#OT">Oliva Turtura</persName>
+               <placeName ref="list.xml#RV">Ravenna</placeName>
+            </correspAction>
+         </correspDesc>
+         <textClass>
+            <keywords scheme="">
+                    <!-- soggettario -->
+                    <!-- tipologia -->
+                    <!-- descrizione -->
+               <term>Cartolina </term>
+               <term>Cartolina Artistica </term>
+               <term>Coppia di innamorati</term>
+            </keywords>
+         </textClass>
+         <langUsage>
+            <language ident="it-IT">italiano</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <facsimile xmlns="http://www.tei-c.org/ns/1.0">
+         <surface n="1">
+            <graphic url="img-cartoline/7694-038F.jpg" width="1056px" height="1647px"/>
+            <zone xml:id="zone_fronte"
+                  ulx="299"
+                  uly="243"
+                  lrx="926"
+                  lry="456"/>
+         </surface>
+         <!-- Zona Retro -->
+         <surface n="2" xml:id="Retro_cartolina3">
+            <graphic url="img-cartoline/7694-038R.jpg" width="1656px" height="1056px"/>
+            <zone xml:id="zone_retro" ulx="42" uly="26" lrx="1644" lry="1021"/>
+            <zone xml:id="zone_mandata" ulx="57" uly="58" lrx="721" lry="898"/>
+            <zone xml:id="zone_timbre"
+                  ulx="781"
+                  uly="50"
+                  lrx="1619"
+                  lry="442"/>
+            <zone xml:id="zone_destinazione"
+                  ulx="799"
+                  uly="445"
+                  lrx="1639"
+                  lry="976"/>
+            <note>Sul retro ci sono tre timbri</note>
+         </surface>
+   </facsimile>
+   <text>
+      <front>
+            <!-- testo tipografico -->
+            <div type="tipografia">
+                  <p>                                            
+                        <s rend="writing-mode(horizontal-lr) text-orientation(sideways)">
+                              <orgName ref="list.xml#DGM" type="tipography">D.G.M.</orgName>
+                        </s>
+                  </p>
+                  <p>                                            
+                        <s rend="writing-mode(vertical-lr) text-orientation(sideways)">
+                             Proprietà artistica riservata N. 143 - 1
+                        </s>
+                  </p>
+            </div>
+      </front>
+      <body>
+         <div xmlns="http://www.tei-c.org/ns/1.0"
+              type="fronte">
+            <figure>
+               <graphic url="img-cartoline/7694-038F.jpg"/>
+               <figDesc>La Signora indossa un cappellino nero con una fascia di colore argento indossato come un fiocco,I capelli della signora sono di colore dorato e ricciole,Il viso si mostra un po' pallido con gli occhi chiusi e il rosetto alle labbra di colore rosso,La sciarpa si presta con con un mix di colori tra Oro Nero e Viola,In basso a destra e riportato la firma,Tiene nella mano destra una penna di colore blu.</figDesc>
+               <head>Donna che scrive</head>
+            </figure>
+         </div>
+         <div type="retro">
+            <div type="message">
+                  <opener xmlns="http://www.tei-c.org/ns/1.0">
+                        <dateline>
+                              <lb n="1"/>
+                              <s>
+                                    <placeName ref="list.xml#FI">Firenze</placeName> 
+                                    <date when="1916-12-20">20-XII-916</date>
+                              </s>
+                        </dateline>
+                  </opener>
+                  <div xmlns="http://www.tei-c.org/ns/1.0" type="postcard-body">
+                        <p>
+                              <lb n="2"/>
+                              A lei e famiglia
+                              <lb n="3"/>
+                              i mie migliori
+                              <lb n="4"/>
+                              cordiali, affettuosissimi
+                              <lb n="5"/>
+                              auguri
+                        </p>
+                  </div>
+                  <closer xmlns="http://www.tei-c.org/ns/1.0">
+                        <s>
+                              <lb n="6"/>
+                              Aff.mo 
+                        </s>
+                        <lb n="7"/>
+                        <signed>
+                              <persName ref="list.xml#GMM">
+                                    <surname>Magi</surname>
+                                    <surname>Morfede</surname>
+                              </persName>
+                        </signed>
+                  </closer>
+            </div>
+            <div xmlns="http://www.tei-c.org/ns/1.0" type="address-destination">
+               <p>
+                  <address>
+                        <addrLine>
+                              <lb n="8"/>
+                              Gent.ssa Sig.na
+                              <lb n="9"/>
+                              Sig.na Oliva Turtura
+                              <lb n="10"/>
+                              Via Girolamo Rossi 58
+                              <lb n="11"/>
+                              Ravenna
+                        </addrLine>
+                  </address>
+               </p>
+            </div>
+            <div type="postmark-postage">
+                        <ab>
+                                    <stamp xmlns="http://www.tei-c.org/ns/1.0" type="postmark">
+                                          <mentioned rend="circle">
+                                                <unclear reason="faded" agent="time" cert="medium">RAVENNA</unclear>
+                                                <gap reason="illegible" agent="ink" atLeast="4" atMost="15" unit="chars" />
+                                                <mentioned>
+                                                      <hi rend="align(center)">
+                                                            <unclear reason="faded" agent="time" cert="medium">21.12.18</unclear>
+                                                            <gap reason="illegible" agent="faded" atLeast="2" atMost="4" unit="chars" />
+                                                      </hi>
+                                                </mentioned>
+                                          </mentioned>
+                                    </stamp>
+                                    <stamp xmlns="http://www.tei-c.org/ns/1.0" type="postmark">
+                                          <mentioned rend="circle">
+                                                <unclear reason="faded" agent="time" cert="medium">FIRENZE</unclear>
+                                                <gap reason="illegible" agent="ink" atLeast="15" atMost="25" unit="chars" />
+                                                <mentioned>
+                                                      <hi rend="align(center)">
+                                                            <unclear reason="faded" agent="time" cert="medium">20.12.18</unclear>
+                                                            <gap reason="illegible" agent="faded" atLeast="2" atMost="4" unit="chars" />
+                                                      </hi>
+                                                </mentioned>
+                                          </mentioned>
+                                    </stamp>
+                                    <stamp xmlns="http://www.tei-c.org/ns/1.0" type="postmark" >
+                                          <mentioned rend="circle">
+                                                <gap reason="illegible" agent="ink" atLeast="15" atMost="25" unit="chars" />
+                                                <mentioned>
+                                                      <hi rend="align(center)">
+                                                            <unclear reason="faded" agent="time" cert="medium">20.12.18</unclear>
+                                                            <gap reason="illegible" agent="faded" atLeast="2" atMost="4" unit="chars" />
+                                                      </hi>
+                                                </mentioned>
+                                          </mentioned>
+                                    </stamp>
+                                    <stamp xmlns="http://www.tei-c.org/ns/1.0" type="postage">
+                                          <mentioned rend="color(red)">
+                                                <orgName ref="list.xml#oPI">Poste italiane</orgName>
+                                                <hi>
+                                                      <num rend="double" type="cardinal" value="10">10</num>
+                                                      centesimi
+                                                      <num rend="double" type="cardinal" value="10">10</num>
+                                                </hi>
+                                          </mentioned>
+                                    </stamp>
+                              </ab>
+            </div>
+            <div type="secondamano">
+               <ab type="paratext">
+                  <add>
+                     <num xmlns="http://www.tei-c.org/ns/1.0" type="cardinal" value="38">
+                               38
+                    </num>
+                  </add>
+               </ab>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

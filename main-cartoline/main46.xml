@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="transfinal.xsl" title="stile" type="text/xsl"?>
+
+
+<!--
+Cartolina3: 7694-046
+	<gap>Loma<gap> di guerra li 14/7 1916
+	je t'aime aujourd'hui plus qu'hier 
+	et moins de demain.
+			Jean 
+-->
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cartolina_7694-046">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <!-- TITOLO NB: non corrisponde completamente alla voce TITOLO della tabella perché si tratta del titolo della edizione digitale -->
+                <title>Codifica cartolina 7694-046</title>
+                <!-- TRASCRITTORE nome e cognome-->
+                <respStmt>
+
+                    <resp>transcription by</resp>
+                    <name xml:id="XX">Mirko Morici</name>
+                    <name xml:id="XX2">Mario Fernàndez Gomis</name>
+
+                </respStmt>
+                
+                <!-- ENTE DI APPARTENENZA -->
+                <respStmt>
+
+                    <resp>Ente di Appartenenza</resp>
+                    <name type="comune" xml:id="SP">Comune della Spezia</name>
+                
+                </respStmt>
+                
+            </titleStmt>
+            
+            <editionStmt>
+                <edition>Studenti di Storia Pubblica Digitale, Corso di Laurea Magistrale di Informatica Umanistica, Università di Pisa
+                    <!-- COMPILAZIONE -->
+                    <date>2018</date>
+                </edition>
+                
+                <!-- NOME COMPILATORE -->
+                <respStmt>
+
+                    <resp>encoding by</resp>
+                    <name xml:id="XY1">Tommaso Castagneto</name>
+                
+                </respStmt>
+                
+                <!-- REFERENTE SCIENTIFICO sempre Nome Cognome, XY2 è sempre Tommaso Castagneto, XZ1 è chi interviene sulla schedatura già fatta per correzioni e aggiunte-->
+                <respStmt>
+                   
+                    <resp>Compilatore</resp>
+                    <name xml:id="XY2">Tommaso Castagneto</name>
+                    <name xml:id="XZ1">XZ</name> 
+                
+                </respStmt>
+
+                <respStmt>
+
+                    <resp>Responsabile scientifico</resp>
+                    <name xml:id="GP">Giacomo Paolicchi</name>
+                    <name xml:id="ES">Enrica Salvatori</name>
+                
+                </respStmt>
+
+                <respStmt>
+
+                    <resp>Funzionario responsabile</resp>
+                    <name xml:id="MR">Marzia Ratti</name>
+
+                </respStmt>
+
+            </editionStmt>
+            
+            <publicationStmt>
+
+                <publisher>Unipi</publisher>
+                <pubPlace>Pisa</pubPlace>
+                <availability>
+                   
+                    <p>Available under licence only</p>
+                </availability>
+                
+                <date when="2019">2019</date>
+                <distributor>LabCD</distributor>
+                <address>
+
+                    <addrLine>Laboratorio di Cultura Digitale - Università di Pisa</addrLine>
+                    <addrLine>Pisa</addrLine>
+                
+                </address>
+
+            </publicationStmt>
+            
+            <!-- NOTE NB: mettere qui tutto ciò che non rientra nella codifica -->
+           <notesStmt>
+                <note>Disegno di Stefano Bersani</note>
+                <note>Non è presente alcun francobollo</note>
+                <note>Nel retro sono presenti le scritte:"Proprietà art. riserv.- Casa editrice d' aste Bestetti e Tumminelli - Milano", "Stefano Bersani - Tenerezze Materne Tendresses de mere ", "Muttierliebe Fondness"</note>
+            </notesStmt>
+            
+            <sourceDesc>
+                <bibl>
+                    <!-- TITOLO Quello che si ricava dalla cartolina; Se un documento composto da immagini 
+                        non presenta un titolo o altri elementi considerabili come titolo, si formula un titolo sintetico 
+                        registrandolo entro parentesi quadre [Venere al bagno] ma indicando dentro la codifica come qui sotto esemplificato-->
+                    
+                    <title type="custom" resp="#ES">Madre seduta con bambino in cortile</title>
+                    <author></author>
+                    <!-- PRODUZIONE Chi ha prodotto / pubblicato la cartolina. Se non presente togliere il tag  -->
+                    <!-- LUOGO -->
+                    <!-- CRONOLOGIA, attenzione si riferisce solo alla data di stampa -->
+                    <date>1916</date>
+                </bibl>
+                <msDesc>
+                    <!-- COLLOCAZIONE SPECIFICA -->
+                    <!-- CODICE IDENTIFICATIVO -->
+                    <msIdentifier>
+                        <country>Italia</country>
+                        <settlement>La Spezia (SP)</settlement>
+                        <!-- COLLOCAZIONE SPECIFICA -->
+                        <repository>Museo Civico Etnografico "Giovanni Podenzana", Sezione dei cimeli garibaldini e della Prima Guerrra Mondiale</repository>
+                        <!-- CODICE IDENTIFICATIVO -->
+                        <idno>7694_034_046/046</idno>
+                    </msIdentifier>
+                    
+                    <!-- Informazioni sul contenuto della cartolina -->
+                    <!-- DESCRIZIONE -->
+                    <msContents>
+                        <summary>Cartolina Artistica</summary>
+                        <textLang>Francese</textLang>
+                    </msContents>
+                    
+                    
+                    
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType>Cartolina</objectType>
+                                    <!-- MATERIALI -->
+                                    <material>Carta</material>
+                                    <!-- DIMENSIONE -->
+                                    <dimensions unit="cm">
+                                        <height>9</height>
+                                        <width>14</width>
+                                    </dimensions>
+                                </support>
+                                
+                                <!-- CONSERVAZIONE 
+                                buono = non occorrono interventi di restauro;
+discreto = perfettamente leggibile in tutte le componenti ma con rischi di deterioramento per usura;
+mediocre = perfettamente leggibile, ma mancano alcune sue parti;
+cattivo = intaccato da parassiti o deteriorato da cattivi interventi passati o mancanti di parti rilevanti, necessita di restauro-->
+                                <condition>Buono</condition>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+            
+                    
+                </msDesc>
+                
+                <!-- NOMI -->
+                
+                <listPerson>
+                    
+                   
+                    <person xml:id="SB">
+                        <persName>
+                            <forename>Stefano</forename>
+                            <surname>Bersani</surname>
+                        </persName>
+                        <sex>M</sex>
+                        <occupation n="1">[maggiore]</occupation>
+                        <note></note>
+                    </person>
+                    <person xml:id="OT">
+                        <persName>
+                            <forename>Oliva</forename>
+                            <surname>Turtura</surname>
+                        </persName>
+                        <sex>F</sex>
+                        <note></note>
+                    </person>
+                </listPerson>
+                
+                <listOrg>
+                    <org xml:id="N3">
+                        <orgName type="N"></orgName>
+                        <desc>...</desc>
+                    </org>
+                </listOrg>
+                
+                
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#GC"/>
+                    <placeName>...</placeName>
+                    <!-- DATA data di invio da timbro (postage) o da manoscritto (writing) -->
+                    <date type="postage" when="1916-7-14">1916/7/14</date>
+                    <date type="writing" when="1916-7-14">1916/7/14</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>
+                        <forename>Oliva</forename>
+                        <surname>Turtura</surname>
+                    </persName>
+                    <placeName>...</placeName>
+                </correspAction>
+                <correspContext>
+                    <p>
+                        <!-- previous -->
+                        <!-- forward -->
+                    </p>
+                </correspContext>
+            </correspDesc>
+            
+            <textClass>
+                <keywords scheme="">
+                    <!-- soggettario -->
+                    <!-- tipologia -->
+                    <!-- descrizione -->
+                    <term>Cartolina </term>
+                    <term>Cartolina Artistica </term>
+                    <term>Coppia di innamorati</term>
+                </keywords>
+            </textClass>
+            
+            <langUsage>
+                <language ident="it-IT">francese</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+
+    <facsimile>
+
+        <surface n='1' xml:id="Retro_cartolina2">
+            <graphic url='7694-046R.jpg' width='1642px' height='1075px' />
+            <zone ulx="551" uly="6" lrx="1350" lry="245" xml:id="zona1"/>
+            <zone ulx="241" uly="204" lrx="1590" lry="777" xml:id="zona2"/>
+            <zone ulx="942" uly="791" lrx="1290" lry="978" xml:id="zona3"/>
+        </surface>
+
+        <surface n='2' xml:id="Fronte_cartolina2">
+            <graphic url='7694-034F.jpg' width='1058px' height='1650px' />
+        </surface>
+
+    </facsimile>
+
+    <text type="letter">
+        <body>
+
+            <div xml:id="retro" facs="#Retro_cartolina2">
+                
+                <opener xml:id="zone9" facs="#zona1">
+                    <unclear reason="illegible">Loma</unclear> di guerra li 
+                        <date when="1926-7-14"> 14 7 1926 </date>
+                </opener>
+
+                <ab xml:id="zone10" facs="#zona2">
+                    je t'aime aujourd'hui plus qu'hier 
+                    et moins de demain.
+                </ab>
+
+                <closer xml:id="zone11" facs="#zone3">
+                        <signed>
+                           <persName> Jean </persName>
+                        </signed>
+                </closer>
+            </div>
+
+            <div type="add">
+            <!-- identificativo di catalogazione -->
+                <ab type="catalogazione">
+                    <num type="cardinal" value="46">
+                               46
+                    </num>
+                </ab>
+            </div>
+
+            <div type="fronte" xml:id='fronte2' facs='#Fronte_cartolina2'>
+                <p xml:id="figDesc2">
+                    L'immagine del fronte della cartolina presenta una donna vestita di bianco, seduta su di una sedia che
+                    bacia un bambino. Le figure sono immerse in quella che sembra essere l'etrata che di una villa di campagna,
+                    circondata dalla natura.
+                </p>
+                <p xml:id="titleDesc2">Donna che bacia un bambino</p>
+            </div>
+
+        </body>
+    </text>
+</TEI>

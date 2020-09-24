@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="cartolina_7694-070">
+   <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+      <fileDesc>
+         <titleStmt>
+            <title>Drame au Harem - Edizione digitale</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <choice>
+                  <abbr>Unipi</abbr>
+                  <expan instant="false">Università di
+                            <placeName ref="list.xml#PI" instant="false" full="yes">Pisa</placeName>
+                  </expan>
+               </choice>
+            </publisher>
+            <pubPlace ref="list.xml#PI">Pisa</pubPlace>
+            <availability default="false">
+               <p part="N">Available under licence only</p>
+            </availability>
+            <date when="2019" instant="false">2019</date>
+            <distributor>
+               <orgName ref="list.xml#LCD" instant="false" full="yes">
+                  <choice>
+                     <abbr>LabCD</abbr>
+                     <expan instant="false">Laboratorio di Cultura Digitale</expan>
+                  </choice>
+               </orgName>
+            </distributor>
+            <address>
+               <addrLine>Laboratorio di Cultura Digitale - Università di Pisa</addrLine>
+               <addrLine>
+                  <placeName ref="list.xml#PI" instant="false" full="yes">Pisa</placeName>
+               </addrLine>
+            </address>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <bibl default="false" status="draft">
+               <title>Drame au Harem</title>
+               <author ref="list.xml#TR">Theodore Ralli</author>
+               <date when="1908" instant="false"> 1908</date>
+            </bibl>
+            <msDesc status="draft"><!-- descrizione del manoscritto -->
+               <msIdentifier><!-- info per identificare il manoscritto -->
+                  <country ref="list.xml#IT">Italia</country>
+                  <settlement ref="list.xml#SP">La Spezia (SP)</settlement>
+                  <!-- collocazione specifica -->
+                  <repository ref="list.xml#MCE">Museo Civico Etnografico "Giovanni Podenzana", Sezione dei cimeli garibaldini e della Prima Guerrra Mondiale</repository>
+                  <!-- codice identificativo -->
+                  <idno type="postcard_id">7694_070_001/002</idno>
+               </msIdentifier>
+               <!-- Informazioni sul contenuto della cartolina -->
+               <!-- DESCRIZIONE -->
+               <msContents>
+                  <summary>Cartolina Artistica</summary>
+                  <textLang mainLang="it" otherLangs="fr"> Principalmente italiano, con presenza di
+                     francese </textLang>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <stamp type="postage">2 Francobolli - Regno d'Italia</stamp>
+                           <stamp type="postmark">3 Timbri della Ferrovia</stamp>
+                           <objectType>Cartolina</objectType>
+                           <!-- MATERIALI -->
+                           <material>Carta</material>
+                           <!-- DIMENSIONE -->
+                           <dimensions unit="cm">
+                              <height>9</height>
+                              <width>14</width>
+                           </dimensions>
+                        </support>
+                        <!-- CONSERVAZIONE -->
+                        <condition>Buona</condition>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc default="false">
+            <correspAction type="sent">
+               <persName ref="list.xml#Pia" instant="false" full="yes">Pia</persName>
+               <placeName ref="list.xml#CE" instant="false" full="yes">Cesenatico</placeName>
+               <date type="writing" when="19130815" instant="false">15/8/1913</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="list.xml#OT" instant="false" full="yes">Oliva Turtura</persName>
+               <placeName ref="list.xml#MB" instant="false" full="yes">Monza</placeName>
+            </correspAction>
+         </correspDesc>
+         <textClass default="false">
+            <keywords>
+               <term>Cartolina</term>
+               <term>Cartolina Artistica</term>
+               <term>Drame au Harem</term>
+            </keywords>
+         </textClass>
+         <langUsage default="false">
+            <language ident="it-IT">La lingua usata per la codifica è l'italiano</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <facsimile xmlns="http://www.tei-c.org/ns/1.0">
+      <surface xml:id="fronte70" start="#cartolina_fronte70"><!-- tutta l'immagine -->
+         <graphic url="img-cartoline/7694-070F.jpg"
+                  width="1054.011364px"
+                  height="1658.011364px"/>
+      </surface>
+      <surface xml:id="retro70" start="#cartolina_retro70"><!-- parte sinistra -->
+         <graphic url="img-cartoline/7694-070R.jpg"
+                  width="1660.011364px"
+                  height="1055.011364px"/>
+         <zone ulx="20"
+               uly="324"
+               lrx="845"
+               lry="956"
+               xml:id="zone1-70"
+               rotate="0"/>
+         <!-- parte in alto a destra (timbri)-->
+         <zone ulx="404"
+               uly="24"
+               lrx="1654"
+               lry="355"
+               xml:id="zone2-70"
+               rotate="0"/>
+         <!-- parte in basso a destra -->
+         <zone ulx="822"
+               uly="280"
+               lrx="1640"
+               lry="1042"
+               xml:id="zone3-70"
+               rotate="0"/>
+         <!--Zona id  cartina-->
+         <zone ulx="13"
+               uly="16"
+               lrx="135"
+               lry="85"
+               xml:id="zone4-70"
+               rotate="0"/>
+      </surface>
+   </facsimile>
+   <text>
+      <front xmlns="http://www.tei-c.org/ns/1.0"><!-- testo tipografico -->
+         <div type="tipografia" part="N" org="uniform" sample="complete">
+            <p part="N">
+               <s rend="writing-mode(horizontal-lr) text-orientation(sideways)" part="N">
+                                Tous les pays étrangers n'acceptent la corresp<supplied reason="covered" instant="false">ondance au recto.</supplied>
+               </s>
+               <s part="N">
+                              Se renseigner à la poste.
+                              </s>
+            </p>
+         </div>
+      </front>
+      <body xmlns="http://www.tei-c.org/ns/1.0">
+         <div type="fronte" part="N" org="uniform" sample="complete">
+            <figure>
+               <head>
+                  <title xml:id="titolo1">Drame au Harem</title>
+               </head>
+               <figDesc> L'illustrazione, in bianco e nero, vede protagoniste due donne: una accasciata su un seggio,
+                  l'altra stramazzata al suolo quasi totalmente nuda. Nella stanza dell'Harem regna
+                  il caos, suggerendo il fatto che possa trattarsi di un omicidio o di uno
+                  sventurato evento. L'architettura che incornicia la scena è ricca, con presenza di
+                  molteplici materiali che lasciano immaginare una notevole policromia. </figDesc>
+            </figure>
+         </div>
+         <div type="retro" part="N" org="uniform" sample="complete">
+            <div type="message" part="N" org="uniform" sample="complete">
+               <div type="postcard-body" part="N" org="uniform" sample="complete">
+                  <p part="N">
+                     <lb n="1"/>
+                              Sono a Cesenatico.
+                              <lb n="2"/>
+                              Il mio indirizzo è:
+                              <lb n="3"/>
+                              Posta. Chi l'ha
+                              <lb n="4"/>
+                              detto che ero a Ferrara?
+                        </p>
+               </div>
+               <closer>
+                  <s part="N">
+                     <lb n="5"/>
+                              Saluti <choice>
+                        <orig>affettuosisfimi</orig>
+                        <reg resp="list.xml#LR" cert="high" instant="false">affettuosissimi</reg>
+                     </choice>
+                  </s>
+                  <lb/>
+                  <signed>
+                     <persName instant="false" full="yes">
+                        <forename ref="list.xml#Pia" full="yes">Pia</forename>
+                     </persName>
+                  </signed>
+               </closer>
+            </div>
+            <div type="address-destination"
+                 part="N"
+                 org="uniform"
+                 sample="complete">
+               <p part="N">
+                  <address>
+                     <addrLine>
+                        <lb n="6"/>
+                                    Oliva Turtura
+                                    <lb n="7"/>
+                                    Via Carour 12
+                                    <lb n="8"/>
+                                    Presfo Cibecchini
+                                    <lb n="9"/>
+                                    Arona 
+                              </addrLine>
+                  </address>
+               </p>
+            </div>
+            <div type="postmark-postage"
+                 part="N"
+                 org="uniform"
+                 sample="complete">
+               <ab part="N">
+                  <stamp type="postmark">
+                     <gap reason="illegible" agent="ink" instant="false"/>
+                  </stamp>
+                  <stamp type="postmark">
+                     <mentioned>
+                        <placeName ref="list.xml#CE" instant="false" full="yes">
+                           <unclear instant="false">CESENATICO</unclear>
+                        </placeName>
+                     </mentioned>
+                     <date when="1913-08-15" instant="false">15/08/1913</date>
+                  </stamp>
+                  <stamp type="postmark">
+                     <mentioned>
+                        <placeName ref="list.xml#CE" instant="false" full="yes">
+                           <unclear instant="false">CESENATICO</unclear>
+                        </placeName>
+                     </mentioned>
+                     <date when="19130815" instant="false">15/08/1913</date>
+                  </stamp>
+                  <stamp type="postage">Francobollo da 5 centesimi del Regno d'Italia</stamp>
+                  <stamp type="postage">Francobollo da 5 centesimi del Regno d'Italia</stamp>
+               </ab>
+            </div>
+            <div type="secondamano" part="N" org="uniform" sample="complete">
+               <ab type="paratext" part="N">
+                  <add instant="false" status="unremarkable">
+                     <num type="cardinal">70</num>
+                  </add>
+               </ab>
+            </div>
+         </div>
+      </body>
+      <back>
+         <div type="linguistic">
+            <ab>
+               <seg lemma="essere">
+                  <w type="form">Sono</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="a">
+                  <w type="form">a</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="Cesenatico">
+                  <w type="form">Cesenatico</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma=".">
+                  <w type="form">.</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="il">
+                  <w type="form">Il</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="mio">
+                  <w type="form">mio</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="indirizzo">
+                  <w type="form">indirizzo</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="essere">
+                  <w type="form">è</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma=":">
+                  <w type="form">:</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="posta">
+                  <w type="form">Posta</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma=".">
+                  <w type="form">.</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="chi">
+                  <w type="form">Chi</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="lo">
+                  <w type="form">l'</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="avere">
+                  <w type="form">ha</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="dire">
+                  <w type="form">detto</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="che">
+                  <w type="form">che</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="essere">
+                  <w type="form">ero</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="a">
+                  <w type="form">a</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="Ferrara">
+                  <w type="form">Ferrara</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="?">
+                  <w type="form">?</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="saluto">
+                  <w type="form">Saluti</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="affettuoso">
+                  <w type="form">affettuosissimi</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="Pia">
+                  <w type="form">Pia</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+            </ab>
+         </div>
+      </back>
+   </text>
+</TEI>

@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="style.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cartolina_7694-111">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt xml:id="titleStmt3">
+                <!-- TITOLO NB: non corrisponde completamente alla voce TITOLO della tabella perché si tratta del titolo della edizione digitale -->
+                <title type="sub">Donna sdraiata con mazzo di rose - Edizione Digitale </title>
+                <!-- TRASCRITTORE nome e cognome-->
+                <respStmt>
+                    <resp>Trascritto da</resp>
+                    <name ref="#RB"><forename>Rocco</forename>
+                        <surname>Biondi</surname></name>
+                    <name ref="#FT"><forename>Federico</forename>
+                        <surname>Talarico</surname></name>
+                </respStmt>
+                <!-- ENTE DI APPARTENENZA -->
+                <respStmt>
+                    <resp>Ente di Appartenenza</resp>
+                    <name type="comune" ref="#SP">Comune della Spezia</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt xml:id="editionStmt3">
+                <edition>Studenti del Corso di Laurea in Informatica Umanistica, Corso di Codifica
+                    di Testi <orgName ref="#UNIPI"> Università di Pisa </orgName>
+                    <!-- COMPILAZIONE -->
+                    <date>2019</date>
+                </edition>
+                <!-- NOME COMPILATORE -->
+                <respStmt>
+                    <resp>Encoding by</resp>
+                    <name ref="#TC">Tommaso Castagneto</name>
+                    <name ref="RBFT">Rocco Biondi e Federico Talarico</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Compilatore</resp>
+                    <name ref="#TC">Tommaso Castagneto</name>
+                </respStmt>
+                <!-- REFERENTE SCIENTIFICO -->
+                <respStmt>
+                    <resp>Responsabile scientifico</resp>
+                    <name ref="#GP">Giacomo Paolicchi</name>
+                    <name ref="#ES">Enrica Salvatori</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Funzionario responsabile</resp>
+                    <name ref="ER">E. Ratti</name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt xml:id="publicationStmt3">
+                <publisher><orgName ref="#UNIPI"> Unipi </orgName>
+                </publisher>
+                <pubPlace>Pisa</pubPlace>
+                <availability>
+                    <p>Available under licence only</p>
+                </availability>
+                <date when="2019">2019</date>
+                <distributor>LabCD</distributor>
+                <address>
+                    <addrLine>Laboratorio di Cultura Digitale - <orgName ref="#UNIPI"> Università di
+                            Pisa </orgName></addrLine>
+                    <addrLine>Pisa</addrLine>
+                </address>
+            </publicationStmt>
+            <!-- NOTE NB: mettere qui tutto ciò che non rientra nella codifica -->
+            <notesStmt xml:id="notesStmt3">
+                <note n="3.1">Sul fronte vi è la firma dell'artista "T.Corbella", mentre sul retro
+                    troviamo la stampa "Proprietà artistica riservata - Uff. Rev. Stampa N. 7X7
+                    Milano - 8-5-1917". Nell'angolo in alto a destra inoltre troviamo il numero 90,
+                    che probabilmente identifica la cartolina nell'archivio del progetto. </note>
+                <note n="3.2">In base al materiale fornitoci siamo in grado di collocare
+                    temporalmente con esattezza quando si è tenuta la corrispondenza, vale a dire
+                    tra il 1911 e il 1918. Tuttavia non poossiamo affermare con certezza né
+                    l'inizio, né il termine della corrispondenza tra le due parti dunque non
+                    sappiamo se siano scritte prima o dopo l'intervallo di tempo appena citato. </note>
+                <note n="3.3"> Sul retro della cartolina sono stati apposti un francobollo e un timbro,
+                    il primo dei quali al momento della scrittura del messaggio da parte del mittente;
+                    il secondo nel momento della spedizione da parte del'ente di logistica.
+                </note>
+            </notesStmt>
+            <sourceDesc xml:id="sourceDesc3">
+                <bibl>
+                    <!-- TITOLO Quello che si ricava dalla cartolina; Se un documento composto da immagini
+                        non presenta un titolo o altri elementi considerabili come titolo, si formula un titolo sintetico
+                        registrandolo entro parentesi quadre [Venere al bagno] ma indicando dentro la codifica come qui sotto esemplificato-->
+                    <title xml:id="tit3" type="custom" resp="#ES">Donna con le rose</title>
+                    <author ref="#GC">Giovannino</author>
+                    <date when="19170903">03/09/1917</date>
+                </bibl>
+                <msDesc>
+                    <msIdentifier>
+                        <country>Italia</country>
+                        <settlement>La Spezia (SP)</settlement>
+                        <repository>Museo Civico Etnografico "Giovanni Podenzana", Sezione dei
+                            cimeli garibaldini e della Prima Guerrra Mondiale</repository>
+                        <idno>7694_111_001/002</idno>
+                    </msIdentifier>
+                    <!-- Informazioni sul contenuto della cartolina -->
+                    <!-- DESCRIZIONE -->
+                    <msContents>
+                        <summary>Cartolina Artistica</summary>
+                        <textLang>Italiano</textLang>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <stamp type="postage"> Francobollo - Regno d'Italia </stamp>
+                                    <stamp type="postmark">Timbro della Ferrovia </stamp>
+                                    <objectType>Cartolina</objectType>
+                                    <!-- MATERIALI -->
+                                    <material>Carta</material>
+                                    <!-- DIMENSIONE -->
+                                    <dimensions unit="cm">
+                                        <height>9</height>
+                                        <width>14</width>
+                                    </dimensions>
+                                </support>
+                                <!-- CONSERVAZIONE -->
+                                <condition>Ottimo</condition>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                </msDesc>
+                <!-- NOMI -->
+                <listPerson>
+                    <person>
+                        <persName ref="#GC">
+                            <forename>Giovanni</forename>
+                            <surname>Coliola</surname>
+                        </persName>
+                        <sex>M</sex>
+                        <occupation n="1"><certainty locus="value"
+                                target="https://www.slideshare.net/trapelicino/giacomo-paolicchicartoline-della-grande-guerra-al-museo-etnografico-della-spezia"
+                                cert="high">
+                                <desc> Tenente Colonnello[maggiore]</desc>
+                            </certainty>
+                        </occupation>
+                    </person>
+                    <person>
+                        <persName ref="#OT">
+                            <forename>Oliva</forename>
+                            <surname>Turtura</surname>
+                        </persName>
+                        <sex>F</sex>
+                    </person>
+                    <person>
+                        <persName ref="#TC">
+                            <forename>
+                                <choice>
+                                    <abbr type="nome"> T.</abbr>
+                                    <expan> Tito </expan>
+                                </choice>
+                            </forename>
+                            <surname> Corbella </surname>
+                        </persName>
+                        <sex>M</sex>
+                        <occupation>
+                            <certainty locus="value" target="http://www.rocaille.it/tito-corbella/"
+                                cert="high">
+                                <desc> Disegnatore di cartoline e pittore </desc>
+                            </certainty>
+                        </occupation>
+                    </person>
+                </listPerson>
+                <!-- LUOGHI -->
+                <listPlace>
+                    <place>
+                        <placeName ref="#RV">Ravenna</placeName>
+                        <district type="comune">Ravenna</district>
+                        <district type="provincia">RV</district>
+                        <country key="N">IT</country>
+                    </place>
+
+                    <place>
+                        <placeName ref="#MO">Modena</placeName>
+                        <district type="comune">Modena</district>
+                        <district type="provincia">MO</district>
+                        <country key="N">IT</country>
+                    </place>
+                </listPlace>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#GC"><forename>Giovanni</forename> <surname>Coliola</surname></persName>
+                    <placeName ref="MO">Modena</placeName>
+                    <date type="writing" when="19170903">03/09/1917</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#OT"><forename>Oliva</forename> <surname>Turtura</surname></persName>
+                    <placeName ref="#RV">Ravenna</placeName>
+                </correspAction>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Cartolina </term>
+                    <term>Cartolina Artistica </term>
+                    <term>Donna (in lilla) sdraiata sul letto con un mazzo di rose</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="it-IT">La lingua usata per la codifica è l'italiano</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <!-- DEFINIZIONE -->
+    <text type="cartolina" xml:id="cartolina3">
+        <!-- TRASCRIZIONE -->
+        <body>
+            <pb facs="#fronte3" n="1" xml:id="cartolina_fronte3"/>
+            <div type="fronte">
+                <figure>
+                    <head>
+                        <title xml:id="titolo3">Donna sdraiata con mazzo di rose</title>
+                    </head>
+                    <figDesc>L'immagine descrive una donna dalla carnagione chiara, con labbra
+                        vermiglie e un velo di trucco. I mossi capelli corti portati all'altezza del
+                        collo la fanno dolcemente adagiare su quello che pare un cuscino dal colore
+                        purpureo. Adagiato con lei, vi è un mazzo di rose rosse e gialle. Una veste
+                        ne lascia intuire le femminili forme. Quasi adagiata sulla sua schiena.
+                        troviamo la firma dell'autore "T.Corbella" </figDesc>
+                </figure>
+            </div>
+            <pb facs="retro3" n="2" xml:id="cartolina_retro3"/>
+            <div xml:id="txtDesc3" type="retro">
+                <div xml:id="testo3" type="message" facs="#zone1">
+                    <cb/>
+                    <dateline>
+                        <placeName ref="#MO">Modena</placeName>
+                        <distinct type="forma_desueta"> li <ptr target="#li"/>
+                        </distinct>
+                        <date when="19170903">03/09/1917</date>
+                    </dateline>
+                    <p xml:id="scritto3">
+                        <lb/>
+                        <persName ref="#GC">
+                            <forename type="diminutivo">
+                                <hi rend="underline"> Giovannino</hi>
+                            </forename>
+                        </persName>
+                    </p>
+                </div>
+                <div xml:id="indirizzo3" facs="zone3">
+                    <cb/>
+                    <p>
+                        <lb/>
+                        <w>
+                            <choice>
+                                <abbr>Gent</abbr>
+                                <expan>Gentile</expan>
+                            </choice>
+                        </w>
+                        <w>
+                            <choice>
+                                <abbr>Sig<pc>.</pc>na</abbr>
+                                <expan>Signorina</expan>
+                            </choice>
+                        </w>
+                        <lb/>
+                        <persName ref="#OT">
+                            <forename>Oliva</forename>
+                            <surname>Turtura</surname>
+                        </persName>
+                        <lb/>
+                        <address>
+                            <addrLine>Via <persName>
+                                    <forename ref="#G"> Girolamo </forename>
+                                    <surname>Rogli</surname>
+                                </persName>
+                                <num type="cardinal"> 58 </num>
+                            </addrLine>
+                            <lb/>
+                            <addrLine>
+                                <placeName ref="#RV"><hi rend="underline">Ravenna</hi></placeName>
+                            </addrLine>
+                        </address>
+                    </p>
+                </div>
+                <div type="archivio" xml:id="archivio3" facs="#zone4">
+                    <p>
+                        <num type="cardinal"/>
+                        <idno>111</idno>
+                    </p>
+                </div>
+                <div xml:id="timbri3" type="destination" facs="#zone2">
+                    <p>
+                        <stamp type="postmark">
+                            <mentioned>
+                                <placeName ref="#MO"> MODENA </placeName>
+                                <w> FERROVIA </w>
+                            </mentioned>
+                        </stamp>
+                        <stamp type="postage">Francobollo da 5 centesimi del Regno d'Italia</stamp>
+                    </p>
+                    <p xml:id="address3">
+                        <address>
+                            <addrLine>Gent Sig.na</addrLine>
+                            <addrLine>
+                                <persName ref="OT"><forename>Oliva</forename> <surname>Turtura</surname></persName>
+                            </addrLine>
+                            <addrLine>Via Girolamo Rogli 58</addrLine>
+                            <addrLine>
+                                <placeName ref="#RV">Ravenna</placeName>
+                            </addrLine>
+                        </address>
+                    </p>
+                </div>
+            </div>
+        </body>
+    </text>
+    <facsimile xml:id="facsimile3">
+        <surface xml:id="fronte3" start="cartolina_fronte3">
+            <!-- tutta l'immagine -->
+            <graphic url="cartoline/111F.jpg" width="1659px" height="1058px"/>
+        </surface>
+        <surface xml:id="retro3" start="cartolina_retro3">
+            <graphic url="cartoline/111R.jpg" width="1655px" height="1063px"/>
+            <!-- parte sinistra -->
+            <zone ulx="108" uly="50" lrx="744" lry="1016" xml:id="zone9"/>
+            <!-- parte in alto a destra (timbro e francobollo)-->
+            <zone ulx="1176" uly="8" lrx="1625" lry="345" xml:id="zone10"/>
+            <!-- parte in basso a destra -->
+            <zone ulx="811" uly="306" lrx="1641" lry="1026" xml:id="zone11"/>
+            <!--Zona id  cartina-->
+            <zone ulx="9" uly="11" lrx="165" lry="131" xml:id="zone12"/>
+        </surface>
+    </facsimile>
+</TEI>

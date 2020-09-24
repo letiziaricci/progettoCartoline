@@ -1,0 +1,884 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="cartolina_7694-206">
+   <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+      <fileDesc>
+         <titleStmt>
+            <title>Luglio - Edizione digitale</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <choice>
+                  <abbr>Unipi</abbr>
+                  <expan instant="false">Università di
+                            <placeName ref="list.xml#PI" instant="false" full="yes">Pisa</placeName>
+                  </expan>
+               </choice>
+            </publisher>
+            <pubPlace ref="list.xml#PI">Pisa</pubPlace>
+            <availability default="false">
+               <p part="N">Available under licence only</p>
+            </availability>
+            <date when="2019" instant="false">2019</date>
+            <distributor>
+               <orgName ref="list.xml#LCD" instant="false" full="yes">
+                  <choice>
+                     <abbr>LabCD</abbr>
+                     <expan instant="false">Laboratorio di Cultura Digitale</expan>
+                  </choice>
+               </orgName>
+            </distributor>
+            <address>
+               <addrLine>Laboratorio di Cultura Digitale - Università di Pisa</addrLine>
+               <addrLine>
+                  <placeName ref="list.xml#PI" instant="false" full="yes">Pisa</placeName>
+               </addrLine>
+            </address>
+         </publicationStmt>
+         <sourceDesc n="206" default="false">
+            <bibl default="false" status="draft">
+               <title>Luglio</title>
+               <author>
+                  <persName ref="list.xml#M" instant="false" full="yes">Mauzano</persName>
+               </author>
+               <publisher>
+                  <orgName ref="list.xml#URS" instant="false" full="yes">Ufficio Revisione Stampa</orgName>
+               </publisher>
+               <pubPlace ref="list.xml#MI">Milano</pubPlace>
+               <date when="1917-03-27" instant="false">27-03-1917</date>
+            </bibl>
+            <msDesc status="draft"><!-- descrizione del manoscritto -->
+               <msIdentifier><!-- info per identificare il manoscritto -->
+                  <country ref="list.xml#IT">Italia</country>
+                  <settlement ref="list.xml#SP">La Spezia (SP)</settlement>
+                  <!-- collocazione specifica -->
+                  <repository ref="list.xml#MCE">Museo Civico Etnografico "Giovanni Podenzana", Sezione dei cimeli garibaldini e della Prima Guerrra Mondiale</repository>
+                  <!-- codice identificativo -->
+                  <idno type="postcard_id">7694_206_001/002</idno>
+               </msIdentifier>
+               <!-- Informazioni sul contenuto della cartolina -->
+               <msContents>
+                  <summary>Cartolina Artistica</summary>
+                  <textLang>Italiano</textLang>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType>Cartolina</objectType>
+                           <!-- MATERIALI -->
+                           <material>Carta</material>
+                           <!-- DIMENSIONE -->
+                           <dimensions unit="cm">
+                              <height>9</height>
+                              <width>14</width>
+                           </dimensions>
+                           <stamp>Francobollo - Poste Italiane 5 centesimi</stamp>
+                        </support>
+                        <!-- CONSERVAZIONE -->
+                        <condition>Buono</condition>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc default="false">
+            <correspAction type="sent">
+               <persName ref="list.xml#GC" instant="false" full="yes">Giovanni Coliola</persName>
+               <date type="postage" when="1917" instant="false">1917</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="list.xml#OT" instant="false" full="yes">Oliva Turtura</persName>
+               <placeName ref="list.xml#RV" instant="false" full="yes">Ravenna</placeName>
+            </correspAction>
+         </correspDesc>
+         <textClass default="false">
+            <keywords><!-- soggettario --><!-- tipologia --><!-- descrizione -->
+               <term>Cartolina </term>
+               <term>Cartolina Artistica </term>
+               <term>Una donna seduta sotto un albero viene sventolata da un amorino con un ventaglio</term>
+            </keywords>
+         </textClass>
+         <langUsage default="false">
+            <language ident="it-IT">italiano</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <facsimile xmlns="http://www.tei-c.org/ns/1.0">
+      <surface xml:id="surface7694-206F"><!-- FRONTE -->
+         <graphic url="img-cartoline/7694-206F.jpg" width="533px" height="830px"/>
+      </surface>
+      <surface xml:id="surface7694-206R"><!-- RETRO -->
+         <graphic url="img-cartoline/7694-206R.jpg" width="827px" height="536px"/>
+         <!-- FRANCOBOLLO -->
+         <zone type="postage-postmark"
+               xml:id="stamp1_206"
+               start="#stamp1-206"
+               ulx="478"
+               uly="16"
+               lrx="578"
+               lry="136"
+               rotate="0"/>
+         <!-- Primo francobollo + timbro -->
+         <zone type="postage-postmark"
+               xml:id="stamp2_206"
+               start="#stamp2-206"
+               ulx="370"
+               uly="16"
+               lrx="475"
+               lry="103"
+               rotate="0"/>
+         <!-- Secondo francobollo + timbro -->
+         <zone type="stamp"
+               xml:id="stamp3_206"
+               start="#stamp3-206"
+               ulx="325"
+               uly="106"
+               lrx="390"
+               lry="159"
+               rotate="0"/>
+         <!-- NUMERO 2 -->
+         <zone type="print"
+               xml:id="line_publication-206"
+               start="#line-publication-206"
+               ulx="7"
+               uly="42"
+               lrx="16"
+               lry="348"
+               rotate="0"/>
+         <!-- proprietà artistica... -->
+         <!-- TESTO -->
+         <zone type="handWriting"
+               xml:id="lineText_1-206"
+               start="#lineText-1-206"
+               ulx="237"
+               uly="27"
+               lrx="257"
+               lry="213"
+               rotate="0"/>
+         <!-- Oliva cara... -->
+         <zone type="handWriting"
+               xml:id="lineText_2-206"
+               start="#lineText-2-206"
+               ulx="217"
+               uly="26"
+               lrx="232"
+               lry="344"
+               rotate="0"/>
+         <!-- seconda riga... -->
+         <zone type="handWriting"
+               xml:id="lineText_3-206"
+               start="#lineText-3-206"
+               ulx="192"
+               uly="29"
+               lrx="210"
+               lry="343"
+               rotate="0"/>
+         <!-- terza riga... -->
+         <zone type="handWriting"
+               xml:id="lineText_4-206"
+               start="#lineText-4-206"
+               ulx="168"
+               uly="28"
+               lrx="187"
+               lry="347"
+               rotate="0"/>
+         <!-- quarta riga... -->
+         <zone type="handWriting"
+               xml:id="lineText_5-206"
+               start="#lineText-5-206"
+               ulx="143"
+               uly="21"
+               lrx="161"
+               lry="350"
+               rotate="0"/>
+         <!-- quinta riga... -->
+         <zone type="handWriting"
+               xml:id="lineText_6-206"
+               start="#lineText-6-206"
+               ulx="118"
+               uly="16"
+               lrx="136"
+               lry="347"
+               rotate="0"/>
+         <!-- sesta riga... -->
+         <zone type="handWriting"
+               xml:id="lineText_7-206"
+               start="#lineText-7-206"
+               ulx="97"
+               uly="21"
+               lrx="113"
+               lry="350"
+               rotate="0"/>
+         <!-- settima riga... -->
+         <zone type="handWriting"
+               xml:id="lineText_8-206"
+               start="#lineText-8-206"
+               ulx="74"
+               uly="22"
+               lrx="88"
+               lry="349"
+               rotate="0"/>
+         <!-- ottava riga... -->
+         <zone type="handWriting"
+               xml:id="lineText_9-206"
+               start="#lineText-9-206"
+               ulx="51"
+               uly="24"
+               lrx="67"
+               lry="271"
+               rotate="0"/>
+         <!-- nona riga... -->
+         <zone type="handWriting"
+               xml:id="lineText_10-206"
+               start="#lineText-10-206"
+               ulx="32"
+               uly="30"
+               lrx="46"
+               lry="345"
+               rotate="0"/>
+         <!-- decima riga... -->
+         <zone type="handWriting"
+               xml:id="lineText_11-206"
+               start="#lineText-11-206"
+               ulx="5"
+               uly="33"
+               lrx="46"
+               lry="525"
+               rotate="0"/>
+         <!-- abbia tu un bacio  - giovannino... -->
+         <zone type="handWriting"
+               xml:id="lineText_12-206"
+               start="#lineText-12-206"
+               ulx="36"
+               uly="363"
+               lrx="331"
+               lry="374"
+               rotate="0"/>
+         <!-- ho bisogno -->
+         <!-- ADDRESS -->
+         <zone type="handWriting"
+               xml:id="lineText_13-206"
+               start="#lineText-13-206"
+               ulx="268"
+               uly="163"
+               lrx="508"
+               lry="203"
+               rotate="0"/>
+         <!-- gentile.. -->
+         <zone type="handWriting"
+               xml:id="lineText_14-206"
+               start="#lineText-14-206"
+               ulx="283"
+               uly="209"
+               lrx="531"
+               lry="249"
+               rotate="0"/>
+         <!-- -->
+         <zone type="handWriting"
+               xml:id="lineText_15-206"
+               start="#lineText-15-206"
+               ulx="277"
+               uly="253"
+               lrx="566"
+               lry="296"
+               rotate="0"/>
+         <!-- -->
+         <zone type="handWriting"
+               xml:id="lineText_16-206"
+               start="#lineText-16-206"
+               ulx="291"
+               uly="300"
+               lrx="554"
+               lry="356"
+               rotate="0"/>
+         <!-- -->
+         <zone type="catalog"
+               xml:id="number206_206"
+               start="#number206-206"
+               ulx="293"
+               uly="15"
+               lrx="355"
+               lry="63"
+               rotate="0"/>
+         <!-- 206 -->
+      </surface>
+   </facsimile>
+   <text>
+      <front xmlns="http://www.tei-c.org/ns/1.0"><!-- testo tipografico -->
+         <div type="tipografia" part="N" org="uniform" sample="complete">
+            <p facs="#line_publication-206" xml:id="line-publication-206" part="N">
+               <s rend="writing-mode(vertical-lr) text-orientation(sideways)" part="N">
+                              Proprietà artistica riservata - 
+                              <orgName ref="list.xml#URS" type="typography" instant="false" full="yes">
+                                   Uff. Rev. Stampa
+                              </orgName>
+                  <placeName ref="list.xml#MI" instant="false" full="yes">Milano</placeName>
+                  <date when="1917-03-27" instant="false">27-03-1917</date>
+                              N. 94
+                        </s>
+            </p>
+         </div>
+      </front>
+      <body xmlns="http://www.tei-c.org/ns/1.0">
+         <div type="fronte"
+              facs="#surface7694-206F"
+              part="N"
+              org="uniform"
+              sample="complete">
+            <note n="noteFronte" anchored="true">In alto a sinistra è riportato il titolo della cartolina, mentre in basso a sinistra è collocata la firma dell'artista (<name xml:id="M" full="yes" instant="false">Mauzano</name>). L'inchiostro di un timbro presente sul retro ha imbrattato il fronte.</note>
+            <figure>
+               <head>Luglio</head>
+               <figDesc>La cartolina raffigura una donna adagiata sotto un albero mentre viene sventolata da un amorino con un ventaglio</figDesc>
+            </figure>
+         </div>
+         <div type="retro" part="N" org="uniform" sample="complete">
+            <div type="message" part="N" org="uniform" sample="complete">
+               <div type="postcard-body" part="N" org="uniform" sample="complete">
+                  <p part="N">
+                     <lb n="1" facs="#lineText_1-206" xml:id="lineText-1-206"/>
+                              Oliva cara, che dirti?
+                              <lb n="2" facs="#lineText_2-206" xml:id="lineText-2-206"/>
+                              L'unica risoluzione è quella d'affogare
+                              <lb n="3" facs="#lineText_3-206" xml:id="lineText-3-206"/>
+                              i pensieri nei libri con uno strato ben
+                              <lb n="4" facs="#lineText_4-206" xml:id="lineText-4-206"/>
+                              denso di polverone diffuso. È la però il
+                              <lb n="5" facs="#lineText_5-206" xml:id="lineText-5-206"/>
+                              momento di lucidità - e quello è terribil
+                              <lb n="6" facs="#lineText_6-206" xml:id="lineText-6-206"/>
+                              mente sublime. Delucida le idee.
+                              <lb n="7" facs="#lineText_7-206" xml:id="lineText-7-206"/>
+                              Fra l'altro emerge sempre più il nostro
+                              <lb n="8" facs="#lineText_8-206" xml:id="lineText-8-206"/>
+                              amore e non saprei dire se riesce di
+                              <lb n="9" facs="#lineText_9-206" xml:id="lineText-9-206"/>
+                              conforto o di sofferenza.
+                              <lb n="10" facs="#lineText_10-206" xml:id="lineText-10-206"/>
+                              Ho bisogno delle tue parole - almeno.
+                        </p>
+               </div>
+               <closer>
+                  <s part="N">
+                     <lb n="11" facs="#lineText_11-206" xml:id="lineText-11-206"/>
+                              Con tutta l'affezione dell'animo
+                              <lb n="12" facs="#lineText_12-206" xml:id="lineText-12-206"/>
+                     <choice>
+                        <orig>abbiati</orig>
+                        <reg resp="list.xml#LR" cert="high" instant="false">abbia tu</reg>
+                     </choice> un bacio. 
+                        </s>
+                  <lb/>
+                  <signed>
+                     <persName instant="false" full="yes">
+                        <forename ref="list.xml#GC" full="yes">Giovannino</forename>
+                     </persName>
+                  </signed>
+               </closer>
+            </div>
+            <div type="address-destination"
+                 part="N"
+                 org="uniform"
+                 sample="complete">
+               <p part="N">
+                  <address>
+                     <addrLine>
+                        <lb n="13" facs="#lineText_13-206" xml:id="lineText-13-206"/>
+                              Gent.ma Sig.na
+                              <lb n="14" facs="#lineText_14-206" xml:id="lineText-14-206"/>
+                              Oliva Turtura
+                              <lb n="15" facs="#lineText_15-206" xml:id="lineText-15-206"/>
+                              Via Girolamo <choice>
+                           <orig>Rosfi</orig>
+                           <reg resp="list.xml#LR" cert="high" instant="false">Rossi</reg>
+                        </choice> 58
+                              <lb n="16" facs="#lineText_16-206" xml:id="lineText-16-206"/>
+                              Ravenna
+                        </addrLine>
+                  </address>
+               </p>
+            </div>
+            <div type="postmark-postage"
+                 part="N"
+                 org="uniform"
+                 sample="complete">
+               <ab type="postage-postmark"
+                   facs="#stamp1_206"
+                   xml:id="stamp1-206"
+                   part="N">
+                  <stamp type="postmark"> <!-- timbro 1-->
+                     <mentioned>
+                        <gap reason="faded" agent="time" instant="false"/>ferrovia</mentioned>
+                     <date when="1917" instant="false">
+                        <unclear reason="faded" instant="false"/>17.12</date>
+                  </stamp>
+                  <stamp type="postage">
+                     <hi rend="uppercase">poste italiane 5 centesimi</hi>
+                  </stamp>
+               </ab>
+               <ab type="postage-postmark"
+                   facs="#stamp2_206"
+                   xml:id="stamp2-206"
+                   part="N">
+                  <stamp type="postmark"> <!-- timbro 2-->
+                     <mentioned>
+                        <gap reason="faded" agent="time" instant="false"/>ferrovia</mentioned>
+                     <date when="1917" instant="false">
+                        <unclear reason="faded" instant="false"/>17.12</date>
+                  </stamp>
+                  <stamp type="postage">
+                     <hi rend="uppercase">poste italiane 5 centesimi</hi>
+                  </stamp>
+               </ab>
+            </div>
+            <div type="secondamano" part="N" org="uniform" sample="complete">
+               <ab type="paratext" part="N">
+                  <add facs="#number206_206"
+                       xml:id="number206-206"
+                       instant="false"
+                       status="unremarkable">
+                     <num type="cardinal">206</num>
+                  </add>
+               </ab>
+            </div>
+         </div>
+      </body>
+      <back>
+         <div type="linguistic">
+            <ab>
+               <seg lemma="oliva">
+                  <w type="form">Oliva</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="caro">
+                  <w type="form">cara</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma=",">
+                  <w type="form">,</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="che">
+                  <w type="form">che</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="dire">
+                  <w type="form">dir-</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="ti">
+                  <w type="form">ti</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="?">
+                  <w type="form">?</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="il">
+                  <w type="form">L'</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="unico">
+                  <w type="form">unica</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="risoluzione">
+                  <w type="form">risoluzione</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="essere">
+                  <w type="form">è</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="quello">
+                  <w type="form">quella</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="di">
+                  <w type="form">d'</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="affogare">
+                  <w type="form">affogare</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="il">
+                  <w type="form">i</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="pensiero">
+                  <w type="form">pensieri</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="in">
+                  <w type="form">nei</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="libro">
+                  <w type="form">libri</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="con">
+                  <w type="form">con</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="uno">
+                  <w type="form">uno</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="strato">
+                  <w type="form">strato</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="ben">
+                  <w type="form">ben</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="denso">
+                  <w type="form">denso</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="di">
+                  <w type="form">di</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="polverone">
+                  <w type="form">polverone</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="diffuso">
+                  <w type="form">diffuso</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma=".">
+                  <w type="form">.</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="essere">
+                  <w type="form">È</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="là">
+                  <w type="form">là</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="però">
+                  <w type="form">però</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="il">
+                  <w type="form">il</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="momento">
+                  <w type="form">momento</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="di">
+                  <w type="form">di</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="lucidità">
+                  <w type="form">lucidità</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="-">
+                  <w type="form">-</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="e">
+                  <w type="form">e</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="quello">
+                  <w type="form">quello</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="essere">
+                  <w type="form">è</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="terribilmente">
+                  <w type="form">terribilmente</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="sublime">
+                  <w type="form">sublime</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma=".">
+                  <w type="form">.</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="delucidare">
+                  <w type="form">Delucida</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="il">
+                  <w type="form">le</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="idea">
+                  <w type="form">idee</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma=".">
+                  <w type="form">.</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="fra">
+                  <w type="form">Fra</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="il">
+                  <w type="form">l'</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="altro">
+                  <w type="form">altro</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="emergere">
+                  <w type="form">emerge</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="sempre">
+                  <w type="form">sempre</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="più">
+                  <w type="form">più</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="il">
+                  <w type="form">il</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="nostro">
+                  <w type="form">nostro</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="amore">
+                  <w type="form">amore</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="e">
+                  <w type="form">e</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="non">
+                  <w type="form">non</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="sapere">
+                  <w type="form">saprei</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="dire">
+                  <w type="form">dire</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="se">
+                  <w type="form">se</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="riuscire">
+                  <w type="form">riesce</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="di">
+                  <w type="form">di</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="conforto">
+                  <w type="form">conforto</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="o">
+                  <w type="form">o</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="di">
+                  <w type="form">di</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="sofferenza">
+                  <w type="form">sofferenza</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma=".">
+                  <w type="form">.</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="avere">
+                  <w type="form">Ho</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="bisogno">
+                  <w type="form">bisogno</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="di">
+                  <w type="form">delle</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="tuo">
+                  <w type="form">tue</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="parola">
+                  <w type="form">parole</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="-">
+                  <w type="form">-</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="almeno">
+                  <w type="form">almeno</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma=".">
+                  <w type="form">.</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="con">
+                  <w type="form">Con</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="tutto">
+                  <w type="form">tutta</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="il">
+                  <w type="form">l'</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="affezione">
+                  <w type="form">affezione</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="di">
+                  <w type="form">dell'</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="animo">
+                  <w type="form">animo</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="abbi">
+                  <w type="form">abbi</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="tu">
+                  <w type="form">tu</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="uno">
+                  <w type="form">un</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="bacio">
+                  <w type="form">bacio</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma=".">
+                  <w type="form">.</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="Giovannino">
+                  <w type="form">Giovannino</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+            </ab>
+         </div>
+      </back>
+   </text>
+</TEI>

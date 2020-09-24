@@ -1,0 +1,552 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="cartolina_7694-092">
+   <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+      <fileDesc>
+         <titleStmt>
+            <title>[Donna in posa] - Edizione digitale</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <choice>
+                  <abbr>Unipi</abbr>
+                  <expan instant="false">Università di
+                            <placeName ref="list.xml#PI" instant="false" full="yes">Pisa</placeName>
+                  </expan>
+               </choice>
+            </publisher>
+            <pubPlace ref="list.xml#PI">Pisa</pubPlace>
+            <availability default="false">
+               <p part="N">Available under licence only</p>
+            </availability>
+            <date when="2019" instant="false">2019</date>
+            <distributor>
+               <orgName ref="list.xml#LCD" instant="false" full="yes">
+                  <choice>
+                     <abbr>LabCD</abbr>
+                     <expan instant="false">Laboratorio di Cultura Digitale</expan>
+                  </choice>
+               </orgName>
+            </distributor>
+            <address>
+               <addrLine>Laboratorio di Cultura Digitale - Università di Pisa</addrLine>
+               <addrLine>
+                  <placeName ref="list.xml#PI" instant="false" full="yes">Pisa</placeName>
+               </addrLine>
+            </address>
+         </publicationStmt>
+         <sourceDesc default="false"><!-- contiene informazoni relative alla fonte originale -->
+            <bibl default="false" status="draft">
+               <title type="custom" resp="list.xml#ES">[Donna in posa]</title>
+               <author>
+                     <persName ref="list.xml#TC">T. Corbella</persName>
+               </author>
+               <!-- titolo tra parentesi quadre perchè titolo formulato da terzi-->
+               <publisher>
+                  <orgName ref="list.xml#URS" instant="false" full="yes">
+                     <choice>
+                        <abbr>Uff.</abbr>
+                        <expan instant="false">Uff<ex instant="false">icio</ex>
+                        </expan>
+                     </choice>
+                     <choice>
+                        <abbr>Rev.</abbr>
+                        <expan instant="false">Rev<ex instant="false">isioni</ex>
+                        </expan>
+                     </choice> Stampa
+			</orgName>
+               </publisher>
+               <availability default="false">
+                  <p part="N">Proprietà artistica riservata</p>
+               </availability>
+               <pubPlace ref="list.xml#MI">Milano</pubPlace>
+            </bibl>
+            <msDesc status="draft"><!-- contiene la descrizione del manoscritto -->
+               <msIdentifier><!-- informazioni che identificano il manoscritto -->
+                  <country>Italia</country>
+                  <settlement ref="list.xml#SP" type="city">La Spezia (SP)</settlement>
+                  <repository ref="list.xml#MCE">Museo Civico Etnografico "Giovanni Podenzana", Sezione dei cimeli garibaldini e della Prima Guerrra Mondiale</repository>
+                  <idno type="postcard_id">7694_092_001/002</idno>
+                  <!-- codice della singola cartolina -->
+               </msIdentifier>
+               <msContents><!-- contenuto intellettuale del manoscritto-->
+                  <summary>Cartolina Artistica </summary>
+                  <textLang mainLang="ita">Italiano</textLang>
+               </msContents>
+               <physDesc><!-- contiene la descrizione fisica del manoscritto -->
+                  <objectDesc>
+                     <supportDesc>
+                        <support> <!-- descrizione dei materiali che costituiscono il supporto fisico della parte scritta del manoscritto-->
+                           <objectType> Cartolina</objectType>
+                           <material>Carta</material>
+                           <measure type="composition" unit="foglio" quantity="1">1</measure>
+                           <dimensions unit="cm">
+                              <height>14</height>
+                              <width>9</width>
+                           </dimensions>
+                        </support>
+                        <condition> <!-- descrizione delle condizioni fisiche della cartolina -->
+				Cartolina in buone condizioni fisiche in parte invecchiata, la scrittura è realizzata con inchiostro nero.
+				Il foglio presenta una piccola piegatura rialzata sull'immagine artistica nel fronte e una piegatura nell'angolo in alto a sinistra nella parte del retro. Nella parte finale del testo è presente una sbavatura d'inchiostro.
+				</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <p part="N">Scritta a mano leggibile</p>
+                  </handDesc>
+                  <!-- descrizione del tipo di scrittura nella cartolina -->
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc><!-- descrizione dettagliata degli aspetti non bibliografici -->
+         <correspDesc default="false"><!-- contiene la descrizione delle azioni relative a un atto di corrispondenza -->
+            <correspAction type="sent">
+               <persName ref="list.xml#GC" role="writer" instant="false" full="yes">Giovanni Coliola</persName>
+               <placeName ref="list.xml#MO" instant="false" full="yes">Modena</placeName>
+               <!-- ho cambiato postage-->
+               <date type="writing" when="1917-07-18" instant="false">18/07/1917</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="list.xml#OT" instant="false" full="yes">Oliva Turtura</persName>
+            </correspAction>
+         </correspDesc>
+         <textClass default="false"><!-- contiene le informazioni che descrivono la natura o l'argomento del testo -->
+            <keywords scheme="http://etnografico.museilaspezia.it/">
+               <term>Cartolina </term>
+               <!-- soggettario -->
+               <term>Cartolina Artistica </term>
+               <!-- tipologia -->
+               <term>Ritratto di una donna in posa</term>
+               <!-- descrizione -->
+            </keywords>
+         </textClass>
+         <langUsage default="false"><!-- lingua usato nel testo -->
+            <language ident="it-IT">italiano</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <facsimile xmlns="http://www.tei-c.org/ns/1.0"><!-- rappresentazione della fonte scritta sotto forma di una serie di immagini-->
+      <surface n="1" xml:id="i7694-092R"><!-- definisce una superficie scritta in termini di uno spazio rettangolare di coordinate-->
+         <graphic url="img-cartoline/7694-092R.jpg" width="1640px" height="1021px"/>
+         <!-- RETRO CARTOLINA -->
+         <!-- scritta verticale -->
+         <zone type="print"
+               xml:id="line_publication-92"
+               start="#line-publication-92"
+               ulx="34"
+               uly="69"
+               lrx="88"
+               lry="970"
+               rotate="0"/>
+         <!-- prima riga di testo -->
+         <zone type="handWriting"
+               xml:id="lineText_1-92"
+               start="#lineText-1-92"
+               ulx="314"
+               uly="2"
+               lrx="1403"
+               lry="167"
+               rotate="0"/>
+         <zone type="handWriting"
+               xml:id="lineText_2-92"
+               start="#lineText-2-92"
+               ulx="119"
+               uly="133"
+               lrx="1525"
+               lry="219"
+               rotate="0"/>
+         <zone type="handWriting"
+               xml:id="lineText_3-92"
+               start="#lineText-3-92"
+               ulx="96"
+               uly="250"
+               lrx="1542"
+               lry="368"
+               rotate="0"/>
+         <zone type="handWriting"
+               xml:id="lineText_4-92"
+               start="#lineText-4-92"
+               ulx="94"
+               uly="385"
+               lrx="1628"
+               lry="478"
+               rotate="0"/>
+         <zone type="handWriting"
+               xml:id="lineText_5-92"
+               start="#lineText-5-92"
+               ulx="78"
+               uly="495"
+               lrx="1622"
+               lry="639"
+               rotate="0"/>
+         <zone type="handWriting"
+               xml:id="lineText_6-92"
+               start="#lineText-6-92"
+               ulx="82"
+               uly="668"
+               lrx="1362"
+               lry="771"
+               rotate="0"/>
+         <zone type="handWriting"
+               xml:id="lineText_7-92"
+               start="#lineText-7-92"
+               ulx="128"
+               uly="787"
+               lrx="780"
+               lry="886"
+               rotate="0"/>
+         <zone type="handWriting"
+               xml:id="lineText_8-92"
+               start="#lineText-8-92"
+               ulx="663"
+               uly="790"
+               lrx="1528"
+               lry="972"
+               rotate="0"/>
+         <!-- seconda mano (numero 92) -->
+         <zone type="catalog"
+               xml:id="number92_92"
+               start="#number92-92"
+               ulx="1475"
+               uly="1"
+               lrx="1594"
+               lry="85"
+               rotate="0"/>
+      </surface>
+      <surface n="2" xml:id="i7694-092F"><!-- definisce una superficie scritta in termini di uno spazio rettangolare di coordinate-->
+         <graphic url="img-cartoline/7694-092F.jpg" width="1016px" height="1640px"/>
+         <!-- fronte della cartolina (immagine artistica) -->
+         <zone ulx="161"
+               uly="61"
+               lrx="977"
+               lry="1082"
+               rendition="HotSpot"
+               xml:id="i092F_hotspot_01"
+               rotate="0"/>
+         <!--Donna-->
+         <zone ulx="85"
+               uly="1098"
+               lrx="471"
+               lry="1148"
+               rendition="HotSpot"
+               xml:id="i092F_hotspot_02"
+               rotate="0"/>
+         <!-- scritta-->
+         <zone ulx="4"
+               uly="4"
+               lrx="53"
+               lry="38"
+               rendition="HotSpot"
+               xml:id="i092F_hotspot_03"
+               rotate="0"/>
+         <!-- piega in alto a sinistra -->
+      </surface>
+   </facsimile>
+   <text>
+      <front xmlns="http://www.tei-c.org/ns/1.0"><!-- testo tipografico -->
+         <div type="tipografia" part="N" org="uniform" sample="complete">
+            <p facs="#line_publication-92" xml:id="line-publication-92" part="N">
+               <s rend="writing-mode(vertical-lr) text-orientation(sideways)" part="N">
+                              Proprietà artistica riservata - 
+                              <orgName ref="list.xml#URS" instant="false" full="yes">
+                     <choice>
+                        <abbr>Uff.</abbr>
+                        <expan instant="false">Uff<ex instant="false">icio</ex>
+                        </expan>
+                     </choice>
+                     <choice>
+                        <abbr>Rev.</abbr>
+                        <expan instant="false">Rev<ex instant="false">isioni</ex>
+                        </expan>
+                     </choice> Stampa
+			            </orgName>
+                              N. 
+                              <num type="cardinal" value="707">737</num>
+                  <placeName ref="list.xml#MI" instant="false" full="yes">Milano</placeName>,
+                              <date when="1917-05-08" instant="false">8-5-1917</date>
+               </s>
+            </p>
+         </div>
+      </front>
+      <body xmlns="http://www.tei-c.org/ns/1.0">
+         <div type="fronte" part="N" org="uniform" sample="complete">
+            <figure xml:id="i7694-092Fall" facs="#i7694-092F"><!-- contiene tutta l'immagine-->
+               
+                  <figDesc>Ritratto di una donna sorridente con i capelli sono raccolti in un foulard giallo legato dietro al collo da un fiocco. 
+                  </figDesc>
+            </figure>
+         </div>
+         <div type="retro" part="N" org="uniform" sample="complete">
+            <div type="message" part="N" org="uniform" sample="complete">
+               <opener>
+                  <dateline>
+                     <lb n="1" facs="#lineText_1-92" xml:id="lineText-1-92"/>
+                     <s part="N">
+                        <placeName ref="list.xml#RV" instant="false" full="yes">Modena</placeName>, li 
+                                    <date when="1917-07-18" instant="false">18/7-17.</date>
+                     </s>
+                  </dateline>
+               </opener>
+               <div type="postcard-body" part="N" org="uniform" sample="complete">
+                  <p part="N">
+                     <lb n="2" facs="#lineText_2-92" xml:id="lineText-2-92"/>
+                              Oliva mia, accetta un bacio
+                              <lb n="3" facs="#lineText_3-92" xml:id="lineText-3-92"/>
+                              e in quel bacio tutta l'anima
+                              <lb n="4" facs="#lineText_4-92" xml:id="lineText-4-92"/>
+                              mia, il mio amore grande grande.
+                              <lb n="5" facs="#lineText_5-92" xml:id="lineText-5-92"/>
+                              Salutami la mamma, l'antonietta,
+                              <lb n="6" facs="#lineText_6-92" xml:id="lineText-6-92"/>
+                              il babbo, la zia e la Giovannetta.
+                        </p>
+               </div>
+               <closer>
+                  <s part="N">
+                     <lb n="7" facs="#lineText_7-92" xml:id="lineText-7-92"/>
+                              Per sempre tuo
+                        </s>
+                  <lb/>
+                  <signed>
+                     <persName instant="false" full="yes">
+                        <forename ref="list.xml#GC" full="yes">Giovannino</forename>
+                     </persName>
+                  </signed>
+               </closer>
+            </div>
+            <div type="postmark-postage"
+                 part="N"
+                 org="uniform"
+                 sample="complete">
+               <ab part="N"/>
+            </div>
+            <div type="secondamano" part="N" org="uniform" sample="complete">
+               <ab type="paratext" part="N">
+                  <add facs="#number92_92"
+                       xml:id="number92-92"
+                       instant="false"
+                       status="unremarkable">
+                     <num value="92">92</num>
+                  </add>
+               </ab>
+            </div>
+         </div>
+      </body>
+      <back>
+         <div type="linguistic">
+            <ab>
+               <seg lemma="Oliva">
+                  <w type="form">Oliva</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="mio">
+                  <w type="form">mia</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma=",">
+                  <w type="form">,</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="accettare">
+                  <w type="form">accetta</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="uno">
+                  <w type="form">un</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="bacio">
+                  <w type="form">bacio</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="e">
+                  <w type="form">e</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="in">
+                  <w type="form">in</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="quello">
+                  <w type="form">quel</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="bacio">
+                  <w type="form">bacio</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="tutto">
+                  <w type="form">tutta</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="il">
+                  <w type="form">l'</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="anima">
+                  <w type="form">anima</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="mio">
+                  <w type="form">mia</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma=",">
+                  <w type="form">,</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="il">
+                  <w type="form">il</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="mio">
+                  <w type="form">mio</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="amore">
+                  <w type="form">amore</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="grande">
+                  <w type="form">grande</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="grande">
+                  <w type="form">grande</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma=".">
+                  <w type="form">.</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="salutare">
+                  <w type="form">Saluta-</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="me">
+                  <w type="form">me</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="il">
+                  <w type="form">la</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="mamma">
+                  <w type="form">mamma</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma=",">
+                  <w type="form">,</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="il">
+                  <w type="form">l'</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="Antonietta">
+                  <w type="form">Antonietta</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma=",">
+                  <w type="form">,</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="il">
+                  <w type="form">il</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="babbo">
+                  <w type="form">babbo</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma=",">
+                  <w type="form">,</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="il">
+                  <w type="form">la</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="zia">
+                  <w type="form">zia</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="e">
+                  <w type="form">e</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="il">
+                  <w type="form">la</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="Giovannetta">
+                  <w type="form">Giovannetta</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma=".">
+                  <w type="form">.</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="per">
+                  <w type="form">Per</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="sempre">
+                  <w type="form">sempre</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="tuo">
+                  <w type="form">tuo</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="Giovannino">
+                  <w type="form">Giovannino</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+            </ab>
+         </div>
+      </back>
+   </text>
+</TEI>

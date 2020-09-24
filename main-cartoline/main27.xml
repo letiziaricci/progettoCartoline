@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cartolina_7694-027" > 
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>                   
+                <!-- TITOLO NB: non corrisponde completamente alla voce TITOLO della tabella perché si tratta del titolo della edizione digitale -->
+                <title type="sub" xml:id="title27"> Contadina davanti al pollaio </title>
+            </titleStmt>
+            
+            
+            <publicationStmt> <!--obbligatorio quindi solo publisher-->
+                <publisher> 
+                    <orgName ref="#UNIPI"> Unipi </orgName> 
+                </publisher>    
+            </publicationStmt> 
+            
+            <notesStmt xml:id="note27">
+                <note n="1">
+                    Sul retro troviamo una stampa "Arno-Artchrom. Dep." e un'altra a seguire "Serie 4020 printed in Saxony."; 
+                    In alto a sinistra vi è il numero 27, l'identificativo della cartolina nell'archivio del progetto. 
+                    In alto a destra possiamo notare due timbri datati 4.7.17.18, uno dei quali marchia il francobollo da cinque centesimi delle Poste Italiane. 
+                </note>
+                <note n="2">
+                    Sulla base delle cartoline che sono presenti in archivio, possiamo dedurre che la corrispondenza va sicuramente dal 1911 al 1918; 
+                    non sappiamo però la data effettiva di inizio e di fine corrispondenza.
+                </note>
+                <note n="3"> 
+                    In questa cartolina il destinatario, a cui si rivolge Giovanni, soprannominandosi con l'appellativo di Giovannino, è la Signora Antonietta Turtura.
+                    Riteniamo che la città della destinataria sia Ravenna, dove la donna ha ricevuto dallo stesso mittente 
+                    altre cartoline, precisamente all'indirizzo "Via Girolamo Rossi 58".
+                </note>
+            </notesStmt>
+            
+            
+            <sourceDesc>
+                <bibl>
+                    <!-- TITOLO Quello che si ricava dalla cartolina; Se un documento composto da immagini
+                            non presenta un titolo o altri elementi considerabili come titolo, si formula un titolo sintetico
+                            registrandolo entro parentesi quadre [Venere al bagno] ma indicando dentro la codifica come qui sotto esemplificato-->
+                    
+                    <title type="custom" resp="#ES">[Contadina davanti al pollaio]</title>
+                    <author ref="#GC">Giovanni</author>
+                    <!-- PRODUZIONE Chi ha prodotto / pubblicato la cartolina. Se non presente togliere il tag  -->
+                    <publisher> 
+                        <orgName ref="#AA">Arno-Artchrom</orgName><!--si tratta di una casa editrice-->
+                    </publisher> 
+                    <!-- LUOGO -->
+                    <pubPlace n="00"> Saxony </pubPlace>
+                    <publisher n="primoed"> <ptr target="#AN"/>Arno-Artchrom. Dep.</publisher>
+                    <date when="1917-06-04"> 04/06/1917</date>
+                    
+                </bibl>
+                
+                <msDesc>
+                    
+                    <msIdentifier>                         
+                        <!-- CODICE IDENTIFICATIVO -->
+                        <idno>7694_027_001/002</idno>
+                    </msIdentifier>
+                    
+                    <!-- Informazioni sul contenuto della cartolina -->
+                    <!-- DESCRIZIONE -->
+                    <msContents>
+                        <summary>Cartolina Artistica</summary>
+                        <textLang>Italiano</textLang>
+                    </msContents>
+                    
+                    <physDesc>
+                        <objectDesc>  
+                            <supportDesc>
+                                
+                                <support xml:id="supportCartolina27">
+                                    <stamp type="postage">Francobollo da 5 centesimi delle Poste Italiane</stamp>
+                                    <stamp type="postmark">Timbro con numeri 4.7.17.18</stamp>
+                                </support>
+                                
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>    
+                </msDesc>
+                
+                <!-- NOMI -->
+                <listPerson>                 
+                    <person >
+                        <persName ref="#GC">
+                            <forename>Giovanni</forename>
+                            <surname>Coliola</surname>
+                        </persName>
+                        <sex>M</sex>
+                        <occupation n="1">
+                            <desc>Tenente Colonnello[maggiore]</desc>
+                        </occupation>
+                    </person>
+                    <person>
+                        <persName ref="#AT">
+                            <forename>Antonietta</forename>
+                            <surname>Turtura</surname>
+                        </persName>
+                        <sex>F</sex>
+                    </person>                
+                </listPerson>
+                
+                <!--LUOGHI-->
+                <listPlace>
+                    <place>
+                        <placeName ref="#RV">Ravenna</placeName>
+                        <settlement type="località">città</settlement>
+                        <district type="comune">Ravenna</district>
+                        <district type="provincia">RV</district>
+                        <country key="N">IT</country>
+                    </place> 
+                    
+                    <place>
+                        <placeName ref="#MO">Modena</placeName>
+                        <settlement type="località">città</settlement>
+                        <district type="comune">Modena</district>
+                        <district type="provincia">MO</district>
+                        <country key="N">IT</country>
+                    </place>       
+                </listPlace>
+                
+                
+                <listOrg>
+                    <org xml:id="AA">
+                        <orgName> Edizioni 
+                            <persName> 
+                                <forename>
+                                    <choice>
+                                        <expan>Arno-Artchrom. Dep.</expan>
+                                        <abbr type="nome">A.A.</abbr>
+                                    </choice>
+                                </forename>
+                                <surname></surname>
+                            </persName>
+                        </orgName>
+                    </org>                   
+                </listOrg>
+            </sourceDesc>     
+        </fileDesc>
+        
+        <profileDesc>
+            <correspDesc xml:id="corresp27">
+                <correspAction type="sent">
+                    <persName ref="#GC"> Giovanni Coliola</persName> 
+                    <placeName ref="#MO">Modena</placeName>
+                    <date type="writing" when="1917-11-29">1917/11/29</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName type="Turtura" ref="#AT">Antonietta Turtura</persName>
+                    <placeName ref="#RV"> Ravenna </placeName> 
+                </correspAction>
+                
+            </correspDesc>
+            
+            <textClass>
+                <keywords>
+                    <!-- soggettario -->
+                    <!-- tipologia -->
+                    <!-- descrizione -->
+                    <term>Cartolina </term>
+                    <term>Cartolina Artistica </term>
+                    <term>Contadina con il suo pollaio</term>
+                </keywords>
+            </textClass>
+            
+            <langUsage>
+                <language ident="it">italiano del Novecento</language>
+            </langUsage>
+        </profileDesc>
+        
+        <encodingDesc>
+            <editorialDecl>
+                <interpretation>
+                    <p>
+                        <list>
+                            <item> 
+                                <choice>
+                                    <orig> li </orig>
+                                    <reg> il </reg>
+                                </choice>
+                            </item> 
+                            
+                            <item> 
+                                <choice> 
+                                    <expan>Gentile </expan> 
+                                    <abbr type="titolo">Gent. </abbr>
+                                </choice> 
+                            </item> 
+                            
+                            <item> 
+                                <choice> 
+                                    <expan>Signora </expan> 
+                                    <abbr type="titolo">Sig.ra </abbr>
+                                </choice> 
+                            </item> 
+                            
+                        </list>
+                    </p>
+                </interpretation>
+            </editorialDecl>
+        </encodingDesc>
+    </teiHeader>
+    
+    
+    <text type="cartolina" xml:id="cartolina27" n="3">
+        <body xml:lang="ita">
+            
+            <div xml:id="frontecartolina27" type="fronte">
+                <figure>
+                    <pb facs="#front3" n="1" xml:id="fronte-3"/> 
+                    <figDesc>
+                        <desc> Nella cartolina vediamo rappresentata una contadina davanti al pollaio che nutre le galline in uno sfondo di campagna. L’immagine è delimitata da un ovale che ne costituisce la cornice.</desc>
+                    </figDesc>
+                </figure>
+            </div>
+            
+            <div xml:id="retrocartolina27" type="retro">
+                
+                <pb facs="#back3" n="3" xml:id="back-3"/>
+                <head xml:id="scrittastampata3" type="rtr">                
+                    <abbr>Serie<ptr target="#N"/></abbr>                   
+                    <num type="cardinal">
+                        <idno>4020</idno>
+                    </num>
+                    <title xml:lang="en"> Printed in Saxony </title> 
+                </head>
+                
+                <div type="rtrArchivio" xml:id="Archivio3">
+                    <p> <num type="cardinal"> <idno> 27 </idno> </num> </p>  
+                </div>
+                
+                <div xml:id="secopenCartolina27" type="rtr"> 
+                    
+                    <dateline xml:id="data3" facs="#testoCartolina27Riga1">
+                        <placeName ref="#MO">  Modena </placeName>, <distinct type="forma_desueta"> li <ptr target="#li"/> </distinct> 
+                        <date when="1917-06-04"> 04/06/1917 </date>
+                    </dateline>
+                    
+                </div>
+                
+                <div> 
+                    <div xml:id="testoresto_3" type="rtr">
+                        <salute rend="align(left)" xml:id="linea1Cartolina27">
+                        </salute>
+                        <p xml:id="linea2Cartolina27" facs="#testoCartolina27Riga2"> <lb/> Saluti affettuosi a </p>
+                        <p xml:id="linea3Cartolina27" facs="#testoCartolina27Riga3"> <lb/> tutti. Navigo in  </p>
+                        <p xml:id="linea4Cartolina27" facs="#testoCartolina27Riga4"> <lb/> cattive acque.</p>
+                        <lb/><closer style="standard" xml:id="linea5Cartolina27"  facs="#testoFirmaCartolina27"> <signed> <persName ref="#GC"> <forename type="diminutivo" > Giovannino </forename> </persName> </signed></closer>
+                    </div>
+                </div>
+                
+                <div type="rtr" rend="vertical" xml:id="scritte_stampate_14"> 
+                    <p> <lb/> <persName>Arno-Artchrom.</persName>  
+                        <orgName ref="#AA">                            
+                            <abbr> Dep. </abbr>                           
+                        </orgName> 
+                        <placeName> Saxony </placeName> 
+                    </p>
+                    <p xml:lang="fr"> <lb/> <persName ref="#AN"> <abbr> </abbr>  </persName> - <abbr> </abbr> <placeName>  </placeName> </p>
+                    <p> <lb/>PRODUZIONE TEDESCA</p>
+                </div>
+
+                <div type="destination">
+                    <div xml:id="destination" type="rtr">
+
+                      <p><lb/>
+                        <ptr target="#support"/>
+                        <!-- stamps -->
+                        <stamp type="postmark">
+                            <mentioned> 
+                                <gap reason="illegible" agent="faded" atLeast="2" atMost="4" unit="chars"/>
+                                <date when="1917">4.7.17</date>.18
+                            </mentioned>
+                        </stamp>
+                        <stamp type="postmark">
+                            <mentioned> 
+                                <gap reason="illegible" agent="faded" atLeast="2" atMost="4" unit="chars"/>
+                                <date when="1917">4.7.17</date>.18
+                            </mentioned>
+                        </stamp>
+                        <stamp type="postage" facs="#FrancobolloCartolina27">Poste italiane 5 centesimi</stamp>
+                    </p>
+                </div>
+                
+            </div>
+           </div>
+        </body>
+    </text>
+        
+        <facsimile>
+            
+            <surface xml:id="front3" start="#fronte_terza_cartolina" type="ff">
+                <graphic url='7694-176F.jpg' />
+                <note type="nota_facsimile">L'immagine si trova sul fronte della cartolina e non presenta scritte.</note>
+            </surface>
+            
+            
+            <surface xml:id="back27" start="#retrocartolina27" type="rr">
+                <graphic url='7694-027R.jpg' width='650px' height='419px' />
+                <zone xml:id="francobollo27" ulx="506" uly="12" lrx="619" lry="110" />
+                <zone xml:id="timbro1Cartolina27" ulx="465" uly="22" lrx="600" lry="143" />
+                <zone xml:id="timbro2Cartolina27" ulx="309" uly="51" lrx="433" lry="151" />
+                <zone xml:id="tipografia1Cartolina27" ulx="4" uly="395" lrx="34" lry="418" /> <!-- Logo casa editrice -->
+                <zone xml:id="tipografia2Cartolina27" ulx="7" uly="91" lrx="21" lry="389" /> <!-- Anno artchrom dep serie 4020 printed in saxony-->
+                <zone xml:id="numeroCartolina27" ulx="5" uly="9" lrx="47" lry="36" />
+                <zone xml:id="indirizzoCartolina27Riga1" ulx="279" uly="103" lrx="470" lry="159" />
+                <zone xml:id="indirizzoCartolina27Riga2" ulx="276" uly="169" lrx="619" lry="212" />
+                <zone xml:id="indirizzoCartolina27Riga3" ulx="277" uly="217" lrx="628" lry="276" />
+                <zone xml:id="indirizzoCartolina27Riga4" ulx="278" uly="279" lrx="634" lry="379" />
+                <zone xml:id="testoCartolina27Riga1" start="#data3" ulx="223" uly="42" lrx="272" lry="418" />
+                <zone xml:id="testoCartolina27Riga2" start="#linea2Cartolina27" ulx="140" uly="39" lrx="205" lry="341" />
+                <zone xml:id="testoCartolina27Riga3" start="#linea3Cartolina27" ulx="89" uly="41" lrx="137" lry="356" />
+                <zone xml:id="testoCartolina27Riga4" start="#linea4Cartolina27" ulx="55" uly="35" lrx="77" lry="305" />
+                <zone xml:id="testoFirmaCartolina27" start="#linea5Cartolina27" ulx="9" uly="80" lrx="52" lry="366" />
+            </surface>
+            
+            
+        </facsimile>             
+</TEI>

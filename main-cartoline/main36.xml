@@ -1,0 +1,325 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+  <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cartolina_7694-036">
+    <teiHeader>
+        <fileDesc>
+          <titleStmt>
+            <title type="t1">Sempre mia</title>
+            <respStmt>
+                <resp>Trascrizione a cura di:</resp>
+                <name xml:id="VP">Vincenzo Pipitone</name>
+                <name xml:id="FC">Fabio Cosentino</name>
+                <name xml:id="AC">Alessio Califano</name>
+            </respStmt>
+            <respStmt>
+                <resp>Ente di Appartenenza:</resp>
+                <name type="comune" xml:id="SP">Comune della Spezia</name>
+            </respStmt>
+
+         </titleStmt>
+         <editionStmt>
+          <edition>Studenti di Codifica di Testi, Corso di Laurea in Informatica Umanistica, <orgName ref="#UNIPI"> Università di Pisa  </orgName>
+               <!-- COMPILAZIONE -->
+            <date when="2019">2019</date>
+          </edition>
+
+            <!-- NOME COMPILATORE -->
+          <respStmt>
+                <resp>Codificato da:</resp>
+                <name ref="#TC">Tommaso Castagneto</name>
+          </respStmt>
+
+            <!-- REFERENTE SCIENTIFICO sempre Nome Cognome, XY2 è sempre Tommaso Castagneto, XZ1 è chi interviene sulla schedatura già fatta per correzioni e aggiunte-->
+          <respStmt>
+              <resp>Compilato da:</resp>
+              <name xml:id="TC">Tommaso Castagneto</name>
+          </respStmt>
+
+          <respStmt>
+                <resp>Responsabile scientifico:</resp>
+                <name xml:id="GP">Giacomo Paolicchi</name>
+                <name xml:id="ES">Enrica Salvatori</name>
+          </respStmt>
+
+          <respStmt>
+              <resp>Funzionario responsabile:</resp>
+              <name xml:id="ER">E. Ratti</name>
+          </respStmt>
+       </editionStmt>
+
+        <publicationStmt>
+                <publisher>Unipi</publisher>
+                <pubPlace>Pisa</pubPlace>
+                <availability>
+                    <p>Available under licence only</p>
+                </availability>
+                <date when="2019">2019</date>
+                <distributor>LabCD</distributor>
+                <address>
+                    <addrLine>Laboratorio di Cultura Digitale - Università di Pisa</addrLine>
+                    <addrLine>Pisa</addrLine>
+                </address>
+        </publicationStmt>
+
+            <notesStmt xml:id="note36">
+                <note>Non è presente la data di stampa della cartolina.</note>
+                <note>Non è presente il francobollo né l'annullo postale.</note>
+                <note>Nel retro della cartolina è presente il titolo sia in lingua italiana (sempre mia) che in francese (Toujours à moi).</note>
+                <note>La cartolina rappresenta la numero 11 della sua serie.</note>
+                <note>Dal contenuto della cartolina non è possibile reperire alcune informazioni personali sul Mittente, come ad esempio il congnome.</note>
+                <note>Il mittente non specifica esplicitamente la destinazione della cartolina, tuttavia si può comprendere dal contenuto del messaggio.</note>
+            </notesStmt>
+
+            <sourceDesc xml:id="sourcedesc36">
+                <bibl>
+                    <title type="custom" resp="#ES">Sempre mia</title>
+                    <publisher>Edizioni Mastroianni</publisher>
+                    <pubPlace ref="#RM">Roma</pubPlace>
+                    <date>1916</date>
+                </bibl>
+                <msDesc>
+                    <msIdentifier>
+                        <country>Italia</country>
+                        <settlement>La Spezia (SP)</settlement>
+                        <repository>Museo Civico Etnografico "Giovanni Podenzana", Sezione dei cimeli garibaldini e della Prima Guerrra Mondiale</repository>
+                        <idno>7694_036_001/002</idno>
+                    </msIdentifier>
+
+                    <msContents>
+                        <summary>Cartolina Artistica</summary>
+                        <textLang>Italiano</textLang>
+                    </msContents>
+
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType>Cartolina</objectType>
+                                    <material>Carta</material>
+                                    <dimensions unit="cm">
+                                        <height>9</height>
+                                        <width>14</width>
+                                    </dimensions>
+                                </support>
+
+                                <condition>Buono</condition>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+
+                </msDesc>
+
+                <listPerson>
+                    <person xml:id="GC">
+                        <persName>
+                            <forename>Giovanni</forename>
+                        </persName>
+                        <sex>M</sex>
+                        <note></note>
+                    </person>
+                    <person xml:id="OT">
+                        <persName>
+                            <forename>Oliva</forename>
+                            <surname>Turtura</surname>
+                        </persName>
+                        <sex>F</sex>
+                        <note></note>
+                    </person>
+                </listPerson>
+
+                <listPlace>
+                    <place xml:id="RV">
+                        <placeName>Ravenna</placeName>
+                        <settlement type="località">città</settlement>
+                        <district type="comune">Ravenna</district>
+                        <district type="provincia">RV</district>
+                        <country key="N">IT</country>
+                    </place>
+                    <place>
+                        <placeName ref="#SP">La Spezia</placeName>
+                        <settlement type="località">città</settlement>
+                        <district type="comune">La Spezia</district>
+                        <district type="provincia">SP</district>
+                        <country key="N">IT</country>
+                    </place>
+                </listPlace>
+            </sourceDesc>
+        </fileDesc>
+
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#GC">Giovanni</persName>
+                    <placeName ref="#SP">La Spezia</placeName>
+                    <date type="writing" when="1916-12-24">1916/12/24</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#OT">Oliva</persName>
+                    <placeName ref="#RV">Ravenna</placeName>
+                </correspAction>
+            </correspDesc>
+
+            <textClass>
+                <keywords>
+                    <term>Cartolina </term>
+                    <term>Cartolina Artistica </term>
+                    <term>Coppia di innamorati</term>
+                </keywords>
+            </textClass>
+
+            <langUsage>
+                <language ident="it-IT">italiano</language>
+            </langUsage>
+        </profileDesc>
+
+        <encodingDesc>
+            <editorialDecl>
+                <interpretation>
+                  <p>
+                      <list>
+                        <item>
+                            <choice xml:id="li">
+                                <orig type="orig"> li </orig>
+                                <reg type="inter"> il </reg>
+                            </choice>
+                        </item>
+                        <item>
+                            <choice xml:id="Num">
+                                <expan type="inter">Numero</expan>
+                                <abbr type="orig"> N.</abbr>
+                            </choice>
+                        </item>
+                        <item>
+                            <choice xml:id="pro">
+                                <expan type="inter">Proprietà</expan>
+                                <abbr type="orig"> prop.</abbr>
+                            </choice>
+                        </item>
+                        <item>
+                            <choice xml:id="ris">
+                                <expan type="inter">riservata</expan>
+                                <abbr type="orig"> riserv.</abbr>
+                            </choice>
+                        </item>
+                        <item>
+                            <choice xml:id="Stab">
+                                <expan type="inter">Stabilimento</expan>
+                                <abbr type="orig"> STAB.</abbr>
+                            </choice>
+                        </item>
+                        <item>
+                            <choice xml:id="Lu">
+                                <expan type="inter"><persName>Luigi</persName></expan>
+                                <abbr type="orig"> L.</abbr>
+                            </choice>
+                        </item>
+                      </list>
+                  </p>
+              </interpretation>
+          </editorialDecl>
+      </encodingDesc>
+
+    </teiHeader>
+
+    <text type="cartolina" xml:id="cartolina36">
+        <body>
+            <div facs="#fronte36" type="fronte" xml:id="frontedesc36">
+                <figure>
+                    <figDesc>Il fronte ritrae un dipinto nel cui primo piano è presente un laghetto dove all'interno vi sono due cigni che nuotano; accanto a questi troviamo una giovane donna che li osserva e
+                     alle sue spalle un giovane uomo che la osserva a sua volta. Sullo sfondo è presente un cortile poco nitido.</figDesc>
+                    <head>Sempre mia</head>
+                </figure>
+            </div>
+            <div facs="#retro36" type="retro">
+                <div xml:id="id36" type="ccl">
+                  <p>
+                      <num>
+                          <idno> 36 </idno>
+                      </num>
+                  </p>
+                </div>
+                <div type="message" xml:id="msg">
+
+                  <div xml:id="opener36" type="ccl">
+                      <dateline>
+                          <placeName ref="#SP">Spezia </placeName>,
+                          <distinct>li <ptr target="#li"/> </distinct>
+                          <date when="1916-12-24">24/12-1916</date>
+                      </dateline>
+                   </div>
+
+                   <div xml:id="mainTextmessage36" type="ccl">
+                     <salute xml:id="salute">
+                         <s>
+                           <lb/><persName ref="#OT"><forename>Oliva </forename></persName>mia,
+                         </s>
+                     </salute>
+                     <p>
+                       <s>
+                         <lb/>Non so esprimerti la gioia che sento nell’affer
+                         <lb/>marti che il <date when="1916-12-27">27 </date>mattina col treno delle
+                         <lb/><time when="08:00:00">8 </time>io sarò a <placeName ref="#RV">Ravenna </placeName> .
+                       </s>
+                       <s>
+                         <lb/>Mia buona <persName ref="#OT">Oliva </persName>
+                         <lb/>si è finalmente avverato un nostro sogno;
+                       </s>
+                       <s>
+                         augu
+                         <lb/>riamoci di cuore che tutte le nostre aspirazioni
+                         <lb/>saranno anch’esse esaudite.
+                       </s>
+                     </p>
+                       <closer>
+                          <s>
+                            Un soavissimo
+                            <lb/> ed affettuosissimo bacio tuo
+                            </s>
+                        <signed>
+                         <s>
+                          <persName ref="#GC"><forename type="vezzeggiativo">Giovannino</forename></persName>
+                         </s>
+                       </signed>
+                     </closer>
+                   </div>
+
+                 </div>
+                 <div xml:id="printedLines36">
+                   <p xml:id="titolo36" type="ccl">
+                     <lb/><abbr>N. <ptr target="#Num"/></abbr><num>11</num> - Sempre mia.
+                     <lb/>Toujours à moi.
+                   </p>
+                   <p xml:id="stab36" type="ccl">
+                     <lb/><abbr>STAB. <ptr target="#Stab"/></abbr><persName><abbr>L. <ptr target="#Lu"/></abbr>SALOMONE </persName><placeName xml:id="RM">ROMA </placeName>
+                   </p>
+                   <p xml:id="stmp36" type="ccl">
+                     <lb/>Stampato in <country>Italia.</country>
+                   </p>
+                   <p rend="vertical" xml:id="edz36" type="ccl">
+                     <lb/>Edizioni Mastroianni - <placeName ref="#RM">ROMA</placeName> - <abbr>Prop. <ptr target="#pro"/></abbr><abbr>riserv. <ptr target="#ris"/></abbr>
+                   </p>
+                 </div>
+            </div>
+        </body>
+    </text>
+
+    <facsimile>
+
+        <surface xml:id="fronte36" type="fimg">
+            <graphic  url='./7694-036/7694-036F.jpg' />
+        </surface>
+
+        <surface xml:id="retro36" type="rimg">
+            <graphic url='./7694-036/7694-036R.jpg'  />
+            <zone xml:id="cid36" ulx="541" uly="5" lrx="578" lry="32" />
+            <zone xml:id="cintro36" ulx="283" uly="13" lrx="482" lry="55" />
+            <zone xml:id="ctitolo36" ulx="15" uly="17" lrx="154" lry="51" />
+            <zone xml:id="ctesto36" ulx="25" uly="63" lrx="598" lry="376" />
+            <zone xml:id="cedz36" ulx="8" uly="142" lrx="21" lry="376" />
+            <zone xml:id="cstab36" ulx="263" uly="379" lrx="333" lry="385" />
+            <zone xml:id="cstmp36" ulx="501" uly="373" lrx="572" lry="385" />
+
+        </surface>
+
+    </facsimile>
+</TEI>

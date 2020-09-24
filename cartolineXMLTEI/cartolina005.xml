@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="cartolina_7694-005">
+   <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+      <fileDesc>
+         <titleStmt>
+            <title>[Pace agli uomini di buona volontà] - Edizione digitale</title>
+         </titleStmt>
+         <publicationStmt><!-- contiene informazioni sulla pubblicazione e distribuzione del documento digitale -->
+            <publisher>
+               <choice>
+                  <abbr>Unipi</abbr>
+                  <expan instant="false">
+                                          Università di
+                                          <placeName ref="list.xml#PI" instant="false" full="yes">Pisa</placeName>
+                  </expan>
+               </choice>
+            </publisher>
+            <pubPlace ref="list.xml#PI">Pisa</pubPlace>
+            <availability default="false">
+               <p part="N">Available under licence only</p>
+            </availability>
+            <date when="2019" instant="false">2019</date>
+            <distributor>
+               <orgName ref="list.xml#LCD" instant="false" full="yes">
+                  <choice>
+                     <abbr>LabCD</abbr>
+                     <expan instant="false">Laboratorio di Cultura Digitale</expan>
+                  </choice>
+               </orgName>
+            </distributor>
+            <address>
+               <addrLine>Laboratorio di Cultura Digitale - Università di Pisa</addrLine>
+               <addrLine>
+                  <placeName ref="list.xml#PI" instant="false" full="yes">Pisa</placeName>
+               </addrLine>
+            </address>
+         </publicationStmt>
+         <sourceDesc default="false"><!-- contiene informazoni relative alla fonte originale -->
+            <bibl type="postcard" default="false" status="draft">
+               <title type="custom" resp="list.xml#ES">[Pace agli uomini di buona volontà]</title>
+               <author ref="DM">D. Mastroianni</author>
+               <!-- titolo tra parentesi quadre perchè titolo formulato da terzi-->
+               <publisher>
+                  <orgName ref="list.xml#SM" instant="false" full="yes">Sculture Mastroianni</orgName>
+               </publisher>
+               <pubPlace ref="list.xml#RO"> Roma </pubPlace>
+            </bibl>
+            <msDesc status="draft"><!-- descrizione del manoscritto -->
+               <msIdentifier><!-- info per identificare il manoscritto -->
+                  <country ref="list.xml#IT">Italia</country>
+                  <settlement ref="list.xml#SP">La Spezia (SP)</settlement>
+                  <!-- collocazione specifica -->
+                  <repository ref="list.xml#MCE">Museo Civico Etnografico "Giovanni Podenzana", Sezione dei cimeli garibaldini e della Prima Guerrra Mondiale</repository>
+                  <!-- codice identificativo -->
+                  <idno type="postcard_id">7694_005_001/002</idno>
+               </msIdentifier>
+               <!-- Informazioni sul contenuto della cartolina -->
+               <msContents>
+                  <summary>Cartolina Artistica</summary>
+                  <textLang mainLang="ita">Italiano</textLang>
+               </msContents>
+               <physDesc><!-- descrizione fisica del manoscritto -->
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType>Cartolina</objectType>
+                           <material>Carta</material>
+                           <dimensions unit="cm">
+                              <height>9</height>
+                              <width>14</width>
+                           </dimensions>
+                           <stamp type="postage">Francobollo da 5 centesimi delle Poste Italiane di colore verde</stamp>
+                           <stamp type="postmark">Timbro di partenza, circolare e in parte sovrapposto al francobollo</stamp>
+                        </support>
+                        <condition>
+                                    Cartolina in buone condizioni fisiche e ben leggibile.
+                           </condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <!-- descrizione del tipo di scrittura usato nella cartolina -->
+                  <handDesc>
+                     <p part="N">La cartolina presenta del testo stampato, contenente informazioni sulla cartolina e sull'edizione, e del testo scritto a mano dal mittente.</p>
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc><!-- Descrizione delle azioni relative a un atto di corrispondenza -->
+         <correspDesc default="false">
+            <correspAction type="sent">
+               <persName ref="list.xml#GC" instant="false" full="yes">Giovanni Coliola</persName>
+               <placeName ref="list.xml#SP" instant="false" full="yes">La Spezia</placeName>
+               <date type="writing" when="1916-12-21" instant="false">1916/12/21</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName instant="false" full="yes">Famiglia Turtura</persName>
+               <placeName ref="list.xml#RV" instant="false" full="yes"> Ravenna </placeName>
+            </correspAction>
+         </correspDesc>
+         <textClass default="false"><!-- Info di classificazione del testo -->
+            <keywords><!-- soggettario --><!-- tipologia --><!-- descrizione -->
+               <term>Cartolina</term>
+               <term>Cartolina Artistica</term>
+               <term>Maria con bambino e angelo</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <facsimile xmlns="http://www.tei-c.org/ns/1.0"><!-- immagine | fronte della cartolina -->
+      <surface>
+         <graphic xml:id="fronte_postcard_005"
+                  url="img-cartoline/7694-005F.jpg"
+                  width="1054.4px"
+                  height="1648.4px"/>
+         <zone points=" 37,1545 257,1445 263,1487 46,1596 36,1543 " rotate="0"/>
+         <!-- firma dell'autore dell'immagine -->
+         <zone xml:id="picture_sig-05"
+               start="#picture-sign-05"
+               points=" 571,466 639,548 734,449 845,410 920,451 997,395 925,330 807,320 697,359 "
+               rotate="0"/>
+      </surface>
+      <!-- retro della cartolina -->
+      <surface>
+         <graphic xml:id="retro_postcard_005"
+                  url="img-cartoline/7694-005R.jpg"
+                  width="650px"
+                  height="417px"/>
+         <!-- prima pagina, lato sinistro -->
+         <zone type="handWriting"
+               xml:id="lineText_1-05"
+               start="#lineText-1-05"
+               ulx="251"
+               uly="35"
+               lrx="290"
+               lry="353"
+               rotate="0"/>
+         <zone type="handWriting"
+               xml:id="lineText_2-05"
+               start="#lineText-2-05"
+               ulx="177"
+               uly="19"
+               lrx="238"
+               lry="333"
+               rotate="0"/>
+         <zone type="handWriting"
+               xml:id="lineText_3-05"
+               start="#lineText-3-05"
+               ulx="135"
+               uly="18"
+               lrx="166"
+               lry="286"
+               rotate="0"/>
+         <!-- firma -->
+         <zone type="handWriting"
+               xml:id="lineText_4-05"
+               start="#lineText-4-05"
+               ulx="55"
+               uly="45"
+               lrx="106"
+               lry="328"
+               rotate="0"/>
+         <!-- Riproduzione interdetta -->
+         <zone type="print"
+               xml:id="line_publication_1-05"
+               start="#line-publication-1-05"
+               ulx="292"
+               uly="275"
+               lrx="308"
+               lry="398"
+               rotate="0"/>
+         <!-- Conc. escl. A. Vistarini - Roma  -->
+         <zone type="print"
+               xml:id="line_publication_2-05"
+               start="#line-publication-2-05"
+               ulx="295"
+               uly="15"
+               lrx="309"
+               lry="193"
+               rotate="0"/>
+         <!-- Sculture Mastroianni -->
+         <zone type="print"
+               xml:id="line_publication_3-05"
+               start="#line-publication-3-05"
+               ulx="28"
+               uly="228"
+               lrx="66"
+               lry="401"
+               rotate="0"/>
+         <!-- cromogliplica A.Marzi - Roma -->
+         <zone type="print"
+               xml:id="line_publication_4-05"
+               start="#line-publication-4-05"
+               ulx="27"
+               uly="8"
+               lrx="44"
+               lry="172"
+               rotate="0"/>
+         <!-- seconda pagina - testo -->
+         <zone type="handWriting"
+               xml:id="lineText_5-05"
+               start="#lineText-5-05"
+               ulx="312"
+               uly="121"
+               lrx="645"
+               lry="215"
+               rotate="0"/>
+         <zone type="handWriting"
+               xml:id="lineText_6-05"
+               start="#lineText-6-05"
+               ulx="322"
+               uly="216"
+               lrx="647"
+               lry="281"
+               rotate="0"/>
+         <zone type="handWriting"
+               xml:id="lineText_7-05"
+               start="#lineText-7-05"
+               ulx="309"
+               uly="287"
+               lrx="647"
+               lry="414"
+               rotate="0"/>
+         <!-- timbro -->
+         <zone type="postmark"
+               xml:id="stamp_postmark-05"
+               start="#stamp-postmark-05"
+               ulx="455"
+               uly="57"
+               lrx="605"
+               lry="185"
+               rotate="0"/>
+         <!-- francobollo -->
+         <zone type="postage"
+               xml:id="stamp_postage-05"
+               start="#stamp-postage-05"
+               ulx="535"
+               uly="32"
+               lrx="628"
+               lry="146"
+               rotate="0"/>
+         <!-- 5 (catalogazione) -->
+         <zone type="catalog"
+               xml:id="number5_05"
+               start="#number5-05"
+               ulx="421"
+               uly="19"
+               lrx="448"
+               lry="46"
+               rotate="0"/>
+      </surface>
+   </facsimile>
+   <text>
+      <front xmlns="http://www.tei-c.org/ns/1.0"><!-- testo tipografico -->
+         <div type="tipografia" part="N" org="uniform" sample="complete">
+            <p rend="writing-mode(vertical-lr) text-orientation(sideways)" part="N">
+               <s facs="#line_publication-1-05"
+                  xml:id="line-publication-1-05"
+                  part="N">
+                                          Riproduzione interdetta
+                                    </s>
+               <s facs="#line_publication-2-05"
+                  xml:id="line-publication-2-05"
+                  part="N">
+                  <orgName ref="list.xml#CAV" type="typography" instant="false" full="yes">
+                                                Conc. escl. A. Vistarini - 
+                                          <placeName ref="list.xml#RO" instant="false" full="yes">Roma</placeName>
+                  </orgName>
+               </s>
+            </p>
+            <p rend="writing-mode(vertical-lr) text-orientation(sideways)" part="N">
+               <s facs="#line_publication-3-05"
+                  xml:id="line-publication-3-05"
+                  part="N">
+                  <orgName ref="list.xml#SM" type="typography" instant="false" full="yes">
+                                          Sculture MASTROIANNI
+                                          </orgName>
+                  <placeName ref="list.xml#RO" instant="false" full="yes">Roma</placeName>
+                                          Edizione propria 
+                                          N. <num type="cardinal" value="34">34</num>
+               </s>
+               <s facs="#line_publication-4-05"
+                  xml:id="line-publication-4-05"
+                  part="N">
+                  <orgName ref="list.xml#AM" type="typography" instant="false" full="yes">
+                                          "Cromogliplica" A.Marzi - 
+                                          <placeName ref="list.xml#RO" instant="false" full="yes">Roma</placeName>
+                  </orgName>
+               </s>
+            </p>
+         </div>
+      </front>
+      <body xmlns="http://www.tei-c.org/ns/1.0">
+         <div facs="#fronte_postcard_005"
+              type="fronte"
+              part="N"
+              org="uniform"
+              sample="complete">
+            <figure>
+               <graphic url="img-cartoline/7694-005F.jpg"/>
+               <figDesc>
+                  <desc>Maria con bambino e angelo</desc>
+               </figDesc>
+               <head>[Pace agli uomini di buona volontà]</head>
+            </figure>
+            <p part="N">
+               <persName ref="list.xml#BM" instant="false" full="yes">B. Mastroianni</persName>
+            </p>
+         </div>
+         <div type="retro" part="N" org="uniform" sample="complete">
+            <div type="message" part="N" org="uniform" sample="complete">
+               <opener>
+                  <dateline>
+                     <lb n="1" facs="#lineText_1-05" xml:id="lineText-1-05"/>
+                     <s part="N">
+                        <placeName ref="list.xml#SP" instant="false" full="yes">Spezia</placeName>, li 
+                                                <date when="1916-12-21" instant="false">21/12-1916</date>.
+                                          </s>
+                  </dateline>
+               </opener>
+               <div type="postcard-body" part="N" org="uniform" sample="complete">
+                  <p part="N">
+                     <lb n="2" facs="#lineText_2-05" xml:id="lineText-2-05"/>
+                                          Infiniti auguri e
+                                          <lb n="3" facs="#lineText_3-05" xml:id="lineText-3-05"/>
+                                          buon Natale
+                                    </p>
+               </div>
+               <closer>
+                  <lb n="4" facs="#lineText_4-05" xml:id="lineText-4-05"/>
+                  <signed>
+                     <persName instant="false" full="yes">
+                        <forename ref="list.xml#GC" full="yes">Giovannino</forename>
+                     </persName>
+                  </signed>
+               </closer>
+            </div>
+            <div type="address-destination"
+                 part="N"
+                 org="uniform"
+                 sample="complete">
+               <p part="N">
+                  <address>
+                     <addrLine>
+                        <lb n="5" facs="#lineText_5-05" xml:id="lineText-5-05"/>
+                                                Famiglia Turtura
+                                                <lb n="6" facs="#lineText_6-05" xml:id="lineText-6-05"/>
+                                                Via Girolamo <choice>
+                           <orig>Rosfi</orig>
+                           <reg resp="list.xml#LR" cert="high" instant="false">Rossi</reg>
+                        </choice> 58
+                                                <lb n="11" facs="#lineText_7-05" xml:id="lineText-7-05"/>
+                                                Ravenna
+                                          </addrLine>
+                  </address>
+               </p>
+            </div>
+            <div type="postmark-postage"
+                 part="N"
+                 org="uniform"
+                 sample="complete">
+               <ab part="N">
+                  <stamp type="postmark"
+                         facs="#stamp_postmark-05"
+                         xml:id="stamp-postmark-05">
+                     <mentioned rend="circle">
+                        <placeName ref="list.xml#lSP" instant="false" full="yes">Spezia</placeName>
+                        <date when="1918" instant="false">22.12.18</date>
+                                                .20
+                                                SEZIONI RIUNITE
+                                          </mentioned>
+                  </stamp>
+                  <stamp type="postage" facs="#stamp_postage-05" xml:id="stamp-postage-05">
+                     <mentioned rend="color(GREEN)">
+                        <orgName ref="list.xml#PI" instant="false" full="yes">Poste italiane</orgName>
+                        <hi>
+                           <num rend="double" type="cardinal" value="5">5</num>
+                                                      centesimi
+                                                      <num rend="double" type="cardinal" value="5">5</num>
+                        </hi>
+                     </mentioned>
+                  </stamp>
+               </ab>
+            </div>
+            <div type="secondamano" part="N" org="uniform" sample="complete">
+               <ab type="paratext" part="N">
+                  <add facs="#number5_05"
+                       xml:id="number5-05"
+                       instant="false"
+                       status="unremarkable">
+                     <num type="cardinal"> 5 </num>
+                  </add>
+               </ab>
+            </div>
+         </div>
+      </body>
+      <back>
+         <div type="linguistic">
+            <ab>
+               <seg lemma="infinito">
+                  <w type="form">Infiniti</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="augurio">
+                  <w type="form">auguri</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="e">
+                  <w type="form">e</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="buon">
+                  <w type="form">buon</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="Natale">
+                  <w type="form">Natale</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+            </ab>
+         </div>
+      </back>
+   </text>
+</TEI>

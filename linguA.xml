@@ -1,0 +1,4090 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE linguistic SYSTEM "schemaLinguA.dtd">
+
+<linguistic>
+        <analisi id="cartolina_7694-001">
+                1	Anelo	anelare	V	V	num=s|per=1|mod=i|ten=p	0	ROOT
+                2	riveder-	rivedere	V	V	mod=f	1	arg
+                3	ti	ti	P	PC	num=s|per=2|gen=n	2	obj
+
+                1	affettuosissimi	affettuoso	A	A	num=p|gen=m	0	ROOT
+        </analisi>
+        <analisi id="cartolina_7694-002">
+                1	Per	per	E	E	_	0	ROOT
+                2	auguri	augurio	S	S	num=p|gen=m	1	prep
+                3	vivissimi	vivo	A	A	num=p|gen=m	2	mod
+
+                1	a	a	E	E	_	0	ROOT
+                2	tutta	tutto	T	T	num=s|gen=f	4	mod
+                3	la	il	R	RD	num=s|gen=f	4	det
+                4	famiglia	famiglia	S	S	num=s|gen=f	1	prep
+
+        </analisi>
+        <analisi id="cartolina_7694-003">
+                1	Cordialissimi	cordiale	A	A	num=p|gen=m	2	mod
+                2	saluti	saluto	S	S	num=p|gen=m	0	ROOT
+
+                1	affettuosi	affettuoso	A	A	num=p|gen=m	0	ROOT
+                2	a	a	E	E	_	1	comp
+                3	tutti	tutto	P	PI	num=p|gen=m	2	prep
+
+        </analisi>
+        <analisi id="cartolina_7694-004">
+                1	Affettuosissimi	affettuoso	A	A	num=p|gen=m	0	ROOT
+        </analisi>
+        <analisi id="cartolina_7694-005">
+                1	Infiniti	infinito	A	A	num=p|gen=m	2	mod
+                2	auguri	augurio	S	S	num=p|gen=m	0	_
+                3	e	e	C	CC	_	2	con
+
+                1	buon	buon	A	A	num=s|gen=m	2	mod
+                2	Natale	Natale	S	SP	_	0	ROOT
+        </analisi>
+        <analisi id="cartolina_7694-006">
+                1	Oliva	Oliva	S	SP	_	0	ROOT
+                2	,	,	F	FF	_	1	punc
+                
+                1	Lo	lo	P	PC	num=s|per=3|gen=m	5	obj
+                2	sai	sapere	V	VM	num=s|per=2|mod=i|ten=p	5	modal
+                3	che	che	P	PR	num=n|gen=n	5	subj
+                4	t'	ti	P	PC	num=s|per=2|gen=n	5	obj
+                5	amo	amare	V	V	num=s|per=1|mod=i|ten=p	0	ROOT
+                6	tanto	tanto	B	B	_	5	mod
+                7	,	,	F	FF	_	8	punc
+                8	tanto	tanto	B	B	_	5	mod
+                9	,	,	F	FF	_	8	punc
+                10	ebbene	ebbene	C	CS	_	5	ROOT
+                11	l'	il	R	RD	num=s|gen=n	12	det
+                12	amor	amor	S	S	num=s|gen=m	14	subj
+                13	mio	mio	A	AP	num=s|gen=m	12	mod
+                14	non	non	B	BN	_	5	ROOT
+                
+                1	muore	morire	V	V	num=s|per=3|mod=i|ten=p	0	ROOT
+                2	più	più	B	B	_	1	mod
+                3	;	;	F	FC	_	1	punc
+                4	sento	sentire	V	V	num=s|per=1|mod=i|ten=p	1	ROOT
+                5	che	che	C	CS	_	4	ROOT
+                6	la	il	R	RD	num=s|gen=f	4	ROOT
+                
+                1	mia	mio	A	AP	num=s|gen=f	2	mod
+                2	Oliva	Oliva	S	SP	_	5	subj
+                3	mi	mi	P	PC	num=s|per=1|gen=n	5	comp_ind
+                4	saprà	sapere	V	VM	num=s|per=3|mod=i|ten=f	5	modal
+                5	inspirare	inspirare	V	V	mod=f	0	ROOT
+                6	tante	tanto	D	DI	num=p|gen=f	7	mod
+                7	cose	cosa	S	S	num=p|gen=f	5	obj
+                8	e	e	C	CC	_	7	con
+                9	buone	buono	A	A	num=p|gen=f	7	conj
+                
+                1	saprà	sapere	V	VM	num=s|per=3|mod=i|ten=f	2	modal
+                2	dar-	dare	V	V	mod=f	0	ROOT
+                3	me	me	P	PC	num=s|per=1|gen=n	2	obj
+                4	tante	tanto	D	DI	num=p|gen=f	2	mod
+                
+                1	belle	bello	A	A	num=p|gen=f	2	mod
+                2	consolazioni	consolazione	S	S	num=p|gen=f	0	ROOT
+                3	ed	e	C	CC	_	2	con
+                4	un	uno	R	RI	num=s|gen=m	2	conj
+                
+                1	affetto	affetto	S	S	num=s|gen=m	0	ROOT
+                2	grande	grande	A	A	num=s|gen=n	1	mod
+                3	,	,	F	FF	_	2	con
+                4	smisurato	smisurato	A	A	num=s|gen=m	2	conj
+                5	,	,	F	FF	_	1	con
+                
+                1	infinito	infinito	A	A	num=s|gen=m	0	ROOT
+                2	,	,	F	FF	_	1	con
+                3	puro	puro	A	A	num=s|gen=m	1	conj
+                4	,	,	F	FF	_	1	con
+                5	eterno	eterno	A	A	num=s|gen=m	1	conj
+                
+                1	che	che	P	PR	num=n|gen=n	3	subj
+                2	ci	ci	P	PC	num=p|per=1|gen=n	3	obj
+                3	eleverà	elevare	V	V	num=s|per=3|mod=i|ten=f	0	ROOT
+                4	sulla	su	E	EA	num=s|gen=f	3	comp
+                5	commune	commune	S	S	num=s|gen=f	4	prep
+                6	mediocrità	mediocrità	S	S	num=n|gen=f	5	mod
+                7	degli	di	E	EA	num=p|gen=m	5	comp
+                8	uomini	uomo	S	S	num=p|gen=m	7	prep
+                9	,	,	F	FF	_	10	punc
+                10	nel	in	E	EA	num=s|gen=m	3	comp
+                11	silenzio	silenzio	S	S	num=s|gen=m	10	prep
+                12	dei	di	E	EA	num=p|gen=m	11	comp
+                13	nostri	nostro	A	AP	num=p|gen=m	12	prep
+                
+                1	cuori	cuore	S	S	num=p|gen=m	0	ROOT
+                2	.	.	F	FS	_	1	punc
+
+        </analisi>
+        <analisi id="cartolina_7694-007">
+                1	Oliva	Oliva	S	SP	_	0	ROOT
+                2	,	,	F	FF	_	1	punc
+
+                1	È	essere	V	V	num=s|per=3|mod=i|ten=p	0	ROOT
+                2	un	uno	R	RI	num=s|gen=m	3	det
+                3	desiderio	desiderio	S	S	num=s|gen=m	1	pred
+                4	?	?	F	FS	_	1	punc
+
+                1	È	essere	V	V	num=s|per=3|mod=i|ten=p	0	ROOT
+                2	un	uno	R	RI	num=s|gen=m	3	det
+                3	martirio	martirio	S	S	num=s|gen=m	1	pred
+                4	?	?	F	FS	_	1	punc
+
+                1	Quando	quando	C	CS	_	0	_
+                2	,	,	F	FF	_	3	punc
+                3	quando	quando	C	CS	_	1	mod
+                4	potrò	potere	V	VM	num=s|per=1|mod=i|ten=f	5	modal
+                5	confondere	confondere	V	V	mod=f	3	sub
+
+                1	i	il	R	RD	num=p|gen=m	3	det
+                2	miei	mio	A	AP	num=p|gen=m	3	mod
+                3	sospiri	sospiro	S	S	num=p|gen=m	0	ROOT
+                4	d'	di	E	E	_	3	comp
+                5	amore	amore	S	S	num=s|gen=m	4	prep
+                6	con	con	E	E	_	3	comp
+                7	-	-	F	FC	_	6	punc
+
+                1	i	il	R	RD	num=p|gen=m	2	det
+                2	tuoi	tuo	P	PP	num=p|gen=m	0	ROOT
+                3	?	?	F	FS	_	2	punc
+
+                1	quando	quando	C	CS	_	0	ROOT
+                2	conferiranno	conferire	V	V	num=p|per=3|mod=i|ten=f	1	sub
+
+                1	questi	questo	D	DD	num=p|gen=m	2	mod
+                2	affanni	affanno	S	S	num=p|gen=m	0	ROOT
+                3	?	?	F	FS	_	2	punc
+
+                1	e	e	C	CC	_	2	con
+                2	come	come	B	B	_	0	ROOT
+                3	?	?	F	FS	_	2	punc
+
+                1	Sarai	essere	V	V	num=s|per=2|mod=i|ten=f	0	ROOT
+                2	tu	tu	P	PE	num=s|per=2|gen=n	1	pred
+                3	la	il	R	RD	num=s|gen=f	4	det
+                4	mia	mio	A	AP	num=s|gen=f	5	mod
+                5	buona	buono	A	A	num=s|gen=f	1	pred
+
+                1	consolatrice	consolatore	A	A	num=s|gen=f	0	ROOT
+                2	?	?	F	FS	_	1	punc
+
+                1	perchè	perchè	B	B	_	3	mod
+                2	l'	il	R	RD	num=s|gen=n	3	det
+                3	animo	animo	S	S	num=s|gen=m	0	ROOT
+
+                1	mio	mio	A	AP	num=s|gen=m	2	mod
+                2	ha	avere	V	V	num=s|per=3|mod=i|ten=p	0	ROOT
+                3	bisogno	bisogno	S	S	num=s|gen=m	2	obj
+                4	di	di	E	E	_	3	comp
+                5	un	uno	R	RI	num=s|gen=m	7	det
+                6	solo	solo	A	A	num=s|gen=m	7	mod
+                7	conforto	conforto	S	S	num=s|gen=m	4	prep
+                8	:	:	F	FC	_	2	punc
+                9	il	il	R	RD	num=s|gen=m	10	det
+                10	tuo	tuo	A	AP	num=s|gen=m	2	conj
+                11	.	.	F	FS	_	2	punc
+
+                1	Ho	avere	V	VA	num=s|per=1|mod=i|ten=p	2	aux
+                2	bisogno	bisogno	S	S	num=s|gen=m	0	ROOT
+
+                1	d'	di	E	E	_	7	comp
+                2	un	uno	R	RI	num=s|gen=m	3	det
+                3	cuore	cuore	S	S	num=s|gen=m	1	prep
+                4	che	che	P	PR	num=n|gen=n	6	subj
+                5	sappia	sapere	V	VM	num=s|per=3|mod=c|ten=p	6	modal
+                6	elevar-	elevare	V	V	mod=f	3	mod_rel
+                7	me	me	P	PC	num=s|per=1|gen=n	0	_
+
+                1	sino	sino	E	E	_	7	mod
+                2	all'	al	E	EA	num=s|gen=n	1	comp
+                3	ideale	ideale	S	S	num=s|gen=m	2	prep
+                4	più	più	B	B	_	5	mod
+                5	puro	puro	A	A	num=s|gen=m	3	mod
+                6	,	,	F	FF	_	1	punc
+                7	col	con	E	EA	num=s|gen=m	0	_
+
+                1	concorso	concorso	S	S	num=s|gen=m	0	ROOT
+                2	leale	leale	A	A	num=s|gen=n	1	mod
+                3	di	di	E	E	_	1	comp
+                4	quello	quello	P	PD	num=s|gen=m	3	prep
+                5	mi	mi	P	PC	num=s|per=1|gen=n	1	mod
+
+                1	sento	sentire	V	V	num=s|per=1|mod=i|ten=p	0	ROOT
+                2	capace	capace	A	A	num=s|gen=n	1	pred
+                3	di	di	E	E	_	2	arg
+                4	scuotere	scuotere	V	V	mod=f	3	prep
+                5	,	,	F	FF	_	6	punc
+                6	di	di	E	E	_	1	arg
+                7	dissipare	dissipare	V	V	mod=f	6	prep
+                8	le	il	R	RD	num=p|gen=f	10	det
+                9	grette	gretto	A	A	num=p|gen=f	10	mod
+                10	insidie	insidia	S	S	num=p|gen=f	7	obj
+                11	.......	.......	F	FS	_	1	punc
+
+                1	io	io	P	PE	num=s|per=1|gen=n	4	subj
+                2	solo	solo	B	B	_	4	mod
+                3	potrei	potere	V	VM	num=s|per=1|mod=d|ten=p	4	modal
+                4	cadere	cadere	V	V	mod=f	0	ROOT
+                5	nell'	in	E	EA	num=s|gen=n	4	comp_loc
+                6	abbiezione	abbiezione	S	S	num=s|gen=f	5	prep
+                7	.	.	F	FS	_	4	punc
+
+                1	Ama-	amare	V	V	num=s|per=2|mod=m|ten=p	0	ROOT
+                2	me	me	P	PC	num=s|per=1|gen=n	1	obj
+                3	,	,	F	FF	_	4	punc
+                4	come	come	E	E	_	2	comp
+                5	io	io	P	PE	num=s|per=1|gen=n	4	prep
+                6	sublimamente	sublimamente	B	B	_	8	mod
+                7	t'	ti	P	PC	num=s|per=2|gen=n	8	clit
+                8	amo	amare	V	V	num=s|per=1|mod=i|ten=p	1	conj
+                9	.	.	F	FS	_	1	punc
+
+                1	Giovannino	Giovannino	S	SP	_	0	ROOT
+        </analisi>
+        <analisi id="cartolina_7694-008">
+                1	Oliva	oliva	S	S	num=s|gen=f	0	ROOT
+                2	cara	caro	A	A	num=s|gen=f	1	mod
+                3	,	,	F	FF	_	1	punc
+
+                1	Quando	quando	C	CS	_	8	mod
+                2	mi	mi	P	PC	num=s|per=1|gen=n	3	clit
+                3	sento	sentire	V	V	num=s|per=1|mod=i|ten=p	1	sub
+                4	amato	amare	V	V	num=s|mod=p|gen=m	3	pred
+                5	da	da	E	E	_	4	comp
+                6	te	te	P	PE	num=s|per=2|gen=n	5	prep
+                7	,	,	F	FF	_	3	con
+                8	non	non	B	BN	_	0	_
+
+                1	temo	temere	V	V	num=s|per=1|mod=i|ten=p	0	ROOT
+                2	più	più	B	B	_	3	mod
+                3	nulla	nulla	P	PI	num=s|gen=m	1	obj
+                4	,	,	F	FF	_	1	con
+                5	nulla	nulla	P	PI	num=s|gen=m	1	obj
+                6	,	,	F	FF	_	5	con
+                7	nulla	nulla	P	PI	num=s|gen=m	5	conj
+                8	.	.	F	FS	_	1	punc
+
+                1	Biasimo	biasimare	V	V	num=s|per=1|mod=i|ten=p	0	ROOT
+                2	quel	quello	D	DD	num=s|gen=m	3	mod
+                3	cuore	cuore	S	S	num=s|gen=m	1	obj
+                4	-	-	F	FC	_	1	punc
+                5	-	-	F	FC	_	1	punc
+                6	che	che	C	CS	_	0	ROOT
+
+                1	non	non	B	BN	_	3	neg
+                2	è	essere	V	VA	num=s|per=3|mod=i|ten=p	3	aux
+                3	inspirato	inspirare	V	V	num=s|mod=p|gen=m	0	ROOT
+                4	al	a	E	EA	num=s|gen=m	3	comp
+                5	vero	vero	A	A	num=s|gen=m	4	prep
+                6	,	,	F	FF	_	5	con
+                7	primo	primo	N	NO	num=s|gen=m	8	mod
+                8	amore	amore	S	S	num=s|gen=m	5	conj
+                9	,	,	F	FF	_	5	con
+                10	a	a	E	E	_	3	arg
+                11	quell'	quello	D	DD	num=s|gen=n	12	mod
+                12	amar-	amare	V	V	mod=f	10	prep
+                13	si	si	P	PC	num=n|per=3|gen=n	14	clit
+                14	nostro	nostro	V	V	num=p|per=3|mod=d|ten=p	3	arg
+                15	,	,	F	FF	_	14	con
+                16	che	che	C	CS	_	14	conj
+                17	è	essere	V	V	num=s|per=3|mod=i|ten=p	16	sub
+                18	oggetto	oggetto	S	S	num=s|gen=m	17	pred
+                19	della	di	E	EA	num=s|gen=f	18	comp
+                20	nostra	nostro	A	AP	num=s|gen=f	21	mod
+                21	vita	vita	S	S	num=s|gen=f	19	prep
+                22	e	e	C	CC	_	17	con
+                23	che	che	P	PR	num=n|gen=n	25	subj
+                24	ci	ci	P	PC	num=p|per=1|gen=n	25	comp_ind
+                25	eleva	elevare	V	V	num=s|per=3|mod=i|ten=p	17	disj
+
+                1	sino	sino	E	E	_	6	mod
+                2	al	a	E	EA	num=s|gen=m	1	comp
+                3	sacrificio	sacrificio	S	S	num=s|gen=m	2	prep
+                4	,	,	F	FF	_	1	punc
+                5	sino	sino	E	E	_	6	mod
+                6	al	a	E	EA	num=s|gen=m	0	ROOT
+                7	più	più	B	B	_	6	prep
+
+                1	nobole	nobole	V	V	mod=f	0	ROOT
+                2	dei	di	E	EA	num=p|gen=m	1	comp
+                3	sentimenti	sentimento	S	S	num=p|gen=m	2	prep
+                4	:	:	F	FC	_	1	punc
+                5	l'	il	R	RD	num=s|gen=n	6	det
+                6	altruismo	altruismo	S	S	num=s|gen=m	0	ROOT
+                7	.	.	F	FS	_	6	punc
+
+                1	Si	si	P	PC	num=n|per=3|gen=n	2	clit
+                2	Oliva	Oliva	S	SP	_	5	subj
+                3	mia	mio	A	AP	num=s|gen=f	2	mod
+                4	,	,	F	FF	_	2	con
+                5	credi-	credere	V	V	num=s|per=2|mod=m|ten=p	0	ROOT
+                6	lo	lo	P	PC	num=s|per=3|gen=m	5	obj
+                7	fortemente	fortemente	B	B	_	6	mod
+                8	,	,	F	FF	_	5	con
+                9	sappi-	sapere	V	V	num=s|per=2|mod=m|ten=p	5	conj
+                10	lo	lo	P	PC	num=s|per=3|gen=m	9	obj
+                11	,	,	F	FF	_	5	con
+                12	ripeti-	ripetere	V	V	num=s|per=2|mod=m|ten=p	5	conj
+                13	lo	lo	P	PC	num=s|per=3|gen=m	12	obj
+                14	a	a	E	E	_	12	comp
+                15	te	te	P	PE	num=s|per=2|gen=n	16	subj
+                16	stesfa	stesfa	S	S	num=s|gen=m	14	prep
+                17	le	il	R	RD	num=p|gen=f	18	det
+                18	mille	mille	N	N	_	12	mod
+                19	e	e	C	CC	_	18	con
+                20	le	il	R	RD	num=p|gen=f	18	conj
+
+                1	mille	mille	N	N	_	2	mod
+                2	volte	volta	S	S	num=p|gen=f	0	ROOT
+                3	;	;	F	FC	_	2	punc
+                4	il	il	R	RD	num=s|gen=m	6	det
+                5	tuo	tuo	A	AP	num=s|gen=m	6	mod
+                6	Giovannino	Giovannino	S	SP	_	0	ROOT
+                7	,	,	F	FF	_	6	punc
+                8	quel	quello	P	PD	num=s|gen=m	0	ROOT
+
+                1	Giovannino	Giovannino	S	SP	_	0	ROOT
+                2	lontano	lontano	A	A	num=s|gen=m	1	mod
+                3	,	,	F	FF	_	2	punc
+                4	fra	fra	E	E	_	1	comp
+                5	i	il	R	RD	num=p|gen=m	6	det
+                6	dolori	dolore	S	S	num=p|gen=m	4	prep
+
+                1	più	più	B	B	_	2	mod
+                2	elevati	elevato	A	A	num=p|gen=m	8	mod
+                3	,	,	F	FF	_	2	con
+                4	più	più	B	B	_	5	mod
+                5	crudeli	crudele	A	A	num=p|gen=n	2	conj
+                6	,	,	F	FF	_	2	con
+                7	non	non	B	BN	_	8	neg
+                8	ha	avere	V	V	num=s|per=3|mod=i|ten=p	0	ROOT
+                9	che	che	C	CS	_	8	arg
+
+                1	un	uno	R	RI	num=s|gen=m	3	det
+                2	solo	solo	A	A	num=s|gen=m	3	mod
+                3	pensiero	pensiero	S	S	num=s|gen=m	0	ROOT
+                4	,	,	F	FF	_	6	punc
+                5	il	il	R	RD	num=s|gen=m	6	det
+                6	tuo	tuo	A	AP	num=s|gen=m	3	mod
+                7	,	,	F	FF	_	6	punc
+                8	il	il	R	RD	num=s|gen=m	9	det
+                9	tuo	tuo	A	AP	num=s|gen=m	3	mod
+                10	nobile	nobile	A	A	num=s|gen=n	9	mod
+
+                1	amore	amore	S	S	num=s|gen=m	11	mod
+                2	e	e	C	CC	_	1	con
+                3	quando	quando	C	CS	_	1	conj
+                4	gli	il	R	RD	num=p|gen=m	5	det
+                5	uomini	uomo	S	S	num=p|gen=m	7	subj
+                6	saranno	essere	V	VA	num=p|per=3|mod=i|ten=f	7	aux
+                7	rinsaviti	rinsavire	V	V	num=p|mod=p|gen=m	3	sub
+                8	,	,	F	FF	_	1	con
+                9	egli	egli	P	PE	num=s|per=3|gen=m	11	subj
+                10	t'	ti	P	PC	num=s|per=2|gen=n	11	obj
+                11	amerà	amare	V	V	num=s|per=3|mod=i|ten=f	0	ROOT
+                12	anche	anche	B	B	_	11	mod
+                13	nel	in	E	EA	num=s|gen=m	11	ROOT
+
+                1	la	il	R	RD	num=s|gen=f	2	det
+                2	pace	pace	S	S	num=s|gen=f	0	ROOT
+                3	tranquilla	tranquillo	A	A	num=s|gen=f	2	mod
+                4	della	di	E	EA	num=s|gen=f	2	comp
+                5	vita	vita	S	S	num=s|gen=f	4	prep
+                6	,	,	F	FF	_	7	punc
+                7	in	in	E	E	_	2	comp
+                8	eterno	eterno	S	S	num=s|gen=m	7	prep
+                9	.	.	F	FS	_	2	punc
+
+                1	Oliva	oliva	S	S	num=s|gen=f	3	mod
+                2	,	,	F	FF	_	1	punc
+                3	Oliva	Oliva	S	SP	_	4	subj
+                4	ama-	amare	V	V	num=s|per=2|mod=m|ten=p	0	ROOT
+                5	me	me	P	PC	num=s|per=1|gen=n	4	obj
+                6	tanto	tanto	B	B	_	5	mod
+                7	.	.	F	FS	_	4	punc
+
+                1	Giovannino	Giovannino	S	SP	_	0	ROOT
+        </analisi>
+        <analisi id="cartolina_7694-009">
+                1	Affettuosissimi	affettuoso	A	A	num=p|gen=m	0	ROOT
+        </analisi>
+        <analisi id="cartolina_7694-010">
+                1	Oliva	Oliva	S	SP	_	0	ROOT
+                2	mia	mio	A	AP	num=s|gen=f	1	mod
+                3	,	,	F	FF	_	1	punc
+
+                1	Godo	godere	V	V	num=s|per=1|mod=i|ten=p	0	ROOT
+                2	la	il	R	RD	num=s|gen=f	4	det
+                3	freschissima	freschissima	A	A	num=s|gen=f	4	mod
+                4	aura	aura	S	S	num=s|gen=f	1	obj
+                5	che	che	P	PR	num=n|gen=n	6	subj
+                6	aleggia	aleggiare	V	V	num=s|per=3|mod=i|ten=p	4	mod_rel
+
+                1	nell'	in	E	EA	num=s|gen=n	8	comp
+                2	ombra	ombra	S	S	num=s|gen=f	1	prep
+                3	d'	di	E	E	_	2	comp
+                4	un	uno	R	RI	num=s|gen=m	5	det
+                5	castagneto	castagneto	S	S	num=s|gen=m	3	prep
+                6	,	,	F	FF	_	1	punc
+                7	la	la	P	PC	num=s|per=3|gen=f	8	obj
+                8	godo	godere	V	V	num=s|per=1|mod=i|ten=p	0	ROOT
+                9	con	con	E	E	_	8	comp
+
+                1	infinita	infinito	A	A	num=s|gen=f	2	mod
+                2	voluttà	voluttà	S	S	num=n|gen=f	0	ROOT
+                3	,	,	F	FF	_	4	punc
+                4	con	con	E	E	_	2	comp
+                5	immensa	immenso	A	A	num=s|gen=f	6	mod
+                6	compiacenza	compiacenza	S	S	num=s|gen=f	4	prep
+                7	.	.	F	FS	_	2	punc
+
+                1	Vado	andare	V	V	num=s|per=1|mod=i|ten=p	0	ROOT
+                2	rileggendo	rileggere	V	V	mod=g	1	mod
+                3	le	il	R	RD	num=p|gen=f	4	det
+                4	tue	tuo	A	AP	num=p|gen=f	2	obj
+                5	vecchie	vecchio	A	A	num=p|gen=f	4	mod
+
+                1	lettere	lettera	S	S	num=p|gen=f	0	ROOT
+                2	,	,	F	FF	_	3	punc
+                3	illudendo	illudere	V	V	mod=g	1	mod
+                4	l'	il	R	RD	num=s|gen=n	5	det
+                5	amor	amor	S	S	num=s|gen=m	3	obj
+                6	mio	mio	A	AP	num=s|gen=m	5	mod
+                7	con	con	E	E	_	3	comp
+
+                1	pietoso	pietoso	A	A	num=s|gen=m	2	mod
+                2	artefizio	artefizio	A	A	num=s|gen=m	0	ROOT
+                3	che	che	P	PR	num=n|gen=n	4	subj
+                4	giova	giovare	V	V	num=s|per=3|mod=i|ten=p	2	mod_rel
+                5	per	per	E	E	_	4	comp
+                6	altro	altro	P	PI	num=s|gen=m	5	prep
+
+                1	a	a	E	E	_	5	mod
+                2	ripensare	ripensare	V	V	mod=f	1	prep
+                3	più	più	B	B	_	4	mod
+                4	profondamente	profondo	B	B	_	2	mod
+                5	sui	su	E	EA	num=p|gen=m	0	_
+
+                1	tuoi	tuo	A	AP	num=p|gen=m	2	mod
+                2	pensieri	pensiero	S	S	num=p|gen=m	0	ROOT
+                3	,	,	F	FF	_	2	punc
+                4	sui	su	E	EA	num=p|gen=m	2	comp
+                5	tuoi	tuo	A	AP	num=p|gen=m	6	mod
+                6	proponiment	proponiment	S	SW	num=n|gen=n	4	prep
+                7	-	-	F	FC	_	2	punc
+
+                1	ti	ti	P	PC	num=s|per=2|gen=n	0	ROOT
+                2	,	,	F	FF	_	3	punc
+                3	sulla	su	E	EA	num=s|gen=f	1	comp_loc
+                4	tua	tuo	A	AP	num=s|gen=f	6	mod
+                5	affettuosa	affettuoso	A	A	num=s|gen=f	6	mod
+                6	indole	indole	S	S	num=s|gen=f	3	prep
+                7	.	.	F	FS	_	1	punc
+
+                1	Oliva	Oliva	S	SP	_	5	subj
+                2	mia	mio	A	AP	num=s|gen=f	5	mod
+                3	perchè	perchè	B	B	_	5	mod
+                4	non	non	B	BN	_	5	neg
+                5	scrivi	scrivere	V	V	num=s|per=2|mod=i|ten=p	0	ROOT
+                6	più	più	B	B	_	5	mod
+                7	?	?	F	FS	_	5	punc
+
+                1	Sono	essere	V	VA	num=p|per=3|mod=i|ten=p	3	aux
+                2	vivamente	vivo	B	B	_	3	mod
+                3	addolorato	addolorare	V	V	num=s|mod=p|gen=m	0	ROOT
+                4	del	di	E	EA	num=s|gen=m	3	comp
+                5	tuo	tuo	A	AP	num=s|gen=m	4	prep
+
+                1	lungo	lungo	A	A	num=s|gen=m	2	mod
+                2	silenzio	silenzio	S	S	num=s|gen=m	0	ROOT
+                3	,	,	F	FF	_	4	punc
+                4	del	di	E	EA	num=s|gen=m	2	comp
+                5	tuo	tuo	A	AP	num=s|gen=m	6	mod
+                6	tenace	tenace	A	A	num=s|gen=n	4	prep
+                7	-	-	F	FC	_	2	punc
+                8	-	-	F	FC	_	2	punc
+
+                1	-	-	F	FC	_	0	punc
+                2	.	.	F	FS	_	0	punc
+
+                1	È	essere	V	V	num=s|per=3|mod=i|ten=p	0	ROOT
+                2	colpa	colpa	S	S	num=s|gen=f	1	pred
+                3	della	di	E	EA	num=s|gen=f	2	comp
+                4	Posta	posta	S	S	num=s|gen=f	3	prep
+                5	?	?	F	FS	_	1	punc
+
+                1	Tu	tu	P	PE	num=s|per=2|gen=n	3	subj
+                2	mi	mi	P	PC	num=s|per=1|gen=n	3	obj
+                3	pensi	pensare	V	V	num=s|per=2|mod=i|ten=p	0	ROOT
+                4	e	e	C	CC	_	3	con
+                5	mi	mi	P	PC	num=s|per=1|gen=n	6	obj
+                6	ami	amare	V	V	num=s|per=3|mod=c|ten=p	3	conj
+                7	sempre	sempre	B	B	_	6	mod
+                8	?	?	F	FS	_	3	punc
+
+                1	Evvero	Evvero	S	SP	_	0	ROOT
+                2	Oliva	Oliva	S	SP	_	1	mod
+                3	,	,	F	FF	_	1	punc
+                4	scrivi-	scrivere	V	V	num=s|per=2|mod=m|ten=p	0	ROOT
+                5	lo	lo	P	PC	num=s|per=3|gen=m	4	obj
+                6	subito	subito	B	B	_	4	mod_temp
+
+                1	subito	subito	B	B	_	3	mod_temp
+                2	,	,	F	FF	_	1	punc
+                3	riconferma-	riconfermare	V	V	num=s|per=2|mod=m|ten=p	0	ROOT
+                4	lo	lo	P	PC	num=s|per=3|gen=m	3	obj
+                5	.	.	F	FS	_	3	punc
+
+                1	Ho	avere	V	VA	num=s|per=1|mod=i|ten=p	2	aux
+                2	bisogno	bisogno	S	S	num=s|gen=m	0	ROOT
+
+                1	delle	di	E	EA	num=p|gen=f	0	ROOT
+                2	tue	tuo	A	AP	num=p|gen=f	4	mod
+                3	amorevoli	amorevole	A	A	num=p|gen=n	4	mod
+                4	parole	parola	S	S	num=p|gen=f	1	prep
+                5	,	,	F	FF	_	1	punc
+                6	sai	sapere	V	VM	num=s|per=2|mod=i|ten=p	0	ROOT
+                7	?	?	F	FS	_	6	punc
+
+                1	Con	con	E	E	_	0	ROOT
+                2	tenerissimo	tenero	A	A	num=s|gen=m	1	prep
+                3	ed	e	C	CC	_	2	con
+                4	immutato	immutato	A	A	num=s|gen=m	2	conj
+
+                1	affetto	affetto	S	S	num=s|gen=m	0	ROOT
+
+                1	tuo	tuo	A	AP	num=s|gen=m	2	mod
+                2	Giovannino	Giovannino	S	SP	_	0	ROOT
+        </analisi>
+        <analisi id="cartolina_7694-011">
+                1	A	a	E	E	_	3	comp
+                2	voi	voi	P	PE	num=p|per=2|gen=n	1	prep
+                3	miei	miei	A	A	num=p|gen=m	4	mod
+                4	cari	caro	S	S	num=p|gen=m	0	ROOT
+
+                1	Eroi	eroe	S	S	num=p|gen=m	0	ROOT
+                2	!	!	F	FS	_	1	punc
+
+                1	Il	il	R	RD	num=s|gen=m	2	det
+                2	mio	mio	A	AP	num=s|gen=m	0	_
+
+                1	bacio	bacio	S	S	num=s|gen=m	0	ROOT
+                2	e	e	C	CC	_	1	con
+                3	il	il	R	RD	num=s|gen=m	1	conj
+
+                1	mio	mio	A	AP	num=s|gen=m	2	mod
+                2	saluto	saluto	S	S	num=s|gen=m	0	ROOT
+
+                1	Evviva	evviva	S	S	num=n|gen=m	0	ROOT
+                2	la	il	R	RD	num=s|gen=f	3	det
+                3	Vittoria	Vittoria	S	SP	_	1	mod
+                4	!	!	F	FS	_	1	punc
+
+                1	Evviva	evviva	I	I	_	0	ROOT
+                2	l'	il	R	RD	num=s|gen=n	3	det
+                3	Italia	Italia	S	SP	_	1	ROOT
+
+                1	Mi	mi	P	PC	num=s|per=1|gen=n	2	clit
+                2	raccomando	raccomandare	V	V	num=s|per=1|mod=i|ten=p	0	ROOT
+                3	quella	quello	P	PD	num=s|gen=f	2	obj
+                4	sola	solo	A	A	num=s|gen=f	3	mod
+                5	TO	TO	S	SP	_	2	subj
+
+                1	Tuo	tuo	A	AP	num=s|gen=m	2	mod
+                2	amico	amico	S	S	num=s|gen=m	0	ROOT
+
+                1	Giulio	Giulio	S	SP	_	2	mod
+                2	Fantoni	Fantoni	S	SP	_	0	ROOT
+        </analisi>
+        <analisi id="cartolina_7694-012">
+                1	Ricevi	ricevere	V	V	num=s|per=2|mod=m|ten=p	0	ROOT
+                2	Affettuosi	Affettuosi	S	SP	_	1	obj
+
+                1	saluti	saluto	S	S	num=p|gen=m	0	ROOT
+
+                1	Da	da	E	E	_	0	_
+
+                1	Busolini	Busolini	S	SP	_	0	ROOT
+
+                1	Massimo	massimo	A	A	num=s|gen=m	0	ROOT
+        </analisi>
+        <analisi id="cartolina_7694-013">
+                1	Giovannino	Giovannino	S	SP	_	0	ROOT
+                2	mio	mio	A	AP	num=s|gen=m	1	mod
+
+                1	ti	ti	P	PC	num=s|per=2|gen=n	2	clit
+                2	amo	amare	V	V	num=s|per=1|mod=i|ten=p	0	ROOT
+                3	,	,	F	FF	_	5	punc
+                4	ti	ti	P	PC	num=s|per=2|gen=n	5	clit
+                5	amo	amare	V	V	num=s|per=1|mod=i|ten=p	2	conj
+                6	pazzamente	pazzo	B	B	_	5	mod
+                7	....	....	F	FS	_	2	punc
+
+                1	Giovannino	Giovannino	S	SP	_	2	mod
+                2	Giovannino	Giovannino	S	SP	_	0	ROOT
+
+                1	Giovannino	Giovannino	S	SP	_	2	subj
+                2	......	......	V	V	num=s|per=1|mod=i|ten=p	0	ROOT
+                3	lascia	lasciare	V	V	num=s|per=3|mod=i|ten=p	2	arg
+                4	che	che	C	CS	_	3	arg
+
+                1	io	io	P	PE	num=s|per=1|gen=n	3	subj
+                2	ti	ti	P	PC	num=s|per=2|gen=n	3	obj
+                3	chiami	chiamare	V	V	num=s|per=2|mod=i|ten=p	0	ROOT
+                4	ardentemente	ardentemente	B	B	_	3	mod
+                5	così	così	B	B	_	3	mod
+
+                1	mille	mille	N	N	_	2	mod
+                2	volte	volta	S	S	num=p|gen=f	4	mod_temp
+                3	,	,	F	FF	_	2	punc
+                4	lascia	lasciare	V	V	num=s|per=3|mod=i|ten=p	0	ROOT
+                5	che	che	C	CS	_	4	arg
+                6	io	io	P	PE	num=s|per=1|gen=n	7	subj
+                7	metta	mettere	V	V	num=s|per=3|mod=c|ten=p	5	sub
+                8	nel	in	E	EA	num=s|gen=m	7	comp
+
+                1	tuo	tuo	A	AP	num=s|gen=m	2	mod
+                2	nome	nome	S	S	num=s|gen=m	0	ROOT
+                3	tutto	tutto	T	T	num=s|gen=m	5	mod
+                4	l'	il	R	RD	num=s|gen=n	5	det
+                5	impeto	impeto	S	S	num=s|gen=m	2	mod
+                6	di	di	E	E	_	2	comp
+                7	pasfione	pasfione	S	S	num=p|gen=f	6	prep
+
+                1	che	che	P	PR	num=n|gen=n	2	subj
+                2	erompe	erompere	V	V	num=s|per=3|mod=i|ten=p	0	ROOT
+                3	dal	da	E	EA	num=s|gen=m	2	comp
+                4	cuor	cuor	S	S	num=s|gen=m	3	prep
+                5	mio	mio	A	AP	num=s|gen=m	4	mod
+                6	.......	.......	C	CC	_	2	con
+
+                1	non	non	B	BN	_	2	neg
+                2	so	sapere	V	V	num=s|per=1|mod=i|ten=p	0	ROOT
+                3	dir-	dire	V	V	mod=f	2	arg
+                4	ti	ti	P	PC	num=s|per=2|gen=n	3	comp_ind
+                5	che	che	C	CS	_	3	comp
+                6	così	così	B	B	_	5	sub
+                7	:	:	F	FC	_	2	punc
+                8	perchè	perchè	B	B	_	9	mod
+                9	avrei	avere	V	VA	num=s|per=1|mod=d|ten=p	0	_
+                10	troppo	troppo	B	B	_	9	mod
+
+                1	da	da	E	E	_	0	ROOT
+                2	dir-	dire	V	V	mod=f	1	prep
+                3	ti	ti	P	PC	num=s|per=2|gen=n	2	clit
+                4	......	......	F	FS	_	1	punc
+
+                1	Perche	Perche	S	SP	_	5	subj
+                2	non	non	B	BN	_	5	neg
+                3	puoi	potere	V	VM	num=s|per=2|mod=i|ten=p	5	modal
+                4	più	più	B	B	_	5	mod
+                5	scriver-	scrivere	V	V	mod=f	0	ROOT
+                6	me	me	P	PC	num=s|per=1|gen=n	5	obj
+                7	a	a	E	E	_	5	ROOT
+
+                1	lungo	lungo	S	S	num=s|gen=m	0	ROOT
+                2	?	?	F	FS	_	1	punc
+
+                1	Fallo	fallo	S	S	num=s|gen=m	5	ROOT
+                2	sempre	sempre	B	B	_	1	mod
+                3	quando	quando	C	CS	_	5	ROOT
+                4	lo	il	R	RD	num=s|gen=m	5	det
+                5	puoi	potere	V	VM	num=s|per=2|mod=i|ten=p	0	ROOT
+                6	,	,	F	FF	_	5	con
+
+                1	se	se	C	CS	_	6	mod
+                2	non	non	B	BN	_	3	neg
+                3	saprai	sapere	V	V	num=s|per=2|mod=i|ten=f	1	sub
+                4	mai	mai	B	B	_	3	mod_temp
+                5	quanto	quanto	B	B	_	3	mod
+                6	pure	pure	B	B	_	0	_
+
+                1	posfano	posfano	S	SW	num=n|gen=n	6	mod
+                2	parmi	parmi	S	SW	num=n|gen=n	1	concat
+                3	le	il	R	RD	num=p|gen=f	6	det
+                4	tue	tuo	A	AP	num=p|gen=f	6	mod
+                5	dolci	dolce	A	A	num=p|gen=n	6	mod
+                6	parole	parola	S	S	num=p|gen=f	0	ROOT
+
+                1	anche	anche	B	B	_	2	mod
+                2	io	io	P	PE	num=s|per=1|gen=n	4	subj
+                3	lo	lo	P	PC	num=s|per=3|gen=m	4	obj
+                4	farò	fare	V	V	num=s|per=1|mod=i|ten=f	0	ROOT
+                5	sempre	sempre	B	B	_	4	mod
+                6	(	(	F	FB	_	7	punc
+                7	forse	forse	B	B	_	4	mod
+
+                1	stasera	stasera	B	B	_	3	mod
+                2	)	)	F	FB	_	1	punc
+                3	Ho	Ho	S	SP	_	0	ROOT
+                4	bisogno	bisogno	S	S	num=s|gen=m	3	mod
+                5	di	di	E	E	_	4	arg
+                6	sentir-	sentire	V	V	mod=f	5	prep
+                7	me	me	P	PC	num=s|per=1|gen=n	6	clit
+                8	vicina	vicino	A	A	num=s|gen=f	6	pred
+
+                1	a	a	E	E	_	6	comp
+                2	te	te	P	PE	num=s|per=2|gen=n	1	prep
+                3	in	in	E	E	_	1	ROOT
+                4	spirito	spirito	S	S	num=s|gen=m	3	prep
+                5	,	,	F	FF	_	3	punc
+                6	ho	avere	V	V	num=s|per=1|mod=i|ten=p	0	ROOT
+                7	bisogno	bisogno	S	S	num=s|gen=m	6	obj
+                8	-	-	F	FC	_	6	punc
+                9	-	-	F	FC	_	6	punc
+                10	-	-	F	FC	_	6	punc
+                11	-	-	F	FC	_	6	punc
+
+                1	di	di	E	E	_	0	ROOT
+                2	te	te	P	PE	num=s|per=2|gen=n	1	prep
+                3	,	,	F	FF	_	1	punc
+                4	del	di	E	EA	num=s|gen=m	1	conj
+                5	tuo	tuo	A	AP	num=s|gen=m	6	mod
+                6	aiuto	aiuto	S	S	num=s|gen=m	4	prep
+                7	......	......	F	FS	_	1	punc
+
+                1	Giovannino	Giovannino	S	SP	_	0	ROOT
+
+                1	Giovannino	Giovannino	S	SP	_	3	subj
+                2	mi	mi	P	PC	num=s|per=1|gen=n	3	comp_ind
+                3	vuoi	volere	V	VM	num=s|per=2|mod=i|ten=p	0	_
+
+                1	bene	bene	B	B	_	2	mod
+                2	davvero	davvero	B	B	_	0	ROOT
+                3	?	?	F	FS	_	2	punc
+
+                1	Tu	tu	P	PE	num=s|per=2|gen=n	2	ROOT
+                2	puoi	potere	V	VM	num=s|per=2|mod=i|ten=p	0	ROOT
+                3	ancora	ancora	B	B	_	2	mod
+
+                1	sapere	sapere	V	V	mod=f	0	_
+                2	quanto	quanto	P	PR	num=s|gen=m	1	obj
+                3	t'	ti	P	PC	num=s|per=2|gen=n	2	comp
+                4	ami	amo	S	S	num=p|gen=m	3	mod
+                5	e	e	C	CC	_	4	con
+                6	desideri	desiderio	S	S	num=p|gen=m	4	conj
+
+                1	la	il	R	RD	num=s|gen=f	3	det
+                2	tua	tuo	A	AP	num=s|gen=f	3	mod
+                3	Oliva	Oliva	S	SP	_	0	ROOT
+                4	......	......	F	FS	_	3	punc
+
+                1	Mi	mi	P	PC	num=s|per=1|gen=n	2	obj
+                2	scriverai	scrivere	V	V	num=s|per=2|mod=i|ten=f	0	ROOT
+                3	a	a	E	E	_	2	comp
+                4	lungo	lungo	S	S	num=s|gen=m	3	prep
+                5	?	?	F	FS	_	2	punc
+
+                1	Sì	sì	B	B	_	2	mod
+                2	Giovannino	Giovannino	S	SP	_	3	subj
+                3	scrivi-	scrivere	V	V	num=s|per=2|mod=m|ten=p	0	ROOT
+                4	me	me	P	PC	num=s|per=1|gen=n	3	obj
+                5	e	e	C	CC	_	3	con
+                6	parlami	parlami	S	SW	num=n|gen=n	3	conj
+                7	-	-	F	FC	_	6	punc
+                8	-	-	F	FC	_	3	punc
+                9	-	-	F	FC	_	0	ROOT
+
+                1	di	di	E	E	_	4	comp
+                2	te	te	P	PE	num=s|per=2|gen=n	1	prep
+                3	,	,	F	FF	_	1	punc
+                4	accontenta-	accontentare	V	V	num=s|per=2|mod=m|ten=p	0	ROOT
+                5	me	me	P	PC	num=s|per=1|gen=n	4	obj
+                6	.	.	F	FS	_	4	punc
+
+                1	Aspetto	aspettare	V	V	num=s|per=1|mod=i|ten=p	0	ROOT
+                2	ancora	ancora	B	B	_	1	mod
+
+                1	la	il	R	RD	num=s|gen=f	3	det
+                2	famosa	famoso	A	A	num=s|gen=f	3	mod
+                3	fotografia	fotografia	S	S	num=s|gen=f	6	subj
+                4	e	e	C	CC	_	3	con
+                5	puoi	potere	V	VM	num=s|per=2|mod=i|ten=p	6	modal
+                6	immaginare	immaginare	V	V	mod=f	0	ROOT
+                7	con	con	E	E	_	6	comp
+                8	che	che	C	CS	_	7	prep
+                9	ansia	ansia	S	S	num=s|gen=f	8	sub
+                10	......	......	F	FS	_	6	punc
+
+                1	Ricorderei	ricordare	V	V	num=s|per=1|mod=d|ten=p	0	ROOT
+                2	con	con	E	E	_	1	comp
+                3	più	più	B	B	_	4	mod
+                4	gioia	gioia	S	S	num=s|gen=f	2	prep
+                5	te	te	P	PE	num=s|per=2|gen=n	4	mod
+                6	in	in	E	E	_	5	comp
+                7	persona	persona	S	S	num=s|gen=f	6	prep
+                8	...	...	F	FF	_	7	punc
+
+                1	Giovannino	Giovannino	S	SP	_	2	subj
+                2	ama-	amare	V	V	num=s|per=2|mod=m|ten=p	0	ROOT
+                3	me	me	P	PC	num=s|per=1|gen=n	2	obj
+                4	ama-	amare	V	V	num=s|per=2|mod=m|ten=p	0	ROOT
+                5	me	me	P	PC	num=s|per=1|gen=n	4	obj
+
+                1	Scrivi	scrivere	V	V	num=s|per=2|mod=m|ten=p	0	ROOT
+                2	Oliva	Oliva	S	SP	_	1	obj
+        </analisi>
+        <analisi id="cartolina_7694-014">
+                1	Affettuosi	affettuoso	A	A	num=p|gen=m	2	mod
+                2	saluti	saluto	S	S	num=p|gen=m	0	ROOT
+        </analisi>
+        <analisi id="cartolina_7694-015">
+                1	Affettuosi	affettuoso	A	A	num=p|gen=m	2	mod
+                2	saluti	saluto	S	S	num=p|gen=m	0	ROOT
+        </analisi>
+        <analisi id="cartolina_7694-016">
+                1	Auguri	augurio	S	S	num=p|gen=m	0	ROOT
+                2	vivissimi	vivo	A	A	num=p|gen=m	1	mod
+                3	e	e	C	CC	_	1	con
+                4	buone	buono	A	A	num=p|gen=f	5	mod
+                5	feste	festa	S	S	num=p|gen=f	1	conj
+
+                1	unitamente	unitamente	A	A	num=s|gen=m	0	ROOT
+                2	alla	al	E	EA	num=s|gen=f	1	comp
+                3	famiglia	famiglia	S	S	num=s|gen=f	2	prep
+        </analisi>
+        <analisi id="cartolina_7694-017">
+                1	Riceva	ricevere	V	V	num=s|per=3|mod=c|ten=p	0	ROOT
+                2	tanti	tanto	D	DI	num=p|gen=m	1	mod
+
+                1	saluti	saluto	S	S	num=p|gen=m	0	ROOT
+                2	a	a	E	E	_	1	comp
+                3	lei	lei	P	PE	num=s|per=3|gen=n	2	prep
+
+                1	e	e	C	CC	_	2	con
+                2	Famiglia	Famiglia	S	SP	_	0	ROOT
+        </analisi>
+        <analisi id="cartolina_7694-018">
+                1	Ricambia	ricambiare	V	V	num=s|per=2|mod=m|ten=p	0	_
+                2	e	e	C	CC	_	1	con
+                1	saluta	salutare	V	V	num=s|per=3|mod=i|ten=p	0	ROOT
+        </analisi>
+        <analisi id="cartolina_7694-019">
+                1	Coi	con	E	EA	num=p|gen=m	6	comp
+                2	migliori	migliore	A	A	num=p|gen=n	3	mod
+                3	auguri	augurio	S	S	num=p|gen=m	1	prep
+                4	e	e	C	CC	_	3	con
+                5	saluti	saluto	S	S	num=p|gen=m	3	conj
+                6	a	a	E	E	_	0	_
+
+                1	te	te	P	PE	num=s|per=2|gen=n	0	ROOT
+                2	e	e	C	CC	_	1	con
+                3	famiglia	famiglia	S	S	num=s|gen=f	1	conj
+        </analisi>
+        <analisi id="cartolina_7694-020">
+                1	Oliva	oliva	S	S	num=s|gen=f	0	ROOT
+                2	,	,	F	FF	_	3	punc
+                3	Oliva	Oliva	S	SP	_	1	mod
+                4	mia	mio	A	AP	num=s|gen=f	3	mod
+                5	adorata	adorare	V	V	num=s|mod=p|gen=f	3	mod
+                6	,	,	F	FF	_	3	punc
+
+                1	Nè	Nè	C	CC	_	7	con
+                2	ieri	ieri	B	B	_	1	mod_temp
+                3	,	,	F	FF	_	1	con
+                4	nè	nè	C	CC	_	1	con
+                5	oggi	oggi	B	B	_	7	mod_temp
+                6	ho	avere	V	VA	num=s|per=1|mod=i|ten=p	7	aux
+                7	ricevuto	ricevere	V	V	num=s|mod=p|gen=m	0	ROOT
+                8	tuoi	tuo	A	AP	num=p|gen=m	9	mod
+                9	scritti	scritto	S	S	num=p|gen=m	7	obj
+                10	.	.	F	FS	_	7	punc
+
+                1	Perchè	Perchè	B	B	_	0	ROOT
+                2	?	?	F	FS	_	1	punc
+
+                1	Vuoi	volere	V	VM	num=s|per=2|mod=i|ten=p	2	modal
+                2	addolorare	addolorare	V	V	mod=f	0	ROOT
+                3	il	il	R	RD	num=s|gen=m	5	det
+                4	tuo	tuo	A	AP	num=s|gen=m	5	mod
+                5	Giovannino	Giovannino	S	SP	_	2	obj
+                6	lontano	lontano	A	A	num=s|gen=m	5	mod
+                7	?	?	F	FS	_	2	punc
+
+                1	Ho	avere	V	VA	num=s|per=1|mod=i|ten=p	0	_
+
+                1	già	già	B	B	_	2	mod
+                2	fatto	fare	V	V	num=s|mod=p|gen=m	9	mod
+                3	mille	mille	N	N	_	4	mod
+                4	supposizioni	supposizione	S	S	num=p|gen=f	2	obj
+                5	e	e	C	CC	_	4	con
+                6	congetture	congettura	S	S	num=p|gen=f	4	conj
+                7	,	,	F	FF	_	2	con
+                8	mi	mi	P	PC	num=s|per=1|gen=n	9	clit
+                9	auguro	augurare	V	V	num=s|per=1|mod=i|ten=p	0	ROOT
+
+                1	che	che	C	CS	_	0	ROOT
+                2	la	il	R	RD	num=s|gen=f	4	det
+                3	tua	tuo	A	AP	num=s|gen=f	4	mod
+                4	salute	salute	S	S	num=s|gen=f	5	subj
+                5	sia	essere	V	V	num=s|per=3|mod=c|ten=p	1	sub
+                6	ottima	ottimo	A	A	num=s|gen=f	5	pred
+                7	.	.	F	FS	_	1	punc
+
+                1	Vorrei	volere	V	VM	num=s|per=1|mod=d|ten=p	2	modal
+                2	correre	correre	V	V	mod=f	0	ROOT
+                3	a	a	E	E	_	2	comp
+                4	te	te	P	PE	num=s|per=2|gen=n	3	prep
+
+                1	volare	volare	V	V	mod=f	0	ROOT
+                2	sul	su	E	EA	num=s|gen=m	1	comp
+                3	tuo	tuo	A	AP	num=s|gen=m	4	mod
+                4	grembo	grembo	S	S	num=s|gen=m	2	prep
+                5	adorato	adorare	V	V	num=s|mod=p|gen=m	4	mod
+                6	e	e	C	CC	_	1	con
+                7	carezzevolmente	carezzevolmente	B	B	_	8	mod
+                8	baciar-	baciare	V	V	mod=f	1	conj
+                9	ti	ti	P	PC	num=s|per=2|gen=n	8	comp_ind
+                10	la	il	R	RD	num=s|gen=f	11	det
+                11	fronte	fronte	S	S	num=s|gen=n	8	obj
+                12	,	,	F	FF	_	11	con
+                13	i	il	R	RD	num=p|gen=m	14	det
+                14	capelli	capello	S	S	num=p|gen=m	11	conj
+                15	,	,	F	FF	_	11	con
+                16	il	il	R	RD	num=s|gen=m	17	det
+                17	volto	volto	S	S	num=s|gen=m	11	conj
+                18	in	in	E	E	_	8	comp
+                19	segno	segno	S	S	num=s|gen=m	18	prep
+                20	di	di	E	E	_	19	comp
+                21	devoto	devoto	S	S	num=s|gen=m	20	prep
+
+                1	affetto	affetto	S	S	num=s|gen=m	0	ROOT
+                2	e	e	C	CC	_	1	con
+                3	d'	di	E	E	_	1	conj
+                4	amore	amore	S	S	num=s|gen=m	3	prep
+                5	sublime	sublime	A	A	num=s|gen=n	4	mod
+                6	.	.	F	FS	_	1	punc
+
+                1	Mi	mi	P	PC	num=s|per=1|gen=n	2	clit
+                2	raccomando	raccomandare	V	V	num=s|per=1|mod=i|ten=p	0	ROOT
+
+                1	tanto	tanto	D	DI	num=s|gen=m	3	mod
+                2	tanto	tanto	B	B	_	1	mod
+                3	scrivi-	scrivere	V	V	num=s|per=2|mod=m|ten=p	0	ROOT
+                4	me	me	P	PC	num=s|per=1|gen=n	3	obj
+                5	lungamente	lungo	B	B	_	3	mod
+                6	e	e	C	CC	_	3	con
+                7	spiega-	spiegare	V	V	num=s|per=2|mod=m|ten=p	3	conj
+                8	me	me	P	PC	num=s|per=1|gen=n	3	subj
+
+                1	la	il	R	RD	num=s|gen=f	2	det
+                2	ragione	ragione	S	S	num=s|gen=f	0	ROOT
+                3	del	di	E	EA	num=s|gen=m	2	comp
+                4	tuo	tuo	A	AP	num=s|gen=m	5	mod
+                5	silenzio	silenzio	S	S	num=s|gen=m	3	prep
+                6	.	.	F	FS	_	2	punc
+
+                1	un	uno	R	RI	num=s|gen=m	2	det
+                2	bacio	bacio	S	S	num=s|gen=m	0	ROOT
+                3	immenso	immenso	A	A	num=s|gen=m	2	mod
+                4	,	,	F	FF	_	5	punc
+                5	infinito	infinito	A	A	num=s|gen=m	2	mod
+
+                1	tuo	tuo	A	AP	num=s|gen=m	2	mod
+                2	Giovannino	Giovannino	S	SP	_	0	ROOT
+        </analisi>
+        <analisi id="cartolina_7694-021">
+                1	Mia	mio	A	AP	num=s|gen=f	3	mod
+                2	buona	buono	A	A	num=s|gen=f	3	mod
+                3	Oliva	Oliva	S	SP	_	0	ROOT
+
+                1	Il	il	R	RD	num=s|gen=m	2	det
+                2	tedio	tedio	S	S	num=s|gen=m	4	subj
+                3	mi	mi	P	PC	num=s|per=1|gen=n	4	clit
+                4	assale	assale	S	S	num=s|gen=m	6	mod_temp
+                5	qui	qui	B	B	_	4	mod_temp
+                6	a	a	E	E	_	0	_
+
+                1	Milano	Milano	S	SP	_	0	ROOT
+                2	dove	dove	B	B	_	5	mod_loc
+                3	si	si	P	PC	num=n|per=3|gen=n	4	clit
+                4	suol	suol	V	VM	num=s|per=3|mod=i|ten=p	5	modal
+                5	venire	venire	V	V	mod=f	1	mod_rel
+                6	per	per	E	E	_	5	arg
+                7	obliare	obliare	V	V	mod=f	6	prep
+                8	le	il	R	RD	num=p|gen=f	9	det
+                9	disillusioni	disillusione	S	S	num=p|gen=f	7	obj
+                10	e	e	C	CC	_	9	con
+                11	le	il	R	RD	num=p|gen=f	12	det
+                12	amarezze	amarezza	S	S	num=p|gen=f	9	conj
+                13	della	di	E	EA	num=s|gen=f	12	comp
+                14	vita	vita	S	S	num=s|gen=f	13	prep
+                15	.	.	F	FS	_	1	punc
+
+                1	È	essere	V	V	num=s|per=3|mod=i|ten=p	0	ROOT
+                2	il	il	R	RD	num=s|gen=m	4	det
+                3	tuo	tuo	A	AP	num=s|gen=m	4	mod
+                4	pensiero	pensiero	S	S	num=s|gen=m	1	pred
+                5	costante	costante	A	A	num=s|gen=n	4	mod
+                6	,	,	F	FF	_	7	punc
+                7	affettuoso	affettuoso	A	A	num=s|gen=m	4	mod
+                8	che	che	P	PR	num=n|gen=n	10	subj
+                9	mi	mi	P	PC	num=s|per=1|gen=n	10	comp_ind
+                10	infonde	infondere	V	V	num=s|per=3|mod=i|ten=p	7	mod_rel
+
+                1	la	il	R	RD	num=s|gen=f	2	det
+                2	nostalgia	nostalgia	S	S	num=s|gen=f	0	ROOT
+                3	della	di	E	EA	num=s|gen=f	2	comp
+                4	tua	tuo	A	AP	num=s|gen=f	3	prep
+
+                1	lontananza	lontananza	S	S	num=s|gen=f	0	ROOT
+                2	.	.	F	FS	_	1	punc
+
+                1	Oliva	Oliva	S	SP	_	3	mod
+                2	,	,	F	FF	_	1	punc
+                3	Oliva	Oliva	S	SP	_	4	subj
+                4	è	essere	V	V	num=s|per=3|mod=i|ten=p	0	ROOT
+                5	l'	il	R	RD	num=s|gen=n	6	det
+                6	amor	amor	S	S	num=s|gen=m	4	pred
+                7	tuo	tuo	A	AP	num=s|gen=m	6	mod
+
+                1	che	che	P	PR	num=n|gen=n	3	subj
+                2	mi	mi	P	PC	num=s|per=1|gen=n	3	comp_ind
+                3	oscura	oscurare	V	V	num=s|per=3|mod=i|ten=p	0	ROOT
+                4	tutte	tutto	T	T	num=p|gen=f	6	mod
+                5	le	il	R	RD	num=p|gen=f	6	det
+                6	gioie	gioia	S	S	num=p|gen=f	3	subj
+
+                1	della	di	E	EA	num=s|gen=f	5	comp
+                2	vita	vita	S	S	num=s|gen=f	1	prep
+                3	......	......	C	CS	_	5	mod
+                4	t'	ti	P	PC	num=s|per=2|gen=n	5	clit
+                5	amo	amare	V	V	num=s|per=1|mod=i|ten=p	0	ROOT
+                6	tanto	tanto	B	B	_	5	mod
+
+                1	tanto	tanto	B	B	_	4	mod
+                2	e	e	C	CC	_	1	con
+                3	mi	mi	P	PC	num=s|per=1|gen=n	4	comp_ind
+                4	strugge	struggere	V	V	num=s|per=3|mod=i|ten=p	0	ROOT
+                5	il	il	R	RD	num=s|gen=m	6	det
+                6	desiderio	desiderio	S	S	num=s|gen=m	4	subj
+
+                1	d'	di	E	E	_	0	ROOT
+                2	esser-	essere	V	VA	mod=f	3	aux
+                3	ti	ti	P	PC	num=s|per=2|gen=n	5	det
+                4	vicino.Un	vicino.Un	A	A	num=s|gen=m	5	mod
+                5	bacio	bacio	S	S	num=s|gen=m	1	prep
+                6	ardentissimo	ardente	A	A	num=s|gen=m	5	mod
+
+                1	Giovannino	Giovannino	S	SP	_	0	ROOT
+        </analisi>
+        <analisi id="cartolina_7694-022">
+                1	Oliva	Oliva	S	SP	_	0	ROOT
+                2	,	,	F	FF	_	1	punc
+
+                1	Sono	essere	V	V	num=p|per=3|mod=i|ten=p	0	ROOT
+                2	felice	felice	A	A	num=s|gen=n	1	pred
+                3	di	di	E	E	_	2	comp
+                4	annunziarti	annunziarti	S	S	num=p|gen=m	3	prep
+                5	che	che	P	PR	num=n|gen=n	1	subj
+
+                1	salvo	salvo	E	E	_	2	mod
+                2	complicazioni	complicazione	S	S	num=p|gen=f	0	ROOT
+                3	per	per	E	E	_	2	comp
+                4	il	il	R	RD	num=s|gen=m	5	det
+                5	giorno	giorno	S	S	num=s|gen=m	3	prep
+
+                1	di	di	E	E	_	3	comp
+                2	Natale	Natale	S	SP	_	1	prep
+                3	sarò	essere	V	V	num=s|per=1|mod=i|ten=f	0	ROOT
+                4	a	a	E	E	_	3	pred
+                5	casa	casa	S	S	num=s|gen=f	4	prep
+                6	ed	e	C	CC	_	3	con
+                7	il	il	R	RD	num=s|gen=m	8	det
+                8	primo	primo	N	NO	num=s|gen=m	3	subj
+
+                1	del	di	E	EA	num=s|gen=m	4	comp_temp
+                2	novello	novello	A	A	num=s|gen=m	3	mod
+                3	anno	anno	S	S	num=s|gen=m	1	prep
+                4	sarò	essere	V	V	num=s|per=1|mod=i|ten=f	0	ROOT
+                5	da	da	E	E	_	4	pred
+                6	te	te	P	PE	num=s|per=2|gen=n	5	prep
+                7	.	.	F	FS	_	4	punc
+
+                1	Io	io	P	PE	num=s|per=1|gen=n	2	subj
+                2	spero	sperare	V	V	num=s|per=1|mod=i|ten=p	0	ROOT
+                3	che	che	C	CS	_	2	arg
+                4	questi	questo	D	DD	num=p|gen=m	6	mod
+                5	pochi	poco	D	DI	num=p|gen=m	6	mod
+                6	giorni	giorno	S	S	num=p|gen=m	3	sub
+
+                1	che	che	P	PR	num=n|gen=n	3	subj
+                2	mi	mi	P	PC	num=s|per=1|gen=n	3	comp_ind
+                3	restano	restare	V	V	num=p|per=3|mod=i|ten=p	0	ROOT
+                4	d'	di	E	E	_	3	comp
+                5	ansia	ansia	S	S	num=s|gen=f	4	prep
+
+                1	possa	potere	V	VM	num=s|per=3|mod=c|ten=p	2	modal
+                2	passar-	passare	V	V	mod=f	0	ROOT
+                3	li	li	P	PC	num=p|per=3|gen=m	2	obj
+                4	quietamente	quieto	B	B	_	2	mod
+                5	.	.	F	FS	_	2	punc
+
+                1	Anche	anche	B	B	_	2	mod
+                2	da	da	E	E	_	4	comp
+                3	Spezia	Spezia	S	SP	_	2	prep
+                4	seguiterò	seguitare	V	V	num=s|per=1|mod=i|ten=f	0	ROOT
+                5	a	a	E	E	_	4	arg
+                6	scriver-	scrivere	V	V	mod=f	5	prep
+                7	ti	ti	P	PC	num=s|per=2|gen=n	6	obj
+                8	giornalmente	giornalmente	B	B	_	6	mod_loc
+                9	e	e	C	CC	_	4	con
+                10	ti	ti	P	PC	num=s|per=2|gen=n	11	comp_ind
+                11	darò	dare	V	V	num=s|per=1|mod=i|ten=f	4	conj
+
+                1	più	più	B	B	_	2	mod
+                2	volte	volta	S	S	num=p|gen=f	3	mod
+                3	indicazioni	indicazione	S	S	num=p|gen=f	0	ROOT
+                4	.	.	F	FS	_	3	punc
+
+                1	Per	per	E	E	_	4	comp
+                2	tanto	tanto	B	B	_	1	prep
+                3	il	il	R	RD	num=s|gen=m	4	det
+                4	fuoco	fuoco	S	S	num=s|gen=m	0	ROOT
+                5	ardente	ardente	A	A	num=s|gen=n	4	mod
+                6	che	che	P	PR	num=n|gen=n	4	mod
+
+                1	m'	m'	C	CC	_	2	con
+                2	arde	ardere	V	V	num=s|per=3|mod=i|ten=p	0	ROOT
+                3	nelle	in	E	EA	num=p|gen=f	2	comp_loc
+                4	vene	vena	S	S	num=p|gen=f	3	prep
+                5	-	-	F	FC	_	2	punc
+                6	-	-	F	FC	_	0	ROOT
+
+                1	-	-	F	FC	_	3	punc
+                2	-	-	F	FC	_	1	punc
+                3	vigore	vigore	S	S	num=s|gen=m	0	ROOT
+                4	pensando	pensare	V	V	mod=g	3	mod
+                5	che	che	C	CS	_	0	ROOT
+                6	presto	presto	B	B	_	5	sub
+
+                1	potrò	potere	V	VM	num=s|per=1|mod=i|ten=f	2	modal
+                2	riabbracciar-	riabbracciare	V	V	mod=f	0	ROOT
+                3	ti	ti	P	PC	num=s|per=2|gen=n	2	obj
+                4	.	.	F	FS	_	2	punc
+
+                1	Ora	ora	B	B	_	2	mod_temp
+                2	ho	avere	V	V	num=s|per=1|mod=i|ten=p	0	_
+                3	molto	molto	B	B	_	2	mod
+
+                1	da	da	E	E	_	0	ROOT
+                2	fare	fare	V	V	mod=f	1	prep
+                3	per	per	E	E	_	2	comp
+                4	le	il	R	RD	num=p|gen=f	5	det
+                5	consegne	consegna	S	S	num=p|gen=f	3	prep
+                6	.	.	F	FS	_	1	punc
+
+                1	Ama-	amare	V	V	num=s|per=2|mod=m|ten=p	0	ROOT
+                2	me	me	P	PC	num=s|per=1|gen=n	1	obj
+                3	tanto	tanto	B	B	_	5	mod
+                4	un	uno	R	RI	num=s|gen=m	5	det
+                5	bacio	bacio	S	S	num=s|gen=m	1	obj
+                6	tuo	tuo	A	AP	num=s|gen=m	5	mod
+                7	Giovannino	Giovannino	S	SP	_	5	mod
+        </analisi>
+        <analisi id="cartolina_7694-023">
+                
+        </analisi>
+        <analisi id="cartolina_7694-024">
+                1	Mia	mio	A	AP	num=s|gen=f	3	mod
+                2	cara	caro	A	A	num=s|gen=f	3	mod
+                3	Oliva	Oliva	S	SP	_	5	subj
+                4	,	,	F	FF	_	3	punc
+                5	sono	essere	V	V	num=p|per=3|mod=i|ten=p	0	ROOT
+                6	in	in	E	E	_	5	pred
+                7	vivo	vivo	A	A	num=s|gen=m	8	mod
+                8	orgasmo	orgasmo	S	S	num=s|gen=m	6	prep
+
+                1	per	per	E	E	_	5	ROOT
+                2	ottenere	ottenere	V	V	mod=f	0	ROOT
+                3	un	uno	R	RI	num=s|gen=m	5	det
+                4	breve	breve	A	A	num=s|gen=n	5	mod
+                5	permesso	permesso	S	S	num=s|gen=m	2	obj
+                6	,	,	F	FF	_	7	punc
+                7	chissà	chissà	B	B	_	8	mod
+                8	che	che	C	CS	_	2	ROOT
+
+                1	non	non	B	BN	_	3	neg
+                2	venga	venire	V	VA	num=s|per=3|mod=c|ten=p	3	modal
+                3	appagato	appagare	V	V	num=s|mod=p|gen=m	0	ROOT
+                4	questo	questo	D	DD	num=s|gen=m	7	mod
+                5	mio	mio	A	AP	num=s|gen=m	7	mod
+                6	grande	grande	A	A	num=s|gen=n	7	mod
+                7	desiderio	desiderio	S	S	num=s|gen=m	3	subj_pass
+
+                1	Sarebbe	essere	V	V	num=s|per=3|mod=d|ten=p	0	ROOT
+                2	una	uno	R	RI	num=s|gen=f	3	det
+                3	gioia	gioia	S	S	num=s|gen=f	1	pred
+                4	troppo	troppo	B	B	_	5	mod
+                5	bella	bello	A	A	num=s|gen=f	3	mod
+                6	.	.	F	FS	_	1	punc
+
+                1	Ti	ti	P	PC	num=s|per=2|gen=n	2	clit
+                2	penso	pensare	V	V	num=s|per=1|mod=i|ten=p	0	ROOT
+
+                1	sempre	sempre	B	B	_	2	mod
+                2	con	con	E	E	_	7	comp
+                3	tutta	tutto	T	T	num=s|gen=f	5	mod
+                4	l'	il	R	RD	num=s|gen=n	5	det
+                5	anima	anima	S	S	num=s|gen=f	2	prep
+                6	,	,	F	FF	_	2	punc
+                7	penso	pensare	V	V	num=s|per=1|mod=i|ten=p	0	ROOT
+                8	alla	al	E	EA	num=s|gen=f	7	comp
+                9	mia	mio	A	AP	num=s|gen=f	8	prep
+
+                1	Oliva	oliva	S	S	num=s|gen=f	0	ROOT
+                2	,	,	F	FF	_	3	punc
+                3	al	a	E	EA	num=s|gen=m	1	comp
+                4	mio	mio	A	AP	num=s|gen=m	5	mod
+                5	amore	amore	S	S	num=s|gen=m	3	prep
+                6	lontano	lontano	A	A	num=s|gen=m	5	mod
+                7	a	a	E	E	_	6	comp
+                8	tante	tanto	D	DI	num=p|gen=f	7	prep
+                9	tante	tanto	D	DI	num=p|gen=f	8	mod
+
+                1	belle	bello	A	A	num=p|gen=f	2	mod
+                2	cose	cosa	S	S	num=p|gen=f	0	ROOT
+                3	e	e	C	CC	_	2	con
+                4	mi	mi	P	PC	num=s|per=1|gen=n	5	comp_ind
+                5	struggo	struggere	V	V	num=s|per=1|mod=i|ten=p	2	conj
+                6	.	.	F	FS	_	2	punc
+
+                1	Dall'	da	E	EA	num=s|gen=n	0	ROOT
+                2	ansia	ansia	S	S	num=s|gen=f	1	prep
+                3	febbrile	febbrile	A	A	num=s|gen=n	2	mod
+
+                1	di	di	E	E	_	0	ROOT
+                2	venire	venire	V	V	mod=f	1	prep
+                3	a	a	E	E	_	2	arg
+                4	posare	posare	V	V	mod=f	3	prep
+                5	un	uno	R	RI	num=s|gen=m	4	obj
+                6	caro	caro	A	A	num=s|gen=m	5	mod
+                7	e	e	C	CC	_	6	con
+                8	purissimo	puro	A	A	num=s|gen=m	6	conj
+
+                1	bacio	bacio	S	S	num=s|gen=m	0	ROOT
+                2	sulla	su	E	EA	num=s|gen=f	1	comp_loc
+                3	tua	tuo	A	AP	num=s|gen=f	4	mod
+                4	fronte	fronte	S	S	num=s|gen=n	2	prep
+                5	.	.	F	FS	_	1	punc
+
+                1	Auguri	augurio	S	S	num=p|gen=m	0	ROOT
+                2	infiniti	infinito	A	A	num=p|gen=m	1	mod
+
+                1	per	per	E	E	_	0	ROOT
+                2	il	il	R	RD	num=s|gen=m	4	det
+                3	nuovo	nuovo	A	A	num=s|gen=m	4	mod
+                4	anno	anno	S	S	num=s|gen=m	1	prep
+                5	a	a	E	E	_	4	comp
+                6	tutti	tutto	P	PI	num=p|gen=m	8	mod
+                7	tuo	tuo	A	AP	num=s|gen=m	8	mod
+                8	Giovannino	Giovannino	S	SP	_	5	prep
+        </analisi>
+        <analisi id="cartolina_7694-025">
+                1	Deliziando	deliziare	V	V	mod=g	0	_
+                1	affettuosissimi	affettuoso	A	A	num=p|gen=m	0	ROOT
+                1	Giovannino	Giovannino	S	SP	_	0	ROOT
+
+        </analisi>
+        <analisi id="cartolina_7694-026">
+                1	Per	per	E	E	_	5	comp
+                2	l'	il	R	RD	num=s|gen=n	3	det
+                3	armamento	armamento	S	S	num=s|gen=m	1	prep
+                4	i	il	R	RD	num=p|gen=m	5	det
+                5	più	più	B	B	_	0	_
+
+                1	fervidi	fervido	A	A	num=p|gen=m	2	mod
+                2	auguri	augurio	S	S	num=p|gen=m	0	ROOT
+        </analisi>
+        <analisi id="cartolina_7694-027">
+                1	Saluti	saluto	S	S	num=p|gen=m	0	ROOT
+                2	affettuosi	affettuoso	A	A	num=p|gen=m	1	mod
+                3	a	a	E	E	_	1	ROOT
+
+                1	tutti	tutto	P	PI	num=p|gen=m	0	ROOT
+                2	.	.	F	FS	_	1	punc
+
+                1	Navigo	navigare	V	V	num=s|per=1|mod=i|ten=p	0	ROOT
+                2	in	in	E	E	_	1	comp
+
+                1	cattive	cattivo	A	A	num=p|gen=f	2	mod
+                2	acque	acqua	S	S	num=p|gen=f	0	ROOT
+                3	.	.	F	FS	_	2	punc
+
+                1	Giovannino	Giovannino	S	SP	_	0	ROOT
+        </analisi>
+        <analisi id="cartolina_7694-028">
+                
+        </analisi>
+        <analisi id="cartolina_7694-029">
+                
+        </analisi>
+        <analisi id="cartolina_7694-030">
+                1	Saluti	saluto	S	S	num=p|gen=m	0	ROOT
+                2	cordialissimi	cordiale	A	A	num=p|gen=m	1	mod
+
+                1	a	a	E	E	_	0	ROOT
+                2	tutti	tutto	P	PI	num=p|gen=m	1	prep
+
+                1	Mario	Mario	S	SP	_	0	ROOT
+        </analisi>
+        <analisi id="cartolina_7694-031">
+                1	Ti	ti	P	PC	num=s|per=2|gen=n	2	clit
+                2	desidero	desiderare	V	VM	num=s|per=1|mod=i|ten=p	0	_
+                3	fortemente	fortemente	B	B	_	2	mod
+
+                1	Giovannino	Giovannino	S	SP	_	0	ROOT
+        </analisi>
+        <analisi id="cartolina_7694-032">
+                
+        </analisi>
+        <analisi id="cartolina_7694-033">
+                
+        </analisi>
+        <analisi id="cartolina_7694-034">
+                1	Dopo	dopo	E	E	_	0	ROOT
+                2	circa	circa	B	B	_	4	mod
+                3	20	20	N	N	_	4	mod
+                4	giorni	giorno	S	S	num=p|gen=m	1	prep
+
+                1	sono	essere	V	V	num=p|per=3|mod=i|ten=p	0	ROOT
+                2	oggi	oggi	B	B	_	1	pred
+                3	soltanto	soltanto	B	B	_	1	mod
+
+                1	appena	appena	B	B	_	2	mod
+                2	in	in	E	E	_	0	ROOT
+                3	grado	grado	S	S	num=s|gen=m	2	prep
+
+                1	di	di	E	E	_	0	ROOT
+                2	riprendere	riprendere	V	V	mod=f	1	prep
+                3	la	il	R	RD	num=s|gen=f	2	mod
+
+                1	penna	penna	S	S	num=s|gen=f	0	ROOT
+                2	in	in	E	E	_	1	comp
+                3	mano	mano	S	S	num=s|gen=f	2	prep
+                4	.	.	F	FS	_	1	punc
+
+                1	Sto	stare	V	V	num=s|per=1|mod=i|ten=p	0	ROOT
+                2	un	uno	R	RI	num=s|gen=m	3	det
+                3	po	po	S	S	num=s|gen=m	1	obj
+                4	meglio	meglio	B	B	_	3	mod
+                5	.	.	F	FS	_	1	punc
+
+                1	Grazie	Grazie	S	S	num=n|gen=n	0	ROOT
+                2	a	a	E	E	_	1	comp
+                3	tutti	tutto	P	PI	num=p|gen=m	2	prep
+
+                1	dei	di	E	EA	num=p|gen=m	0	_
+                2	saluti	saluto	S	S	num=p|gen=m	1	prep
+                3	e	e	C	CC	_	1	con
+
+                1	auguri	augurio	S	S	num=p|gen=m	0	ROOT
+
+                1	Affettuosissimo	affettuoso	A	A	num=s|gen=m	0	ROOT
+
+                1	Giuseppe	Giuseppe	S	SP	_	2	mod
+                2	Magi	Magi	S	SP	_	0	ROOT
+                3	Morfede	Morfede	S	SP	_	2	mod
+        </analisi>
+        <analisi id="cartolina_7694-035">
+                1	Carissima	caro	A	A	num=s|gen=f	2	mod
+                2	Oliva	Oliva	S	SP	_	0	ROOT
+
+                1	Finalmente	finalmente	B	B	_	0	ROOT
+                2	!	!	F	FS	_	1	punc
+
+                1	Credevo	credere	V	V	num=s|per=1|mod=i|ten=i	0	ROOT
+                2	proprio	proprio	B	B	_	1	mod
+                3	che	che	C	CS	_	1	arg
+                4	mi	mi	P	PC	num=s|per=1|gen=n	6	comp_ind
+                5	avessi	avere	V	VA	num=s|per=1|mod=c|ten=i	6	aux
+                6	dimenticato	dimenticare	V	V	num=s|mod=p|gen=m	3	sub
+                7	!	!	F	FS	_	1	punc
+
+                1	Speriamo	sperare	V	V	num=p|per=1|mod=i|ten=p	0	ROOT
+
+                1	che	che	P	PR	num=n|gen=n	7	subj
+                2	,	,	F	FF	_	3	punc
+                3	come	come	C	CS	_	7	mod
+                4	dici	dire	V	V	num=s|per=2|mod=i|ten=p	3	sub
+                5	,	,	F	FF	_	3	punc
+                6	mi	mi	P	PC	num=s|per=1|gen=n	7	comp_ind
+                7	scriverai	scrivere	V	V	num=s|per=2|mod=i|ten=f	0	ROOT
+                8	più	più	B	B	_	9	mod
+                9	sovente	sovente	B	B	_	7	mod
+                10	per	per	E	E	_	7	ROOT
+
+                1	l'	il	R	RD	num=s|gen=n	2	det
+                2	avvenire	avvenire	S	S	num=s|gen=m	0	ROOT
+                3	.	.	F	FS	_	2	punc
+
+                1	Godo	godere	V	V	num=s|per=1|mod=i|ten=p	0	ROOT
+                2	nel	in	E	EA	num=s|gen=m	1	arg
+                3	saper-	sapere	V	V	mod=f	2	prep
+                4	ti	ti	P	PC	num=s|per=2|gen=n	3	clit
+                5	in	in	E	E	_	3	comp
+                6	salute	salute	S	S	num=s|gen=f	5	prep
+                7	;	;	F	FC	_	1	punc
+
+                1	mi	mi	P	PC	num=s|per=1|gen=n	2	comp_ind
+                2	meraviglia	meravigliare	V	V	num=s|per=3|mod=i|ten=p	0	ROOT
+                3	la	il	R	RD	num=s|gen=f	6	det
+                4	tua	tuo	A	AP	num=s|gen=f	6	mod
+                5	nuova	nuovo	A	A	num=s|gen=f	6	mod
+                6	professione	professione	S	S	num=s|gen=f	2	obj
+
+                1	Perchè	Perchè	B	B	_	0	ROOT
+                2	?	?	F	FS	_	1	punc
+
+                1	E	e	C	CC	_	4	con
+                2	i	il	R	RD	num=p|gen=m	4	det
+                3	tuoi	tuo	A	AP	num=p|gen=m	4	mod
+                4	scolari	scolaro	S	S	num=p|gen=m	0	ROOT
+                5	?	?	F	FS	_	4	punc
+
+                1	Puoi	potere	V	VM	num=s|per=2|mod=i|ten=p	2	modal
+                2	vivere	vivere	V	V	mod=f	0	ROOT
+                3	sen	sen	B	BN	_	2	mod_loc
+                4	-	-	F	FC	_	2	punc
+
+                1	za	za	S	SW	num=n|gen=n	0	ROOT
+                2	di	di	E	E	_	1	comp
+                3	loro	loro	P	PE	num=p|per=3|gen=n	2	prep
+                4	?	?	F	FS	_	1	punc
+
+                1	E	e	C	CC	_	3	con
+                2	il	il	R	RD	num=s|gen=m	3	det
+                3	latino	latino	S	S	num=s|gen=m	0	ROOT
+                4	?	?	F	FS	_	3	punc
+
+                1	Non	non	B	BN	_	0	ROOT
+                2	potrò	potere	V	VM	num=s|per=1|mod=i|ten=f	1	ROOT
+                3	a	a	E	E	_	6	comp
+                4	vere	vera	S	S	num=p|gen=f	3	prep
+                5	l'	il	R	RD	num=s|gen=n	6	det
+                6	onore	onore	S	S	num=s|gen=m	2	subj
+                7	di	di	E	E	_	6	arg
+                8	chiamar-	chiamare	V	V	mod=f	7	prep
+                9	ti	ti	P	PC	num=s|per=2|gen=n	8	clit
+                10	professoressa	professore	S	S	num=s|gen=f	8	obj
+                11	?	?	F	FS	_	2	punc
+
+                1	Dirai	dire	V	V	num=s|per=2|mod=i|ten=f	0	ROOT
+                2	che	che	C	CS	_	1	arg
+                3	sono	essere	V	V	num=p|per=3|mod=i|ten=p	0	ROOT
+
+                1	molto	molto	B	B	_	2	mod
+                2	curioso	curioso	A	A	num=s|gen=m	0	ROOT
+                3	,	,	F	FF	_	6	punc
+                4	anzi	anzi	B	B	_	6	mod
+                5	più	più	B	B	_	6	mod
+                6	indiscreto	indiscreto	A	A	num=s|gen=m	2	mod
+                7	che	che	C	CS	_	6	comp
+                8	curioso	curioso	A	A	num=s|gen=m	7	sub
+                9	,	,	F	FF	_	6	punc
+
+                1	ma	ma	C	CC	_	5	con
+                2	che	che	D	DE	num=n|gen=n	5	subj
+                3	vuoi	volere	V	VM	num=s|per=2|mod=i|ten=p	5	modal
+                4	mi	mi	P	PC	num=s|per=1|gen=n	5	comp_ind
+                5	meraviglia	meravigliare	V	V	num=s|per=3|mod=i|ten=p	0	ROOT
+                6	talmente	talmente	B	B	_	5	mod
+                7	il	il	R	RD	num=s|gen=m	5	ROOT
+
+                1	tuo	tuo	A	AP	num=s|gen=m	3	mod
+                2	nuovo	nuovo	A	A	num=s|gen=m	3	mod
+                3	indirizzo	indirizzo	S	S	num=s|gen=m	8	ROOT
+                4	,	,	F	FF	_	8	punc
+                5	che	che	P	PR	num=n|gen=n	8	subj
+                6	a	a	E	E	_	8	comp
+                7	rischio	rischio	S	S	num=s|gen=m	6	prep
+                8	della	di	E	EA	num=s|gen=f	0	ROOT
+
+                1	tua	tuo	A	AP	num=s|gen=f	2	mod
+                2	collera	collera	S	S	num=s|gen=f	0	ROOT
+                3	,	,	F	FF	_	4	punc
+                4	permetto	permettere	V	V	num=s|per=1|mod=i|ten=p	2	mod
+                5	di	di	E	E	_	4	arg
+                6	formular-	formulare	V	V	mod=f	5	prep
+                7	ti	ti	P	PC	num=s|per=2|gen=n	6	obj
+
+                1	queste	questo	D	DD	num=p|gen=f	2	mod
+                2	domande	domanda	S	S	num=p|gen=f	0	ROOT
+                3	.	.	F	FS	_	2	punc
+
+                1	Fam-	fare	V	V	num=s|per=2|mod=m|ten=p	0	ROOT
+                2	mi	mi	P	PC	num=s|per=1|gen=n	1	obj
+                3	sapere	sapere	V	V	mod=f	1	arg
+                4	qualche	qualche	D	DI	num=s|gen=n	3	mod
+
+                1	cosa	cosa	S	S	num=s|gen=f	9	mod
+                2	,	,	F	FF	_	1	punc
+                3	scrivi-	scrivere	V	V	num=s|per=2|mod=m|ten=p	9	mod
+                4	me	me	P	PC	num=s|per=1|gen=n	3	obj
+                5	a	a	E	E	_	3	comp
+                6	lungo	lungo	S	S	num=s|gen=m	5	prep
+                7	,	,	F	FF	_	8	punc
+                8	non	non	B	BN	_	9	neg
+                9	cominciare	cominciare	V	V	mod=f	0	_
+
+                1	niente	niente	B	B	_	5	mod
+                2	però	però	B	B	_	5	mod
+                3	e	e	C	CC	_	2	con
+                4	mi	mi	P	PC	num=s|per=1|gen=n	5	comp_ind
+                5	farai	fare	V	V	num=s|per=2|mod=i|ten=f	0	ROOT
+
+                1	veramente	vero	B	B	_	2	mod
+                2	piacere	piacere	S	S	num=s|gen=m	0	ROOT
+                3	.	.	F	FS	_	2	punc
+
+                1	Io	io	P	PE	num=s|per=1|gen=n	2	subj
+                2	sto	stare	V	V	num=s|per=1|mod=i|ten=p	0	ROOT
+
+                1	benissimo	benissimo	B	B	_	2	mod
+                2	come	come	E	E	_	10	comp
+                3	tutti	tutto	D	DI	num=p|gen=m	4	mod
+                4	noi	noi	P	PE	num=p|per=1|gen=n	2	prep
+                5	e	e	C	CC	_	2	con
+                6	come	come	B	B	_	10	mod
+                7	di	di	E	E	_	6	comp
+                8	voi	voi	P	PE	num=p|per=2|gen=n	7	prep
+                9	non	non	B	BN	_	10	neg
+                10	dubito	dubitare	V	V	num=s|per=1|mod=i|ten=p	0	ROOT
+
+                1	Saluta	salutare	V	V	num=s|per=3|mod=i|ten=p	0	ROOT
+                2	tutti	tutto	P	PI	num=p|gen=m	1	obj
+                3	caramente	caro	B	B	_	1	mod
+                4	anche	anche	B	B	_	1	mod
+
+                1	a	a	E	E	_	0	_
+                2	nome	nome	S	S	num=s|gen=m	1	prep
+                3	di	di	E	E	_	2	comp
+                4	mamma	mamma	S	S	num=s|gen=f	3	prep
+                5	e	e	C	CC	_	4	con
+                6	Nino	Nino	S	SP	_	4	conj
+                7	e	e	C	CC	_	1	con
+
+                1	tu	tu	P	PE	num=s|per=2|gen=n	2	subj
+                2	ricevi	ricevere	V	V	num=s|per=2|mod=i|ten=p	0	ROOT
+                3	un	uno	R	RI	num=s|gen=m	4	det
+                4	abbraccio	abbraccio	S	S	num=s|gen=m	2	obj
+                5	affettuoso	affettuoso	A	A	num=s|gen=m	4	mod
+
+                1	da	da	E	E	_	0	ROOT
+                2	Mario	Mario	S	SP	_	1	prep
+                3	.	.	F	FS	_	1	punc
+        </analisi>
+        <analisi id="cartolina_7694-036">
+                1	Oliva	Oliva	S	SP	_	0	ROOT
+                2	mia	mio	A	AP	num=s|gen=f	1	mod
+                3	,	,	F	FF	_	1	punc
+
+                1	Non	non	B	BN	_	2	neg
+                2	so	sapere	V	V	num=s|per=1|mod=i|ten=p	0	ROOT
+                3	esprimer-	esprimere	V	V	mod=f	2	arg
+                4	ti	ti	P	PC	num=s|per=2|gen=n	3	comp_ind
+                5	la	il	R	RD	num=s|gen=f	6	det
+                6	gioia	gioia	S	S	num=s|gen=f	3	obj
+                7	che	che	P	PR	num=n|gen=n	8	obj
+                8	sento	sentire	V	V	num=s|per=1|mod=i|ten=p	6	mod_rel
+                9	nell'	in	E	EA	num=s|gen=n	3	arg
+                10	affermar-	affermare	V	V	mod=f	9	prep
+                11	ti	ti	P	PC	num=s|per=2|gen=n	10	clit
+                12	che	che	C	CS	_	10	comp
+                13	il	il	R	RD	num=s|gen=m	15	det
+                14	27	27	N	N	_	15	mod
+                15	mattino	mattino	S	S	num=s|gen=m	12	prep
+                16	col	con	E	EA	num=s|gen=m	15	comp
+                17	treno	treno	S	S	num=s|gen=m	16	prep
+                18	delle	di	E	EA	num=p|gen=f	15	comp
+
+                1	8	8	N	N	_	3	mod_temp
+                2	io	io	P	PE	num=s|per=1|gen=n	3	subj
+                3	sarò	essere	V	V	num=s|per=1|mod=i|ten=f	0	ROOT
+                4	a	a	E	E	_	3	pred
+                5	Ravenna	Ravenna	S	SP	_	4	prep
+                6	.	.	F	FS	_	3	punc
+
+                1	Mia	mio	A	AP	num=s|gen=f	3	mod
+                2	buona	buono	A	A	num=s|gen=f	3	mod
+                3	Oliva	Oliva	S	SP	_	0	ROOT
+
+                1	ti	ti	P	PC	num=s|per=2|gen=n	4	comp_ind
+                2	è	essere	V	VA	num=s|per=3|mod=i|ten=p	4	aux
+                3	finalmente	finalmente	B	B	_	4	mod
+                4	arrivato	arrivare	V	V	num=s|mod=p|gen=m	0	ROOT
+                5	un	uno	R	RI	num=s|gen=m	7	det
+                6	nostro	nostro	A	AP	num=s|gen=m	7	mod
+                7	segno	segno	S	S	num=s|gen=m	4	obj
+                8	;	;	F	FC	_	4	punc
+                9	auguriamo-	augurare	V	V	num=p|per=1|mod=m|ten=p	4	conj
+                10	ci	ci	P	PC	num=p|per=1|gen=n	9	clit
+                11	di	di	E	E	_	9	comp
+                12	cuore	cuore	S	S	num=s|gen=m	11	prep
+                13	che	che	P	PR	num=n|gen=n	17	subj
+                14	tutte	tutto	T	T	num=p|gen=f	17	mod
+                15	le	il	R	RD	num=p|gen=f	17	det
+                16	nostre	nostro	A	AP	num=p|gen=f	17	mod
+                17	aspirazioni	aspirazione	S	S	num=p|gen=f	9	obj
+
+                1	saranno	essere	V	VA	num=p|per=3|mod=i|ten=f	4	aux
+                2	anch'	anche	B	B	_	3	mod
+                3	esse	esse	P	PE	num=p|per=3|gen=f	4	subj
+                4	esaudite	esaudire	V	V	num=p|mod=p|gen=f	0	ROOT
+                5	.	.	F	FS	_	4	punc
+
+                1	Un	uno	R	RI	num=s|gen=m	0	_
+                2	soavissimo	soave	A	A	num=s|gen=m	1	mod
+
+                1	ed	e	C	CC	_	3	con
+                2	affettuosissimo	affettuoso	A	A	num=s|gen=m	3	mod
+                3	bacio	bacio	S	S	num=s|gen=m	0	ROOT
+                4	tuo	tuo	A	AP	num=s|gen=m	3	mod
+                5	Giovannino	Giovannino	S	SP	_	3	mod
+        </analisi>
+        <analisi id="cartolina_7694-037">
+                1	Oliva	Oliva	S	SP	_	0	ROOT
+                2	,	,	F	FF	_	1	punc
+
+                1	È	essere	V	V	num=s|per=3|mod=i|ten=p	0	ROOT
+                2	il	il	R	RD	num=s|gen=m	4	det
+                3	tuo	tuo	A	AP	num=s|gen=m	4	mod
+                4	Giovannino	Giovannino	S	SP	_	1	pred
+                5	che	che	P	PR	num=n|gen=n	7	subj
+                6	t'	ti	P	PC	num=s|per=2|gen=n	7	obj
+                7	invoca	invocare	V	V	num=s|per=3|mod=i|ten=p	4	mod_rel
+                8	,	,	F	FF	_	1	con
+
+                1	che	che	P	PR	num=n|gen=n	3	subj
+                2	t'	ti	P	PC	num=s|per=2|gen=n	3	obj
+                3	ama	amare	V	V	num=s|per=3|mod=i|ten=p	0	ROOT
+                4	ardentemente	ardentemente	B	B	_	3	mod
+                5	,	,	F	FF	_	6	punc
+                6	divinamente	divino	B	B	_	3	mod
+                7	!	!	F	FS	_	3	punc
+
+                1	Quando	quando	C	CS	_	0	ROOT
+                2	ci	ci	P	PC	num=p|per=1|gen=n	3	comp_ind
+                3	sarà	essere	V	V	num=s|per=3|mod=i|ten=f	1	sub
+                4	concesfo	concesfo	A	A	num=s|gen=m	3	pred
+                5	d'	di	E	E	_	4	arg
+                6	amar-	amare	V	V	mod=f	5	prep
+                7	ci	ci	P	PC	num=p|per=1|gen=n	6	clit
+                8	come	come	C	CS	_	6	comp
+
+                1	proprio	proprio	B	B	_	4	mod
+                2	il	il	R	RD	num=s|gen=m	4	det
+                3	nostro	nostro	A	AP	num=s|gen=m	4	mod
+                4	cuore	cuore	S	S	num=s|gen=m	0	ROOT
+                5	ci	ci	P	PC	num=p|per=1|gen=n	4	comp
+                6	detta	detta	N	NO	num=s|gen=f	5	mod
+                7	?	?	F	FS	_	4	punc
+
+                1	Quando	quando	C	CS	_	0	ROOT
+                2	io	io	P	PE	num=s|per=1|gen=n	1	sub
+
+                1	soavemente	soavemente	B	B	_	3	mod
+                2	potrò	potere	V	VM	num=s|per=1|mod=i|ten=f	3	modal
+                3	adagiare	adagiare	V	V	mod=f	0	ROOT
+                4	il	il	R	RD	num=s|gen=m	6	det
+                5	mio	mio	A	AP	num=s|gen=m	6	mod
+                6	capo	capo	S	S	num=s|gen=m	3	obj
+
+                1	ormai	ormai	B	B	_	2	mod
+                2	stordito	stordito	A	A	num=s|gen=m	0	ROOT
+                3	tanto	tanto	B	B	_	2	mod
+                4	,	,	F	FF	_	5	punc
+                5	felicemente	felicemente	B	B	_	6	mod
+                6	sul	su	E	EA	num=s|gen=m	2	comp
+
+                1	tuo	tuo	A	AP	num=s|gen=m	3	mod
+                2	purisfimo	purisfimo	A	A	num=s|gen=m	3	mod
+                3	grembo	grembo	S	S	num=s|gen=m	0	ROOT
+                4	e	e	C	CC	_	3	con
+                5	dormire	dormire	V	V	mod=f	3	conj
+
+                1	come	come	E	E	_	5	comp
+                2	il	il	R	RD	num=s|gen=m	3	det
+                3	fanciullo	fanciullo	S	S	num=s|gen=m	1	prep
+                4	lieto	lieto	A	A	num=s|gen=m	3	mod
+                5	suole	solere	V	V	num=s|per=3|mod=i|ten=p	0	ROOT
+                6	,	,	F	FF	_	7	punc
+                7	tranquillo	tranquillo	A	A	num=s|gen=m	5	mod
+                8	,	,	F	FF	_	7	punc
+                9	sotto	sotto	E	E	_	5	comp
+                10	lo	il	R	RD	num=s|gen=m	11	det
+                11	sguardo	sguardo	S	S	num=s|gen=m	9	prep
+                12	vigile	vigile	A	A	num=s|gen=n	11	mod
+                13	della	di	E	EA	num=s|gen=f	11	comp
+
+                1	madre	madre	S	S	num=s|gen=f	0	ROOT
+                2	?	?	F	FS	_	1	punc
+
+                1	Io	io	P	PE	num=s|per=1|gen=n	3	subj
+                2	ti	ti	P	PC	num=s|per=2|gen=n	3	obj
+                3	voglio	volere	V	V	num=s|per=1|mod=i|ten=p	0	ROOT
+                4	tanto	tanto	B	B	_	3	mod
+                5	,	,	F	FF	_	3	con
+                6	tanto	tanto	B	B	_	3	mod
+
+                1	lume	lume	S	S	num=s|gen=m	0	ROOT
+                2	,	,	F	FF	_	4	punc
+                3	un	uno	R	RI	num=s|gen=m	4	det
+                4	mondo	mondo	S	S	num=s|gen=m	1	mod
+                5	di	di	E	E	_	4	comp
+                6	lume	lume	S	S	num=s|gen=m	5	prep
+                7	puro	puro	A	A	num=s|gen=m	6	mod
+                8	ardente	ardente	A	A	num=s|gen=n	4	mod
+                9	.	.	F	FS	_	1	punc
+
+                1	E	e	C	CC	_	2	con
+                2	tu	tu	P	PE	num=s|per=2|gen=n	0	ROOT
+                3	,	,	F	FF	_	4	punc
+                4	al	a	E	EA	num=s|gen=m	2	ROOT
+                5	tuo	tuo	A	AP	num=s|gen=m	6	mod
+                6	Giovannino	Giovannino	S	SP	_	4	prep
+                7	?	?	F	FS	_	4	punc
+                8	?	?	F	FS	_	6	punc
+                9	?	?	F	FS	_	4	punc
+
+                1	Pensa	pensare	V	V	num=s|per=3|mod=i|ten=p	0	ROOT
+                2	un	uno	R	RI	num=s|gen=m	3	det
+                3	pochino	pochino	B	B	_	4	mod
+                4	al	a	E	EA	num=s|gen=m	1	comp_loc
+                5	tuo	tuo	A	AP	num=s|gen=m	6	mod
+                6	Giovannino	Giovannino	S	SP	_	4	prep
+                7	?	?	F	FS	_	6	punc
+                8	!	!	F	FS	_	1	punc
+                9	!	!	F	FS	_	0	punc
+
+                1	Un	uno	R	RI	num=s|gen=m	2	det
+                2	bacio	bacio	S	S	num=s|gen=m	0	ROOT
+                3	affettuoso	affettuoso	A	A	num=s|gen=m	2	mod
+
+                1	con	con	E	E	_	0	ROOT
+                2	tutto	tutto	T	T	num=s|gen=m	4	mod
+                3	il	il	R	RD	num=s|gen=m	4	det
+                4	trasporto	trasporto	S	S	num=s|gen=m	1	prep
+                5	dell'	di	E	EA	num=s|gen=n	4	comp
+                6	anima	anima	S	S	num=s|gen=f	5	prep
+
+                1	mia	mio	A	AP	num=s|gen=f	2	mod
+                2	tuo	tuo	A	AP	num=s|gen=m	0	_
+
+                1	Giovannino	Giovannino	S	SP	_	0	ROOT
+        </analisi>
+        <analisi id="cartolina_7694-038">
+                1	A	a	E	E	_	6	comp
+                2	lei	lei	P	PE	num=s|per=3|gen=n	1	prep
+                3	e	e	C	CC	_	2	con
+                4	famiglia	famiglia	S	S	num=s|gen=f	2	conj
+                5	i	il	R	RD	num=p|gen=m	6	det
+                6	mie	mio	A	AP	num=p|gen=f	7	mod
+                7	migliori	migliore	A	A	num=p|gen=n	0	_
+
+                1	cordiali	cordiale	A	A	num=p|gen=n	3	mod
+                2	,	,	F	FF	_	1	punc
+                3	affettuosissimi	affettuoso	A	A	num=p|gen=m	0	ROOT
+
+                1	auguri	augurio	S	S	num=p|gen=m	0	ROOT
+        </analisi>
+        <analisi id="cartolina_7694-039">
+                1	Ardentissimi	ardente	A	A	num=p|gen=m	0	ROOT
+                1	Giovannino	Giovannino	S	SP	_	0	ROOT
+        </analisi>
+        <analisi id="cartolina_7694-040">
+                1	Auguri	augurio	S	S	num=p|gen=m	0	ROOT
+                2	sinceri	sincero	A	A	num=p|gen=m	1	mod
+                3	a	a	E	E	_	1	comp
+                4	te	te	P	PE	num=s|per=2|gen=n	3	prep
+
+                1	e	e	C	CC	_	0	con
+                2	famiglia	famiglia	S	S	num=s|gen=f	0	_
+        </analisi>
+        <analisi id="cartolina_7694-041">
+                1	Rispettosamente	rispettoso	B	B	_	3	mod
+                2	la	il	R	RD	num=s|gen=f	3	det
+                3	saluto	saluto	S	S	num=s|gen=m	0	ROOT
+
+                1	devuto	devuto	V	V	num=s|mod=p|gen=m	0	ROOT
+
+                1	Massimo	Massimo	S	SP	_	2	mod
+                2	Buti	Buti	S	SP	_	0	ROOT
+        </analisi>
+        <analisi id="cartolina_7694-042">
+                1	In	in	E	E	_	0	ROOT
+                2	attesa	attesa	S	S	num=s|gen=f	1	prep
+                3	di	di	E	E	_	2	arg
+                4	scriver-	scrivere	V	V	mod=f	3	prep
+                5	ti	ti	P	PC	num=s|per=2|gen=n	4	obj
+
+                1	lungamente	lungo	B	B	_	0	_
+
+                1	Giovannino	Giovannino	S	SP	_	0	ROOT
+        </analisi>
+        <analisi id="cartolina_7694-043">
+                1	Contracambiando	Contracambiando	S	SP	_	3	mod
+                2	i	il	R	RD	num=p|gen=m	3	det
+                3	migiori	migiori	S	S	num=p|gen=m	0	ROOT
+                4	saluti	saluto	S	S	num=p|gen=m	3	mod
+        </analisi>
+        <analisi id="cartolina_7694-044">
+                1	Saluti	saluto	S	S	num=p|gen=m	0	ROOT
+        2	infiniti	infinito	A	A	num=p|gen=m	1	mod
+
+        1	dal	da	E	EA	num=s|gen=m	0	ROOT
+        2	suo	suo	A	AP	num=s|gen=m	4	mod
+        3	ex	ex	A	A	num=n|gen=n	4	mod
+        4	ospite	ospite	S	S	num=s|gen=n	1	prep
+        </analisi>
+        <analisi id="cartolina_7694-045">
+                1	Alla	al	E	EA	num=s|gen=f	0	ROOT
+                2	lieta	lieto	A	A	num=s|gen=f	1	prep
+
+                1	-	-	F	FC	_	0	punc
+                2	-	-	F	FC	_	1	punc
+                3	-	-	F	FC	_	1	punc
+                4	-	-	F	FC	_	0	ROOT
+
+                1	questa	questo	P	PD	num=s|gen=f	0	ROOT
+                2	-	-	F	FC	_	1	punc
+                3	-	-	F	FC	_	1	punc
+                4	della	di	E	EA	num=s|gen=f	1	ROOT
+                5	cura	cura	S	S	num=s|gen=f	4	prep
+                6	,	,	F	FF	_	4	punc
+
+                1	-	-	F	FC	_	0	punc
+                2	-	-	F	FC	_	1	punc
+                3	,	,	F	FF	_	1	punc
+                4	-	-	F	FC	_	1	punc
+                5	-	-	F	FC	_	1	punc
+                6	-	-	F	FC	_	1	punc
+                7	-	-	F	FC	_	0	ROOT
+
+                1	-	-	F	FC	_	0	punc
+                2	-	-	F	FC	_	1	punc
+                3	in	in	E	E	_	1	ROOT
+                4	brevissimo	breve	A	A	num=s|gen=m	5	mod
+                5	tempo	tempo	S	S	num=s|gen=m	3	prep
+                6	?	?	F	FS	_	3	punc
+        </analisi>
+        <analisi id="cartolina_7694-046">
+                
+        </analisi>
+        <analisi id="cartolina_7694-047">
+                1	Grazie	Grazie	S	S	num=n|gen=n	0	ROOT
+                2	infinite	infinito	A	A	num=p|gen=f	1	mod
+                3	delle	di	E	EA	num=p|gen=f	1	comp
+                4	tue	tuo	A	AP	num=p|gen=f	3	prep
+
+                1	gentilezze	gentilezza	S	S	num=p|gen=f	0	ROOT
+                2	.	.	F	FS	_	1	punc
+
+                1	Ho	avere	V	VA	num=s|per=1|mod=i|ten=p	2	aux
+                2	ricevuto	ricevere	V	V	num=s|mod=p|gen=m	0	ROOT
+                3	gli	il	R	RD	num=p|gen=m	2	ROOT
+
+                1	occhiali	occhiale	S	S	num=p|gen=m	0	ROOT
+                2	.	.	F	FS	_	1	punc
+
+                1	Saluti	saluto	S	S	num=p|gen=m	0	ROOT
+                2	affettuosi	affettuoso	A	A	num=p|gen=m	1	mod
+
+                1	a	a	E	E	_	0	ROOT
+                2	tutti	tutto	P	PI	num=p|gen=m	1	prep
+                3	.	.	F	FS	_	1	punc
+
+                1	Con	con	E	E	_	5	comp
+                2	stima	stima	S	S	num=s|gen=f	1	prep
+                3	ed	e	C	CC	_	2	con
+                4	affetto	affetto	A	A	num=s|gen=m	2	conj
+                5	tuo	tuo	A	AP	num=s|gen=m	0	_
+
+                1	devotissimo	devoto	A	A	num=s|gen=m	2	mod
+                2	Giovannino	Giovannino	S	SP	_	0	ROOT
+        </analisi>
+        <analisi id="cartolina_7694-048">
+                1	Ardentissimamente	Ardentissimamente	S	SP	_	0	ROOT
+                1	Giovannino	Giovannino	S	SP	_	0	ROOT
+        </analisi>
+        <analisi id="cartolina_7694-049">
+                1	Carissima	caro	A	A	num=s|gen=f	2	mod
+                2	Oliva	Oliva	S	SP	_	0	ROOT
+                3	,	,	F	FF	_	2	punc
+
+                1	Oggi	oggi	B	B	_	2	mod_temp
+                2	sto	stare	V	V	num=s|per=1|mod=i|ten=p	0	ROOT
+                3	alquanto	alquanto	B	B	_	4	mod
+                4	bene	bene	B	B	_	2	mod
+                5	e	e	C	CC	_	2	con
+                6	ho	avere	V	VA	num=s|per=1|mod=i|ten=p	7	aux
+                7	ripreso	riprendere	V	V	num=s|mod=p|gen=m	2	conj
+                8	servizio	servizio	S	S	num=s|gen=m	7	obj
+                9	.	.	F	FS	_	2	punc
+
+                1	Circa	circa	B	B	_	4	mod
+                2	la	il	R	RD	num=s|gen=f	4	det
+                3	mia	mio	A	AP	num=s|gen=f	4	mod
+                4	provvigione	provvigione	S	S	num=s|gen=f	6	subj
+                5	ti	ti	P	PC	num=s|per=2|gen=n	6	comp_ind
+                6	dico	dire	V	V	num=s|per=1|mod=i|ten=p	0	ROOT
+                7	che	che	C	CS	_	6	arg
+                8	siamo	essere	V	V	num=p|per=1|mod=i|ten=p	7	sub
+                9	al	a	E	EA	num=s|gen=m	8	pred
+
+                1	giorno	giorno	S	S	num=s|gen=m	3	mod_temp
+                2	28	28	N	N	_	1	mod_temp
+                3	sono	essere	V	V	num=p|per=3|mod=i|ten=p	0	ROOT
+                4	ancora	ancora	B	B	_	3	mod
+                5	-	-	F	FC	_	3	punc
+                6	-	-	F	FC	_	3	punc
+                7	maggiore	maggiore	A	A	num=s|gen=n	10	mod
+                8	poi	poi	B	B	_	10	mod
+                9	ti	ti	P	PC	num=s|per=2|gen=n	10	comp_ind
+                10	dirò	dire	V	V	num=s|per=1|mod=i|ten=f	0	ROOT
+
+                1	qualche	qualche	D	DI	num=s|gen=n	3	mod
+                2	altra	altro	A	A	num=s|gen=f	3	mod
+                3	cosa	cosa	S	S	num=s|gen=f	0	ROOT
+                4	.	.	F	FS	_	3	punc
+
+                1	Cara	Cara	S	SP	_	5	mod
+                2	Oliva	Oliva	A	A	num=s|gen=m	1	mod
+                3	io	io	P	PE	num=s|per=1|gen=n	5	subj
+                4	ti	ti	P	PC	num=s|per=2|gen=n	5	clit
+                5	penso	pensare	V	V	num=s|per=1|mod=i|ten=p	0	ROOT
+                6	tanto	tanto	B	B	_	5	mod
+
+                1	tanto	tanto	B	B	_	2	mod
+                2	infinitamente	infinito	B	B	_	5	mod
+                3	e	e	C	CC	_	2	con
+                4	vorrei	volere	V	VM	num=s|per=1|mod=d|ten=p	5	modal
+                5	correre	correre	V	V	mod=f	0	ROOT
+                6	da	da	E	E	_	5	comp
+                7	te	te	P	PE	num=s|per=2|gen=n	6	prep
+                8	,	,	F	FF	_	9	punc
+                9	invece	invece	B	B	_	5	mod
+                10	.	.	F	FS	_	5	punc
+
+                1	La	il	R	RD	num=s|gen=f	3	det
+                2	mia	mio	A	AP	num=s|gen=f	3	mod
+                3	salute	salute	S	S	num=s|gen=f	4	subj
+                4	è	essere	V	V	num=s|per=3|mod=i|ten=p	0	ROOT
+                5	un	uno	R	RI	num=s|gen=m	6	det
+                6	pò	pò	B	B	_	7	mod
+                7	cagionevole	cagionevole	A	A	num=s|gen=n	4	pred
+                8	,	,	F	FF	_	4	con
+                9	mangio	mangiare	V	V	num=s|per=1|mod=i|ten=p	0	ROOT
+
+                1	pochissimo	pochissimo	A	A	num=s|gen=m	6	mod
+                2	e	e	C	CC	_	1	con
+                3	dimagro	dimagrare	V	V	num=s|per=1|mod=i|ten=p	1	conj
+                4	,	,	F	FF	_	1	con
+                5	mi	mi	P	PC	num=s|per=1|gen=n	6	comp_ind
+                6	manca	mancare	V	V	num=s|per=3|mod=i|ten=p	0	ROOT
+                7	tutto	tutto	P	PI	num=s|gen=m	6	subj
+                8	,	,	F	FF	_	9	punc
+                9	tutto	tutto	P	PI	num=s|gen=m	6	mod
+                10	.	.	F	FS	_	6	punc
+
+                1	Oliva	oliva	S	S	num=s|gen=f	0	ROOT
+                2	,	,	F	FF	_	1	con
+                3	Oliva	Oliva	S	SP	_	1	conj
+                4	,	,	F	FF	_	1	con
+                5	ti	ti	P	PC	num=s|per=2|gen=n	6	obj
+                6	voglio	volere	V	V	num=s|per=1|mod=i|ten=p	1	conj
+                7	tanto	tanto	B	B	_	10	mod
+                8	bene	bene	B	B	_	10	mod
+                9	un	uno	R	RI	num=s|gen=m	10	det
+                10	bene	bene	S	S	num=s|gen=m	6	obj
+                11	infinito	infinito	A	A	num=s|gen=m	10	mod
+
+                1	dell'	di	E	EA	num=s|gen=n	0	ROOT
+                2	animo	animo	S	S	num=s|gen=m	1	prep
+                3	,	,	F	FF	_	1	punc
+                4	un	uno	R	RI	num=s|gen=m	5	det
+                5	bene	bene	S	S	num=s|gen=m	1	conj
+                6	ardente	ardente	A	A	num=s|gen=n	7	mod
+                7	appassionato	appassionato	S	S	num=s|gen=m	5	mod
+                8	.	.	F	FS	_	1	punc
+
+                1	T'	ti	P	PC	num=s|per=2|gen=n	2	clit
+                2	amo	amare	V	V	num=s|per=1|mod=i|ten=p	0	ROOT
+                3	,	,	F	FF	_	5	punc
+                4	t'	ti	P	PC	num=s|per=2|gen=n	5	obj
+                5	amo	amare	V	V	num=s|per=1|mod=i|ten=p	2	arg
+                6	immensamente	immenso	B	B	_	7	mod
+                7	più	più	B	B	_	8	mod
+                8	della	di	E	EA	num=s|gen=f	5	comp
+                9	mia	mio	A	AP	num=s|gen=f	8	prep
+
+                1	vita.	vita.	C	CC	_	4	mod
+                2	per	per	E	E	_	1	comp
+                3	sempre	sempre	B	B	_	2	prep
+                4	Giovannino	Giovannino	S	SP	_	0	ROOT
+        </analisi>
+        <analisi id="cartolina_7694-050">
+                1	Saluti	saluto	S	S	num=p|gen=m	0	ROOT
+                2	affettuosi	affettuoso	A	A	num=p|gen=m	1	mod
+
+                1	a	a	E	E	_	0	ROOT
+                2	tutti	tutto	P	PI	num=p|gen=m	1	prep
+        </analisi>
+        <analisi id="cartolina_7694-051">
+                1	A	a	E	E	_	0	ROOT
+                2	franchezza	franchezza	S	S	num=s|gen=f	1	prep
+                3	ignota	ignoto	A	A	num=s|gen=f	2	mod
+        </analisi>
+        <analisi id="cartolina_7694-052">
+                1	Ardentissimamente	Ardentissimamente	S	SP	_	0	ROOT
+        </analisi>
+        <analisi id="cartolina_7694-053">
+                1	Intensamente	intenso	B	B	_	0	_
+
+                1	pensando	pensare	V	V	mod=g	0	ROOT
+                2	a	a	E	E	_	1	comp
+                3	te	te	P	PE	num=s|per=2|gen=n	2	prep
+        </analisi>
+        <analisi id="cartolina_7694-054">
+                1	Mia	mio	A	AP	num=s|gen=f	3	mod
+                2	buona	buono	A	A	num=s|gen=f	3	mod
+                3	Oliva	Oliva	S	SP	_	0	ROOT
+                4	,	,	F	FF	_	3	punc
+
+                1	Sono	essere	V	V	num=p|per=3|mod=i|ten=p	0	ROOT
+                2	qui	qui	B	B	_	1	pred
+                3	alla	al	E	EA	num=s|gen=f	2	comp
+                4	stazione	stazione	S	S	num=s|gen=f	3	prep
+                5	in	in	E	E	_	4	comp
+                6	attesa	attesa	S	S	num=s|gen=f	5	prep
+
+                1	del	di	E	EA	num=s|gen=m	0	ROOT
+                2	treno	treno	S	S	num=s|gen=m	1	prep
+                3	.	.	F	FS	_	1	punc
+
+                1	-	-	F	FC	_	3	ROOT
+                2	-	-	F	FC	_	1	punc
+                3	non	non	B	BN	_	0	ROOT
+                4	-	-	F	FC	_	3	punc
+                5	-	-	F	FC	_	3	punc
+
+                1	l	l	S	SW	num=n|gen=n	5	mod
+                2	'	'	F	FB	_	1	punc
+                3	-	-	F	FC	_	1	punc
+                4	-	-	F	FC	_	5	punc
+                5	partito	partito	S	S	num=s|gen=m	0	ROOT
+                6	alle	al	E	EA	num=p|gen=f	5	comp
+                7	6	6	N	N	_	6	prep
+                8	anzichè	anzichè	B	B	_	9	mod
+                9	alle	al	E	EA	num=p|gen=f	7	comp_temp
+                10	9	9	N	N	_	9	prep
+                11	.	.	F	FS	_	5	punc
+
+                1	Il	il	R	RD	num=s|gen=m	2	det
+                2	viaggio	viaggio	S	S	num=s|gen=m	7	subj
+                3	sino	sino	E	E	_	2	comp
+                4	a	a	E	E	_	3	prep
+                5	Ferrara	Ferrara	S	SP	_	4	prep
+                6	è	essere	V	VA	num=s|per=3|mod=i|ten=p	7	aux
+                7	partito	partire	V	V	num=s|mod=p|gen=m	0	ROOT
+
+                1	felicissimamente	felicissimamente	A	A	num=p|gen=f	0	ROOT
+                2	.	.	F	FS	_	1	punc
+
+                1	Abbandonato	abbandonare	V	V	num=s|mod=p|gen=m	0	ROOT
+
+                1	sui	su	E	EA	num=p|gen=m	0	ROOT
+                2	-	-	F	FC	_	1	punc
+                3	-	-	F	FC	_	1	punc
+                4	solo	solo	B	B	_	6	mod
+                5	,	,	F	FF	_	4	punc
+                6	assorto	assorto	A	A	num=s|gen=m	1	mod
+                7	nei	in	E	EA	num=p|gen=m	6	comp
+                8	più	più	B	B	_	7	prep
+
+                1	bei	bello	A	A	num=p|gen=m	3	mod
+                2	nostri	nostro	A	AP	num=p|gen=m	3	mod
+                3	pensieri	pensiero	S	S	num=p|gen=m	0	ROOT
+                4	.	.	F	FS	_	3	punc
+
+                1	Giovannino	Giovannino	S	SP	_	0	ROOT
+        </analisi>
+        <analisi id="cartolina_7694-055">
+                1	Sebbene	sebbene	C	CS	_	2	mod
+                2	lontano	lontano	B	B	_	0	_
+
+                1	desidero	desiderare	V	VM	num=s|per=1|mod=i|ten=p	0	_
+                2	che	che	C	CS	_	1	arg
+                3	mi	mi	P	PC	num=s|per=1|gen=n	4	comp_ind
+                4	abbia	avere	V	V	num=s|per=3|mod=c|ten=p	2	sub
+
+                1	come	come	E	E	_	0	ROOT
+                2	presente	presente	S	S	num=s|gen=n	1	prep
+                3	!	!	F	FS	_	1	punc
+                4	.......	.......	F	FS	_	1	punc
+
+                1	La	il	R	RD	num=s|gen=f	2	det
+                2	mia	mio	A	AP	num=s|gen=f	3	mod
+                3	triste	triste	A	A	num=s|gen=n	0	_
+
+                1	fisionomia	fisionomia	S	S	num=s|gen=f	2	subj
+                2	osi	osare	V	V	num=s|per=2|mod=i|ten=p	0	ROOT
+                3	ogni	ogni	D	DI	num=s|gen=n	4	mod
+                4	ora	ora	S	S	num=s|gen=f	2	obj
+
+                1	rammentar-	rammentare	V	V	mod=f	0	ROOT
+                2	le	le	P	PC	num=n|per=3|gen=f	1	comp_ind
+                3	i	il	R	RD	num=p|gen=m	4	det
+                4	bei	bello	A	A	num=p|gen=m	1	obj
+
+                1	giorni	giorno	S	S	num=p|gen=m	4	ROOT
+                2	che	che	C	CS	_	4	ROOT
+                3	io	io	P	PE	num=s|per=1|gen=n	4	subj
+                4	ho	avere	V	VA	num=s|per=1|mod=i|ten=p	0	ROOT
+
+                1	passato	passare	V	V	num=s|mod=p|gen=m	0	ROOT
+                2	in	in	E	E	_	1	comp
+                3	gioia	gioia	S	S	num=s|gen=f	2	prep
+
+                1	alla	al	E	EA	num=s|gen=f	0	ROOT
+                2	sua	suo	A	AP	num=s|gen=f	3	mod
+                3	Gentilissima	Gentilissima	S	SP	_	1	prep
+
+                1	famiglia	famiglia	S	S	num=s|gen=f	0	ROOT
+                2	.	.	F	FS	_	1	punc
+
+                1	-	-	F	FC	_	4	punc
+                2	-	-	F	FC	_	1	punc
+                3	e	e	C	CC	_	1	con
+                4	viva	vivere	V	V	num=s|per=3|mod=c|ten=p	0	ROOT
+
+                1	l'	il	R	RD	num=s|gen=n	2	det
+                2	Italia	Italia	S	SP	_	0	ROOT
+        </analisi>
+        <analisi id="cartolina_7694-056">
+                1	Saluti	saluto	S	S	num=p|gen=m	0	ROOT
+                2	cordialissimi	cordiale	A	A	num=p|gen=m	1	mod
+
+                1	a	a	E	E	_	0	ROOT
+                2	tutti	tutto	P	PI	num=p|gen=m	1	prep
+        </analisi>
+        <analisi id="cartolina_7694-057">
+                1	Affettuosi	Affettuosi	S	SP	_	2	mod
+                2	saluti	saluto	S	S	num=p|gen=m	0	ROOT
+                3	da	da	E	E	_	2	comp
+
+                1	Mario	Mario	S	SP	_	0	ROOT
+        </analisi>
+        <analisi id="cartolina_7694-058">
+                1	Ti	ti	P	PC	num=s|per=2|gen=n	2	clit
+                2	ricordo	ricordare	V	V	num=s|per=1|mod=i|ten=p	0	ROOT
+                3	e	e	C	CC	_	2	con
+                4	bacio	bacio	S	S	num=s|gen=m	2	conj
+
+                1	con	con	E	E	_	0	ROOT
+                2	affetto	affetto	S	S	num=s|gen=m	1	prep
+        </analisi>
+        <analisi id="cartolina_7694-059">
+                1	Contraccambio	contraccambio	S	S	num=s|gen=m	0	ROOT
+                2	e	e	C	CC	_	1	con
+
+                1	cordialmente	cordialmente	B	B	_	2	mod
+                2	saluto	saluto	S	S	num=s|gen=m	0	ROOT
+        </analisi>
+        <analisi id="cartolina_7694-060">
+                1	Infiniti	infinito	A	A	num=p|gen=m	2	mod
+                2	saluti	saluto	S	S	num=p|gen=m	0	ROOT
+                3	a	a	E	E	_	2	comp
+                4	lei	lei	P	PE	num=s|per=3|gen=n	3	prep
+
+                1	e	e	C	CC	_	0	ROOT
+                2	a	a	E	E	_	1	conj
+                3	tutta	tutto	T	T	num=s|gen=f	5	mod
+                4	la	il	R	RD	num=s|gen=f	5	det
+                5	famiglia	famiglia	S	S	num=s|gen=f	2	prep
+        </analisi>
+        <analisi id="cartolina_7694-061">
+                1	Saluti	saluto	S	S	num=p|gen=m	0	ROOT
+                2	cordiali	cordiale	A	A	num=p|gen=n	1	mod
+        </analisi>
+        <analisi id="cartolina_7694-062">
+                1	Saluti	saluto	S	S	num=p|gen=m	0	ROOT
+                2	da	da	E	E	_	1	comp
+                3	Ferrara	Ferrara	S	SP	_	2	prep
+        </analisi>
+        <analisi id="cartolina_7694-063">
+                1	Dimenticando	dimenticare	V	V	mod=g	0	ROOT
+                2	......	......	F	FS	_	1	punc
+        </analisi>
+        <analisi id="cartolina_7694-064">
+                1	Oggi	oggi	B	B	_	4	mod_temp
+                2	finalmente	finalmente	B	B	_	4	mod
+                3	abbiamo	avere	V	VA	num=p|per=1|mod=i|ten=p	4	aux
+                4	avuto	avere	V	V	num=s|mod=p|gen=m	0	ROOT
+                5	una	uno	R	RI	num=s|gen=f	7	det
+                6	bella	bello	A	A	num=s|gen=f	7	mod
+                7	giornata	giornata	S	S	num=s|gen=f	4	obj
+                8	piena	pieno	A	A	num=s|gen=f	7	mod
+                9	di	di	E	E	_	7	comp
+                10	sole	sole	S	S	num=s|gen=m	9	prep
+                11	:	:	F	FC	_	4	punc
+                12	da	da	E	E	_	0	ROOT
+
+                1	tanto	tanto	D	DI	num=s|gen=m	2	mod
+                2	tempo	tempo	S	S	num=s|gen=m	3	subj
+                3	era	essere	V	V	num=s|per=3|mod=i|ten=i	0	ROOT
+                4	attesa	attendere	V	V	num=s|mod=p|gen=f	3	pred
+                5	.	.	F	FS	_	3	punc
+
+                1	La	il	R	RD	num=s|gen=f	2	det
+                2	salute	salute	S	S	num=s|gen=f	3	subj
+                3	è	essere	V	V	num=s|per=3|mod=i|ten=p	0	ROOT
+                4	ottima	ottimo	A	A	num=s|gen=f	3	pred
+                5	.	.	F	FS	_	3	punc
+
+                1	Attendiamo	attendarsi	V	V	num=p|per=1|mod=i|ten=p	0	ROOT
+                2	notizie	notizia	S	S	num=p|gen=f	1	obj
+
+                1	da	da	E	E	_	0	ROOT
+                2	Arona	Arona	S	SP	_	1	prep
+                3	.	.	F	FS	_	1	punc
+        </analisi>
+        <analisi id="cartolina_7694-065">
+                1	A	a	E	E	_	3	comp
+                2	Ravenna	Ravenna	S	SP	_	1	prep
+                3	nulla	nulla	P	PI	num=s|gen=m	0	ROOT
+                4	di	di	E	E	_	3	comp
+                5	nuovo	nuovo	A	A	num=s|gen=m	4	prep
+                6	.	.	F	FS	_	3	punc
+
+                1	Salute	salute	S	S	num=s|gen=f	0	ROOT
+                2	ottima	ottimo	A	A	num=s|gen=f	1	mod
+                3	.	.	F	FS	_	1	punc
+
+                1	Oggi	oggi	B	B	_	3	mod_temp
+                2	ho	avere	V	VA	num=s|per=1|mod=i|ten=p	3	aux
+                3	ricevuto	ricevere	V	V	num=s|mod=p|gen=m	0	ROOT
+                4	una	uno	R	RI	num=s|gen=f	5	det
+                5	cartolina	cartolina	S	S	num=s|gen=f	3	obj
+                6	della	di	E	EA	num=s|gen=f	5	comp
+                7	Carolina	Carolina	S	SP	_	6	prep
+                8	da	da	E	E	_	3	comp_loc
+                9	Crema	Crema	S	SP	_	8	prep
+                10	.	.	F	FS	_	3	punc
+
+                1	Non	non	B	BN	_	2	neg
+                2	so	sapere	V	V	num=s|per=1|mod=i|ten=p	0	ROOT
+                3	come	come	C	CS	_	2	arg
+                4	contraccambiar-	contraccambiare	V	V	mod=f	3	sub
+                5	la	la	P	PC	num=s|per=3|gen=f	4	obj
+                6	avendo-	avere	V	V	mod=g	4	mod
+                7	ne	ne	P	PC	num=n|gen=n	6	comp
+                8	ora	ora	B	B	_	9	mod_temp
+                9	perduto	perduto	A	A	num=s|gen=m	6	pred
+
+                1	le	il	R	RD	num=p|gen=f	2	det
+                2	tracce	traccia	S	S	num=p|gen=f	0	ROOT
+                3	.	.	F	FS	_	2	punc
+
+                1	È	essere	V	V	num=s|per=3|mod=i|ten=p	0	ROOT
+                2	una	uno	R	RI	num=s|gen=f	3	det
+                3	lepre	lepre	S	S	num=s|gen=n	1	pred
+
+                1	quella	quello	P	PD	num=s|gen=f	0	ROOT
+                2	più	più	B	B	_	3	mod
+                3	svelta	svelto	A	A	num=s|gen=f	1	mod
+                4	di	di	E	E	_	3	comp
+                5	te	te	P	PE	num=s|per=2|gen=n	4	prep
+
+                1	e	e	C	CC	_	2	con
+                2	tiene	tenere	V	V	num=s|per=3|mod=i|ten=p	0	ROOT
+                3	il	il	R	RD	num=s|gen=m	4	det
+                4	récord	récord	S	S	num=s|gen=m	2	obj
+                5	dei	di	E	EA	num=p|gen=m	4	comp
+                6	viaggi	viaggio	S	S	num=p|gen=m	5	prep
+                7	:	:	F	FC	_	2	punc
+                8	se	se	C	CS	_	15	mod
+                9	mi	mi	P	PC	num=s|per=1|gen=n	10	comp_ind
+                10	dirai	dire	V	V	num=s|per=2|mod=i|ten=f	8	sub
+                11	l'	il	R	RD	num=s|gen=n	12	det
+                12	indirizzo	indirizzo	S	S	num=s|gen=m	14	subj
+                13	la	la	P	PC	num=s|per=3|gen=f	14	obj
+                14	raggiungerò	raggiungere	V	V	num=s|per=1|mod=i|ten=f	10	subj
+                15	con	con	E	E	_	0	_
+
+                1	una	uno	R	RI	num=s|gen=f	2	det
+                2	cartolina	cartolina	S	S	num=s|gen=f	0	ROOT
+                3	.	.	F	FS	_	2	punc
+
+                1	Ieri	ieri	B	B	_	5	mod_temp
+                2	l'	il	R	RD	num=s|gen=n	3	det
+                3	altro	altro	P	PI	num=s|gen=m	5	subj
+                4	ti	ti	P	PC	num=s|per=2|gen=n	5	obj
+                5	scrissi	scrivere	V	V	num=s|per=1|mod=i|ten=s	0	ROOT
+                6	e	e	C	CC	_	5	con
+                7	ora	ora	B	B	_	5	conj
+                8	avrai	avere	V	V	num=s|per=2|mod=i|ten=f	5	conj
+
+                1	già	già	B	B	_	2	mod
+                2	ricevuto	ricevere	V	V	num=s|mod=p|gen=m	0	ROOT
+                3	.	.	F	FS	_	2	punc
+
+                1	I	il	R	RD	num=p|gen=m	2	det
+                2	tuoi	tuo	P	PP	num=p|gen=m	0	ROOT
+                3	di	di	E	E	_	2	comp
+
+                1	casa	casa	S	S	num=s|gen=f	3	subj
+                2	ti	ti	P	PC	num=s|per=2|gen=n	3	obj
+                3	salutano	salutare	V	V	num=p|per=3|mod=i|ten=p	0	ROOT
+                4	con	con	E	E	_	3	comp
+                5	me	me	P	PE	num=s|per=1|gen=n	4	prep
+                6	.	.	F	FS	_	3	punc
+
+                1	Divertiti	divertito	A	A	num=p|gen=m	3	subj
+                2	e	e	C	CC	_	1	con
+                3	sta	stare	V	V	num=s|per=3|mod=i|ten=p	0	ROOT
+                4	allegra	allegro	A	A	num=s|gen=f	3	pred
+        </analisi>
+        <analisi id="cartolina_7694-066">
+                1	Dal	da	E	EA	num=s|gen=m	0	ROOT
+                2	mio	mio	A	AP	num=s|gen=m	3	mod
+                3	album	album	S	S	num=n|gen=m	1	prep
+                4	....	....	F	FS	_	1	punc
+
+                1	a	a	E	E	_	0	ROOT
+                2	Oliva	Oliva	S	SP	_	1	prep
+                3	con	con	E	E	_	1	comp
+                4	sincerità	sincerità	S	S	num=n|gen=f	3	prep
+                5	d'	di	E	E	_	4	comp
+                6	affetto	affetto	S	S	num=s|gen=m	5	prep
+        </analisi>
+        <analisi id="cartolina_7694-067">
+                1	A	a	E	E	_	3	comp
+                2	Ravenna	Ravenna	S	SP	_	1	prep
+                3	piove	piovere	V	V	num=s|per=3|mod=i|ten=p	0	ROOT
+
+                1	sempre	sempre	B	B	_	3	mod
+                2	:	:	F	FC	_	1	punc
+                3	è	essere	V	V	num=s|per=3|mod=i|ten=p	0	ROOT
+                4	una	uno	R	RI	num=s|gen=f	5	det
+                5	gioia	gioia	S	S	num=s|gen=f	3	pred
+
+                1	per	per	E	E	_	0	ROOT
+                2	chi	chi	P	PR	num=n|gen=n	5	subj
+                3	non	non	B	BN	_	5	neg
+                4	è	essere	V	VA	num=s|per=3|mod=i|ten=p	5	aux
+                5	andato	andare	V	V	num=s|mod=p|gen=m	1	prep
+
+                1	ai	al	E	EA	num=p|gen=m	0	ROOT
+                2	bagni	bagno	S	S	num=p|gen=m	1	prep
+                3	.	.	F	FS	_	1	punc
+
+                1	Per	per	E	E	_	0	ROOT
+                2	ora	ora	B	B	_	1	prep
+
+                1	niente	niente	P	PI	num=s|gen=m	0	ROOT
+                2	di	di	E	E	_	1	comp
+                3	nuovo	nuovo	A	A	num=s|gen=m	2	prep
+                4	,	,	F	FF	_	1	punc
+
+                1	tutti	tutto	P	PI	num=p|gen=m	0	ROOT
+                2	bene	bene	B	B	_	1	mod
+                3	.	.	F	FS	_	1	punc
+
+                1	Stasera	Stasera	S	SP	_	0	ROOT
+
+                1	qui	qui	B	B	_	3	mod_loc
+                2	c'	ci	P	PC	num=n|gen=n	3	comp
+                3	è	essere	V	V	num=s|per=3|mod=i|ten=p	0	ROOT
+                4	musica	musica	S	S	num=s|gen=f	3	subj
+                5	,	,	F	FF	_	6	punc
+                6	come	come	E	E	_	4	comp
+                7	ieri	ieri	B	B	_	6	prep
+                8	sera	sera	S	S	num=s|gen=f	7	mod_temp
+                9	che	che	P	PR	num=n|gen=n	10	subj
+                10	fu	essere	V	V	num=s|per=3|mod=i|ten=s	4	mod_rel
+
+                1	S.	S.	S	SP	_	2	mod
+                2	Apollinare	Apollinare	S	SP	_	0	ROOT
+                3	:	:	F	FC	_	2	punc
+                4	ad	ad	E	E	_	0	ROOT
+                5	Arona	Arona	S	SP	_	4	prep
+                6	niente	niente	B	B	_	5	mod
+                7	.	.	F	FS	_	4	punc
+
+                1	Saluti	saluto	S	S	num=p|gen=m	0	ROOT
+                2	affettuosi	affettuoso	A	A	num=p|gen=m	1	mod
+
+                1	Giuseppe	Giuseppe	S	SP	_	0	ROOT
+        </analisi>
+        <analisi id="cartolina_7694-068">
+                1	Partirò	partire	V	V	num=s|per=1|mod=i|ten=f	0	ROOT
+                2	lunedì	lunedì	S	S	num=n|gen=m	1	obj
+
+                1	col	con	E	EA	num=s|gen=m	0	ROOT
+                2	treno	treno	S	S	num=s|gen=m	1	prep
+                3	delle	di	E	EA	num=p|gen=f	2	comp
+                4	17	17	N	N	_	3	prep
+                5	circa	circa	B	B	_	4	mod
+                6	.	.	F	FS	_	1	punc
+
+                1	Voglia	volere	V	V	num=s|per=3|mod=c|ten=p	0	ROOT
+                2	a	a	E	E	_	1	comp
+                3	me	me	P	PE	num=s|per=1|gen=n	2	prep
+                4	bene	bene	B	B	_	1	mod
+                5	e	e	C	CC	_	1	con
+
+                1	Arrivederci	arrivederci	I	I	_	2	mod
+                2	tua	tuo	A	AP	num=s|gen=f	0	_
+
+                1	Pia	Pia	V	V	num=s|gen=f	ROOT
+        </analisi>
+        <analisi id="cartolina_7694-069">
+                1	Carissima	caro	A	A	num=s|gen=f	2	mod
+                2	Oliva	Oliva	S	SP	_	0	ROOT
+
+                1	possibile	possibile	A	A	num=s|gen=n	2	mod
+                2	che	che	C	CS	_	0	ROOT
+                3	la	il	R	RD	num=s|gen=f	4	det
+                4	nostra	nostro	A	AP	num=s|gen=f	2	ROOT
+
+                1	amicizia	amicizia	S	S	num=s|gen=f	3	subj_pass
+                2	sia	essere	V	VA	num=s|per=3|mod=c|ten=p	3	aux
+                3	sfumata	sfumare	V	V	num=s|mod=p|gen=f	0	ROOT
+                4	come	come	B	B	_	3	mod
+                5	in	in	E	E	_	3	ROOT
+
+                1	una	uno	R	RI	num=s|gen=f	2	det
+                2	cartolina	cartolina	S	S	num=s|gen=f	0	ROOT
+                3	illustrata	illustrato	A	A	num=s|gen=f	2	mod
+                4	?	?	F	FS	_	2	punc
+
+                1	Ti	ti	P	PC	num=s|per=2|gen=n	2	comp_ind
+                2	prego	prego	I	I	_	3	mod
+                3	scrivi-	scrivere	V	V	num=s|per=2|mod=m|ten=p	0	ROOT
+                4	me	me	P	PC	num=s|per=1|gen=n	3	obj
+                5	presto	presto	B	B	_	3	mod
+                6	,	,	F	FF	_	3	con
+                7	perchè	perchè	C	CS	_	3	ROOT
+
+                1	io	io	P	PE	num=s|per=1|gen=n	2	subj
+                2	aspetto	aspetto	S	S	num=s|gen=m	8	subj
+                3	,	,	F	FF	_	2	con
+                4	e	e	C	CC	_	2	con
+                5	pensar-	pensare	V	V	mod=f	2	conj
+                6	si	si	P	PC	num=n|per=3|gen=n	7	clit
+                7	reciprocamente	reciproco	B	B	_	8	mod
+                8	va	andare	V	V	num=s|per=3|mod=i|ten=p	0	ROOT
+                9	bene	bene	B	B	_	8	mod
+                10	,	,	F	FF	_	8	con
+                11	ma	ma	C	CC	_	8	con
+                12	non	non	B	BN	_	8	ROOT
+
+                1	basta	bastare	V	V	num=s|per=3|mod=i|ten=p	0	ROOT
+                2	.	.	F	FS	_	1	punc
+
+                1	Ti	ti	P	PC	num=s|per=2|gen=n	2	obj
+                2	diverti	divertire	V	V	num=s|per=2|mod=i|ten=p	0	ROOT
+                3	a	a	E	E	_	2	comp
+                4	Ravenna	Ravenna	S	SP	_	3	prep
+                5	?	?	F	FS	_	2	punc
+
+                1	Io	io	P	PE	num=s|per=1|gen=n	0	ROOT
+                2	tanto	tanto	B	B	_	3	mod
+                3	qui	qui	B	B	_	1	mod
+                4	a	a	E	E	_	3	comp
+                5	Ferrara	Ferrara	S	SP	_	4	prep
+                6	.	.	F	FS	_	1	punc
+
+                1	Però	però	B	B	_	4	mod
+                2	l'	il	R	RD	num=s|gen=n	4	det
+                3	altra	altro	A	A	num=s|gen=f	4	mod
+                4	settimana	settimana	S	S	num=s|gen=f	0	ROOT
+                5	,	,	F	FF	_	6	punc
+                6	ebbi	ebbi	V	V	num=p|mod=p|gen=m	4	mod
+                7	alcune	alcuno	D	DI	num=p|gen=f	6	mod
+
+                1	febbre	febbre	V	V	mod=f	0	ROOT
+                2	ora	ora	B	B	_	3	mod_temp
+                3	sto	stare	V	V	num=s|per=1|mod=i|ten=p	1	arg
+                4	bene	bene	B	B	_	3	mod_loc
+                5	e	e	C	CC	_	3	con
+                6	così	così	B	B	_	3	mod
+
+                1	spero	sperare	V	V	num=s|per=1|mod=i|ten=p	0	ROOT
+                2	di	di	E	E	_	1	comp
+                3	te	te	P	PE	num=s|per=2|gen=n	2	prep
+                4	anzi	anzi	B	B	_	5	mod
+                5	di	di	E	E	_	1	comp
+                6	tutti	tutto	D	DI	num=p|gen=m	7	mod
+                7	voi	voi	P	PE	num=p|per=2|gen=n	5	prep
+                8	.	.	F	FS	_	1	punc
+
+                1	Ciao	ciao	I	I	_	4	mod
+                2	,	,	F	FF	_	1	punc
+                3	ti	ti	P	PC	num=s|per=2|gen=n	4	clit
+                4	bacio	bacio	S	S	num=s|gen=m	0	ROOT
+                5	con	con	E	E	_	4	comp
+                6	affetto	affetto	S	S	num=s|gen=m	5	prep
+                7	,	,	F	FF	_	4	punc
+                8	tua	tuo	A	AP	num=s|gen=f	0	ROOT
+
+                1	Pia	Pia	V	V	num=s|gen=f	ROOT
+        </analisi>
+        <analisi id="cartolina_7694-070">
+                1	Sono	essere	V	V	num=p|per=3|mod=i|ten=p	0	ROOT
+                2	a	a	E	E	_	1	pred
+                3	Cesenatico	Cesenatico	S	SP	_	2	prep
+                4	.	.	F	FS	_	1	punc
+
+                1	Il	il	R	RD	num=s|gen=m	3	det
+                2	mio	mio	A	AP	num=s|gen=m	3	mod
+                3	indirizzo	indirizzo	S	S	num=s|gen=m	4	subj
+                4	è	essere	V	V	num=s|per=3|mod=i|ten=p	0	ROOT
+                5	:	:	F	FC	_	4	punc
+
+                1	Posta	posta	S	S	num=s|gen=f	0	ROOT
+                2	.	.	F	FS	_	1	punc
+
+                1	Chi	chi	P	PR	num=n|gen=n	3	ROOT
+                2	l'	lo	P	PC	num=s|per=3|gen=n	3	obj
+                3	ha	avere	V	VA	num=s|per=3|mod=i|ten=p	0	ROOT
+
+                1	detto	dire	V	V	num=s|mod=p|gen=m	0	ROOT
+                2	che	che	C	CS	_	1	arg
+                3	ero	essere	V	V	num=s|per=1|mod=i|ten=i	2	sub
+                4	a	a	E	E	_	3	pred
+                5	Ferrara	Ferrara	S	SP	_	4	prep
+                6	?	?	F	FS	_	1	punc
+
+                1	Saluti	saluto	S	S	num=p|gen=m	0	ROOT
+                2	affettuosissimi	affettuoso	A	A	num=p|gen=m	1	mod
+
+                1	Pia	Pia	V	V	num=s|gen=f	ROOT
+        </analisi>
+        <analisi id="cartolina_7694-071">
+                1	Prego	prego	I	I	_	4	mod
+                2	l'	il	R	RD	num=s|gen=n	4	det
+                3	imminente	imminente	A	A	num=s|gen=n	4	mod
+                4	presa	presa	S	S	num=s|gen=f	0	ROOT
+                5	di	di	E	E	_	4	comp
+
+                1	M.	M.	S	SP	_	0	ROOT
+                2	tanto	tanto	B	B	_	1	mod
+                3	dopo	dopo	E	E	_	1	comp_temp
+                4	12	12	N	N	_	5	mod
+                5	ore	ora	S	S	num=p|gen=f	3	prep
+                6	d'	di	E	E	_	5	comp
+                7	intenso	intenso	A	A	num=s|gen=m	6	prep
+
+                1	bombardamento	bombardamento	S	S	num=s|gen=m	0	ROOT
+                2	.	.	F	FS	_	1	punc
+        </analisi>
+        <analisi id="cartolina_7694-072">
+                1	Il	il	R	RD	num=s|gen=m	2	det
+                2	bombardamento	bombardamento	S	S	num=s|gen=m	4	subj
+                3	non	non	B	BN	_	4	neg
+                4	accenna	accennare	V	V	num=s|per=3|mod=i|ten=p	0	ROOT
+                5	a	a	E	E	_	4	arg
+                6	smettere	smettere	V	V	mod=f	5	prep
+                7	.	.	F	FS	_	4	punc
+
+                1	Sempre	sempre	B	B	_	2	mod
+                2	avanti	avanti	B	B	_	0	_
+
+                1	per	per	E	E	_	0	_
+                2	la	il	R	RD	num=s|gen=f	3	det
+                3	grantruppa	grantruppa	S	S	num=s|gen=f	1	prep
+                4	d'	di	E	E	_	3	comp
+                5	Italia	Italia	S	SP	_	4	prep
+                6	e	e	C	CC	_	1	con
+
+                1	per	per	E	E	_	0	ROOT
+                2	la	il	R	RD	num=s|gen=f	3	det
+                3	pace	pace	S	S	num=s|gen=f	1	prep
+                4	di	di	E	E	_	3	comp
+                5	Propoli	Propoli	S	SP	_	4	prep
+                6	.	.	F	FS	_	1	punc
+        </analisi>
+        <analisi id="cartolina_7694-073">
+                1	Affettuosissimi	affettuoso	A	A	num=p|gen=m	0	ROOT
+        </analisi>
+        <analisi id="cartolina_7694-074">
+                1	Con	con	E	E	_	3	comp
+                2	profondo	profondo	S	S	num=s|gen=m	1	prep
+                3	affetto	affetto	S	S	num=s|gen=m	0	ROOT
+
+                1	ti	ti	P	PC	num=s|per=2|gen=n	2	clit
+                2	penso	pensare	V	V	num=s|per=1|mod=i|ten=p	0	ROOT
+                3	.	.	F	FS	_	2	punc
+
+                1	Un	uno	R	RI	num=s|gen=m	2	det
+                2	bacio	bacio	S	S	num=s|gen=m	0	ROOT
+
+                1	tuo	tuo	A	AP	num=s|gen=m	2	mod
+                2	Giovannino	Giovannino	S	SP	_	0	ROOT
+        </analisi>
+        <analisi id="cartolina_7694-075">
+                1	Domani	domani	B	B	_	3	mod_temp
+                2	si	si	P	PC	num=n|per=3|gen=n	3	clit
+                3	effettuerà	effettuare	V	V	num=s|per=3|mod=i|ten=f	0	ROOT
+                4	la	il	R	RD	num=s|gen=f	3	mod
+
+                1	partenza	partenza	S	S	num=s|gen=f	0	ROOT
+                2	per	per	E	E	_	1	comp
+                3	il	il	R	RD	num=s|gen=m	4	det
+                4	campo	campo	S	S	num=s|gen=m	2	prep
+                5	.	.	F	FS	_	1	punc
+
+                1	Ogni	ogni	D	DI	num=s|gen=n	4	mod
+                2	qualvolta	qualvolta	C	CS	_	4	mod
+                3	mi	mi	P	PC	num=s|per=1|gen=n	4	comp_ind
+                4	sovviene	sovvenire	V	V	num=s|per=3|mod=i|ten=p	0	ROOT
+
+                1	di	di	E	E	_	4	comp
+                2	cambiare	cambiare	V	V	mod=f	1	prep
+                3	residenza	residenza	S	S	num=s|gen=f	2	obj
+                4	penso	pensare	V	V	num=s|per=1|mod=i|ten=p	0	ROOT
+                5	con	con	E	E	_	4	comp
+
+                1	rammarico	rammarico	S	S	num=s|gen=m	0	ROOT
+                2	ai	al	E	EA	num=p|gen=m	1	comp
+                3	giorni	giorno	S	S	num=p|gen=m	2	prep
+                4	che	che	P	PR	num=n|gen=n	7	subj
+                5	inesorabilmente	inesorabilmente	B	B	_	7	mod
+                6	si	si	P	PC	num=n|per=3|gen=n	7	clit
+                7	perdono	perdere	V	V	num=p|per=3|mod=i|ten=p	3	mod_rel
+                8	per	per	E	E	_	7	arg
+                9	riacconciare	riacconciare	V	V	mod=f	8	prep
+                10	le	il	R	RD	num=p|gen=f	12	det
+                11	mille	mille	N	N	_	12	mod
+                12	volte	volta	S	S	num=p|gen=f	9	obj
+                13	l'	il	R	RD	num=s|gen=n	14	det
+                14	inevitabile	inevitabile	A	A	num=s|gen=n	12	mod
+
+                1	fardello	fardello	S	S	num=s|gen=m	0	ROOT
+                2	delle	di	E	EA	num=p|gen=f	1	comp
+                3	-	-	F	FC	_	2	punc
+                4	-	-	F	FC	_	1	punc
+                5	-	-	F	FC	_	1	punc
+                6	-	-	F	FC	_	1	punc
+                7	.	.	F	FS	_	1	punc
+
+                1	Un	uno	R	RI	num=s|gen=m	2	det
+                2	pensiero	pensiero	S	S	num=s|gen=m	0	ROOT
+                3	affettuoso	affettuoso	A	A	num=s|gen=m	2	mod
+                4	.	.	F	FS	_	2	punc
+
+                1	Mille	mille	N	N	_	2	mod
+                2	tenerezze	tenerezza	S	S	num=p|gen=f	0	ROOT
+                3	tuo	tuo	A	AP	num=s|gen=m	2	mod
+                4	Giovannino	Giovannino	S	SP	_	2	mod
+        </analisi>
+        <analisi id="cartolina_7694-076">
+                
+        </analisi>
+        <analisi id="cartolina_7694-077">
+                1	Un	uno	R	RI	num=s|gen=m	2	det
+                2	saluto	saluto	S	S	num=s|gen=m	0	ROOT
+                3	sincero	sincero	A	A	num=s|gen=m	2	mod
+        </analisi>
+        <analisi id="cartolina_7694-078">
+                1	Sempre	sempre	B	B	_	2	mod
+                2	rammentando-	rammentare	V	V	mod=g	0	ROOT
+                3	ti	ti	P	PC	num=s|per=2|gen=n	2	obj
+
+                1	ti	ti	P	PC	num=s|per=2|gen=n	2	clit
+                2	faccio	fare	V	VM	num=s|per=1|mod=i|ten=p	0	_
+                3	i	il	R	RD	num=p|gen=m	4	det
+                4	più	più	B	B	_	5	mod
+                5	sinceri	sincero	A	A	num=p|gen=m	2	pred
+
+                1	auguri	augurio	S	S	num=p|gen=m	0	ROOT
+                2	Pasquali	Pasquali	S	SP	_	1	mod
+                3	da	da	E	E	_	1	comp
+                4	parte	parte	S	S	num=s|gen=f	3	prep
+
+                1	mia	mio	A	AP	num=s|gen=f	3	mod
+                2	,	,	F	FF	_	1	punc
+                3	Cesare	Cesare	S	SP	_	0	ROOT
+                4	e	e	C	CC	_	3	con
+                5	dal	da	E	EA	num=s|gen=m	3	conj
+                6	mio	mio	A	AP	num=s|gen=m	5	prep
+
+                1	Cino	Cino	S	SP	_	0	ROOT
+                2	e	e	C	CC	_	1	con
+                3	tutta	tutto	T	T	num=s|gen=f	5	mod
+                4	l'	il	R	RD	num=s|gen=n	5	det
+                5	intera	intero	A	A	num=s|gen=f	1	conj
+
+                1	famiglia	famiglia	S	S	num=s|gen=f	0	ROOT
+                2	tanti	tanto	D	DI	num=p|gen=m	1	mod
+                3	saluti	saluto	S	S	num=p|gen=m	1	mod
+
+                1	e	e	C	CC	_	2	con
+                2	baci	bacio	S	S	num=p|gen=m	0	ROOT
+                3	tua	tuo	A	AP	num=s|gen=f	4	mod
+                4	Ceresina	Ceresina	S	SP	_	2	obj
+        </analisi>
+        <analisi id="cartolina_7694-079">
+                1	Grazie	grazie	I	I	_	0	ROOT
+                2	!	!	F	FS	_	1	punc
+                3	?	?	F	FS	_	1	punc
+
+                1	Perchè	Perchè	B	B	_	0	ROOT
+                2	?	?	F	FS	_	1	punc
+
+                1	Per	per	E	E	_	0	ROOT
+                2	così	così	B	B	_	4	mod
+                3	umile	umile	A	A	num=s|gen=n	4	mod
+                4	offerta	offerta	S	S	num=s|gen=f	1	prep
+                5	?	?	F	FS	_	1	punc
+
+                1	Devotissima	devoto	A	A	num=s|gen=f	0	ROOT
+
+                1	E.	E.	S	SP	_	2	mod
+                2	Barbagelata	Barbagelata	S	SP	_	0	ROOT
+        </analisi>
+        <analisi id="cartolina_7694-080">
+                1	Ricordati	ricordare	V	V	num=p|mod=p|gen=m	0	_
+
+                1	de	de	S	SW	num=n|gen=n	3	mod
+                2	la	il	R	RD	num=s|gen=f	3	det
+                3	Pia	Pia	S	SP	_	0	ROOT
+        </analisi>
+        <analisi id="cartolina_7694-081">
+                1	Ti	ti	P	PC	num=s|per=2|gen=n	2	clit
+                2	penso	pensare	V	V	num=s|per=1|mod=i|ten=p	0	ROOT
+                3	tanto	tanto	B	B	_	2	mod
+                4	tanto	tanto	B	B	_	2	mod
+                5	con	con	E	E	_	2	comp
+                6	infinita	infinito	A	A	num=s|gen=f	7	mod
+                7	tenerezza	tenerezza	S	S	num=s|gen=f	5	prep
+                8	,	,	F	FF	_	9	punc
+                9	con	con	E	E	_	2	comp
+                10	pasfione	pasfione	S	S	num=p|gen=f	9	prep
+                11	quasi	quasi	B	B	_	12	mod
+                12	con	con	E	E	_	10	comp
+                13	gioia	gioia	S	S	num=s|gen=f	12	prep
+                14	singolare	singolare	A	A	num=s|gen=n	13	mod
+                15	,	,	F	FF	_	16	punc
+                16	profonda	profondo	A	A	num=s|gen=f	13	mod
+                17	.	.	F	FS	_	2	punc
+
+                1	Un	uno	R	RI	num=s|gen=m	2	det
+                2	bacio	bacio	S	S	num=s|gen=m	0	ROOT
+                3	soavissimo	soave	A	A	num=s|gen=m	2	mod
+
+                1	sempre	sempre	B	B	_	2	mod
+                2	tuo	tuo	A	AP	num=s|gen=m	0	_
+
+                1	Giovannino	Giovannino	S	SP	_	0	ROOT
+        </analisi>
+        <analisi id="cartolina_7694-082">
+                1	Affettuosissimi	affettuoso	A	A	num=p|gen=m	0	ROOT
+        </analisi>
+        <analisi id="cartolina_7694-083">
+                1	Cordiali	cordiale	A	A	num=p|gen=n	2	mod
+                2	saluti	saluto	S	S	num=p|gen=m	0	_
+                3	e	e	C	CC	_	2	con
+
+                1	felicitazioni	felicitazione	S	S	num=p|gen=f	0	ROOT
+                2	vivissime	vivo	A	A	num=p|gen=f	1	mod
+                3	per	per	E	E	_	1	ROOT
+
+                1	il	il	R	RD	num=s|gen=m	3	det
+                2	suo	suo	A	AP	num=s|gen=m	3	mod
+                3	onomastico	onomastico	S	S	num=s|gen=m	0	ROOT
+                4	.	.	F	FS	_	3	punc
+
+                1	Giovannino	Giovannino	S	SP	_	0	ROOT
+        </analisi>
+        <analisi id="cartolina_7694-084">
+                1	Un	uno	R	RI	num=s|gen=m	2	det
+                2	ricordo	ricordo	S	S	num=s|gen=m	0	ROOT
+                3	affettuoso	affettuoso	A	A	num=s|gen=m	2	mod
+
+                1	Giovannino	Giovannino	S	SP	_	0	ROOT
+        </analisi>
+        <analisi id="cartolina_7694-085">
+                1	Pensando	pensare	V	V	mod=g	0	ROOT
+                2	a	a	E	E	_	1	comp
+                3	te	te	P	PE	num=s|per=2|gen=n	2	prep
+                4	sempre	sempre	B	B	_	1	mod
+
+                1	intensamente	intenso	B	B	_	0	_
+
+                1	Giovannino	Giovannino	S	SP	_	0	ROOT
+        </analisi>
+        <analisi id="cartolina_7694-086">
+                1	Un	uno	R	RI	num=s|gen=m	0	_
+                2	affettuosissimo	affettuoso	A	A	num=s|gen=m	1	mod
+
+                1	bacio	bacio	A	A	num=s|gen=m	0	ROOT
+                2	prima	prima	B	B	_	3	mod
+                3	della	di	E	EA	num=s|gen=f	1	comp_temp
+                4	visita	visita	S	S	num=s|gen=f	3	prep
+                5	.	.	F	FS	_	1	punc
+
+                1	tuo	tuo	A	AP	num=s|gen=m	2	mod
+                2	Giovannino	Giovannino	S	SP	_	0	ROOT
+        </analisi>
+        <analisi id="cartolina_7694-087">
+                
+        </analisi>
+        <analisi id="cartolina_7694-088">
+                1	Oliva	Oliva	S	SP	_	0	ROOT
+                2	mia	mio	A	AP	num=s|gen=f	1	mod
+                3	.	.	F	FS	_	1	punc
+
+                1	In	in	E	E	_	5	comp
+                2	questo	questo	D	DD	num=s|gen=m	3	mod
+                3	momento	momento	S	S	num=s|gen=m	1	prep
+                4	ti	ti	P	PC	num=s|per=2|gen=n	5	comp_ind
+                5	sono	essere	V	V	num=p|per=3|mod=i|ten=p	0	ROOT
+                6	vicino	vicino	B	B	_	5	mod
+                7	più	più	B	B	_	5	mod
+
+                1	di	di	E	E	_	5	comp
+                2	quanto	quanto	B	B	_	1	prep
+                3	si	si	P	PC	num=n|per=3|gen=n	4	clit
+                4	possa	potere	V	VM	num=s|per=3|mod=c|ten=p	5	modal
+                5	capir-	capire	V	V	mod=f	0	ROOT
+                6	lo	lo	P	PC	num=s|per=3|gen=m	5	obj
+                7	.	.	F	FS	_	5	punc
+
+                1	Sento	sentire	V	V	num=s|per=1|mod=i|ten=p	0	ROOT
+                2	nel	in	E	EA	num=s|gen=m	1	comp
+                3	blando	blando	A	A	num=s|gen=m	4	mod
+                4	abbandono	abbandono	S	S	num=s|gen=m	2	prep
+                5	della	di	E	EA	num=s|gen=f	4	comp
+                6	sera	sera	S	S	num=s|gen=f	5	prep
+                7	il	il	R	RD	num=s|gen=m	10	det
+                8	tuo	tuo	A	AP	num=s|gen=m	10	mod
+                9	ardente	ardente	A	A	num=s|gen=n	10	mod
+                10	affetto	affetto	S	S	num=s|gen=m	1	obj
+                11	e	e	C	CC	_	10	con
+                12	mi	mi	P	PC	num=s|per=1|gen=n	14	comp
+                13	ci	ci	P	PC	num=p|per=1|gen=n	14	comp
+                14	rifugio	rifugio	S	S	num=s|gen=m	10	conj
+                15	.	.	F	FS	_	1	punc
+
+                1	Provo	provare	V	V	num=s|per=1|mod=i|ten=p	4	ROOT
+                2	la	il	R	RD	num=s|gen=f	4	det
+                3	dolce	dolce	A	A	num=s|gen=n	4	mod
+                4	sensazione	sensazione	S	S	num=s|gen=f	0	ROOT
+                5	della	di	E	EA	num=s|gen=f	4	comp
+                6	reminiscenza	reminiscenza	S	S	num=s|gen=f	5	prep
+                7	,	,	F	FF	_	8	punc
+                8	che	che	P	PR	num=n|gen=n	4	ROOT
+
+                1	come	come	E	E	_	7	comp
+                2	una	uno	R	RI	num=s|gen=f	3	det
+                3	mamma	mamma	S	S	num=s|gen=f	1	prep
+                4	pietosa	pietoso	A	A	num=s|gen=f	3	mod
+                5	e	e	C	CC	_	3	con
+                6	buona	buono	A	A	num=s|gen=f	3	mod
+                7	rievoca	rievocare	V	V	num=s|per=3|mod=i|ten=p	0	ROOT
+                8	il	il	R	RD	num=s|gen=m	9	det
+                9	passato	passato	S	S	num=s|gen=m	7	obj
+
+                1	felice	felice	A	A	num=s|gen=n	0	ROOT
+                2	della	di	E	EA	num=s|gen=f	1	comp
+                3	fanciullezza	fanciullezza	S	S	num=s|gen=f	2	prep
+                4	trascorsa	trascorso	A	A	num=s|gen=f	3	mod
+                5	,	,	F	FF	_	1	punc
+                6	passa	passare	V	V	num=s|per=3|mod=i|ten=p	0	ROOT
+                7	poi	poi	B	B	_	6	mod
+                8	ad	ad	E	E	_	6	arg
+                9	invocare	invocare	V	V	mod=f	8	prep
+                10	l'	il	R	RD	num=s|gen=n	11	det
+                11	avvenire	avvenire	S	S	num=s|gen=m	9	obj
+                12	del	di	E	EA	num=s|gen=m	11	comp
+                13	figlio	figlio	S	S	num=s|gen=m	12	prep
+                14	,	,	F	FF	_	15	punc
+                15	così	così	B	B	_	6	mod
+                16	del	di	E	EA	num=s|gen=m	15	comp
+                17	nostro	nostro	A	AP	num=s|gen=m	18	mod
+                18	amore	amore	S	S	num=s|gen=m	16	prep
+                19	:	:	F	FC	_	6	punc
+
+                1	alle	al	E	EA	num=p|gen=f	16	comp
+                2	soavità	soavità	S	S	num=n|gen=f	1	prep
+                3	passate	passare	V	V	num=p|mod=p|gen=f	2	mod
+                4	,	,	F	FF	_	1	punc
+                5	alle	al	E	EA	num=p|gen=f	1	conj
+                6	delicatezze	delicatezza	S	S	num=p|gen=f	5	prep
+                7	sentimentali	sentimentale	A	A	num=p|gen=n	6	mod
+                8	fuorviate	fuorviare	V	V	num=p|mod=p|gen=f	6	mod
+                9	,	,	F	FF	_	1	con
+                10	ai	al	E	EA	num=p|gen=m	16	comp
+                11	dolci	dolce	S	S	num=p|gen=m	10	prep
+                12	dolori	dolore	S	S	num=p|gen=m	11	mod
+                13	sofferti	sofferto	A	A	num=p|gen=m	11	mod
+                14	,	,	F	FF	_	10	punc
+                15	ci	ci	P	PC	num=p|per=1|gen=n	16	comp_ind
+                16	aspettano	aspettare	V	V	num=p|per=3|mod=i|ten=p	0	ROOT
+                17	altre	altro	D	DI	num=p|gen=f	18	mod
+                18	gioie	gioia	S	S	num=p|gen=f	16	subj
+                19	più	più	B	B	_	18	mod
+
+                1	intime	intimo	A	A	num=p|gen=f	3	mod
+                2	,	,	F	FF	_	1	con
+                3	affetti	affetto	S	S	num=p|gen=m	0	ROOT
+                4	più	più	B	B	_	5	mod
+                5	saldi	saldo	A	A	num=p|gen=m	3	mod
+                6	,	,	F	FF	_	5	con
+                7	amore	amore	S	S	num=s|gen=m	5	conj
+                8	,	,	F	FF	_	5	con
+                9	adorazione	adorazione	S	S	num=s|gen=f	5	conj
+                10	,	,	F	FF	_	5	con
+                11	venerazione	venerazione	S	S	num=s|gen=f	5	conj
+                12	.	.	F	FS	_	3	punc
+
+                1	E	e	C	CC	_	3	con
+                2	veramente	vero	B	B	_	3	mod
+                3	sento	sentire	V	V	num=s|per=1|mod=i|ten=p	0	ROOT
+                4	di	di	E	E	_	3	arg
+                5	amar-	amare	V	V	mod=f	4	prep
+                6	ti	ti	P	PC	num=s|per=2|gen=n	5	clit
+                7	tanto	tanto	B	B	_	5	mod
+                8	,	,	F	FF	_	9	punc
+                9	tanto	tanto	B	B	_	3	mod
+                10	.	.	F	FS	_	3	punc
+
+                1	Oliva	oliva	S	S	num=s|gen=f	0	ROOT
+                2	cara	caro	A	A	num=s|gen=f	1	mod
+                3	.	.	F	FS	_	1	punc
+
+                1	In	in	E	E	_	0	ROOT
+                2	una	uno	R	RI	num=s|gen=f	3	det
+                3	parola	parola	S	S	num=s|gen=f	1	prep
+                4	,	,	F	FF	_	1	punc
+                5	in	in	E	E	_	1	conj
+                6	uno	uno	R	RI	num=s|gen=m	7	det
+                7	sguardo	sguardo	S	S	num=s|gen=m	5	prep
+                8	,	,	F	FF	_	9	punc
+                9	in	in	E	E	_	7	comp
+                10	un	uno	R	RI	num=s|gen=m	11	det
+                11	bacio	bacio	S	S	num=s|gen=m	9	prep
+                12	tutta	tutto	T	T	num=s|gen=f	14	mod
+                13	l'	il	R	RD	num=s|gen=n	14	det
+                14	anima	anima	S	S	num=s|gen=f	11	mod_temp
+                15	mia	mio	A	AP	num=s|gen=f	14	mod
+                16	,	,	F	FF	_	9	punc
+                17	la	il	R	RD	num=s|gen=f	19	det
+                18	mia	mio	A	AP	num=s|gen=f	19	mod
+                19	vita	vita	S	S	num=s|gen=f	5	prep
+                20	tutta	tutto	T	T	num=s|gen=f	21	mod
+                21	in	in	E	E	_	19	comp
+                22	eterno	eterno	A	A	num=s|gen=m	21	prep
+                23	Giovannino	Giovannino	S	SP	_	19	mod
+        </analisi>
+        <analisi id="cartolina_7694-089">
+                1	Mia	mio	A	AP	num=s|gen=f	3	mod
+                2	buona	buono	A	A	num=s|gen=f	3	mod
+                3	Oliva	Oliva	S	SP	_	0	ROOT
+                4	,	,	F	FF	_	3	con
+                5	ti	ti	P	PC	num=s|per=2|gen=n	3	conj
+                6	prego	prego	I	I	_	7	mod
+                7	di	di	E	E	_	5	arg
+                8	voler-	volere	V	V	mod=f	7	prep
+                9	me	me	P	PC	num=s|per=1|gen=n	8	obj
+
+                1	pensare	pensare	V	V	mod=f	0	ROOT
+                2	presso	presso	E	E	_	1	comp
+                3	i	il	R	RD	num=p|gen=m	4	det
+                4	tuoi	tuo	P	PP	num=p|gen=m	2	prep
+                5	e	e	C	CC	_	2	con
+                6	di	di	E	E	_	2	conj
+                7	salutar-	salutare	V	V	mod=f	6	prep
+                8	li	li	P	PC	num=p|per=3|gen=m	7	obj
+                9	tanto	tanto	B	B	_	10	mod
+                10	affettuosamente	affettuoso	B	B	_	7	mod
+                11	.	.	F	FS	_	1	punc
+
+                1	Circa	circa	B	B	_	4	mod
+                2	gli	il	R	RD	num=p|gen=m	4	det
+                3	ultimi	ultimo	A	A	num=p|gen=m	4	mod
+                4	avventi	avvento	S	S	num=p|gen=m	0	ROOT
+                5	,	,	F	FF	_	4	punc
+                6	il	il	R	RD	num=s|gen=m	7	det
+                7	motivo	motivo	S	S	num=s|gen=m	0	ROOT
+
+                1	è	essere	V	V	num=s|per=3|mod=i|ten=p	0	ROOT
+                2	ben	ben	B	B	_	3	mod
+                3	semplice	semplice	A	A	num=s|gen=n	1	pred
+                4	,	,	F	FF	_	1	con
+                5	non	non	B	BN	_	6	neg
+                6	assistetti	assistetti	B	B	_	7	mod
+                7	alla	al	E	EA	num=s|gen=f	1	comp
+                8	distribuzione	distribuzione	S	S	num=s|gen=f	7	prep
+
+                1	del	di	E	EA	num=s|gen=m	0	ROOT
+                2	rancio	rancio	S	S	num=s|gen=m	1	prep
+                3	;	;	F	FC	_	2	punc
+                4	non	non	B	BN	_	5	neg
+                5	te	te	P	PE	num=s|per=2|gen=n	1	conj
+                6	ne	ne	P	PC	num=n|gen=n	9	comp
+                7	ho	avere	V	VA	num=s|per=1|mod=i|ten=p	9	aux
+                8	mai	mai	B	B	_	9	mod_temp
+                9	parlato	parlare	V	V	num=s|mod=p|gen=m	5	mod_rel
+                10	perchè	perchè	B	B	_	9	mod
+                11	mi	mi	P	PC	num=s|per=1|gen=n	9	obj
+
+                1	pare	parere	V	V	num=s|per=3|mod=i|ten=p	0	ROOT
+                2	che	che	C	CS	_	1	arg
+                3	queste	questo	D	DD	num=p|gen=f	4	mod
+                4	cose	cosa	S	S	num=p|gen=f	5	subj
+                5	manchino	mancare	V	V	num=p|per=3|mod=c|ten=p	2	sub
+                6	di	di	E	E	_	5	comp
+                7	scempiaggine	scempiaggine	S	S	num=s|gen=f	6	prep
+
+                1	dolorosa	doloroso	A	A	num=s|gen=f	5	mod
+                2	,	,	F	FF	_	1	punc
+                3	i	il	R	RD	num=p|gen=m	5	det
+                4	nostri	nostro	A	AP	num=p|gen=m	5	mod
+                5	pensieri	pensiero	S	S	num=p|gen=m	0	ROOT
+                6	.	.	F	FS	_	5	punc
+
+                1	Non	non	B	BN	_	3	neg
+                2	ti	ti	P	PC	num=s|per=2|gen=n	3	clit
+                3	parlo	parlare	V	V	num=s|per=1|mod=i|ten=p	0	ROOT
+                4	mai	mai	B	B	_	3	mod
+
+                1	di	di	E	E	_	13	comp
+                2	me	me	P	PE	num=s|per=1|gen=n	1	prep
+                3	,	,	F	FF	_	4	punc
+                4	della	di	E	EA	num=s|gen=f	1	comp
+                5	mia	mio	A	AP	num=s|gen=f	6	mod
+                6	vita	vita	S	S	num=s|gen=f	4	prep
+                7	fisica	fisico	A	A	num=s|gen=f	6	mod
+                8	,	,	F	FF	_	4	punc
+                9	sia	essere	V	V	num=s|per=3|mod=c|ten=p	13	aux
+                10	perchè	perchè	C	CS	_	13	mod
+                11	non	non	B	BN	_	13	neg
+                12	ne	ne	P	PC	num=n|gen=n	13	comp
+                13	vale	valere	V	V	num=s|per=3|mod=i|ten=p	0	ROOT
+
+                1	affatto	affatto	B	B	_	3	mod
+                2	la	il	R	RD	num=s|gen=f	3	det
+                3	pena	pena	S	S	num=s|gen=f	0	ROOT
+                4	,	,	F	FF	_	5	punc
+                5	sia	essere	V	V	num=s|per=3|mod=c|ten=p	3	mod
+                6	anche	anche	B	B	_	7	mod
+                7	per	per	E	E	_	5	comp
+                8	la	il	R	RD	num=s|gen=f	9	det
+                9	ragione	ragione	S	S	num=s|gen=f	7	prep
+                10	di	di	E	E	_	12	comp
+                11	cui	cui	P	PR	num=n|gen=n	10	prep
+                12	sopra	sopra	B	B	_	9	mod_rel
+                13	.	.	F	FS	_	3	punc
+
+                1	Voglia	volere	V	V	num=s|per=3|mod=c|ten=p	0	ROOT
+                2	a	a	E	E	_	1	comp
+                3	me	me	P	PE	num=s|per=1|gen=n	2	prep
+                4	sempre	sempre	B	B	_	1	mod_temp
+                5	bene	bene	B	B	_	4	mod
+                6	e	e	C	CC	_	1	con
+                7	scrivi-	scrivere	V	V	num=s|per=2|mod=m|ten=p	1	conj
+                8	me	me	P	PC	num=s|per=1|gen=n	7	obj
+                9	a	a	E	E	_	7	comp
+                10	lungo	lungo	S	S	num=s|gen=m	9	prep
+
+                1	tuo	tuo	A	AP	num=s|gen=m	2	mod
+                2	Giovannino	Giovannino	S	SP	_	0	ROOT
+        </analisi>
+        <analisi id="cartolina_7694-090">
+                1	Affettuosissimi	affettuoso	A	A	num=p|gen=m	2	mod
+                2	saluti	saluto	S	S	num=p|gen=m	0	ROOT
+
+                1	a	a	E	E	_	0	ROOT
+                2	tutti	tutto	P	PI	num=p|gen=m	1	prep
+
+                1	Giovannino	Giovannino	S	SP	_	0	ROOT
+        </analisi>
+        <analisi id="cartolina_7694-091">
+                1	Oliva	oliva	S	S	num=s|gen=f	0	ROOT
+                2	cara	caro	A	A	num=s|gen=f	1	mod
+                3	,	,	F	FF	_	1	punc
+                4	ogni	ogni	D	DI	num=s|gen=n	6	subj
+                5	qualvolta	qualvolta	C	CS	_	6	mod
+                6	è	essere	V	V	num=s|per=3|mod=i|ten=p	0	ROOT
+                7	domenica	domenica	S	S	num=s|gen=f	6	pred
+                8	il	il	R	RD	num=s|gen=m	9	det
+                9	cuore	cuore	S	S	num=s|gen=m	6	subj
+
+                1	mi	mi	P	PC	num=s|per=1|gen=n	3	obj
+                2	si	si	P	PC	num=n|per=3|gen=n	3	clit
+                3	stringe	stringere	V	V	num=s|per=3|mod=i|ten=p	0	ROOT
+                4	in	in	E	E	_	3	comp
+                5	una	uno	R	RI	num=s|gen=f	7	det
+                6	dolorosa	doloroso	A	A	num=s|gen=f	7	mod
+                7	sensazione	sensazione	S	S	num=s|gen=f	4	prep
+                8	di	di	E	E	_	7	comp
+                9	tristezza	tristezza	S	S	num=s|gen=f	8	prep
+                10	.	.	F	FS	_	3	punc
+
+                1	Quest'	questo	D	DD	num=s|gen=n	6	mod
+                2	oggi	oggi	B	B	_	6	mod_temp
+                3	poi	poi	B	B	_	6	mod
+                4	ho	avere	V	VA	num=s|per=1|mod=i|ten=p	5	aux
+                5	dovuto	dovere	V	VM	num=s|mod=p|gen=m	6	modal
+                6	perdere	perdere	V	V	mod=f	0	ROOT
+                7	il	il	R	RD	num=s|gen=m	9	det
+                8	mio	mio	A	AP	num=s|gen=m	9	mod
+                9	tempo	tempo	S	S	num=s|gen=m	6	obj
+                10	ad	ad	E	E	_	9	arg
+                11	ascoltare	ascoltare	V	V	mod=f	10	prep
+
+                1	una	uno	R	RI	num=s|gen=f	2	det
+                2	conferenza	conferenza	S	S	num=s|gen=f	9	subj
+                3	d'	di	E	E	_	2	comp
+                4	indole	indole	S	S	num=s|gen=f	3	prep
+                5	militare	militare	A	A	num=s|gen=n	4	mod
+                6	e	e	C	CC	_	2	con
+                7	mi	mi	P	PC	num=s|per=1|gen=n	9	clit
+                8	sono	essere	V	VA	num=p|per=3|mod=i|ten=p	9	aux
+                9	ridotto	ridurre	V	V	num=s|mod=p|gen=m	0	ROOT
+                10	a	a	E	E	_	9	comp
+
+                1	scriver-	scrivere	V	V	mod=f	0	ROOT
+                2	ti	ti	P	PC	num=s|per=2|gen=n	1	obj
+                3	ora	ora	B	B	_	4	mod
+                4	per	per	E	E	_	1	arg
+                5	non	non	B	BN	_	6	neg
+                6	lasciar-	lasciare	V	V	mod=f	4	prep
+                7	ti	ti	P	PC	num=s|per=2|gen=n	6	obj
+                8	domani	domani	B	B	_	9	mod
+                9	senza	senza	E	E	_	6	comp
+                10	un	uno	R	RI	num=s|gen=m	12	det
+                11	mio	mio	A	AP	num=s|gen=m	12	mod
+                12	bacio	bacio	S	S	num=s|gen=m	9	prep
+                13	.	.	F	FS	_	1	punc
+
+                1	questa	questo	D	DD	num=s|gen=f	2	mod
+                2	sera	sera	S	S	num=s|gen=f	4	mod_temp
+                3	ti	ti	P	PC	num=s|per=2|gen=n	4	comp_ind
+                4	prometto	promettere	V	V	num=s|per=1|mod=i|ten=p	0	ROOT
+                5	che	che	C	CS	_	4	arg
+                6	scriverò	scrivere	V	V	num=s|per=1|mod=i|ten=f	5	sub
+                7	lungamente	lungo	B	B	_	6	mod
+                8	.	.	F	FS	_	4	punc
+
+                1	Oliva	oliva	S	S	num=s|gen=f	0	ROOT
+                2	cara	caro	A	A	num=s|gen=f	1	mod
+                3	ho	avere	V	V	num=s|per=1|mod=i|ten=p	1	mod_rel
+                4	l'	il	R	RD	num=s|gen=n	5	det
+                5	animo	animo	S	S	num=s|gen=m	3	obj
+                6	chiuso	chiudere	V	V	num=s|mod=p|gen=m	5	mod
+                7	a	a	E	E	_	6	comp
+                8	tutte	tutto	T	T	num=p|gen=f	10	mod
+                9	le	il	R	RD	num=p|gen=f	10	det
+                10	gioie	gioia	S	S	num=p|gen=f	7	prep
+                11	della	di	E	EA	num=s|gen=f	3	comp
+
+                1	-	-	F	FC	_	0	punc
+                2	-	-	F	FC	_	1	punc
+                3	-	-	F	FC	_	1	punc
+                4	ma	ma	C	CC	_	7	con
+                5	non	non	B	BN	_	7	neg
+                6	mi	mi	P	PC	num=s|per=1|gen=n	7	clit
+                7	sento	sentire	V	V	num=s|per=1|mod=i|ten=p	1	ROOT
+                8	granché	granché	B	B	_	9	mod
+                9	dispiacere	dispiacere	V	V	mod=f	7	arg
+                10	.	.	F	FS	_	7	punc
+
+                1	Vorrei	volere	V	VM	num=s|per=1|mod=d|ten=p	0	_
+
+                1	che	che	C	CS	_	0	ROOT
+                2	tu	tu	P	PE	num=s|per=2|gen=n	5	subj
+                3	mi	mi	P	PC	num=s|per=1|gen=n	5	clit
+                4	fossi	essere	V	VA	num=s|per=1|mod=c|ten=i	5	aux
+                5	vicina	vicino	A	A	num=s|gen=f	1	sub
+                6	sempre	sempre	B	B	_	7	mod
+                7	per	per	E	E	_	5	arg
+                8	render-	rendere	V	V	mod=f	7	prep
+                9	me	me	P	PC	num=s|per=1|gen=n	1	sub
+
+                1	ancora	ancora	B	B	_	3	mod
+                2	più	più	B	B	_	3	mod
+                3	inclusivo	inclusivo	A	A	num=s|gen=m	0	ROOT
+                4	all'	al	E	EA	num=s|gen=n	3	comp
+                5	amor	amor	S	S	num=s|gen=m	4	prep
+                6	tuo	tuo	A	AP	num=s|gen=m	5	mod
+                7	,	,	F	FF	_	3	punc
+                8	anche	anche	B	B	_	9	mod
+                9	nei	in	E	EA	num=p|gen=m	0	_
+
+                1	minimi	minimo	A	A	num=p|gen=m	2	mod
+                2	particolari	particolare	A	A	num=p|gen=n	0	ROOT
+                3	della	di	E	EA	num=s|gen=f	2	comp
+                4	vita	vita	S	S	num=s|gen=f	3	prep
+                5	che	che	P	PR	num=n|gen=n	6	subj
+                6	sono	essere	V	V	num=p|per=3|mod=i|ten=p	4	mod_rel
+                7	in	in	E	E	_	6	pred
+                8	fondo	fondo	S	S	num=s|gen=m	7	prep
+
+                1	la	il	R	RD	num=s|gen=f	2	det
+                2	sentenza	sentenza	S	S	num=s|gen=f	0	ROOT
+                3	essenziale	essenziale	A	A	num=s|gen=n	2	mod
+                4	per	per	E	E	_	2	comp
+                5	una	uno	R	RI	num=s|gen=f	6	det
+                6	intera	intero	A	A	num=s|gen=f	9	mod
+                7	e	e	C	CC	_	6	con
+                8	perfetta	perfetto	A	A	num=s|gen=f	6	conj
+                9	comunione	comunione	S	S	num=s|gen=f	4	prep
+                10	d'	di	E	E	_	9	comp
+                11	affetto	affetto	S	S	num=s|gen=m	10	prep
+                12	.	.	F	FS	_	2	punc
+
+                1	Un	uno	R	RI	num=s|gen=m	2	det
+                2	bacio	bacio	S	S	num=s|gen=m	0	ROOT
+                3	e	e	C	CC	_	2	con
+                4	l'	il	R	RD	num=s|gen=n	5	det
+                5	animo	animo	S	S	num=s|gen=m	2	conj
+                6	mio	mio	A	AP	num=s|gen=m	5	mod
+                7	Giovannino	Giovannino	S	SP	_	2	conj
+        </analisi>
+        <analisi id="cartolina_7694-092">
+                1	Oliva	Oliva	S	SP	_	4	subj
+                2	mia	mio	A	AP	num=s|gen=f	1	mod
+                3	,	,	F	FF	_	1	punc
+                4	accetta	accettare	V	V	num=s|per=3|mod=i|ten=p	0	ROOT
+                5	un	uno	R	RI	num=s|gen=m	6	det
+                6	bacio	bacio	S	S	num=s|gen=m	4	obj
+
+                1	e	e	C	CC	_	7	con
+                2	in	in	E	E	_	7	comp
+                3	quel	quello	D	DD	num=s|gen=m	4	mod
+                4	bacio	bacio	S	S	num=s|gen=m	2	prep
+                5	tutta	tutto	T	T	num=s|gen=f	7	mod
+                6	l'	il	R	RD	num=s|gen=n	7	det
+                7	anima	anima	S	S	num=s|gen=f	0	ROOT
+
+                1	mia	mio	A	AP	num=s|gen=f	0	ROOT
+                2	,	,	F	FF	_	5	punc
+                3	il	il	R	RD	num=s|gen=m	5	det
+                4	mio	mio	A	AP	num=s|gen=m	5	mod
+                5	amore	amore	S	S	num=s|gen=m	1	ROOT
+                6	grande	grande	A	A	num=s|gen=n	5	mod
+                7	grande	grande	A	A	num=s|gen=n	5	mod
+                8	.	.	F	FS	_	5	punc
+
+                1	Saluta-	salutare	V	V	num=s|per=2|mod=m|ten=p	0	ROOT
+                2	me	me	P	PC	num=s|per=1|gen=n	1	comp_ind
+                3	la	il	R	RD	num=s|gen=f	4	det
+                4	mamma	mamma	S	S	num=s|gen=f	1	obj
+                5	,	,	F	FF	_	4	con
+                6	l'	il	R	RD	num=s|gen=n	7	det
+                7	Antonietta	Antonietta	S	SP	_	4	conj
+                8	,	,	F	FF	_	1	punc
+
+                1	il	il	R	RD	num=s|gen=m	2	det
+                2	babbo	babbo	S	S	num=s|gen=m	0	ROOT
+                3	,	,	F	FF	_	2	con
+                4	la	il	R	RD	num=s|gen=f	5	det
+                5	zia	zia	S	S	num=s|gen=f	2	conj
+                6	e	e	C	CC	_	2	con
+                7	la	il	R	RD	num=s|gen=f	8	det
+                8	Giovannetta	Giovannetta	S	SP	_	2	conj
+                9	.	.	F	FS	_	2	punc
+
+                1	Per	per	E	E	_	3	comp
+                2	sempre	sempre	B	B	_	1	prep
+                3	tuo	tuo	A	AP	num=s|gen=m	0	_
+
+                1	Giovannino	Giovannino	S	SP	_	0	ROOT
+        </analisi>
+        <analisi id="cartolina_7694-093">
+                1	Affettuosissimi	affettuoso	A	A	num=p|gen=m	0	ROOT
+        </analisi>
+        <analisi id="cartolina_7694-094">
+                1	C'	ci	P	PC	num=n|gen=n	2	comp
+                2	è	essere	V	V	num=s|per=3|mod=i|ten=p	0	ROOT
+                3	un	uno	R	RI	num=s|gen=m	4	det
+                4	caldo	caldo	A	A	num=s|gen=m	2	pred
+                5	canicolare	canicolare	A	A	num=s|gen=n	4	mod
+                6	pieno	pieno	A	A	num=s|gen=m	4	mod
+
+                1	di	di	E	E	_	0	ROOT
+                2	spossatezza	spossatezza	S	S	num=s|gen=f	1	prep
+                3	.	.	F	FS	_	1	punc
+
+                1	Sono	essere	V	V	num=p|per=3|mod=i|ten=p	0	ROOT
+                2	in	in	E	E	_	1	pred
+                3	attesa	attesa	S	S	num=s|gen=f	2	prep
+                4	,	,	F	FF	_	1	con
+
+                1	in	in	E	E	_	5	comp
+                2	trepida	trepido	A	A	num=s|gen=f	3	mod
+                3	attesa	attesa	S	S	num=s|gen=f	1	prep
+                4	,	,	F	FF	_	1	punc
+                5	sifatto	sifatto	A	A	num=s|gen=m	7	mod
+                6	il	il	R	RD	num=s|gen=m	7	det
+                7	postino	postino	S	S	num=s|gen=m	0	ROOT
+
+                1	che	che	P	PR	num=n|gen=n	3	subj
+                2	deve	dovere	V	VM	num=s|per=3|mod=i|ten=p	3	modal
+                3	portar-	portare	V	V	mod=f	0	ROOT
+                4	me	me	P	PC	num=s|per=1|gen=n	3	comp_ind
+                5	i	il	R	RD	num=p|gen=m	6	det
+                6	baci	bacio	S	S	num=p|gen=m	3	obj
+                7	della	di	E	EA	num=s|gen=f	6	comp
+                8	mia	mio	A	AP	num=s|gen=f	7	prep
+
+                1	Oliva	Oliva	S	SP	_	3	subj
+                2	,	,	F	FF	_	1	punc
+                3	sarà	essere	V	V	num=s|per=3|mod=i|ten=f	0	ROOT
+                4	una	uno	R	RI	num=s|gen=f	5	det
+                5	proficua	proficuo	A	A	num=s|gen=f	3	pred
+                6	attesa	atteso	A	A	num=s|gen=f	5	mod
+                7	?	?	F	FS	_	3	punc
+
+                1	Questa	questo	D	DD	num=s|gen=f	2	mod
+                2	mattina	mattina	S	S	num=s|gen=f	0	ROOT
+                3	nulla	nulla	P	PI	num=s|gen=m	2	mod
+                4	,	,	F	FF	_	2	punc
+                5	solo	solo	B	B	_	8	mod
+                6	una	uno	R	RI	num=s|gen=f	8	det
+                7	semplice	semplice	A	A	num=s|gen=n	8	mod
+                8	cartolina	cartolina	S	S	num=s|gen=f	2	conj
+                9	della	di	E	EA	num=s|gen=f	8	comp
+                10	Giovannetta	Giovannetta	S	SP	_	9	prep
+                11	.	.	F	FS	_	2	punc
+
+                1	Mi	mi	P	PC	num=s|per=1|gen=n	2	clit
+                2	perdo	perdere	V	V	num=s|per=1|mod=i|ten=p	0	ROOT
+                3	in	in	E	E	_	2	comp
+                4	frenetiche	frenetico	A	A	num=p|gen=f	5	mod
+                5	fantasie	fantasia	S	S	num=p|gen=f	3	prep
+                6	d'	di	E	E	_	5	comp
+                7	amore	amore	S	S	num=s|gen=m	6	prep
+
+                1	e	e	C	CC	_	2	con
+                2	penso	pensare	V	V	num=s|per=1|mod=i|ten=p	0	ROOT
+                3	a	a	E	E	_	2	comp
+                4	te	te	P	PE	num=s|per=2|gen=n	3	prep
+                5	.	.	F	FS	_	2	punc
+
+                1	Giovannino	Giovannino	S	SP	_	0	ROOT
+        </analisi>
+        <analisi id="cartolina_7694-095">
+                1	Soavi	Soavi	S	S	num=p|gen=n	0	ROOT
+                2	ed	e	C	CC	_	1	con
+                3	affettuosissimi	affettuoso	A	A	num=p|gen=m	1	conj
+
+                1	Giovannino	Giovannino	S	SP	_	0	ROOT
+        </analisi>
+        <analisi id="cartolina_7694-096">
+                1	Forse	forse	B	B	_	3	mod
+                2	ti	ti	P	PC	num=s|per=2|gen=n	3	comp_ind
+                3	parrà	parere	V	V	num=s|per=3|mod=i|ten=f	0	ROOT
+                4	una	uno	R	RI	num=s|gen=f	5	det
+                5	passione	passione	S	S	num=s|gen=f	3	obj
+                6	morbosa	morboso	A	A	num=s|gen=f	5	mod
+                7	,	,	F	FF	_	3	con
+
+                1	forse	forse	B	B	_	6	mod
+                2	,	,	F	FF	_	1	punc
+                3	se	se	C	CS	_	6	mod
+                4	gli	il	R	RD	num=p|gen=m	5	det
+                5	eventi	evento	S	S	num=p|gen=m	6	subj
+                6	rimangono	rimanere	V	V	num=p|per=3|mod=i|ten=p	0	ROOT
+                7	avversi	avverso	A	A	num=p|gen=m	6	pred
+
+                1	parrà	parere	V	V	num=s|per=3|mod=i|ten=f	0	ROOT
+                2	diventare	diventare	V	V	mod=f	1	arg
+                3	......	......	C	CC	_	2	con
+                4	è	essere	V	V	num=s|per=3|mod=i|ten=p	2	conj
+                5	già	già	B	B	_	4	mod
+                6	il	il	R	RD	num=s|gen=m	7	det
+                7	tormento	tormento	S	S	num=s|gen=m	4	pred
+
+                1	lo	il	R	RD	num=s|gen=m	2	det
+                2	affanno	affanno	S	S	num=s|gen=m	7	subj
+                3	dell'	di	E	EA	num=s|gen=n	2	comp
+                4	animo	animo	S	S	num=s|gen=m	3	prep
+                5	e	e	C	CC	_	2	con
+                6	non	non	B	BN	_	7	neg
+                7	cessa	cessare	V	V	num=s|per=3|mod=i|ten=p	0	ROOT
+
+                1	e	e	C	CC	_	3	con
+                2	non	non	B	BN	_	3	neg
+                3	muore	morire	V	V	num=s|per=3|mod=i|ten=p	0	ROOT
+                4	.	.	F	FS	_	3	punc
+
+                1	Ti	ti	P	PC	num=s|per=2|gen=n	2	comp_ind
+                2	parrà	parere	V	V	num=s|per=3|mod=i|ten=f	0	ROOT
+                3	debolezza	debolezza	S	S	num=s|gen=f	2	obj
+                4	di	di	E	E	_	3	comp
+
+                1	spirito	spirito	S	S	num=s|gen=m	0	ROOT
+                2	malato	malato	A	A	num=s|gen=m	1	mod
+                3	,	,	F	FF	_	1	punc
+                4	un	uno	R	RI	num=s|gen=m	5	det
+                5	pensiero	pensiero	S	S	num=s|gen=m	0	ROOT
+                6	forse	forse	B	B	_	5	mod
+                7	.	.	F	FS	_	5	punc
+
+                1	persistente	persistente	A	A	num=s|gen=n	6	mod
+                2	,	,	F	FF	_	1	con
+                3	indistruttibile	indistruttibile	A	A	num=s|gen=n	1	conj
+                4	,	,	F	FF	_	1	con
+                5	qual'	qual'	P	PE	num=s|per=3|gen=n	6	subj
+                6	è	essere	V	V	num=s|per=3|mod=i|ten=p	0	ROOT
+                7	il	il	R	RD	num=s|gen=m	8	det
+                8	mio	mio	A	AP	num=s|gen=m	6	pred
+
+                1	per	per	E	E	_	0	ROOT
+                2	te	te	P	PE	num=s|per=2|gen=n	1	prep
+                3	?	?	F	FS	_	1	punc
+
+                1	E	e	C	CC	_	5	con
+                2	come	come	C	CS	_	5	mod
+                3	si	si	P	PC	num=n|per=3|gen=n	4	clit
+                4	dovrebbe	dovere	V	VM	num=s|per=3|mod=d|ten=p	5	modal
+                5	amare	amare	V	V	mod=f	0	ROOT
+                6	?	?	F	FS	_	5	punc
+
+                1	Giovannino	Giovannino	S	SP	_	0	ROOT
+        </analisi>
+        <analisi id="cartolina_7694-111">
+                
+        </analisi>
+        <analisi id="cartolina_7694-112">
+                1	Affettuosissimi	affettuoso	A	A	num=p|gen=m	2	mod
+                2	auguri	augurio	S	S	num=p|gen=m	0	ROOT
+        </analisi>
+        <analisi id="cartolina_7694-121">
+                1	Oliva	oliva	S	S	num=s|gen=f	0	ROOT
+                2	cara	caro	A	A	num=s|gen=f	1	mod
+                3	,	,	F	FF	_	1	punc
+
+                1	Ieri	ieri	B	B	_	0	ROOT
+                2	non	non	B	BN	_	4	neg
+                3	ti	ti	P	PC	num=s|per=2|gen=n	4	comp_ind
+                4	scrissi	scrivere	V	V	num=s|per=1|mod=i|ten=s	1	ROOT
+                5	,	,	F	FF	_	4	con
+                6	non	non	B	BN	_	8	neg
+                7	ne	ne	P	PC	num=n|gen=n	8	comp
+                8	ebbi	ebbi	V	V	num=s|mod=p|gen=m	4	conj
+
+                1	il	il	R	RD	num=s|gen=m	2	det
+                2	tempo	tempo	S	S	num=s|gen=m	0	ROOT
+                3	perchè	perchè	P	PR	num=n|gen=n	5	subj
+                4	fui	fui	V	V	num=s|mod=p|gen=m	3	mod
+                5	comandato	comandare	V	V	num=s|mod=p|gen=m	2	mod_rel
+
+                1	in	in	E	E	_	10	comp
+                2	servizio	servizio	S	S	num=s|gen=m	1	prep
+                3	di	di	E	E	_	2	comp
+                4	truppa	truppa	S	S	num=s|gen=f	3	prep
+                5	in	in	E	E	_	1	comp
+                6	occasione	occasione	S	S	num=s|gen=f	5	prep
+                7	della	di	E	EA	num=s|gen=f	6	comp
+                8	della	di	E	EA	num=s|gen=f	7	prep
+                9	consegna	consegna	S	S	num=s|gen=f	8	prep
+                10	in	in	E	E	_	0	ROOT
+                11	caserma	caserma	S	S	num=s|gen=f	10	prep
+
+                1	delle	di	E	EA	num=p|gen=f	0	ROOT
+                2	truppe	truppa	S	S	num=p|gen=f	1	prep
+                3	.	.	F	FS	_	1	punc
+
+                1	Oggi	oggi	B	B	_	2	mod_temp
+                2	idem	idem	B	B	_	0	_
+                3	,	,	F	FF	_	2	punc
+                4	ma	ma	C	CC	_	2	con
+
+                1	si	si	P	PC	num=n|per=3|gen=n	2	clit
+                2	può	potere	V	VM	num=s|per=3|mod=i|ten=p	3	modal
+                3	respirare	respirare	V	V	mod=f	0	ROOT
+                4	un	uno	R	RI	num=s|gen=m	5	det
+                5	poco	poco	P	PI	num=s|gen=m	3	obj
+                6	e	e	C	CC	_	3	con
+                7	ne	ne	P	PC	num=n|gen=n	3	comp
+
+                1	approfitto	approfittare	V	V	num=s|per=1|mod=i|ten=p	0	ROOT
+                2	per	per	E	E	_	1	arg
+                3	inviar-	inviare	V	V	mod=f	2	prep
+                4	ti	ti	P	PC	num=s|per=2|gen=n	3	clit
+                5	i	il	R	RD	num=p|gen=m	6	det
+                6	miei	mio	A	AP	num=p|gen=m	3	obj
+
+                1	migliori	migliore	A	A	num=p|gen=n	0	ROOT
+                2	ed	e	C	CC	_	1	con
+                3	affettuosi	affettuoso	A	A	num=p|gen=m	4	mod
+                4	baci	bacio	S	S	num=p|gen=m	1	conj
+                5	.	.	F	FS	_	1	punc
+
+                1	Tu	tu	P	PE	num=s|per=2|gen=n	5	subj
+                2	nemmeno	nemmeno	B	B	_	5	mod
+                3	mi	mi	P	PC	num=s|per=1|gen=n	5	comp_ind
+                4	hai	avere	V	VA	num=s|per=2|mod=i|ten=p	5	aux
+                5	scritto	scrivere	V	V	num=s|mod=p|gen=m	0	ROOT
+                6	.	.	F	FS	_	5	punc
+
+                1	Perchè	Perchè	B	B	_	0	ROOT
+                2	?	?	F	FS	_	1	punc
+
+                1	Questa	questo	D	DD	num=s|gen=f	2	mod
+                2	sera	sera	S	S	num=s|gen=f	3	mod_temp
+                3	spero	sperare	V	V	num=s|per=1|mod=i|ten=p	0	ROOT
+
+                1	di	di	E	E	_	0	ROOT
+                2	poter-	potere	V	VM	mod=f	4	modal
+                3	ti	ti	P	PC	num=s|per=2|gen=n	4	obj
+                4	scrivere	scrivere	V	V	mod=f	1	prep
+                5	lungamente	lungo	B	B	_	4	mod
+                6	.	.	F	FS	_	1	punc
+
+                1	Abbia	avere	V	V	num=s|per=3|mod=c|ten=p	0	ROOT
+                2	tu	tu	P	PE	num=s|per=2|gen=n	1	obj
+                3	un	uno	R	RI	num=s|gen=m	5	det
+                4	dolcissimo	dolce	A	A	num=s|gen=m	5	mod
+                5	bacio	bacio	S	S	num=s|gen=m	1	obj
+
+                1	del	di	E	EA	num=s|gen=m	0	ROOT
+                2	tuo	tuo	A	AP	num=s|gen=m	1	prep
+
+                1	Giovannino	Giovannino	S	SP	_	0	ROOT
+
+                1	Saluti	saluto	S	S	num=p|gen=m	0	ROOT
+                2	a	a	E	E	_	1	comp
+                3	tutti	tutto	P	PI	num=p|gen=m	2	prep
+        </analisi>
+        <analisi id="cartolina_7694-122">
+                1	Rammentando-	rammentare	V	V	mod=g	0	ROOT
+                2	la	la	P	PC	num=s|per=3|gen=f	1	obj
+                3	affettuosamente	affettuoso	B	B	_	5	mod
+                4	la	il	R	RD	num=s|gen=f	5	det
+                5	saluto	saluto	S	S	num=s|gen=m	1	obj
+                6	.	.	F	FS	_	1	punc
+
+                1	Suo	suo	A	AP	num=s|gen=m	2	mod
+                2	devoto	devoto	S	S	num=s|gen=m	0	ROOT
+
+                1	Giovannino	Giovannino	S	SP	_	0	ROOT
+        </analisi>
+        <analisi id="cartolina_7694-137">
+                1	Affettuosissimi	affettuoso	A	A	num=p|gen=m	0	ROOT
+        </analisi>
+        <analisi id="cartolina_7694-138">
+                1	Mille	mille	N	N	_	3	mod
+                2	affettuosi	affettuoso	A	A	num=p|gen=m	3	mod
+                3	pensieri	pensiero	S	S	num=p|gen=m	0	ROOT
+
+                1	tuo	tuo	A	AP	num=s|gen=m	0	_
+
+                1	Giovannino	Giovannino	S	SP	_	0	ROOT
+        </analisi>
+        <analisi id="cartolina_7694-150">
+                1	Saluti	saluto	S	S	num=p|gen=m	0	ROOT
+                2	affettuosi	affettuoso	A	A	num=p|gen=m	1	mod
+
+                1	a	a	E	E	_	0	ROOT
+                2	tutti	tutto	P	PI	num=p|gen=m	1	prep
+
+                1	Giovannino	Giovannino	S	SP	_	0	ROOT
+        </analisi>
+        <analisi id="cartolina_7694-151">
+                1	Saluti	saluto	S	S	num=p|gen=m	0	ROOT
+                2	affettuosi	affettuoso	A	A	num=p|gen=m	1	mod
+
+                1	a	a	E	E	_	0	ROOT
+                2	tutti	tutto	P	PI	num=p|gen=m	1	prep
+
+                1	Giovannino	Giovannino	S	SP	_	0	ROOT
+        </analisi>
+        <analisi id="cartolina_7694-175">
+                1	Saluti	saluto	S	S	num=p|gen=m	0	ROOT
+                2	affettuosissimi	affettuoso	A	A	num=p|gen=m	1	mod
+
+                1	a	a	E	E	_	0	ROOT
+                2	tutti	tutto	P	PI	num=p|gen=m	1	prep
+                3	.	.	F	FS	_	1	punc
+        </analisi>
+        <analisi id="cartolina_7694-176">
+                1	Oliva	Oliva	S	SP	_	0	ROOT
+                2	mia	mio	A	AP	num=s|gen=f	1	mod
+                3	,	,	F	FF	_	1	punc
+
+                1	Non	non	B	BN	_	3	neg
+                2	puoi	potere	V	VM	num=s|per=2|mod=i|ten=p	3	modal
+                3	credere	credere	V	V	mod=f	7	arg
+                4	quanto	quanto	B	B	_	7	mod
+                5	mi	mi	P	PC	num=s|per=1|gen=n	7	comp_ind
+                6	sia	essere	V	VA	num=s|per=3|mod=c|ten=p	7	aux
+                7	diventato	diventare	V	V	num=s|mod=p|gen=m	0	ROOT
+
+                1	odioso	odioso	A	A	num=s|gen=m	0	ROOT
+                2	questo	questo	D	DD	num=s|gen=m	3	mod
+                3	materialismo	materialismo	S	S	num=s|gen=m	1	obj
+                4	fugato	fugato	A	A	num=s|gen=m	3	mod
+                5	,	,	F	FF	_	6	punc
+                6	assillante	assillante	A	A	num=s|gen=n	3	mod
+                7	,	,	F	FF	_	6	punc
+                8	avido	avido	A	A	num=s|gen=m	3	mod
+                9	;	;	F	FC	_	1	punc
+
+                1	che	che	D	DE	num=n|gen=n	0	ROOT
+                2	vivo	vivo	A	A	num=s|gen=m	1	ROOT
+                3	in	in	E	E	_	2	comp
+                4	una	uno	R	RI	num=s|gen=f	6	det
+                5	incusante	incusante	A	A	num=s|gen=n	6	mod
+                6	monotonia	monotonia	S	S	num=s|gen=f	3	prep
+                7	di	di	E	E	_	6	comp
+                8	fredda	freddo	A	A	num=s|gen=f	7	prep
+
+                1	solitudine	solitudine	S	S	num=s|gen=f	0	ROOT
+                2	.	.	F	FS	_	1	punc
+
+                1	Non	non	B	BN	_	3	neg
+                2	una	uno	R	RI	num=s|gen=f	3	det
+                3	favola	favola	S	S	num=s|gen=f	0	ROOT
+                4	buona	buono	A	A	num=s|gen=f	3	mod
+                5	,	,	F	FF	_	3	punc
+                6	un	uno	R	RI	num=s|gen=m	7	det
+                7	consiglio	consiglio	S	S	num=s|gen=m	0	ROOT
+
+                1	un	uno	R	RI	num=s|gen=m	2	det
+                2	sorriso	sorriso	S	S	num=s|gen=m	0	ROOT
+                3	,	,	F	FF	_	2	con
+                4	uno	uno	R	RI	num=s|gen=m	5	det
+                5	sguardo	sguardo	S	S	num=s|gen=m	2	conj
+                6	affettuoso	affettuoso	A	A	num=s|gen=m	5	mod
+                7	,	,	F	FF	_	2	con
+                8	nulla	nulla	P	PI	num=s|gen=m	2	conj
+                9	che	che	P	PR	num=n|gen=n	8	concat
+                10	si	si	P	PC	num=n|per=3|gen=n	2	ROOT
+
+                1	allontani	allontanare	V	V	num=s|per=3|mod=c|ten=p	0	ROOT
+                2	,	,	F	FF	_	1	punc
+                3	si	si	P	PC	num=n|per=3|gen=n	4	clit
+                4	elevi	elevare	V	V	num=s|per=3|mod=c|ten=p	1	arg
+                5	dall'	da	E	EA	num=s|gen=n	4	comp
+                6	insulsa	insulso	A	A	num=s|gen=f	5	prep
+                7	obbrobriosa	obbrobrioso	A	A	num=s|gen=f	6	mod
+
+                1	sterile	sterile	A	A	num=s|gen=n	2	mod
+                2	norma	norma	S	S	num=s|gen=f	0	ROOT
+                3	delle	di	E	EA	num=p|gen=f	2	comp
+                4	cose	cosa	S	S	num=p|gen=f	3	prep
+                5	inanimate	inanimato	A	A	num=p|gen=f	4	mod
+                6	che	che	P	PR	num=n|gen=n	8	subj
+                7	ti	ti	P	PC	num=s|per=2|gen=n	8	comp_ind
+                8	circondano	circondare	V	V	num=p|per=3|mod=i|ten=p	4	mod_rel
+                9	,	,	F	FF	_	10	punc
+                10	nulla	nulla	P	PI	num=s|gen=m	8	mod
+                11	per	per	E	E	_	10	comp
+                12	questa	questo	D	DD	num=s|gen=f	14	mod
+                13	mia	mio	A	AP	num=s|gen=f	14	mod
+                14	anima	anima	S	S	num=s|gen=f	11	prep
+                15	sitibonda	sitibondo	A	A	num=s|gen=f	14	mod
+
+                1	d'	di	E	E	_	0	ROOT
+                2	affetto	affetto	S	S	num=s|gen=m	1	prep
+                3	,	,	F	FF	_	1	punc
+                4	d'	di	E	E	_	1	conj
+                5	amore	amore	S	S	num=s|gen=m	4	prep
+                6	,	,	F	FF	_	1	con
+                7	di	di	E	E	_	1	conj
+                8	pace	pace	S	S	num=s|gen=f	7	prep
+                9	.	.	F	FS	_	1	punc
+
+                1	tuo	tuo	A	AP	num=s|gen=m	2	mod
+                2	Giovannino	Giovannino	S	SP	_	0	ROOT
+        </analisi>
+        <analisi id="cartolina_7694-187">
+                1	Un	uno	R	RI	num=s|gen=m	2	det
+                2	bacio	bacio	S	S	num=s|gen=m	0	ROOT
+                3	affettuosissimo	affettuoso	A	A	num=s|gen=m	2	mod
+
+                1	sulla	su	E	EA	num=s|gen=f	0	ROOT
+                2	tua	tuo	A	AP	num=s|gen=f	4	mod
+                3	purissima	puro	A	A	num=s|gen=f	4	mod
+                4	fronte	fronte	S	S	num=s|gen=n	1	prep
+                5	.	.	F	FS	_	1	punc
+
+                1	T'	ti	P	PC	num=s|per=2|gen=n	2	clit
+                2	amo	amare	V	V	num=s|per=1|mod=i|ten=p	0	ROOT
+                3	ardentemente	ardentemente	B	B	_	2	mod
+                4	e	e	C	CC	_	2	con
+                5	ti	ti	P	PC	num=s|per=2|gen=n	6	clit
+                6	penso	pensare	V	V	num=s|per=1|mod=i|ten=p	2	conj
+
+                1	Giovannino	Giovannino	S	SP	_	0	ROOT
+        </analisi>
+        <analisi id="cartolina_7694-190">
+                1	L'	il	R	RD	num=s|gen=n	2	det
+                2	inesprimibile	inesprimibile	A	A	num=s|gen=n	0	_
+
+                1	addolora	addolorare	V	V	num=s|per=3|mod=i|ten=p	0	ROOT
+                2	.	.	F	FS	_	1	punc
+
+                1	Con	con	E	E	_	0	ROOT
+                2	profondo	profondo	S	S	num=s|gen=m	1	prep
+
+                1	affetto	affetto	A	A	num=s|gen=m	0	ROOT
+                2	tuo	tuo	A	AP	num=s|gen=m	1	mod
+
+                1	Giovannino	Giovannino	S	SP	_	0	ROOT
+        </analisi>
+        <analisi id="cartolina_7694-193">
+                1	Saluti	saluto	S	S	num=p|gen=m	0	ROOT
+                2	affettuosi	affettuoso	A	A	num=p|gen=m	1	mod
+
+                1	a	a	E	E	_	4	comp
+                2	voi	voi	P	PE	num=p|per=2|gen=n	1	prep
+                3	e	e	C	CC	_	1	con
+                4	famiglia	famiglia	S	S	num=s|gen=f	0	ROOT
+
+                1	cugino	cugino	S	S	num=s|gen=m	0	ROOT
+                2	Giuseppe	Giuseppe	S	SP	_	1	mod
+        </analisi>
+        <analisi id="cartolina_7694-197">
+                1	Oliva	Oliva	S	SP	_	0	ROOT
+                2	mia	mio	A	AP	num=s|gen=f	1	mod
+                3	,	,	F	FF	_	1	punc
+
+                1	sono	essere	V	VA	num=p|per=3|mod=i|ten=p	2	aux
+                2	giunto	giungere	V	V	num=s|mod=p|gen=m	0	ROOT
+                3	solo	solo	B	B	_	2	mod
+                4	.	.	F	FS	_	2	punc
+
+                1	Per	per	E	E	_	5	comp
+                2	tutta	tutto	T	T	num=s|gen=f	4	mod
+                3	la	il	R	RD	num=s|gen=f	4	det
+                4	durata	durata	S	S	num=s|gen=f	1	prep
+                5	del	di	E	EA	num=s|gen=m	0	_
+
+                1	viaggio	viaggio	S	S	num=s|gen=m	3	subj
+                2	ho	avere	V	VA	num=s|per=1|mod=i|ten=p	3	aux
+                3	ostinatamente	ostinato	B	B	_	0	_
+
+                1	pensato	pensare	V	V	num=s|mod=p|gen=m	0	ROOT
+                2	a	a	E	E	_	1	comp
+                3	te	te	P	PE	num=s|per=2|gen=n	2	prep
+                4	,	,	F	FF	_	5	punc
+                5	alle	al	E	EA	num=p|gen=f	1	comp
+                6	tue	tuo	A	AP	num=p|gen=f	7	mod
+                7	parole	parola	S	S	num=p|gen=f	5	prep
+
+                1	alle	al	E	EA	num=p|gen=f	0	ROOT
+                2	tue	tuo	A	AP	num=p|gen=f	3	mod
+                3	speranze	speranza	S	S	num=p|gen=f	1	prep
+                4	,	,	F	FF	_	1	punc
+                5	al	a	E	EA	num=s|gen=m	0	_
+                6	nostro	nostro	A	AP	num=s|gen=m	5	prep
+
+                1	amore	amore	S	S	num=s|gen=m	6	subj
+                2	,	,	F	FF	_	6	punc
+                3	poi	poi	B	B	_	6	mod
+                4	non	non	B	BN	_	6	neg
+                5	ho	avere	V	VA	num=s|per=1|mod=i|ten=p	6	aux
+                6	saputo	sapere	V	V	num=s|mod=p|gen=m	0	_
+
+                1	chiarire	chiarire	V	V	mod=f	0	ROOT
+                2	certi	certo	D	DI	num=p|gen=m	4	mod
+                3	tuoi	tuo	A	AP	num=p|gen=m	4	mod
+                4	pensieri	pensiero	S	S	num=p|gen=m	1	obj
+                5	ambigui	ambiguo	A	A	num=p|gen=m	4	mod
+                6	,	,	F	FF	_	7	punc
+                7	oscuri	oscuro	A	A	num=p|gen=m	4	mod
+                8	,	,	F	FF	_	7	punc
+                9	fa	fare	V	V	num=s|per=3|mod=i|ten=p	1	conj
+                10	niente	niente	B	B	_	9	mod
+                11	....	....	F	FS	_	1	punc
+
+                1	in	in	E	E	_	3	comp
+                2	seguito	seguito	S	S	num=s|gen=m	1	prep
+                3	sarai	essere	V	V	num=s|per=2|mod=i|ten=f	0	ROOT
+                4	più	più	B	B	_	5	mod
+                5	confidenziale	confidenziale	A	A	num=s|gen=n	3	pred
+                6	....	....	C	CC	_	5	con
+                7	chissà	chissà	B	B	_	5	conj
+                8	.	.	F	FS	_	3	punc
+
+                1	Ti	ti	P	PC	num=s|per=2|gen=n	2	comp_ind
+                2	sia	essere	V	VA	num=s|per=3|mod=c|ten=p	0	_
+
+                1	di	di	E	E	_	4	comp
+                2	conforto	conforto	S	S	num=s|gen=m	1	prep
+                3	il	il	R	RD	num=s|gen=m	4	det
+                4	saper-	sapere	V	VM	mod=f	0	_
+                5	ti	ti	P	PC	num=s|per=2|gen=n	4	clit
+                6	tanto	tanto	B	B	_	4	mod
+
+                1	tanto	tanto	B	B	_	2	mod
+                2	amata	amare	V	V	num=s|mod=p|gen=f	0	ROOT
+                3	,	,	F	FF	_	4	punc
+                4	adorata	adorare	V	V	num=s|mod=p|gen=f	2	mod
+                5	,	,	F	FF	_	4	punc
+                6	nel	in	E	EA	num=s|gen=m	2	ROOT
+
+                1	più	più	B	B	_	3	mod
+                2	vero	vero	A	A	num=s|gen=m	3	mod
+                3	significato	significato	S	S	num=s|gen=m	6	mod_temp
+                4	,	,	F	FF	_	3	punc
+                5	t'	ti	P	PC	num=s|per=2|gen=n	6	comp_ind
+                6	auguro	augurare	V	V	num=s|per=1|mod=i|ten=p	0	ROOT
+
+                1	che	che	C	CS	_	0	ROOT
+                2	ciò	ciò	P	PD	num=s|gen=m	3	subj
+                3	valga	valere	V	V	num=s|per=3|mod=c|ten=p	1	sub
+                4	almeno	almeno	B	B	_	3	mod
+                5	qualche	qualche	D	DI	num=s|gen=n	3	mod
+
+                1	volta	volta	S	S	num=s|gen=f	0	ROOT
+                2	,	,	F	FF	_	3	punc
+                3	a	a	E	E	_	1	arg
+                4	squarciare	squarciare	V	V	mod=f	3	prep
+                5	il	il	R	RD	num=s|gen=m	6	det
+                6	velo	velo	S	S	num=s|gen=m	4	obj
+                7	di	di	E	E	_	6	comp
+                8	mestizia	mestizia	S	S	num=s|gen=f	7	prep
+                9	che	che	P	PR	num=n|gen=n	10	subj
+                10	adombra	adombrare	V	V	num=s|per=3|mod=i|ten=p	6	mod_rel
+                11	i	il	R	RD	num=p|gen=m	13	det
+                12	tuoi	tuo	A	AP	num=p|gen=m	13	mod
+                13	pensieri	pensiero	S	S	num=p|gen=m	10	obj
+                14	.	.	F	FS	_	1	punc
+
+                1	Sarei	essere	V	VA	num=s|per=1|mod=d|ten=p	2	aux
+                2	felice	felice	A	A	num=s|gen=n	0	ROOT
+                3	?	?	F	FS	_	2	punc
+
+                1	Un	uno	R	RI	num=s|gen=m	2	det
+                2	bacio	bacio	S	S	num=s|gen=m	0	ROOT
+                3	purissimo	puro	A	A	num=s|gen=m	2	mod
+                4	,	,	F	FF	_	6	punc
+                5	tuo	tuo	A	AP	num=s|gen=m	6	mod
+                6	Giovannino	Giovannino	S	SP	_	2	mod
+        </analisi>
+        <analisi id="cartolina_7694-200">
+                1	Ti	ti	P	PC	num=s|per=2|gen=n	2	clit
+                2	penso	pensare	V	V	num=s|per=1|mod=i|ten=p	0	ROOT
+                3	,	,	F	FF	_	2	con
+                4	carissimi	caro	A	A	num=p|gen=m	2	conj
+
+                1	ed	e	C	CC	_	2	con
+                2	ardenti	ardente	A	A	num=p|gen=n	0	_
+
+                1	tuo	tuo	A	AP	num=s|gen=m	0	_
+
+                1	Giovannino	Giovannino	S	SP	_	0	ROOT
+        </analisi>
+        <analisi id="cartolina_7694-206">
+                1	Oliva	oliva	S	S	num=s|gen=f	0	ROOT
+                2	cara	caro	A	A	num=s|gen=f	1	mod
+                3	,	,	F	FF	_	5	punc
+                4	che	che	P	PR	num=n|gen=n	5	subj
+                5	dir-	dire	V	V	mod=f	1	mod_rel
+                6	ti	ti	P	PC	num=s|per=2|gen=n	5	obj
+                7	?	?	F	FS	_	5	punc
+
+                1	L'	il	R	RD	num=s|gen=n	3	det
+                2	unica	unico	A	A	num=s|gen=f	3	mod
+                3	risoluzione	risoluzione	S	S	num=s|gen=f	4	subj
+                4	è	essere	V	V	num=s|per=3|mod=i|ten=p	0	ROOT
+                5	quella	quello	P	PD	num=s|gen=f	4	pred
+                6	d'	di	E	E	_	5	mod
+                7	affogare	affogare	V	V	mod=f	6	prep
+
+                1	i	il	R	RD	num=p|gen=m	2	det
+                2	pensieri	pensiero	S	S	num=p|gen=m	0	ROOT
+                3	nei	in	E	EA	num=p|gen=m	2	comp
+                4	libri	libro	S	S	num=p|gen=m	3	prep
+                5	con	con	E	E	_	4	comp
+                6	uno	uno	R	RI	num=s|gen=m	7	det
+                7	strato	strato	S	S	num=s|gen=m	5	prep
+                8	ben	ben	B	B	_	7	mod
+
+                1	denso	denso	A	A	num=s|gen=m	0	ROOT
+                2	di	di	E	E	_	1	comp
+                3	polverone	polverone	S	S	num=s|gen=m	2	prep
+                4	diffuso	diffuso	A	A	num=s|gen=m	3	mod
+                5	.	.	F	FS	_	1	punc
+
+                1	È	essere	V	V	num=s|per=3|mod=i|ten=p	0	ROOT
+                2	là	là	B	B	_	1	pred
+                3	però	però	B	B	_	1	mod
+                4	il	il	R	RD	num=s|gen=m	1	ROOT
+
+                1	momento	momento	S	S	num=s|gen=m	0	ROOT
+                2	di	di	E	E	_	1	comp
+                3	lucidità	lucidità	S	S	num=n|gen=f	2	prep
+                4	-	-	F	FC	_	1	punc
+                5	e	e	C	CC	_	7	con
+                6	quello	quello	P	PD	num=s|gen=m	7	subj
+                7	è	essere	V	V	num=s|per=3|mod=i|ten=p	0	ROOT
+                8	terribilmente	terribilmente	B	B	_	9	mod
+                9	sublime	sublime	A	A	num=s|gen=n	7	pred
+                10	.	.	F	FS	_	7	punc
+
+                1	Delucida	delucidare	V	V	num=s|per=3|mod=i|ten=p	0	ROOT
+                2	le	il	R	RD	num=p|gen=f	3	det
+                3	idee	idea	S	S	num=p|gen=f	1	obj
+                4	.	.	F	FS	_	1	punc
+
+                1	Fra	fra	E	E	_	4	comp
+                2	l'	il	R	RD	num=s|gen=n	3	det
+                3	altro	altro	P	PI	num=s|gen=m	1	prep
+                4	emerge	emergere	V	V	num=s|per=3|mod=i|ten=p	0	ROOT
+                5	sempre	sempre	B	B	_	6	mod
+                6	più	più	B	B	_	4	mod
+                7	il	il	R	RD	num=s|gen=m	8	det
+                8	nostro	nostro	A	AP	num=s|gen=m	4	subj
+
+                1	amore	amore	S	S	num=s|gen=m	5	subj
+                2	e	e	C	CC	_	1	con
+                3	non	non	B	BN	_	5	neg
+                4	saprei	sapere	V	VM	num=s|per=1|mod=d|ten=p	5	modal
+                5	dire	dire	V	V	mod=f	0	ROOT
+                6	se	se	C	CS	_	5	mod
+                7	riesce	riuscire	V	V	num=s|per=3|mod=i|ten=p	6	sub
+                8	di	di	E	E	_	7	arg
+
+                1	conforto	conforto	S	S	num=s|gen=m	0	ROOT
+                2	o	o	C	CC	_	1	dis
+                3	di	di	E	E	_	1	disj
+                4	sofferenza	sofferenza	S	S	num=s|gen=f	3	prep
+                5	.	.	F	FS	_	1	punc
+
+                1	Ho	avere	V	V	num=s|per=1|mod=i|ten=p	0	ROOT
+                2	bisogno	bisogno	S	S	num=s|gen=m	1	obj
+                3	delle	di	E	EA	num=p|gen=f	2	comp
+                4	tue	tuo	A	AP	num=p|gen=f	5	mod
+                5	parole	parola	S	S	num=p|gen=f	3	prep
+                6	-	-	F	FC	_	1	punc
+                7	almeno	almeno	B	B	_	0	ROOT
+                8	.	.	F	FS	_	7	punc
+
+                1	Con	con	E	E	_	0	ROOT
+                2	tutta	tutto	T	T	num=s|gen=f	4	mod
+                3	l'	il	R	RD	num=s|gen=n	4	det
+                4	affezione	affezione	S	S	num=s|gen=f	1	prep
+                5	dell'	di	E	EA	num=s|gen=n	4	comp
+                6	animo	animo	S	S	num=s|gen=m	5	prep
+
+                1	abbi	abbi	V	V	num=s|per=3|mod=i|ten=p	0	ROOT
+                2	tu	tu	P	PE	num=s|per=2|gen=n	1	subj
+                3	un	uno	R	RI	num=s|gen=m	4	det
+                4	bacio	bacio	S	S	num=s|gen=m	1	obj
+                5	.	.	F	FS	_	1	punc
+
+                1	Giovannino	Giovannino	S	SP	_	0	ROOT
+        </analisi>
+        <analisi id="cartolina_7694-215">
+                1	Con	con	E	E	_	0	ROOT
+                2	affetto	affetto	S	S	num=s|gen=m	1	prep
+                3	profondo	profondo	A	A	num=s|gen=m	2	mod
+
+                1	rivolgo	rivolgere	V	V	num=s|per=1|mod=i|ten=p	0	ROOT
+                2	a	a	E	E	_	1	comp
+                3	te	te	P	PE	num=s|per=2|gen=n	2	prep
+                4	il	il	R	RD	num=s|gen=m	6	det
+                5	mio	mio	A	AP	num=s|gen=m	6	mod
+                6	pensiero	pensiero	S	S	num=s|gen=m	1	obj
+
+                1	tuo	tuo	A	AP	num=s|gen=m	0	_
+
+                1	Giovannino	Giovannino	S	SP	_	0	ROOT
+        </analisi>
+        <analisi id="cartolina_7694-222">
+                1	Saluti	salutare	V	V	num=s|per=3|mod=c|ten=p	0	ROOT
+        </analisi>
+        <analisi id="cartolina_7694-223">
+                1	Contraccambio	contraccambio	S	S	num=s|gen=m	0	ROOT
+                2	affettuosi	affettuoso	A	A	num=p|gen=m	1	mod
+
+                1	baci	bacio	S	S	num=p|gen=m	0	ROOT
+                2	e	e	C	CC	_	1	con
+                3	saluti	saluto	S	S	num=p|gen=m	1	conj
+                4	.	.	F	FS	_	1	punc
+
+                1	Affezionatissima	affezionato	A	A	num=s|gen=f	0	ROOT
+
+                1	Maria	Maria	S	SP	_	2	mod
+                2	Coliola	Coliola	S	SP	_	0	ROOT
+        </analisi>
+        <analisi id="cartolina_7694-225">
+                1	Gentile	gentile	A	A	num=s|gen=n	2	mod
+                2	Signora	Signora	S	SP	_	0	ROOT
+                3	,	,	F	FF	_	2	con
+                4	oggi	oggi	B	B	_	2	conj
+
+                1	stesso	stesso	A	A	num=s|gen=m	4	mod
+                2	la	il	R	RD	num=s|gen=f	4	det
+                3	sua	suo	A	AP	num=s|gen=f	4	mod
+                4	lettera	lettera	S	S	num=s|gen=f	6	subj_pass
+                5	è	essere	V	VA	num=s|per=3|mod=i|ten=p	6	aux
+                6	stata	essere	V	VA	num=s|mod=p|gen=f	0	_
+
+                1	portata	portare	V	V	num=s|mod=p|gen=f	0	ROOT
+                2	da	da	E	E	_	1	comp
+                3	me	me	P	PE	num=s|per=1|gen=n	2	prep
+                4	a	a	E	E	_	1	comp
+                5	destinazione	destinazione	S	S	num=s|gen=f	4	prep
+                6	.	.	F	FS	_	1	punc
+
+                1	Non	non	B	BN	_	5	neg
+                2	ho	avere	V	VA	num=s|per=1|mod=i|ten=p	5	aux
+                3	però	però	B	B	_	5	mod
+                4	potuto	potere	V	VM	num=s|mod=p|gen=m	5	modal
+                5	conferire	conferire	V	V	mod=f	0	ROOT
+                6	come	come	C	CS	_	5	mod
+                7	avrei	avere	V	VA	num=s|per=1|mod=d|ten=p	8	aux
+                8	desiderato	desiderare	V	VM	num=s|mod=p|gen=m	6	sub
+
+                1	col	con	E	EA	num=s|gen=m	0	ROOT
+                2	destinatario	destinatario	S	S	num=s|gen=m	1	prep
+                3	,	,	F	FF	_	4	punc
+                4	che	che	P	PR	num=n|gen=n	5	subj
+                5	trova-	trovare	V	V	num=s|per=2|mod=m|ten=p	2	mod_rel
+                6	si	si	P	PC	num=n|per=3|gen=n	5	clit
+
+                1	a	a	E	E	_	0	ROOT
+                2	Brescia	Brescia	S	SP	_	1	prep
+                3	.	.	F	FS	_	1	punc
+
+                1	Il	il	R	RD	num=s|gen=m	2	det
+                2	segretario	segretario	S	S	num=s|gen=m	0	ROOT
+                3	che	che	P	PR	num=n|gen=n	2	comp
+
+                1	mi	mi	P	PC	num=s|per=1|gen=n	3	obj
+                2	ha	avere	V	VA	num=s|per=3|mod=i|ten=p	3	aux
+                3	ricevuto	ricevere	V	V	num=s|mod=p|gen=m	0	ROOT
+                4	,	,	F	FF	_	3	con
+                5	mi	mi	P	PC	num=s|per=1|gen=n	7	comp_ind
+                6	ha	avere	V	VA	num=s|per=3|mod=i|ten=p	7	aux
+                7	assicurato	assicurare	V	V	num=s|mod=p|gen=m	3	conj
+                8	che	che	C	CS	_	7	comp
+                9	saranno	essere	V	VA	num=p|per=3|mod=i|ten=f	10	aux
+                10	fatti	fatto	S	S	num=p|gen=m	8	sub
+                11	i	il	R	RD	num=p|gen=m	12	det
+                12	passi	passo	S	S	num=p|gen=m	10	mod
+                13	del	di	E	EA	num=s|gen=m	12	comp
+
+                1	caso	caso	S	S	num=s|gen=m	4	subj
+                2	e	e	C	CC	_	1	con
+                3	possiamo	potere	V	VM	num=p|per=1|mod=i|ten=p	4	modal
+                4	sperar	sperare	V	V	mod=f	0	ROOT
+                5	bene	bene	B	B	_	4	mod
+                6	.	.	F	FS	_	4	punc
+
+                1	Spero	sperare	V	V	num=s|per=1|mod=i|ten=p	0	ROOT
+                2	veder-	vedere	V	V	mod=f	1	arg
+                3	la	la	P	PC	num=s|per=3|gen=f	2	obj
+                4	presto	presto	B	B	_	2	mod
+                5	.	.	F	FS	_	1	punc
+
+                1	Intanto	intanto	B	B	_	4	mod
+                2	i	il	R	RD	num=p|gen=m	4	det
+                3	migliori	migliore	A	A	num=p|gen=n	4	mod
+                4	saluti	saluto	S	S	num=p|gen=m	0	ROOT
+                5	.	.	F	FS	_	4	punc
+        </analisi>
+
+</linguistic>

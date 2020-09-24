@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc> <!-- contiene le informazioni relative al documento digitale-->
+            <titleStmt> <!-- titolo e responsabili dell'edizione digitale -->
+                <title>Arlecchino - Edizione digitale</title>
+                <respStmt>
+                    <resp>Trascritto da:</resp>
+                    <name ref="#LR">Letizia Ricci</name>
+                </respStmt> 
+
+                <respStmt>
+                    <resp>Ente di Appartenenza:</resp>
+                    <name type="comune">Comune di
+						<placeName ref="#SP">La Spezia</placeName>
+					</name>
+				</respStmt>
+                
+            </titleStmt>
+            
+            <editionStmt> <!-- contiene informazion sull'edizione -->
+                <edition> Tirocinio
+                    <date when="2018">2018</date>
+                </edition>
+                
+                <respStmt>
+                    <resp>Codificato da:</resp>
+                    <name ref="#LR">Letizia Ricci</name>
+                </respStmt>
+                
+                <respStmt>
+                   
+                    <resp>Compilatore:</resp>
+                    <name ref="#LR">Letizia Ricci</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Responsabile scientifico:</resp>
+                    <name ref="#GP">Giacomo Paolicchi</name>
+                    <name ref="#ES">Enrica Salvatori</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Funzionario responsabile:</resp>
+                    <name ref="#MR">Marzia Ratti</name>
+                </respStmt>
+            </editionStmt>
+            
+            <publicationStmt> <!-- contiene informazioni sulla pubblicazione e distribuzione del documento digitale -->
+                <publisher>
+                    <choice>
+                        <abbr>Unipi</abbr>
+                        <expan>Università di
+                            <placeName ref="#Pi">Pisa</placeName>
+                        </expan>
+                    </choice>
+                </publisher>
+                <pubPlace ref="#Pi">Pisa</pubPlace>
+                <availability>
+                    <p>Available under licence only</p>
+                </availability>
+                <date when="2019">2019</date>
+                <distributor>
+					<orgName ref="">
+						<choice>
+                      	  <abbr>LabCD</abbr>
+                       	 <expan>Laboratorio di Cultura Digitale</expan>
+                   		 </choice>
+					</orgName>
+				</distributor>
+                <address>
+                    <addrLine>Laboratorio di Cultura Digitale - Università di Pisa</addrLine>
+                    <addrLine><placeName ref="#Pi">Pisa</placeName></addrLine>
+				</address>
+			</publicationStmt>
+            
+            <notesStmt>
+                <note>Parte del testo sul retro è scritto in alto della cartolina in senso opposto e continua sul fronte </note>
+            </notesStmt>
+            
+            <sourceDesc> <!-- contiene informazoni relative alla fonte originale -->
+                <bibl>    
+                    <title type="custom" resp="#ES">Arlecchino</title>
+                    <author ref="#TC">
+                        <persName ref="#DG">D. Gaudino </persName>
+                    </author>
+                </bibl>
+
+                <msDesc> <!-- contiene la descrizione del manoscritto -->
+                    <msIdentifier> <!-- informazioni che identificano il manoscritto -->
+                        <country>Italia</country>
+                        <settlement ref="" type="city">La Spezia (SP)</settlement>
+                        <!-- COLLOCAZIONE SPECIFICA -->
+                        <repository>Museo Civico Etnografico "Giovanni Podenzana", Sezione dei cimeli garibaldini e della Prima Guerrra Mondiale</repository>
+                        <!-- CODICE IDENTIFICATIVO -->
+                        <idno type="inventory">7694_035_001/002</idno> <!-- codice della singola cartolina -->
+                    </msIdentifier>
+
+                    <msContents> <!-- contenuto intellettuale del manoscritto-->
+                        <summary>Cartolina Artistica</summary>
+                        <textLang mainLang="ita">Italiano</textLang>
+                    </msContents>
+                      
+                    <physDesc> <!-- contiene la descrizione fisica del manoscritto -->
+                        <objectDesc>
+                            <supportDesc>
+                                <support> <!-- descrizione dei materiali che costituiscono il supporto fisico della parte scritta del manoscritto-->
+                                    <objectType>Cartolina</objectType>
+                                    <material>Carta</material>
+                                    <dimensions unit="cm">
+                                        <height>9</height>
+                                        <width>14</width>
+                                    </dimensions>
+                                </support>
+                                <!-- descrizione delle condizioni fisiche della cartolina -->
+                                <condition>Cartolina in discrete condizioni fisiche,sono presenti alcune macchie d'inquistro sbiadite. </condition>
+                            </supportDesc>
+                        </objectDesc>
+                        <handDesc> <!-- descrizione del tipo di scrittura nella cartolina -->
+							<p>Scritta a mano leggibile</p>
+						</handDesc>
+                    </physDesc> 
+                </msDesc>   
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc> <!-- descrizione dettagliata degli aspetti non bibliografici -->
+            <correspDesc> <!-- contiene la descrizione delle azioni relative a un atto di corrispondenza -->
+                <correspAction type="received">
+                    <persName ref="#OT">Oliva Turtura</persName>
+                </correspAction>
+            </correspDesc>
+            
+            <textClass> <!-- contiene le informazioni che descrivono la natura o l'argomento  -->
+                <keywords scheme="http://etnografico.museilaspezia.it/">
+                    <term>Cartolina </term>  <!-- soggettario -->
+                    <term>Cartolina Artistica </term>  <!-- tipologia -->
+                    <term>Immagine di Arlecchino sorridente con una lanterna in mano</term> <!-- descrizione -->
+				</keywords>
+            </textClass>
+            
+            <langUsage> <!-- lingua usato nel testo -->
+				<language ident="it-IT">Italiano</language>
+			</langUsage>
+        </profileDesc>
+
+        <encodingDesc> <!-- descrizione della codifica -->
+			<p>Codifica di base rispettando le forme e le informazioni lessicali, la punteggiatura e la sillabazione del documento,
+            normalizzando il tutto per la codifica. Validazione delle cartoline con con xmllint e creazione della DTD con tei-Roma.</p>
+		</encodingDesc>
+        
+    </teiHeader>
+    
+    <facsimile> <!-- rappresentazione della fonte scritta sotto forma di una serie di immagini-->
+        <surface n="1" xml:id="" ulx="3" uly="14" lrx="873" lry="1054"> <!-- definisce una superficie scritta in termini di uno spazio rettangolare di coordinate-->
+			<graphic url="nomefile.jpg" width="1645px" height="1054px" />
+			<!-- retro della cartolina parte sinistra -->
+			<zone ulx="118" uly="22" lrx="708" lry="137" rendition="Line" xml:id=""/> 
+			<zone ulx="120" uly="182" lrx="810" lry="299" rendition="Line" xml:id=""/>
+		</surface>
+    </facsimile>
+
+    <text type="cartolina" xml:id="">
+        <!-- TRASCRIZIONE -->
+        <body>
+            <div type="fronte" xml:id="" facs="">
+                <figure xml:id="" >
+                    <graphic url="nomefile.jpg" />
+                    <figDesc>Immagine di Arlecchino sorridente con una lanterna in mano</figDesc>
+                    <head>Arlecchino</head> <!-- titolo dell'immagine/cartolina -->
+                </figure>
+            </div>
+            <div type="retro" xml:id="" facs="">
+                <div type="postcard-body" > <!-- contiene il testo della cartolina -->
+                    <p>
+						<s type="sentence" n="s1">
+						<lb xml:id="" facs=""/> Carisfima Oliva
+						<lb xml:id="" facs=""/> Finalmente! </s> <s type="sentence" n="s2"> Credevo pro-
+                        <lb xml:id="" facs=""/> pro che mi avessi dimenticato! </s> <s type="sentence" n="s3"> Speriamo 
+                        <lb xml:id="" facs=""/> che, come dici, mi scriverai più sovente per 
+                        <lb xml:id="" facs=""/> l'avvenire.</s> <s type="sentence" n="s4"> Godo nel saperti in salute;
+                        <lb xml:id="" facs=""/> mi meraviglia la tua nuova profefsione
+                        <lb xml:id="" facs=""/> Perchè? E i tuoi scolari? Puoi vivere sen-
+                        <lb xml:id="" facs=""/> za di loro? E il latino? Non potrò avere l'o-
+                        <lb xml:id="" facs=""/> nore di chiamarti profefsorefsa? </s> <s type="sentence" n="s5"> Dirai che sono 
+                        <lb xml:id="" facs=""/> Molto curioso, anzi più indiscreto che curioso,
+                        <lb xml:id="" facs=""/> ma che vuoi mi meraviglia talmente il 
+                        <lb xml:id="" facs=""/> tuo nuovo indirizzo, che a rischio della
+						<lb xml:id="" facs=""/> tua collera, permetto di formularti
+                        <lb xml:id="" facs=""/> queste domande. </s> <s type="sentence" n="s6"> Fammi sapere qualche
+						<lb xml:id="" facs=""/> cosa, scrivimi a lungo, non cominciare 
+
+                        <lb xml:id="" facs=""/> niente però e mi farai
+						<lb xml:id="" facs=""/> veramente piacere. </s> <s type="sentence" n="s7"> Io sto 
+                        <lb xml:id="" facs=""/> benissimo come tutti noi e come di voi non dubito
+						</s>
+                    </p>
+                </div>
+                <closer> <!-- contiene le conclusioni della cartolina con saluti e firma -->
+					<salute xml:id="" facs="">
+						<s type="sentence" n="s8">
+						<lb xml:id="" facs=""/> Saluta tutti caramente anche 
+						<lb xml:id="" facs=""/> a nome di mamma e Nino e 
+                        <lb xml:id="" facs=""/> tu ricevi un abbraccio affettuoso
+                        <lb xml:id="" facs=""/> da Mario. </s>
+                        <s type="sentence" n="s9">
+                        <lb xml:id="" facs=""/> PS scrivi presto 
+						</s>
+					</salute>
+				</closer>
+                <div type="add"> <!-- numero di seconda mano -->
+                    <ab type="paratext" subtype="addition" hand="#h1" xml:id="" facs="">
+                            <add cert="medium">
+                                <num type="cardinal" value="35">35</num>
+                            </add>
+                    </ab>
+                </div>   
+            </div>
+        </body>
+    </text>
+</TEI>

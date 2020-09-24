@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI SYSTEM 'myTEI.dtd'>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cartolina_7694-059">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Gesù disseta gli assetati - Edizione digitale</title>
+         </titleStmt>
+         <publicationStmt xmlns="http://www.tei-c.org/ns/1.0">
+            <publisher>
+               <choice>
+                  <abbr>Unipi</abbr>
+                  <expan>Università di
+                            <placeName ref="list.xml#PI">Pisa</placeName>
+                  </expan>
+               </choice>
+            </publisher>
+            <pubPlace ref="list.xml#PI">Pisa</pubPlace>
+            <availability>
+               <p>Available under licence only</p>
+            </availability>
+            <date when="2019">2019</date>
+            <distributor>
+               <orgName ref="list.xml#LCD">
+                  <choice>
+                     <abbr>LabCD</abbr>
+                     <expan>Laboratorio di Cultura Digitale</expan>
+                  </choice>
+               </orgName>
+            </distributor>
+            <address>
+               <addrLine>Laboratorio di Cultura Digitale - Università di Pisa</addrLine>
+               <addrLine>
+                  <placeName ref="list.xml#PI">Pisa</placeName>
+               </addrLine>
+            </address>
+         </publicationStmt>
+         <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
+            <bibl>
+               <title type="custom" resp="list.xml#ES">[Gesù disseta gli assetati]</title>
+               <publisher>
+                  <orgName ref="list.xml#AN">A. N.</orgName>
+              </publisher>
+              <pubPlace ref="list.xml#P">Parigi</pubPlace>
+            </bibl>
+            <msDesc>
+                  <!-- descrizione del manoscritto -->
+                <msIdentifier>
+                        <!-- info per identificare il manoscritto -->
+                        <country ref="list.xml#IT">Italia</country>
+                        <settlement ref="list.xml#SP">La Spezia (SP)</settlement>
+                        <!-- collocazione specifica -->
+                        <repository ref="list.xml#MCE">Museo Civico Etnografico "Giovanni Podenzana", Sezione dei cimeli garibaldini e della Prima Guerrra Mondiale</repository>
+                        <!-- codice identificativo -->
+                        <idno type="postcard_id">7694_059_001/002</idno>
+               </msIdentifier>
+               <!-- Informazioni sul contenuto della cartolina -->
+               <!-- DESCRIZIONE -->
+               <msContents>
+                  <summary>Cartolina Artistica</summary>
+                  <textLang mainLang="ita">Italiano</textLang>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType>Cartolina</objectType>
+                           <!-- MATERIALI -->
+                           <material>Carta</material>
+                           <!-- DIMENSIONE -->
+                           <dimensions unit="cm">
+                              <height>9</height>
+                              <width>14</width>
+                           </dimensions>
+                           <stamp type="postage">Francobollo da 5 centesimi delle Poste Italiane di colore verde</stamp>
+                           <stamp type="postmark">Timbro di partenza, circolare ben visibile</stamp>
+                        </support>
+                        <condition>Buono</condition>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc xmlns="http://www.tei-c.org/ns/1.0">
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="list.xml#CB">Carla Brunoli</persName>
+               <placeName ref="list.xml#MI">Milano</placeName>
+               <date type="postage" when="1913-09-05">5 IX 1913</date>
+               <date type="writing" when="1913-09-05">5-9-913</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="list.xml#OT">Oliva turtura</persName>
+               <placeName ref="list.xml#RV">Ravenna</placeName>
+            </correspAction>
+         </correspDesc>
+         <textClass>
+            <keywords>
+                    <!-- soggettario -->
+                    <!-- tipologia -->
+                    <!-- descrizione -->
+               <term>Cartolina </term>
+               <term>Cartolina Artistica </term>
+               <term>Gesù in groppa ad un asino disseta due assetati</term>
+            </keywords>
+         </textClass>
+         <langUsage>
+            <language ident="it-IT">italiano</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <facsimile xmlns="http://www.tei-c.org/ns/1.0" xml:id="immagineAnnotata59">
+         <surface xml:id="fronte59" start="#cartolina_fronte59">
+            <graphic url="img-cartoline/7694-059F.jpg" width="1024px" height="1654px"/>
+         </surface>
+   </facsimile>
+   <facsimile xmlns="http://www.tei-c.org/ns/1.0" xml:id="testoAnnotato59">
+         <surface xml:id="retro59" start="#cartolina_retro59">
+            <graphic url="img-cartoline/7694-059R.jpg" width="1652px" height="1060px"/>
+            <zone ulx="1" uly="12" lrx="691" lry="1060"/>
+            <!--testo retro-->
+            <zone ulx="843" uly="454" lrx="1613" lry="1044"/>
+            <!--indirizzo-->
+            <zone ulx="703" uly="14" lrx="1651" lry="436"/>
+            <!--timbro e francobollo-->
+         </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div xmlns="http://www.tei-c.org/ns/1.0"
+              type="fronte"
+              facs="#fronte"
+              xml:id="cartolina_fronte59">
+            <figure>
+               <head>
+                  <lb/>
+                  <title xml:id="titolo_immagine59">Gesù disseta gli assetati</title> di <persName>Domenico Mastroianni</persName>
+               </head>
+               <lb/>
+               <figDesc>L'immagine in bianco e nero rappresenta Gesù che in groppa ad un asino disseta due figure. 
+                        Reca in ciascuna mano un recipiente e attraverso quello nella mano destra disseta un fanciullo.
+                        Inginocchiato a terra c'è un uomo anziano e probabilmente zoppo, dato che sulle sue ginocchia possiede una stampella.
+                        La scena è ambientata su un terreno disconnesso e sullo sfondo si vedono delle mura in pietra, con un arco all'interno di esse.
+                        In alto a destra si nota un immagine scolorita, quasi impercettibile, di un cuore dal quale fuoriesce la luce con sopra una croce, 
+                        simbolo della cristianità. </figDesc>
+            </figure>
+         </div>
+         <div type="retro">
+            <div type="message">
+                  <opener xmlns="http://www.tei-c.org/ns/1.0">
+                        <dateline>
+                              <lb n="1"/>
+                              <s>
+                                    <date when="1918-09-05">5-9-916</date>
+                              </s>
+                        </dateline>
+                  </opener>
+                  <div xmlns="http://www.tei-c.org/ns/1.0" type="postcard-body">
+                        <p>
+                              <lb n="2"/>
+                              Contraccambio e
+                              <lb n="3"/>
+                              cordialmente saluto
+                        </p>
+                  </div>
+                  <closer xmlns="http://www.tei-c.org/ns/1.0">
+                        <lb n="4"/>
+                        <signed>
+                        <persName ref="list.xml#CB">
+                              <surname>Brunoli</surname>
+                              <forename>Carla</forename>
+                        </persName>
+                        </signed>
+                  </closer>
+            </div>
+            <div xmlns="http://www.tei-c.org/ns/1.0" type="address-destination">
+               <p>
+                  <address>
+                        <addrLine>
+                              <lb n="5"/>
+                              Gentil Signorina
+                              <lb n="6"/>
+                              Turtura Oliva
+                              <lb n="7"/>
+                              Via Girolamo <choice>
+                                                <orig>Rosfi</orig>
+                                                <reg resp="list.xml#LR" cert="high">Rossi</reg>
+                                          </choice>
+                              <lb n="8"/>
+                              Ravenna
+                        </addrLine>
+                  </address>
+               </p>
+            </div>
+            <div type="postmark-postage">
+               <ab>
+                  <stamp xmlns="http://www.tei-c.org/ns/1.0" type="postmark">
+                     <mentioned>2 
+                     <placeName ref="list.xml#lMI">Milano </placeName>
+                     2 partenza
+                     </mentioned>
+                     <time from="13.00" to="14.00">13-14</time>
+                     <date when="1913-9-5">5.IX 1913</date>
+                  </stamp>
+                  <stamp xmlns="http://www.tei-c.org/ns/1.0" type="postage" rend="transform(rotateZ(180deg))">
+                        <mentioned rend="color(green)">
+                              <orgName ref="list.xml#oPI">Poste italiane</orgName>
+                                    <hi>
+                                          <num rend="double" type="cardinal" value="5">5</num>
+                                          centesimi
+                                          <num rend="double" type="cardinal" value="5">5</num>
+                                    </hi>
+                        </mentioned>
+                  </stamp>
+               </ab>
+            </div>
+            <div type="secondamano">
+               <ab type="paratext">
+                  <add>
+                     <num xmlns="http://www.tei-c.org/ns/1.0" type="cardinal" value="59">
+                                    59
+                                </num>
+                  </add>
+               </ab>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

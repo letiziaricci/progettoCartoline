@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xml:id="cartolina_7694-021">
+   <tei:teiHeader/>
+   <tei:text>
+      <tei:front/>
+      <tei:body>
+         <tei:div type="retro">
+            <tei:div type="message">
+               <tei:opener xmlns="http://www.tei-c.org/ns/1.0">
+                  <tei:dateline>
+                     <tei:lb/>
+                     <tei:s>            Milano li 4/3-1917</tei:s>
+                  </tei:dateline>
+               </tei:opener>
+               <tei:div xmlns="http://www.tei-c.org/ns/1.0" type="postcard-body">
+                  <tei:p>
+                     <tei:lb/>            Mia buona Oliva<tei:lb/>            Il tedio mi asfale qui a <tei:lb/>            Milano dove si suol veni-<tei:lb/>            re per obliare le disillusio-<tei:lb/>            ni e le amarezze della vita.<tei:lb/>            È il tuo pensiero costante, af-<tei:lb/>            fettuoso che mi infonde <tei:lb/>            la nostalgia della tua <tei:lb/>            lontananza.<tei:lb/>            Oliva, Oliva è l'amor tuo<tei:lb/>            che mi oscura tutte le gioie <tei:lb/>            della vita.... t'amo tanto <tei:lb/>            tanto e mi strugge il desiderio <tei:lb/>            d'esferti vicino.</tei:p>
+                  <tei:p type="fronte"/>
+               </tei:div>
+               <tei:closer xmlns="http://www.tei-c.org/ns/1.0">
+                  <tei:s>
+                     <tei:lb/>Un bacio ardentisfimo <tei:lb/>
+                     <tei:signed>
+                        <tei:persName>
+                           <tei:forename ref="Giovannino">Giovannino</tei:forename>
+                        </tei:persName>
+                     </tei:signed>
+                  </tei:s>
+               </tei:closer>
+            </tei:div>
+            <tei:div type="postmark-postage">
+               <tei:ab/>
+            </tei:div>
+            <tei:div type="secondamano">
+               <tei:ab type="paratext">
+                  <tei:add/>
+               </tei:ab>
+            </tei:div>
+         </tei:div>
+      </tei:body>
+   </tei:text>
+</tei:TEI>

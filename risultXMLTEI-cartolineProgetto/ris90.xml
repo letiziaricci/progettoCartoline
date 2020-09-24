@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI SYSTEM 'myTEI.dtd'>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cartolina_7694-090">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Ritratto - Edizione digitale</title>
+         </titleStmt>
+         <publicationStmt xmlns="http://www.tei-c.org/ns/1.0">
+            <publisher>
+               <choice>
+                  <abbr>Unipi</abbr>
+                  <expan>Università di
+                            <placeName ref="list.xml#PI">Pisa</placeName>
+                  </expan>
+               </choice>
+            </publisher>
+            <pubPlace ref="list.xml#PI">Pisa</pubPlace>
+            <availability>
+               <p>Available under licence only</p>
+            </availability>
+            <date when="2019">2019</date>
+            <distributor>
+               <orgName ref="list.xml#LCD">
+                  <choice>
+                     <abbr>LabCD</abbr>
+                     <expan>Laboratorio di Cultura Digitale</expan>
+                  </choice>
+               </orgName>
+            </distributor>
+            <address>
+               <addrLine>Laboratorio di Cultura Digitale - Università di Pisa</addrLine>
+               <addrLine>
+                  <placeName ref="list.xml#PI">Pisa</placeName>
+               </addrLine>
+            </address>
+         </publicationStmt>
+         <sourceDesc xmlns="http://www.tei-c.org/ns/1.0" xml:id="sourceDesc2">
+            <bibl>
+               <title type="custom" resp="list.xml#ES">[Donna in posa]</title>
+               <!-- titolo tra parentesi quadre perchè titolo formulato da terzi-->
+               <publisher>
+                  <orgName ref="list.xml#URS">
+                     <choice>
+                        <abbr>Uff.</abbr>
+                        <expan>Uff<ex>icio</ex>
+                        </expan>
+                     </choice>
+                     <choice>
+                        <abbr>Rev.</abbr>
+                        <expan>Rev<ex>isioni</ex>
+                        </expan>
+                     </choice> Stampa
+			</orgName>
+               </publisher>
+               <availability>
+                  <p>Proprietà artistica riservata</p>
+               </availability>
+               <pubPlace ref="list.xml#MI">Milano</pubPlace>
+               <date when="1917-05-08">8-5-1917</date>
+            </bibl>
+            <msDesc>
+               <!-- descrizione del manoscritto -->
+                  <msIdentifier>
+                        <!-- info per identificare il manoscritto -->
+                        <country ref="list.xml#IT">Italia</country>
+                        <settlement ref="list.xml#SP">La Spezia (SP)</settlement>
+                        <!-- collocazione specifica -->
+                        <repository ref="list.xml#MCE">Museo Civico Etnografico "Giovanni Podenzana", Sezione dei cimeli garibaldini e della Prima Guerrra Mondiale</repository>
+                        <!-- codice identificativo -->
+                        <idno type="postcard_id">7694_090_001/002</idno>
+                  </msIdentifier>
+               <!-- Informazioni sul contenuto della cartolina -->
+               <msContents>
+                  <summary>Cartolina Artistica</summary>
+                  <textLang>Italiano</textLang>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <stamp type="postage"> Francobollo - Regno d'Italia </stamp>
+                           <stamp type="postmark">Timbro della Ferrovia </stamp>
+                           <objectType>Cartolina</objectType>
+                           <!-- MATERIALI -->
+                           <material>Carta</material>
+                           <!-- DIMENSIONE -->
+                           <dimensions unit="cm">
+                              <height>9</height>
+                              <width>14</width>
+                           </dimensions>
+                        </support>
+                        <!-- CONSERVAZIONE -->
+                        <condition>Buono</condition>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc xmlns="http://www.tei-c.org/ns/1.0">
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="list.xml#GC">Giovanni Coliola</persName>
+               <placeName ref="list.xml#MO">Modena</placeName>
+               <date type="writing" when="19170716">16/7/1917</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="list.xml#GT">Giuseppe Turtura</persName>
+               <placeName ref="list.xml#RV">Ravenna</placeName>
+            </correspAction>
+         </correspDesc>
+         <textClass>
+            <keywords>
+               <term>Cartolina </term>
+               <term>Cartolina Artistica </term>
+               <term>Ritratto di una donna in posa</term>
+            </keywords>
+         </textClass>
+         <langUsage>
+            <language ident="it-IT">La lingua usata per la codifica è l'italiano</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <facsimile xmlns="http://www.tei-c.org/ns/1.0" xml:id="facsimile2">
+         <surface xml:id="fronte2" start="cartolina_fronte2">
+            <!-- tutta l'immagine -->
+            <graphic url="img-cartoline/7694-090F.jpg" width="1030px" height="1634px"/>
+         </surface>
+         <surface xml:id="retro2" start="cartolina_retro2">
+            <graphic url="img-cartoline/7694-090R.jpg" width="1638px" height="1034px"/>
+            <!-- parte sinistra -->
+            <zone ulx="124" uly="24" lrx="779" lry="1018" xml:id="zone5"/>
+            <!-- parte in alto a destra (timbro e francobollo)-->
+            <zone ulx="1176" uly="8" lrx="1625" lry="345" xml:id="zone6"/>
+            <!-- parte in basso a destra -->
+            <zone ulx="793" uly="356" lrx="1629" lry="989" xml:id="zone7"/>
+            <!--Zona id  cartina-->
+            <zone ulx="8" uly="3" lrx="140" lry="127" xml:id="zone8"/>
+         </surface>
+   </facsimile>
+   <text>
+      <!-- informazioni peritestuali -->
+      <front>
+            <!-- testo tipografico -->
+            <div type="tipografia">
+                  <p>
+                        <s rend="writing-mode(vertical-lr) text-orientation(sideways)">
+                              Proprietà artistica riservata - 
+                              <orgName ref="list.xml#URS">
+                                    <choice>
+                                          <abbr>Uff.</abbr>
+                                          <expan>Uff<ex>icio</ex>
+                                          </expan>
+                                    </choice>
+                                    <choice>
+                                          <abbr>Rev.</abbr>
+                                          <expan>Rev<ex>isioni</ex>
+                                          </expan>
+                                    </choice> Stampa
+			            </orgName>
+                              N. 
+                              <num type="cardinal" value="707">707</num>
+                              <placeName ref="list.xml#MI">Milano</placeName>,
+                              <date when="1917-05-08">8-5-1917</date>
+                        </s>
+                  </p>
+            </div>
+      </front>
+      <body>
+         <div xmlns="http://www.tei-c.org/ns/1.0" type="fronte">
+            <figure>
+               <head>
+                  <title>Ritratto di una donna in posa</title>
+               </head>
+               <figDesc>L'immagine ritrae una donna dalla carnagione olivastra, con occhi
+                        marroni e capelli mossi, avovlta in un delicato drappo rosso che le cinge il
+                        capo. La figura è sinuosa e il fazzoletto che le pende sulla spalla fino a
+                        raggiungere metà figura, aiuta a dare movimento all'illustrazione. In basso a
+                        destra infine troviamo la firma dell'autore "T. Corbella" </figDesc>
+            </figure>
+         </div>
+         <div type="retro">
+            <div type="message">
+                  <opener xmlns="http://www.tei-c.org/ns/1.0">
+                        <dateline>
+                              <lb n="1"/>
+                              <s>
+                                    <placeName ref="list.xml#MO">Modena</placeName>, li 
+                                    <date when="1917-07-16">16/7-17</date>.
+                              </s>
+                        </dateline>
+                  </opener>
+                  <div xmlns="http://www.tei-c.org/ns/1.0" type="postcard-body">
+                        <p>
+                              <lb n="2"/>
+                              <choice>
+                                    <orig>Affettuosisfimi</orig>
+                                    <reg resp="list.xml#LR" cert="high">Affettuosissimi</reg>
+                              </choice> saluti
+                              <lb n="3"/>
+                              a tutti
+                        </p>
+                  </div>
+                  <closer xmlns="http://www.tei-c.org/ns/1.0">
+                        <lb n="4"/>
+                        <signed>
+                        <persName>
+                              <forename ref="list.xml#GC">Giovannino</forename>
+                        </persName>
+                        </signed>
+                  </closer>
+            </div>
+            <div xmlns="http://www.tei-c.org/ns/1.0" type="address-destination">
+               <p>
+                  <address>
+                        <addrLine>
+                              <lb n="5"/>
+                              Gent.ma Sig.re
+                              <lb n="6"/>
+                              Giuseppe Turtura
+                              <lb n="7"/>
+                              Via Girolamo <choice>
+                                                <orig>Rosfi</orig>
+                                                <reg resp="list.xml#LR" cert="high">Rossi</reg>
+                                          </choice> 58
+                              <lb n="8"/>
+                              Ravenna
+                        </addrLine>
+                  </address>
+               </p>
+            </div>
+            <div type="postmark-postage">
+               <ab>
+                  <stamp xmlns="http://www.tei-c.org/ns/1.0" type="postmark">
+                     <mentioned>
+                        <placeName ref="#MO"> MODENA </placeName>
+                        <unclear reason="demage"> FERROVIA </unclear>
+                     </mentioned>
+                  </stamp>
+                  <stamp xmlns="http://www.tei-c.org/ns/1.0" type="postage">Francobollo da 5 centesimi del Regno d'Italia</stamp>
+               </ab>
+            </div>
+            <div type="secondamano">
+               <ab type="paratext">
+                  <add>
+                     <num type="cardinal">90</num>
+                  </add>
+               </ab>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="trasform.xsl" title="stile" type="text/xsl"?>
+
+<!--
+    Cartolina2: 7694-038
+                Firenze 20-XII-916
+        A lei e famiglia i miei migliori cordiali affettuosissimi auguri
+            Alfonso <gap> Magi Morfede <gap>
+    nel
+        Gentilissima Signorina
+        Signorina Olivia Turtura
+        Via Girolamo Rossi 58
+                Ravenna
+-->
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cartolina_7694-038">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <!-- TITOLO NB: non corrisponde completamente alla voce TITOLO della tabella perché si tratta del titolo della edizione digitale -->
+                <title> Cartolina 7694-038 - Donna che scrive </title>
+                <!-- TRASCRITTORE nome e cognome-->
+                 <respStmt>
+
+                    <resp>transcription by</resp>
+                    <name xml:id="XX">Mirko Morici</name>
+                    <name xml:id="XX2">Mario Fernàndez Gomis</name>
+
+                </respStmt>
+                
+                <!-- ENTE DI APPARTENENZA -->
+                <respStmt>
+                    <resp>Ente di Appartenenza</resp>
+                    <name type="comune" xml:id="SP">Comune della Spezia</name>
+                </respStmt>
+                
+            </titleStmt>
+            
+            <editionStmt>
+                <edition>Studenti di Informatica Umanistica, Corso di Laurea Triennale di Informatica Umanistica, Università di Pisa
+                    <!-- COMPILAZIONE -->
+                    <date>2019</date>
+                </edition>
+                
+                <!-- NOME COMPILATORE -->
+                <respStmt>
+                    <resp>encoding by</resp>
+                    <name xml:id="encoding">Mario Gomis</name>
+                </respStmt>
+                
+                <!-- REFERENTE SCIENTIFICO sempre Nome Cognome, XY2 è sempre Tommaso Castagneto, XZ1 è chi interviene sulla schedatura già fatta per correzioni e aggiunte-->
+                <respStmt>
+                   
+                    <resp>Compilatore</resp>
+                    <name xml:id="TC">Tommaso Castagneto</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Responsabile scientifico</resp>
+                    <name xml:id="GP">Giacomo Paolicchi</name>
+                    <name xml:id="ES">Enrica Salvatori</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Funzionario responsabile</resp>
+                    <name xml:id="ER">E.Ratti</name>
+                </respStmt>
+            </editionStmt>
+            
+            <publicationStmt>
+                <publisher>Unipi</publisher>
+                <pubPlace>Pisa</pubPlace>
+                <availability>
+                    <p>Available under licence only</p>
+                </availability>
+                <date when="2019">2019</date>
+                <distributor>LabCD</distributor>
+                <address>
+                    <addrLine>Laboratorio di Codifica di testi - Università di Pisa</addrLine>
+                    <addrLine>Pisa</addrLine>
+                </address>
+            </publicationStmt>
+            
+            <!-- NOTE NB: mettere qui tutto ciò che non rientra nella codifica -->
+            <notesStmt>
+                <note>Sono presenti dei francobolli sul retro della cartolina</note>
+                <note>Sul retro riporta la stampa “Proprietà artistica riservata n  143-1”</note>
+            </notesStmt>
+            
+            <sourceDesc>
+                <bibl>
+                    <!-- TITOLO Quello che si ricava dalla cartolina; Se un documento composto da immagini 
+                        non presenta un titolo o altri elementi considerabili come titolo, si formula un titolo sintetico 
+                        registrandolo entro parentesi quadre [Venere al bagno] ma indicando dentro la codifica come qui sotto esemplificato-->
+                    
+                    <title type="custom" resp="#ES">Donna che scrive</title>
+                    <author></author>
+                    <!-- PRODUZIONE Chi ha prodotto / pubblicato la cartolina. Se non presente togliere il tag  -->
+                    <publisher>Museo Civico Etnografico</publisher>
+                    <!-- LUOGO -->
+                    <pubPlace>Comune della Spezia</pubPlace>
+                    <!-- CRONOLOGIA, attenzione si riferisce solo alla data di stampa -->
+                    <date>1916</date>
+                </bibl>
+                <msDesc>
+                    <!-- COLLOCAZIONE SPECIFICA -->
+                    <!-- CODICE IDENTIFICATIVO -->
+                    <msIdentifier>
+                        <country>Italia</country>
+                        <settlement>La Spezia (SP)</settlement>
+                        <!-- COLLOCAZIONE SPECIFICA -->
+                        <repository>Museo Civico Etnografico "Giovanni Podenzana", Sezione dei cimeli garibaldini e della Prima Guerrra Mondiale</repository>
+                        <!-- CODICE IDENTIFICATIVO -->
+                        <idno>7694_038_001/002</idno>
+                    </msIdentifier>
+                    
+                    <!-- Informazioni sul contenuto della cartolina -->
+                    <!-- DESCRIZIONE -->
+                    <msContents>
+                        <summary>Cartolina Artistica</summary>
+                        <textLang>Italiano</textLang>
+                    </msContents>
+                    
+                    
+                    
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType>Cartolina</objectType>
+                                    <!-- MATERIALI -->
+                                    <material>Carta</material>
+                                    <!-- DIMENSIONE -->
+                                    <dimensions unit="cm">
+                                        <height>9</height>
+                                        <width>14</width>
+                                    </dimensions>
+                                    <stamp>francobollo - Regno d'Italia</stamp>
+                                </support>
+                                
+                                <!-- CONSERVAZIONE 
+                                buono = non occorrono interventi di restauro;
+        discreto = perfettamente leggibile in tutte le componenti ma con rischi di deterioramento per usura;
+        mediocre = perfettamente leggibile, ma mancano alcune sue parti;
+        cattivo = intaccato da parassiti o deteriorato da cattivi interventi passati o mancanti di parti rilevanti, necessita di restauro-->
+                                <condition>Buono</condition>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+            
+                    
+                </msDesc>
+                
+                <!-- NOMI -->
+                
+                <listPerson>
+                    <person xml:id="MM">
+                        <persName>
+                            <forename>Magi</forename>
+                            <surname>Morfede</surname>
+                        </persName>
+                        <sex>M</sex>
+                        <occupation n="1">[maggiore]</occupation>
+                        <note></note>
+                    </person>
+                    <person xml:id="OT">
+                        <persName>
+                            <forename>Oliva</forename>
+                            <surname>Turtura</surname>
+                        </persName>
+                        <sex>F</sex>
+                        <note></note>
+                    </person>
+                </listPerson>
+                
+                <listPlace>
+                    <place xml:id="RV">
+                        <placeName>Ravenna</placeName>
+                        <settlement type="località">città</settlement>
+                        <district type="comune" xml:id="RAV">Ravenna</district>
+                        <district type="provincia">RV</district>
+                        <country key="N">IT</country>
+                        <note>...</note>
+                    </place>
+                </listPlace>
+                
+                <listOrg>
+                    <org xml:id="N3" facs="#RAV">
+                        <orgName type="N">Ravenna</orgName>
+                        <desc>Ravenna è una città dell'Emilia Romagna nota per i colorati mosaici che ornano molti degli edifici del centro storico, si situa in Italia</desc>
+                    </org>
+                </listOrg>
+                
+                
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#MM"/>
+                    <placeName>Firenze</placeName>
+                    <!-- DATA data di invio da timbro (postage) o da manoscritto (writing) -->
+                    <date type="postage" when="1916-12-20">1916/12/20</date>
+                    <date type="writing" when="1916-12-20">1916/12/20</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#OT">...</persName>
+                    <placeName>Ravenna</placeName>
+                </correspAction>
+                <correspContext>
+                    <p>
+                        <!-- previous -->
+                        <!-- forward -->
+                    </p>
+                </correspContext>
+            </correspDesc>
+            
+            <textClass>
+                <keywords scheme="">
+                    <!-- soggettario -->
+                    <!-- tipologia -->
+                    <!-- descrizione -->
+                    <term>Cartolina </term>
+                    <term>Cartolina Artistica </term>
+                    <term>Coppia di innamorati</term>
+                </keywords>
+            </textClass>
+            
+            <langUsage>
+                <language ident="it-IT">italiano</language>
+            </langUsage>
+        </profileDesc>
+        
+    </teiHeader>
+
+    <!-- Zona Frontale -->
+    <facsimile>
+        <surface n='1' xml:id="Fronte_cartolina3">
+            <graphic url='7694-038F.jpg' width='1056px' height='1647px'/>
+            <zone xml:id="zone_fronte"  ulx="299" uly="243" lrx="926" lry="456"/> 
+    
+        </surface>
+
+        <!-- Zona Retro -->
+        <surface n='2' xml:id="Retro_cartolina3">
+            <graphic url='7694-038R.jpg' width='1656px' height='1056px' />
+            <zone xml:id ="zone_retro" ulx="42" uly="26" lrx="1644" lry="1021" />
+            <zone xml:id="zone_mandata" ulx="57" uly="58" lrx="721" lry="898" />
+            <zone xml:id="zone_timbre" ulx="781" uly="50" lrx="1619" lry="442"/>
+            <zone xml:id ="zone_destinazione" ulx="799" uly="445" lrx="1639" lry="976"/>
+            <note>Sul retro i sono tre timbri</note>
+        </surface>
+    </facsimile>
+    
+    <!-- DEFINIZIONE -->
+    <text type="letter" xml:id="Cart">
+        <!-- TRASCRIZIONE -->
+        <body>
+            <div type="fronte" xml:id="fronte3" facs="#7694-038F">
+                <figure >
+                    <graphic  xml:id="img" url="Cartoline/7694-038F.jpg"/>
+                    <figDesc>La Signora indossa un cappellino nero con una fascia di colore argento indossato come un fiocco,I capelli della signora sono di colore dorato e ricciole,Il viso si mostra un po' pallido con gli occhi chiusi e il rosetto alle labbra di colore rosso,La sciarpa si presta con con un mix di colori tra Oro Nero e Viola,In basso a destra e riportato la firma,Tiene nella mano destra una penna di colore blu.</figDesc>
+
+                    <head xml:id="head1">Donna che scrive</head>
+                </figure>
+            </div>
+
+            <div facs="#zone_retro" xml:id="retro">
+
+                <cb n="1"/>
+                <div xml:id="Section1" facs="#zone_mandata">
+                    <p xml:id="partS"><placeName>Firenze</placeName>
+                        <date when="20-XII-916">20-XII-916</date><lb/> 
+                        A lei e famiglia <lb/> i miei migliori <lb/> cordiali affettuosissimi <lb/>auguri 
+                        <lb/>  Alfonso <lb/>
+                    </p>
+                    <closer>
+                        <signed><gap reason="illegible"/> <persName>Magi Morfede</persName> </signed>
+                    </closer>
+                </div>
+
+                <div type="add">
+            <!-- identificativo di catalogazione -->
+                <ab type="catalogazione">
+                    <num type="cardinal" value="38">
+                               38
+                    </num>
+                </ab>
+            </div>
+
+                <cb n="2"/>
+                <div xml:id="Section2">
+                    <p xml:id="partDSopra" facs="#zone_timbre">
+                        <!-- stamps -->
+                        <stamp type="postmark"> 
+                            <mentioned>scritture dentro al timbro</mentioned>
+                            <date when="1916-12-21">1916/12/21</date>
+                        </stamp>
+                        <stamp type="postage">Francobollo da 5 centesimi del Regno d'Italia</stamp>
+                    </p>
+                    <p xml:id="destin" facs="#zone_destinazione">
+                        <choice>
+                            <abbr>Gent<add place="above">ssa.</add></abbr>
+                            <expan>Gentilissima</expan>
+                            <abbr>Sig<add place="above">na.</add></abbr>
+                            <expan>Signorina</expan>
+                            <abbr>Sig<add place="above">na.</add></abbr>
+                            <expan>Signorina</expan>
+                        </choice>
+                        <persName ref="#OT">Olivia Turtura </persName>
+                        <address><addrLine>Via G.Rossi 58</addrLine></address>
+                        <address><addrLine> <placeName ref="#RAV">Ravenna</placeName></addrLine></address>
+                    </p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

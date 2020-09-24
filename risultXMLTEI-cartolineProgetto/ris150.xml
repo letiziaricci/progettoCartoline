@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI SYSTEM 'myTEI.dtd'>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cartolina_7694-150">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>[Donna con lettera e amorino] - Edizione digitale</title>
+         </titleStmt>
+         <publicationStmt xmlns="http://www.tei-c.org/ns/1.0">
+            <publisher>
+               <choice>
+                  <abbr>Unipi</abbr>
+                  <expan>Università di
+                            <placeName ref="list.xml#PI">Pisa</placeName>
+                  </expan>
+               </choice>
+            </publisher>
+            <pubPlace ref="list.xml#PI">Pisa</pubPlace>
+            <availability>
+               <p>Available under licence only</p>
+            </availability>
+            <date when="2019">2019</date>
+            <distributor>
+               <orgName ref="list.xml#LCD">
+                  <choice>
+                     <abbr>LabCD</abbr>
+                     <expan>Laboratorio di Cultura Digitale</expan>
+                  </choice>
+               </orgName>
+            </distributor>
+            <address>
+               <addrLine>Laboratorio di Cultura Digitale - Università di Pisa</addrLine>
+               <addrLine>
+                  <placeName ref="list.xml#PI">Pisa</placeName>
+               </addrLine>
+            </address>
+         </publicationStmt>
+         <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
+            <bibl> <!-- TUtto quello che si ricava dalla cartolina... -->
+               <title>[Donna con lettera e amorino]</title>
+               <author ref="list.xml#AB">Aurelio Bertiglia</author>
+               <pubPlace ref="list.xml#MI">Milano</pubPlace>
+               <date when="1917-08-21">21/08/1917</date>
+            </bibl>
+            <msDesc>
+              <!-- descrizione del manoscritto -->
+               <msIdentifier>
+                  <!-- info per identificare il manoscritto -->
+                  <country ref="list.xml#IT">Italia</country>
+                  <settlement ref="list.xml#SP">La Spezia (SP)</settlement>
+                  <!-- collocazione specifica -->
+                  <repository ref="list.xml#MCE">Museo Civico Etnografico "Giovanni Podenzana", Sezione dei cimeli garibaldini e della Prima Guerrra Mondiale</repository>
+                  <!-- codice identificativo -->
+                  <idno type="postcard_id">7694_150_001/002</idno>
+                </msIdentifier>
+               <!-- Informazioni sul contenuto della cartolina -->
+               <!-- DESCRIZIONE -->
+               <msContents>
+                  <summary>Cartolina Artistica</summary>
+                  <textLang>Italiano</textLang>
+               </msContents>
+               <!-- Physical Description:  -->
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                              <objectType>Cartolina</objectType>
+                              <material>Carta</material>
+                              <dimensions unit="cm">
+                                    <height>9</height>
+                                    <width>14</width>
+                              </dimensions>
+                              <stamp type="postage" n="1"> Francobollo - Regno d'Italia </stamp>
+                               <stamp type="postmark" n="2"> Timbro della Ferrovia di Modena </stamp>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc xmlns="http://www.tei-c.org/ns/1.0">
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="list.xml#GC">Giovannino</persName>
+               <placeName ref="list.xml#MO">Modena</placeName>
+               <!-- DATA data di invio da timbro (postage) o da manoscritto (writing) -->
+               <date type="writing" when="1917-08-31">31/08/1917</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="list.xml#OT">Oliva Turtura</persName>
+               <placeName ref="list.xml#RV">Ravenna</placeName>
+            </correspAction>
+         </correspDesc>
+         <textClass>
+            <keywords>
+                    <!-- soggettario -->
+                    <!-- tipologia -->
+                    <!-- descrizione -->
+               <term>Cartolina </term>
+               <term>Cartolina Artistica </term>
+               <term>Donna con lettera e amorino</term>
+            </keywords>
+         </textClass>
+         <langUsage>
+            <language ident="it-IT">italiano</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <facsimile xmlns="http://www.tei-c.org/ns/1.0">
+         <surface xml:id="fronte_postcard_150" start="#cartolina150_fronte">
+            <graphic url="img-cartoline/7694-150F.jpg"/>
+         </surface>
+         <surface xml:id="retro_postcard_150" start="#cartolina150_retro">
+            <graphic url="img-cartoline/7694-150R.jpg" width="1649px" height="1061px"/>
+            <zone xml:id="riga150_1" ulx="805" uly="334" lrx="1616" lry="958"/>
+            <zone xml:id="riga150_2" ulx="1327" uly="8" lrx="1639" lry="320"/>
+            <zone xml:id="riga150_3"
+                  ulx="1084"
+                  uly="119"
+                  lrx="1191"
+                  lry="180"/>
+            <zone xml:id="riga150_4" ulx="101" uly="113" lrx="733" lry="935"/>
+            <zone xml:id="riga150_5" ulx="13" uly="234" lrx="52" lry="796"/>
+            <zone xml:id="riga150_6" ulx="141" uly="979" lrx="615" lry="1006"/>
+         </surface>
+   </facsimile>
+   <text>
+      <!-- informazioni peritestuali -->
+      <front>
+            <!-- testo tipografico -->
+            <div type="tipografia">
+                  <p>
+                        <s rend="writing-mode(vertical-lr) text-orientation(sideways)">
+                              Proprietà artistica riservata N. 
+                              <num type="cardinal" value="2053">2053</num>-1                           
+                        </s>
+                  </p>
+                  <p>
+                        <s rend="writing-mode(horizontal-lr) text-orientation(sideways)">
+                             Visto Revisione Stampa - N.
+                              <num type="cardinal" value="1404">1404</num> - 
+                              <placeName ref="list.xml#MI">Milano</placeName>.
+                        </s>
+                  </p>
+            </div>
+      </front>
+      <body>
+         <div xmlns="http://www.tei-c.org/ns/1.0"
+              xml:id="cartolina150_fronte"
+              facs="#fronte_postcard_150"
+              type="fronte">
+            <figure>
+               <figDesc>Una donna si avvicina ad un amorino che stringe una lettera</figDesc>
+               <head> [Donna con lettera e amorino] </head>
+               <p>
+                  <persName ref="list.xml#AB" type="author">A.Bertiglia</persName>
+               </p>
+            </figure>
+         </div>
+         <div type="retro" xml:id="cartolina150_retro" facs="#retro_postcard_150">
+            <div type="message">
+                  <opener xmlns="http://www.tei-c.org/ns/1.0">
+                        <dateline>
+                              <lb n="1"/>
+                              <s>
+                                    <placeName ref="list.xml#MO">Modena</placeName>, li 
+                                    <date when="1917-08-31">31/8-17</date>
+                              </s>
+                        </dateline>
+                  </opener>
+                  <div xmlns="http://www.tei-c.org/ns/1.0" type="postcard-body">
+                        <p>
+                              <lb n="2"/>
+                              Saluti affettuosi
+                              <lb n="3"/>
+                              a tutti
+                        </p>
+                  </div>
+                  <closer xmlns="http://www.tei-c.org/ns/1.0">
+                        <lb n="4"/>
+                        <signed>
+                        <persName>
+                              <forename ref="list.xml#GC">Giovannino</forename>
+                        </persName>
+                        </signed>
+                  </closer>
+            </div>
+            <div xmlns="http://www.tei-c.org/ns/1.0" type="address-destination">
+               <p>
+                  <address>
+                        <addrLine>
+                              <lb n="5"/>
+                              Gent. Sig.na
+                              <lb n="6"/>
+                              Oliva Turtura
+                              <lb n="7"/>
+                              Via Girolamo <choice>
+                                                <orig>Rosfi</orig>
+                                                <reg resp="list.xml#LR" cert="high">Rossi</reg>
+                                            </choice> 58
+                              <lb n="8"/>
+                              Ravenna
+                        </addrLine>
+                  </address>
+               </p>
+            </div>
+            <div type="postmark-postage">
+               <ab>
+                  <stamp xmlns="http://www.tei-c.org/ns/1.0" type="postmark">
+                     <mentioned>
+                        <unclear reason="damage">
+                           <placeName ref="#MO"> MODENA </placeName>
+                        </unclear>
+                        <unclear reason="damage"> FERROVIA </unclear>
+                     </mentioned>
+                     <date when="1917-08-31"> 31.8. <unclear reason="damage"> 17.18 </unclear>
+                     </date>
+                  </stamp>
+                  <stamp xmlns="http://www.tei-c.org/ns/1.0" type="postage"> Francobollo da 5 centesimi del Regno d'Italia </stamp>
+               </ab>
+            </div>
+            <div type="secondamano">
+               <ab type="paratext">
+                  <add>
+                     <num type="cardinal"> 150 </num>
+                  </add>
+               </ab>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

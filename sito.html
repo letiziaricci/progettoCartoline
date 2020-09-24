@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"></meta>
+      <link href="style.css" rel="stylesheet" type="text/css"></link>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+      <script src="mainjs.js" type="text/javascript"></script>
+      <script src="mainP.js" type="text/javascript"></script>
+
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+     <link rel="stylesheet" href="https://jqueryui.com/resources/demos/style.css"> 
+      <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+      <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+      <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900|Playfair+Display:400,700,900 :300,400" rel="stylesheet"/>
+
+
+      <title>Archivio cartoline</title>
+
+   </head>
+   <body>
+
+     <div id="top"></div>
+
+     <div class="btn-responsive-menu"></div>
+
+     <!-- div id mainmenu-->
+      <div id="bar"><a href="sito.html"><img src="ext/logo.png" id="ImgMenu" alt="logo"/></a>
+        <ul class="nav">
+            <li>
+               <a href="#top"><p id="h">RACCOLTA</p></a>
+            </li>
+            <li>
+               <p id="c">STORIA</p>
+            </li>
+            <li>
+               <p id="f">CERCA</p>
+            </li>
+            <li>
+               <p id="a">INFO</p>
+            </li>
+         </ul>
+      </div>
+
+   
+
+      <div id="home">
+        <br/>
+        <div id="progressbar"><div class="progress-label">Loading...</div></div>
+          <!-- div con le immagini delle cartoline -->
+        <div id="dialog"><div id="dialog-content"></div></div>
+      </div>
+      <div id="cartoline">
+            <!--  -->
+      </div>
+      <div id="cerca">
+        <fieldset>
+        <legend>Cerca nel sito</legend>
+            <!--  -->
+            <input type="radio" name="find" class="bottonC" id="titolo" checked>Titolo cartolina
+            <input type="radio" name="find" class="bottonC" id="mittente">Mittente
+            <input type="radio" name="find" class="bottonC" id="lemma">Parola chiave
+          
+            <div class="finestra">
+            <div id="project-label"></div>
+              <input id="project"><input type="hidden" id="project-id">
+                  <p id="project-description"></p>
+            </div>
+        </fieldset>
+      </div>
+      <div id="about">
+            <!--  -->
+      </div>
+      <div id="infoCartolina">
+          <!--  -->
+      </div>
+      <div id="infoTesto">
+
+      </div>
+      <div id="infoLink">
+      </div>
+
+   </body>
+</html>

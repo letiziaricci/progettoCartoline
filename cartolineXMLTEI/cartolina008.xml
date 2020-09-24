@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xml:id="cartolina_7694-008">
+   <tei:teiHeader/>
+   <tei:text>
+      <tei:front/>
+      <tei:body>
+         <tei:div type="retro">
+            <tei:div type="message">
+               <tei:opener xmlns="http://www.tei-c.org/ns/1.0">
+                  <tei:dateline>
+                     <tei:lb/>
+                     <tei:s>            li 8/12.1916 </tei:s>
+                  </tei:dateline>
+               </tei:opener>
+               <tei:div xmlns="http://www.tei-c.org/ns/1.0" type="postcard-body">
+                  <tei:p>
+                     <tei:lb/>            Oliva cara,<tei:lb/>            Quando mi sento amato da te, non<tei:lb/>            temo più nulla, nulla, nulla.<tei:lb/>            Biasimo quel cuore <tei:gap reason="illegible"/> che <tei:lb/>            non è inspirato al vero, primo amo-<tei:lb/>            re, a quell'amarsi nostro, che è ogget-<tei:lb/>            to della nostra vita e che ci eleva <tei:lb/>            sino al sacrificio, sino al più <tei:lb/>            nobole dei sentimenti: l'altruismo.<tei:lb/>            Si Oliva mia, credilo fortemente, sap-<tei:lb/>            pilo, ripetilo a te stesfa le mille e le <tei:lb/>            mille volte; il tuo Giovannino, quel <tei:lb/>            Giovannino lontano, fra i dolori<tei:lb/>            più elevati, più crudeli, non ha che <tei:lb/>            un solo pensiero, il tuo, il tuo nobile <tei:lb/>            amore e quando gli uomini saran-<tei:lb/>            no rinsaviti, egli t'amerà anche nel <tei:lb/>            la pace tranquilla della vita, in eterno.<tei:lb/>            Oliva, Oliva amami tanto. </tei:p>
+                  <tei:p type="fronte"/>
+               </tei:div>
+               <tei:closer xmlns="http://www.tei-c.org/ns/1.0">
+                  <tei:s>
+                     <tei:lb/>
+                     <tei:signed>
+                        <tei:persName>
+                           <tei:forename ref="Giovannino">Giovannino</tei:forename>
+                        </tei:persName>
+                     </tei:signed>
+                  </tei:s>
+               </tei:closer>
+            </tei:div>
+            <tei:div type="postmark-postage">
+               <tei:ab/>
+            </tei:div>
+            <tei:div type="secondamano">
+               <tei:ab type="paratext">
+                  <tei:add/>
+               </tei:ab>
+            </tei:div>
+         </tei:div>
+      </tei:body>
+   </tei:text>
+</tei:TEI>

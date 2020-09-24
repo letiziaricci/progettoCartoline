@@ -1,0 +1,328 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cartolina_7694-007">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title type="main">Giulietta e Romeo</title>
+
+                    <respStmt>
+                        <resp>Trascrizione a cura di:</resp>
+                        <name ref="#EC">Erica Cau</name>
+                        <name ref="#AI">Alice Isola</name>
+                    </respStmt>
+
+                    <respStmt>
+                        <resp>Ente di Appartenenza</resp>
+                        <name type="comune" ref="#SP">Comune di La Spezia</name>
+                    </respStmt>
+                </titleStmt>
+
+                <editionStmt>
+                    <edition>Studenti di Storia Pubblica Digitale, Corso di Laurea Magistrale e
+                        Triennale di Informatica Umanistica, Università di Pisa <date when="2019-02"
+                            >Febbraio 2019</date>
+                    </edition>
+                    <respStmt>
+                        <resp>encoding by</resp>
+                        <name ref="#EC">Erica Cau</name>
+                        <name ref="#AI">Alice Isola</name>
+                    </respStmt>
+                    <respStmt>
+                        <resp>Compilatore:</resp>
+                        <name ref="#TC">Tommaso Castagneto</name>
+                    </respStmt>
+                    <respStmt>
+                        <resp>Responsabile scientifico:</resp>
+                        <name ref="#GP">Giacomo Paolicchi</name>
+                        <name ref="#ES">Enrica Salvatori</name>
+                    </respStmt>
+                    <respStmt>
+                        <resp>Funzionario responsabile</resp>
+                        <name ref="#MR">Marzia Ratti</name>
+                    </respStmt>
+                </editionStmt>
+                
+                <publicationStmt>
+                    <publisher>Unipi</publisher>
+                    <pubPlace>Pisa</pubPlace>
+                    <availability>
+                        <licence>Available under licence only</licence>
+                    </availability>
+                    <date when="2019">2019</date>
+                    <distributor>LabCD</distributor>
+                    <address>
+                        <addrLine>Laboratorio di Cultura Digitale - Università di Pisa</addrLine>
+                        <addrLine>Pisa</addrLine>
+                    </address>
+                </publicationStmt>
+
+                <sourceDesc>
+                    <bibl>
+                        <title>Giulietta e Romeo</title>
+                        <publisher>"Cromogliptica" A.Marzi</publisher>
+                        <pubPlace>Roma</pubPlace>
+                    </bibl>
+                    
+                    <msDesc>
+                        <msIdentifier>
+                            <country>Italia</country>
+                            <settlement>La Spezia (SP)</settlement>
+                            <repository>Museo Civico Etnografico "Giovanni Podenzana", Sezione dei
+                                cimeli garibaldini e della Prima Guerrra Mondiale</repository>
+                            <idno>7694-007_001/002</idno>
+                        </msIdentifier>
+
+                        <msContents>
+                            <summary>Cartolina Artistica</summary>
+                            <textLang>Italiano</textLang>
+                        </msContents>
+                        <physDesc>
+                            <objectDesc>
+                                <supportDesc>
+                                    <support>
+                                        <objectType>Cartolina</objectType>
+                                        <material>Carta</material>
+                                        <dimensions unit="cm">
+                                            <height>9</height>
+                                            <width>14</width>
+                                        </dimensions>
+                                    </support>
+                                    <condition>Buono</condition>
+                                </supportDesc>
+                            </objectDesc>
+                            <handDesc>
+                                <handNote>
+                                    <p> Il testo nel recto della cartolina appartiene alla mano di
+                                        Giovanni Coliola. </p>
+                                </handNote>
+                                <handNote>
+                                    <p>Nell'angolo in alto a destra della parte superiore della
+                                        cartolina è presente un 7, numero di inventario della cartolina, aggiunto dal catalogatore
+                                    </p>
+                                </handNote>
+                            </handDesc>
+                        </physDesc>
+                    </msDesc>
+                    <listPerson>
+                        <person>
+                            <persName ref="#GC">
+                                <forename>Giovanni</forename>
+                                <surname>Coliola </surname>
+                            </persName>
+                            <sex>M</sex>
+                            <occupation n="1">Tenente colonnello</occupation>
+                        </person>
+                        <person>
+                            <persName ref="#OT">
+                                <forename>Oliva</forename>
+                                <surname>Turtura</surname>
+                            </persName>
+                            <sex>F</sex>
+                        </person>
+                    </listPerson>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc>
+                <correspDesc>
+                    <correspAction type="sent">
+                        <persName ref="#GC"/>
+                        <date when="02/12/1916">2 dicembre 1916</date>
+                    </correspAction>
+                    <correspAction type="received">
+                        <persName ref="#OT"/>
+                    </correspAction>
+                </correspDesc>
+                <langUsage>
+                    <language ident="it-IT" usage="98">Italiano del Novecento</language>
+                    <language ident="fr-FR" usage="2">Francese
+                        <note>(lingua utilizzata per il titolo alternativo della cartolina del recto)</note>
+                    </language>
+                </langUsage>
+            </profileDesc>
+        </teiHeader>
+
+        <facsimile xml:id="cartolina_007">
+            <surfaceGrp>
+                <surface xml:id="cartolina_facs_007_f" type="fronte_cartolina">
+                    <graphic url="img_cartoline/7694-007F.jpg" width="389px" height="602px"/>
+                </surface>
+                <surface xml:id="cartolina_facs_007_r" type="recto_cartolina">
+                    <graphic url="img_cartoline/7694-007R.jpg" width="390px" height="602px"/>
+                    <zone ulx="505" uly="7" lrx="728" lry="85" rendition="Line"
+                        xml:id="r_lettera_007_01"/>
+                    <!-- DATA -->
+                    <zone ulx="218" uly="8" lrx="458" lry="99" rendition="Line"
+                        xml:id="r_lettera_007_02"/>
+                    <!--Oliva,-->
+                    <zone ulx="19" uly="71" lrx="818" lry="180" rendition="Line"
+                        xml:id="r_lettera_007_03"/>
+                    <!--È un desiderio? è un martirio-->
+                    <zone ulx="45" uly="189" lrx="801" lry="284" rendition="Line"
+                        xml:id="r_lettera_007_04"/>
+                    <!--Quando, quando potrò confon- -->
+                    <zone ulx="25" uly="277" lrx="791" lry="342" rendition="Line"
+                        xml:id="r_lettera_007_05"/>
+                    <!--dere i miei sospiri d'amore con -->
+                    <zone ulx="13" uly="347" lrx="799" lry="412" rendition="Line"
+                        xml:id="r_lettera_007_06"/>
+                    <!-- i tuoi? quando cesseranno-->
+                    <zone ulx="11" uly="425" lrx="697" lry="480" rendition="Line"
+                        xml:id="r_lettera_007_07"/>
+                    <!--questi affanni? e come?-->
+                    <zone ulx="7" uly="477" lrx="738" lry="547" rendition="Line"
+                        xml:id="r_lettera_007_08"/>
+                    <!-- Sarai tu la mia buona -->
+                    <zone ulx="67" uly="554" lrx="821" lry="609" rendition="Line"
+                        xml:id="r_lettera_007_09"/>
+                    <!-- consolatrice? perché l'animo-->
+                    <zone ulx="6" uly="607" lrx="820" lry="683" rendition="Line"
+                        xml:id="r_lettera_007_10"/>
+                    <!-- mio ha bisogno di un solo con-->
+                    <zone ulx="13" uly="661" lrx="766" lry="746" rendition="Line"
+                        xml:id="r_lettera_007_11"/>
+                    <!--forto: il tuo. Ho bisogno-->
+                    <zone ulx="30" uly="756" lrx="821" lry="820" rendition="Line"
+                        xml:id="r_lettera_007_12"/>
+                    <!--d'un cuore che sappia elevarmi-->
+                    <zone ulx="7" uly="827" lrx="808" lry="895" rendition="Line"
+                        xml:id="r_lettera_007_13"/>
+                    <!--sino all'ideale più puro, col-->
+                    <zone ulx="23" uly="899" lrx="763" lry="956" rendition="Line"
+                        xml:id="r_lettera_007_14"/>
+                    <!--concorso leale di quello mi -->
+                    <zone ulx="12" uly="961" lrx="803" lry="1039" rendition="Line"
+                        xml:id="r_lettera_007_15"/>
+                    <!-- sento capace di scuotere, di dis- -->
+                    <zone ulx="8" uly="1032" lrx="783" lry="1090" rendition="Line"
+                        xml:id="r_lettera_007_16"/>
+                    <!-- sipare le grette insidie..... -->
+                    <zone ulx="2" uly="1097" lrx="805" lry="1178" rendition="Line"
+                        xml:id="r_lettera_007_17"/>
+                    <!-- io solo potrei cadere nell'abbie- -->
+                    <zone ulx="7" uly="1162" lrx="793" lry="1217" rendition="Line"
+                        xml:id="r_lettera_007_18"/>
+                    <!-- zione. Amami com'io su- -->
+                    <zone ulx="23" uly="1205" lrx="575" lry="1265" rendition="Line"
+                        xml:id="r_lettera_007_19"/>
+                    <!-- blimamente t'amo. -->
+                    <zone ulx="586" uly="1209" lrx="826" lry="1280" rendition="Line"
+                        xml:id="r_lettera_007_20"/>
+                    <!--Giovannino-->
+
+                    <!-- SCRITTE GIA' NELLA CARTOLINA -->
+                    <zone ulx="10" uly="42" lrx="396" lry="145" xml:id="r_intestazione7_1"/>
+                    <!-- sculture mastroianni-->
+                    <zone ulx="325" uly="130" lrx="513" lry="199" xml:id="r_intestazione7_2"/>
+                    <!-- giulietta e romeo-->
+                    <zone ulx="475" uly="57" lrx="807" lry="87" xml:id="r_intestazione7_3"/>
+                    <!-- cromogliptica-->
+                    <zone ulx="610" uly="97" lrx="658" lry="135" xml:id="r_intestazione7_4"/>
+                    <!-- AM-->
+                    <zone ulx="720" uly="456" lrx="802" lry="528" xml:id="r_intestazione7_5"/>
+                    <!-- 7 -->
+                    <zone ulx="19" uly="570" lrx="819" lry="610" xml:id="r_intestazione7_6"/>
+                    <!--scritte centro-->
+                </surface>
+            </surfaceGrp>
+        </facsimile>
+
+        <!-- TESTO DELLA SECONDA CARTOLINA -->
+        <text type="cartolina" xml:id="cartolina_7694_007">
+            <body xml:lang="ita">
+                <div type="fronte" facs="#cartolina_facs_007_f">
+                    <figure>
+                        <head>Giulietta e Romeo</head>
+                        <figDesc>In primo piano il bacio tra Giulietta e Romeo seduti su una
+                            balaustra. Sul fondo il giardino di una residenza nobiliare</figDesc>
+                        <note place="bottom">Nella parte inferiore è presente la scritta
+                            <orgName>
+                                D<supplied reason="omitted-in-original">[OMENICO]</supplied> 
+                                MASTROIANNI
+                            </orgName>
+                            <lb/>
+                            <placeName> RO<supplied>[ME]</supplied>
+                            </placeName>
+                        </note>
+                    </figure>
+                </div>
+
+                <div type="recto">
+                    <div type="contenuto_trascrizione">
+                        <pb xml:id="cartolina_007_r" facs="#cartolina_facs_007_r"/>
+                            <lb xml:id="data_lettera_1" n="d_01" facs="#r_lettera_007_01"/>
+                        <dateline>
+                            <date when="1916-2-21">
+                                <hi rend="align(right)" xml:id = "hi_date">li, 2/12/1916.</hi>
+                            </date>
+                        </dateline>
+                            <opener>
+                             <lb xml:id="riga_lettera_007_2" n="fr_01" facs="#r_lettera_007_02"/>
+                                <salute xml:id = "salute_2" rend="align(center)">
+                                  <persName ref="#OT">
+                                        Oliva</persName>,
+                                </salute>
+                            </opener>
+                        
+                         <div type="corpo_lettera">
+                            <ab type="parag" n="ab_7_02">
+                                <s type="sentence" n="s_01">
+                                    <lb xml:id="riga_lettera_007_3" n="fr_02" facs="#r_lettera_007_03" type="line"/>È un desiderio? È un martirio?
+                                </s>
+                                <!--CORPO DELLA LETTERA-->
+                                <s type="sentence" n="s_02">
+                                    <lb xml:id="riga_lettera_007_4" n="fr_04" facs="#r_lettera_007_04"/>Quando, quando potrò <w>confon-
+                                    <lb xml:id="riga_lettera_007_5" n="fr_05" facs="#r_lettera_007_05" break="no"/>dere</w> i miei sospiri d'amore con 
+                                    <lb xml:id="riga_lettera_007_6" n="fr_06" facs="#r_lettera_007_06" type="line"/>i tuoi? quando <gap reason="illegible" atMost="9" unit="chars"/> </s>
+                                <s type="sentence" n="s_03">
+                                    <lb xml:id="riga_lettera_007_7" n="fr_07" facs="#r_lettera_007_07" type="line"/>questi affanni? e come?
+                                </s>
+                               <s type="sentence" n="s_04">
+                                    <lb xml:id="riga_lettera_007_8" n="fr_08" facs="#r_lettera_007_08"/>Sarai tu la mia buona
+                                    <lb xml:id="riga_lettera_007_9" n="fr_09" facs="#r_lettera_007_09" type="line"/>consolatrice? perché l'animo
+                                </s>
+                                <s type="sentence" n="s_05">
+                                    <lb xml:id="riga_lettera_007_10" n="fr_10" facs="#r_lettera_007_10"/>mio ha bisogno di un solo <w>con-
+                                    <lb xml:id="riga_lettera_007_11" n="fr_11" facs="#r_lettera_007_11" break="no" type="line"/>forto</w>: il tuo. Ho bisogno
+                                    <lb xml:id="riga_lettera_007_12" n="fr_12" facs="#r_lettera_007_12"/>d'un cuore che sappia elevarmi
+                                    <lb xml:id="riga_lettera_007_13" n="fr_13" facs="#r_lettera_007_13"/>sino all'ideale più puro, col 
+                                    <lb xml:id="riga_lettera_007_14" n="fr_14" facs="#r_lettera_007_14"/>concorso leale di quello mi 
+                                    <lb xml:id="riga_lettera_007_15" n="fr_15" facs="#r_lettera_007_15"/>sento capace di <damage degree="low">scuotere</damage>, di <w>dis- 
+                                    <lb xml:id="riga_lettera_007_16" n="fr_16" facs="#r_lettera_007_16" break="no"/>sipare</w> le grette insidie..... 
+                                    <lb xml:id="riga_lettera_007_17" n="fr_17" facs="#r_lettera_007_17"/>io solo potrei cadere nell'<w>abbie- 
+                                    <lb xml:id="riga_lettera_007_18" n="fr_18" facs="#r_lettera_007_18" type="line" break="no"/>zione</w>. Amami, come io <w>su-
+                                    <lb xml:id="riga_lettera_007_19" n="fr_19" facs="#r_lettera_007_19" break="no"/>blimamente</w> t'amo. 
+                                </s>
+                            </ab>
+                        </div>
+            
+                        <closer>
+                            <lb xml:id="riga_lettera_007_20" n="fr_03" facs="#r_lettera_007_20"/>
+                           <signed>
+                                <hi rend="align(right)" xml:id = "firma_2">
+                                    <damage degree="medium">
+                                        <persName ref="#GC"> <hi rend = "underline">Giov<supplied>[annino]</supplied></hi>
+                                        </persName>
+                                    </damage>
+                                </hi>
+                            </signed>
+                        </closer>
+                    </div>
+                    <div type="stampe_cartolina">
+                        <ab>
+                            <s>
+                                <lb/>Sculture MASTROIANNI Roma Edizione
+                                propria N.8 </s>
+                            <s>
+                                <lb facs="#r_intestazione7_3"/> "Cromogliptica" A. Marzi - Roma </s>
+                            <s>
+                                <lb facs="#r_intestazione7_4"/> AM </s>
+                            <s type="catalog">
+                                <lb facs="#r_intestazione7_5"/> 7 </s>
+                            <s>
+                                <lb facs="#r_intestazione7_2"/>Giulietta e Romeo <lb/> Juliette et
+                                Roméo </s>
+                        </ab>
+                    </div>
+                </div>
+            </body>
+        </text>
+    </TEI>

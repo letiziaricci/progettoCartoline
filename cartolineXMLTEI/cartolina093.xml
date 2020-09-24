@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xml:id="cartolina_7694-093">
+<teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+      <fileDesc>
+         <titleStmt>
+            <title>La letteratura - Edizione digitale</title>
+         </titleStmt>
+         <publicationStmt><!-- contiene informazioni sulla pubblicazione e distribuzione del documento digitale -->
+            <publisher>
+               <choice>
+                  <abbr>Unipi</abbr>
+                  <expan instant="false">
+                              Università di
+                              <placeName ref="list.xml#PI" instant="false" full="yes">Pisa</placeName>
+                  </expan>
+               </choice>
+            </publisher>
+            <pubPlace ref="list.xml#PI">Pisa</pubPlace>
+            <availability default="false">
+               <p part="N">Available under licence only</p>
+            </availability>
+            <date when="2019" instant="false">2019</date>
+            <distributor>
+               <orgName ref="list.xml#LCD" instant="false" full="yes">
+                  <choice>
+                     <abbr>LabCD</abbr>
+                     <expan instant="false">Laboratorio di Cultura Digitale</expan>
+                  </choice>
+               </orgName>
+            </distributor>
+            <address>
+               <addrLine>Laboratorio di Cultura Digitale - Università di Pisa</addrLine>
+               <addrLine>
+                  <placeName ref="list.xml#PI" instant="false" full="yes">Pisa</placeName>
+               </addrLine>
+            </address>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <bibl default="false" status="draft">
+               <title type="custom" resp="list.xml#ES">La letteratura</title>
+               <publisher>
+                  <persName ref="list.xml#AB" instant="false" full="yes">Abertigla</persName>
+               </publisher>
+            </bibl>
+            <msDesc status="draft"><!-- descrizione del manoscritto -->
+               <msIdentifier><!-- info per identificare il manoscritto -->
+                  <country ref="list.xml#IT">Italia</country>
+                  <settlement ref="list.xml#lSP">La Spezia (SP)</settlement>
+                  <!-- collocazione specifica -->
+                  <repository ref="list.xml#MCE">Museo Civico Etnografico "Giovanni Podenzana", Sezione dei cimeli garibaldini e della Prima Guerrra Mondiale</repository>
+                  <!-- codice identificativo -->
+                  <idno type="postcard_id">7694_093_001/002</idno>
+               </msIdentifier>
+               <!-- Informazioni sul contenuto della cartolina -->
+               <msContents>
+                  <summary>Cartolina Artistica</summary>
+                  <textLang mainLang="ita">Italiano</textLang>
+               </msContents>
+               <physDesc><!-- descrizione fisica del manoscritto -->
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType>Cartolina</objectType>
+                           <material>Carta</material>
+                           <dimensions unit="cm">
+                              <height>9</height>
+                              <width>14</width>
+                           </dimensions>
+                        </support>
+                        <condition>
+                        Cartolina in buone condizioni fisiche e ben leggibile.
+                        </condition>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc default="false">
+            <correspAction type="sent">
+               <persName ref="list.xml#GC" instant="false" full="yes">Giovanni Coliola</persName>
+               <placeName ref="list.xml#MO" instant="false" full="yes">Modena</placeName>
+               <date type="writing" when="1917-06-06" instant="false">6/6/1917</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="list.xml#OT" instant="false" full="yes">Oliva Turtura</persName>
+            </correspAction>
+         </correspDesc>
+         <textClass default="false">
+            <keywords><!-- soggettario --><!-- tipologia --><!-- descrizione -->
+               <term>Cartolina </term>
+               <term>Cartolina Artistica </term>
+               <term>Bambino e bambina con un libro in mano in campagna accompagnati da un cane</term>
+            </keywords>
+         </textClass>
+         <langUsage default="false">
+            <language ident="it">italiano</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <front xmlns="http://www.tei-c.org/ns/1.0"><!-- testo tipografico -->
+                  <div type="tipografia" part="N" org="uniform" sample="complete">
+                     <p >
+                        <s rend="writing-mode(horizontal-lr) text-orientation(sideways)" part="N">
+                              LA LETTERATURA
+                        </s>
+                     </p>
+                     <p rend="writing-mode(vertical-lr) text-orientation(sideways)" part="N">
+                        <s >
+                                       Proprietà artistica riservata - N. 1095
+                        </s>
+                     </p>
+                  </div>
+      </front>
+      <body>
+         <div type="fronte">
+                <figure>
+                   <graphic url="img-cartolina/7694-093F.jpg"/>
+                   <!-- Descrizione dell'immagine in linguaggio naturale -->
+                   <figDesc>
+                      <desc>Bambino e bambina con un libro in mano in campagna accompagnati da un cane</desc>
+                   </figDesc>
+                </figure>
+         </div>
+         <div type="retro">
+            <div type="message">
+               <opener xmlns="http://www.tei-c.org/ns/1.0">
+                  <dateline>
+                     <lb n="1"/>
+                     <s>Modena, li 6/6-1917.</s>
+                  </dateline>
+               </opener>
+               <div xmlns="http://www.tei-c.org/ns/1.0" type="postcard-body">
+                  <p>
+                     <lb n="2"/>
+                     Affettuosisfimi 
+                  </p>
+               </div>
+               <closer xmlns="http://www.tei-c.org/ns/1.0">
+                     <lb n="3"/>
+                     <signed>
+                        <persName>
+                           <forename ref="list.xml#GC">Giovannino</forename>
+                        </persName>
+                     </signed>
+               </closer>
+            </div>
+            <div xmlns="http://www.tei-c.org/ns/1.0" type="address-destination">
+               <p>
+                  <address>
+                     <addrLine>
+                        <lb n="4"/>
+                        Gent.ma Sig.na
+                        <lb n="5"/>
+                        Oliva Turtura
+                        <lb n="6"/>
+                        Via Girolamo Rosfi 58
+                        <lb n="7"/>
+                        Ravenna
+                     </addrLine>
+                  </address>
+               </p>
+            </div>
+            <div type="postmark-postage">
+               <ab part="N">
+                  <stamp type="postmark">
+                     <mentioned>
+                        <gap reason="illegible"
+                             agent="faded"
+                             atLeast="2"
+                             atMost="4"
+                             unit="chars"
+                             instant="false"/>
+                        FERROVIA
+                    </mentioned>
+                  </stamp>
+                  <stamp type="postmark">
+                     <mentioned>
+                        <gap reason="illegible"
+                             agent="faded"
+                             atLeast="2"
+                             atMost="4"
+                             unit="chars"
+                             instant="false"/>
+                             FERROVIA
+                     </mentioned>
+                  </stamp>
+                  <stamp type="postage" facs="#stamp_127" xml:id="stamp-27">Poste italiane 5 centesimi</stamp>
+               </ab>
+            </div>
+            <div type="secondamano" part="N" org="uniform" sample="complete">
+                        <ab type="paratext" part="N">
+                           <add>
+                              <num type="cardinal">93</num>
+                           </add>
+                        </ab>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

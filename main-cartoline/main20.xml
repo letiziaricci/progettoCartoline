@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<?xml-model href="..//teiCustom.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cartolina_7694-020">
+    <teiHeader>
+        <!-- Descrizione del file elettronico -->
+        <fileDesc>
+            <!-- Info titolo edizione digitale e responsabilità del contenuto  -->
+            <titleStmt>
+                <title xml:lang="ita">Giovannino a Oliva, 3 Dicembre 1916</title>
+                <respStmt>
+                    <!-- trascrittori -->
+                    <resp>Trascrizione a cura di</resp>
+                    <persName ref="#GC">Giacomo Cerretini</persName>
+                    <persName ref="#DB">Duccio Breschi</persName>
+                    <persName ref="#CP">Camilla Poggianti</persName>
+                </respStmt>
+                <respStmt>
+                    <!-- ente di appartenenza -->
+                    <resp>Ente di Appartenenza</resp>
+                    <name type="comune" ref="#lSP">Comune della Spezia</name>
+                </respStmt>
+            </titleStmt>
+
+            <!-- Info riguardanti l'edizione -->
+            <editionStmt>
+                <edition>Studenti di Codifica di Testi, Corso di Laurea Triennale di Informatica Umanistica, Università di Pisa
+                    <date when="2018-12">Dicembre 2018</date>
+                </edition>
+                <respStmt>
+                    <!-- compilatori -->
+                    <resp>Codificato da</resp>
+                    <persName ref="#CP">C.Poggianti</persName>
+                    <persName ref="#DB">D.Breschi</persName>
+                    <persName ref="#GC">G.Cerretini</persName>
+                </respStmt>
+                <!--referente scientifico-->
+                <respStmt>
+                    <resp>Compilatore</resp>
+                    <persName ref="#pTC">Tommaso Castagneto</persName>
+                </respStmt>
+                <!--responsabile scientifico-->
+                <respStmt>
+                    <resp>Responsabile scientifico</resp>
+                    <persName ref="#pGP">Giacomo Paolicchi</persName>
+                    <persName ref="#pES">Enrica Salvatori</persName>
+                </respStmt>
+                <!--funzionario responsabile-->
+                <respStmt>
+                    <resp>Funzionario responsabile</resp>
+                    <persName ref="#pER">E. Ratti</persName>
+                </respStmt>
+            </editionStmt>
+
+            <!-- Info sulla pubblicazione e distribuzione del documento elettronico -->
+            <publicationStmt>
+                <publisher ref="#oUNIPI">
+                    <choice>
+                        <abbr>Unipi</abbr>
+                        <expan>Università di 
+                            <placeName ref="#lPI">Pisa</placeName>
+                        </expan>
+                    </choice>
+                </publisher>
+                <pubPlace ref="#lPI">Pisa</pubPlace>
+                <availability>
+                    <p>Available under licence only</p>
+                </availability>
+                <date when="2019">2019</date>
+                <distributor ref="#oCD">
+                    <choice>
+                        <abbr>LabCD</abbr>
+                        <expan>Laboratorio di Cultura Digitale</expan>
+                    </choice>
+                </distributor>
+                <address>
+                    <addrLine>Laboratorio di Cultura Digitale - Università di Pisa</addrLine>
+                    <addrLine>Pisa</addrLine>
+                </address>
+            </publicationStmt>
+
+            <!-- Info sulla fonte originale da cui deriva il documento elettronico -->
+            <sourceDesc>
+                <bibl type="postcard">
+                    <title>Il frutto dell'amore</title>
+                    <!-- Info editoriali -->
+                    <publisher ref="#oMCM">Sculture 
+                        <persName ref="#pDM">MASTROIANNI</persName>
+                        <placeName ref="#lRO">Roma</placeName> Cromogliptica 
+                        <persName ref="#pAM"> A. Marzi</persName>
+                    </publisher>
+                    <pubPlace ref="#lRO">Roma</pubPlace>
+                    <date when="1916">1916</date>
+                </bibl>
+                <msDesc>
+                    <!-- descrizione del manoscritto -->
+                    <msIdentifier>
+                        <!-- info per identificare il manoscritto -->
+                        <country ref="#lIT">Italia</country>
+                        <settlement ref="#lSP">La Spezia (SP)</settlement>
+                        <!-- collocazione specifica -->
+                        <repository ref="#oMCE">Museo Civico Etnografico "Giovanni Podenzana", Sezione dei cimeli garibaldini e della Prima Guerrra Mondiale</repository>
+                        <!-- codice identificativo -->
+                        <idno type="postcard_id">7694_020_001/002</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <!-- Info sul contenuto della cartolina -->
+                        <summary>Cartolina Artistica</summary>
+                        <msItem>
+                            <textLang mainLang="ita" otherLangs="fr">Testo in italiano con una frase stampata in francese</textLang>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <!-- descrizione fisica del manoscritto -->
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType>Cartolina</objectType>
+                                    <material>Carta</material>
+                                    <dimensions unit="cm">
+                                        <height>9</height>
+                                        <width>14</width>
+                                    </dimensions>
+                                    <!-- descrizione fisica dei timbri -->
+                                    <stamp type="postmark" n="riquadro_20"> 
+                                        Non è presente nessun timbro o francobollo sulla cartolina.
+                                    </stamp>
+                                    <!-- descrizione fisica del francobollo -->
+                                    <stamp type="postage" n="riquadro_20">
+                                        Sulla cartolina non è stato applicato nessun francobollo, ma c'è soltanto la stampa rettangolare 
+                                        (realizzata dalla tipografia che ha pubblicato la cartolina) che identifica dove il francobollo avrebbe dovuto essere applicato.
+                                    </stamp>
+                                    <!-- descrizione fisica della cartolina -->
+                                    <p>
+                                        Cartolina in buone condizioni fisiche. Sul verso è presente testo manoscritto in inchiostro nero su cartoncino color bianco; 
+                                        il testo si estende per tutta la lunghezza del verso della cartolina, senza rispettare la suddivisione proposta dalla tipografia. 
+                                        Le parole si sovrappongono con le informazioni editoriali stampate e invadono l'area dedicata all'applicazione del francobollo, che infatti non è presente.
+                                        Sul retro è presente un dipinto d'autore, con firma dello stesso in basso a destra.
+                                    </p>
+                                </support>
+                                <!-- descrizione delle condizioni fisiche di conservazione della cartolina -->
+                                <condition>
+                                    <p>Cartolina in buone condizioni fisiche.</p>
+                                </condition>
+                            </supportDesc>
+                        </objectDesc>
+                        <!-- descrizione del tipo di scrittura usato nella cartolina -->
+                        <handDesc>
+                            <p>La cartolina presenta porzioni di testo sul fronte e sia del testo scritto a mano dal mittente che stampato dalla tipografia sul retro.</p>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+
+        <!-- Descrizione degli aspetti non bibliografici -->
+        <profileDesc>
+            <!-- Descrizione delle azioni relative a un atto di corrispondenza -->
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#pGO">Giovannino</persName>
+                    <date when="1916-12-03">03 Dicembre 1916</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#pOT">Oliva Turtura</persName>
+                </correspAction>
+            </correspDesc>
+
+            <!-- Info di classificazione del testo -->
+            <textClass>
+                <keywords>
+                    <!--soggettario-->
+                    <term>Cartolina </term>
+                    <!--tipologia-->
+                    <term>Cartolina Artistica </term>
+                    <!--descrizione-->
+                    <term>Uomo, donna e bambino sul fieno</term>
+                </keywords>
+            </textClass>
+
+            <!-- Linguaggio usato nel testo -->
+            <langUsage>
+                <language ident="it-IT">Italiano</language>
+            </langUsage>
+        </profileDesc>
+
+        <!-- Descrizione della codifica -->
+        <encodingDesc>
+            <p>
+                Check sintattico con xmllint e validazione con schema RNG.
+                Codifica seguendo il metodo "parallel-trascription".                        
+                Codifica di base rispettando le forme e le informazioni lessicali, la punteggiatura e la sillabazione del documento, 
+                normalizzando il tutto per la codifica. 
+                Con appositi attributi è stata specificata anche la resa grafica di alcuni elementi.
+            </p>
+        </encodingDesc>
+
+        <!-- Storia delle revisioni del documento digitale -->
+        <revisionDesc>
+            <change when="2018-11-28" resp="#CP #DB #CG">Inizio creazione teiHeader e bozza dati spedizione.</change>
+            <change when="2018-12-03" resp="#CP #DB #CG">Fine teiHeader, realizzazione delle zone e facsimili, inizio codifica del retro della cartolina.</change>
+            <change when="2018-12-05" resp="#CP #DB #CG">Piccoli accorgimenti finali.</change>
+            <change when="2018-12-10" resp="#CP #DB #CG">Fine codifica cartolina, piccole correzioni di attributi.</change>
+            <change when="2018-12-17" resp="#CP #DB #CG">Codifica delle info stampate sulla cartolina</change>
+            <change when="2018-12-18" resp="#CP #DB #CG">Correzione della codifica seguendo il modello fornito dal docente</change>
+            <change when="2018-12-19" resp="#CP #DB #CG">Aggiunta di informazioni e riferimenti</change>
+        </revisionDesc>
+    </teiHeader>
+
+    <!-- Rappresentazione digitale di una fonte con testo scritto espressa attraverso un insieme di immagini -->
+    <facsimile>
+        <!-- Definizione della superficie di scrittura in termini di uno spazio espresso attraverso un sistema di coordinate -->
+        <surface>
+            <!-- zonazione retro della cartolina -->
+            <graphic xml:id="retro_postcard_20" url='retro.jpg' width='1646px' height='1058px' />
+            <!-- sculture mastroianni roma -->
+            <zone type="print" xml:id="autore_20" start="#autore-20" ulx="47" uly="567" lrx="80" lry="1004" />
+            <!-- edizione propria -->
+            <zone type="print" xml:id="ediz_20" start="#ediz-20" ulx="85" uly="682" lrx="116" lry="892" />
+            <!-- "Cromogliptica" Marzi Roma -->
+            <zone type="print" xml:id="edit_20" start="#edit-20" ulx="49" uly="36" lrx="83" lry="442" />
+            <!-- simbolo -->
+            <zone type="print" xml:id="sym_20" start="#sym-20" ulx="99" uly="222" lrx="133" lry="258" />
+            <!-- il frutto dell'amore -->
+            <zone type="print" xml:id="frutto_20" start="#frutto-20" ulx="147" uly="409" lrx="177" lry="633" />
+            <!-- le fruit dell'amour -->
+            <zone type="print" xml:id="fruit_20" start="#fruit-20" ulx="203" uly="399" lrx="228" lry="629" />
+            <!-- N.31 -->
+            <zone type="print" xml:id="n31_20" start="#n31-20" ulx="133" uly="744" lrx="161" lry="823" />
+            <!-- riproduzione interdetta -->
+            <zone type="print" xml:id="interdetta_20" start="#interdetta-20" ulx="717" uly="700" lrx="749" lry="1003" />
+            <!-- stampata in italia -->
+            <zone type="print" xml:id="place_20" start="#place-20" ulx="723" uly="56" lrx="755" lry="302" />
+            <!-- riquadro x bollo postale -->
+            <zone type="print" xml:id="riquadro_20" start="#riquadro-20" ulx="1344" uly="78" lrx="1581" lry="355" />
+            <!-- 20 -->
+            <zone type="catalog" xml:id="number20_20" start="#number20-20" ulx="916" uly="18" lrx="1011" lry="83" />
+            <!-- li. 3/12 -->
+            <zone type="handwriting" xml:id="date312_20" start="#date312-20" ulx="1059" uly="2" lrx="1419" lry="81" />
+            <!-- Oliva Oliva mia adorata, -->
+            <zone type="handWriting" xml:id="line_text_1_20" start="#line_text-1-20" ulx="152" uly="4" lrx="883" lry="72" />
+            <zone type="handWriting" xml:id="line_text_2_20" start="#line_text-2-20" ulx="21" uly="98" lrx="1616" lry="186" />
+            <zone type="handWriting" xml:id="line_text_3_20" start="#line_text-3-20" ulx="48" uly="215" lrx="1569" lry="279" />
+            <zone type="handWriting" xml:id="line_text_4_20" start="#line_text-4-20" ulx="48" uly="318" lrx="1640" lry="394" />
+            <zone type="handWriting" xml:id="line_text_5_20" start="#line_text-5-20" ulx="59" uly="380" lrx="1620" lry="452" />
+            <zone type="handWriting" xml:id="line_text_6_20" start="#line_text-6-20" ulx="48" uly="447" lrx="1597" lry="526" />
+            <zone type="handWriting" xml:id="line_text_7_20" start="#line_text-7-20" ulx="68" uly="532" lrx="1637" lry="628" />
+            <zone type="handWriting" xml:id="line_text_8_20" start="#line_text-8-20" ulx="99" uly="607" lrx="1645" lry="711" />
+            <zone type="handWriting" xml:id="line_text_9_20" start="#line_text-9-20" ulx="125" uly="698" lrx="1625" lry="775" />
+            <zone type="handWriting" xml:id="line_text_10_20" start="#line_text-10-20" ulx="72" uly="778" lrx="1000" lry="876" />
+            <!-- Un bacio immenso, infinito tuo-->
+            <zone type="handWriting" xml:id="line_text_11_20" start="line_text-11-20" ulx="169" uly="856" lrx="1440" lry="967" />
+            <!-- Giovannino -->
+            <zone type="handWriting" xml:id="line_text_13_20" start="#line_text-13-20" ulx="813" uly="944" lrx="1517" lry="1058" />
+        </surface>
+        <!-- immagine | fronte della cartolina -->
+        <surface>
+            <graphic xml:id="front_postcard_20" url='fronte.jpg' width='1058px' height='1650px' />
+            <!-- firma MASTROIANNI Roma -->
+            <zone xml:id="firma_20" start="#firma-20" ulx="751" uly="1492" lrx="1015" lry="1571" />
+        </surface>
+    </facsimile>
+
+    <!-- testo -->
+    <text xml:lang="it" type="postcard">
+        <!-- informazioni peritestuali -->
+        <front>
+            <!-- testo tipografico sul retro della cartolina -->
+            <div type="typo">
+                <lb/>
+                <p>
+                    <orgName ref="#oMCM">
+                        <s xml:id="autore-20" facs="#autore_20" rend="align(left)"> Sculture                        
+                            <persName ref="#pDM">MASTROIANNI</persName>
+                            <placeName ref="#lRO">Roma</placeName>
+                        </s>
+                        <s xml:id="edit-20" facs="#edit_20" rend="align(right)">
+                            "Cromogliptica" 
+                            <persName ref="#pAM">A. Marzi</persName>
+                            -
+                            <placeName ref="#lRO">Roma</placeName>
+                        </s>
+                    </orgName>
+                </p>
+                <lb/>
+                <p>
+                    <s xml:id="ediz-20" facs="#ediz_20" rend="align(left)">Edizione propria</s>
+                    <lb/>
+                    <s xml:id="n31-20" facs="#n31_20">
+                        <choice>
+                            <abbr>N.</abbr>
+                            <expan>Numero</expan>
+                        </choice>
+                        <num type="cardinal">31</num>
+                    </s>
+                    <s xml:id="sym-20" facs="#sym_20" rend="align(right)">
+                        <choice>
+                            <abbr>AM</abbr>
+                            <expan>
+                                <persName ref="#pAM">A.Marzi</persName>
+                            </expan>
+                        </choice>
+                    </s>
+                </p>
+                <lb />
+                <p rend="align(center)">
+                    <s xml:id="frutto-20" facs="#frutto_20">Il frutto dell'amore</s>
+                    <lb/>
+                    <s xml:id="fruit-20" facs="#fruit_20" xml:lang="fr">Le fruit de l'amour</s>
+                </p>
+                <lb/>
+                <p>
+                    <s xml:id="interdetta-20" facs="#interdetta_20" rend="align(left)">Riproduzione interdetta</s>
+                    <s xml:id="place-20" facs="#place_20" rend="align(right)">Stampata in 
+                        <placeName ref="#lIT">Italia</placeName>
+                    </s>
+                </p>
+            </div>
+        </front>
+        <body>
+            <!-- ............ FRONTE | IMG | RECTO ............ -->
+            <div type="fronte" xml:id="front-postcard-20" facs="#front_postcard_20">
+                <figure>
+                    <graphic url="fronte.jpg" />
+                    <!-- Descrizione dell'immagine in linguaggio naturale -->
+                    <figDesc>
+                    Sul fronte della cartolina è presente la riproduzione di un opera di Domenico Mastroianni. 
+                    Nell'immagine sono presenti tre figure, in primo piano al centro un uomo è seduto su del fieno e tiene tra le braccia un neonato, infine vediamo una donna che guarda il neonato sorridendo. 
+                    La metà inferiore dell'opera è occupata da mucchi di paglia su cui sono seduti l'uomo, 
+                    al centro, e la donna, più in alto. 
+                    Inoltre al di sotto dell'uomo sono appoggiati sulla paglia un piatto, un'anfora e una cesta contenente altri oggetti. 
+                    Dietro i mucchi di paglia si scorgono i tetti di alcune case e il cielo sereno. Nella parte bassa, a destra, è presente la firma dell'autore e il luogo: 
+                    
+                        <mentioned xml:id="firma-20" facs="#firma_20">
+                            <persName ref="#pDM">D.Mastroianni</persName>
+                            <placeName ref="#lRO">Roma</placeName>
+                        </mentioned>
+                    </figDesc>
+                    <head>Il frutto dell'amore</head>
+                </figure>
+            </div>
+            <!-- ............ RETRO | TEXT | VERSO ............ -->
+            <div type="retro" xml:id="retro-postcard-20" facs="#retro_postcard_20">
+                <div type="message">
+                    <!--luogo e data di scrittura della cartolina-->
+                    <opener>
+                        <dateline rend="align(right)">
+                            <date when="1913-12-03" rend="align(right)">
+                                <unclear reason="calligraphy" cert="medium">li</unclear>
+                                <date xml:id="date312-20" facs="#date312_20">3/12 -1916.</date>
+                            </date>
+                        </dateline>
+                        <salute>
+                            <s>
+                                <lb xml:id="lineText-1-020" facs="#lineText_1_020"/>
+                                <persName ref="#pOT">Oliva</persName>, 
+                                <persName ref="#pOT">Oliva</persName> mia adorata,
+                            </s>
+                        </salute>
+                    </opener>
+                    <!--contenuto del messaggio-->
+                    <p>
+                        <s>
+                            <lb type="sameline" xml:id="lineText-2-020" facs="#lineText_2_020"/>
+                        Nè ieri, nè oggi ho ricevuto tuoi scritti.
+                        </s>
+                        <s> Perché?</s>
+                        <s>
+                            <lb type="sameline" xml:id="lineText-3-020" facs="#lineText_3_020"/>
+                        Vuoi addolorare il tuo
+                            <persName ref="#pGO"> Giovannino</persName> lontano?.
+                        </s>
+                        <s>
+                        Ho
+                            <lb xml:id="lineText-4-020" facs="#lineText_4_020"/>
+                        già fatto mille supposizioni e congetture, mi auguro
+                            <lb type="sameline" xml:id="lineText-5-020" facs="#lineText_5_020"/>
+                        che la tua salute sia ottima.
+                        </s>
+                        <s>
+                        Vorrei correre a te
+                            <lb xml:id="lineText-6-020" facs="#lineText_6_020"/>
+                        volare sul tuo grembo adorato e carezzevolmente ba-
+                            <lb xml:id="lineText-7-020" facs="#lineText_7_020"/>
+                        ciarti la fronte, i capelli, il volto in segno di devoto
+                            <lb type="sameline" xml:id="lineText-8-020" facs="#lineText_8_020"/>
+                        affetto e d'amore sublime.
+                        </s>
+                        <s>
+                        Mi raccomando
+                            <lb xml:id="lineText-9-020" facs="#lineText_9_020"/>
+                        tanto tanto scrivimi lungamente e spiegami
+                            <lb xml:id="lineText-10-020" facs="#lineText_10_020"/>
+                        la ragione del tuo silenzio.
+                        </s>
+                    </p>
+                    <!--saluto finale e firma-->
+                    <closer>
+                        <salute rend="align(center)">
+                            <s>
+                                <lb type="sameline" xml:id="lineText-11-020" facs="#lineText_11_020"/>
+                            Un bacio immenso, infinito
+                            </s>
+                        </salute>
+                        <signed>
+                            <s>
+                            tuo 
+                                <lb xml:id="lineText-12-020" facs="#lineText_12_020"/>
+                                <persName ref="#pGO" rend="underline align(right)">Giovannino</persName>
+                            </s>
+                        </signed>
+                    </closer>
+                </div>
+                <div type="add">
+                    <ab xml:id="number20-20" facs="#number20_20">
+                        <add cert="medium">
+                            <num type="cardinal" value="20">
+                                <ptr target="#note_1"/>
+                            20
+                            </num>
+                        </add>
+                    </ab>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>   

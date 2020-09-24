@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI SYSTEM 'myTEI.dtd'>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cartolina_7694-046">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tenerezze materne - Edizione digitale</title>
+         </titleStmt>
+         <publicationStmt xmlns="http://www.tei-c.org/ns/1.0">
+            <publisher>
+               <choice>
+                  <abbr>Unipi</abbr>
+                  <expan>Università di
+                        <placeName ref="list.xml#PI">Pisa</placeName>
+                  </expan>
+               </choice>
+            </publisher>
+            <pubPlace ref="list.xml#PI">Pisa</pubPlace>
+            <availability>
+               <p>Available under licence only</p>
+            </availability>
+            <date when="2019">2019</date>
+            <distributor>
+               <orgName ref="list.xml#LCD">
+                  <choice>
+                     <abbr>LabCD</abbr>
+                     <expan>Laboratorio di Cultura Digitale</expan>
+                  </choice>
+               </orgName>
+            </distributor>
+            <address>
+               <addrLine>Laboratorio di Cultura Digitale - Università di Pisa</addrLine>
+               <addrLine>
+                  <placeName ref="list.xml#PI">Pisa</placeName>
+               </addrLine>
+            </address>
+         </publicationStmt>
+         <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
+            <bibl>
+               <title>Tenerezze materne</title>
+               <author>
+                       <persName ref="list.xml#SB">Stefano Bersani</persName>
+               </author>
+               <publisher>
+                        <orgName ref="list.xml#SCEBT">Casa Ed. d'Arte Bersetti e Tumminelli</orgName>
+                </publisher>
+                <pubPlace ref="list.xml#MI">Milano</pubPlace>
+            </bibl>
+            <msDesc>
+                <!-- descrizione del manoscritto -->
+                <msIdentifier>
+                                <!-- info per identificare il manoscritto -->
+                                <country ref="list.xml#IT">Italia</country>
+                                <settlement ref="list.xml#SP">La Spezia (SP)</settlement>
+                                <!-- collocazione specifica -->
+                                <repository ref="list.xml#MCE">Museo Civico Etnografico "Giovanni Podenzana", Sezione dei cimeli garibaldini e della Prima Guerrra Mondiale</repository>
+                                <!-- codice identificativo -->
+                                <idno type="postcard_id">7694_046_001/002</idno>
+                </msIdentifier>
+               <!-- Informazioni sul contenuto della cartolina -->
+               <!-- DESCRIZIONE -->
+               <msContents>
+                  <summary>Cartolina Artistica</summary>
+                  <textLang mainLang="fr">Francese</textLang>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType>Cartolina</objectType>
+                           <!-- MATERIALI -->
+                           <material>Carta</material>
+                           <!-- DIMENSIONE -->
+                           <dimensions unit="cm">
+                              <height>9</height>
+                              <width>14</width>
+                           </dimensions>
+                        </support>
+                        <condition>Buono</condition>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc xmlns="http://www.tei-c.org/ns/1.0">
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="list.xml#GC">Jean</persName>
+               <placeName ref="list.xml#ZG">Zona di Guerra</placeName>
+               <date type="writing" when="1916-7-14">1916/7/14</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName ref="list.xml#OT">Oliva Turtura</persName>
+            </correspAction>
+         </correspDesc>
+         <textClass>
+            <keywords>
+                    <!-- soggettario -->
+                    <!-- tipologia -->
+                    <!-- descrizione -->
+               <term>Cartolina </term>
+               <term>Cartolina Artistica </term>
+               <term>Coppia di innamorati</term>
+            </keywords>
+         </textClass>
+         <langUsage>
+            <language ident="fr">Francese</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+    <facsimile xmlns="http://www.tei-c.org/ns/1.0">
+         <surface n="1">
+            <graphic url="img-cartoline/7694-046R.jpg" width="1642px" height="1075px"/>
+            <zone ulx="551" uly="6" lrx="1350" lry="245" xml:id="zona1"/>
+            <zone ulx="241" uly="204" lrx="1590" lry="777" xml:id="zona2"/>
+            <zone ulx="942" uly="791" lrx="1290" lry="978" xml:id="zona3"/>
+         </surface>
+         <surface n="2">
+            <graphic url="img-cartoline/7694-034F.jpg" width="1058px" height="1650px"/>
+         </surface>
+   </facsimile>
+   <text>
+      <front>
+            <!-- testo tipografico -->
+            <div type="tipografia">
+                  <p>                                            
+                        <s rend="writing-mode(horizontal-lr) text-orientation(sideways)">
+                              <orgName ref="list.xml#DGM" type="tipography">D.G.M.</orgName>
+                        </s>
+                  </p>
+                  <p>                                            
+                        <s rend="writing-mode(vertical-lr) text-orientation(sideways)">
+                             Proprietà art. riserv. N. 143 - 1
+                        </s>
+                  </p>
+            </div>
+      </front>
+      <body>
+         <div xmlns="http://www.tei-c.org/ns/1.0"
+              type="fronte">
+            <p>
+                    L'immagine del fronte della cartolina presenta una donna vestita di bianco, seduta su di una sedia che
+                    bacia un bambino. Le figure sono immerse in quella che sembra essere l'etrata che di una villa di campagna,
+                    circondata dalla natura.
+                </p>
+            <head>Donna che bacia un bambino</head>
+         </div>
+         <div type="retro">
+            <div type="message">
+                        <opener xmlns="http://www.tei-c.org/ns/1.0">
+                                <dateline>
+                                        <lb n="1"/>
+                                        <s>
+                                                <placeName ref="list.xml#ZG">Zona di guerra</placeName>,
+                                                <date when="1916-07-14">14/7.1916</date>
+                                        </s>
+                                </dateline>
+                        </opener>
+                        <div xmlns="http://www.tei-c.org/ns/1.0" type="postcard-body">
+                                <p>
+                                        <lb n="2"/>
+                                        Oliva Oliva
+                                        <lb n="3"/>
+                                        Je t'aime aujourd'hui plus qu'hier
+                                        <lb n="4"/>
+                                        et moins de demain.
+                                </p>
+                        </div>
+                        <closer xmlns="http://www.tei-c.org/ns/1.0">
+                                <lb n="5"/>
+                                <signed>
+                                        <persName>
+                                                <forename ref="list.xml#GC">Jean</forename>
+                                        </persName>
+                                </signed>
+                        </closer>
+            </div>
+            <div type="secondamano">
+               <ab type="paratext">
+                  <add>
+                     <num xmlns="http://www.tei-c.org/ns/1.0" type="cardinal" value="46">
+                               46
+                    </num>
+                  </add>
+               </ab>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

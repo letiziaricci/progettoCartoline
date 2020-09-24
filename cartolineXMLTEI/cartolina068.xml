@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="cartolina_7694-068">
+   <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+      <fileDesc>
+         <titleStmt>
+            <title>L'aubade - Edizione digitale</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <choice>
+                  <abbr>Unipi</abbr>
+                  <expan instant="false">Università di
+                            <placeName ref="list.xml#PI" instant="false" full="yes">Pisa</placeName>
+                  </expan>
+               </choice>
+            </publisher>
+            <pubPlace ref="list.xml#PI">Pisa</pubPlace>
+            <availability default="false">
+               <p part="N">Available under licence only</p>
+            </availability>
+            <date when="2019" instant="false">2019</date>
+            <distributor>
+               <orgName ref="list.xml#LCD" instant="false" full="yes">
+                  <choice>
+                     <abbr>LabCD</abbr>
+                     <expan instant="false">Laboratorio di Cultura Digitale</expan>
+                  </choice>
+               </orgName>
+            </distributor>
+            <address>
+               <addrLine>Laboratorio di Cultura Digitale - Università di Pisa</addrLine>
+               <addrLine>
+                  <placeName ref="list.xml#PI" instant="false" full="yes">Pisa</placeName>
+               </addrLine>
+            </address>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <bibl default="false" status="draft">
+               <title>L'aubade</title>
+               <author ref="list.xml#DM">D. Mastroianni</author>
+               <publisher>
+                  <persName ref="list.xml#pAN" instant="false" full="yes">A. Noyer </persName>
+               </publisher>
+               <availability default="false">
+                  <p part="N">Copyright</p>
+               </availability>
+               <pubPlace ref="list.xml#P">Parigi</pubPlace>
+               <date when="1912" instant="false"> 1912</date>&gt;
+            </bibl>
+            <msDesc status="draft"><!-- descrizione del manoscritto -->
+               <msIdentifier><!-- info per identificare il manoscritto -->
+                  <country ref="list.xml#IT">Italia</country>
+                  <settlement ref="list.xml#SP">La Spezia (SP)</settlement>
+                  <!-- collocazione specifica -->
+                  <repository ref="list.xml#MCE">Museo Civico Etnografico "Giovanni Podenzana", Sezione dei cimeli garibaldini e della Prima Guerrra Mondiale</repository>
+                  <!-- codice identificativo -->
+                  <idno type="postcard_id">7694_068_001/002</idno>
+               </msIdentifier>
+               <!-- Informazioni sul contenuto della cartolina -->
+               <msContents>
+                  <summary>Cartolina Artistica</summary>
+                  <textLang>Italiano</textLang>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType>Cartolina</objectType>
+                           <!-- MATERIALI -->
+                           <material>Carta</material>
+                           <!-- DIMENSIONE -->
+                           <dimensions unit="cm">
+                              <height>9</height>
+                              <width>14</width>
+                           </dimensions>
+                           <stamp type="postage">2 rancobolli da 5 centesimi delle Poste Italiane di colore verde</stamp>
+                           <stamp type="postmark">4 timbri</stamp>
+                        </support>
+                        <condition>Buono</condition>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc default="false">
+            <correspAction type="sent">
+               <persName ref="list.xml#Pia" instant="false" full="yes">Pia</persName>
+               <!-- città di invio da timbro (postage) o da manoscritto (writing) -->
+               <placeName type="writing" ref="list.xml#VR" instant="false" full="yes">Verona</placeName>
+               <!-- DATA data di invio da timbro (postage) o da manoscritto (writing) -->
+               <date type="postage" when="1912-09-21" instant="false">21-9-12</date>
+               <date type="writing" when="1912-09-21" instant="false">21-9-12</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="list.xml#OT" instant="false" full="yes">Oliva Turtura</persName>
+               <placeName ref="list.xml#RV" instant="false" full="yes">Ravenna</placeName>
+            </correspAction>
+         </correspDesc>
+         <textClass default="false">
+            <keywords><!-- soggettario --><!-- tipologia --><!-- descrizione -->
+               <term>Cartolina </term>
+               <term>Cartolina Artistica </term>
+               <term>L'aubade</term>
+            </keywords>
+         </textClass>
+         <langUsage default="false">
+            <language ident="it-IT">italiano</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <facsimile xmlns="http://www.tei-c.org/ns/1.0"
+              xml:id="immagineAnnotata68">
+      <surface xml:id="fronte68" start="#cartolina_fronte68">
+         <graphic url="img-cartoline/7694-068F.jpg"
+                  width="1037.007812px"
+                  height="1634.007812px"/>
+      </surface>
+   </facsimile>
+   <facsimile xmlns="http://www.tei-c.org/ns/1.0"
+              xml:id="testoAnnotato68">
+      <surface xml:id="retro68" start="#cartolina_retro68">
+         <graphic url="img-cartoline/7694-068R.jpgg"
+                  width="1641.007812px"
+                  height="1038.007812px"/>
+         <zone ulx="0" uly="0" lrx="717" lry="1015" rotate="0"/>
+         <!--testo retro-->
+         <zone ulx="715" uly="357" lrx="1633" lry="1035" rotate="0"/>
+         <!--indirizzo-->
+         <zone ulx="563" uly="15" lrx="1633" lry="481" rotate="0"/>
+         <!--timbro e francobollo-->
+      </surface>
+   </facsimile>
+   <text>
+      <front xmlns="http://www.tei-c.org/ns/1.0"
+             xml:id="i7694-064Rl_copy"
+             facs="#i7694-064Rl"><!-- parte preliminare in questo caso stampa del copyright-->
+         <div type="print"
+              rend="vertical"
+              part="N"
+              org="uniform"
+              sample="complete">
+            <p part="N">Copyright by
+                        <persName ref="list.xml#AN" instant="false" full="yes">
+                  <abbr>A.</abbr> Noyer
+                        </persName>.
+                        <date instant="false">1912</date>. – Allegorie
+                        <choice>
+                  <abbr>N°</abbr>
+                  <expan instant="false">N<ex instant="false">umero</ex>
+                  </expan>
+               </choice>
+                        186
+                  </p>
+         </div>
+      </front>
+      <body xmlns="http://www.tei-c.org/ns/1.0">
+         <div type="fronte"
+              facs="#fronte"
+              xml:id="cartolina_fronte-68"
+              part="N"
+              org="uniform"
+              sample="complete">
+            <figure>
+               <head>
+                  <lb/>
+                  <title>L'aubade</title> di <persName instant="false" full="yes">Domenico Mastroianni</persName>
+               </head>
+               <lb/>
+               <figDesc>L'immagine in bianco e nero rappresenta una donna affacciata ad un balcone, intenta ad ascoltare
+                    tre amorini che suonano su una barca. La donna sembra lieta, con la mano destra tiene lo scialle che ha sulle spalle,
+                    mentre la sinistra è appoggiata al balcone. In basso, sul fiume sotto al balcone, i tre amorini recano in mano ognuno
+                    un diverso strumento: l'ultimo sta suonando un violoncello, quello centrale uno strumento a fiato, che sembra un oboe o 
+                    un clarinetto, mentre quello in cima tiene in mano i due remi per condurre la barca.
+                    Tutta la scena è inserita in un ambiente bucolico, le strutture architettoniche sono ricoperte di erbe rampicanti.
+                    </figDesc>
+            </figure>
+         </div>
+         <div type="retro" part="N" org="uniform" sample="complete">
+            <div type="message" part="N" org="uniform" sample="complete">
+               <opener>
+                  <dateline>
+                     <lb n="1"/>
+                     <s part="N">
+                        <placeName ref="list.xml#VR" instant="false" full="yes">
+                           <unclear reason="faded" resp="list.xml#LR" instant="false">Verona</unclear>
+                        </placeName>
+                        <date when="1912-09-21" instant="false">21-9-12</date>
+                     </s>
+                  </dateline>
+               </opener>
+               <div type="postcard-body" part="N" org="uniform" sample="complete">
+                  <p part="N">
+                     <lb n="2"/>
+                  Partirò lunedì
+                  <lb n="3"/>
+                  col treno delle 17 circa.
+               </p>
+               </div>
+               <closer>
+                  <s part="N">
+                     <lb n="4"/>
+                  Vogliami bene e 
+                  <lb n="5"/>
+                  Arrivederci tua 
+                  </s>
+                  <lb n="6"/>
+                  <signed>
+                     <persName instant="false" full="yes">
+                        <forename ref="list.xml#Pia" full="yes">Pia</forename>
+                     </persName>
+                  </signed>
+               </closer>
+            </div>
+            <div type="address-destination"
+                 part="N"
+                 org="uniform"
+                 sample="complete">
+               <p part="N">
+                  <address>
+                     <addrLine>
+                        <lb n="7"/>
+                              Signorina
+                              <lb n="8"/>
+                              Oliva Turtura
+                              <lb n="9"/>
+                              Girolamo <choice>
+                           <orig>Rosfi</orig>
+                           <reg resp="list.xml#LR" cert="high" instant="false">Rossi</reg>
+                        </choice>
+                        <lb n="10"/>
+                              Ravenna
+                        </addrLine>
+                  </address>
+               </p>
+            </div>
+            <div type="postmark-postage"
+                 part="N"
+                 org="uniform"
+                 sample="complete">
+               <ab part="N">
+                  <stamp type="postmark">
+                     <mentioned>. Ravenna . |arrivi e partenze|</mentioned>
+                     <date when="1912-9-21" instant="false">21 9 - 12</date>
+                  </stamp>
+                  <stamp type="postmark">
+                     <mentioned>Ferrara</mentioned>
+                     <note anchored="true">Il francobollo è illeggibile.</note>
+                  </stamp>
+                  <stamp type="postmark">
+                     <note anchored="true">Il francobollo è illeggibile.</note>
+                  </stamp>
+                  <stamp type="postmark">
+                     <note anchored="true">Il francobollo è illeggibile.</note>
+                  </stamp>
+                  <stamp type="postage">due francobolli da 5 centesimi del Regno d'Italia</stamp>
+               </ab>
+            </div>
+            <div type="secondamano" part="N" org="uniform" sample="complete">
+               <ab type="paratext" part="N">
+                  <add instant="false" status="unremarkable">
+                     <num type="cardinal" value="68">
+                        68
+                        </num>
+                  </add>
+               </ab>
+            </div>
+         </div>
+      </body>
+      <back>
+         <div type="linguistic">
+            <ab>
+               <seg lemma="partire">
+                  <w type="form">Partirò</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="lunedì">
+                  <w type="form">lunedì</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="con">
+                  <w type="form">col</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="treno">
+                  <w type="form">treno</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="di">
+                  <w type="form">delle</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="17">
+                  <w type="form">17</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="circa">
+                  <w type="form">circa</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma=".">
+                  <w type="form">.</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="volere">
+                  <w type="form">Voglia</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="a">
+                  <w type="form">a</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="me">
+                  <w type="form">me</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="bene">
+                  <w type="form">bene</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="e">
+                  <w type="form">e</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="arrivederci">
+                  <w type="form">Arrivederci</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="tuo">
+                  <w type="form">tua</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="Pia">
+                  <w type="form">Pia</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+            </ab>
+         </div>
+      </back>
+   </text>
+</TEI>

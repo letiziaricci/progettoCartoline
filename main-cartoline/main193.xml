@@ -1,0 +1,306 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cartolina_7694-193">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title type="main">La Madonna del cardellino</title>
+
+                    <respStmt>
+                        <resp>Trascrizione a cura di:</resp>
+                        <name ref="#EC">Erica Cau</name>
+                        <name ref="#AI">Alice Isola</name>
+                    </respStmt>
+
+                    <respStmt>
+                        <resp>Ente di Appartenenza:</resp>
+                        <name type="comune" ref="#SP">Comune di La Spezia</name>
+                    </respStmt>
+                </titleStmt>
+
+                <editionStmt>
+                    <edition>Studenti di Storia Pubblica Digitale, Corso di Laurea Magistrale e
+                        Triennale di Informatica Umanistica, Università di Pisa <date when="2019-02"
+                            >Febbraio 2019</date>
+                    </edition>
+                    <respStmt>
+                        <resp>encoding by:</resp>
+                        <name ref="#EC">Erica Cau</name>
+                        <name ref="#AI">Alice Isola</name>
+                    </respStmt>
+                    <respStmt>
+                        <resp>Compilatore:</resp>
+                        <name ref="#TC">Tommaso Castagneto</name>
+                    </respStmt>
+                    <respStmt>
+                        <resp>Responsabile scientifico:</resp>
+                        <name ref="#GP">Giacomo Paolicchi</name>
+                        <name ref="#ES">Enrica Salvatori</name>
+                    </respStmt>
+                    <respStmt>
+                        <resp>Funzionario responsabile</resp>
+                        <name ref="#MR">Marzia Ratti</name>
+                    </respStmt>
+                </editionStmt>
+
+
+                <publicationStmt>
+                    <publisher>Unipi</publisher>
+                    <pubPlace>Pisa</pubPlace>
+                    <availability>
+                        <licence>Available under licence only</licence>
+                    </availability>
+                    <date when="2019">2019</date>
+                    <distributor>LabCD</distributor>
+                    <address>
+                        <addrLine>Laboratorio di Cultura Digitale - Università di Pisa</addrLine>
+                        <addrLine>Pisa</addrLine>
+                    </address>
+                </publicationStmt>
+
+                <sourceDesc>
+                    <bibl>
+                        <title>La Madonna del cardellino</title>
+                        <author>Raffaello Sanzio</author>
+                        <date>1506</date>
+                        <publisher>Alfieri Lacroix, Milano - Editori</publisher>
+                        <pubPlace>Milano</pubPlace>
+                    </bibl>
+                    <msDesc>
+                        <msIdentifier>
+                            <country>Italia</country>
+                            <settlement>La Spezia (SP)</settlement>
+                            <repository>Museo Civico Etnografico "Giovanni Podenzana", Sezione dei
+                                cimeli garibaldini e della Prima Guerrra Mondiale</repository>
+                            <idno>7694-193_001/002</idno>
+                        </msIdentifier>
+                        <msContents>
+                            <summary>Cartolina Artistica</summary>
+                            <textLang>Italiano</textLang>
+                        </msContents>
+                        <physDesc>
+                            <objectDesc>
+                                <supportDesc>
+                                    <support>
+                                        <objectType>Cartolina</objectType>
+                                        <material>Carta</material>
+                                        <dimensions unit="cm">
+                                            <height>9</height>
+                                            <width>14</width>
+                                        </dimensions>
+                                    </support>
+                                    <condition>Mediocre</condition>
+                                </supportDesc>
+                            </objectDesc>
+                            <handDesc>
+                                <handNote>
+                                    <p> Il testo presente nel recto appartiene a due mani
+                                        differenti</p>
+                                </handNote>
+                                <handNote>
+                                    <p>Nell'angolo in alto a destra della parte superiore della
+                                        cartolina è presente un 193, numero di inventario della cartolina, aggiunto dal catalogatore.</p>
+                                </handNote>
+                            </handDesc>
+                        </physDesc>
+                    </msDesc>
+                    <listPerson>
+                        <person xml:id="GT">
+                            <persName>
+                                <forename>Giuseppe</forename>
+                                <surname>Turtura</surname>
+                            </persName>
+                            <sex>M</sex>
+                        </person>
+                        <person xml:id="AT">
+                            <persName>
+                                <forename>Antonietta</forename>
+                                <surname>Turtura</surname>
+                            </persName>
+                            <sex>F</sex>
+                        </person>
+                    </listPerson>
+
+                </sourceDesc>
+            </fileDesc>
+
+            <profileDesc>
+                <correspDesc>
+                    <correspAction type="sent">
+                        <persName ref="#GT"/>
+                        <date when="27/01/1918">27 gennaio 1918</date>
+                    </correspAction>
+                    <correspAction type="received">
+                        <persName ref="#AT"/>
+                    </correspAction>
+                </correspDesc>
+                <langUsage>
+                    <language ident="it-IT" usage="100">Italiano del Novecento</language>
+                </langUsage>
+            </profileDesc>
+        </teiHeader>
+
+        <facsimile xml:id="cartolina_193">
+            <surfaceGrp>
+                <surface xml:id="cartolina_facs_193_f" type="fronte_cartolina">
+                    <graphic url="img_cartoline/7694-193F.jpg" width="390px" height="602px"
+                        xml:id="f_cartolina_193"/>
+                </surface>
+                <surface xml:id="cartolina_facs_193_r" type="recto_cartolina">
+                    <graphic url="img_cartoline/7694-193R.jpg" width="389px"
+                        height="602px"/>
+
+                    <zone ulx="12" uly="769" lrx="121" lry="1192" rendition="Line"
+                        xml:id="r_cartolina_193_1"/>
+                    <!-- data invio e luogo -->
+                    <zone ulx="42" uly="398" lrx="150" lry="505" rendition="Line"
+                        xml:id="r_cartolina_193_2"/>
+                    <!-- 193 -->
+                    <zone ulx="18" uly="43" lrx="277" lry="332" rendition="Hotspot"
+                        xml:id="h_cartolina_193_1"/>
+                    <!-- timbro posta militare -->
+                    <zone ulx="57" uly="49" lrx="297" lry="281" rendition="Hotspot"
+                        xml:id="h_cartolina_193_2"/>
+                    <!-- francobollo -->
+                    <zone points=" 205,428 186,466 526,809 573,751" rendition="Hotspot"
+                        xml:id="h_cartolina_193_3"/>
+                    <!-- verificato per censura -->
+                    <zone ulx="505" uly="719" lrx="816" lry="1015" rendition="Hotspot"
+                        xml:id="h_cartolina_193_4"/>
+                    <!-- timbro non del tutto leggibile -->
+                    <zone ulx="126" uly="725" lrx="342" lry="1246" rendition="Line"
+                        xml:id="r_cartolina_193_3"/>
+                    <!-- saluti affettuosi -->
+                    <zone ulx="342" uly="707" lrx="426" lry="1201" rendition="Line"
+                        xml:id="r_cartolina_193_4"/>
+                    <!-- a voi e famiglia -->
+                    <zone ulx="438" uly="700" lrx="550" lry="1075" rendition="Line"
+                        xml:id="r_cartolina_193_5"/>
+                    <!-- cugino Giuseppe -->
+
+                    <zone ulx="313" uly="28" lrx="441" lry="640" rendition="Line"
+                        xml:id="r_cartolina_193_6"/>
+                    <!-- distinta signorina -->
+                    <zone ulx="400" uly="46" lrx="565" lry="673" rendition="Line"
+                        xml:id="r_cartolina_193_7"/>
+                    <!-- Antonietta Turtura -->
+                    <zone ulx="532" uly="148" lrx="646" lry="667" rendition="Line"
+                        xml:id="r_cartolina_193_8"/>
+                    <!-- Via Girolamo Rossi 58 -->
+                    <zone ulx="666" uly="55" lrx="808" lry="500" rendition="Line"
+                        xml:id="r_cartolina_193_9"/>
+                    <!-- Ravenna -->
+                </surface>
+            </surfaceGrp>
+        </facsimile>
+
+        <!-- TESTO TERZA CARTOLINA -->
+        <text type="cartolina" xml:id="cartolina_7694_193">
+            <front facs="#f_cartolina_193">
+                <figure>
+                    <head>Raffaello - La Madonna del cardellino</head>
+                    <figDesc>Cartolina raffigurante la Madonna del Cardellino di Raffaello (1506).
+                        Immersi in un prato si trovano la Madonna seduta su una roccia al centro, che
+                        abbraccia affettuosamente San Giovannino, il quale porge a Gesù un
+                        cardellino, simbolo della Passione.</figDesc>
+                    <note>
+                        <p>La cartolina è danneggiata nella parte superiore. Non è visibile parte
+                            del volto della Madonna e la parte superiore del paesaggio.</p>
+                    </note>
+                </figure>
+            </front>
+
+            <body xml:lang="ita">
+                <div type="recto">
+                    <div type="francobolli_timbri">
+                        <p>
+                            <stamp type="postage_stamp" n = "francobollo_1" facs="#h_cartolina_193_2">
+                                <note>Francobollo del Regno d'Italia da 5 centesimi delle Poste
+                                    Italiane con il volto di profilo di Vittorio Emanuele III</note>
+                            </stamp>
+                            <stamp type="postmark" n="timbro_1" facs="#h_cartolina_193_1">
+                                <mentioned>POSTA MILITARE <unclear reason="illegible">INT</unclear>
+                                    3° ARMATA </mentioned>
+                                <date when="2018-1-27">27.1.18</date>
+                                <note> Timbro di partenza al di sopra del francobollo nell'angolo in
+                                    alto a destra, quasi del tutto leggibile, ad eccezione della
+                                    parte inferiore, che risulta invece scolorita. </note>
+                            </stamp>
+                            <stamp type="postmark" n="timbro_2" facs="#h_cartolina_193_4">
+                                <mentioned> SEZIONE PANET<unclear reason="illegible"/>
+                                </mentioned>
+                                <note> Timbro di arrivo in basso a sinistra. Risulta fortemente
+                                    scolorito e in gran parte illeggibile. </note>
+                            </stamp>
+                            <stamp type="postmark" n="timbro_3" facs="#h_cartolina_193_3">
+                                <mentioned> VERIFICATO PER CENSURA </mentioned>
+                                <note xml:id="nota_censura"> Timbro apposto in diagonale nella parte
+                                    centrale della cartolina parzialmente scolorito nella parte
+                                    inferiore ma leggibile. La censura postale venne istituita il 23
+                                    maggio 1915, il giorno prima dell'entrata in guerra contro
+                                    l'Austria-Ungheria. Essa prevedeva di non poter inviare
+                                    cartoline illustrate con paesaggi o panorami di città, oltre al
+                                    non poter usare sistemi criptati di comunicazione. </note>
+                            </stamp>
+                        </p>
+                    </div>
+
+                    <div type="contenuto_trascrizione">
+                        <dateline>
+                            <lb facs="#r_cartolina_193_1"/>
+                                <gap reason="illegible" atMost="8" unit="character"/>
+                                <date when="27-1-918">27-1-918</date>
+                        </dateline>
+                        <ab n="ab_193_01">
+                            <address>
+                                <lb xml:id="addr_193_1" facs="#r_cartolina_193_6"/>
+                                <addrLine>Distinta Signorina</addrLine>
+
+                                <lb xml:id="addr_193_2" facs="r_cartolina_193_7"/>
+                                <addrLine>
+                                    <persName ref="#AT">Antonietta Turtura</persName>
+                                </addrLine>
+
+                                <lb xml:id="addr_193_3" facs="#r_cartolina_193_8"/>
+                                <addrLine>Via Girolamo Rossi 58</addrLine>
+
+                                <lb xml:id="addr_193_4" facs="r_cartolina_193_9"/>
+                                <addrLine>
+                                    <placeName> <hi rend="underline">Ravenna</hi> </placeName>
+                                </addrLine>
+
+                            </address>
+                        </ab>
+
+                        <div type="_cartolina">
+                            <ab n="ab_193_01" xml:id="corpo_cartolina">
+                                <s type="sentence" n="s_01">
+                                    <lb xml:id="riga_messaggio_193_1" n="fr_01" facs="#r_cartolina_193_3"/> Saluti affettuosi 
+                                    <lb xml:id="riga_messaggio_193_2" n="fr_02" facs="#r_cartolina_193_4"/> a voi e famiglia 
+                                </s>
+                            </ab>
+                            <closer>
+                                <lb xml:id="riga_messaggio_193_3" n="fr_03" facs="r_cartolina_193_5"/>
+                                <signed>
+                                    <hi rend="align(right)" xml:id = "firma_3">
+                                    <hi>cugino <persName>Giuseppe</persName></hi>
+                                    </hi>
+                                </signed>
+                            </closer>
+                        </div>
+                    </div>
+                    <div type="stampe_cartolina">
+                        <ab>
+                            <s type="catalog">193</s>
+                            <s>
+                                <orgName>Alfieri &amp; Lacroix, Milano - Editori</orgName> - Propr. riservata. </s>
+                            <s>
+                                Nr.1504 - <persName>RAFFAELLO SANZIO</persName> - La Madonna del cardellino.
+                                   <placeName>Firenze</placeName>, 
+                                   R<gap reason="illegible" atMost="1" unit="character"/>
+                                <placeName>Gallerre degli Uffizi.</placeName>
+                            </s>
+                        </ab>
+                    </div>
+                </div>
+            </body>
+        </text>
+    </TEI>

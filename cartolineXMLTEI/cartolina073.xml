@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="cartolina_7694-073">
+   <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+      <fileDesc>
+         <titleStmt>
+            <title>[Auguri di Natale e Capodanno] - Edizione digitale</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <choice>
+                  <abbr>Unipi</abbr>
+                  <expan instant="false">Università di
+                            <placeName ref="list.xml#PI" instant="false" full="yes">Pisa</placeName>
+                  </expan>
+               </choice>
+            </publisher>
+            <pubPlace ref="list.xml#PI">Pisa</pubPlace>
+            <availability default="false">
+               <p part="N">Available under licence only</p>
+            </availability>
+            <date when="2019" instant="false">2019</date>
+            <distributor>
+               <orgName instant="false" full="yes">
+                  <choice>
+                     <abbr>LabCD</abbr>
+                     <expan instant="false">Laboratorio di Cultura Digitale</expan>
+                  </choice>
+               </orgName>
+            </distributor>
+            <address>
+               <addrLine>Laboratorio di Cultura Digitale - Università di Pisa</addrLine>
+               <addrLine>
+                  <placeName ref="list.xml#PI" instant="false" full="yes">Pisa</placeName>
+               </addrLine>
+            </address>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <bibl default="false" status="draft">
+               <title type="custom" resp="list.xml#ES">[Auguri di Natale e Capodanno]</title>
+            </bibl>
+            <msDesc status="draft"><!-- descrizione del manoscritto -->
+               <msIdentifier><!-- info per identificare il manoscritto -->
+                  <country ref="list.xml#IT">Italia</country>
+                  <settlement ref="list.xml#SP">La Spezia (SP)</settlement>
+                  <!-- collocazione specifica -->
+                  <repository ref="list.xml#MCE">Museo Civico Etnografico "Giovanni Podenzana", Sezione dei cimeli garibaldini e della Prima Guerrra Mondiale</repository>
+                  <!-- codice identificativo -->
+                  <idno type="postcard_id">7694_073_001/002</idno>
+               </msIdentifier>
+               <!-- Informazioni sul contenuto della cartolina -->
+               <!-- DESCRIZIONE -->
+               <msContents>
+                  <summary>Celebrativa</summary>
+                  <textLang>Italiano</textLang>
+               </msContents>
+               <!-- DESCRIZIONE FISICA-->
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType>Celebrativa</objectType>
+                           <!-- MATERIALI -->
+                           <material>Carta</material>
+                           <!-- DIMENSIONE -->
+                           <dimensions unit="cm">
+                              <height>9</height>
+                              <width>14</width>
+                           </dimensions>
+                        </support>
+                        <!-- CONSERVAZIONE -->
+                        <condition>Buono</condition>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc default="false">
+            <correspAction type="sent">
+               <persName ref="list.xml#GC" instant="false" full="yes">Giovanni Coliola</persName>
+               <placeName ref="list.xml#ZO" instant="false" full="yes">
+                  <abbr>Z.O.</abbr>
+                  <expan instant="false">Zona Operazioni</expan>
+               </placeName>
+               <!-- DATA -->
+               <date when="1917-01-06" instant="false">6-1-1917</date>
+            </correspAction>
+         </correspDesc>
+         <textClass default="false">
+            <keywords><!-- soggettario -->
+               <term> Cartolina </term>
+               <!-- tipologia -->
+               <term> Celebrativa  </term>
+               <!-- descrizione -->
+               <term>Auguri di Natale e Capodanno</term>
+            </keywords>
+         </textClass>
+         <langUsage default="false">
+            <language ident="it-IT">italiano</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <facsimile xmlns="http://www.tei-c.org/ns/1.0">
+      <surface xml:id="fronte_postcard_073" type="illustrazione"><!-- fronte cartolina -->
+         <graphic url="img-cartoline/7694-073F.jpg" width="536px" height="838px"/>
+         <!-- soldati dell'armata britannica -->
+         <zone xml:id="SoldatiIng_F73"
+               start="#SoldatiIng-F73"
+               points="5,4,234,6,218,124,172,162,152,202,135,264,129,304,130,342,108,516,2,508"
+               rotate="0"/>
+         <!-- generale dell'armata britannica -->
+         <zone xml:id="GenenaleIng_F73"
+               start="#GeneraleIng-F73"
+               points="169,177,186,132,246,125,243,194,236,208,247,233,247,570,210,596,141,591,110,552,143,280"
+               rotate="0"/>
+         <!-- stretta di mano tra generali-->
+         <zone xml:id="Stretta_mano_F73"
+               start="#Stretta_mano-F73"
+               points="251,269,342,338"
+               rotate="0"/>
+         <!-- generale dell'armata italiana -->
+         <zone xml:id="GeneraleIta_F73"
+               start="#GeneraleIta-F73"
+               points=" 351,278,333,141,372,100,422,122,422,164,464,207,478,266,499,323,512,361,520,392,371,505"
+               rotate="0"/>
+         <!-- soldati italiani -->
+         <zone xml:id="SoldatiIta_F73"
+               start="#SoldatiIta-F73"
+               points=" 426,162,479,5,532,5,533,735,150,735,272,622,366,545,433,480,514,407,514,359,470,227 "
+               rotate="0"/>
+         <!-- gli auguri di Buon Natale e Capodanno-->
+         <zone xml:id="scritta_F73"
+               start="#scritta-F73"
+               points="4,741,533,834"
+               rotate="0"/>
+      </surface>
+      <surface xml:id="retro_postcard_073" type="iscrizioni"><!-- verso della cartolina  -->
+         <graphic url="img-cartoline/7694-073R.jpg" width="816px" height="536px"/>
+         <!-- tipografia -->
+         <!-- armi britanniche -->
+         <zone type="print"
+               xml:id="print_1_73"
+               start="#print-1-73"
+               points="105,49,707,113"
+               rotate="0"/>
+         <!-- voci dei reparti britannici -->
+         <zone type="print"
+               xml:id="print_2_73"
+               start="#print-2-73"
+               points="49,199,387,518"
+               rotate="0"/>
+         <!-- sforzo bellico nel 1914 	-->
+         <zone type="print"
+               xml:id="print_3_73"
+               start="#print-3-73"
+               points="381,180,535,476"
+               rotate="0"/>
+         <!-- sforzo bellico nel 1916 	-->
+         <zone type="print"
+               xml:id="print_4_73"
+               start="#print-4-73"
+               points="522,170,771,470"
+               rotate="0"/>
+         <!-- testo di Giovannino -->
+         <!-- luogo di scrittura cartolina: Zona Operazioni e data-->
+         <zone type="handWriting"
+               xml:id="lineText_1-73"
+               start="#lineText-1-93"
+               points="76,2,531,48"
+               rotate="0"/>
+         <!-- forma di saluto: Affettuosissimi -->
+         <zone type="handWriting"
+               xml:id="lineText_2-73"
+               start="#lineText-2-93"
+               points="82,85,708,166"
+               rotate="0"/>
+         <!-- firma del mittente: Giovannino -->
+         <zone type="handWriting"
+               xml:id="lineText_3-73"
+               start="#lineText-3-93"
+               points="129,276,595,275,620,332,178,387"
+               rotate="0"/>
+         <!-- numero catalogazione-->
+         <zone type="catalog"
+               xml:id="number73_73"
+               start="#number73-73"
+               points="729,3,801,55"
+               rotate="0"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body xmlns="http://www.tei-c.org/ns/1.0">
+         <div type="fronte" part="N" org="uniform" sample="complete">
+            <figure xml:id="illustrazione">
+               <head>
+                  Auguri di Natale e Capodanno
+               </head>
+               <figDesc>L'illustratore della cartolina ha voluto dare una interpretazione artistica di un ideale incontro tra il Comandante delle
+    			Forze Britanniche e quello del Regio Esercito Italiano impegnati al fronte di guerra. L'illustrazione sintetizza i sentimenti di 
+    			fratellanza tra i due alleati, ossia tra i due rispettivi popoli rapprensentati dalle bandiere nazionali.
+ 		      </figDesc>
+            </figure>
+         </div>
+         <div type="retro" part="N" org="uniform" sample="complete">
+            <div type="message" part="N" org="uniform" sample="complete">
+               <opener>
+                  <dateline>
+                     <lb n="1" facs="#lineText_1-73" xml:id="lineText-1-73"/>
+                     <s part="N">
+                        <placeName ref="list.xml#ZO" instant="false" full="yes">Z.O.</placeName> li 
+                                    <date when="1917-01-06" instant="false">6/1.1917</date>
+                     </s>
+                  </dateline>
+               </opener>
+               <div type="postcard-body" part="N" org="uniform" sample="complete">
+                  <p part="N">
+                     <lb n="2" facs="#lineText_2-73" xml:id="lineText-2-73"/>
+                     <choice>
+                        <orig>Affettuosisfimi</orig>
+                        <reg resp="list.xml#LR" cert="high" instant="false">Affettuosissimi</reg>
+                     </choice>
+                  </p>
+               </div>
+               <closer>
+                  <lb n="3" facs="#lineText_3-73" xml:id="lineText-3-73"/>
+                  <signed>
+                     <persName instant="false" full="yes">
+                        <forename ref="list.xml#GC" full="yes">Giovannino</forename>
+                     </persName>
+                  </signed>
+               </closer>
+            </div>
+            <div type="secondamano" part="N" org="uniform" sample="complete">
+               <ab type="paratext" part="N">
+                  <add facs="#number73_73"
+                       xml:id="number73-73"
+                       instant="false"
+                       status="unremarkable">
+                     <num value="73">73</num>
+                  </add>
+               </ab>
+            </div>
+         </div>
+      </body>
+      <back>
+         <div type="linguistic">
+            <ab>
+               <seg lemma="affettuoso">
+                  <w type="form">Affettuosissimi</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+            </ab>
+         </div>
+      </back>
+   </text>
+</TEI>

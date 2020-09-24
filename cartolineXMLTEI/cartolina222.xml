@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="cartolina_7694-222">
+   <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+      <fileDesc>
+         <titleStmt>
+            <title>Dévouement - Edizione digitale</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <choice>
+                  <abbr>Unipi</abbr>
+                  <expan instant="false">Università di
+                            <placeName ref="list.xml#PI" instant="false" full="yes">Pisa</placeName>
+                  </expan>
+               </choice>
+            </publisher>
+            <pubPlace ref="list.xml#PI">Pisa</pubPlace>
+            <availability default="false">
+               <p part="N">Available under licence only</p>
+            </availability>
+            <date when="2019" instant="false">2019</date>
+            <distributor>
+               <orgName ref="list.xml#LCD" instant="false" full="yes">
+                  <choice>
+                     <abbr>LabCD</abbr>
+                     <expan instant="false">Laboratorio di Cultura Digitale</expan>
+                  </choice>
+               </orgName>
+            </distributor>
+            <address>
+               <addrLine>Laboratorio di Cultura Digitale - Università di Pisa</addrLine>
+               <addrLine>
+                  <placeName ref="list.xml#PI" instant="false" full="yes">Pisa</placeName>
+               </addrLine>
+            </address>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <bibl default="false" status="draft">
+               <title>Dévouement</title>
+               <author ref="list.xml#HT">Henry Tenré</author>
+               <publisher>
+                  <orgName ref="list.xml#IL" instant="false" full="yes">I. Lapina</orgName>
+               </publisher>
+               <pubPlace ref="list.xml#PA">Parigi</pubPlace>
+               <date when="1917" instant="false">1917</date>
+            </bibl>
+            <msDesc status="draft"><!-- descrizione del manoscritto -->
+               <msIdentifier><!-- info per identificare il manoscritto -->
+                  <country ref="list.xml#IT">Italia</country>
+                  <settlement ref="list.xml#SP">La Spezia (SP)</settlement>
+                  <!-- collocazione specifica -->
+                  <repository ref="list.xml#MCE">Museo Civico Etnografico "Giovanni Podenzana", Sezione dei cimeli garibaldini e della Prima Guerrra Mondiale</repository>
+                  <!-- codice identificativo -->
+                  <idno type="postcard_id">7694_222_001/002</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Cartolina Artistica</summary>
+                  <textLang>Italiano</textLang>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType>Cartolina</objectType>
+                           <material>Carta</material>
+                           <dimensions unit="cm">
+                              <height>9</height>
+                              <width>14</width>
+                           </dimensions>
+                           <stamp>francobollo - Regno d'Italia</stamp>
+                        </support>
+                        <condition>Discreto</condition>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc default="false">
+            <correspAction type="sent">
+               <persName ref="list.xml#L" instant="false" full="yes">Luigia</persName>
+               <date type="writing" when="1917-12-22" instant="false">1917/12/22</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="list.xml#LG" instant="false" full="yes">Luigi Castaldo</persName>
+               <placeName ref="list.xml#MO" instant="false" full="yes">Modena</placeName>
+            </correspAction>
+         </correspDesc>
+         <textClass default="false">
+            <keywords scheme="">
+               <term>Cartolina </term>
+               <term>Cartolina Artistica </term>
+               <term>Donna della Croce Rossa</term>
+            </keywords>
+         </textClass>
+         <langUsage default="false">
+            <language ident="it-IT">italiano</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <front xmlns="http://www.tei-c.org/ns/1.0"><!-- testo tipografico -->
+         <div type="tipografia" part="N" org="uniform" sample="complete">
+            <p part="N">
+               <s rend="writing-mode(vertical-lr) text-orientation(sideways)" part="N">
+                  <persName ref="list.xml#EF" type="author" instant="false" full="yes">
+                                H. TENRE. Devouement.
+                                          Devotedness.
+                                </persName>
+               </s>
+            </p>
+            <p part="N">
+               <s rend="writing-mode(vertical-lr) text-orientation(sideways)" part="N">
+                                PRINTED IN PARIS - I. LAPINA
+                        </s>
+            </p>
+         </div>
+      </front>
+      <body xmlns="http://www.tei-c.org/ns/1.0">
+         <div facs="img-cartoline/7694-222F.jpg"
+              type="fronte"
+              part="N"
+              org="uniform"
+              sample="complete">
+            <figure>
+               <graphic url="img-cartoline/7694-222F.jpg"/>
+               <figDesc>Crocerossina guarda all'orizzonte</figDesc>
+               <head>Dévouement di Henry Tenre</head>
+            </figure>
+            <div type="message" part="N">
+                <p>
+                    <lb n="1"/>
+                    Ti ricordi?
+                </p>
+            </div>
+         </div>
+         <div type="retro" part="N" org="uniform" sample="complete">
+            <div type="message" part="N" org="uniform" sample="complete">
+               <opener>
+                  <dateline>
+                     <lb n="2"/>
+                     <s part="N">
+                        <date when="1917-11-22" instant="false">22/<subst instant="false" status="unremarkable">
+                              <add instant="false" status="unremarkable">11</add>
+                              <del instant="false" status="unremarkable">12</del>
+                           </subst> 17</date>
+                     </s>
+                  </dateline>
+               </opener>
+               <div type="postcard-body" part="N" org="uniform" sample="complete">
+                  <p part="N">
+                     <lb n="3"/>
+                        Saluti 
+                    </p>
+               </div>
+               <closer>
+                  <lb n="4"/>
+                  <signed>
+                     <persName instant="false" full="yes">
+                        <forename ref="list.xml#L" full="yes">Luigia</forename>
+                     </persName>
+                  </signed>
+               </closer>
+            </div>
+            <div type="address-destination"
+                 part="N"
+                 org="uniform"
+                 sample="complete">
+               <p part="N">
+                  <address>
+                     <addrLine>
+                        <lb n="5"/>
+                            Tenente
+                            <lb n="6"/>
+                            Gastaldo Sig. Luigi
+                            <lb n="7"/>
+                            Uff.cio <gap reason="illegible" instant="false"/>
+                        <lb n="8"/>
+                            36a Fanteria
+                            <lb n="9"/>
+                            Modena
+                        </addrLine>
+                  </address>
+               </p>
+            </div>
+            <div type="postmark-postage"
+                 part="N"
+                 org="uniform"
+                 sample="complete">
+               <ab part="N">
+                  <stamp type="postmark">
+                     <date when="1917-12-22" instant="false">1917/12/22</date>
+                  </stamp>
+                  <stamp type="postage">Francobollo da 5 centesimi di Poste Italiane</stamp>
+               </ab>
+            </div>
+            <div type="secondamano" part="N" org="uniform" sample="complete">
+               <ab type="paratext" part="N">
+                  <add cert="medium" instant="false" status="unremarkable">
+                     <num type="cardinal" value="222">
+                                    222
+                                </num>
+                  </add>
+               </ab>
+            </div>
+         </div>
+      </body>
+      <back>
+         <div type="linguistic">
+            <ab>
+               <seg lemma="salutare">
+                  <w type="form">Saluti</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+            </ab>
+         </div>
+      </back>
+   </text>
+</TEI>

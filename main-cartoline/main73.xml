@@ -1,0 +1,396 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cartolina_7694-073">
+	<teiHeader xml:lang="it">
+		<fileDesc>
+			<titleStmt>
+				<!-- TITOLO -->
+				<title>Auguri di Natale e Capodanno - Edizione digitale <idno>7694_073_001/002</idno></title>
+				<author></author>
+				<!-- TRASCRITTORE -->
+				
+				<respStmt>
+					<resp>Trascrizione di:</resp>
+					<name xml:id="gmc1"><persName>Gennaro Mauro Colonna, matr. 550463 </persName>e <persName>Justin Elom Akumah, matr. 543741</persName></name>
+				</respStmt>
+				<!-- ENTE DI APPARTENENZA -->
+				<respStmt>
+					<resp>Ente di Appartenenza</resp>
+					<name type="comune" xml:id="SP2">Comune di <placeName>La Spezia</placeName></name>
+				</respStmt>
+  			</titleStmt>
+  			<editionStmt>
+				<edition>Edizione Studenti Unipi  <!-- COMPILAZIONE -->
+					<date>2018</date>
+				</edition>
+				<!-- NOME COMPILATORE -->
+				<respStmt>
+					<resp xml:id="compilato">Compilato da:</resp>
+					<name xml:id="TC"><persName>Tommaso Castagneto</persName></name>
+				</respStmt>
+				<!-- NOME CODIFICATORE -->
+				<respStmt>
+					<resp xml:id="codificato">Codificato da:</resp>
+					<name xml:id="gmc2"><persName>Gennaro Mauro Colonna </persName>e</name>
+					<name xml:id="jea2"><persName>Justin Elom Akumah</persName></name>
+				</respStmt>
+				<!-- REFERENTE SCIENTIFICO -->
+				<respStmt>
+					<resp xml:id="refAccad">Referente Accademico:</resp>
+					<name xml:id="AMDG"><persName>Angelo Mario Del Grosso</persName></name>
+				</respStmt>
+				<respStmt>
+					<resp xml:id="refScien">Referenti Scientifici:</resp>
+					<name xml:id="GP"><persName>Giacomo Paolicchi</persName></name>
+					<name xml:id="ES"><persName>Enrica Salvatori</persName></name>
+				</respStmt>
+				<respStmt>
+					<resp xml:id="funzResp">Funzionario responsabile:</resp>
+					<name xml:id="ER"><persName>E. Ratti</persName></name>
+				</respStmt>
+			</editionStmt>
+  			<publicationStmt>
+				<publisher xml:id="editore"><orgName>Unipi</orgName></publisher>
+				<pubPlace>Pisa</pubPlace>
+				<availability>
+					<p xml:id="licenza">Available under licence only</p>
+				</availability>
+				<date when="2019">2019</date>
+				<distributor><name ref="http://www.labcd.unipi.it/">LabCD</name>
+				<graphic url="images/Unipi-Labcd_Blu.png"/>
+				</distributor>
+				<address>
+					<addrLine xml:id="dipartimento"><name ref="http://www.fileli.unipi.it">Dipartimento di Filologia, Letteratura, Linguistica</name></addrLine>
+ 					<street>Piazza Torricelli, 2 (Palazzo Matteucci)</street>
+ 					<postCode>56126</postCode>
+ 					<name xml:id="citta"><placeName>Pisa</placeName></name>
+ 					<name xml:id="nazione"><country>Italy</country></name>
+				</address>
+			</publicationStmt>
+			<!-- NOTE -->
+			<notesStmt>
+				<note xml:id="derivazione">
+					<p>Sul fronte “La lega Italo-Britannica, in nome del popolo inglese, invia saluti ed auguri per Natale e capo d'Anno 
+					ai valorosi soldati italiani combattenti sulle Alpi, sull'Isonzo e sul Carso.”
+					Sul retro “Armi Britanniche 1914 1916  Esercito della Gran Bretagna 275,000 5,000,000 Esercito Coloniale ___  più di 1,000,000  Marina 146,00 350,000  Lavorati delle industrie militari 1,986,000 3,500,000” (il primo dato numerico si riferisce al 1914 ed al 1916 il secondo)</p> </note>
+			</notesStmt>
+			<sourceDesc>
+   			<bibl>
+    				<title level="m">[Auguri di Natale e Capodanno]</title>
+		         
+					<!-- PRODUZIONE -->
+					<publisher xml:id="sco"><add>sconosciuto</add></publisher>
+					<!-- LUOGO -->
+					<pubPlace><add>sconosciuto</add></pubPlace>
+					<!-- CRONOLOGIA -->
+					<date><add>non definibile</add></date>
+    				
+    				<idno>7694_073_001/002</idno>
+    				<note>numero assegnato nella collezione</note>
+   			</bibl>
+				<msDesc>
+				<!-- COLLOCAZIONE SPECIFICA -->
+				<!-- CODICE IDENTIFICATIVO -->
+					<msIdentifier>
+						<country>Italia</country>
+						<settlement>La Spezia (SP)</settlement>
+						<!-- COLLOCAZIONE SPECIFICA -->
+						<repository>Museo Civico Etnografico "Giovanni Podenzana", Sezione dei cimeli garibaldini e della Prima Guerrra Mondiale</repository>
+						<!-- CODICE IDENTIFICATIVO -->
+						<idno>7694_073_001/002</idno>
+					
+						<!-- TITOLO -->
+						<msName>Auguri di Natale e Capodanno</msName>
+					</msIdentifier>
+
+					<!-- Informazioni sul contenuto della cartolina -->
+					<!-- DESCRIZIONE -->
+					<msContents>
+						<summary>Celebrativa</summary>
+						<textLang>Italiano</textLang>
+					</msContents>						
+
+					<!-- DESCRIZIONE FISICA-->
+					<physDesc>
+						<objectDesc>
+							<supportDesc>
+								<support>
+									<objectType>Celebrativa</objectType>
+									<!-- MATERIALI -->
+									<material>Carta</material>
+									<!-- DIMENSIONE -->
+									<dimensions unit="cm">
+										<height>14 x </height>
+										<width>9 cm</width>
+									</dimensions>
+									<dimensions type="cartolina">
+										<height quantity="15" unit="cm"/>
+										<width quantity="9"/>
+									</dimensions>
+									<stamp><note>Cartolina non affrancabile</note></stamp>
+									<watermark>
+									<name ref="popup/fronte-073.html">Il fronte della cartolina</name>, soggetto principale, è una interpretazione artistica dell'incontro tra il Comandante delle <name ref="https://it.wikipedia.org/wiki/British_Army">Forze Britanniche</name> e il Capo del <name ref="https://it.wikipedia.org/wiki/Regio_Esercito">Regio Esercito Italiano</name>
+									</watermark>
+									<p>Nella parte inferiore è riportata una scritta celebrativa:</p>
+										<quote>
+									   	<emph>La Lega Italo-Britannica in nome del popolo inglese, invia saluti ed auguri per Natale e 
+									   	Capo d'Anno ai valorosi soldati italiani combattenti sulle Alpi, sull'Isonzo e sul Carso.</emph>
+									   </quote>
+										<p><name ref="popup/retro-073.html">Il retro della cartolina</name> presenta tre livelli:</p>
+										<watermark>Un primo livello di fattura editoriale, un secondo livello redatto dal mittente della cartolina e un terzo livello 
+										ad opera di una terza mano</watermark>
+										<watermark>Al primo livello è riportata un tabella riepilogativa delle Armi Britanniche</watermark>
+   									<watermark>Al secondo livello è riportato il saluto e la firma del mittente</watermark>
+   									<quote>
+   										<abbr> Z.O.<expan>Zona Operazioni</expan></abbr>
+   										<p> Affettuosissimi</p>
+   										<p>Giovannino</p>
+   									</quote>
+   								<ab facs="numero identificativo" type="mano di terza persona">
+										<num type="cardinal" value="73">73</num>
+										<desc>Annotazione a mano del numero assegnato nella collezione da parte di terzi</desc>
+            					</ab>
+								</support>
+								<!-- CONSERVAZIONE -->
+								<condition>Buono</condition>
+							</supportDesc>
+						</objectDesc>
+					</physDesc>
+					<history>
+						<summary>
+							<p>La <name ref="https://it.wikipedia.org/wiki/Prima_guerra_mondiale">prima guerra mondiale</name> fu un conflitto armato che coinvolse le principali potenze mondiali 
+ 						  	e molte di quelle minori tra il luglio del 1914 e il novembre del 1918. Chiamata inizialmente dai contemporanei "guerra europea", 
+ 						  	vide il coinvolgimento successivo delle colonie dell'Impero britannico e di altri paesi extraeuropei tra cui gli Stati Uniti d'America 
+ 						  	</p>
+ 						  		<ref target="https://it.wikipedia.org/wiki/Prima_guerra_mondiale"/>
+ 						</summary>
+					</history>
+					<!-- TIPOLOGIA -->
+					<additional>
+						<adminInfo>
+							<note type="tabCartoline">Sul fronte della cartolina “La lega Italo-Britannica, in nome del popolo inglese, invia saluti ed auguri per Natale e capo d'Anno 
+							ai valorosi soldati italiani combattenti sulle Alpi, sull'Isonzo e sul Carso.” Sul retro la tabella “Armi Britanniche 1914 1916  Esercito della Gran Bretagna 
+							275,000 5,000,000 Esercito Coloniale ___  più di 1,000,000  Marina 146,00 350,000  Lavorati delle industrie militari 1,986,000 3,500,000” 
+							(il primo dato numerico si riferisce al 1914 ed al 1916 il secondo)</note>
+						</adminInfo>
+					</additional>
+				</msDesc>
+				<!-- NOMI -->
+				<listPerson>
+				   <person xml:id="mittente">
+						<persName>
+							<forename>Giovannino</forename>  
+							<surname></surname>
+						</persName>
+						<sex value="F">Maschio</sex>
+						<occupation n="1">Soldato</occupation>
+						<note>Mittente della cartolina</note>
+					</person>
+				</listPerson>
+				<listPlace>
+						<place xml:id="spedizione">
+							<placeName>Zona delle Operazione<abbr>Z.O.</abbr></placeName>
+							<settlement type="indirizzo">Assente</settlement>
+							<district type="city"></district>
+							<district type="city"></district>
+							<note>La cartolina, scritta presumibilmente nella  Zona di Operazioni del <name ref="https://it.wikipedia.org/wiki/Fronte_italiano_(1915-1918)">fronte di guerra</name>, non ha segni di spedizione postale </note>
+						</place>
+				</listPlace>
+				<listOrg>
+					<org xml:id="MESP">
+ 						<name ref="http://etnografico.museilaspezia.it/">Museo Civico Etnografico di La Spezia</name>
+ 							<desc>Sezione dei cimeli garibaldini e della Prima Guerrra Mondiale<name>"Giovanni Podenzana"</name>
+ 							</desc>
+ 					</org>
+				</listOrg>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<correspDesc>
+				<correspAction type="sent">
+					<persName ref="#mittente">Giovannino</persName>
+					<placeName>
+						<abbr >Z.O.</abbr>
+						<expan>Zona Operazioni</expan>
+					</placeName>
+				<!-- DATA -->
+					<date when="1917-01-06">6-1-1917</date>
+				</correspAction>
+				
+				<correspContext>
+					<p>Affettuosissimi</p>
+					<p>Giovannino</p>
+				</correspContext>
+			</correspDesc>
+			<textClass>
+				<keywords scheme="">
+					<!-- soggettario -->
+					<term> Cartolina </term>
+					<!-- tipologia -->
+					<term> Celebrativa  </term>
+					<!-- descrizione -->
+					<term>Auguri di Natale e Capodanno</term>
+				</keywords>
+			</textClass>
+			<langUsage>
+				<language ident="it-IT">italiano</language>
+			</langUsage>
+		</profileDesc>
+	</teiHeader>
+	<!-- DEFINIZIONE -->
+		<text type="cartolina">
+		<!-- TRASCRIZIONE -->
+ 			<body>
+  				
+  				<div type="fronte">
+   				<figure xml:id="illustrazione">
+    					
+      						<head><name ref="popup/fronte-073.html">Auguri di Natale e Capodanno</name></head>
+    							<figDesc>L'illustratore della cartolina ha voluto dare una interpretazione artistica di un ideale incontro tra il Comandante delle
+    							 Forze Britanniche e quello del Regio Esercito Italiano impegnati al fronte di guerra. L'illustrazione sintetizza i sentimenti di 
+    							 fratellanza tra i due alleati, ossia tra i due rispettivi popoli rapprensentati dalle bandiere nazionali.
+ 						   	</figDesc> 
+ 						   	<quote>
+										<emph rend="italic">"La Lega Italo-Britannica in nome del popolo inglese, invia saluti ed auguri per Natale e 
+									   	Capo d'Anno ai valorosi soldati italiani combattenti sulle Alpi, sull'Isonzo e sul Carso.</emph>
+								</quote>
+   				</figure>
+  				</div>
+  				<div type="retro">
+  					<figure xml:id="iscrizioni">
+    					
+    						<head>Armi Britanniche</head>
+								<figDesc><name ref="popup/retro-073.html">Il retro della cartolina</name> anziché le usuali due zone (per la componente messaggio e la componente indirizzo),
+    										riporta una tabella che riepiloga lo sforzo bellico della Gran Bretagna sul fronte italiano della prima guerra mondiale.
+    										Un secondol livello del retro del mansocritto contiene il messaggio del mittente <emph rend="italic">"Affettuosissimi"</emph>
+    										e la firma<persName>Giovannino</persName>.
+    										Un terzo livello è da attribuire a una terza mano che ha annotato il numero assegnato alla cartolina nel corpus cartoline
+ 						   	</figDesc>
+ 				   </figure>
+ 				   
+ 				   <div type="tabella" xml:lang="it">
+ 							
+       			<table rows="5" cols="3">
+ 						<head>Distinta delle forze impiegate dalla Gran Bretagna sul fronte italiano</head>
+ 							<row role="label">
+  								<cell role="data">Tipo di forze impiegate</cell>
+  								<cell role="data">1914</cell>
+  								<cell role="data">1916</cell>
+ 							</row>
+ 							<row role="data">
+ 								<cell role="data">Esercito della Gran Bretagna</cell>
+  								<cell role="data">275.000</cell>
+  								<cell role="data">5.000.000</cell>
+ 							</row>
+ 							<row role="data">
+ 								<cell role="data">Esercito Coloniale</cell>
+ 								<cell role="data">-</cell>
+ 								<cell role="data">più di 1.000.000</cell>
+ 							</row>
+ 							<row role="data">
+  								<cell role="data">Marina</cell>
+  								<cell role="data">146.000</cell>
+  								<cell role="data">350.000</cell>
+ 							</row>
+ 							<row role="data">
+  								<cell role="data">Lavorati delle industrie militari</cell>
+  								<cell role="data">1.986.000</cell>
+  								<cell role="data">3.500.000</cell>
+ 							</row>
+					</table>
+ 							
+ 				</div>
+				<!-- dentro il div di sotto la componente dell'editor ossia la tabella -->
+			 	<div type="messaggio" xml:lang="it">
+ 					<p>Luogo e data:
+  						<placeName><abbr>Z.O.</abbr><expan>Zona Operazioni</expan></placeName>
+  						<date when="1917-01-06">6- <num type="cardinal" value="1">1</num>-1917</date>
+ 					</p>
+ 					<p>Affettuosissimi</p>
+ 					<signed>Giovannino</signed>
+ 				</div>
+ 				<div type="terzaMano">
+ 					<ab facs="nota a mano" type="numero">
+ 					<note type="annotazione" place="margine">
+ 					<num value="73">73</num>
+ 					<desc>Annotazione manuale del numero 73 da parte di una terza mano</desc>
+ 					</note>
+ 					</ab>
+ 				</div>
+			</div>
+ 	</body>
+	</text>
+	<facsimile>
+		
+  		
+  		<surface xml:id="fronte" type="illustrazione">
+  		
+			<!-- fronte cartolina -->
+			<graphic url="images/7694-073F_map.png" width="536px" height="838px"/>
+			
+			<!-- area del soggetto della cartolina -->
+								
+					<!-- soldati dell'armata britannica --> 
+					<zone xml:id="Soldati_inglesi" points="5,4,234,6,218,124,172,162,152,202,135,264,129,304,130,342,108,516,2,508"/>
+					
+					<!-- generale dell'armata britannica --> 
+					<zone xml:id="Genenale_inglese" points="169,177,186,132,246,125,243,194,236,208,247,233,247,570,210,596,141,591,110,552,143,280"/>
+					
+					
+					<!-- stretta di mano tra generali-->
+					<zone xml:id="Stretta_mano_Generali" points="251,269,342,338"/>
+					
+					<!-- generale dell'armata italiana --> 
+					<zone xml:id="Generale_italiano" points= " 351,278,333,141,372,100,422,122,422,164,464,207,478,266,499,323,512,361,520,392,371,505"/>
+					
+					<!-- soldati italiani -->
+					<zone xml:id="soldati_italiani_alpini" points= " 426,162,479,5,532,5,533,735,150,735,272,622,366,545,433,480,514,407,514,359,470,227 "/>
+										
+					<!-- gli auguri di Buon Natale e Capodanno		-->
+					<zone xml:id="auguriBuonNataleCapodanno" points="4,741,533,834"/>
+								
+					<!-- firma dell'autore grafico		-->
+					<zone xml:id="firma_illeggibile" points="3,714,90,735"/>
+								
+			
+			</surface>
+		
+		
+			<surface xml:id="retro" type="iscrizioni">
+			<!-- verso della cartolina  -->
+				<graphic url='images/7694-073R_map.png' width='816px' height='536px'/>
+				
+				<!-- LIVELLO 1 o tipografico -->
+					<!-- armi britanniche -->
+					<zone xml:id="Armi_Britanniche" points="105,49,707,113"/>
+					
+					<!-- voci dei reparti britannici 		-->
+					<zone xml:id="Reparti_partecipanti" points="49,199,387,518"/>
+													
+					<!-- sforzo bellico nel 1914 	-->
+					<zone xml:id="sforzo_bellico_1914" points="381,180,535,476"/>
+										
+					<!-- sforzo bellico nel 1916 	-->
+					<zone xml:id="sforzo_bellico_1916" points="522,170,771,470"/>
+					
+					
+					<!-- LIVELLO 2 autografo di Giovannino -->
+					
+					<!-- luogo di scrittura cartolina: Zona Operazioni e data-->
+					<zone xml:id="Zona_Operazioni-Data" points="76,2,531,48"/>
+					
+					<!-- forma di saluto: Affettuosissimi -->
+					<zone xml:id="forma_di_saluto-Affettuosissimi" points="82,85,708,166"/>
+					
+					
+					<zone xml:id="firma_mittente_Giovannino" points= "129,276,595,275,620,332,178,387"/>
+					<!-- firma del mittente: Giovannino -->
+						
+					
+					<!-- LIVELLO 3 di mano terza -->
+					<!-- numero assegnato alla cartolina scritto da mano terza 	-->
+					<zone xml:id="numero_assegnato_alla_cartolina_scritto_da_mano_terza" points="729,3,801,55"/>
+			
+		</surface>
+		
+	</facsimile>
+</TEI>

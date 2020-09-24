@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+  <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cartolina_7694-151">
+    <teiHeader>
+        <fileDesc>
+          <titleStmt>
+            <title type="t1">Donna con lettera e amorino</title>
+            <respStmt>
+                <resp>Trascrizione a cura di:</resp>
+                <name xml:id="VP">Vincenzo Pipitone</name>
+                <name xml:id="FC">Fabio Cosentino</name>
+                <name xml:id="AC">Alessio Califano</name>
+            </respStmt>
+            <respStmt>
+                <resp>Ente di Appartenenza:</resp>
+                <name type="comune" xml:id="SP">Comune della Spezia</name>
+            </respStmt>
+          </titleStmt>
+
+          <editionStmt>
+          <edition>Studenti di Codifica di Testi, Corso di Laurea in Informatica Umanistica, <orgName ref="#UNIPI"> Università di Pisa  </orgName>
+               <!-- COMPILAZIONE -->
+            <date when="2019">2019</date>
+          </edition>
+
+            <!-- NOME COMPILATORE -->
+          <respStmt>
+                <resp>Codificato da:</resp>
+                <name ref="#TC">Tommaso Castagneto</name>
+          </respStmt>
+
+            <!-- REFERENTE SCIENTIFICO sempre Nome Cognome, XY2 è sempre Tommaso Castagneto, XZ1 è chi interviene sulla schedatura già fatta per correzioni e aggiunte-->
+          <respStmt>
+              <resp>Compilato da:</resp>
+              <name xml:id="TC">Tommaso Castagneto</name>
+          </respStmt>
+
+          <respStmt>
+                <resp>Responsabile scientifico:</resp>
+                <name xml:id="GP">Giacomo Paolicchi</name>
+                <name xml:id="ES">Enrica Salvatori</name>
+          </respStmt>
+
+          <respStmt>
+              <resp>Funzionario responsabile:</resp>
+              <name xml:id="ER">E. Ratti</name>
+          </respStmt>
+       </editionStmt>
+
+         <publicationStmt>
+                <publisher>Unipi</publisher>
+                <pubPlace>Pisa</pubPlace>
+                <availability>
+                    <p>Available under licence only</p>
+                </availability>
+                <date when="2019">2019</date>
+                <distributor>LabCD</distributor>
+                <address>
+                    <addrLine>Laboratorio di Cultura Digitale - Università di Pisa</addrLine>
+                    <addrLine>Pisa</addrLine>
+                </address>
+        </publicationStmt>
+            <notesStmt>
+                <note>Non è presente la data di stampa della cartolina.</note>
+                <note>Dal contenuto della cartolina non è possibile reperire alcune informazioni personali sul Mittente, come ad esempio il cognome.</note>
+                <note>Non è presente l'informazione sull'editore ed il luogo di stampa.</note>
+
+            </notesStmt>
+
+            <sourceDesc>
+                <bibl>
+                    <title type="custom" resp="#ES">[Donna con lettera e amorino]</title>
+                </bibl>
+                <msDesc>
+                    <msIdentifier>
+                        <country>Italia</country>
+                        <settlement>Modena (MO)</settlement>
+                        <repository>Museo Civico Etnografico "Giovanni Podenzana", Sezione dei cimeli garibaldini e della Prima Guerrra Mondiale</repository>
+                        <idno>7694_151_001/002</idno>
+                    </msIdentifier>
+
+                    <msContents>
+                        <summary>Cartolina Artistica</summary>
+                        <textLang>Italiano</textLang>
+                    </msContents>
+
+
+
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+
+                              <support>
+                                    <objectType>Cartolina</objectType>
+                                    <material>Carta</material>
+                                    <dimensions unit="cm">
+                                        <height>9</height>
+                                        <width>14</width>
+                                    </dimensions>
+                                    <stamp type="postage"> Francobollo - Regno d'Italia </stamp>
+                                    <stamp type="postmark">Timbro della Ferrovia di Modena </stamp>
+                                </support>
+
+                                <condition>Buono</condition>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+
+                </msDesc>
+
+                <listPerson>
+                    <person>
+                        <persName ref="#GC">
+                            <forename>Giovanni</forename>
+                        </persName>
+                        <sex>M</sex>
+                    </person>
+                    <person>
+                        <persName ref="#OT">
+                            <forename>Oliva</forename>
+                            <surname>Turtura</surname>
+                        </persName>
+                        <sex>F</sex>
+                    </person>
+                </listPerson>
+
+                <listPlace>
+                    <place>
+                        <placeName ref="MO">Modena</placeName>
+                        <settlement type="località">città</settlement>
+                        <district type="comune">Modena</district>
+                        <district type="provincia">MO</district>
+                        <country key="N">IT</country>
+                    </place>
+                    <place>
+                        <placeName ref="RV">Ravenna</placeName>
+                        <settlement type="località">città</settlement>
+                        <district type="comune">Ravenna</district>
+                        <district type="provincia">RV</district>
+                        <country key="N">IT</country>
+                    </place>
+                </listPlace>
+
+            </sourceDesc>
+        </fileDesc>
+
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#GC">Giovanni</persName>
+                    <placeName ref="#MO">Modena</placeName>
+                    <date type="writing" when="1917-09-01">1917/09/01</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#OT">Oliva</persName>
+                    <placeName ref="#RV">Ravenna</placeName>
+                </correspAction>
+            </correspDesc>
+
+            <textClass>
+                <keywords>
+
+                    <term>Cartolina </term>
+                    <term>Cartolina Artistica </term>
+                    <term>Una donna si avvicina ad un amorino che stringe una lettera</term>
+                </keywords>
+            </textClass>
+
+            <langUsage>
+                <language ident="it-IT">italiano</language>
+            </langUsage>
+        </profileDesc>
+
+        <encodingDesc>
+            <editorialDecl>
+                <interpretation>
+                  <p>
+                      <list>
+                        <item>
+                            <choice ref="#li">
+                                <orig type="orig"> li </orig>
+                                <reg type="inter"> il </reg>
+                            </choice>
+                        </item>
+                        <item>
+                            <choice ref="#Num">
+                                <expan type="inter">Numero</expan>
+                                <abbr type="orig"> N.</abbr>
+                            </choice>
+                        </item>
+                        <item>
+                            <choice ref="#gent">
+                                <expan type="inter"> Gentile </expan>
+                                <abbr type="orig"> Gent </abbr>
+                            </choice>
+                        </item>
+                        <item>
+                            <choice ref="#signa">
+                                <expan type="inter"> Signorina </expan>
+                                <abbr type="orig"> sig na </abbr>
+                            </choice>
+                        </item>
+                      </list>
+                  </p>
+              </interpretation>
+          </editorialDecl>
+      </encodingDesc>
+
+    </teiHeader>
+
+
+    <text type="cartolina" xml:id="cartolina151">
+        <body>
+            <div facs="#fronte151" type="fronte" xml:id="frontedesc151">
+                <figure>
+                    <figDesc>Il fronte ritrae una donna che sorregge con una mano un bambino in piedi su un tavolo che tiene in mano una carta da gioco.
+                    Lo sfondo non presenta grandi particolarità eccetto dei rampicanti sulla parte superiore. In basso a sinistra è presente una firma illegibile, presumibilmente dell'autore.</figDesc>
+                    <head>[Donna con lettera e amorino]</head>
+                </figure>
+            </div>
+            <div facs="#retro151" type="retro">
+                <div xml:id="id151" type="ccl">
+                  <p>
+                      <num>
+                          <idno> 151 </idno>
+                      </num>
+                  </p>
+                </div>
+                <div type="message">
+
+                  <div xml:id="opener151" type="ccl">
+                      <dateline>
+                          <placeName ref="#MO">Modena </placeName>,
+                          <distinct>li <ptr target="#li"/> </distinct>
+                          <date when="1917-09-01">1/9-17</date>
+                      </dateline>
+                   </div>
+
+                   <div xml:id="mainTextmessage151" type="ccl">
+                     <salute>
+                         <s>
+                           <lb/>Saluti affettuosi a tutti
+                         </s>
+                     </salute>
+                        <signed>
+                         <s>
+                          <lb/><persName ref="#GC"><forename type="vezzeggiativo">Giovannino</forename></persName>
+                         </s>
+                       </signed>
+                   </div>
+
+                   <div type="destination">
+                       <div xml:id="francobollo151" type="ccl">
+
+                         <p><lb/>
+                           <stamp type="postmark">
+                               <mentioned> <placeName ref="#MO"> MODENA </placeName> <unclear reason="damaged"> FERROVIA </unclear> </mentioned>
+                               <date when="1917">01.09. <unclear reason="damaged"> 17 </unclear></date>
+                           </stamp>
+                           <stamp type="postage">francobollo da 5 centesimi del Regno d'Italia</stamp>
+                       </p>
+
+                     </div>
+
+                      <div>
+
+                       <p><lb/>
+                           <address xml:id="address151" type="ccl">
+                               <addrLine>
+                                   <abbr type="titolo">Gent <ptr target="#gent"/></abbr>
+                                   <abbr type="titolo">sig na <ptr target="#signa"/></abbr>
+                               </addrLine>
+
+                               <addrLine>
+                                   <persName ref="#OT">
+                                       <forename> Oliva </forename>
+                                       <surname> Turtura</surname>
+                                   </persName>
+                               </addrLine>
+
+                               <addrLine>Via
+                                   <persName ref="#GR">
+                                       <forename> Girolamo </forename>
+                                       <surname>Rossi </surname>
+                                   </persName>
+                                   <num> 58 </num>
+                               </addrLine>
+
+                               <addrLine>
+                                   <placeName ref="#RV">Ravenna</placeName>
+                               </addrLine>
+
+
+                           </address>
+                       </p>
+                      </div>
+                   </div>
+
+
+                 </div>
+                 <div xml:id="printedLines151">
+                   <p xml:id="visto151" type="ccl">
+                     <lb/>Visto revisione Stampa - <abbr>N.<ptr target="#Num"/></abbr><num>1404</num> - <placeName xml:id="MI">Milano</placeName>
+                   </p>
+                   <p rend="vertical" xml:id="propr151" type="ccl">
+                     <lb/>Proprietà Artistica riservata - <abbr>N.<ptr target="#Num"/></abbr><num>2053</num> - <num>2</num>
+                   </p>
+                 </div>
+            </div>
+        </body>
+    </text>
+
+    <facsimile>
+
+        <surface xml:id="fronte151" type="fimg">
+            <graphic  url='./7694-151/7694-151F.jpg' />
+        </surface>
+
+
+        <surface xml:id="retro151" type="rimg">
+            <graphic url='./7694-151/7694-151R.jpg'  />
+            <zone xml:id="cfrancobollo151" ulx="471" uly="22" lrx="589" lry="138" />
+            <zone xml:id="cid151" ulx="368" uly="66" lrx="413" lry="99" />
+            <zone xml:id="caddress151" ulx="306" uly="156" lrx="580" lry="358" />
+            <zone xml:id="cintro151" ulx="240" uly="38" lrx="270" lry="299" />
+            <zone xml:id="ctesto151" ulx="76" uly="39" lrx="220" lry="302" />
+            <zone xml:id="cvisto151" ulx="56" uly="360" lrx="233" lry="379" />
+            <zone xml:id="cpro151" ulx="6" uly="97" lrx="27" lry="300" />
+
+        </surface>
+
+
+    </facsimile>
+</TEI>

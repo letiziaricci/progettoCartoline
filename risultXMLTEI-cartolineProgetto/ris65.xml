@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI SYSTEM 'myTEI.dtd'>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cartolina_7694-065">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>La balancoire improvisee - Edizione digitale</title>
+         </titleStmt>
+         <publicationStmt xmlns="http://www.tei-c.org/ns/1.0">
+            <publisher>
+               <choice>
+                  <abbr>Unipi</abbr>
+                  <expan>Università di
+                            <placeName ref="list.xml#PI">Pisa</placeName>
+                  </expan>
+               </choice>
+            </publisher>
+            <pubPlace ref="list.xml#PI">Pisa</pubPlace>
+            <availability>
+               <p>Available under licence only</p>
+            </availability>
+            <date when="2019">2019</date>
+            <distributor>
+               <orgName ref="list.xml#LCD">
+                  <choice>
+                     <abbr>LabCD</abbr>
+                     <expan>Laboratorio di Cultura Digitale</expan>
+                  </choice>
+               </orgName>
+            </distributor>
+            <address>
+               <addrLine>Laboratorio di Cultura Digitale - Università di Pisa</addrLine>
+               <addrLine>
+                  <placeName ref="list.xml#PI">Pisa</placeName>
+               </addrLine>
+            </address>
+         </publicationStmt>
+         <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
+            <bibl>
+               <title>La balancoire improvisee</title>
+               <author ref="list.xml#DM">Domenico Mastroianni</author>
+               <publisher>
+                        <persName ref="list.xml#AN">A. Noyer </persName>
+               </publisher>
+               <pubPlace ref="list.xml#P">Parigi</pubPlace>
+               <date when="1918">1918</date>
+            </bibl>
+            <msDesc>
+               <!-- descrizione del manoscritto -->
+               <msIdentifier>
+                        <!-- info per identificare il manoscritto -->
+                        <country ref="list.xml#IT">Italia</country>
+                        <settlement ref="list.xml#SP">La Spezia (SP)</settlement>
+                        <!-- collocazione specifica -->
+                        <repository ref="list.xml#MCE">Museo Civico Etnografico "Giovanni Podenzana", Sezione dei cimeli garibaldini e della Prima Guerrra Mondiale</repository>
+                        <!-- codice identificativo -->
+                        <idno type="postcard_id">7694_065_001/002</idno>
+               </msIdentifier>
+               <!-- Informazioni sul contenuto della cartolina -->
+               <msContents>
+                  <summary>Cartolina Artistica</summary>
+                  <textLang mainLang="IT" otherLangs="EN FR">Italiano con alcune note in inglese e francese </textLang>
+               </msContents>
+               <!-- Physical Description:  -->
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType>Cartolina</objectType>
+                           <material>Carta</material>
+                           <dimensions unit="cm">
+                                    <height>9</height>
+                                    <width>14</width>
+                          </dimensions>
+                           <stamp type="postage" n="1"> Francobollo - Regno d'Italia </stamp>
+                           <stamp type="postmark" n="1"> Timbro di Ravenna </stamp>
+                           <stamp type="postmark" n="2"> Timbro di Ravenna </stamp>
+                           <stamp type="postmark" n="3"> Timbro di Arona (Novara) </stamp>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc xmlns="http://www.tei-c.org/ns/1.0">
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="list.xml#GT">Giuseppe</persName>
+               <placeName ref="list.xml#RA">Ravenna</placeName>
+               <date type="writing" when="1913-08-01">01/08/1913</date>
+               <date type="postmark" when="1913-08-02">02/08/1913</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="list.xml#OT">Olica Turtura</persName>
+               <placeName ref="list.xml#AR">Arona</placeName>
+               <date type="postmark" when="1913-08-03">03/08/1913</date>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <facsimile xmlns="http://www.tei-c.org/ns/1.0">
+         <surface xml:id="facsfronte65" start="#cartolina65_fronte">
+            <graphic url="img-cartoline/7694-065F.jpg"/>
+         </surface>
+         <surface xml:id="facsretro65" start="#cartolina65_retro"> 
+            <graphic url="img-cartoline/7694-065R.jpg" width="1642px" height="1055px"/>
+            <zone xml:id="riga65_1" ulx="813" uly="20" lrx="899" lry="69"/>
+            <zone xml:id="riga65_2" ulx="895" uly="87" lrx="1583" lry="439"/>
+            <zone xml:id="riga65_3" ulx="904" uly="443" lrx="1591" lry="994"/>
+            <zone xml:id="riga65_4" ulx="113" uly="20" lrx="787" lry="1032"/>
+            <zone xml:id="riga65_5" ulx="25" uly="356" lrx="96" lry="836"/>
+         </surface>
+   </facsimile>
+   <text>
+      <!-- informazioni peritestuali -->
+      <front>
+            <div type="tipografia">
+                  <p>
+                        <s rend="writing-mode(vertical-lr) text-orientation(sideways)">
+                              Copyright by
+                              <persName ref="list.xml#AN">
+                                    <abbr>A.</abbr> Noyer
+                              </persName>.
+                              <date>1918</date>. – Allegorie
+                              <choice>
+                                    <abbr>N°</abbr>
+                                    <expan>N<ex>umero</ex></expan>
+                              </choice>
+                              242
+                        </s>
+                        <s>Reproduction interdite en tous pays</s>
+                  </p>
+            </div>
+      </front>
+      <body>
+         <div xmlns="http://www.tei-c.org/ns/1.0"
+              xml:id="cartolina65_fronte"
+              type="fronte">
+            <figure>
+               <pb facs="#facsfronte65" xml:id="fronte65"/>
+               <figDesc>Coppia di innamorati in un bosco, lei su di un'amaca</figDesc>
+               <head> La balancoire improvisee </head>
+               <bibl>
+                  <autor>
+                     <persName ref="list.xml#DM" type="author">D.Mastroianni</persName>
+                  </autor>
+               </bibl>
+            </figure>
+         </div>
+         <div type="retro">
+            <div type="message">
+                  <opener xmlns="http://www.tei-c.org/ns/1.0">
+                        <dateline>
+                              <lb n="1"/>
+                              <s>
+                                    <placeName ref="list.xml#RV">Ravenna</placeName>
+                                    <date when="1913-08-01">1-VIII-913</date>
+                              </s>
+                        </dateline>
+                  </opener>
+                  <div xmlns="http://www.tei-c.org/ns/1.0" type="postcard-body">
+                        <p>
+                              <lb n="2"/>
+                              A Ravenna nulla di nuo-
+                              <lb n="3"/>
+                              vo. Salute ottima.
+                              <lb n="4"/>
+                              Oggi ho ricevuto una cartoli-
+                              <lb n="5"/>
+                              na della Carolina da Crema.
+                              <lb n="6"/>
+                              Non so come contraccambiar-
+                              <lb n="7"/>
+                              la avendone ora perduto
+                              <lb n="8"/>
+                              le <choice>
+                                    <sic>traccie</sic>
+                                    <corr resp="list.xml#LR" cert="high">tracce</corr>
+                                 </choice>. È una lepre
+                              <lb n="9"/>
+                              quella più svelta di te
+                              <lb n="10"/>
+                              e tiene il récord dei viag-
+                              <lb n="11"/>
+                              gi: se mi dirai l'indi-
+                              <lb n="12"/>
+                              rizzo la raggiungerò con
+                              <lb n="13"/>
+                              una cartolina. Ieri l'al-
+                              <lb n="14"/>
+                              tro ti scrissi e ora avrai
+                              <lb n="15"/>
+                              già ricevuto. I tuoi di
+                              <lb n="16"/>
+                              casa ti salutano con me.
+                        </p>
+                  </div>
+                  <closer xmlns="http://www.tei-c.org/ns/1.0">
+                        <s>
+                              <lb n="17"/>
+                              Divertiti e stà allegra 
+                        </s> 
+                        <lb/>
+                        <signed>
+                              <persName>
+                                    <forename ref="list.xml#GT">Giuseppe</forename>
+                              </persName>
+                        </signed>
+                  </closer>
+            </div>
+            <div xmlns="http://www.tei-c.org/ns/1.0" type="address-destination">
+               <p>
+                  <address>
+                        <addrLine>
+                              <lb n="18"/>
+                              Signorina
+                              <lb n="19"/>
+                              Oliva Turtura
+                              <lb n="20"/>
+                              presso Sig. Cibecchini
+                              <lb n="21"/>
+                              Via Cavour 12
+                              <lb n="22"/>
+                              (Lago Maggiore) Arona 
+                        </addrLine>
+                  </address>
+               </p>
+            </div>
+            <div type="postmark-postage">
+               <ab>
+                  <stamp xmlns="http://www.tei-c.org/ns/1.0" type="postmark">
+                     <mentioned>
+                        <placeName ref="list.xml#AR">ARONA</placeName>
+                        <placeName ref="#NO">
+                           <unclear reason="damage">NOVARA</unclear>
+                        </placeName>
+                     </mentioned>
+                     <date when="1913-08">
+                        <unclear reason="damage"> 3-8 13 </unclear>-9 </date>
+                  </stamp>
+                  <stamp xmlns="http://www.tei-c.org/ns/1.0" type="postmark">
+                     <mentioned>
+                        <unclear reason="damage">
+                           <placeName ref="list.xml#RV">  RAVENNA </placeName>
+                        </unclear>
+                        <unclear reason="damage"> ARRIVI E PARTENZE </unclear>
+                     </mentioned>
+                     <date when="1913-08"> 2 <unclear reason="damage"> 8-13 </unclear> 4M </date>
+                  </stamp>
+                  <stamp xmlns="http://www.tei-c.org/ns/1.0" type="postmark">
+                     <mentioned>
+                        <unclear reason="damage">
+                           <placeName ref="list.xml#RV">  RAVENNA </placeName>
+                        </unclear>
+                        <unclear reason="damage"> ARRIVI E PARTENZE </unclear>
+                     </mentioned>
+                     <date when="1913-08"> 2 <unclear reason="damage"> 8-13 </unclear> 4M </date>
+                  </stamp>
+                  <stamp type="postage" rend="rectangular">
+                        <mentioned rend="uppercase">Poste Italiane 10 centesimi</mentioned>
+                  </stamp>
+               </ab>
+            </div>
+            <div type="secondamano">
+               <ab type="paratext">
+                  <add>
+                     <num type="cardinal"> 65 </num>
+                  </add>
+               </ab>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

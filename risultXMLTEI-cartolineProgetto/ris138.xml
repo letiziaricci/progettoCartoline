@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI SYSTEM 'myTEI.dtd'>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cartolina_7694-138">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> [Donna in camera]  - Edizione digitale</title>
+         </titleStmt>
+         <publicationStmt xmlns="http://www.tei-c.org/ns/1.0">
+            <publisher>
+               <choice>
+                  <abbr>Unipi</abbr>
+                  <expan>Università di
+                            <placeName ref="list.xml#PI">Pisa</placeName>
+                  </expan>
+               </choice>
+            </publisher>
+            <pubPlace ref="list.xml#PI">Pisa</pubPlace>
+            <availability>
+               <p>Available under licence only</p>
+            </availability>
+            <date when="2019">2019</date>
+            <distributor>
+               <orgName ref="list.xml#LCD">
+                  <choice>
+                     <abbr>LabCD</abbr>
+                     <expan>Laboratorio di Cultura Digitale</expan>
+                  </choice>
+               </orgName>
+            </distributor>
+            <address>
+               <addrLine>Laboratorio di Cultura Digitale - Università di Pisa</addrLine>
+               <addrLine>
+                  <placeName ref="list.xml#PI">Pisa</placeName>
+               </addrLine>
+            </address>
+         </publicationStmt>
+         <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
+            <bibl default="false" status="draft">
+               <title type="custom" resp="list.xml#ES">[Donna in Camera]</title>
+            </bibl>
+            <msDesc><!-- Codice identificativo della cartolina -->
+               <!-- descrizione del manoscritto -->
+                <msIdentifier>
+                        <!-- info per identificare il manoscritto -->
+                        <country ref="list.xml#IT">Italia</country>
+                        <settlement ref="list.xml#SP">La Spezia (SP)</settlement>
+                        <!-- collocazione specifica -->
+                        <repository ref="list.xml#MCE">Museo Civico Etnografico "Giovanni Podenzana", Sezione dei cimeli garibaldini e della Prima Guerrra Mondiale</repository>
+                        <!-- codice identificativo -->
+                        <idno type="postcard_id">7694_138_001/002</idno>
+               </msIdentifier>
+               <!-- Informazioni sul contenuto e descrizione generica delle tre cartoline -->
+               <msContents>
+                  <summary>Cartolina Artistica</summary>
+                  <textLang>Italiano</textLang>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType> Cartolina </objectType>
+                           <material> Carta </material>
+                           <dimensions unit="cm">
+                              <height> 9 </height>
+                              <width>14 </width>
+                           </dimensions>
+                        </support>
+                        <!-- Conservazione buono= non occorrono interventi di restauro;-->
+                        <condition>Buono</condition>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc xmlns="http://www.tei-c.org/ns/1.0"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="list.xml#GC">Giovannino</persName>
+               <placeName ref="list.xml#MO">Modena</placeName>
+               <!-- Dati di invio da timbro (postage) o da manoscritto (writing) -->
+               <date type="postage" when="12/10/1917"> 12/10/1917 </date>
+               <date type="writing" when="11/10/1917"> 11/10/1917 </date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="list.xml#OT">Oliva Turtura</persName>
+               <placeName ref="list.xml#RV">Ravenna</placeName>
+            </correspAction>
+         </correspDesc>
+         <textClass>
+            <keywords><!-- soggettario -->
+               <term> Donna vestita di azzurro in camera davanti allo specchio </term>
+               <!-- tipologia -->
+               <term> Artistica </term>
+               <!-- descrizione -->
+               <term> Cartolina Artistica </term>
+            </keywords>
+         </textClass>
+      </profileDesc>-
+   </teiHeader>
+   <facsimile xmlns="http://www.tei-c.org/ns/1.0">
+         <surface>
+            <graphic xml:id="fronte_postcard_138" url="img-cartoline/7694-138F.jpg"/>
+         </surface>
+         <surface>
+            <graphic xml:id="retro_postcard_011" url="img-cartoline/7694-138R.jpg"/>
+            <!-- timbro e francobollo -->
+            <zone type="postage-postmark" xml:id="stamp_138" start="#stamp-138"
+                  ulx="10"
+                  uly="42"
+                  lrx="140"
+                  lry="173"/>
+            <!-- Luogo e data -->
+            <zone type="handWriting" xml:id="lineText_1-138" start="#lineText-1-138"
+                  ulx="30"
+                  uly="283"
+                  lrx="318"
+                  lry="348"/>
+            <!-- testo -->
+            <zone type="handWriting" xml:id="lineText_2-138" start="#lineText-2-138"
+                  ulx="17"
+                  uly="343"
+                  lrx="340"
+                  lry="424"/>
+            <!-- saluto -->
+            <zone type="handWriting" xml:id="lineText_3-138" start="#lineText-3-138"
+                  ulx="46"
+                  uly="414"
+                  lrx="148"
+                  lry="446"/>
+            <!-- firma -->
+            <zone type="handWriting" xml:id="lineText_4-138" start="#lineText-4-138"
+                  ulx="8"
+                  uly="441"
+                  lrx="319"
+                  lry="525"/>
+            <!-- Indirizzo e destinatario-->
+            <zone type="handWriting" xml:id="lineText_5-138" start="#lineText-5-138"
+                  ulx="97"
+                  uly="281"
+                  lrx="168"
+                  lry="52"/>
+            <zone type="handWriting" xml:id="lineText_6-138" start="#lineText-6-138"
+                  ulx="209"
+                  uly="281"
+                  lrx="168"
+                  lry="13"/>
+            <zone type="handWriting" xml:id="lineText_7-138" start="#lineText-7-138"
+                  ulx="212"
+                  uly="281"
+                  lrx="267"
+                  lry="1"/>
+            <zone type="handWriting" xml:id="lineText_8-138" start="#lineText-8-138"
+                  ulx="264"
+                  uly="255"
+                  lrx="321"
+                  lry="6"/>
+         </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div xmlns="http://www.tei-c.org/ns/1.0"
+              xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+              type="fronte" facs="#fronte_postcard_138">
+            <figure>
+               <graphic url="img-cartoline/7694-138F.jpg"/>
+               <figDesc> Donna vestita di blu in camera davanti allo specchio </figDesc>
+               <head> Donna in Camera </head>
+            </figure>
+         </div>
+         <div type="retro">
+            <div type="message">
+                  <opener xmlns="http://www.tei-c.org/ns/1.0">
+                        <dateline>
+                              <lb n="1" facs="#lineText_1-138" xml:id="lineText-1-138"/>
+                              <s>
+                                    <placeName ref="list.xml#MO">Modena</placeName>, li 
+                                    <date when="1917-10-11">11/10.17</date>.
+                              </s>
+                        </dateline>
+                  </opener>
+                  <div xmlns="http://www.tei-c.org/ns/1.0" type="postcard-body">
+                        <p>
+                              <lb n="2" facs="#lineText_2-138" xml:id="lineText-2-138"/>
+                              Mille affettuosi pensieri
+                        </p>
+                  </div>
+                  <closer xmlns="http://www.tei-c.org/ns/1.0">
+                        <lb n="3" facs="#lineText_3-138" xml:id="lineText-3-138"/>
+                        tuo
+                        <lb n="4" facs="#lineText_4-138" xml:id="lineText-4-138"/>
+                        <signed>
+                        <persName>
+                              <forename ref="list.xml#GC">Giovannino</forename>
+                        </persName>
+                        </signed>
+                  </closer>
+            </div>
+            <div xmlns="http://www.tei-c.org/ns/1.0" type="address-destination">
+               <p>
+                  <address>
+                        <addrLine>
+                              <lb n="5" facs="#lineText_5-138" xml:id="lineText-5-138"/>
+                              Gent. Sig.na
+                              <lb n="6" facs="#lineText_6-138" xml:id="lineText-6-138"/>
+                              Oliva Turtura
+                              <lb n="7" facs="#lineText_7-138" xml:id="lineText-7-138"/>
+                              Via Girolano <choice>
+                                                <orig>Rosfi</orig>
+                                                <reg resp="list.xml#LR" cert="high">Rossi</reg>
+                                            </choice> 58
+                              <lb n="8" facs="#lineText_8-138" xml:id="lineText-8-138"/>
+                              Ravenna
+                        </addrLine>
+                  </address>
+               </p>
+            </div>
+            <div type="postmark-postage">
+               <ab facs="#stamp_138" xml:id="stamp-138">
+                  <stamp xmlns="http://www.tei-c.org/ns/1.0">
+                     <mentioned>
+                        <unclear reason="faded" agent="ink" resp="list.xml#LR"> ★ Modena ★ Ferrovia</unclear>
+                     </mentioned>
+                     <date when="12/10/1917" instant="false"> 12.10.17.20 </date>
+                  </stamp>
+                  <stamp xmlns="http://www.tei-c.org/ns/1.0">
+                     <mentioned rend="color(green)">
+                              <orgName ref="list.xml#oPI">Poste italiane</orgName>
+                                    <hi>
+                                          <num rend="double" type="cardinal" value="5">5</num>
+                                          centesimi
+                                          <num rend="double" type="cardinal" value="5">5</num>
+                                    </hi>
+                      </mentioned>
+                  </stamp>
+               </ab>
+            </div>
+            <div type="secondamano">
+               <ab type="paratext">
+                  <add>
+                     <num xmlns="http://www.tei-c.org/ns/1.0"
+                          type="cardinal"
+                          value="138">
+                                        138
+                      </num>
+                  </add>
+               </ab>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

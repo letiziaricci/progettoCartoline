@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+  <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cartolina_7694-112" >
+    <teiHeader>
+        <fileDesc> <!--contiene le informazioni relative al file-->
+            <titleStmt> <!--figlio obbligatorio: titolo dell'edizione digitale e responsabili-->
+                <title type="sub"> Donna sdraiata con mazzo di rose  </title>       
+             </titleStmt>
+            
+            <publicationStmt> 
+                <publisher>
+                    <orgName ref="#UNIPI"> Unipi </orgName> 
+                </publisher>    
+            </publicationStmt> 
+            
+            <notesStmt>
+                <note n="1">
+                    Sul fronte troviamo "T.Corbella" come firma dell'artista. Sul retro troviamo la stampa "Proprietà artistica riservata - Uff. Rev. Stampa Milano 11-6-17 N 1139".
+                    Inoltre è presente un numero (112) che probabilmente identifica la cartolina nell'archivio del progetto.
+                </note>
+                <note n="2">
+                    Sulla base delle cartoline che abbiamo a disposizione, sappiamo con sicurezza che l'arco temporale in cui si è tenuta la corrispondenza va dal 1911 al 1918. 
+                    Non conosciamo invece la data precisa d'inizio e di fine della stessa, dunque non sappiamo se le persone coinvolte si siano scritte 
+                    in un periodo che precede o segue le date appena citate.
+                </note>
+                <note n="3">
+                    Sul retro della cartolina sono presenti un francobollo e un timbro, aggiunti rispettivamente al momento della scrittura del messaggio dal mittente e durante la fase di
+                    spedizione da parte di enti esterni.
+                </note>
+            </notesStmt>
+                
+                <sourceDesc> <!--figlio obbligatorio: contiene le info relative alla fonte originale: data di pubblicazione diversa da quella dell'edizione digitale-->
+                    <bibl>
+                        <!-- TITOLO Quello che si ricava dalla cartolina; Se un documento composto da immagini
+                            non presenta un titolo o altri elementi considerabili come titolo, si formula un titolo sintetico
+                            registrandolo entro parentesi quadre [Venere al bagno] ma indicando dentro la codifica come qui sotto esemplificato-->
+                        
+                        <title type="custom" resp="#ES">[Donna sdraiata con mazzo di rose]</title>
+                        <author ref="#GC"> Giovanni </author>
+                        <!---editor, imprint -->
+                        <pubPlace n="00">Milano</pubPlace>
+                        
+                        <!--vedevo che però c'è scritto Ufficio revisione stampa Milano, lo mettiamo come publisher??--> 
+                        
+                        <date when="1917-09-02"> 02/09/1917</date>
+                    </bibl>
+                    
+                    <msDesc>
+                        <msIdentifier>
+                            <!-- CODICE IDENTIFICATIVO -->
+                            <idno>7694_112_001/002</idno>
+                        </msIdentifier>
+                        
+                        <!-- Informazioni sul contenuto della cartolina -->
+                        <!-- DESCRIZIONE -->
+                        <msContents>
+                            
+                            <summary>Cartolina Artistica</summary>
+                            <textLang>Italiano</textLang>
+                        </msContents>   
+                        
+                   <physDesc>
+                       <objectDesc>  
+                         <supportDesc>
+  
+                            <support xml:id="support">
+                                <stamp type="postage"> Francobollo - Regno d'Italia </stamp>
+                                <stamp type="postmark">Timbro della Ferrovia di Modena </stamp>
+                            </support>
+                           
+                         </supportDesc>
+                       </objectDesc>
+                        </physDesc>           
+                    </msDesc>
+                    
+                    <!-- NOMI -->
+                    
+                    <listPerson>
+                        <person xml:id="GC">
+                            <persName>
+                                <forename>Giovanni</forename>
+                                <surname>Coliola</surname>
+                            </persName>
+                            <sex>M</sex>
+                            <occupation n="1"><certainty locus="value" target="https://www.slideshare.net/trapelicino/giacomo-paolicchicartoline-della-grande-guerra-al-museo-etnografico-della-spezia" cert="high"> <desc> Tenente Colonnello[maggiore]</desc> </certainty> </occupation>
+                        </person>
+                        
+                        <person xml:id="OT">
+                            <persName>
+                                <forename>Oliva</forename>
+                                <surname>Turtura</surname>
+                            </persName>
+                            <sex>F</sex>
+                            <education from="1914" to="1915"> <certainty locus="value" target="https://archiviostorico.unibo.it/it/patrimonio-documentario/fascicolo-studenti/?record=105549" cert="high"> <desc> Corso di perfezionamento per i licenziati delle Scuole Normali </desc></certainty> </education>
+                        </person>
+                        
+                        <person xml:id="TC"> 
+                            <persName> 
+                                <forename>
+                                    <choice> 
+                                        <expan> Tito </expan> 
+                                        <abbr type="nome"> T. </abbr>
+                                    </choice>
+                                </forename>   
+                                <surname> Corbella </surname>
+                            </persName> 
+                            <sex>M</sex>
+                            <occupation> <certainty locus="value" target="http://www.rocaille.it/tito-corbella/" cert="high"> <desc> Disegnatore di cartoline e pittore </desc> </certainty></occupation>
+                            
+                        </person>
+                    </listPerson>
+                    
+                    <listPlace>
+                        <place xml:id="RV">
+                            <placeName>Ravenna</placeName>
+                            <settlement type="località">città</settlement>
+                            <district type="comune">Ravenna</district>
+                            <district type="provincia">RV</district>
+                            <country key="N">IT</country>
+                        </place> 
+                        
+                        <place xml:id="MO">
+                            <placeName>Modena</placeName>
+                            <settlement type="località">città</settlement>
+                            <district type="comune">Modena</district>
+                            <district type="provincia">MO</district>
+                            <country key="N">IT</country>
+                        </place>
+                        
+                        
+                    </listPlace>       
+                    
+             </sourceDesc>           
+        </fileDesc>
+        
+        <profileDesc> 
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#GC">Giovanni Coliola</persName>
+                    <placeName ref="#MO">Modena</placeName>
+                    <date type="writing" when="1917-11-29">1917/11/29</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#OT" type="Turtura">Oliva Turtura</persName>
+                    <placeName ref="#RV"> Ravenna </placeName>
+                </correspAction>
+            </correspDesc>
+            
+            <textClass>
+                <keywords>
+                    <!-- soggettario -->
+                    <!-- tipologia -->
+                    <!-- descrizione -->
+                    <term>Cartolina </term>
+                    <term>Cartolina Artistica </term>
+                    <term>Donna con mazzo di fiori</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        
+        <encodingDesc>
+            <editorialDecl>
+                <interpretation>
+                    <p>
+                        <list>
+                            
+                            <item> 
+                                <choice xml:id="sigRA"> 
+                                    <expan>signora</expan> 
+                                    <abbr type="titolo">sign.ra</abbr>
+                                </choice>
+                            </item> 
+                            
+                            <item>  
+                                <choice xml:id="uff">
+                                    <expan>Ufficio </expan> 
+                                    <abbr type="luogo">Uff</abbr>
+                                </choice>
+                                
+                            </item> 
+
+                            
+                            <item> 
+                                
+                                <choice xml:id="rev">
+                                    <expan>Revisione</expan>
+                                    <abbr> Rev.</abbr>
+                                </choice>
+                                
+                            </item> 
+                            
+                            <item> 
+                                <choice xml:id="li">
+                                    <orig> li </orig>
+                                    <reg> il </reg>
+                                </choice>
+                            </item> 
+                            
+                            <item> 
+                                <choice xml:id="gent"> 
+                                    <expan>Gentile </expan> 
+                                    <abbr type="titolo">Gent </abbr>
+                                </choice> 
+                            </item> 
+                            
+                            <item> 
+                                <choice xml:id="G"> 
+                                    <expan>Girolamo </expan> 
+                                    <abbr type="nome">G.</abbr>
+                                </choice> 
+                            </item>   
+                            
+                       
+                        </list>
+                    </p>
+                </interpretation>
+            </editorialDecl>
+        </encodingDesc>
+
+ </teiHeader>
+  
+    <text type="cartolina" xml:id="cartolina1" n="1">
+        <body xml:lang="ita">
+            
+            <div xml:id="fronte_prima_cartolina">
+                <figure>
+                    <pb facs="#front1" n="1" xml:id="fronte-1"/>
+                    <figDesc>
+                        <desc> Donna (in giallo) sdraiata sul letto con un mazzo di rose </desc>
+                    </figDesc>
+                </figure>
+                <p > 
+                    <persName ref="#TC">T.Corbella</persName>  
+                </p>
+            </div>
+            
+            
+            
+            <div xml:id="retro_prima_cartolina" type="rt">
+              <pb facs="#back1" n="2" xml:id="back-1"/>
+                <div type="rtrHand" xml:id="Archivio1">
+                    <p> 
+                        <num type="cardinal"> 
+                            <idno> 112 </idno> 
+                        </num> 
+                    </p>  
+                </div>
+              
+                <div xml:id="testoresto_1" type="rtr">
+                    <div type="opener">                  
+                        <dateline>
+                            <placeName ref="#MO">  Modena </placeName>, 
+                            <distinct type="forma_desueta"> li <ptr target="#li"/> </distinct> 
+                             <date when="1917-09-02"> 2/9-17</date>
+                        </dateline>                 
+                     </div>
+                
+                     <div>   
+                         <p> <lb/> Affettuosi <unclear reason="illegible"> auguri</unclear> </p>
+                         <lb/><closer style="standard"> <signed> <persName ref="#GC"> <forename type="diminutivo"> Giovannino </forename> </persName> </signed></closer>
+                    </div>
+               
+                </div>   
+                
+                <div type="rtr" rend="vertical" xml:id="scritte_stampate_8"> 
+                    <p> 
+                        <lb/> <num type="cardinal">250-5 </num>proprietà artistica riservata – 
+                        <abbr> Uff. <ptr target="#uff"/> </abbr> 
+                        <abbr>Rev.<ptr target="#rev"/></abbr>
+                        Stampa <placeName> Milano </placeName>
+                        <date when="1917-06-11"> 11.6.17 </date> 
+                        <abbr>n. <ptr target="#num"/></abbr>
+                        <num type="cardinal"><idno> 1139</idno> </num>
+                    </p>
+                </div>
+                
+                
+                <div type="destination">
+                    <div xml:id="destination1" type="rtr"> 
+                   
+                      <p><lb/>
+                        <ptr target="#support"/>
+                        <!-- stamps -->
+                        <stamp type="postmark"> 
+                            <mentioned> <placeName ref="#MO"> MODENA </placeName> <unclear reason="demage"> FERROVIA </unclear> </mentioned>
+                            <date when="1917">2210 <unclear reason="demage"> 17 </unclear></date> 
+                        </stamp>
+                        <stamp type="postage">francobollo da 5 centesimi del Regno d'Italia</stamp> 
+                    </p>
+                  </div>
+                   
+                   <div>
+                    
+                    <p><lb/>
+                        <address xml:id="address_1">
+                            <addrLine> 
+                                <abbr type="titolo">Gent <ptr target="#gent"/></abbr>
+                                <abbr type="titolo">sign.ra <ptr target="#sigRA"/></abbr>
+                            </addrLine>
+                            
+                            <addrLine>
+                                <persName ref="#OT">
+                                    <forename> Olivia </forename>
+                                    <surname> Turtura</surname>
+                                </persName>
+                            </addrLine>
+                            
+                            <addrLine>Via 
+                                <persName> 
+                                    <forename ref="#G"> Girolamo </forename> 
+                                    <surname>Rossi </surname>
+                                </persName>  
+                                <num type="cardinal"> 58 </num>
+                            </addrLine>
+                            
+                            <addrLine> 
+                                <placeName ref="#RV">Ravenna</placeName>
+                            </addrLine>
+                            
+                            
+                        </address>
+                    </p>
+                   </div>
+                </div>
+            </div>
+            
+        </body>
+        
+        <back>
+          
+            
+            
+        </back>
+    </text>
+    
+    
+    
+    
+    <facsimile>
+        
+        <surface xml:id="front1" start="#fronte_prima_cartolina" type='ff'>
+            <graphic  url='7694-112F.jpg' />
+            <zone xml:id="line0" ulx="1256" uly="291" lrx="1635" lry="368" />
+            <note  type="nota_Corbella"> Immagine del fronte della cartolina, realizzata e firmata da T.Corbella</note>
+        </surface>
+        
+        
+        <surface xml:id="back1" start="#retroprima_cartolina" type="rr">          
+            <graphic url='7694-112R.jpg'  />
+            <zone xml:id="lineac1_1" ulx="401" uly="12" lrx="579" lry="126"  />
+            <zone xml:id="lineac1_2" ulx="297" uly="130" lrx="584" lry="369" />
+            <zone xml:id="lineac1_3"  ulx="33" uly="61" lrx="241" lry="372"/>
+            <zone xml:id="lineac1_4" ulx="249" uly="20" lrx="286" lry="372" />
+            <zone xml:id="lineac1_5" ulx="10" uly="10" lrx="54" lry="44" />
+            <note type="nota_facsimile">Immagine del retro della cartolina a cui corrisponde un testo</note>
+            
+        </surface>
+        
+        
+    </facsimile>
+</TEI>

@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cartolina_7694-150" >
+    <teiHeader>
+        
+        <fileDesc>
+            <titleStmt>
+                <title>Donna con lettera e amorino</title>
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher>
+                    <orgName ref="#UNIPI"> Unipi </orgName> 
+                </publisher>
+            </publicationStmt>
+            
+            <notesStmt>
+               
+                <note n="1">    
+                    Sul retro troviamo stampate "Proprietà artistica riservata N 2053-1", e "Visto revisiona stampa - N 1404 - Milano"
+                </note>
+                <note n="2">    
+                    Sul retro troviamo un piccolo logo formato dalla sigla "CCM": probabilmente
+                    è il simbolo dell'editore della cartolina.
+                </note>
+            </notesStmt>
+            
+            <sourceDesc>
+                <bibl> <!-- TUtto quello che si ricava dalla cartolina... -->
+                    <title>[Donna con lettera e amorino]</title>
+                    <!-- Metti un REF all'autore? -->
+                    <author ref="#AB">Aurelio Bertiglia</author>
+                    <pubPlace ref="#MI">Milano</pubPlace>
+                    <date when="1917-08-21">21/08/1917</date>
+                </bibl>
+                
+                <msDesc>
+                    <msIdentifier>
+                        <!-- CODICE IDENTIFICATIVO -->
+                        <idno>7694_150_001/002</idno>
+                    </msIdentifier>
+                    
+                    <!-- Informazioni sul contenuto della cartolina -->
+                    <!-- DESCRIZIONE -->
+                    <msContents>                        
+                        <summary>Cartolina Artistica</summary>
+                        <textLang>Italiano</textLang>
+                    </msContents> 
+                    <!-- Physical Description:  -->
+                    <physDesc>
+                        <objectDesc>  
+                            
+                            <supportDesc>
+                                <!-- Da rivedere -->
+                                <support xml:id="support150">
+                                    <stamp type="postage" n="1"> Francobollo - Regno d'Italia </stamp>
+                                    <stamp type="postmark" n="2"> Timbro della Ferrovia di Modena </stamp>
+                                </support>
+                                
+                            </supportDesc>                            
+                        </objectDesc>
+                    </physDesc>                                        
+                </msDesc>
+                
+                <!-- NOMI -->
+                <listPerson>                
+                    <person>
+                        <persName ref="#OT">
+                            <forename>Oliva</forename>
+                            <surname>Turtura</surname>
+                        </persName>                      
+                        <sex>F</sex>
+                        <birth when="1896-08-12">
+                            Nata a <placeName ref="#RA">Ravenna</placeName>, 12 agosto 1896
+                        </birth>
+                        <occupation when="1935">
+                            Alunna segretaria presso l'Istituto Magistrale "Margherita di Savoia" di <placeName ref="#RA">Ravenna</placeName>
+                        </occupation>
+                        <education n="1">
+                            Licenza di Scuola Normale
+                        </education>
+                        <education n="2" notBefore="1914" notAfter="1915">
+                            Corso di perfezionamento per licenziati della Scuola Normale presso l'Università di Bologna
+                        </education>
+                        <certainty locus="value" target="https://books.google.it/books?id=7Q_GfuI_1PEC&amp;q=oliva+turtura+ravenna&amp;dq=oliva+turtura+ravenna&amp;hl=it&amp;sa=X&amp;ved=0ahUKEwi_kuiFw8DiAhVJCuwKHePFCroQ6AEIMzAC%22%3E"><desc>Ruoli di anzianità del personale del Ministero e di uffici da esso dipendenti</desc></certainty>
+                        <certainty locus="value" target="https://books.google.it/books?id=niGVVFNDkzkC&amp;pg=PA690&amp;lpg=PA690&amp;dq=oliva+turtura+ravenna&amp;source=bl&amp;ots=ULTNgdNj7R&amp;sig=ACfU3U1uIyWzfpnMoXlYuayn5W_4SQBDrw&amp;hl=it&amp;sa=X&amp;ved=2ahUKEwj42eDt4r7iAhVEDewKHfunCMAQ6AEwDXoECAgQAQ#v=onepage&amp;q=oliva%20turtura%20ravenna&amp;f=false%22%3E"><desc>Annuario del Ministero dell'Educazione Nazionale</desc></certainty>
+                        <certainty locus="value" target="https://books.google.it/books?id=7Q_GfuI_1PEC&amp;q=oliva+turtura+ravenna&amp;dq=oliva+turtura+ravenna&amp;hl=it&amp;sa=X&amp;ved=0ahUKEwi_kuiFw8DiAhVJCuwKHePFCroQ6AEIMzAC%22%3E"><desc>Archivio storico dell'<orgName ref="#UNIBO">Università di Bologna</orgName></desc></certainty>                        
+                    </person>
+                    
+                    <person>
+                    <persName ref="#GC">
+                        <forename>Giovanni</forename>
+                        <surname>Coliola</surname>
+                    </persName>                      
+                    <sex>M</sex>
+                    <birth when="1895">
+                        Nato a <placeName ref="#NA">Napoli</placeName>, 1895
+                    </birth>
+                    <death when="1980">
+                        Morto a <placeName ref="#RA">Ravenna</placeName>, 1980</death>
+                    <occupation>
+                        Tenente Colonnello
+                    </occupation>
+                    <certainty locus="value" target="https://www.slideshare.net/trapelicino/giacomo-paolicchicartoline-della-grande-guerra-al-museo-etnografico-della-spezia"><desc>Museo Etnografico del<placeName ref="#SP">la Spezia</placeName></desc></certainty>                    
+                    </person>
+                    
+                    <person xml:id="AB">
+                        <persName>
+                            <forename>Aurelio</forename>
+                            <surname>Bertiglia</surname>
+                        </persName>                      
+                        <sex>M</sex>
+                        <birth when="1891-06-23">Nato a <placeName ref="TO">Torino</placeName>, 23 giugno 1891</birth>
+                        <death when="1973-10-02">Morto a <placeName ref="RO">Roma</placeName>, 2 ottobre 1973</death>
+                        <occupation n="1">Illustratore</occupation>
+                        <occupation n="2">Designer grafico</occupation>	
+                        <occupation n="3">Pittore</occupation>
+                        <certainty locus="value" cert="high" target="http://cultura.mise.gov.it/mise_piacentini_fe/loadcard.do?id_card=806&amp;force=1%22%3E"><desc>Ministero dello Sviluppo Economico</desc></certainty>
+                    </person>                
+                </listPerson>
+                
+                <listPlace>                  
+                    
+                    <place xml:id="TO">
+                        <placeName>Torino</placeName>
+                        <settlement type="località">città</settlement>
+                        <district type="comune">Torino</district>
+                        <district type="provincia">TO</district>
+                        <country key="IT">IT</country>
+                        <note>Torino è il luogo di nascita dell'autore del fronte della cartolina.</note>
+                    </place>
+                    
+                    <place>
+                        <placeName ref="#RO">Roma</placeName>
+                        <settlement type="località">città</settlement>
+                        <district type="comune">Roma</district>
+                        <district type="provincia">RO</district>
+                        <country key="IT">IT</country>
+                        <note>Roma è il luogo di morte dell'autore del fronte della cartolina.</note>
+                    </place>
+                    
+                    <place>
+                        <placeName ref="#RV">Ravenna</placeName>
+                        <settlement type="località">città</settlement>
+                        <district type="comune">Ravenna</district>
+                        <district type="provincia">RV</district>
+                        <country key="IT">IT</country>
+                        <note>Ravenna è la città del destinatario. È anche il luogo di nascita del destinatario e sarà il luogo di morte del mittente.</note> 
+                    </place>
+                    
+                    <place>
+                        <placeName ref="#MO">Modena</placeName>
+                        <settlement type="località">città</settlement>
+                        <district type="comune">Modena</district>
+                        <district type="provincia">MO</district>
+                        <country key="IT">IT</country>
+                        <note>Modena è la città del mittente.</note> 
+                    </place>
+                    
+                    <place>
+                        <placeName ref="#MI">Milano</placeName>
+                        <settlement type="località">città</settlement>
+                        <district type="comune">Milano</district>
+                        <district type="provincia">MI</district>
+                        <country key="IT">IT</country>
+                        <note>Milano è la città dove è avvenuta la revisione stampa della cartolina. </note>
+                    </place>
+                  
+                    
+                </listPlace>
+                
+                <listOrg>
+                    <org>
+                        <orgName ref="#UNIPI"> Università di <settlement ref="#PI"> Pisa </settlement> </orgName>
+                        <event when="1343-09-03"> <p>Fondata il 3 settembre 1343.</p> </event>
+                        <note>
+                            <ref target="https://www.unipi.it/index.php/presentazione/item/1340-storia-delluniversit%C3%A0">Università di Pisa</ref>
+                        </note>
+                    </org>
+                    
+                    <org>
+                        <orgName ref="#UNIBO"> Università di <settlement ref="#BO"> Bologna </settlement> </orgName>
+                        <event when="1088"><p>Fondata nel 1088.</p></event>
+                        <note>
+                            <ref target="https://www.unibo.it/it/ateneo/chi-siamo/la-nostra-storia/i-numeri-della-storia"><desc>Università di Bologna</desc></ref>
+                        </note>
+                    </org>
+                    
+                    <org>
+                        <orgName ref="#MESP">Museo Etnografico "Giovanni Podenzana"</orgName>
+                        <location type="adress">
+                            <address>
+                                <street>Via del Prione <num>156</num>, <placeName ref="SP">La Spezia</placeName></street>
+                            </address>
+                        </location>
+                        <event when="1873"><p>Istituito nel 1873</p></event>
+                        <desc><quote>Il Museo si propone come centro di ricerca e divulgazione dei temi dell'antropologia e della etnografia.</quote></desc>
+                        <note>
+                            <ref target="http://etnografico.museilaspezia.it/"><desc>Museo Etnografico La Spezia</desc></ref>
+                        </note>
+                    </org>
+                </listOrg>
+                
+                
+           </sourceDesc>            
+        </fileDesc>
+        
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#GC" />
+                    <placeName ref="#MO" />
+                    <!-- DATA data di invio da timbro (postage) o da manoscritto (writing) -->
+                    <date type="writing" when="1917-08-31">31/08/1917</date>
+                   
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="OT" />
+                    <placeName ref="#RV" />
+                </correspAction>
+            </correspDesc>
+            
+            <textClass>
+                <keywords scheme="">
+                    <!-- soggettario -->
+                    <!-- tipologia -->
+                    <!-- descrizione -->
+                    <term>Cartolina </term>
+                    <term>Cartolina Artistica </term>
+                    <term>Donna con lettera e amorino</term>
+                </keywords>
+            </textClass>
+            
+            <langUsage>
+                <language ident="it-IT">italiano</language>
+            </langUsage>
+        </profileDesc>
+        
+        <encodingDesc>
+            <editorialDecl>
+                <interpretation>
+                    <p>
+                        <list>
+                            
+                            <item> 
+                                <choice xml:id="sigNA"> 
+                                    <expan>signorina</expan> 
+                                    <abbr type="titolo">sig.na</abbr>
+                                </choice>
+                            </item> 
+                            
+                            <item> 
+                                <choice>
+                                    <orig> li </orig>
+                                    <reg> il </reg>
+                                </choice>
+                            </item> 
+                            
+                            <item>
+                                <choice xml:id="N">
+                                    <expan>Numero</expan>
+                                    <abbr>N.</abbr>
+                                </choice>
+                            </item>
+                            
+                            <item> 
+                                <choice xml:id="gent"> 
+                                    <expan>Gentile </expan> 
+                                    <abbr type="titolo">Gent </abbr>
+                                </choice> 
+                            </item> 
+                            
+                        </list>
+                    </p>
+                </interpretation>
+            </editorialDecl>
+        </encodingDesc>        
+    </teiHeader>
+
+    <!-- DEFINIZIONE -->
+    
+    <text type="cartolina" xml:id="cartolina150">
+        <!-- TRASCRIZIONE -->
+        <body xml:lang="ita">
+            
+            <div xml:id="cartolina150_fronte" type="fronte">
+                <figure>
+                    <pb facs="#facsfronte150" xml:id="fronte150"></pb>
+                    <figDesc>Una donna si avvicina ad un amorino che stringe una lettera</figDesc>
+                    <head> Donna con lettera e amorino </head>
+                    <p> 
+                        <persName ref="#AB" type="author">A.Bertiglia</persName>  
+                    </p>
+                </figure>
+            </div>
+            
+            <div xml:id="cartolina150_retro" type="retro">
+                <pb facs="#facsretro150" xml:id="retro150"/>
+                
+                <div type="rtrArchivio" xml:id="Archivio150">
+                    <p> 
+                        <num type="cardinal"> 
+                            <idno> 150 </idno> 
+                        </num> 
+                    </p>  
+                </div>
+                
+                <div type="rtr" rend="vertical" xml:id="prop_art_150"> 
+                    <p><lb/> Proprietà Artistica riservata –              
+                        <abbr>N. <ptr target="#N" /></abbr>
+                        <num type="cardinal"><idno>2053-1 </idno> </num> 
+                    </p>
+                </div>
+                <div type="rtr" rend="horizontal" xml:id="visto_rev_1"> 
+                    <p><lb/> Visto Revisione Stampa –              
+                        <abbr>N. <ptr target="#N" /></abbr>
+                        <num type="cardinal"><idno>1404 </idno> </num> - <placeName ref="#MI">  Milano </placeName>
+                    </p>
+                </div>
+                
+                <div type='logo' xml:id="CCM">
+                
+                    <p> <term> CCM </term> </p>
+                
+                </div>
+                    <div type="message">
+                       
+                        <div type="opener">                  
+                            <dateline>
+                                <placeName ref="#MO">  Modena </placeName>, 
+                                <distinct type="forma_arcaica"> li <ptr target="#li"/> </distinct> 
+                                <date when="1917-08-31"> 31/8-17</date>
+                            </dateline>                 
+                        </div>
+                        <div>
+                            <p> <lb/> Saluti  affettuosi </p>
+                            <p> <lb/> a tutti </p>
+                            <lb/> <closer style="standard"> <signed> <persName ref="#GC"> <forename type="diminutivo"> Giovannino </forename> </persName> </signed> </closer>
+                            
+                        </div>
+                        <div type="destination">
+                            <p>
+                                <stamp type="postmark"> 
+                                    <mentioned> <unclear reason="damage"> <placeName ref="#MO"> MODENA </placeName> </unclear> <unclear reason="damage"> FERROVIA </unclear> </mentioned>
+                                    <date when="1917"> 3181 <unclear reason="damage"> 718 </unclear> </date>
+                                </stamp>
+                                <stamp type="postage"> Francobollo da 5 centesimi del Regno d'Italia </stamp>
+                            </p>
+                            
+                            <p>
+                                <address>
+                                    <addrLine> 
+                                        <abbr type="titolo">Gent <ptr target="#gent"/></abbr>
+                                        <abbr type="titolo">sig na <ptr target="#sigNA"/></abbr>
+                                    </addrLine>
+                                    <addrLine>
+                                        <persName ref="#OT">
+                                            <forename> Olivia </forename>
+                                            <surname> Turtura </surname>  
+                                        </persName>
+                                    </addrLine>
+                                    <addrLine>Via 
+                                        <persName> 
+                                            <forename>Girolamo</forename> 
+                                            <surname>Rossi </surname>
+                                        </persName>  
+                                        <num type="cardinal"> 58 </num>
+                                    </addrLine>
+                                    
+                                    <addrLine>
+                                        <placeName ref="#RV">Ravenna</placeName>
+                                    </addrLine>
+                                </address>
+                            </p>
+                        </div>
+                    </div>
+          </div>
+      </body>
+    </text>
+    
+    <facsimile>
+        <surface xml:id="facsfronte150" start="#cartolina150_fronte"> 
+            <graphic url='150F.jpg' />
+                    
+        </surface>
+        
+        <surface xml:id="facsretro150" start="#cartolina150_retro">
+            
+            <graphic url='150R.jpg' width='1649px' height='1061px' />
+            <zone xml:id="riga150_1" ulx="805" uly="334" lrx="1616" lry="958" />
+            <zone xml:id="riga150_2" ulx="1327" uly="8" lrx="1639" lry="320" />
+            <zone xml:id="riga150_3" ulx="1084" uly="119" lrx="1191" lry="180" />
+            <zone xml:id="riga150_4" ulx="101" uly="113" lrx="733" lry="935" />
+            <zone xml:id="riga150_5" ulx="13" uly="234" lrx="52" lry="796" />
+            <zone xml:id="riga150_6" ulx="141" uly="979" lrx="615" lry="1006" />
+
+        </surface>
+    </facsimile>
+    
+</TEI>

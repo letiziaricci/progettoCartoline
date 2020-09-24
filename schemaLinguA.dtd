@@ -1,0 +1,6 @@
+
+<!ELEMENT linguistic (analisi)+ >
+<!ELEMENT analisi (#PCDATA)>
+
+<!ATTLIST analisi
+	        id ID #REQUIRED>

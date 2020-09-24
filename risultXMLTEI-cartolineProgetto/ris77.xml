@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cartolina_7694-077">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>[La partita a scacchi] - Edizione digitale</title>
+         </titleStmt>
+         <publicationStmt xmlns="http://www.tei-c.org/ns/1.0">
+            <publisher>
+               <choice>
+                  <abbr>Unipi</abbr>
+                  <expan>Università di
+                            <placeName ref="list.xml#PI">Pisa</placeName>
+                  </expan>
+               </choice>
+            </publisher>
+            <pubPlace ref="list.xml#PI">Pisa</pubPlace>
+            <availability>
+               <p>Available under licence only</p>
+            </availability>
+            <date when="2019">2019</date>
+            <distributor>
+               <orgName ref="list.xml#LCD">
+                  <choice>
+                     <abbr>LabCD</abbr>
+                     <expan>Laboratorio di Cultura Digitale</expan>
+                  </choice>
+               </orgName>
+            </distributor>
+            <address>
+               <addrLine>Laboratorio di Cultura Digitale - Università di Pisa</addrLine>
+               <addrLine>
+                  <placeName ref="list.xml#PI">Pisa</placeName>
+               </addrLine>
+            </address>
+         </publicationStmt>
+         <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
+                  <bibl>
+                        <title>La partita a scacchi</title>
+                        <author ref="list.xml#GI">G. Induno</author>
+                        <publisher>
+                              <persName ref="list.xml#ES">E. Sborgi</persName>
+                        </publisher>
+                        <pubPlace ref="list.xml#FI">Firenze</pubPlace>
+                  </bibl>
+            <msDesc>
+			<!-- descrizione del manoscritto -->
+                  <msIdentifier>
+                        <!-- info per identificare il manoscritto -->
+                        <country ref="list.xml#IT">Italia</country>
+                        <settlement ref="list.xml#SP">La Spezia (SP)</settlement>
+                        <!-- collocazione specifica -->
+                        <repository ref="list.xml#MCE">Museo Civico Etnografico "Giovanni Podenzana", Sezione dei cimeli garibaldini e della Prima Guerrra Mondiale</repository>
+                        <!-- codice identificativo -->
+                        <idno type="postcard_id">7694_077_001/002</idno>
+                  </msIdentifier>
+               <!-- Informazioni sul contenuto della cartolina -->
+               <msContents>
+                  <summary>Cartolina Artistica</summary>
+                  <textLang>Italiano</textLang>
+               </msContents>
+               <!-- DESCRIZIONE FISICA-->
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType>Cartolina Artistica</objectType>
+                           <!-- MATERIALI -->
+                           <material>Carta</material>
+                           <!-- DIMENSIONE -->
+                           <dimensions unit="cm">
+                                    <height>9</height>
+                                    <width>14</width>
+                           </dimensions>
+                           <stamp type="postage">I francobolli sono stati tolti dalla cartolina</stamp>
+                           <stamp type="postmark">Timbro incomprensibile</stamp>
+                        </support>
+                        <!-- CONSERVAZIONE -->
+                        <condition>
+                           <note>Danneggiata</note>
+                        </condition>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc xmlns="http://www.tei-c.org/ns/1.0">
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="list.xml#OT">Oliva Turtura</persName>
+               <placeName ref="list.xml#RV">Ravenna</placeName>
+               <!-- DATA -->
+               <date when="1911-09-24">24-09-1911</date>
+            </correspAction>
+         </correspDesc>
+         <textClass>
+            <keywords>
+            <!-- soggettario -->
+               <term> Cartolina </term>
+               <!-- tipologia -->
+               <term> Cartolina Artistica </term>
+               <!-- descrizione -->
+               <term>La partita a scacchi</term>
+            </keywords>
+         </textClass>
+         <langUsage>
+            <language ident="it-IT">italiano</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <facsimile xmlns="http://www.tei-c.org/ns/1.0">
+         <front>
+            <div facs="fronte">
+               <figure facs="front_figure" type="illustrazione">
+                  <head>Fronte della cartolina "La partita a scacchi"</head>
+                  <figDesc>La partita a scacchi è una replica autografa del dipinto con lo stesso soggetto conservato presso la
+                  GAM di Milano. Il quadro trae ispirazione dall’opera teatrale in versi Una partita a scacchi di Giuseppe
+                  Giacosa inscenata per la prima volta a Napoli nel 1873.
+                  </figDesc>
+               </figure>
+            </div>
+         </front>
+         <surface xml:id="fronte_postcard_077" type="illustrazione">
+            <graphic url="img-cartoline/7694-077F.jpg" width="831px" height="536px"/>
+            <!-- fronte cartolina -->
+            <!-- area molto danneggiata -->
+            <zone xml:id="area_danneggiata-77" start="#area-danneggiata-77"
+                  points="6,2,145,8,148,204,195,298,286,340,333,468,188,535,2,533"/>
+         </surface>
+         <surface xml:id="retro_postcard_011" type="iscrizioni">	
+		<!-- retro della cartolina  -->
+            <graphic url="img-cartoline/7694-077R.jpg" width="831px" height="536px"/>
+            <!-- ELEMENTI TIPOGRAFICI -->
+            <!-- Proprieta Artistica E. SBORGI - Firenze  -->
+            <zone type="print" xml:id="line_publication-77" start="#line-publication-77" points="4,130,42,415"/>
+            <!-- titolo opera -->
+            <zone type="print" xml:id="title_77" start="#title-77"  points="108,470,292,495"/>
+            <!-- artista autore dell'opera 		-->
+            <zone type="print" xml:id="autore_77"  start="#autore-77" points="295,495,373,520"/>
+            <!-- luogo di esecuzione dell'opera 		-->
+            <zone type="print" xml:id="luogo_77"  start="#luogo-77" points="29,493,84,511"/>
+            <!-- testo cartolina-->
+            <!-- TESTO CARTOLINA -->
+            <!-- Luogo e data di spedizione -->
+            <zone type="handWriting" xml:id="lineText_1-77" start="#lineText-1-77" points="5,502,274,533"/>
+            <!-- un saluto sincero-->
+            <zone type="handWriting" xml:id="lineText_2-77" start="#lineText-2-77" points="138,67,211,8,376,239,363,295"/>
+            <!-- parte cancellata -->
+            <zone type="handWriting" xml:id="lineText_3-77" start="#lineText-3-77"
+                  points="100,164,195,112,379,316,304,368"/>
+            <!-- firma di Oliva 	-->
+            <zone type="handWriting" xml:id="lineText_4-77" start="#lineText-4-77" points="37,239,114,158,267,329,144,440"/>
+            <!-- INDIRIZZO -->
+            <!-- prima linea componente indirizzo -->
+            <zone type="handWriting" xml:id="lineText_5-77" start="#lineText-5-77" points="392,198,822,287"/>
+            <!-- seconda e terza linea componente indirizzo  -->
+            <zone type="handWriting" xml:id="lineText_6-77" start="#lineText-6-77"
+                  points="396,297,828,438"/>
+            <!-- quarta linea componente indirizzo 	-->
+            <zone type="handWriting" xml:id="lineText_7-77" start="#lineText-7-77" points="458,441,820,521"/>
+            <!-- TIMBRI -->
+            <!-- timbro postale 	-->
+            <zone type="postage" xml:id="stamp_77" start="#stamp-77" points="395,10,619,183"/>
+            <!-- spazio per il francobollo 	-->
+            <zone type="postmark" xml:id="postmark_77" start="#postmark-77" points="654,9,824,181"/>
+            <!-- catalogazione 77 -->
+            <zone type="catalog" xml:id="number77_77" start="#number77-77"
+                  points="6,3,82,50"/>
+         </surface>
+      </facsimile>
+   </facsimile>
+   <text>
+   <!-- informazioni peritestuali -->
+      <front>
+            <!-- testo tipografico -->
+            <div type="tipografia">
+                  <p rend="writing-mode(vertical-lr) text-orientation(sideways)">
+                        <s facs="#line_publication-77" xml:id="line-publication-77">
+                              Proprietà artistica 
+                              <persName ref="list.xml#EB" type="typography">
+                              E. BORGI
+                              </persName>
+                              <placeName ref="list.xml#FI">Firenze</placeName>
+                        </s>
+                  </p>
+                  <p rend="writing-mode(horizontal-lr) text-orientation(sideways)">
+                        <s facs="#title_77" xml:id="title-77">
+                              La partita a scacchi
+                        </s>
+                        <s facs="#luogo_77"  xml:id="luogo-77">
+                              <placeName ref="list.xml#MI">Milano</placeName>
+                        </s>
+                        <s facs="#autore_77"  xml:id="autore-77">
+                              <persName ref="list.xml#GI" type="author">
+                                    G. Induno
+                              </persName>
+                        </s>
+                  </p>
+            </div>
+      </front>
+      <body>
+         <div xmlns="http://www.tei-c.org/ns/1.0" type="fronte">
+            <figure xml:id="illustrazione">
+               <head>La partita a scacchi</head>
+               <figDesc>La partita a scacchi è una replica autografa del dipinto con lo stesso soggetto conservato presso la 
+               GAM di Milano. Il quadro trae ispirazione dall’opera teatrale in versi Una partita a scacchi di Giuseppe
+               Giacosa inscenata per la prima volta a Napoli nel 1873. Rappresenta giovani che giocano a scacchi in una sala osservati da due uomini. </figDesc>
+            </figure>
+         </div>
+         <div type="retro">
+            <div type="message">
+            <opener xmlns="http://www.tei-c.org/ns/1.0">
+               <dateline>
+                  <lb n="1" facs="#lineText_1-77" xml:id="lineText-1-77"/>
+                  <s>
+                        <placeName ref="list.xml#RV">Ravenna</placeName>
+                        <date when="1918-11-09">24-9-11</date>
+                  </s>
+               </dateline>
+            </opener>
+            <div xmlns="http://www.tei-c.org/ns/1.0" type="postcard-body">
+               <p>
+                  <lb n="2" facs="#lineText_2-77" xml:id="lineText-2-77"/>
+                  Un saluto sincero
+                  <lb n="3" facs="#lineText_3-77" xml:id="lineText-3-77"/>
+                  <gap reason="illegible" agent="rubbing"/>
+               </p>
+            </div>
+            <closer xmlns="http://www.tei-c.org/ns/1.0">
+                  <lb n="4" facs="#lineText_4-77" xml:id="lineText-4-77"/>
+                  <signed>
+                     <persName ref="list.xml#OT">
+                        <forename>Oliva</forename>
+                     </persName>
+                  </signed>
+            </closer>
+            </div>
+            <div xmlns="http://www.tei-c.org/ns/1.0" type="address-destination">
+               <p>
+                  <address>
+                     <addrLine>
+                        <lb n="5" facs="#lineText_5-77" xml:id="lineText-5-77"/>
+                        A Gentil <gap reason="illegible" agent="rubbing"/>
+                        <lb n="6" facs="#lineText_6-77" xml:id="lineText-6-77"/>
+                        <gap reason="illegible" agent="rubbing"/>
+                        <lb n="7" facs="#lineText_7-77" xml:id="lineText-7-77"/>
+                        <gap reason="illegible" agent="rubbing"/>
+                        <lb/>
+                        <gap reason="illegible" agent="rubbing"/>
+                        <lb/>
+                        <gap reason="illegible" agent="rubbing"/>
+                     </addrLine>
+                  </address>
+               </p>
+            </div>
+            <div type="postmark-postage">
+               <ab>
+                  <stamp xmlns="http://www.tei-c.org/ns/1.0" type="postage" facs="#postmark_77" xml:id="postmark-77">
+                        <mentioned>
+                              <gap reason="removed"/>
+                        </mentioned>
+                  </stamp>
+                  <stamp xmlns="http://www.tei-c.org/ns/1.0" type="postmark" facs="#stamp_77" xml:id="stamp-77">
+                        <mentioned rend="circle">
+                        <gap reason="illegible" agent="ink" atLeast="15" atMost="25" unit="chars" />
+                        </mentioned>
+                  </stamp>
+               </ab>
+            </div>
+            <div type="secondamano">
+               <ab type="paratext">
+                  <add facs="#number77_77" xml:id="number77-77">
+                     <num xmlns="http://www.tei-c.org/ns/1.0" value="77">77</num>
+                  </add>
+               </ab>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

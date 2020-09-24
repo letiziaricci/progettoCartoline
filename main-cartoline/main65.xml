@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cartolina_7694-065" >
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title>La balancoire improvisee</title>
+        </titleStmt>
+        
+        <publicationStmt>
+            <publisher>
+                <orgName ref="#UNIPI"> Unipi </orgName> 
+            </publisher>
+        </publicationStmt>
+        
+        <notesStmt>
+            
+            <note n="1">    
+                Sul retro riporta la stampa “Copyright by A. Noyer 1912 – Allegorie n 242”
+            </note>
+        </notesStmt>
+        
+        <sourceDesc>
+            <bibl> 
+                <title>La balancoire improvisee</title>
+                <author ref="#DM">Domenico Mastroianni</author>
+                <date when="1913-08-01">01/08/1913</date>
+            </bibl>
+            
+            <msDesc>
+                <msIdentifier>
+                    <!-- CODICE IDENTIFICATIVO -->
+                    <idno>7694_065_001/002</idno>
+                </msIdentifier>
+                
+                <!-- Informazioni sul contenuto della cartolina -->
+                <!-- DESCRIZIONE -->
+                <msContents>                        
+                    <summary>Cartolina Artistica</summary>
+                    <textLang mainLang="IT" otherLangs="EN FR">Italiano con alcune note in inglese e francese </textLang>
+                </msContents> 
+                
+                <!-- Physical Description:  -->
+                <physDesc>
+                    <objectDesc>  
+                        
+                        <supportDesc>
+                           
+                            <support xml:id="support65">
+                                <stamp type="postage" n="1"> Francobollo - Regno d'Italia </stamp>
+                                <stamp type="postmark" n="1"> Timbro di Ravenna </stamp>
+                                <stamp type="postmark" n="2"> Timbro di Ravenna </stamp>
+                                <stamp type="postmark" n="3"> Timbro di Arona (Novara) </stamp>
+                            </support>
+                            
+                        </supportDesc>                            
+                    </objectDesc>
+                </physDesc>                                        
+            </msDesc>
+            
+            <!-- NOMI -->
+            <listPerson>   
+                <person>
+                    <persName ref="#GT">
+                        <forename>Giuseppe</forename>
+                        <surname>Turtura</surname>
+                    </persName>                      
+                    <sex>M</sex>
+                    <occupation when="1899">
+                        Appaltatore di opere pubbliche
+                    </occupation>                    
+                    <certainty locus="value" target="https://books.google.it/books?id=zQ9SLm7Bt-0C&amp;printsec=frontcover&amp;hl=it#v=onepage&amp;q=giuseppe%20turtura&amp;f=false"><desc>Annuario d'Italia: Guida Generale del Regno</desc></certainty>
+                </person>
+                
+                <person>
+                    <persName ref="#OT">
+                        <forename>Oliva</forename>
+                        <surname>Turtura</surname>
+                    </persName>                      
+                    <sex>F</sex>
+                    <birth when="1896-08-12">
+                        Nata a <placeName ref="#RA">Ravenna</placeName>, 12-8-1896
+                    </birth>
+                    <occupation when="1935">
+                        Alunna segretaria presso l'Istituto Magistrale "Margherita di Savoia" di <placeName ref="#RA">Ravenna</placeName>
+                    </occupation>
+                    <education n="1">
+                        Licenza di Scuola Normale
+                    </education>
+                    <education n="2" notBefore="1914" notAfter="1915">
+                        Corso di perfezionamento per licenziati della Scuola Normale presso l'Università di Bologna
+                    </education>
+                    <certainty locus="value" target="https://books.google.it/books?id=7Q_GfuI_1PEC&amp;q=oliva+turtura+ravenna&amp;dq=oliva+turtura+ravenna&amp;hl=it&amp;sa=X&amp;ved=0ahUKEwi_kuiFw8DiAhVJCuwKHePFCroQ6AEIMzAC%22%3E"><desc>Ruoli di anzianità del personale del Ministero e di uffici da esso dipendenti</desc></certainty>
+                    <certainty locus="value" target="https://books.google.it/books?id=niGVVFNDkzkC&amp;pg=PA690&amp;lpg=PA690&amp;dq=oliva+turtura+ravenna&amp;source=bl&amp;ots=ULTNgdNj7R&amp;sig=ACfU3U1uIyWzfpnMoXlYuayn5W_4SQBDrw&amp;hl=it&amp;sa=X&amp;ved=2ahUKEwj42eDt4r7iAhVEDewKHfunCMAQ6AEwDXoECAgQAQ#v=onepage&amp;q=oliva%20turtura%20ravenna&amp;f=false%22%3E"><desc>Annuario del Ministero dell'Educazione Nazionale</desc></certainty>
+                    <certainty locus="value" target="https://books.google.it/books?id=7Q_GfuI_1PEC&amp;q=oliva+turtura+ravenna&amp;dq=oliva+turtura+ravenna&amp;hl=it&amp;sa=X&amp;ved=0ahUKEwi_kuiFw8DiAhVJCuwKHePFCroQ6AEIMzAC%22%3E"><desc>Archivio storico dell'<orgName ref="#UNIBO">Università di Bologna</orgName></desc></certainty>                        
+                </person>
+                
+                <person xml:id="Car">
+                    <persName>
+                        <forename>Carolina</forename>
+                    </persName>
+                    <sex>F</sex>
+                    <residence cert="low">
+                        <placeName ref="#CRE">Crema</placeName>
+                    </residence>
+                    <note>
+                        Di Carolina sappiamo poco: dalla cartolina sembra essere un'amica di famiglia o una parente dei Turtura, ed è appassionata di viaggi. Probabilmente è originaria di Crema o vi abita.
+                    </note>
+                </person>
+                
+                <person xml:id="Cib">
+                    <persName>
+                        <surname>Cibecchini</surname>
+                    </persName> 
+                    <sex>M</sex>
+                    <residence cert="high">
+                        <address>
+                            <street>Via Cavour <num>12</num>, <placeName ref="AR">Arona</placeName></street>
+                        </address>
+                    </residence>
+                </person>
+                
+                <person xml:id="DM">
+                    <persName>
+                        <forename>Domenico</forename>
+                        <surname>Mastroianni</surname>
+                    </persName>                      
+                    <sex>M</sex> 
+                    <occupation n="1">Scultore</occupation>
+                    <occupation n="2">Pittore</occupation>
+                    <occupation n="3">Scultografo</occupation>
+                    <birth notBefore="1876" notAfter="1876">Nato a <placeName ref="#ARP">Arpino</placeName>, 1876</birth>
+                    <death notBefore="1962" notAfter="1962">Morto a <placeName ref="RO">Roma</placeName>, 1962</death>
+                    <certainty locus="value" cert="medium" target="https://www.guidedocartis.it/?page_id=15834"><desc>Guide DOC Artis: La documentazione del patrimonio culturale</desc></certainty>
+                    <note>La scultografia consiste nel realizzare delle composizioni in plastilina, per poi fotografarle.</note>
+                    
+                </person>
+                
+                <person xml:id="AN">
+                    <persName>
+                        <forename>Alfred</forename>
+                        <surname>Noyer</surname>
+                    </persName>                      
+                    <sex>M</sex>  
+                    <occupation>Fotografo</occupation>
+                    <note>Noyer era il proprietario di uno studio produttore di cartoline e fotografie con sede a <placeName ref="#PAR">Parigi</placeName>, attivo tra il secondo e il quinto decennio del 1900.</note>
+                    <certainty locus="value" cert="medium" target="http://www.metropostcard.com/publishersn.html"><desc>www.metropostcard.com</desc></certainty>
+                    
+                </person>
+            </listPerson>
+            
+            <listPlace>
+                
+                <place>
+                    <placeName ref="#RV">Ravenna</placeName>
+                    <settlement type="località">città</settlement>
+                    <district type="comune">Ravenna</district>
+                    <district type="provincia">RV</district>
+                    <country key="IT">IT</country>
+                    <note>Ravenna è la città del mittente. È anche il luogo di nascita del destinatario.</note>
+                </place>
+                
+                
+                <place>
+                    <placeName ref="#RO">Roma</placeName>
+                    <settlement type="località">città</settlement>
+                    <district type="comune">Roma</district>
+                    <district type="provincia">RO</district>
+                    <country key="IT">IT</country>
+                    <note>Roma è il luogo di morte dell'autore del fronte della cartolina.</note>
+                </place> 
+                
+                
+                <place xml:id="ARO">
+                    <placeName>Arona</placeName>
+                    <settlement type="località">città</settlement>
+                    <district type="comune">Arona</district>
+                    <district type="provincia">NO</district>
+                    <country key="IT">IT</country>
+                    <note>Arona è la città del destinatario.</note>
+                </place>
+                
+                
+                <place xml:id="CRE">
+                    <placeName>Crema</placeName>
+                    <settlement type="località">città</settlement>
+                    <district type="comune">Crema</district>
+                    <district type="provincia">CR</district>
+                    <country key="IT">IT</country>
+                    <note>Crema è probabilmente il luogo di residenza o nascita di una persona citata dal mittente nella cartolina.</note>
+                </place>
+                
+                
+                <place xml:id="LaMag">
+                    <geogName><geogFeat>Lago </geogFeat>Maggiore</geogName>                 
+                    <district type="provincia" n="1">NO</district>
+                    <district type="provincia" n="2">VB</district>
+                    <district type="provincia" n="3">VA</district>
+                    <district type="provincia" n="4"><placeName>Distretto di Locarno</placeName></district>
+                    <country key="IT">Italia</country>
+                    <country key="CH"><placeName>Svizzera</placeName></country>
+                    <note>La città del destinatario si trova sulle rive del Lago Maggiore.</note>
+                </place>
+                
+                <place xml:id="PAR">
+                    <placeName>Parigi</placeName>
+                    <settlement type="località">città</settlement>
+                    <country key="FR">Francia</country>
+                    <note>Parigi è la sede dell'editore della cartolina.</note>
+                </place>
+                
+                <place xml:id="ARP">
+                    <placeName>Arpino</placeName>
+                    <settlement type="località">città</settlement>
+                    <district type="comune">Arpino</district>
+                    <district type="provincia">FR</district>
+                    <country key="IT">IT</country>
+                    <note>Arpino è il luogo di nascita dell'autore del fronte della cartolina.</note>
+                </place>
+                
+            </listPlace> 
+            
+            <listOrg>
+                <org>
+                    <orgName ref="#UNIPI"> Università di <settlement ref="#PI"> Pisa </settlement> </orgName>
+                    <event when="1343-09-03"> <p>Fondata il 3 settembre 1343.</p> </event>
+                    <note>
+                        <ref target="https://www.unipi.it/index.php/presentazione/item/1340-storia-delluniversit%C3%A0">Università di Pisa</ref>
+                    </note>
+                </org>
+                
+                <org>
+                    <orgName ref="#UNIBO"> Università di <settlement ref="#BO"> Bologna </settlement> </orgName>
+                    <event when="1088"><p>Fondata nel 1088.</p></event>
+                    <note>
+                        <ref  target="https://www.unibo.it/it/ateneo/chi-siamo/la-nostra-storia/i-numeri-della-storia"><desc>Università di Bologna</desc></ref>
+                    </note>
+                    <note>È l'università più antica del mondo.</note>
+                </org>
+            </listOrg>
+        </sourceDesc>  
+        </fileDesc>
+        
+       <profileDesc>
+           <correspDesc>
+               <correspAction type="sent">
+                   <persName ref="#GT" />
+                   <placeName ref="#RA" />
+                   <!-- DATA data di invio da timbro (postage) o da manoscritto (writing) -->
+                   <date type="writing" when="1913-08-01">01/08/1913</date>
+                   
+               </correspAction>
+               <correspAction type="received">
+                   <persName ref="OT" />
+                   <placeName ref="#ARO" />
+                   <date type="postage" when="1913-08-03">03/08/1913</date>
+               </correspAction>
+           </correspDesc>
+            
+       </profileDesc>
+        
+        <encodingDesc>
+            <editorialDecl>
+                <interpretation>
+                    <p>
+                        <list>                                                                                
+                            <item>
+                                <choice>
+                                    <expan>Numero</expan>
+                                    <abbr>N.</abbr>
+                                </choice>
+                            </item>
+                            
+                            <item> 
+                                <choice xml:id="sig"> 
+                                    <expan> signore </expan> 
+                                    <abbr type="titolo"> sig.re </abbr>
+                                </choice> 
+                            </item> 
+                            
+                        </list>
+                    </p>
+                </interpretation>
+            </editorialDecl>
+        </encodingDesc>   
+        
+    </teiHeader>
+    
+    <!-- DEFINIZIONE -->
+    <text type="cartolina" xml:id="cartolina65" n="3">
+        <!-- TRASCRIZIONE -->
+        <body xml:lang="ita">
+            <div xml:id="cartolina65_fronte" type="fronte">
+                <figure>
+                    <pb facs="#facsfronte65" xml:id="fronte65"></pb>
+                    <figDesc>Coppia di innamorati in un bosco, lei su di un'amaca</figDesc>
+                    <head> La balancoire improvisee </head>
+                    <bibl> 
+                        <autor><persName ref="#DM" type="author">D.Mastroianni</persName></autor>  
+                    </bibl>
+                </figure>
+            </div>
+            
+            <div xml:id="cartolina65_retro" type="retro">
+                <pb facs="#facsretro65" xml:id="retro65"/>
+                <div type="rtrArchivio" xml:id="Archivio65">
+                    <p> 
+                        <num type="cardinal"> 
+                            <idno> 65 </idno> 
+                        </num> 
+                    </p>  
+                </div>
+                
+                <div type="rtr" rend="vertical" xml:id="copyright65"> 
+                    <p xml:lang='eng'> <lb/> Copyright by A. Noyer 1918 - Allegorie <abbr> N <ptr target="#N"/> </abbr> <num type="cardinal"><idno> 242 </idno> </num> </p>
+                    <p xml:lang='fra'> <lb/> Raproddotion interdite on tous pays </p>
+                </div>
+                
+                    <div type="message">
+                        
+                        <div type="opener">                  
+                            <dateline>
+                                <placeName ref="#RA">  Ravenna </placeName>, 
+                                <date when="1913-08-01"> 1-VIII-913 </date>
+                            </dateline>                 
+                        </div>
+                        <div>
+                            <p> <lb/> A Ravenna nulla di nuo </p>
+                            <p> <lb break="no"/> vo. Salute ottima. </p>
+                            <p> <lb/> Oggi ho ricevuto una cartoli </p>
+                            <p> <lb break="no"/> na dalla <persName ref="#Car"> Carolina </persName> da <name type="place" ref="#CRE">Crema</name>. </p>
+                            <p> <lb/> Non so come contraccambiar </p>
+                            <p> <lb break="no"/> la avendone ora perduto </p>
+                            <p> <lb/> le <sic>traccie</sic>. È una lepre </p>
+                            <p> <lb/> quella più svelta di te </p>
+                            <p> <lb/> e tiene il <distinct type="forma_desueta"> récord </distinct> dei viag </p>
+                            <p> <lb break="no"/> gi : se mi dirai l'indi </p>
+                            <p> <lb break="no"/> rizzo la raggiungerò con </p>
+                            <p> <lb/> una cartolina. Ieri l'al </p>
+                            <p> <lb break="no"/> tro ti scrissi e ora avrai </p>
+                            <p> <lb/> già ricevuto. I tuoi di </p>
+                            <p> <lb/> casa ti salutano con me. </p>
+                            <p> <lb/> divertiti e <orig>sta'</orig> allegra </p>
+                            <lb/> <closer style="standard"> <signed> <persName ref="#GT"> Giuseppe  </persName> </signed> </closer>
+                    </div>
+                    <div type="destination">
+                        <p>
+                            <stamp type="postmark"> 
+                                <mentioned> <placeName ref="#AR">  ARONA </placeName> <placeName ref="#NO"> <unclear reason="damage"> NOVARA </unclear> </placeName> </mentioned>
+                                <date when="1913-08"> <unclear reason="damage"> 3-8 13 </unclear>-9 </date>
+                            </stamp>
+                            <stamp type="postmark"> 
+                                <mentioned> <unclear reason="damage"> <placeName ref="#RA">  RAVENNA </placeName> </unclear> <unclear reason="damage"> ARRIVI E PARTENZE </unclear> </mentioned>
+                                <date when="1913-08"> 2 <unclear reason="damage"> 8-13 </unclear> 4M </date>
+                            </stamp>
+                            <stamp type="postmark"> 
+                                <mentioned> <unclear reason="damage"> <placeName ref="#RA">  RAVENNA </placeName> </unclear> <unclear reason="damage"> ARRIVI E PARTENZE </unclear> </mentioned>
+                                <date when="1913-08"> 2 <unclear reason="damage"> 8-13 </unclear> 4M </date>
+                            </stamp>
+                            <stamp type="postage"> Francobollo da 10 centesimi del Regno d'Italia </stamp>
+                        </p>
+                        
+                        <p>
+                            <address>
+                                <addrLine> 
+                                    Signorina
+                                </addrLine>
+                                <addrLine>
+                                    <persName ref="#OT">
+                                        <forename> Olivia </forename>
+                                        <surname> Turtura </surname>  
+                                   </persName>
+                                </addrLine>
+                                <addrLine> presso 
+                                    <abbr type="titolo">sig. <ptr target="#sig"/></abbr> <surname> Cibecchini </surname>
+                                    Via
+                                    <persName> 
+                                        <surname> Cavour </surname>
+                                    </persName>  
+                                    <num type="cardinal"> 12 </num>
+                                </addrLine>
+                                <addrLine>
+                                    <placeName ref="#LaMag">(Lago Maggiore)</placeName><placeName ref="#ARO"> Arona </placeName>
+                                </addrLine>
+                            </address>
+                        </p>
+                </div>
+            </div>
+        </div>
+       </body>     
+    </text>
+    
+    <facsimile>
+        <surface xml:id="facsfronte65" start="#cartolina65_fronte"> 
+            <graphic url='065F.jpg' />
+                
+        </surface>
+        
+        <surface xml:id="facsretro65" start="#cartolina65_retro"> 
+            <!-- Normalizza url -->
+            <graphic url='065R.jpg' width='1642px' height='1055px' />
+            <zone xml:id="riga65_1" ulx="813" uly="20" lrx="899" lry="69" />
+            <zone xml:id="riga65_2" ulx="895" uly="87" lrx="1583" lry="439" />
+            <zone xml:id="riga65_3" ulx="904" uly="443" lrx="1591" lry="994" />
+            <zone xml:id="riga65_4" ulx="113" uly="20" lrx="787" lry="1032" />
+            <zone xml:id="riga65_5" ulx="25" uly="356" lrx="96" lry="836" />
+            
+        </surface>
+    </facsimile>
+</TEI>

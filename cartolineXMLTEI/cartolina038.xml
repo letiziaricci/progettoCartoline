@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="cartolina_7694-038">
+   <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+      <fileDesc>
+         <titleStmt>
+            <title>Donna che scrive - Edizione digitale</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <choice>
+                  <abbr>Unipi</abbr>
+                  <expan instant="false">Università di
+                            <placeName ref="list.xml#PI" instant="false" full="yes">Pisa</placeName>
+                  </expan>
+               </choice>
+            </publisher>
+            <pubPlace ref="list.xml#PI">Pisa</pubPlace>
+            <availability default="false">
+               <p part="N">Available under licence only</p>
+            </availability>
+            <date when="2019" instant="false">2019</date>
+            <distributor>
+               <orgName ref="list.xml#LCD" instant="false" full="yes">
+                  <choice>
+                     <abbr>LabCD</abbr>
+                     <expan instant="false">Laboratorio di Cultura Digitale</expan>
+                  </choice>
+               </orgName>
+            </distributor>
+            <address>
+               <addrLine>Laboratorio di Cultura Digitale - Università di Pisa</addrLine>
+               <addrLine>
+                  <placeName ref="list.xml#PI" instant="false" full="yes">Pisa</placeName>
+               </addrLine>
+            </address>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <bibl default="false" status="draft">
+               <title type="custom" resp="list.xml#ES">Donna che scrive</title>
+               <!-- PRODUZIONE Chi ha prodotto / pubblicato la cartolina. Se non presente togliere il tag  -->
+               <publisher>
+                  <orgName ref="list.xml#DGM" instant="false" full="yes">D.G.M.</orgName>
+               </publisher>
+            </bibl>
+            <msDesc status="draft"><!-- descrizione del manoscritto -->
+               <msIdentifier><!-- info per identificare il manoscritto -->
+                  <country ref="list.xml#IT">Italia</country>
+                  <settlement ref="list.xml#SP">La Spezia (SP)</settlement>
+                  <!-- collocazione specifica -->
+                  <repository ref="list.xml#MCE">Museo Civico Etnografico "Giovanni Podenzana", Sezione dei cimeli garibaldini e della Prima Guerrra Mondiale</repository>
+                  <!-- codice identificativo -->
+                  <idno type="postcard_id">7694_038_001/002</idno>
+               </msIdentifier>
+               <!-- Informazioni sul contenuto della cartolina -->
+               <!-- DESCRIZIONE -->
+               <msContents>
+                  <summary>Cartolina Artistica</summary>
+                  <textLang mainLang="ita">Italiano</textLang>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType>Cartolina</objectType>
+                           <!-- MATERIALI -->
+                           <material>Carta</material>
+                           <!-- DIMENSIONE -->
+                           <dimensions unit="cm">
+                              <height>9</height>
+                              <width>14</width>
+                           </dimensions>
+                           <stamp type="postage">Francobollo da 10 centesimi delle Poste Italiane di colore rosso</stamp>
+                           <stamp type="postmark">Timbro di partenza, circolare poco visibile</stamp>
+                           <stamp type="postmark">Timbro di partenza, circolare poco visibile</stamp>
+                           <stamp type="postmark">Timbro di arrivo, circolare poco visibile</stamp>
+                        </support>
+                        <condition>Buono</condition>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc default="false">
+            <correspAction type="sent">
+               <persName ref="list.xml#GMM" instant="false" full="yes">Giuseppe Magi Morfede</persName>
+               <placeName ref="list.xml#FI" instant="false" full="yes">Firenze</placeName>
+               <!-- DATA data di invio da timbro (postage) o da manoscritto (writing) -->
+               <date type="postage" when="1916-12-20" instant="false">1916/12/20</date>
+               <date type="writing" when="1916-12-20" instant="false">1916/12/20</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="list.xml#OT" instant="false" full="yes">Oliva Turtura</persName>
+               <placeName ref="list.xml#RV" instant="false" full="yes">Ravenna</placeName>
+            </correspAction>
+         </correspDesc>
+         <textClass default="false">
+            <keywords scheme=""><!-- soggettario --><!-- tipologia --><!-- descrizione -->
+               <term>Cartolina </term>
+               <term>Cartolina Artistica </term>
+               <term>Coppia di innamorati</term>
+            </keywords>
+         </textClass>
+         <langUsage default="false">
+            <language ident="it-IT">italiano</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <facsimile xmlns="http://www.tei-c.org/ns/1.0">
+      <surface n="1">
+         <graphic url="img-cartoline/7694-038F.jpg" width="1056px" height="1647px"/>
+         <zone xml:id="zone_fronte"
+               ulx="299"
+               uly="243"
+               lrx="926"
+               lry="456"
+               rotate="0"/>
+      </surface>
+      <!-- Zona Retro -->
+      <surface n="2" xml:id="Retro_cartolina3">
+         <graphic url="img-cartoline/7694-038R.jpg" width="1656px" height="1056px"/>
+         <zone xml:id="zone_retro"
+               ulx="42"
+               uly="26"
+               lrx="1644"
+               lry="1021"
+               rotate="0"/>
+         <zone xml:id="zone_mandata"
+               ulx="57"
+               uly="58"
+               lrx="721"
+               lry="898"
+               rotate="0"/>
+         <zone xml:id="zone_timbre"
+               ulx="781"
+               uly="50"
+               lrx="1619"
+               lry="442"
+               rotate="0"/>
+         <zone xml:id="zone_destinazione"
+               ulx="799"
+               uly="445"
+               lrx="1639"
+               lry="976"
+               rotate="0"/>
+         <note anchored="true">Sul retro ci sono tre timbri</note>
+      </surface>
+   </facsimile>
+   <text>
+      <front xmlns="http://www.tei-c.org/ns/1.0"><!-- testo tipografico -->
+         <div type="tipografia" part="N" org="uniform" sample="complete">
+            <p part="N">
+               <s rend="writing-mode(horizontal-lr) text-orientation(sideways)" part="N">
+                  <orgName ref="list.xml#DGM" type="tipography" instant="false" full="yes">D.G.M.</orgName>
+               </s>
+            </p>
+            <p part="N">
+               <s rend="writing-mode(vertical-lr) text-orientation(sideways)" part="N">
+                             Proprietà artistica riservata N. 143 - 1
+                        </s>
+            </p>
+         </div>
+      </front>
+      <body xmlns="http://www.tei-c.org/ns/1.0">
+         <div type="fronte" part="N" org="uniform" sample="complete">
+            <figure>
+               <graphic url="img-cartoline/7694-038F.jpg"/>
+               <figDesc>Viso di una donna elegante con cappellino nero e pelliccia nell'atto di scrivere.</figDesc>
+               <head>Donna che scrive</head>
+            </figure>
+         </div>
+         <div type="retro" part="N" org="uniform" sample="complete">
+            <div type="message" part="N" org="uniform" sample="complete">
+               <opener>
+                  <dateline>
+                     <lb n="1"/>
+                     <s part="N">
+                        <placeName ref="list.xml#FI" instant="false" full="yes">Firenze</placeName>
+                        <date when="1916-12-20" instant="false">20-XII-916</date>
+                     </s>
+                  </dateline>
+               </opener>
+               <div type="postcard-body" part="N" org="uniform" sample="complete">
+                  <p part="N">
+                     <lb n="2"/>
+                              A lei e famiglia
+                              <lb n="3"/>
+                              i mie migliori
+                              <lb n="4"/>
+                              cordiali, affettuosissimi
+                              <lb n="5"/>
+                              auguri
+                        </p>
+               </div>
+               <closer>
+                  <s part="N">
+                     <lb n="6"/>
+                              Aff.mo 
+                        </s>
+                  <lb n="7"/>
+                  <signed>
+                     <persName ref="list.xml#GMM" instant="false" full="yes">
+                        <surname full="yes">Magi</surname>
+                        <surname full="yes">Morfede</surname>
+                     </persName>
+                  </signed>
+               </closer>
+            </div>
+            <div type="address-destination"
+                 part="N"
+                 org="uniform"
+                 sample="complete">
+               <p part="N">
+                  <address>
+                     <addrLine>
+                        <lb n="8"/>
+                              Gent.ssa Sig.na
+                              <lb n="9"/>
+                              Sig.na Oliva Turtura
+                              <lb n="10"/>
+                              Via Girolamo Rossi 58
+                              <lb n="11"/>
+                              Ravenna
+                        </addrLine>
+                  </address>
+               </p>
+            </div>
+            <div type="postmark-postage"
+                 part="N"
+                 org="uniform"
+                 sample="complete">
+               <ab part="N">
+                  <stamp type="postmark">
+                     <mentioned rend="circle">
+                        <unclear reason="faded" agent="time" cert="medium" instant="false">RAVENNA</unclear>
+                        <gap reason="illegible"
+                             agent="ink"
+                             atLeast="4"
+                             atMost="15"
+                             unit="chars"
+                             instant="false"/>
+                        <mentioned>
+                           <hi rend="align(center)">
+                              <unclear reason="faded" agent="time" cert="medium" instant="false">21.12.18</unclear>
+                              <gap reason="illegible"
+                                   agent="faded"
+                                   atLeast="2"
+                                   atMost="4"
+                                   unit="chars"
+                                   instant="false"/>
+                           </hi>
+                        </mentioned>
+                     </mentioned>
+                  </stamp>
+                  <stamp type="postmark">
+                     <mentioned rend="circle">
+                        <unclear reason="faded" agent="time" cert="medium" instant="false">FIRENZE</unclear>
+                        <gap reason="illegible"
+                             agent="ink"
+                             atLeast="15"
+                             atMost="25"
+                             unit="chars"
+                             instant="false"/>
+                        <mentioned>
+                           <hi rend="align(center)">
+                              <unclear reason="faded" agent="time" cert="medium" instant="false">20.12.18</unclear>
+                              <gap reason="illegible"
+                                   agent="faded"
+                                   atLeast="2"
+                                   atMost="4"
+                                   unit="chars"
+                                   instant="false"/>
+                           </hi>
+                        </mentioned>
+                     </mentioned>
+                  </stamp>
+                  <stamp type="postmark">
+                     <mentioned rend="circle">
+                        <gap reason="illegible"
+                             agent="ink"
+                             atLeast="15"
+                             atMost="25"
+                             unit="chars"
+                             instant="false"/>
+                        <mentioned>
+                           <hi rend="align(center)">
+                              <unclear reason="faded" agent="time" cert="medium" instant="false">20.12.18</unclear>
+                              <gap reason="illegible"
+                                   agent="faded"
+                                   atLeast="2"
+                                   atMost="4"
+                                   unit="chars"
+                                   instant="false"/>
+                           </hi>
+                        </mentioned>
+                     </mentioned>
+                  </stamp>
+                  <stamp type="postage">
+                     <mentioned rend="color(red)">
+                        <orgName ref="list.xml#oPI" instant="false" full="yes">Poste italiane</orgName>
+                        <hi>
+                           <num rend="double" type="cardinal" value="10">10</num>
+                                                      centesimi
+                                                      <num rend="double" type="cardinal" value="10">10</num>
+                        </hi>
+                     </mentioned>
+                  </stamp>
+               </ab>
+            </div>
+            <div type="secondamano" part="N" org="uniform" sample="complete">
+               <ab type="paratext" part="N">
+                  <add instant="false" status="unremarkable">
+                     <num type="cardinal" value="38">
+                               38
+                    </num>
+                  </add>
+               </ab>
+            </div>
+         </div>
+      </body>
+      <back>
+         <div type="linguistic">
+            <ab>
+               <seg lemma="a">
+                  <w type="form">A</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="lei">
+                  <w type="form">lei</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="e">
+                  <w type="form">e</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="famiglia">
+                  <w type="form">famiglia</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="il">
+                  <w type="form">i</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="mio">
+                  <w type="form">mie</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="migliore">
+                  <w type="form">migliori</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="cordiale">
+                  <w type="form">cordiali</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma=",">
+                  <w type="form">,</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="affettuoso">
+                  <w type="form">affettuosissimi</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="augurio">
+                  <w type="form">auguri</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+            </ab>
+         </div>
+      </back>
+   </text>
+</TEI>

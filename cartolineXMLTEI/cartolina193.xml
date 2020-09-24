@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="cartolina_7694-193">
+   <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+      <fileDesc>
+         <titleStmt>
+            <title>La Madonna del cardellino - Edizione digitale</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <choice>
+                  <abbr>Unipi</abbr>
+                  <expan instant="false">Università di
+                            <placeName ref="list.xml#PI" instant="false" full="yes">Pisa</placeName>
+                  </expan>
+               </choice>
+            </publisher>
+            <pubPlace ref="list.xml#PI">Pisa</pubPlace>
+            <availability default="false">
+               <p part="N">Available under licence only</p>
+            </availability>
+            <date when="2019" instant="false">2019</date>
+            <distributor>
+               <orgName ref="list.xml#LCD" instant="false" full="yes">
+                  <choice>
+                     <abbr>LabCD</abbr>
+                     <expan instant="false">Laboratorio di Cultura Digitale</expan>
+                  </choice>
+               </orgName>
+            </distributor>
+            <address>
+               <addrLine>Laboratorio di Cultura Digitale - Università di Pisa</addrLine>
+               <addrLine>
+                  <placeName ref="list.xml#PI" instant="false" full="yes">Pisa</placeName>
+               </addrLine>
+            </address>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <bibl default="false" status="draft">
+               <title>La Madonna del cardellino</title>
+               <author>
+                  <persName ref="list.xml#RS" instant="false" full="yes">Raffaello Sanzio</persName>
+               </author>
+               <date when="1506" instant="false">1506</date>
+               <publisher>
+                  <orgName ref="list.xml#AL" instant="false" full="yes">Alfieri Lacroix</orgName>
+               </publisher>
+               <pubPlace ref="list.xml#MI">Milano</pubPlace>
+            </bibl>
+            <msDesc status="draft"><!-- descrizione del manoscritto -->
+               <msIdentifier><!-- info per identificare il manoscritto -->
+                  <country ref="list.xml#IT">Italia</country>
+                  <settlement ref="list.xml#SP">La Spezia (SP)</settlement>
+                  <!-- collocazione specifica -->
+                  <repository ref="list.xml#MCE">Museo Civico Etnografico "Giovanni Podenzana", Sezione dei cimeli garibaldini e della Prima Guerrra Mondiale</repository>
+                  <!-- codice identificativo -->
+                  <idno type="postcard_id">7694_193_001/002</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Cartolina Artistica</summary>
+                  <textLang mainLang="ita">Italiano</textLang>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType>Cartolina</objectType>
+                           <material>Carta</material>
+                           <dimensions unit="cm">
+                              <height>9</height>
+                              <width>14</width>
+                           </dimensions>
+                        </support>
+                        <condition>Buone</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>
+                        <p part="N"> Il testo presente nel recto appartiene a due mani
+                              differenti</p>
+                     </handNote>
+                     <handNote>
+                        <p part="N">Nell'angolo in alto a destra della parte superiore della
+                              cartolina è presente un 193, numero di inventario della cartolina, aggiunto dal catalogatore.</p>
+                     </handNote>
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc default="false">
+            <correspAction type="sent">
+               <persName ref="list.xml#GT" instant="false" full="yes">Giuseppe</persName>
+               <date when="27/01/1918" instant="false">27 gennaio 1918</date>
+               <placeName ref="list.xml#ME" instant="false" full="yes">Mestre</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="list.xml#AT" instant="false" full="yes">Antonietta Turtura</persName>
+               <placeName ref="list.xml#RV" instant="false" full="yes">Ravenna</placeName>
+            </correspAction>
+         </correspDesc>
+         <langUsage default="false">
+            <language ident="it-IT" usage="100">Italiano</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <facsimile xmlns="http://www.tei-c.org/ns/1.0"
+              xml:id="cartolina_193">
+      <surfaceGrp>
+         <surface xml:id="cartolina_facs_193_f" type="fronte_cartolina">
+            <graphic url="img-cartoline/7694-193F.jpg"
+                     width="390px"
+                     height="602px"
+                     xml:id="f_cartolina_193"/>
+         </surface>
+         <surface xml:id="cartolina_facs_193_r" type="recto_cartolina">
+            <graphic url="img-cartoline/7694-193R.jpg" width="389px" height="602px"/>
+            <!-- TESTO -->
+            <zone type="handWriting"
+                  xml:id="lineText_1-193"
+                  start="#lineText-1-193"
+                  ulx="12"
+                  uly="769"
+                  lrx="121"
+                  lry="1192"
+                  rotate="0"/>
+            <!-- data invio e luogo -->
+            <zone type="handWriting"
+                  xml:id="lineText_2-193"
+                  start="#lineText-2-193"
+                  ulx="126"
+                  uly="725"
+                  lrx="342"
+                  lry="1246"
+                  rotate="0"/>
+            <!-- saluti affettuosi -->
+            <zone type="handWriting"
+                  xml:id="lineText_3-193"
+                  start="#lineText-3-193"
+                  ulx="342"
+                  uly="707"
+                  lrx="426"
+                  lry="1201"
+                  rotate="0"/>
+            <!-- a voi e famiglia -->
+            <zone type="handWriting"
+                  xml:id="lineText_4-193"
+                  start="#lineText-4-193"
+                  ulx="438"
+                  uly="700"
+                  lrx="550"
+                  lry="1075"
+                  rotate="0"/>
+            <!-- cugino Giuseppe -->
+            <!-- INDIRIZZO -->
+            <zone type="handWriting"
+                  xml:id="lineText_5-193"
+                  start="#lineText-5-193"
+                  ulx="313"
+                  uly="28"
+                  lrx="441"
+                  lry="640"
+                  rotate="0"/>
+            <!-- distinta signorina -->
+            <zone type="handWriting"
+                  xml:id="lineText_6-193"
+                  start="#lineText-6-193"
+                  ulx="400"
+                  uly="46"
+                  lrx="565"
+                  lry="673"
+                  rotate="0"/>
+            <!-- Antonietta Turtura -->
+            <zone type="handWriting"
+                  xml:id="lineText_7-193"
+                  start="#lineText-7-193"
+                  ulx="532"
+                  uly="148"
+                  lrx="646"
+                  lry="667"
+                  rotate="0"/>
+            <!-- Via Girolamo Rossi 58 -->
+            <zone type="handWriting"
+                  xml:id="lineText_8-193"
+                  start="#lineText-8-193"
+                  ulx="666"
+                  uly="55"
+                  lrx="808"
+                  lry="500"
+                  rotate="0"/>
+            <!-- Ravenna -->
+            <!-- STAMPE -->
+            <zone type="catalog"
+                  xml:id="number193_193"
+                  start="#number193-193"
+                  ulx="42"
+                  uly="398"
+                  lrx="150"
+                  lry="505"
+                  rotate="0"/>
+            <!-- 193 -->
+            <zone type="postage"
+                  xml:id="postage_193"
+                  start="#postage-193"
+                  ulx="18"
+                  uly="43"
+                  lrx="277"
+                  lry="332"
+                  rotate="0"/>
+            <!-- timbro posta militare -->
+            <zone type="postmark"
+                  xml:id="postmark_193"
+                  start="#postmark-193"
+                  ulx="57"
+                  uly="49"
+                  lrx="297"
+                  lry="281"
+                  rotate="0"/>
+            <!-- francobollo -->
+            <zone type="stamp"
+                  xml:id="stamp1_193"
+                  start="#stamp1-193"
+                  points=" 205,428 186,466 526,809 573,751"
+                  rotate="0"/>
+            <!-- verificato per censura -->
+            <zone type="stamp"
+                  xml:id="stamp2_193"
+                  start="#stamp2-193"
+                  ulx="505"
+                  uly="719"
+                  lrx="816"
+                  lry="1015"
+                  rotate="0"/>
+            <!-- timbro non del tutto leggibile -->
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <front xmlns="http://www.tei-c.org/ns/1.0"><!-- testo tipografico -->
+         <div type="tipografia" part="N" org="uniform" sample="complete">
+            <p part="N">
+               <s rend="writing-mode(vertical-lr) text-orientation(sideways)" part="N">
+                  <orgName ref="list.xml#AL" type="typography" instant="false" full="yes">
+                                    Alfieri &amp; Lacroix,
+                                    <placeName ref="list.xml#MI" instant="false" full="yes">Milano</placeName> - 
+                              </orgName>
+                              Editori - Proprietà riservata
+                        </s>
+            </p>
+            <p part="N">
+               <s rend="writing-mode(horizontal-lr) text-orientation(sideways)" part="N">
+                              Nr. <num type="cardinal" value="1504">1504</num>
+                  <persName ref="list.xml#oEF" type="author" instant="false" full="yes">
+                                    RAFFAELLO SANZIO 
+                              </persName> - 
+                              La Madonna del cardellino.
+                              <placeName ref="list.xml#FI" instant="false" full="yes">Firenze</placeName>, Riv. Galleria degli Uffizi.
+                        </s>
+            </p>
+         </div>
+      </front>
+      <body xmlns="http://www.tei-c.org/ns/1.0">
+            <div type="fronte" part="N" org="uniform" sample="complete">
+                  <figure>
+                        <figDesc>La Vergine è seduta sulle rocce, i due bambini, Gesù Bambino e San Giovanni Battista, giocano con un cardellino.
+                        </figDesc>
+                        <head>Madonna del cardellino</head>
+                  </figure>
+               </div>
+         <div type="retro" part="N" org="uniform" sample="complete">
+            <div type="message" part="N" org="uniform" sample="complete">
+               <opener>
+                  <dateline>
+                     <lb n="1" facs="#lineText_1-193" xml:id="lineText-1-193"/>
+                     <s part="N">
+                        <placeName ref="list.xml#ME" instant="false" full="yes">Mestre</placeName>
+                        <date when="1918-01-27" instant="false">27-1-918</date>.
+                              </s>
+                  </dateline>
+               </opener>
+               <div type="postcard-body" part="N" org="uniform" sample="complete">
+                  <p part="N">
+                     <lb n="2" facs="#lineText_2-193" xml:id="lineText-2-193"/>
+                              Saluti affettuosi
+                              <lb n="3" facs="#lineText_3-193" xml:id="lineText-3-193"/>
+                              a <unclear agent="mildew" resp="list.xml#LR" instant="false">voi e</unclear> famiglia
+                        </p>
+               </div>
+               <closer>
+                  <lb n="4" facs="#lineText_4-193" xml:id="lineText-4-193"/>
+                        cugino
+                        <signed>
+                     <persName instant="false" full="yes">
+                        <forename ref="list.xml#G" full="yes">Giuseppe</forename>
+                     </persName>
+                  </signed>
+               </closer>
+            </div>
+            <div type="address-destination"
+                 part="N"
+                 org="uniform"
+                 sample="complete">
+               <p part="N">
+                  <address>
+                     <addrLine>
+                        <lb n="5" facs="#lineText_5-193" xml:id="lineText-5-193"/>
+                              Distinta Signorina
+                              <lb n="6" facs="#lineText_6-193" xml:id="lineText-6-193"/>
+                              Antonietta Turtura
+                              <lb n="7" facs="#lineText_7-193" xml:id="lineText-7-193"/>
+                              Via Girolamo Rossi 58
+                              <lb n="8" facs="#lineText_8-193" xml:id="lineText-8-193"/>
+                              Ravenna
+                     </addrLine>
+                  </address>
+               </p>
+            </div>
+            <div type="postmark-postage"
+                 part="N"
+                 org="uniform"
+                 sample="complete">
+               <ab part="N">
+                  <stamp type="postmark" facs="#postmark_193" xml:id="postmark-193">
+                     <note anchored="true">Francobollo del Regno d'Italia da 5 centesimi delle Poste
+                                    Italiane con il volto di profilo di Vittorio Emanuele III</note>
+                  </stamp>
+                  <stamp type="postage" facs="#postage_193" xml:id="postage-193">
+                     <mentioned>POSTA MILITARE <unclear reason="illegible" instant="false">INT</unclear>
+                                    3° ARMATA </mentioned>
+                     <date when="2018-1-27" instant="false">27.1.18</date>
+                     <note anchored="true"> Timbro di partenza al di sopra del francobollo nell'angolo in
+                                    alto a destra, quasi del tutto leggibile, ad eccezione della
+                                    parte inferiore, che risulta invece scolorita. </note>
+                  </stamp>
+                  <stamp type="stamp" facs="#stamp2_193" xml:id="stamp2-193">
+                     <mentioned> SEZIONE PANET<unclear reason="illegible" instant="false"/>
+                     </mentioned>
+                     <note anchored="true"> Timbro che risulta fortemente
+                                    scolorito e in gran parte illeggibile. </note>
+                  </stamp>
+                  <stamp type="stamp" facs="#stamp1_193" xml:id="stamp1-193">
+                     <mentioned> VERIFICATO PER CENSURA </mentioned>
+                     <note xml:id="nota_censura" anchored="true"> Timbro apposto in diagonale nella parte
+                                    centrale della cartolina parzialmente scolorito nella parte
+                                    inferiore ma leggibile. La censura postale venne istituita il 23
+                                    maggio 1915, il giorno prima dell'entrata in guerra contro
+                                    l'Austria-Ungheria. Essa prevedeva di non poter inviare
+                                    cartoline illustrate con paesaggi o panorami di città, oltre al
+                                    non poter usare sistemi criptati di comunicazione. </note>
+                  </stamp>
+               </ab>
+            </div>
+            <div type="secondamano" part="N" org="uniform" sample="complete">
+               <ab type="paratext" part="N">
+                  <add facs="#number193_193"
+                       xml:id="number193-193"
+                       instant="false"
+                       status="unremarkable">
+                     <num type="cardinal">193</num>
+                  </add>
+               </ab>
+            </div>
+         </div>
+      </body>
+      <back>
+         <div type="linguistic">
+            <ab>
+               <seg lemma="saluto">
+                  <w type="form">Saluti</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="affettuoso">
+                  <w type="form">affettuosi</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="a">
+                  <w type="form">a</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="voi">
+                  <w type="form">voi</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="e">
+                  <w type="form">e</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="famiglia">
+                  <w type="form">famiglia</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="cugino">
+                  <w type="form">cugino</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="Giuseppe">
+                  <w type="form">Giuseppe</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+            </ab>
+         </div>
+      </back>
+   </text>
+</TEI>

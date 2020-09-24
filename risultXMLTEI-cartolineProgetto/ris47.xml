@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cartolina_7694-047" >
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>L'abbeveratoio - Edizione Digitale</title>
+            </titleStmt>
+            <publicationStmt>
+                    <!-- contiene informazioni sulla pubblicazione e distribuzione del documento digitale -->
+                    <publisher>
+                          <choice>
+                                <abbr>Unipi</abbr>
+                                <expan>
+                                      Università di
+                                      <placeName ref="list.xml#PI">Pisa</placeName>
+                                </expan>
+                          </choice>
+                    </publisher>
+                    <pubPlace ref="list.xml#PI">Pisa</pubPlace>
+                    <availability>
+                          <p>Available under licence only</p>
+                    </availability>
+                    <date when="2019">2019</date>
+                    <distributor>
+                          <orgName ref="list.xml#LCD">
+                                <choice>
+                                      <abbr>LabCD</abbr>
+                                      <expan>Laboratorio di Cultura Digitale</expan>
+                                </choice>
+                          </orgName>
+                    </distributor>
+                    <address>
+                          <addrLine>Laboratorio di Cultura Digitale - Università di Pisa</addrLine>
+                          <addrLine>
+                                <placeName ref="list.xml#PI">Pisa</placeName>
+                          </addrLine>
+                    </address>
+            </publicationStmt> 
+            <sourceDesc>
+                <!-- contiene informazoni relative alla fonte originale -->
+                <bibl type="postcard">
+                        <title type="custom" resp="list.xml#ES">[Pace agli uomini di buona volontà]</title> <!-- titolo tra parentesi quadre perchè titolo formulato da terzi-->
+                        <author>
+                              <persName ref="list.xml#LB">L. Bazzaro</persName>
+                        </author>
+                  </bibl>  
+                <msDesc>
+                    <!-- descrizione del manoscritto -->
+                    <msIdentifier>
+                            <!-- info per identificare il manoscritto -->
+                            <country ref="list.xml#IT">Italia</country>
+                            <settlement ref="list.xml#SP">La Spezia (SP)</settlement>
+                            <!-- collocazione specifica -->
+                            <repository ref="list.xml#MCE">Museo Civico Etnografico "Giovanni Podenzana", Sezione dei cimeli garibaldini e della Prima Guerrra Mondiale</repository>
+                            <!-- codice identificativo -->
+                            <idno type="postcard_id">7694_047_001/002</idno>
+                      </msIdentifier> 
+                    <!-- Informazioni sul contenuto della cartolina -->
+                    <!-- DESCRIZIONE -->
+                    <msContents>                        
+                        <summary>Cartolina Artistica</summary>
+                        <textLang  mainLang="ita">Italiano</textLang>
+                    </msContents> 
+                    <!-- Physical Description:  -->
+                    <physDesc>
+                        <objectDesc>      
+                            <supportDesc>  
+                                <support>
+                                    <objectType>Cartolina</objectType>
+                                    <material>Carta</material>
+                                    <dimensions unit="cm">
+                                              <height>9</height>
+                                              <width>14</width>
+                                    </dimensions>
+                                    <stamp type="postage" n="1"> Francobollo - Regno d'Italia </stamp>
+                                    <stamp type="postage" n="2"> Francobollo - Regno d'Italia </stamp>
+                                    <stamp type="postmark" n="1"> Timbro della Ferrovia </stamp>
+                                    <stamp type="postmark" n="2"> Timbro della Ferrovia </stamp>
+                                    <stamp type="postmark" n="3"> Timbro illeggibile </stamp>
+                                    <note> Nella parte superiore dei due timbri che riportano la scritta "Ferrovia", la scritta è svanita. La cartolina è stata 
+                                        probabilmente timbrata a Modena, dove il mittente ha spedito la suddetta.
+                                        Per quanto riguarda il timbro completamente illeggibile, si tratta probabilmente del timbro appartenente alla stazione
+                                        postale di Ravenna, luogo dove la cartolina è stata recapitata. Confrontandolo con i timbri di altre cartoline appartenenti allo stesso archivio, 
+                                        il timbro potrebbe riportare le scritte: "Ravenna - Arrivi e 
+                                        partenze" insieme alla data di arrivo della cartolina. </note>
+                                </support>   
+                            </supportDesc>                            
+                        </objectDesc>
+                    </physDesc>                                        
+                </msDesc>
+            </sourceDesc>            
+        </fileDesc>      
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="list.xml#GC">Giovanni Coliola</persName>
+                    <placeName ref="list.xml#MO">Modena</placeName>
+                    <!-- DATA data di invio da timbro (postage) o da manoscritto (writing) -->
+                    <date type="writing" when="1917-06-27">27/06/1917</date>
+                    
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="list.xml#GT">Giuseppe Turtura</persName>
+                    <placeName ref="list.xml#RV">Ravenna</placeName>
+                </correspAction>
+            </correspDesc>
+            
+            <textClass>
+                <keywords>
+                    <!-- soggettario -->
+                    <!-- tipologia -->
+                    <!-- descrizione -->
+                    <term>Cartolina </term>
+                    <term>Cartolina Artistica </term>
+                    <term>Pastore e animali all' abbeveratoio</term>
+                </keywords>
+            </textClass>
+            
+            <langUsage>
+                <language ident="it-IT">italiano</language>
+            </langUsage>
+        </profileDesc>    
+    </teiHeader>  
+    <facsimile>
+            <surface xml:id="fronte_postcard_47" start="#fronte_postcard-047">
+                <graphic url='img-cartoline/7694-047F.jpg' />            
+            </surface>  
+            <surface xml:id="retro_postcard_47" start="#retro_postcard-047">    
+                <graphic url='img-cartoline/7694-047R.jpg' width='1647px' height='1067px' />
+                <zone type="handWriting" xml:id="lineText_1-47" start="#lineText-1-47" ulx="31" uly="22" lrx="100" lry="94" />
+                <zone type="handWriting" xml:id="lineText_2-47" start="#lineText-2-47" ulx="49" uly="390" lrx="79" lry="764" />
+                <zone type="handWriting" xml:id="lineText_3-47" start="#lineText-3-47" ulx="103" uly="979" lrx="637" lry="1014" />
+                <zone type="handWriting" xml:id="lineText_4-47" start="#lineText-4-47" ulx="776" uly="30" lrx="1528" lry="303" />
+                <zone type="handWriting" xml:id="lineText_5-47" start="#lineText-5-47" ulx="807" uly="387" lrx="1593" lry="1015" />
+                <zone type="handWriting" xml:id="lineText_6-47" start="#lineText-6-47" ulx="123" uly="79" lrx="749" lry="962" />  
+            </surface>
+    </facsimile>
+    <text type="cartolina" xml:id="retro_postcard-047" facs="#retro_postcard_47">
+        <!-- informazioni peritestuali -->
+        <front>
+                <!-- testo tipografico -->
+                <div type="tipografia">
+                      <p>
+                            <s rend="writing-mode(orizontal-lr) text-orientation(sideways)">
+                                  551. 
+                                  <persName ref="list.xml#pLB" type="author">L. BAZZARO</persName>
+                                  - L'Abbeveratoio
+                            </s>
+                            <s rend="writing-mode(vertical-lr) text-orientation(sideways)">
+                                Proprietà artistica riservata.
+                            </s>
+                      </p>
+                </div>
+        </front>
+        <body>    
+            <div xml:id="fronte_postcard-047" facs="#fronte_postcard_47" type="fronte">
+                <figure>
+                    <figDesc>Pastore e animali all'abbeveratoio</figDesc>
+                    <head>L'abbeveratoio</head>
+                    <p> 
+                        <persName ref="list.xml#LB" type="author">L. Bazzaro</persName>  
+                    </p>
+                </figure>
+            </div>
+         <div type="retro">
+            <div type="message">
+                <opener xmlns="http://www.tei-c.org/ns/1.0">
+                    <dateline>
+                        <lb n="1" facs="#lineText_1-47" xml:id="lineText-1-47"/>
+                        <s>
+                                <placeName ref="list.xml#MO">Modena</placeName>, li 
+                                <date when="1917-06-27">27/6-1917</date>.
+                        </s>
+                    </dateline>
+                </opener>
+                <div xmlns="http://www.tei-c.org/ns/1.0" type="postcard-body">
+                    <p>
+                            <lb n="2" facs="#lineText_2-47" xml:id="lineText-2-47"/>
+                            Grazie infinite delle tue
+                            <lb n="3" facs="#lineText_3-47" xml:id="lineText-3-47"/>
+                            gentilezze. Ho ricevuto gli
+                            <lb n="5" facs="#lineText_5-47" xml:id="lineText-5-47"/>
+                            occhiali. Saluti affettuosi
+                            <lb n="6" facs="#lineText_6-47" xml:id="lineText-6-47"/>
+                            a tutti. 
+                    </p>
+                </div>
+                <closer xmlns="http://www.tei-c.org/ns/1.0">
+                    <s>
+                        <lb n="7"/>
+                        Con stima ed affetto tuo
+                        <lb n="8"/>
+                        dev.mo 
+                    </s>
+                    <signed>
+                        <persName>
+                            <forename ref="list.xml#GC">Giovannino</forename>
+                        </persName>
+                    </signed>
+                </closer>
+            </div>
+            <div xmlns="http://www.tei-c.org/ns/1.0" type="address-destination">
+               <p>
+                  <address>
+                     <addrLine>
+                        <lb n="9"/>
+                        Egregio Signor
+                        <lb n="10"/>
+                        Giuseppe Turtura
+                        <lb n="11"/>
+                        Via Girolamo <choice>
+                                        <orig>Rosfi</orig>
+                                        <reg resp="list.xml#LR" cert="high">Rossi</reg>
+                                     </choice> 58
+                        <lb n="12"/>
+                        Ravenna
+                        </addrLine>
+                  </address>
+               </p>
+            </div>
+            <div type="postmark-postage">
+               <ab>
+                  <stamp xmlns="http://www.tei-c.org/ns/1.0" type="postmark">
+                     <mentioned rend="circle">
+                     <gap reason="illegible" agent="ink" atLeast="15" atMost="25" unit="chars" />
+                     </mentioned>
+                  </stamp>
+                  <stamp xmlns="http://www.tei-c.org/ns/1.0" type="postmark">
+                     <mentioned>
+                        <gap reason="illegible" agent="ink" atLeast="15" atMost="25" unit="chars" />
+                        <unclear reason="damage"> FERROVIA </unclear>
+                     </mentioned>
+                     <date when="1917">
+                        <unclear reason="damage"> 27.6. </unclear> 17.20 </date>
+                  </stamp>
+                  <stamp xmlns="http://www.tei-c.org/ns/1.0" type="postmark">
+                     <mentioned>
+                        <gap reason="illegible" agent="ink" atLeast="15" atMost="25" unit="chars" />
+                        <unclear reason="damage"> FERROVIA </unclear>
+                     </mentioned>
+                     <date when="1917">
+                        <unclear reason="damage"> 27. </unclear> 6.17.20 </date>
+                  </stamp>
+                  <stamp xmlns="http://www.tei-c.org/ns/1.0" type="postage"> Francobollo da 5 centesimi del Regno d'Italia </stamp>
+                  <stamp xmlns="http://www.tei-c.org/ns/1.0" type="postage"> Francobollo da 5 centesimi del Regno d'Italia </stamp>
+               </ab>
+            </div>
+            <div type="secondamano">
+               <ab type="paratext">
+                  <add>
+                     <num type="cardinal"> 47 </num>
+                  </add>
+               </ab>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,15 @@
+
+<!ELEMENT cartoline (cartolina)+ >
+<!ELEMENT cartolina (text, note)>
+<!ELEMENT text (retro, fronte?)>
+<!ELEMENT note (#PCDATA)>
+<!ELEMENT retro (#PCDATA|salute)*>
+<!ELEMENT fronte (#PCDATA|salute)*>
+<!ELEMENT salute (#PCDATA)>
+
+<!ATTLIST cartolina
+	        id ID #REQUIRED>
+<!ATTLIST retro
+	        id ID #REQUIRED>            
+<!ATTLIST fronte
+        	id ID #REQUIRED>

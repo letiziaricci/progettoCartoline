@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cartolina_7694-064">
+	<teiHeader>
+		<fileDesc> <!-- contiene le informazioni relative al documento digitale-->
+			<titleStmt> <!-- titolo e responsabili dell'edizione digitale -->
+				<title>Fievre d'amour - Edizione digitale</title>
+				<respStmt>
+					<resp>Trascritto da:</resp>
+					<persName ref="list.xml#ALS">Alessandra La Spina</persName>
+					<persName ref="list.xml#JM">Jurgen Memaj</persName>
+					<persName ref="list.xml#LR">Letizia Ricci</persName>
+				</respStmt>
+
+				<respStmt>
+                    <resp>Ente di Appartenenza:</resp>
+                    <name type="comune">Comune di
+						<placeName ref="list.xml#SP">La Spezia</placeName>
+					</name>
+				</respStmt>
+
+			</titleStmt>
+
+			<editionStmt> <!-- contiene informazion sull'edizione -->
+				<edition>Studenti di Codifica di testi, Corso di Laurea Triennale di Informatica Umanistica, Università di Pisa
+                    <date when="2018">2018</date>
+				</edition>
+
+				<respStmt>
+					<resp>Codificato da:</resp>
+					<persName ref="list.xml#ALS">Alessandra La Spina</persName>
+					<persName ref="list.xml#JM">Jurgen Memaj</persName>
+					<persName ref="list.xml#LR">Letizia Ricci</persName>
+				</respStmt>
+
+  				<respStmt>
+                    <resp>Compilatori:</resp>
+                    <persName ref="list.xml#TC">Tommaso Castagneto</persName>
+					<persName ref="list.xml#ALS">Alessandra La Spina</persName>
+					<persName ref="list.xml#JM">Jurgen Memaj</persName>
+					<persName ref="list.xml#LR">Letizia Ricci</persName>
+                </respStmt>
+
+                <respStmt>
+                    <resp>Responsabile scientifico:</resp>
+                    <persName ref="list.xml#GP">Giacomo Paolicchi</persName>
+                    <persName ref="list.xml#ES">Enrica Salvatori</persName>
+                </respStmt>
+
+                <respStmt>
+                    <resp>Funzionario responsabile:</resp>
+                    <persName ref="list.xml#ER">E. Ratti</persName> <!-- ATT sono presenti due nomi differenti da fonti differenti -->
+				</respStmt>
+
+			</editionStmt>
+
+			<publicationStmt> <!-- contiene informazioni sulla pubblicazione e distribuzione del documento digitale -->
+                <publisher>
+                    <choice>
+                        <abbr>Unipi</abbr>
+                        <expan>Università di
+                            <placeName ref="list.xml#PI">Pisa</placeName>
+                        </expan>
+                    </choice>
+                </publisher>
+                <pubPlace ref="list.xml#PI">Pisa</pubPlace>
+                <availability>
+                    <p>Available under licence only</p>
+                </availability>
+                <date when="2019">2019</date>
+                <distributor>
+					<orgName ref="list.xml#LCD">
+						<choice>
+                      	  <abbr>LabCD</abbr>
+                       	 <expan>Laboratorio di Cultura Digitale</expan>
+                   		 </choice>
+					</orgName>
+				</distributor>
+                <address>
+                    <addrLine>Laboratorio di Cultura Digitale - Università di Pisa</addrLine>
+                    <addrLine><placeName ref="list.xml#PI">Pisa</placeName></addrLine>
+				</address>
+			</publicationStmt>
+
+			<sourceDesc> <!-- contiene informazoni relative alla fonte originale -->
+				<bibl>
+                    <title> Fievre d'amour</title>
+                    <publisher>
+						<persName ref="list.xml#AN">A. Noyer </persName>
+					</publisher>
+					<availability> 
+						<p>Copyright</p>
+					</availability>
+                    <pubPlace ref="list.xml#P">Parigi</pubPlace>
+                    <date when="1912"> 1912</date>
+				</bibl>
+
+				<msDesc> <!-- contiene la descrizione del manoscritto -->
+					<msIdentifier> <!-- informazioni che identificano il manoscritto -->
+						<country>Italia</country>
+						<settlement ref="list.xml#SP" type="city">La Spezia (SP)</settlement>
+						<repository>Museo Civico Etnografico "Giovanni Podenzana", Sezione dei cimeli garibaldini e della Prima Guerra Mondiale</repository>
+						<idno type="inventory">7694_064_001/002</idno>	<!-- codice della singola cartolina -->
+					</msIdentifier>
+
+					<msContents> <!-- contenuto intellettuale del manoscritto-->
+						<summary>Cartolina Artistica </summary>
+						<textLang mainLang="ita">Italiano</textLang>
+					</msContents>
+					<physDesc> <!-- contiene la descrizione fisica del manoscritto -->
+						<objectDesc>
+							<supportDesc>
+								<support> <!-- descrizione dei materiali che costituiscono il supporto fisico della parte scritta del manoscritto-->
+									<objectType> Cartolina</objectType>
+									<material>Carta</material>
+									<measure type="composition" unit="foglio" quantity="1">1</measure>
+									<dimensions unit="cm">
+										<height>14</height>
+										<width>9</width>
+									</dimensions>
+									<!-- descrizione del francobollo e dei timbri -->
+									<stamp type="postage"> Francobollo di forma rettangolare delle Poste Italiane di colore rosso da 10 centesimi, coperto per metà dall'annullo postale.
+									</stamp>
+									<stamp type="postmark">
+									Timbro di partenza a sinistra, stampato in alto leggermente sbiadito e leggibile per metà.
+									</stamp>
+									<stamp type="postmark">
+									Timbro di partenza a destra, stampato in parte sopra il francobollo totalmente leggibile.
+									</stamp>
+									<stamp type="postmark">
+									Timbro di arrivo centrale totalmente leggibile.
+									</stamp>
+									<!-- descrizione generale della cartolina -->
+									<p>La parte del fronte presenta l'immagine artistica di <persName ref="list.xml#DM">D. Mastroianni</persName>: un uomo che si abbevera dalla mano di una persona (presumibilmente una donna),
+									 il retro è il vero corpo della lettera: presenta tre timbri, il francobollo, le indicazoni del luogo del mittente, il messaggio e tutte le indicazioni del destinatario,
+									 a sinistra in verticale, si trova la stampa "Copyright by A.Noyer 1912-Allegorie n 198".
+									</p>
+								</support>
+								<condition> <!-- descrizione delle condizioni fisiche della cartolina -->
+									Cartolina in buone condizioni fisiche, la carta invecchiata ha assunto un colore beige sul retro, la scrittura è realizzata con inchiostro nero.
+									Il foglio presenta delle macchie probabilemnte d'inchiostro espanso dall'umidità, fattore che non ha riportato conseguenze rilevanti.
+								</condition>
+							</supportDesc>
+						</objectDesc>
+						<handDesc>
+							<p>Scritta a mano leggibile</p>
+						</handDesc> <!-- descrizione del tipo di scrittura nella cartolina -->
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+
+		<profileDesc> <!-- descrizione dettagliata degli aspetti non bibliografici -->
+			<correspDesc> <!-- contiene la descrizione delle azioni relative a un atto di corrispondenza -->
+				<correspAction type="sent">
+					<persName ref="list.xml#G" role="writer">Giuseppe</persName>
+					<placeName ref="list.xml#RV">Ravenna</placeName>
+					<date type="postmark" when="1916-07-25">25/07/1916</date>
+					<date type="postmark" when="1916-07-25">25/07/1916</date>
+                    <date type="writing" when="1916-07-25">25/07/1916</date>
+				</correspAction>
+				<correspAction type="received">
+					<persName ref="list.xml#OT">Oliva Turtura</persName>
+					<placeName ref="list.xml#AR">Arona</placeName>
+					<date type="postmark" when="1916-07-28">28/07/1916</date>
+				</correspAction>
+			</correspDesc>
+
+			<textClass> <!-- contiene le informazioni che descrivono la natura o l'argomento  -->
+				<keywords scheme="http://etnografico.museilaspezia.it/" >
+					<term>Cartolina </term>  <!-- soggettario -->
+                    <term>Cartolina Artistica </term>  <!-- tipologia -->
+                    <term>Uomo che si abbevera dalla mano di una persona</term> <!-- descrizione -->
+				</keywords>
+			</textClass>
+
+			<langUsage> <!-- lingua usato nel testo -->
+				<language ident="it-IT">italiano</language>
+			</langUsage>
+		</profileDesc>
+
+		<encodingDesc> <!-- descrizione della codifica -->
+			<p>Codifica di base rispettando le forme e le informazioni lessicali, la punteggiatura e la sillabazione del documento,
+            normalizzando il tutto per la codifica. Validazione delle cartoline con con xmllint e creazione della dtd con tei Roma.</p>
+		</encodingDesc>
+
+	</teiHeader>
+
+	<facsimile> <!-- rappresentazione della fonte scritta sotto forma di una serie di immagini-->
+		<surface n="1" xml:id="i7694-064Rl" ulx="3" uly="14" lrx="873" lry="1054"> <!-- definisce una superficie scritta in termini di uno spazio rettangolare di coordinate-->
+			<graphic url="7694-064R.jpg" width="1645px" height="1054px" />
+			<!-- retro della cartolina parte sinistra -->
+			<zone ulx="118" uly="22" lrx="708" lry="137" rendition="Line" xml:id="i064Rl_line_01"/> <!--Ravenna...-->
+			<zone ulx="120" uly="182" lrx="810" lry="299" rendition="Line" xml:id="i064Rl_line_02"/>
+			<zone ulx="87" uly="302" lrx="817" lry="359" rendition="Line" xml:id="i064Rl_line_03"/>
+			<zone ulx="97" uly="362" lrx="812" lry="434" rendition="Line" xml:id="i064Rl_line_04"/>
+			<zone ulx="98" uly="437" lrx="807" lry="512" rendition="Line" xml:id="i064Rl_line_05"/>
+			<zone ulx="101" uly="514" lrx="807" lry="600" rendition="Line" xml:id="i064Rl_line_06"/>
+			<zone ulx="101" uly="607" lrx="777" lry="680" rendition="Line" xml:id="i064Rl_line_07"/>
+			<zone ulx="102" uly="687" lrx="502" lry="765" rendition="Line" xml:id="i064Rl_line_08"/>
+			<zone ulx="148" uly="769" lrx="821" lry="840" rendition="Line" xml:id="i064Rl_line_09"/>
+			<zone ulx="56" uly="850" lrx="726" lry="916" rendition="Line" xml:id="i064Rl_line_10"/>
+			<zone ulx="265" uly="920" lrx="637" lry="1035" rendition="Line" xml:id="i064Rl_line_11"/> <!--Giuseppe-->
+			<zone ulx="61" uly="356" lrx="96" lry="842" rendition="Line" xml:id="i064Rl_line_012"/> <!--copyright-->
+		</surface>
+
+		<surface n="2" xml:id="i7694-064Rr" ulx="832" uly="17" lrx="1643" lry="1052"> <!-- definisce una superficie scritta in termini di uno spazio rettangolare di coordinate-->
+			<graphic url="7694-064R.jpg" width='1645px' height='1054px'/> <!-- retro della cartolina -->
+			<!-- retro della cartolina parte destra (info destinatario) -->
+			<zone ulx="877" uly="390" lrx="1273" lry="534" rendition="Line" xml:id="i064Rr_line_01"/>
+			<zone ulx="878" uly="546" lrx="1617" lry="659" rendition="Line" xml:id="i064Rr_line_02"/>
+			<zone ulx="877" uly="667" lrx="1613" lry="727" rendition="Line" xml:id="i064Rr_line_03"/>
+			<zone ulx="925" uly="731" lrx="1518" lry="784" rendition="Line" xml:id="i064Rr_line_04"/>
+			<zone ulx="1266" uly="821" lrx="1622" lry="935" rendition="Line" xml:id="i064Rr_line_05"/>
+    		<zone ulx="841" uly="844" lrx="1192" lry="1024" rendition="Line" xml:id="i064Rr_line_06"/>
+			<!-- seconda mano (numero 64)-->
+			<zone ulx="1065" uly="33" lrx="1155" lry="104" rendition="HotSpot" xml:id="i064Rr_hotspot_01"/>
+			<!-- timbro in alto a sinistra -->
+			<zone ulx="707" uly="13" lrx="1043" lry="315" rendition="HotSpot" xml:id="i064Rr_hotspot_02"/>
+			<!--timbro in alto a destra-->
+			<zone ulx="1153" uly="18" lrx="1491" lry="368" rendition="HotSpot" xml:id="i064Rr_hotspot_03"/>
+			<!-- timbro al centro  -->
+			<zone ulx="932" uly="168" lrx="1275" lry="494" rendition="HotSpot" xml:id="i064Rr_hotspot_04"/>
+			<!-- francobollo -->
+			<zone ulx="1323" uly="73" lrx="1591" lry="370" rendition="HotSpot" xml:id="i064Rr_hotspot_05"/>
+		</surface>
+
+		<surface n="3" xml:id="i7694-064F"> <!-- definisce una superficie scritta in termini di uno spazio rettangolare di coordinate-->
+			<graphic url="7694-064F.jpg" width='1044px' height='1637px' />
+			<!-- fronte della cartolina (immagine artistica) -->
+			<zone ulx="801" uly="1328" lrx="1017" lry="1427" rendition="HotSpot" xml:id="i064F_hotspot_01"/> <!--DMastroiani-->
+			<zone ulx="942" uly="1502" lrx="1017" lry="1589" rendition="HotSpot" xml:id="i064F_hotspot_02"/> <!--198 AN PARIS-->
+			<zone ulx="356" uly="1535" lrx="677" lry="1579" rendition="HotSpot" xml:id="i064F_hotspot_03"/> <!--FIEVRE D'AMOUR-->
+			<zone ulx="618" uly="685" lrx="888" lry="1324" rendition="HotSpot" xml:id="i064F_hotspot_04"/> <!--uomo che si abbevera-->
+			<zone ulx="281" uly="329" lrx="608" lry="1142" rendition="HotSpot" xml:id="i064F_hotspot_05"/> <!--donna -->
+			<zone ulx="125" uly="158" lrx="282" lry="699" rendition="HotSpot" xml:id="i064F_hotspot_06"/> <!--fonte-->
+		</surface>
+	</facsimile>
+
+	<text type="cartolina" xml:id="i7694-064" n="064"> <!-- si riferisce a tutta la cartolina -->
+		<front xml:id ="i7694-064Rl_copy" facs="#i7694-064Rl"> <!-- parte preliminare in questo caso stampa del copyright-->
+			<div type="print" rend="vertical" xml:id="i064Rl_copy_012" facs="#i064Rl_line_012">
+				<p>Copyright by
+					<persName ref="list.xml#AN">
+						<abbr>A.</abbr> Noyer
+					</persName>.
+					<date>1912</date>. – Allegorie
+						<choice>
+							<abbr>N°</abbr>
+							<expan>N<ex>umero</ex></expan>
+						</choice>
+						198
+				</p>	
+			</div>
+		</front>
+
+		<body xml:lang="ita">
+			<div type="fronte">
+				<figure xml:id="i7694-064Fall" facs="#i7694-064F"> <!-- contiene tutta l'immagine-->
+					<figure xml:id="i064F_hsf_01" facs="#i064F_hotspot_01"> <!-- DMastroiani -->
+						<figDesc>Firma di Domenico Mastroianni, il pittore dell'opera nella parte frontale della cartolina.</figDesc>
+					</figure>
+
+					<figure xml:id="i064F_hsf_02" facs="#i064F_hotspot_02"> <!-- 198 AN PARIS -->
+						<figDesc>Logo che rappresenta chi ha prodotto la cartolina.</figDesc>
+					</figure>
+
+					<figure xml:id="i064F_hsf_03" facs="#i064F_hotspot_03"> <!-- FIEVRE D'AMOUR -->
+						<figDesc>Nome dell'opera raffigurata nella cartolina.</figDesc>
+					</figure>
+
+					<figure xml:id="i064F_hsf_04" facs="#i064F_hotspot_04"> <!-- uomo che si abbevera -->
+						<figDesc>Uomo seminudo, si abbevera dalla mano della donna davanti a se. Appoggia una gamba su di una radice di un albero, coperta interamente di foglie. La testa è rivolta verso la mano della donna.</figDesc>
+					</figure>
+
+					<figure xml:id="i064F_hsf_05" facs="#i064F_hotspot_05"> <!-- donna che lo fa dissetare alla sua fonte -->
+						<figDesc>Donna in posizione curva, seminuda, dai capelli raccolti. Essa tiene un braccio in alto verso la fonte, mentre con l'altra disseta un viandante. Si può presupporre che sia una ninfa, in quanto sembra uscire dall'acqua della fonte.</figDesc>
+					</figure>
+
+					<figure xml:id="i064F_hsf_06" facs="#i064F_hotspot_06"> <!-- fonte -->
+						<figDesc>Piccola fonte d'acqua</figDesc>
+					</figure>
+				</figure>
+			</div>
+			<div type="retro" xml:id="i7694-064Rl_cont" facs="#i7694-064Rl"> <!-- retro cartolina lato sinistro-->
+				<opener> <!-- contiene l'inizio della cartolina con luogo e data -->
+					<dateline>
+						<lb xml:id="i064Rl_ln_01" n="1" facs="#i064Rl_line_01"/>
+						<s type="sentence" n="s_01">
+							<placeName ref="list.xml#RV">Ravenna</placeName>
+							<date when="1913/07/25">25-<num type="cardinal">VII</num>-913</date>
+						</s>
+					</dateline>
+				</opener>
+				<div type="postcard-body" > <!-- contiene il testo della cartolina -->
+					<p>
+						<s type="sentence" n="s_02">
+							<lb xml:id="i064Rl_ln_02" n="2" facs="#i064Rl_line_02"/> Oggi finalmente abbia-
+							<lb xml:id="i064Rl_ln_03" n="3" facs="#i064Rl_line_03"/>mo avuto una bella gior-
+							<lb xml:id="i064Rl_ln_04" n="4" facs="#i064Rl_line_04"/>nata piena di sole: da
+							<lb xml:id="i064Rl_ln_05" n="5" facs="#i064Rl_line_05"/>tanto tempo era attesa.
+						</s>
+						<s type="sentence" n="s_03">
+							<lb xml:id="i064Rl_ln_06" n="6" facs="#i064Rl_line_06"/> La salute è ottima.
+							<lb xml:id="i064Rl_ln_07" n="7" facs="#i064Rl_line_07"/> Attendiamo notizie
+							<lb xml:id="i064Rl_ln_08" n="8" facs="#i064Rl_line_08"/> da Arona.
+						</s>
+					</p>
+				</div>
+				<closer> <!-- contiene le conclusioni della cartolina con saluti e firma -->
+					<salute>
+						<s type="sentence" n="s_04">
+							<lb xml:id="i064Rl_ln_09" n="9" facs="#i064Rl_line_09"/> Saluti sinceri a te e
+							<lb xml:id="i064Rl_ln_10" n="10" facs="#i064Rl_line_10"/> alla
+							<choice>
+								<abbr type="title">Sig.na</abbr>
+								<expan>Sig<ex>nori</ex>na</expan>
+							</choice>
+							<persName ref="list.xml#C"> Carolina </persName>.
+						</s>
+					</salute>
+					<lb xml:id="i064Rl_ln_11" n="11" facs="#i064Rl_line_11"/>
+					<signed rend="aligne(center)">
+						<persName ref="list.xml#G" role="sender">
+							<forename>
+								<hi rend="underline">Giuseppe</hi>
+							</forename>
+						</persName>
+					</signed>
+				</closer>
+				<div type="hand"> <!-- numero scritto a mano -->
+					<ab type="paratext" subtype="addition" hand="#h1" xml:id="i064Rr_hs_01" facs="#i064Rr_hotspot_01">
+						<num value="64">64</num>
+					</ab>
+				</div>
+				<div type="postmark">
+					<!-- francobollo -->
+						<ab xml:id="i064Rr_hs_05" facs="#i064Rr_hotspot_05" type="sent">
+							<stamp type="postage" rend="rectangular">
+								<mentioned rend="uppercase">Poste Italiane 10 centesimi</mentioned>
+							</stamp>
+						</ab>
+					 <!-- timbro in alto a sinistra -->
+						<ab xml:id="i064Rr_hs_02" facs="#i064Rr_hotspot_02" type="sent">
+							<stamp type="postmark" rend="circular">
+								<mentioned>
+									<unclear reason="faded">
+										<placeName ref="list.xml#RV" rend="uppercase">Ravenna</placeName>
+									</unclear>
+									<date when="1913-07-25"> 25.7.13</date>.20
+								</mentioned>
+							</stamp>
+						</ab>
+					<!-- timbro in alto a destra-->
+						<ab xml:id="i064Rr_hs_03" facs="#i064Rr_hotspot_03" type="sent">
+							<stamp type="postmark" rend="circular">
+								<mentioned>
+									<placeName ref="list.xml#RV" rend="uppercase">Ravenna</placeName>
+									<date when="1913-07-25"> 25.7.13</date>.20
+								</mentioned>
+							</stamp>
+						</ab>
+					<!-- timbro in basso al centro-->
+						<ab xml:id="i064Rr_hs_04" facs="#i064Rr_hotspot_04" type="destination">
+							<stamp type="postmark" rend="circular">
+								<mentioned>
+									<placeName ref="list.xml#AR" rend="uppercase">Arona</placeName>
+									<date when="1913-07-25">
+										<supplied resp="#NOI" cert="good">
+											<unclear reason="faded">28</unclear>
+										</supplied>7.13
+									</date>.10
+								</mentioned>
+							</stamp>
+						</ab>
+				</div>
+				<div type="address-destination"> <!-- informazioni del destinatario -->
+					<ab>
+						<address>
+							<lb xml:id="i064Rr_ln_01" n="1" facs="#i064Rr_line_01"/>
+							<addrLine> Signorina </addrLine>
+							<lb xml:id="i064Rr_ln_02" n="2" facs="#i064Rr_line_02"/>
+							<addrLine>
+								<persName ref="list.xml#OT">Oliva Turtura </persName>
+							</addrLine>
+							<lb xml:id="i064Rr_ln_03" n="3" facs="#i064Rr_line_03"/>
+							<addrLine>presso
+								<choice>
+									<abbr type="title">Sig.</abbr>
+									<expan>Sig<ex>nor</ex></expan>
+								</choice>
+								<persName ref="list.xml#C"> Cibecchini </persName>
+							</addrLine>
+							<lb xml:id="i064Rr_ln_04" n="4" facs="#i064Rr_line_04"/>
+							<addrLine> Via Cavour 12 </addrLine>
+							<lb xml:id="i064Rr_ln_05" n="5" facs="#064Rr_line_05" />
+							<addrLine>
+								<placeName ref="list.xml#AR">Arona</placeName>
+							</addrLine>
+							<lb xml:id="i064Rr_ln_06" n="6" facs="#i064Rr_line_06" />
+							<addrLine>
+								<placeName ref="list.xml#LM">(Lago Maggiore)</placeName>
+							</addrLine>
+						</address>
+					</ab>
+				</div>
+			</div>
+		</body>
+	</text>
+</TEI>

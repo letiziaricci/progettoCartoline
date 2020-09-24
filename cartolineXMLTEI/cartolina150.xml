@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="cartolina_7694-150">
+   <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+      <fileDesc>
+         <titleStmt>
+            <title>[Donna con lettera e amorino] - Edizione digitale</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <choice>
+                  <abbr>Unipi</abbr>
+                  <expan instant="false">Università di
+                            <placeName ref="list.xml#PI" instant="false" full="yes">Pisa</placeName>
+                  </expan>
+               </choice>
+            </publisher>
+            <pubPlace ref="list.xml#PI">Pisa</pubPlace>
+            <availability default="false">
+               <p part="N">Available under licence only</p>
+            </availability>
+            <date when="2019" instant="false">2019</date>
+            <distributor>
+               <orgName ref="list.xml#LCD" instant="false" full="yes">
+                  <choice>
+                     <abbr>LabCD</abbr>
+                     <expan instant="false">Laboratorio di Cultura Digitale</expan>
+                  </choice>
+               </orgName>
+            </distributor>
+            <address>
+               <addrLine>Laboratorio di Cultura Digitale - Università di Pisa</addrLine>
+               <addrLine>
+                  <placeName ref="list.xml#PI" instant="false" full="yes">Pisa</placeName>
+               </addrLine>
+            </address>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <bibl default="false" status="draft"> <!-- TUtto quello che si ricava dalla cartolina... -->
+               <title>[Donna con lettera e amorino]</title>
+               <author ref="list.xml#AB">Aurelio Bertiglia</author>
+               <pubPlace ref="list.xml#MI">Milano</pubPlace>
+               <date when="1917-08-21" instant="false">21/08/1917</date>
+            </bibl>
+            <msDesc status="draft"><!-- descrizione del manoscritto -->
+               <msIdentifier><!-- info per identificare il manoscritto -->
+                  <country ref="list.xml#IT">Italia</country>
+                  <settlement ref="list.xml#SP">La Spezia (SP)</settlement>
+                  <!-- collocazione specifica -->
+                  <repository ref="list.xml#MCE">Museo Civico Etnografico "Giovanni Podenzana", Sezione dei cimeli garibaldini e della Prima Guerrra Mondiale</repository>
+                  <!-- codice identificativo -->
+                  <idno type="postcard_id">7694_150_001/002</idno>
+               </msIdentifier>
+               <!-- Informazioni sul contenuto della cartolina -->
+               <!-- DESCRIZIONE -->
+               <msContents>
+                  <summary>Cartolina Artistica</summary>
+                  <textLang>Italiano</textLang>
+               </msContents>
+               <!-- Physical Description:  -->
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType>Cartolina</objectType>
+                           <material>Carta</material>
+                           <dimensions unit="cm">
+                              <height>9</height>
+                              <width>14</width>
+                           </dimensions>
+                           <stamp type="postage" n="1"> Francobollo - Regno d'Italia </stamp>
+                           <stamp type="postmark" n="2"> Timbro della Ferrovia di Modena </stamp>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc default="false">
+            <correspAction type="sent">
+               <persName ref="list.xml#GC" instant="false" full="yes">Giovannino</persName>
+               <placeName ref="list.xml#MO" instant="false" full="yes">Modena</placeName>
+               <!-- DATA data di invio da timbro (postage) o da manoscritto (writing) -->
+               <date type="writing" when="1917-08-31" instant="false">31/08/1917</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="list.xml#OT" instant="false" full="yes">Oliva Turtura</persName>
+               <placeName ref="list.xml#RV" instant="false" full="yes">Ravenna</placeName>
+            </correspAction>
+         </correspDesc>
+         <textClass default="false">
+            <keywords><!-- soggettario --><!-- tipologia --><!-- descrizione -->
+               <term>Cartolina </term>
+               <term>Cartolina Artistica </term>
+               <term>Donna con lettera e amorino</term>
+            </keywords>
+         </textClass>
+         <langUsage default="false">
+            <language ident="it-IT">italiano</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <facsimile xmlns="http://www.tei-c.org/ns/1.0">
+      <surface xml:id="fronte_postcard_150" start="#cartolina150_fronte">
+         <graphic url="img-cartoline/7694-150F.jpg"/>
+      </surface>
+      <surface xml:id="retro_postcard_150" start="#cartolina150_retro">
+         <graphic url="img-cartoline/7694-150R.jpg" width="1649px" height="1061px"/>
+         <zone xml:id="riga150_1"
+               ulx="805"
+               uly="334"
+               lrx="1616"
+               lry="958"
+               rotate="0"/>
+         <zone xml:id="riga150_2"
+               ulx="1327"
+               uly="8"
+               lrx="1639"
+               lry="320"
+               rotate="0"/>
+         <zone xml:id="riga150_3"
+               ulx="1084"
+               uly="119"
+               lrx="1191"
+               lry="180"
+               rotate="0"/>
+         <zone xml:id="riga150_4"
+               ulx="101"
+               uly="113"
+               lrx="733"
+               lry="935"
+               rotate="0"/>
+         <zone xml:id="riga150_5"
+               ulx="13"
+               uly="234"
+               lrx="52"
+               lry="796"
+               rotate="0"/>
+         <zone xml:id="riga150_6"
+               ulx="141"
+               uly="979"
+               lrx="615"
+               lry="1006"
+               rotate="0"/>
+      </surface>
+   </facsimile>
+   <text>
+      <front xmlns="http://www.tei-c.org/ns/1.0"><!-- testo tipografico -->
+         <div type="tipografia" part="N" org="uniform" sample="complete">
+            <p part="N">
+               <s rend="writing-mode(vertical-lr) text-orientation(sideways)" part="N">
+                              Proprietà artistica riservata N. 
+                              <num type="cardinal" value="2053">2053</num>-1                           
+                        </s>
+            </p>
+            <p part="N">
+               <s rend="writing-mode(horizontal-lr) text-orientation(sideways)" part="N">
+                             Visto Revisione Stampa - N.
+                              <num type="cardinal" value="1404">1404</num> - 
+                              <placeName ref="list.xml#MI" instant="false" full="yes">Milano</placeName>.
+                        </s>
+            </p>
+         </div>
+      </front>
+      <body xmlns="http://www.tei-c.org/ns/1.0">
+         <div xml:id="cartolina150_fronte"
+              facs="#fronte_postcard_150"
+              type="fronte"
+              part="N"
+              org="uniform"
+              sample="complete">
+            <figure>
+               <figDesc>Una donna si avvicina ad un amorino che stringe una lettera</figDesc>
+               <head> [Donna con lettera e amorino] </head>
+               <p part="N">
+                  <persName ref="list.xml#AB" type="author" instant="false" full="yes">A.Bertiglia</persName>
+               </p>
+            </figure>
+         </div>
+         <div type="retro"
+              xml:id="cartolina150_retro"
+              facs="#retro_postcard_150"
+              part="N"
+              org="uniform"
+              sample="complete">
+            <div type="message" part="N" org="uniform" sample="complete">
+               <opener>
+                  <dateline>
+                     <lb n="1"/>
+                     <s part="N">
+                        <placeName ref="list.xml#MO" instant="false" full="yes">Modena</placeName>, li 
+                                    <date when="1917-08-31" instant="false">31/8-17</date>
+                     </s>
+                  </dateline>
+               </opener>
+               <div type="postcard-body" part="N" org="uniform" sample="complete">
+                  <p part="N">
+                     <lb n="2"/>
+                              Saluti affettuosi
+                              <lb n="3"/>
+                              a tutti
+                        </p>
+               </div>
+               <closer>
+                  <lb n="4"/>
+                  <signed>
+                     <persName instant="false" full="yes">
+                        <forename ref="list.xml#GC" full="yes">Giovannino</forename>
+                     </persName>
+                  </signed>
+               </closer>
+            </div>
+            <div type="address-destination"
+                 part="N"
+                 org="uniform"
+                 sample="complete">
+               <p part="N">
+                  <address>
+                     <addrLine>
+                        <lb n="5"/>
+                              Gent. Sig.na
+                              <lb n="6"/>
+                              Oliva Turtura
+                              <lb n="7"/>
+                              Via Girolamo <choice>
+                           <orig>Rosfi</orig>
+                           <reg resp="list.xml#LR" cert="high" instant="false">Rossi</reg>
+                        </choice> 58
+                              <lb n="8"/>
+                              Ravenna
+                        </addrLine>
+                  </address>
+               </p>
+            </div>
+            <div type="postmark-postage"
+                 part="N"
+                 org="uniform"
+                 sample="complete">
+               <ab part="N">
+                  <stamp type="postmark">
+                     <mentioned>
+                        <unclear reason="damage" instant="false">
+                           <placeName ref="#MO" instant="false" full="yes"> MODENA </placeName>
+                        </unclear>
+                        <unclear reason="damage" instant="false"> FERROVIA </unclear>
+                     </mentioned>
+                     <date when="1917-08-31" instant="false"> 31.8. <unclear reason="damage" instant="false"> 17.18 </unclear>
+                     </date>
+                  </stamp>
+                  <stamp type="postage"> Francobollo da 5 centesimi del Regno d'Italia </stamp>
+               </ab>
+            </div>
+            <div type="secondamano" part="N" org="uniform" sample="complete">
+               <ab type="paratext" part="N">
+                  <add instant="false" status="unremarkable">
+                     <num type="cardinal"> 150 </num>
+                  </add>
+               </ab>
+            </div>
+         </div>
+      </body>
+      <back>
+         <div type="linguistic">
+            <ab>
+               <seg lemma="saluto">
+                  <w type="form">Saluti</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="affettuoso">
+                  <w type="form">affettuosi</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="a">
+                  <w type="form">a</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="tutto">
+                  <w type="form">tutti</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="Giovannino">
+                  <w type="form">Giovannino</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+            </ab>
+         </div>
+      </back>
+   </text>
+</TEI>

@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI SYSTEM 'myTEI.dtd'>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cartolina_7694-122">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>[Donna che sorride tra i fiori] - Edizione digitale</title>
+         </titleStmt>
+         <publicationStmt xmlns="http://www.tei-c.org/ns/1.0">
+            <publisher>
+               <choice>
+                  <abbr>Unipi</abbr>
+                  <expan>Università di
+                            <placeName ref="list.xml#PI">Pisa</placeName>
+                  </expan>
+               </choice>
+            </publisher>
+            <pubPlace ref="list.xml#PI">Pisa</pubPlace>
+            <availability>
+               <p>Available under licence only</p>
+            </availability>
+            <date when="2019">2019</date>
+            <distributor>
+               <orgName ref="list.xml#LCD">
+                  <choice>
+                     <abbr>LabCD</abbr>
+                     <expan>Laboratorio di Cultura Digitale</expan>
+                  </choice>
+               </orgName>
+            </distributor>
+            <address>
+               <addrLine>Laboratorio di Cultura Digitale - Università di Pisa</addrLine>
+               <addrLine>
+                  <placeName ref="list.xml#PI">Pisa</placeName>
+               </addrLine>
+            </address>
+         </publicationStmt>
+         <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
+            <bibl>
+               <title type="custom" resp="list.xml#ES">[Donna che sorride tra i fiori]</title> 
+            </bibl>
+            <msDesc>
+               <!-- descrizione del manoscritto -->
+                <msIdentifier>
+                        <!-- info per identificare il manoscritto -->
+                        <country ref="list.xml#IT">Italia</country>
+                        <settlement ref="list.xml#SP">La Spezia (SP)</settlement>
+                        <!-- collocazione specifica -->
+                        <repository ref="list.xml#MCE">Museo Civico Etnografico "Giovanni Podenzana", Sezione dei cimeli garibaldini e della Prima Guerrra Mondiale</repository>
+                        <!-- codice identificativo -->
+                        <idno type="postcard_id">7694_122_001/002</idno>
+               </msIdentifier>
+               <!-- Informazioni sul contenuto della cartolina -->
+               <!-- DESCRIZIONE -->
+               <msContents>
+                  <summary>Cartolina Artistica</summary>
+                  <textLang>Italiano</textLang>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                            <objectType>Cartolina</objectType>
+                            <material>Carta</material>
+                            <dimensions unit="cm">
+                                    <height>9</height>
+                                    <width>14</width>
+                             </dimensions>
+                           <stamp type="postage"> Francobollo - Regno d'Italia </stamp>
+                           <stamp type="postmark">Timbro della Ferrovia di Modena </stamp>
+                        </support>
+                        <condition>Buono</condition>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc xmlns="http://www.tei-c.org/ns/1.0">
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="list.xml#GC">Giovanni Coliola</persName>
+               <placeName ref="list.xml#MO">Modena</placeName>
+               <date type="writing" when="1917-11-29">1917/11/29</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="list.xml#GT"> Giuseppe Turtura</persName>
+               <placeName ref="list.xml#RV"> Ravenna </placeName>
+            </correspAction>
+         </correspDesc>
+         <textClass>
+            <keywords>
+                    <!-- soggettario -->
+                    <!-- tipologia -->
+                    <!-- descrizione -->
+               <term>Cartolina </term>
+               <term>Cartolina Artistica </term>
+               <term>Donna che sorride tra i fiori</term>
+            </keywords>
+         </textClass>
+         <langUsage>
+            <language ident="it-IT">italiano</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <facsimile xmlns="http://www.tei-c.org/ns/1.0">
+         <surface type="fronte">
+            <graphic url="img-cartoline/7694-122F.jpg"/>
+            <note> Immagine del fronte della cartolina </note>
+         </surface>
+         <surface type="retro">
+            <graphic url="img-cartoline/7694-122R.jpg"/>
+            <zone xml:id="lineac3_1" ulx="461" uly="19" lrx="583" lry="154"/>
+            <zone xml:id="lineac3_2" ulx="295" uly="156" lrx="583" lry="365"/>
+            <zone xml:id="lineac3_3" ulx="35" uly="23" lrx="256" lry="342"/>
+            <zone xml:id="lineac3_4" ulx="6" uly="140" lrx="30" lry="361"/>
+            <zone xml:id="lineac3_5" ulx="327" uly="45" lrx="409" lry="104"/>
+            <note type="nota_facsimile">Immagine del retro della cartolina a cui corrisponde un testo</note>
+         </surface>
+   </facsimile>
+   <text>
+     <!-- informazioni peritestuali -->
+      <front>
+            <!-- testo tipografico -->
+            <div type="tipografia">
+                  <p>
+                        <s rend="writing-mode(vertical-lr) text-orientation(sideways)">
+                              Proprietà artistica riservata N. 
+                              <num type="cardinal" value="2018">2018</num> - 3                          
+                        </s>
+                  </p>
+            </div>
+      </front>
+      <body>
+         <div type="retro">
+            <div type="message">
+                  <opener xmlns="http://www.tei-c.org/ns/1.0">
+                        <dateline>
+                              <lb n="1"/>
+                              <s>
+                                    <placeName ref="list.xml#MO">Modena</placeName>, li 
+                                    <date when="1918-11-09">12/6.1917</date>
+                              </s>
+                        </dateline>
+                  </opener>
+                  <div xmlns="http://www.tei-c.org/ns/1.0" type="postcard-body">
+                        <p>
+                              <lb n="2"/>
+                              Rammentandola.
+                              <lb n="3"/>
+                              Affettuosamente la saluto.
+                        </p>
+                  </div>
+                  <closer xmlns="http://www.tei-c.org/ns/1.0">
+                        <s>
+                              <lb n="4"/>
+                              Suo devoto 
+                        </s>
+                        <lb n="5"/>
+                        <signed>
+                              <persName>
+                                    <forename ref="list.xml#GC">Giovannino</forename>
+                              </persName>
+                        </signed>
+                  </closer>
+            </div>
+            <div xmlns="http://www.tei-c.org/ns/1.0" type="address-destination">
+               <p>
+                  <address>
+                        <addrLine>
+                              <lb n="6"/>
+                              Gent Sir.re
+                              <lb n="7"/>
+                              Giuseppe Turtura
+                              <lb n="8"/>
+                              Via Girolamo <choice>
+                                                <orig>Rosfi</orig>
+                                                <reg resp="list.xml#LR" cert="high">Rossi</reg>
+                                           </choice> 58
+                              <lb n="9"/>
+                              Ravenna
+                        </addrLine>
+                  </address>
+               </p>
+            </div>
+            <div type="postmark-postage">
+               <ab>
+                  <stamp xmlns="http://www.tei-c.org/ns/1.0" type="postmark">
+                     <mentioned>
+                        <placeName ref="#MO"> MODENA </placeName> FERROVIA </mentioned>
+                     <date when="1917">12.6.17.</date>
+                     <num type="cardinal">21</num>
+                  </stamp>
+                  <stamp xmlns="http://www.tei-c.org/ns/1.0" type="postage">francobollo da 5 centesimi del Regno d'Italia</stamp>
+               </ab>
+            </div>
+            <div type="secondamano">
+               <ab type="paratext">
+                  <add>
+                     <num xmlns="http://www.tei-c.org/ns/1.0" type="cardinal">
+                        <idno> 122 </idno>
+                     </num>
+                  </add>
+               </ab>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI SYSTEM 'myTEI.dtd'>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cartolina_7694-187">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Estasi - Edizione digitale</title>
+         </titleStmt>
+         <publicationStmt xmlns="http://www.tei-c.org/ns/1.0">
+            <publisher>
+               <choice>
+                  <abbr>Unipi</abbr>
+                  <expan>Università di
+                            <placeName ref="list.xml#PI">Pisa</placeName>
+                  </expan>
+               </choice>
+            </publisher>
+            <pubPlace ref="list.xml#PI">Pisa</pubPlace>
+            <availability>
+               <p>Available under licence only</p>
+            </availability>
+            <date when="2019">2019</date>
+            <distributor>
+               <orgName ref="list.xml#LCD">
+                  <choice>
+                     <abbr>LabCD</abbr>
+                     <expan>Laboratorio di Cultura Digitale</expan>
+                  </choice>
+               </orgName>
+            </distributor>
+            <address>
+               <addrLine>Laboratorio di Cultura Digitale - Università di Pisa</addrLine>
+               <addrLine>
+                  <placeName ref="list.xml#PI">Pisa</placeName>
+               </addrLine>
+            </address>
+         </publicationStmt>
+         <sourceDesc xmlns="http://www.tei-c.org/ns/1.0"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     default="false">
+            <bibl>
+               <title>Estasi</title>
+               <author ref="list.xml#DM">D. Mastroianni</author>
+               <!-- PRODUZIONE Chi ha prodotto / pubblicato la cartolina. Se non presente togliere il tag  -->
+               <publisher>
+                        <orgName ref="list.xml#AT">
+                        Cromoscultura A. Traldi
+                        </orgName>
+               </publisher>
+               <!-- LUOGO -->
+               <pubPlace ref="list.xml#MI">Milano</pubPlace>
+               <!-- CRONOLOGIA, attenzione si riferisce solo alla data di stampa -->
+               <date when="1917">1917</date>
+            </bibl>
+            <msDesc>
+                <!-- descrizione del manoscritto -->
+                <msIdentifier>
+                        <!-- info per identificare il manoscritto -->
+                        <country ref="list.xml#lIT">Italia</country>
+                        <settlement ref="list.xml#lSP">La Spezia (SP)</settlement>
+                        <!-- collocazione specifica -->
+                        <repository ref="list.xml#oMCE">Museo Civico Etnografico "Giovanni Podenzana", Sezione dei cimeli garibaldini e della Prima Guerrra Mondiale</repository>
+                        <!-- codice identificativo -->
+                        <idno type="postcard_id">7694_187_001/002</idno>
+               </msIdentifier>
+               <!-- Informazioni sul contenuto della cartolina -->
+               <!-- DESCRIZIONE -->
+               <msContents>
+                  <summary>Cartolina Artistica</summary>
+                  <textLang>Italiano</textLang>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType>Cartolina</objectType>
+                           <!-- MATERIALI -->
+                           <material>Carta</material>
+                           <!-- DIMENSIONE -->
+                           <dimensions unit="cm">
+                              <height>9</height>
+                              <width>14</width>
+                           </dimensions>
+                           <stamp>Non sono presenti francobolli e timbri.</stamp>
+                        </support>
+                        <condition>Buono</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <summary>Scrittura eseguita a mano leggibile, con una annotazione nella
+                                parte superiore del retro.</summary>
+                     <handNote n="1">Annotazione di un catalogatore che presenta il numero 
+                                187, relativo alla classificazione delle 227 cartoline appartenente al museo di La Spezia.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <p part="N">La cartolina è stata scritta il <origDate instant="false">31 Marzo 1917</origDate> a <origPlace ref="#SP" instant="false">Spezia</origPlace>, da un tenente colonnello chiamato Giovanni Coliola, probabilmente impegnato in guerra in occasione della <date from="1914" to="1918" instant="false">Prima Guerra Mondiale</date>.
+                       La cartolina è spedita infatti alla sua amata, dalla quale purtroppo la guerra lo tiene lontano.</p>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc xmlns="http://www.tei-c.org/ns/1.0"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+         <correspDesc default="false">
+            <correspAction type="sent">
+               <persName ref="list.xml#GC">Giovannino</persName>
+               <placeName ref="list.xml#SP">Spezia</placeName>
+               <!-- DATA data di invio da timbro (postage) o da manoscritto (writing) -->
+               <date type="writing" when="1917-03-31" instant="false">1917/31/03</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="list.xml#OT">Oliva Turtura</persName>
+            </correspAction>
+         </correspDesc>
+         <textClass default="false">
+            <keywords><!-- soggettario --><!-- tipologia --><!-- descrizione -->
+               <term>Cartolina </term>
+               <term>Cartolina Artistica </term>
+               <term>Coppia di innamorati</term>
+            </keywords>
+         </textClass>
+         <langUsage default="false">
+            <language ident="it-IT">italiano</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <facsimile xmlns="http://www.tei-c.org/ns/1.0"
+                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+         <surface n="1" xml:id="fronte"><!-- Fronte -->
+            <graphic url="img.cartoline/7694-187F.jpg"
+                     width="527px"
+                     height="825px"
+                     xml:id="fronte_postcard_187"/>
+            <!--firma Mastroianni-->
+         </surface>
+         <surface n="2" xml:id="retro_postcard_187"><!-- Retro -->
+            <graphic url="img-cartoline/7694-187R.jpg" width="550px" height="355px" xml:id="retro2"/>
+            <!--stampa1-->
+            <zone type="print" xml:id="line_publication-187" start="#line-publication-187"
+                  ulx="7"
+                  uly="158"
+                  lrx="49"
+                  lry="341"/>
+            <!--stampa2-->
+            <zone type="print" xml:id="line_title-187" start="#line-title-187"
+                  ulx="256"
+                  uly="156"
+                  lrx="264"
+                  lry="249"/>
+            <!--Spezia li ecc.-->
+            <zone type="handWriting" xml:id="lineText_1-187" start="#lineText-1-187"
+                  ulx="181"
+                  uly="6"
+                  lrx="523"
+                  lry="71"/>
+            <!--prima riga-->
+            <zone type="handWriting" xml:id="lineText_2-187" start="#lineText-2-187"
+                  ulx="30"
+                  uly="67"
+                  lrx="508"
+                  lry="118"/>
+            <!--seconda riga-->
+            <zone type="handWriting" xml:id="lineText_3-187" start="#lineText-3-187"
+                  ulx="46"
+                  uly="114"
+                  lrx="511"
+                  lry="189"/>
+            <!--terza riga-->
+            <zone type="handWriting" xml:id="lineText_4-187" start="#lineText-4-187"
+                  ulx="61"
+                  uly="184"
+                  lrx="530"
+                  lry="260"/>
+            <!--firma-->
+            <zone type="handWriting" xml:id="lineText_5-187" start="#lineText-5-187"
+                  ulx="39"
+                  uly="253"
+                  lrx="535"
+                  lry="349"/>
+         </surface>
+   </facsimile>
+   <text>
+      <!-- informazioni peritestuali -->
+      <front>
+            <!-- testo tipografico -->
+            <div type="tipografia">
+                  <p rend="writing-mode(vertical-lr) text-orientation(sideways)">
+                        <s facs="#line_publication-187" xml:id="line-publication-187">
+                              <orgName ref="list.xml#oEF" type="typography">
+                                    Cromoscultura A. Tardi 
+                              </orgName>
+                              <placeName ref="list.xml#MI">Milano</placeName>
+                        </s>
+                        <s facs="#line_title-187" xml:id="line-title-187">
+                              N. <num type="cardinal" value="01305">01305</num>.    Estati.    Charme.
+                        </s>
+                  </p>
+            </div>
+      </front>
+      <body>
+         <div xmlns="http://www.tei-c.org/ns/1.0"
+              type="fronte"
+              xml:id="fronte187"
+              part="N"
+              org="uniform"
+              sample="complete">
+            <figure>
+               <figDesc>La cartolina raffigura una coppia di innamorati abbracciati. I due giovani
+                        sono in piedi, in un ambiente  che richiama il periodo classico.</figDesc>
+               <head>Estasi</head>
+            </figure>
+            <ab n="ab_00" facs="#C2fronte_01">
+               <lb xml:id="fronte_lb_1"/>
+               <persName ref="list.xml#DM" >
+                  <choice>
+                     <abbr>D</abbr>
+                     <expan>Domenico</expan>
+                  </choice> Mastroianni</persName>
+            </ab>
+         </div>
+         <div type="retro">
+            <div type="message">
+                  <opener xmlns="http://www.tei-c.org/ns/1.0">
+                        <dateline>
+                              <lb n="1" facs="#lineText_1-187" xml:id="lineText-1-187"/>
+                              <s>
+                                    <placeName ref="list.xml#SP">Spezia</placeName> li 
+                                    <date when="1917-03-31">31/3-1917</date>
+                              </s>
+                        </dateline>
+                  </opener>
+                  <div xmlns="http://www.tei-c.org/ns/1.0" type="postcard-body">
+                        <p>
+                              <lb n="2" facs="#lineText_2-187" xml:id="lineText-2-187"/>
+                              Un bacio <choice>
+                                                <orig>affettuosisfimo</orig>
+                                                <reg resp="list.xml#LR" cert="high">affettuosossimo</reg>
+                                       </choice>
+                              <lb n="3" facs="#lineText_3-187" xml:id="lineText-3-187"/>
+                              sulla tua <choice>
+                                                <orig>purisfima</orig>
+                                                <reg resp="list.xml#LR" cert="high">purissima</reg>
+                                       </choice> fronte.
+                        </p>
+                  </div>
+                  <closer xmlns="http://www.tei-c.org/ns/1.0">
+                        <s>
+                              <lb n="4" facs="#lineText_4-187" xml:id="lineText-4-187"/>
+                              T'amo ardentemente e ti penso 
+                        </s>  
+                        <lb n="5" facs="#lineText_5-187" xml:id="lineText-5-187"/>
+                        <signed>
+                              <persName>
+                                    <forename ref="list.xml#GC">Giovannino</forename>
+                              </persName>
+                        </signed>
+                  </closer>
+            </div>
+            <div type="secondamano">
+               <ab type="paratext">
+                  <add>
+                     <num xmlns="http://www.tei-c.org/ns/1.0"
+                          type="cardinal"
+                          value="11">187</num>
+                  </add>
+               </ab>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

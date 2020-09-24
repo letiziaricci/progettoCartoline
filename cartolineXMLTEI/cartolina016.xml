@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="cartolina_7694-016">
+   <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+      <fileDesc>
+         <titleStmt>
+            <title>La lezione - Edizione digitale</title>
+         </titleStmt>
+         <publicationStmt><!-- contiene informazioni sulla pubblicazione e distribuzione del documento digitale -->
+            <publisher>
+               <choice>
+                  <abbr>Unipi</abbr>
+                  <expan instant="false">
+                                    Università di
+                                    <placeName ref="list.xml#PI" instant="false" full="yes">Pisa</placeName>
+                  </expan>
+               </choice>
+            </publisher>
+            <pubPlace ref="list.xml#PI">Pisa</pubPlace>
+            <availability default="false">
+               <p part="N">Available under licence only</p>
+            </availability>
+            <date when="2019" instant="false">2019</date>
+            <distributor>
+               <orgName ref="list.xml#LCD" instant="false" full="yes">
+                  <choice>
+                     <abbr>LabCD</abbr>
+                     <expan instant="false">Laboratorio di Cultura Digitale</expan>
+                  </choice>
+               </orgName>
+            </distributor>
+            <address>
+               <addrLine>Laboratorio di Cultura Digitale - Università di Pisa</addrLine>
+               <addrLine>
+                  <placeName ref="list.xml#PI" instant="false" full="yes">Pisa</placeName>
+               </addrLine>
+            </address>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <bibl type="postcard" default="false" status="draft">
+               <title>La lezione</title>
+            </bibl>
+            <msDesc status="draft"><!-- descrizione del manoscritto -->
+               <msIdentifier><!-- info per identificare il manoscritto -->
+                  <country ref="#IT">Italia</country>
+                  <settlement ref="#SP">La Spezia (SP)</settlement>
+                  <!-- collocazione specifica -->
+                  <repository ref="#MCE">Museo Civico Etnografico "Giovanni Podenzana", Sezione dei cimeli garibaldini e della Prima Guerrra Mondiale</repository>
+                  <!-- codice identificativo -->
+                  <idno type="postcard_id">7694_016_001/002</idno>
+               </msIdentifier>
+               <msContents><!-- Info sul contenuto della cartolina -->
+                  <summary>Cartolina Artistica</summary>
+                  <msItem>
+                     <textLang xml:id="language_ITA" mainLang="ita">Italiano</textLang>
+                  </msItem>
+               </msContents>
+               <physDesc><!-- descrizione fisica del manoscritto -->
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType>Cartolina</objectType>
+                           <material>Carta</material>
+                           <dimensions unit="cm">
+                              <height>9</height>
+                              <width>14</width>
+                           </dimensions>
+                           <!-- descrizione fisica dei timbri -->
+                           <stamp type="postmark" n="stamp_016"> 
+                                        Sul retro, nella metà destra della cartolina, è presente un timbro circolare. 
+                                    </stamp>
+                           <stamp type="postmark" n="">
+                                        Sul fronte, in alto a destra, sono presenti due presunti timbri circolari:
+                                        il primo più in alto, parzialmente visibile per 1/4; il secondo, leggermente sotto il primo, totalmente illeggibile.
+                                    </stamp>
+                           <!-- descrizione fisica del francobollo -->
+                           <stamp type="postage" n="stamp_016"> 
+                                         Francobollo di forma rettangolare color verde scuro, parzialmente coperto dall'annullo postale.
+                                    </stamp>
+                           <!-- descrizione fisica della cartolina -->
+                           <p part="N">
+                                        Cartolina in buone condizioni fisiche, sul verso è presente testo manoscritto in inchiostro nero su cartoncino color avorio, sul retro è presente una fotografia d'epoca. 
+                                        Sulla parte posteriore, il testo è scritto su due colonne le quali dividono mittenti e destinatari, il francobollo e un timbro circolare;
+                                        La parte frontale presenta l'immagine, delle informazioni stampate e nell'angolo in alto a destra sono presenti due timbri.
+                        </p>
+                        </support>
+                        <!-- descrizione delle condizioni fisiche di conservazione della cartolina -->
+                        <condition>
+                           <p part="N">Cartolina in buone condizioni fisiche, eccetto i timbri dei quali è solo parzialmente leggibile quello sul retro.</p>
+                        </condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <!-- descrizione del tipo di scrittura usato nella cartolina -->
+                  <handDesc>
+                     <p part="N">La cartolina presenta porzioni di testo stampato sul fronte, e del testo scritto a mano dal mittente.</p>
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc><!-- Descrizione delle azioni relative a un atto di corrispondenza -->
+         <correspDesc default="false">
+            <correspAction type="sent">
+               <persName ref="list.xml#Ma" instant="false" full="yes">Mario</persName>
+               <persName ref="list.xml#Gin" instant="false" full="yes">Ginevra</persName>
+               <persName ref="list.xml#Nino" instant="false" full="yes">Nino</persName>
+               <placeName ref="list.xml#MI" instant="false" full="yes">Milano</placeName>
+               <date type="writing" when="1913-03-22" instant="false">22 Marzo 1913</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="list.xml#AT" instant="false" full="yes">Antonietta Turtura</persName>
+               <persName ref="list.xml#OT" instant="false" full="yes">Oliva Turtura</persName>
+               <placeName ref="list.xml#RV" instant="false" full="yes">Ravenna</placeName>
+               <location type="address" instant="false">
+                  <address>
+                     <addrLine>Via Gir.Rossi N.60</addrLine>
+                  </address>
+               </location>
+            </correspAction>
+         </correspDesc>
+         <!-- Info di classificazione del testo -->
+         <textClass default="false">
+            <keywords><!--soggettario-->
+               <term>Cartolina</term>
+               <!--tipologia-->
+               <term>Cartolina Artistica</term>
+               <!--descrizione-->
+               <term>Lezione</term>
+               <term>Anziano</term>
+               <term>Bambina</term>
+            </keywords>
+         </textClass>
+         <!-- Linguaggio usato nel testo -->
+         <langUsage default="false">
+            <language ident="it-IT">Italiano</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <facsimile xmlns="http://www.tei-c.org/ns/1.0"><!-- Definizione della superficie di scrittura in termini di uno spazio espresso attraverso un sistema di coordinate -->
+      <surface><!-- zonazione retro della cartolina -->
+         <graphic xml:id="retro_postcard_016"
+                  url="img-cartoline/7694-016R.jpg"
+                  width="1651px"
+                  height="1081px"/>
+         <!-- auguri vivissimi e buone feste -->
+         <zone type="handWriting"
+               xml:id="lineText_1-16"
+               start="#lineText-1-16"
+               points=" 713,14 728,92 661,186 677,274 688,408 679,680 717,908 664,1026 612,1050 527,905 557,681 515,436 497,197 569,18"
+               rotate="0"/>
+         <!-- unitamente alla famiglia -->
+         <zone type="handWriting"
+               xml:id="lineText_2-16"
+               start="#lineText-2-16"
+               points=" 429,38 469,41 523,145 479,244 519,468 535,620 532,829 480,901 425,901 357,788 388,625 424,588 "
+               rotate="0"/>
+         <!-- Mario Ginevra Nino -->
+         <zone type="handWriting"
+               xml:id="lineText_3-16"
+               start="#lineText-3-16"
+               points=" 288,45 397,126 396,418 393,738 339,822 296,818 281,470 225,465 245,409 285,346 273,58 "
+               rotate="0"/>
+         <!-- Milano 22-3 -->
+         <zone type="handWriting"
+               xml:id="lineText_4-16"
+               start="#lineText-4-16"
+               points=" 16,383 60,386 75,534 196,536 163,717 84,729 73,830 115,854 116,1045 36,1080 "
+               rotate="0"/>
+         <!-- 16 (catalogazione)-->
+         <zone type="catalog"
+               xml:id="number16_16"
+               start="#number16-16"
+               points=" 1184,38 1145,98 1185,117 1245,110 1233,34 "
+               rotate="0"/>
+         <!-- stamp & postmark -->
+         <zone type="postage"
+               xml:id="stamp_16"
+               start="#stamp-16"
+               points=" 1380,2 1301,36 1288,165 1317,341 1491,356 1635,262 1645,133 1576,1 "
+               rotate="0"/>
+         <!-- Gent.me Signorine -->
+         <zone type="handWriting"
+               xml:id="lineDest_1-16"
+               start="#lineDest-1-16"
+               points=" 837,486 769,425 753,321 792,228 863,234 860,304 924,330 971,298 1027,296 1036,332 1121,321 1165,204 1195,210 1185,362 1459,382 1451,426 1260,424 1243,506 1207,502 1203,424 1087,409 1037,341 969,340 955,424 849,430 "
+               rotate="0"/>
+         <!-- Antonietta ed Oliva Turtura -->
+         <zone type="handWriting"
+               xml:id="lineDest_2-16"
+               start="#lineDest-2-16"
+               points=" 736,525 747,554 801,565 857,549 1624,558 1649,576 1649,553 1637,506 1557,509 1556,473 1495,410 1409,444 1397,477 1332,449 1265,444 1255,493 1227,493 1191,460 1044,472 1029,456 941,488 940,462 879,461 875,410 853,412 829,490 "
+               rotate="0"/>
+         <!-- Via Gir. Rossi N.60 -->
+         <zone type="handWriting"
+               xml:id="lineDest_3-16"
+               start="#lineDest-3-16"
+               points=" 816,690 855,594 827,594 788,706 752,673 715,720 729,746 760,741 765,796 873,797 875,849 909,849 912,797 1080,824 1073,884 1111,888 1124,800 1299,796 1363,769 1360,718 1317,682 1273,658 1041,668 927,708 917,666 876,674 "
+               rotate="0"/>
+         <!-- Ravenna -->
+         <zone type="handWriting"
+               xml:id="lineDest_4-16"
+               start="#lineDest-4-16"
+               points=" 1080,977 1085,890 1165,810 1228,820 1201,912 1287,914 1320,858 1348,860 1332,917 1463,926 1473,909 1503,910 1567,996 1536,1013 1469,980 1223,985 1268,1013 1225,1030 1163,988 "
+               rotate="0"/>
+      </surface>
+      <!-- immagine | fronte della cartolina -->
+      <surface>
+         <graphic xml:id="front_postcard_016"
+                  url="img-cartoline/7694-016F.jpg"
+                  width="1071px"
+                  height="1650px"/>
+         <!-- fotografia -->
+         <zone xml:id="image_016"
+               start="#image-016"
+               points=" 915,16 973,78 975,191 912,187 876,99 "
+               rotate="0"/>
+         <!-- 165  ezione (P.Rys -->
+         <zone xml:id="subtitle_016"
+               start="#subtitle-016"
+               ulx="349"
+               uly="1614"
+               lrx="709"
+               lry="1643"
+               rotate="0"/>
+      </surface>
+   </facsimile>
+   <text>
+      <front xmlns="http://www.tei-c.org/ns/1.0"><!-- testo tipografico -->
+         <div type="tipografia" part="N" org="uniform" sample="complete">
+            <p facs="#subtitle_016" xml:id="subtitle-016" part="N">
+               <s type="publicationFronte" part="N">
+                              165 <gap reason="illegible" instant="false"/>ezione (P.Rys <gap reason="illegible" extent="several characters" instant="false"/>
+               </s>
+            </p>
+         </div>
+      </front>
+      <body xmlns="http://www.tei-c.org/ns/1.0">
+         <div type="fronte"
+              xml:id="front-postcard-016"
+              facs="#front_postcard_016"
+              part="N"
+              org="uniform"
+              sample="complete">
+            <figure xml:id="image-016" facs="#image_016"><!-- Descrizione dell'immagine in linguaggio naturale -->
+               <graphic url="img-cartoline/fronte.jpg"/>
+               <figDesc>
+                        Uomo anziano e una bambina, seduti su una panchina in un cortile, intenti a leggere un libro.
+               </figDesc>
+               <!-- titolo dell'immagine / della cartolina -->
+               <head>La lezione</head>
+            </figure>
+         </div>
+         <div type="retro" part="N" org="uniform" sample="complete">
+            <div type="message" part="N" org="uniform" sample="complete">
+               <div type="postcard-body" part="N" org="uniform" sample="complete">
+                  <p part="N">
+                     <lb xml:id="lineText-1-16"
+                         facs="#lineText_1-16"
+                         rend="writing-mode(vertical-lr) text-orientation(sideways)"/>
+                              Auguri vivissimi e buone feste
+                              <lb xml:id="lineText-2-16"
+                         facs="#lineText_2-16"
+                         rend="writing-mode(vertical-lr) text-orientation(sideways)"/>
+                              unitamente alla famiglia
+                        </p>
+               </div>
+               <closer>
+                  <lb xml:id="lineText-3-16" facs="#lineText_3-16"/>
+                  <signed>
+                     <persName instant="false" full="yes">
+                        <forename ref="list.xml#Ma" full="yes">Mario</forename>
+                     </persName>
+                  </signed>
+                  <signed>
+                     <persName instant="false" full="yes">
+                        <forename ref="list.xml#Gin" full="yes">Ginevra</forename>
+                     </persName>
+                  </signed>
+                  <signed>
+                     <persName instant="false" full="yes">
+                        <forename ref="list.xml#Nino" full="yes">Nino</forename>
+                     </persName>
+                  </signed>
+                  <!--luogo e data di scrittura della cartolina-->
+                  <dateline rend="writing-mode(vertical-lr) text-orientation(sideways)">
+                     <lb xml:id="lineText-4-16" facs="#lineText_4-16"/>
+                     <placeName ref="#MI" instant="false" full="yes">Milano</placeName>
+                     <date when="1913-03-22" instant="false">22-3</date>
+                  </dateline>
+               </closer>
+            </div>
+            <div type="address-destination"
+                 part="N"
+                 org="uniform"
+                 sample="complete">
+               <p part="N">
+                  <address>
+                     <addrLine>
+                        <lb xml:id="lineDest-1-16" facs="#lineDest_1-16"/>
+                              Gent.me Signorine
+                              <lb xml:id="lineDest-2-16" facs="#lineDest_2-16"/>
+                              Antonietta ed Oliva Turtura
+                              <lb xml:id="lineDest-3-16" facs="#lineDest_3-16"/>
+                              Via Ger. <choice>
+                           <orig>Rosfi</orig>
+                           <reg resp="list.xml#LR" cert="high" instant="false">Rossi</reg>
+                        </choice> N 60
+                              <lb xml:id="lineDest-4-16" facs="#lineDest_4-16"/>
+                              Ravenna
+                        </addrLine>
+                  </address>
+               </p>
+            </div>
+            <div type="postmark-postage"
+                 part="N"
+                 org="uniform"
+                 sample="complete">
+               <ab facs="stamp_16" xml:id="stamp-16" part="N">
+                  <stamp type="postmark">
+                     <mentioned rend="circle">
+                        <gap reason="illegible" agent="faded" unit="chars" instant="false"/>
+                        <mentioned>
+                           <hi rend="align(center)">
+                              <unclear reason="faded" agent="time" cert="high" instant="false">22.3.13.22</unclear>
+                           </hi>
+                        </mentioned>
+                     </mentioned>
+                  </stamp>
+                  <stamp type="postage">
+                     <mentioned rend="color(green)">
+                        <orgName ref="#oPI" instant="false" full="yes">Poste italiane</orgName>
+                        <hi>
+                           <num rend="double" type="cardinal" value="5">5</num> centesimi 
+                            <num rend="double" type="cardinal" value="5">5</num>
+                        </hi>
+                     </mentioned>
+                  </stamp>
+               </ab>
+            </div>
+            <div type="secondamano" part="N" org="uniform" sample="complete">
+               <ab type="paratext" part="N">
+                  <add facs="#number16_16"
+                       xml:id="number16-16"
+                       instant="false"
+                       status="unremarkable">
+                     <num type="cardinal" value="16">
+                        16
+                    </num>
+                  </add>
+               </ab>
+            </div>
+         </div>
+      </body>
+      <back>
+         <div type="linguistic">
+            <ab>
+               <seg lemma="augurio">
+                  <w type="form">Auguri</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="vivo">
+                  <w type="form">vivissimi</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="e">
+                  <w type="form">e</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="buono">
+                  <w type="form">buone</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="festa">
+                  <w type="form">feste</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="unitamente">
+                  <w type="form">unitamente</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="al">
+                  <w type="form">alla</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="famiglia">
+                  <w type="form">famiglia</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+            </ab>
+         </div>
+      </back>
+   </text>
+</TEI>

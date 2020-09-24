@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="cartolina_7694-137">
+   <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+      <fileDesc>
+         <titleStmt>
+            <title>[Donna che fuma] - Edizione digitale</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <choice>
+                  <abbr>Unipi</abbr>
+                  <expan instant="false">Università di
+                            <placeName ref="list.xml#PI" instant="false" full="yes">Pisa</placeName>
+                  </expan>
+               </choice>
+            </publisher>
+            <pubPlace ref="list.xml#PI">Pisa</pubPlace>
+            <availability default="false">
+               <p part="N">Available under licence only</p>
+            </availability>
+            <date when="2019" instant="false">2019</date>
+            <distributor>
+               <orgName ref="list.xml#LCD" instant="false" full="yes">
+                  <choice>
+                     <abbr>LabCD</abbr>
+                     <expan instant="false">Laboratorio di Cultura Digitale</expan>
+                  </choice>
+               </orgName>
+            </distributor>
+            <address>
+               <addrLine>Laboratorio di Cultura Digitale - Università di Pisa</addrLine>
+               <addrLine>
+                  <placeName ref="list.xml#PI" instant="false" full="yes">Pisa</placeName>
+               </addrLine>
+            </address>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <bibl default="false" status="draft">
+               <title type="custom" resp="list.xml#ES">[Donna che fuma]</title>
+            </bibl>
+            <msDesc status="draft"><!-- descrizione del manoscritto -->
+               <msIdentifier><!-- info per identificare il manoscritto -->
+                  <country ref="list.xml#IT">Italia</country>
+                  <settlement ref="list.xml#SP">La Spezia (SP)</settlement>
+                  <!-- collocazione specifica -->
+                  <repository ref="list.xml#MCE">Museo Civico Etnografico "Giovanni Podenzana", Sezione dei cimeli garibaldini e della Prima Guerrra Mondiale</repository>
+                  <!-- codice identificativo -->
+                  <idno type="postcard_id">7694_137_001/002</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Cartolina Artistica</summary>
+                  <textLang>Italiano</textLang>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType>Cartolina</objectType>
+                           <material>Carta</material>
+                           <dimensions unit="cm">
+                              <height>9</height>
+                              <width>14</width>
+                           </dimensions>
+                           <stamp type="postage"> Francobollo - Regno d'Italia </stamp>
+                           <stamp type="postmark">Timbro della Ferrovia di Modena </stamp>
+                        </support>
+                        <condition>Buono</condition>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc default="false">
+            <correspAction type="sent">
+               <persName ref="list.xml#GC" instant="false" full="yes">Giovannino</persName>
+               <placeName ref="list.xml#MO" instant="false" full="yes">Modena</placeName>
+               <date type="writing" when="1917-10-12" instant="false">1917/12/10</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="list.xml#OT" instant="false" full="yes">Oliva</persName>
+               <placeName ref="list.xml#RV" instant="false" full="yes">Ravenna</placeName>
+            </correspAction>
+         </correspDesc>
+         <textClass default="false">
+            <keywords>
+               <term>Cartolina </term>
+               <term>Cartolina Artistica </term>
+               <term>Donna in verde che fuma una sigaretta</term>
+            </keywords>
+         </textClass>
+         <langUsage default="false">
+            <language ident="it-IT">italiano</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <facsimile xmlns="http://www.tei-c.org/ns/1.0">
+      <surface type="fronte">
+         <graphic url="img-cartoline/7694-137F.jpg"/>
+      </surface>
+      <surface type="retro">
+         <graphic url="img-cartoline/7694-137R.jpg"/>
+         <zone xml:id="cid137"
+               ulx="355"
+               uly="43"
+               lrx="423"
+               lry="71"
+               rotate="0"/>
+         <zone xml:id="caddress137"
+               ulx="298"
+               uly="143"
+               lrx="580"
+               lry="363"
+               rotate="0"/>
+         <zone xml:id="cprint137"
+               ulx="260"
+               uly="360"
+               lrx="304"
+               lry="376"
+               rotate="0"/>
+         <zone xml:id="cintro137"
+               ulx="208"
+               uly="40"
+               lrx="267"
+               lry="349"
+               rotate="0"/>
+         <zone xml:id="ctesto137"
+               ulx="32"
+               uly="55"
+               lrx="195"
+               lry="330"
+               rotate="0"/>
+         <zone xml:id="cfrancobollo137"
+               ulx="457"
+               uly="26"
+               lrx="580"
+               lry="117"
+               rotate="0"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body xmlns="http://www.tei-c.org/ns/1.0">
+         <div facs="#fronte137"
+              type="fronte"
+              xml:id="frontedesc137"
+              part="N"
+              org="uniform"
+              sample="complete">
+            <figure>
+               <figDesc> Donna in età avanzata vestita di verde seduta su una poltrona mentre tiene tra le dita una sigaretta.
+                    il ritratto è usurato dal tempo. </figDesc>
+               <head>[Donna che fuma]</head>
+            </figure>
+         </div>
+         <div type="retro" part="N" org="uniform" sample="complete">
+            <div type="message" part="N" org="uniform" sample="complete">
+               <opener>
+                  <dateline>
+                     <lb n="1"/>
+                     <s part="N">
+                        <placeName ref="list.xml#MO" instant="false" full="yes">Modena</placeName> li
+                                    <date when="1917-10-12" instant="false">12/10-17</date>
+                     </s>
+                  </dateline>
+               </opener>
+               <div type="postcard-body" part="N" org="uniform" sample="complete">
+                  <p part="N">
+                     <lb n="2"/>
+                     <choice>
+                        <orig>Affettuosisfimi</orig>
+                        <reg resp="list.xml#LR" cert="high" instant="false">Affettuosissimi</reg>
+                     </choice>
+                  </p>
+               </div>
+               <closer>
+                  <lb n="3"/>
+                  <signed>
+                     <persName ref="list.xml#GC" instant="false" full="yes">
+                        <forename full="yes">Giovannino</forename>
+                     </persName>
+                  </signed>
+               </closer>
+            </div>
+            <div type="address-destination"
+                 part="N"
+                 org="uniform"
+                 sample="complete">
+               <p part="N">
+                  <address>
+                     <addrLine>
+                        <lb n="4"/>
+                                    Gent. Sig.na
+                                    <lb n="5"/>
+                                    Oliva Turtura
+                                    <lb n="6"/>
+                                    Via Girolamo <choice>
+                           <orig>Rosfi</orig>
+                           <reg resp="list.xml#LR" cert="high" instant="false">Rossi</reg>
+                        </choice> 58
+                                    <lb n="7"/>
+                                    Ravenna
+                              </addrLine>
+                  </address>
+               </p>
+            </div>
+            <div type="postmark-postage"
+                 part="N"
+                 org="uniform"
+                 sample="complete">
+               <ab part="N">
+                  <stamp type="postmark">
+                     <mentioned>
+                        <placeName ref="#MO" instant="false" full="yes"> MODENA </placeName>
+                        <unclear reason="damaged" instant="false"> FERROVIA </unclear>
+                     </mentioned>
+                     <date when="1917" instant="false">12.10. <unclear reason="damaged" instant="false"> 17 </unclear>
+                     </date>
+                  </stamp>
+                  <stamp type="postage">francobollo da 5 centesimi del Regno d'Italia</stamp>
+               </ab>
+            </div>
+            <div type="secondamano" part="N" org="uniform" sample="complete">
+               <ab type="paratext" part="N">
+                  <add instant="false" status="unremarkable">
+                     <num type="cardinal"> 137 </num>
+                  </add>
+               </ab>
+            </div>
+         </div>
+      </body>
+      <back>
+         <div type="linguistic">
+            <ab>
+               <seg lemma="affettuoso">
+                  <w type="form">Affettuosissimi</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+            </ab>
+         </div>
+      </back>
+   </text>
+</TEI>

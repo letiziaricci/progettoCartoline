@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="cartolina_7694-190">
+   <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+      <fileDesc>
+         <titleStmt>
+            <title> Canzone d'amore - Edizione digitale</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <choice>
+                  <abbr>Unipi</abbr>
+                  <expan instant="false">Università di
+                            <placeName ref="list.xml#PI" instant="false" full="yes">Pisa</placeName>
+                  </expan>
+               </choice>
+            </publisher>
+            <pubPlace ref="list.xml#PI">Pisa</pubPlace>
+            <availability default="false">
+               <p part="N">Available under licence only</p>
+            </availability>
+            <date when="2019" instant="false">2019</date>
+            <distributor>
+               <orgName ref="list.xml#LCD" instant="false" full="yes">
+                  <choice>
+                     <abbr>LabCD</abbr>
+                     <expan instant="false">Laboratorio di Cultura Digitale</expan>
+                  </choice>
+               </orgName>
+            </distributor>
+            <address>
+               <addrLine>Laboratorio di Cultura Digitale - Università di Pisa</addrLine>
+               <addrLine>
+                  <placeName ref="list.xml#PI" instant="false" full="yes">Pisa</placeName>
+               </addrLine>
+            </address>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <bibl default="false" status="draft">
+                        <!-- Titolo ricavato dalla cartolina -->
+               <title n="1"> Canzone d'amore </title>
+               <title n="2">
+                  <foreign xml:lang="fr">Chanson d'amour</foreign>
+               </title>
+               <!-- Produzione: chi ha prodotto / pubblicato la cartolina.  -->
+               <publisher>
+                  <orgName ref="list.xml#CAT" instant="false" full="yes"> Cromoscultura A.Traldi</orgName>
+               </publisher>
+               <!-- Luogo -->
+               <pubPlace ref="list.xml#MI">Milano</pubPlace>
+            </bibl>
+            <msDesc status="draft"><!-- Codice identificativo della cartolina --><!-- descrizione del manoscritto -->
+               <msIdentifier><!-- info per identificare il manoscritto -->
+                  <country ref="list.xml#IT">Italia</country>
+                  <settlement ref="list.xml#SP">La Spezia (SP)</settlement>
+                  <!-- collocazione specifica -->
+                  <repository ref="list.xml#MCE">Museo Civico Etnografico "Giovanni Podenzana", Sezione dei cimeli garibaldini e della Prima Guerrra Mondiale</repository>
+                  <!-- codice identificativo -->
+                  <idno type="postcard_id">7694_190_001/002</idno>
+               </msIdentifier>
+               <!-- Informazioni sul contenuto e descrizione generica delle tre cartoline -->
+               <msContents>
+                  <summary>Cartolina Artistica</summary>
+                  <textLang>Italiano </textLang>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType> Cartolina </objectType>
+                           <material> Carta </material>
+                           <dimensions unit="cm">
+                              <height> 9 </height>
+                              <width>14 </width>
+                           </dimensions>
+                        </support>
+                        <!-- Conservazione buono= non occorrono interventi di restauro;-->
+                        <condition>Buono</condition>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc default="false">
+            <correspAction type="inviato">
+               <persName ref="list.xml#GC" instant="false" full="yes">Giovannino</persName>
+               <placeName ref="list.xml#MO" instant="false" full="yes">Modena</placeName>
+               <!-- Dati di invio da timbro (postage) o da manoscritto (writing) -->
+               <date type="writing" when="26/11/2017" instant="false"> 26/11/17 </date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="list.xml#OT" instant="false" full="yes">Oliva Turtura</persName>
+               <placeName ref="list.xml#RV" instant="false" full="yes">Ravenna</placeName>
+            </correspAction>
+         </correspDesc>
+         <textClass default="false">
+            <keywords><!-- soggettario -->
+               <term> Tre donne cantano una canzone d'amore in un pascolo </term>
+               <!-- tipologia -->
+               <term> Artistica </term>
+               <!-- descrizione -->
+               <term> Cartolina Artistica </term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <facsimile xmlns="http://www.tei-c.org/ns/1.0">
+      <surface>
+         <graphic url="img.cartoline/7694-190F.jpg"/>
+      </surface>
+      <surface>
+         <graphic url="img.cartoline/7694-190R.jpg"/>
+         <!-- timbro e francobollo -->
+         <zone xml:id="cart_190_01"
+               ulx="0"
+               uly="159"
+               lrx="124"
+               lry="19"
+               rendition="Line"
+               rotate="0"/>
+         <!-- Indirizzo e destinatari-->
+         <zone xml:id="cart_190_02"
+               ulx="61"
+               uly="274"
+               lrx="149"
+               lry="66"
+               rendition="Line"
+               rotate="0"/>
+         <zone xml:id="cart_190_03"
+               ulx="140"
+               uly="275"
+               lrx="191"
+               lry="27"
+               rendition="Line"
+               rotate="0"/>
+         <zone xml:id="cart_190_04"
+               ulx="192"
+               uly="274"
+               lrx="243"
+               lry="16"
+               rendition="Line"
+               rotate="0"/>
+         <zone xml:id="cart_190_05"
+               ulx="251"
+               uly="7"
+               lrx="340"
+               lry="286"
+               rendition="Line"
+               rotate="0"/>
+         <!-- scritta-->
+         <zone xml:id="cart_190_06"
+               ulx="112"
+               uly="273"
+               lrx="274"
+               lry="295"
+               rendition="Line"
+               rotate="0"/>
+         <!-- data -->
+         <zone xml:id="cart_190_07"
+               ulx="19"
+               uly="291"
+               lrx="341"
+               lry="351"
+               rendition="Line"
+               rotate="0"/>
+         <!-- testo 1 -->
+         <zone xml:id="cart_190_08"
+               ulx="21"
+               uly="352"
+               lrx="330"
+               lry="393"
+               rendition="Line"
+               rotate="0"/>
+         <!-- testo 2 -->
+         <zone xml:id="cart_190_09"
+               ulx="12"
+               uly="395"
+               lrx="156"
+               lry="428"
+               rendition="Line"
+               rotate="0"/>
+         <!-- Saluto 1 -->
+         <zone xml:id="cart_190_10"
+               ulx="160"
+               uly="389"
+               lrx="339"
+               lry="435"
+               rendition="Line"
+               rotate="0"/>
+         <!-- Saluto 2 -->
+         <zone xml:id="cart_190_11"
+               ulx="5"
+               uly="428"
+               lrx="191"
+               lry="466"
+               rendition="Line"
+               rotate="0"/>
+         <!-- firma -->
+         <zone xml:id="cart_190_12"
+               ulx="21"
+               uly="461"
+               lrx="322"
+               lry="504"
+               rendition="Line"
+               rotate="0"/>
+         <!-- stampe finali -->
+         <zone xml:id="cart_190_13"
+               ulx="126"
+               uly="525"
+               lrx="324"
+               lry="545"
+               rendition="Line"
+               rotate="0"/>
+         <zone xml:id="cart_190_14"
+               ulx="87"
+               uly="505"
+               lrx="340"
+               lry="523"
+               rendition="Line"
+               rotate="0"/>
+      </surface>
+   </facsimile>
+   <text>
+      <front xmlns="http://www.tei-c.org/ns/1.0"><!-- testo tipografico -->
+         <div type="tipografia" part="N" org="uniform" sample="complete">
+            <p rend="writing-mode(vertical-lr) text-orientation(sideways)" part="N">
+               <s facs="#line_publication-190" xml:id="line-publication-190" part="N">
+                  <orgName ref="list.xml#EF" type="typography" instant="false" full="yes">
+                                    Cromoscultura A. Tardi 
+                              </orgName>
+                  <placeName ref="list.xml#MI" instant="false" full="yes">Milano</placeName>
+               </s>
+               <s facs="#line_title-190" xml:id="line-title-190" part="N">
+                              N. <num type="cardinal" value="01305">01305</num>.    Estati.    Charme.
+                        </s>
+            </p>
+         </div>
+      </front>
+      <body xmlns="http://www.tei-c.org/ns/1.0">
+         <div type="fronte" part="N" org="uniform" sample="complete">
+            <figure>
+               <graphic url="img/190F.jpg"/>
+               <figDesc> Tre donne cantano una canzone d'amore in un pascolo con il gregge </figDesc>
+               <head> Canzone d'amore </head>
+            </figure>
+         </div>
+         <div type="retro" part="N" org="uniform" sample="complete">
+            <div type="message">
+                        <opener>
+                              <dateline>
+                                    <lb n="1"/>
+                                    <s part="N">
+                                    <placeName ref="list.xml#MO" instant="false" full="yes">Modena</placeName>, li 
+                                          <date when="1917-11-25" instant="false">25/11.17</date>.
+                                    </s>
+                              </dateline>
+                        </opener>
+                        <div type="postcard-body" part="N" org="uniform" sample="complete">
+                              <p part="N">
+                                    <lb n="2"/>
+                                    L'inesprimibile
+                                    <lb n="3"/>
+                                    addolora.
+                              </p>
+                        </div>
+                        <closer>
+                              <s part="N">
+                                    <lb n="4"/>
+                                    Con profondo
+                                    <lb n="5"/>
+                                    affetto tuo
+                              </s>
+                              <lb n="6"/>
+                              <signed>
+                                    <persName instant="false" full="yes">
+                                    <forename ref="list.xml#GC" full="yes">Giovannino</forename>
+                                    </persName>
+                              </signed>
+                        </closer>
+            </div>
+            <div type="address-destination"
+                 part="N"
+                 org="uniform"
+                 sample="complete">
+               <p part="N">
+                  <address>
+                     <addrLine>
+                        <lb n="7"/>
+                              Gent. Sig.na
+                              <lb n="8"/>
+                              Oliva Turtura
+                              <lb n="9"/>
+                              Via Girolamo R<choice>
+                           <orig>Rosfi</orig>
+                           <reg resp="list.xml#LR" cert="high" instant="false">Rossi</reg>
+                        </choice> 58
+                              <lb n="10"/>
+                              Ravenna
+                        </addrLine>
+                  </address>
+               </p>
+            </div>
+            <div type="postmark-postage"
+                 part="N"
+                 org="uniform"
+                 sample="complete">
+               <ab part="N">
+                  <stamp type="timbro-postale" n="1">
+                     <mentioned>
+                        <unclear reason="faded" instant="false"> ★ Modena ★ Ferrovia</unclear>
+                     </mentioned>
+                     <date instant="false">
+                        <gap reason="illegible" extent="11" unit="chars" instant="false"/>
+                     </date>
+                  </stamp>
+                  <stamp type="affrancatura" n="2">Francobollo da 5 centesimi del Regno d'Italia </stamp>
+               </ab>
+            </div>
+            <div type="secondamano" part="N" org="uniform" sample="complete">
+               <ab type="paratext" part="N">
+                  <add cert="medium" instant="false" status="unremarkable">
+                     <num type="cardinal" value="190">
+                              190
+                      </num>
+                  </add>
+               </ab>
+            </div>
+         </div>
+      </body>
+      <back>
+         <div type="linguistic">
+            <ab>
+               <seg lemma="il">
+                  <w type="form">L'</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="inesprimibile">
+                  <w type="form">inesprimibile</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="addolorare">
+                  <w type="form">addolora</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma=".">
+                  <w type="form">.</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="con">
+                  <w type="form">Con</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="profondo">
+                  <w type="form">profondo</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="affetto">
+                  <w type="form">affetto</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="tuo">
+                  <w type="form">tuo</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+               <seg lemma="Giovannino">
+                  <w type="form">Giovannino</w>
+                  <ptr target="#string-range(//div[@type='postcard-body'],0,10)"/>
+                  <ptr target="#string-range(//closer,0,10)"/>
+               </seg>
+            </ab>
+         </div>
+      </back>
+   </text>
+</TEI>

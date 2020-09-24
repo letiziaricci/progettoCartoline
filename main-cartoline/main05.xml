@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+  <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cartolina_7694-005" >
+    <teiHeader>
+        <fileDesc> <!--contiene le informazioni relative al file-->
+            <titleStmt> <!--figlio obbligatorio: titolo dell'edizione digitale e responsabili-->
+                <title type="sub" xml:id="title5">Pace agli uomini di buona volontà</title>
+             </titleStmt>
+
+            <publicationStmt>
+                <publisher>
+                    <orgName ref="#UNIPI"> Unipi </orgName>
+                </publisher>
+            </publicationStmt>
+
+            <notesStmt xml:id="notesCartolina5">
+                <note n="1">
+                    Sul fronte troviamo "B.Mastroianni" come firma dell'artista e la scritta "Pace agli uomini di buona volontà" con la sua traduzione in francese ("Paix aux hommes de bonne volonté").
+                    Sul retro troviamo la stampa "Sculture MASTROIANNI Roma - Edizione Propria - N.34"; troviamo successivamente la scritta ""Cronogliptica" A. Marzi - Roma".
+                    Troviamo anche le scritte "Riproduzione interdetta" e "Conc. escl. A. Vistarini - Roma".
+                    Presente anche un numero (5) che identifica la cartolina nell'archivio del progetto.
+                </note>
+                <note n="2">
+                    Sulla base delle cartoline che sono presenti in archivio, possiamo dedurre che la corrispondenza va sicuramente dal 1911 al 1918; non sappiamo però la data effettiva di inizio e di fine corrispondenza.
+                </note>
+                <note n="3">
+                    Sul retro della cartolina possiamo trovare un francobollo e un timbro.
+                </note>
+            </notesStmt>
+
+                <sourceDesc> <!--figlio obbligatorio: contiene le info relative alla fonte originale: data di pubblicazione diversa da quella dell'edizione digitale-->
+                   <bibl>
+                        <!-- TITOLO Quello che si ricava dalla cartolina; Se un documento composto da immagini
+                            non presenta un titolo o altri elementi considerabili come titolo, si formula un titolo sintetico
+                            registrandolo entro parentesi quadre [Venere al bagno] ma indicando dentro la codifica come qui sotto esemplificato-->
+
+                        <title type="custom" resp="#PU">[Pace agli uomini di buona volontà]</title>
+                        <author ref="#GC">Giovanni </author>
+                        <!-- PRODUZIONE Chi ha prodotto / pubblicato la cartolina. Se non presente togliere il tag  -->
+                        <publisher>
+                            <orgName ref="#C">Cromogliptica</orgName><!--si tratta di una casa editrice-->
+                        </publisher>
+                        <!-- LUOGO -->
+                        <pubPlace n="00">Roma</pubPlace>
+                        <publisher n="primoed"> <ptr target="#AM"/>A. Marzi</publisher>
+                        <pubPlace xml:id="Rome"> Roma </pubPlace>
+                        <date when="1917-11-29"> 29/11/17</date>
+                    </bibl>
+
+                    <msDesc>
+                        <msIdentifier>
+                            <!-- CODICE IDENTIFICATIVO -->
+                            <idno>7694_005_001/002</idno>
+                        </msIdentifier>
+
+                        <!-- Informazioni sul contenuto della cartolina -->
+                        <!-- DESCRIZIONE -->
+                        <msContents>
+
+                            <summary>Cartolina Artistica</summary>
+                            <textLang>Italiano</textLang>
+                        </msContents>
+
+                   <physDesc>
+                       <objectDesc>
+                         <supportDesc>
+
+                            <support xml:id="support">
+                                <stamp type="postage">Francobollo da 5 centesimi delle Poste Italiane</stamp>
+                                <stamp type="postmark">Timbro con numeri 22 12 18 20</stamp>
+                            </support>
+
+                         </supportDesc>
+                       </objectDesc>
+                        </physDesc>
+                    </msDesc>
+
+                    <!-- NOMI -->
+
+                    <listPerson>
+                        <person xml:id="GC">
+                            <persName>
+                                <forename>Giovanni</forename>
+                                <surname>Coliola</surname>
+                            </persName>
+                            <sex>M</sex>
+                            <occupation n="1">
+                                <desc>Tenente Colonnello[maggiore]</desc>
+                            </occupation>
+                        </person>
+                        <org>
+                            <persName>Famiglia Turtura</persName>
+
+                        </org>
+                    </listPerson>
+
+                    <listPlace>
+                        <place xml:id="RV">
+                            <placeName>Ravenna</placeName>
+                            <settlement type="località">città</settlement>
+                            <district type="comune">Ravenna</district>
+                            <district type="provincia">RV</district>
+                            <country key="N">IT</country>
+                        </place>
+
+                        <place xml:id="SP">
+                            <placeName>La Spezia</placeName>
+                            <settlement type="località">città</settlement>
+                            <district type="comune">La Spezia</district>
+                            <district type="provincia">SP</district>
+                            <country key="N">IT</country>
+                        </place>
+
+
+                    </listPlace>
+                     <listOrg>
+                        <org xml:id="AT">
+                            <orgName>Cromogliptica
+                                <persName>
+                                    <forename>
+                                        <choice>
+                                            <abbr type="nome">A.</abbr>
+                                        </choice>
+                                    </forename>
+                                    <surname>Marzi</surname>
+                                </persName>
+                            </orgName>
+                        </org>
+                    </listOrg>
+             </sourceDesc>
+        </fileDesc>
+
+        <profileDesc>
+            <correspDesc xml:id="corresp5">
+                <correspAction type="sent">
+                    <persName ref="#GC">Giovanni Coliola</persName>
+                    <placeName ref="#SP">La Spezia</placeName>
+                    <date type="writing" when="1916-12-21">1916/12/21</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#FT" type="Turtura">Famiglia Turtura</persName>
+                    <placeName ref="#RV"> Ravenna </placeName>
+                </correspAction>
+            </correspDesc>
+
+            <textClass>
+                <keywords>
+                    <!-- soggettario -->
+                    <!-- tipologia -->
+                    <!-- descrizione -->
+                    <term>Cartolina</term>
+                    <term>Cartolina Artistica</term>
+                    <term>Maria con bambino e angelo</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+
+        <encodingDesc>
+            <editorialDecl>
+                <interpretation>
+                    <p>
+                        <list>
+
+                            <item>
+                                <choice xml:id="sigRA">
+                                    <expan>signora</expan>
+                                    <abbr type="titolo">sign.ra</abbr>
+                                </choice>
+                            </item>
+
+                            <item>
+                                <choice xml:id="uff">
+                                    <expan>Ufficio </expan>
+                                    <abbr type="luogo">Uff</abbr>
+                                </choice>
+
+                            </item>
+
+
+                            <item>
+
+                                <choice xml:id="rev">
+                                    <expan>Revisione</expan>
+                                    <abbr> Rev.</abbr>
+                                </choice>
+
+                            </item>
+
+                            <item>
+                                <choice xml:id="li">
+                                    <orig> li </orig>
+                                    <reg> il </reg>
+                                </choice>
+                            </item>
+
+                            <item>
+                                <choice xml:id="fam">
+                                    <expan>Famiglia </expan>
+                                    <abbr type="titolo">Famiglia </abbr>
+                                </choice>
+                            </item>
+
+                        </list>
+                    </p>
+                </interpretation>
+            </editorialDecl>
+        </encodingDesc>
+
+ </teiHeader>
+
+    <text type="cartolina" xml:id="cartolina1" n="1">
+        <body xml:lang="ita">
+
+            <div xml:id="fronte_prima_cartolina" type="fronte">
+                <figure>
+                    <pb facs="#front1" n="1" xml:id="fronte-1"/>
+                    <figDesc>
+                        <desc>Maria con bambino e angelo</desc>
+                    </figDesc>
+                </figure>
+                <p >
+                    <persName ref="#BM">B. Mastroianni</persName>
+                </p>
+            </div>
+
+
+
+            <div xml:id="retro_prima_cartolina" type="retro">
+              <pb facs="#back1" n="2" xml:id="back-1"/>
+                <div type="rtrArchivio" xml:id="Archivio1">
+                    <p facs="#numeroCartolina5">
+                        <num type="cardinal">
+                            <idno> 5 </idno>
+                        </num>
+                    </p>
+                </div>
+
+                <div xml:id="testoresto_1" type="rtr">
+                    <div type="opener">
+                        <dateline>
+                            <placeName ref="#SP">Spezia</placeName>,
+                            <distinct type="forma_desueta"> li <ptr target="#li"/> </distinct>
+                             <date when="1916-12-21"> 21/12-1916</date>
+                        </dateline>
+                     </div>
+
+                     <div xml:id="testoRetroCartolina5">
+                         <p xml:id="retroCartolina5Riga1" facs="#testoCartolina5Riga1"> <lb/>Spezia, li 21/12/1916.</p>
+                         <p xml:id="retroCartolina5Riga2" facs="#testoCartolina5Riga2"> <lb/>Infiniti auguri di</p>
+                         <p xml:id="retroCartolina5Riga3" facs="#testoCartolina5Riga3"> <lb/>buon Natale </p>
+                         <closer style="standard" xml:id="retroCartolina5Firma" facs="#testoFirmaCartolina5"> <signed> <persName ref="#GC"> <forename type="diminutivo"> Giovannino </forename> </persName> </signed></closer>
+
+                    </div>
+
+                </div>
+
+                <div type="rtr" rend="vertical" xml:id="scritte_stampate_8">
+                    <p>
+                        <lb/> <num type="cardinal">34</num>Riproduzione interdetta
+                        <abbr> Uff. <ptr target="#uff"/> </abbr>
+                        <abbr>Rev.<ptr target="#rev"/></abbr>
+                        Stampa <placeName> Milano </placeName>
+                        <date when="1917-06-11"> 11.6.17 </date>
+                        <abbr>n. <ptr target="#num"/></abbr>
+                        <num type="cardinal"><idno> 1139</idno> </num>
+                    </p>
+                </div>
+
+
+                <div type="destination">
+                    <div xml:id="destination1" type="rtr">
+
+                      <p><lb/>
+                        <ptr target="#support"/>
+                        <!-- stamps -->
+                        <stamp type="postmark">
+                            <mentioned> 
+                                <placeName ref="#SP">Spezia</placeName>
+                                <date when="1917">22.12.18</date>.20
+                                SEZIONI RIUNITE
+                            </mentioned>
+                        </stamp>
+                        <stamp type="postage" facs="#FrancobolloCartolina5">Poste italiane 5 centesimi</stamp>
+                    </p>
+                </div>
+
+                <div>
+                    <p><lb/>
+                        <address xml:id="address_1">
+                            <addrLine>
+                                <abbr type="titolo">famiglia<ptr target="#Fam"/></abbr>
+                            </addrLine>
+
+                            <addrLine>
+                                <persName ref="#FT">
+                                    <surname>Turtura</surname>
+                                </persName>
+                            </addrLine>
+
+                            <addrLine>Via
+                                <persName>
+                                    <forename ref="#G"> Girolamo </forename>
+                                    <surname>Rossi </surname>
+                                </persName>
+                                <num type="cardinal"> 58 </num>
+                            </addrLine>
+
+                            <addrLine>
+                                <placeName ref="#RV">Ravenna</placeName>
+                            </addrLine>
+                        </address>
+                    </p>
+                   </div>
+                </div>
+            </div>
+
+        </body>
+
+        <back>
+
+
+
+        </back>
+    </text>
+
+
+
+
+    <facsimile>
+        <surface xml:id="fronte5" start="#frontecartolina5">
+            <graphic url='7694-005F.jpg' width='1054.4px' height='1648.4px' />
+            <zone points = ' 37,1545 257,1445 263,1487 46,1596 36,1543 ' />
+            <zone points = ' 571,466 639,548 734,449 845,410 920,451 997,395 925,330 807,320 697,359 ' />
+            <note type="Mastroianni">Immagine del fronte della cartolina creata e firmata da B. Mastroianni</note>
+            </surface>
+
+
+        <surface xml:id="back5">
+            <graphic url='7694-005R.jpg' width='650px' height='417px' />
+            <zone xml:id="FrancobolloCartolina5" start="#destination1" ulx="535" uly="32" lrx="628" lry="146" />
+            <zone xml:id="timbroCartolina5" ulx="455" uly="57" lrx="605" lry="185" />
+            <zone xml:id="numeroCartolina5" ulx="421" uly="19" lrx="448" lry="46" />
+            <zone xml:id="Tipografia1Cartolina5" ulx="292" uly="275" lrx="308" lry="398" /> <!-- Riproduzione interdetta -->
+            <zone xml:id="Tipografia2Cartolina5" ulx="295" uly="15" lrx="309" lry="193" /> <!-- Conc. escl. A. Vistarini - Roma  -->
+            <zone xml:id="Tipografia3Cartolina5" ulx="28" uly="228" lrx="66" lry="401" /> <!-- Sculture Mastroianni -->
+            <zone xml:id="Tipografia4Cartolina5" ulx="27" uly="8" lrx="44" lry="172" /> <!-- cromogliplica A.Marzi - Roma -->
+            <zone xml:id="IndirizzoRiga1Cartolina5" ulx="312" uly="121" lrx="645" lry="215" />
+            <zone xml:id="IndirizzoRiga2Cartolina5" ulx="322" uly="216" lrx="647" lry="281" />
+            <zone xml:id="IndirizzoRiga3Cartolina5" ulx="309" uly="287" lrx="647" lry="414" />
+            <zone xml:id="testoCartolina5Riga1" start="#retroCartolina5Riga1" ulx="251" uly="35" lrx="290" lry="353" />
+            <zone xml:id="testoCartolina5Riga2" start="#retroCartolina5Riga2" ulx="177" uly="19" lrx="238" lry="333" />
+            <zone xml:id="testoCartolina5Riga3" start="#retroCartolina5Riga3" ulx="135" uly="18" lrx="166" lry="286" />
+            <zone xml:id="testoFirmaCartolina5" start="#retroCartolina5Firma" ulx="55" uly="45" lrx="106" lry="328" />
+
+        </surface>
+
+
+    </facsimile>
+</TEI>

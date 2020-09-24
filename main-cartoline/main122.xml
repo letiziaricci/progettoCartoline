@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cartolina_7694-122" > 
+    <teiHeader >
+        <fileDesc>
+            <titleStmt>
+                <!-- TITOLO NB: non corrisponde completamente alla voce TITOLO della tabella perché si tratta del titolo della edizione digitale -->
+               <title type="sub"> Donna che sorride tra i fiori </title>
+            </titleStmt>
+            
+            
+            <publicationStmt>
+                <publisher>
+                    <orgName ref="#UNIPI"> Unipi </orgName> 
+                </publisher>    
+            </publicationStmt> 
+            
+            <notesStmt>
+                <note n="1">
+                    Sul retro riporta la stampa "Proprietà artistica riservata - N2018 - 3 "
+                </note>
+                <note n="2">
+                    Sulla base delle cartoline che abbiamo a disposizione, sappiamo con sicurezza che l'arco temporale in cui si è tenuta la corrispondenza va dal 1911 al 1918. 
+                    Non conosciamo, invece, la sua data d'inizio e di fine.
+                </note>
+                <note n="3">
+                    Sul retro della cartolina sono presenti un francobollo e un timbro, aggiunti rispettivamente al momento della scrittura del messaggio dal mittente e durante la fase di
+                    spedizione da parte di enti esterni.
+                </note>
+            </notesStmt>
+            
+            
+            <sourceDesc>
+                <bibl>
+                    <!-- TITOLO Quello che si ricava dalla cartolina; Se un documento composto da immagini
+                            non presenta un titolo o altri elementi considerabili come titolo, si formula un titolo sintetico
+                            registrandolo entro parentesi quadre [Venere al bagno] ma indicando dentro la codifica come qui sotto esemplificato-->
+                    
+                    <title type="custom" resp="#ES">[Donna che sorride tra i fiori]</title>    
+                    <author ref="#GC">Giovanni </author>
+                    <date when="1917-06-12"> 12/06/1917</date>
+                </bibl>
+                
+                
+                <msDesc>         
+                    
+                    <msIdentifier>
+                        <!-- CODICE IDENTIFICATIVO -->
+                        <idno>7694_122_001/002</idno>
+                    </msIdentifier>
+                    
+                    <!-- Informazioni sul contenuto della cartolina -->
+                    <!-- DESCRIZIONE -->
+                    <msContents>
+                        <summary>Cartolina Artistica</summary>
+                        <textLang>Italiano</textLang>
+                    </msContents>
+                    
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support xml:id='support3'>
+                                    <stamp type="postage"> Francobollo - Regno d'Italia </stamp>
+                                    <stamp type="postmark">Timbro della Ferrovia di Modena </stamp>
+                                </support> 
+                               <condition>Buono</condition>
+                            </supportDesc>
+                        </objectDesc>
+                   </physDesc>              
+                </msDesc>
+                
+                <!-- NOMI -->
+                
+                <listPerson>
+                    <person>
+                        <persName ref="#GC">
+                            <forename>Giovanni</forename>
+                            <surname>Coliola</surname>
+                        </persName>
+                        <sex>M</sex>
+                        <occupation n="1"><certainty locus="value" target="https://www.slideshare.net/trapelicino/giacomo-paolicchicartoline-della-grande-guerra-al-museo-etnografico-della-spezia" cert="high"> <desc>Tenente Colonnello[maggiore] </desc></certainty> </occupation>
+                    </person>
+                    
+                    <person xml:id="GT">
+                        <persName>
+                            <forename>Giuseppe</forename>
+                            <surname>Turtura</surname>
+                        </persName>
+                        <sex>M</sex> 
+                    </person>
+                </listPerson>
+                
+                <!--LUOGHI-->
+                <listPlace>
+                    <place>
+                        <placeName ref="#RV">Ravenna</placeName>
+                        <settlement type="località">città</settlement>
+                        <district type="comune">Ravenna</district>
+                        <district type="provincia">RV</district>
+                        <country key="N">IT</country>
+                    </place> 
+                    
+                    <place>
+                        <placeName ref="#MO">Modena</placeName>
+                        <settlement type="località">città</settlement>
+                        <district type="comune">Modena</district>
+                        <district type="provincia">MO</district>
+                        <country key="N">IT</country>
+                    </place>
+                </listPlace>
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#GC">Giovanni Coliola</persName>
+                    <placeName ref="#MO">Modena</placeName>
+                    <date type="writing" when="1917-11-29">1917/11/29</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName type="Turtura" ref="#GT"> Giuseppe Turtura</persName>
+                    <placeName ref="#RV"> Ravenna </placeName>
+                </correspAction>
+                
+            </correspDesc>
+            
+            <textClass>
+                <keywords >
+                    <!-- soggettario -->
+                    <!-- tipologia -->
+                    <!-- descrizione -->
+                    <term>Cartolina </term>
+                    <term>Cartolina Artistica </term>
+                    <term>Donna che sorride tra i fiori</term>
+                </keywords>
+            </textClass>
+            
+            <langUsage>
+                <language ident="it-IT">italiano</language>
+            </langUsage>
+        </profileDesc>     
+        
+        
+        <encodingDesc>
+            <editorialDecl>
+                <interpretation>
+                    <p>
+                        <list>
+                            <item>
+                                <choice xml:id="sig"> 
+                                    <expan>signor</expan> 
+                                    <abbr type="titolo">sign.re</abbr>
+                                </choice>
+                            </item>
+                            <item> 
+                                <choice>
+                                    <orig> li </orig>
+                                    <reg> il </reg>
+                                </choice>
+                            </item> 
+                            
+                            <item> 
+                                <choice> 
+                                    <expan>Gentile </expan> 
+                                    <abbr type="titolo">Gent </abbr>
+                                </choice> 
+                            </item> 
+                            
+                            <item> 
+                                <choice> 
+                                    <expan>Girolamo </expan> 
+                                    <abbr type="nome">G.</abbr>
+                                </choice> 
+                            </item>   
+                            
+                        </list>
+                    </p>
+                </interpretation>
+            </editorialDecl>
+        </encodingDesc>
+   </teiHeader>
+    
+    
+    <text type="cartolina" xml:id="cartolina3" n="3">
+        <body xml:lang="ita">
+            
+            <div xml:id="fronte_terza_cartolina">
+                <figure>
+                    <pb facs="#front3" n="1" xml:id="fronte-3"/>
+                    <figDesc>
+                        <desc> Profilo di donna in bianco dietro ad un mazzo di fiori gialli </desc>
+                    </figDesc>
+                </figure>
+            </div>
+            
+            
+            
+            <div xml:id="retro_terza_cartolina" type="rt">
+                <pb facs="#back3" n="3" xml:id="back-3"/>
+                
+                <div xml:id="Archivio3" type='rtrHand'>
+                    <p> 
+                        <num type="cardinal"> <idno> 122 </idno> </num> 
+                    </p>
+                    <p> <term> CCM </term> </p>
+                </div>
+                
+                <div xml:id="testoresto_3" type="rtr">
+                    <div type="opener">                  
+                        <dateline>
+                            <placeName ref="#MO">  Modena </placeName>, 
+                            <distinct type="forma_desueta"> li <ptr target="#li"/></distinct> 
+                            <date when="1917-06-12"> 12/6. 1917 </date>
+                        </dateline>
+                        
+                    </div>
+                    
+                    <div>
+                        <p> <lb/><distinct type="forma_desueta">Rammentandola</distinct></p>
+                        <p> <lb/>affettuosamente la saluto. </p> 
+                        <p> <lb/>suo <unclear reason="illegible"> devoto </unclear> </p>
+                        <lb/><closer style="standard"><signed> <persName ref="#GC"> <forename type="diminutivo"> Giovannino </forename> </persName> </signed></closer> 
+                    </div>
+                </div>
+                
+                <div type="rtr" rend="vertical" xml:id="scritte_stampate_10"> 
+                    <p><lb/> Proprietà artistica riservata –              
+                        <abbr>N. <ptr target="#N" /></abbr>
+                        <num type="cardinal"><idno>2018-3 </idno> </num> 
+                    </p>
+                </div>
+                
+                
+                <div type="destination" >
+                    <div xml:id="destination3" type="rtr">
+                        <p> <lb/> <ptr target="#support3"/>
+                           
+                            <stamp type="postmark"> 
+                                <mentioned> <placeName ref="#MO"> MODENA </placeName> FERROVIA </mentioned>
+                                <date when="1917">12.6.17.</date>
+                                <num type="cardinal">21</num> 
+                            </stamp>
+                            <stamp type="postage">francobollo da 5 centesimi del Regno d'Italia</stamp> 
+                        </p>
+                    </div>
+                    
+                    <div> 
+                        <p><lb/>
+                            <address xml:id="address_3">
+                                <addrLine> 
+                                    <abbr type="titolo">Gent <ptr target="#gent"/></abbr> 
+                                    <abbr type="titolo">sign.re <ptr target="#sig"/> </abbr> 
+                                </addrLine>
+                                
+                                <addrLine>
+                                    <persName ref="#GT" >
+                                        <forename> Giuseppe </forename>
+                                        <surname> Turtura </surname> 
+                                    </persName>
+                                </addrLine>
+                                
+                                <addrLine>Via 
+                                    <persName> 
+                                        <forename> 
+                                            <abbr>Girolamo<ptr target="#G"/></abbr>
+                                        </forename> 
+                                        <surname>Rossi </surname>
+                                    </persName>  
+                                    <num type="cardinal"> 58 </num> 
+                                </addrLine>
+                                
+                                <addrLine> 
+                                    <placeName ref="#RV">Ravenna</placeName>
+                                </addrLine>
+                                
+                                
+                            </address>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            
+        </body>
+        
+        <back>
+            
+        </back>
+    </text>
+    
+    <facsimile>
+        
+        <surface xml:id="front3" start="#fronte_terza_cartolina" type="ff">
+            <graphic url='7694-122F.jpg'/>  
+            <note type="nota_facsimile_terza_cartolina"> Immagine del fronte della cartolina </note>
+        </surface>
+        
+        
+        <surface xml:id="back3" start="#retroterza_cartolina" type="rr">
+            <graphic xml:id="imgretro_3" url='7694-122R.jpg'/>
+            <zone xml:id="lineac3_1" ulx="461" uly="19" lrx="583" lry="154" />
+            <zone xml:id="lineac3_2" ulx="295" uly="156" lrx="583" lry="365" />
+            <zone xml:id="lineac3_3" ulx="35" uly="23" lrx="256" lry="342" />
+            <zone xml:id="lineac3_4" ulx="6" uly="140" lrx="30" lry="361" />    
+            <zone xml:id="lineac3_5" ulx="327" uly="45" lrx="409" lry="104" />
+            <note type="nota_facsimile">Immagine del retro della cartolina a cui corrisponde un testo</note> 
+        </surface>
+        
+        
+    </facsimile>      
+</TEI>

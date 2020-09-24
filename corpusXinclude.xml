@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE teiCorpus SYSTEM 'tei_all.dtd'> <!-- 'tei_allPROVA.dtd' -->
+<teiCorpus version="5.2" xmlns="http://www.tei-c.org/ns/1.0" 
+        xmlns:xi="http://www.w3.org/2001/XInclude">
+      <teiHeader>
+            <fileDesc>
+                  <!--contiene le informazioni relative al doc digitale-->
+                  <titleStmt>
+                        <!-- titolo dell'edizione digitale e responsabili-->
+                        <title>Cartoline della Grande Guerra - Edizione digitale</title>
+                        <respStmt xmlns="http://www.tei-c.org/ns/1.0">
+                              <resp>Trascritto da:</resp>
+                              <persName ref="list.xml#LR">Letizia Ricci</persName>
+                        </respStmt>
+                        <respStmt xmlns="http://www.tei-c.org/ns/1.0">
+                              <resp>Ente di Appartenenza:</resp>
+                              <name type="comune">
+                                    Comune di
+                                    <placeName ref="list.xml#SP">La Spezia</placeName>
+                              </name>
+                        </respStmt>
+                  </titleStmt>
+                  <editionStmt xmlns="http://www.tei-c.org/ns/1.0">
+                        <!-- contiene informazion sull'edizione -->
+                        <edition>
+                              Studenti di Codifica di testi, Corso di Laurea Triennale di Informatica Umanistica, Università di Pisa
+                              <date when="2018">2018</date>
+                        </edition>
+                        <respStmt>
+                              <resp>Codificato da:</resp>
+                              <persName ref="list.xml#LR">Letizia Ricci</persName>
+                        </respStmt>
+                        <respStmt>
+                              <resp>Responsabile scientifico:</resp>
+                              <persName ref="list.xml#GP">Giacomo Paolicchi</persName>
+                              <persName ref="list.xml#ES">Enrica Salvatori</persName>
+                        </respStmt>
+                        <respStmt>
+                              <resp>Funzionario responsabile:</resp>
+                              <persName ref="list.xml#MR">Marzia Ratti</persName>
+                        </respStmt>
+                  </editionStmt>
+                  <publicationStmt xmlns="http://www.tei-c.org/ns/1.0">
+                        <!-- contiene informazioni sulla pubblicazione e distribuzione del documento digitale -->
+                        <publisher>
+                              <choice>
+                                    <abbr>Unipi</abbr>
+                                    <expan>
+                                          Università di
+                                          <placeName ref="list.xml#PI">Pisa</placeName>
+                                    </expan>
+                              </choice>
+                        </publisher>
+                        <pubPlace ref="list.xml#PI">Pisa</pubPlace>
+                        <availability>
+                              <p>Available under licence only</p>
+                        </availability>
+                        <date when="2019">2019</date>
+                        <distributor>
+                              <orgName ref="list.xml#LCD">
+                                    <choice>
+                                          <abbr>LabCD</abbr>
+                                          <expan>Laboratorio di Cultura Digitale</expan>
+                                    </choice>
+                              </orgName>
+                        </distributor>
+                        <address>
+                              <addrLine>Laboratorio di Cultura Digitale - Università di Pisa</addrLine>
+                              <addrLine>
+                                    <placeName ref="list.xml#PI">Pisa</placeName>
+                              </addrLine>
+                        </address>
+                  </publicationStmt>
+                  <notesStmt>
+                              <note>Progetto realizzato da Letizia Ricci come tesi di laurea triennale a.a. 2018-2019 
+                                    per il corso di Informatica Umanistica dell’Università di Pisa.</note>
+                  </notesStmt>
+                  <sourceDesc>
+                              <msDesc>
+                                    <!-- descrizione del manoscritto -->
+                                    <msIdentifier>
+                                           <!-- info per identificare il manoscritto -->
+                                          <country ref="#lIT">Italia</country>
+                                          <settlement ref="#lSP">La Spezia (SP)</settlement>
+                                          <!-- collocazione specifica -->
+                                          <repository ref="#oMCE">Museo Civico Etnografico "Giovanni Podenzana", Sezione dei cimeli garibaldini e della Prima Guerrra Mondiale</repository>
+                                    </msIdentifier>
+                                    <history>
+                                          <p>
+                                                Il corpus delle cartoline della “Donazione Borghi” è formato da 227 cartoline artistiche acquisite nel 2018 in occasione della donazione di Rossana Borghi e conservate al Museo Civico Etnografico "G. Podenzana" della Spezia. Si tratta di cartoline scritte nel periodo della Prima Guerra Mondiale, tra il 1914 e il 1918. 
+                                          </p>
+                                          <p>       
+                                                Le cartoline si possono leggere su più livelli interpretativi: dal punto di vista storico-linguistico per quanto riguarda la qualità di informazioni che racchiudono, sia in un’ottica contenutistica, sia per un possibile studio sincronico e diacronico della lingua; dal punto di vista artistico per l’immagine riportata sul fronte ed infine anche per la storia dell’editoria ripercorsa attraverso le pubblicazioni delle case editrici e tipografie dell’epoca.
+                                          </p>
+                                          <p>    
+                                                Le immagini poste sul fronte sono per la maggior parte slegate dal contesto militare, fattore dovuto al processo di allontanamento e di banalizzazione della guerra. 
+                                                Nel corpus di cartoline le illustrazioni presentano principalmente riproduzioni di vere e proprie opere d’arte, alcune titolate e firmate. Le tipologie artistiche sono molteplici: alcune di carattere ritrattistico e soggettario come raffigurazioni del mezzobusto di eleganti donne aristocratiche, altre rappresentano luoghi e città: ad esempio dipinti di Venezia o fotografie della Spezia, talune sono di carattere fumettistico, altre ancora ritraggono o richiamano personaggi storici, mitologici o di carattere religioso. 
+                                                Poche hanno immagini con riferimento agli avvenimenti bellici, mentre la maggior parte rappresentano scene d’amore di due giovani amanti. 
+                                          </p>
+                                          <p>         
+                                                Il retro presenta la parte scritta dal mittente e la corrispondenza di questa raccolta riguarda in particolar modo Giovanni Coliola che scrive dal fronte all’amata, Oliva Turtura; alcune cartoline sono scritte anche da familiari o amici e hanno come destinatario Giovanni o la famiglia Turtura.
+                                                Tutte le cartoline spedite da Giovanni presentano timbri e francobolli per cui probabilmente si può dedurre che non fosse un soldato operativo sul campo di guerra, per i quali invece erano predisposte un determinato numero di cartoline in franchigia. 
+                                          </p> 
+                                          <p>       
+                                                Di particolare interesse è fare un accenno alla genealogia della famiglia, Giovanni Coliola era infatti un pronipote di Giovan Battista Culiolo, il cosiddetto Maggior Leggero, uno degli attendenti più fidati di Giuseppe Garibaldi. 
+                                                Oliva Turtura era la fidanzata di Giovanni, poi divenuta moglie, che raccolse tutte le cartoline in un album, le quali, grazie a Rossana Borghi, nipote di Giovanni, sono giunte al museo. 
+                                          </p>     
+                                    </history>
+                              </msDesc>
+                  </sourceDesc>
+            </fileDesc>
+            <encodingDesc xmlns="http://www.tei-c.org/ns/1.0">
+                  <p>
+                            Check sintattico con xmllint e validazione con schema dtd.
+                            Codifica seguendo il metodo "parallel-trascription".
+                            Codifica di base rispettando le forme e le informazioni lessicali, la punteggiatura e la sillabazione del documento,
+                            normalizzando il tutto per la codifica.
+                            Con appositi attributi è stata specificata anche la resa grafica di alcuni elementi.
+                        </p>
+            </encodingDesc>
+      </teiHeader>
+
+      <xi:include href="cartolineXMLTEI/cartolina005.xml" xpointer="cartolina_7694-001" />
+
+      <xi:include href="cartolineXMLTEI/cartolina005.xml" xpointer="cartolina_7694-002" />
+
+      <xi:include href="cartolineXMLTEI/cartolina005.xml" xpointer="cartolina_7694-003" />
+
+      <xi:include href="cartolineXMLTEI/cartolina005.xml" xpointer="cartolina_7694-004" />
+
+      <xi:include href="cartolineXMLTEI/cartolina005.xml" xpointer="cartolina_7694-005" />
+
+      <xi:include href="cartolineXMLTEI/cartolina006.xml" xpointer="cartolina_7694-006" />
+
+      <xi:include href="cartolineXMLTEI/cartolina007.xml" xpointer="cartolina_7694-007" />
+
+      <xi:include href="cartolineXMLTEI/cartolina005.xml" xpointer="cartolina_7694-008" />
+
+      <xi:include href="cartolineXMLTEI/cartolina010.xml" xpointer="cartolina_7694-010" />
+
+      <xi:include href="cartolineXMLTEI/cartolina011.xml" xpointer="cartolina_7694-011" />
+
+      <xi:include href="cartolineXMLTEI/cartolina016.xml" xpointer="cartolina_7694-016" />
+
+      <xi:include href="cartolineXMLTEI/cartolina020.xml" xpointer="cartolina_7694-020" />
+
+      <xi:include href="cartolineXMLTEI/cartolina027.xml" xpointer="cartolina_7694-027" />
+
+      <xi:include href="cartolineXMLTEI/cartolina034.xml" xpointer="cartolina_7694-034" />
+
+      <xi:include href="cartolineXMLTEI/cartolina036.xml" xpointer="cartolina_7694-036" />
+
+      <xi:include href="cartolineXMLTEI/cartolina038.xml" xpointer="cartolina_7694-038" />
+
+      <xi:include href="cartolineXMLTEI/cartolina046.xml" xpointer="cartolina_7694-046" />
+      
+      <xi:include href="cartolineXMLTEI/cartolina047.xml" xpointer="cartolina_7694-047" />
+
+      <xi:include href="cartolineXMLTEI/cartolina056.xml" xpointer="cartolina_7694-056" />
+
+      <xi:include href="cartolineXMLTEI/cartolina059.xml" xpointer="cartolina_7694-059" />
+
+      <xi:include href="cartolineXMLTEI/cartolina064.xml" xpointer="cartolina_7694-064" />
+
+      <xi:include href="cartolineXMLTEI/cartolina065.xml" xpointer="cartolina_7694-065" />
+
+      <xi:include href="cartolineXMLTEI/cartolina067.xml" xpointer="cartolina_7694-067" />
+
+      <xi:include href="cartolineXMLTEI/cartolina068.xml" xpointer="cartolina_7694-068" />
+
+      <xi:include href="cartolineXMLTEI/cartolina070.xml" xpointer="cartolina_7694-070" />
+
+      <xi:include href="cartolineXMLTEI/cartolina073.xml" xpointer="cartolina_7694-073" />
+
+      <xi:include href="cartolineXMLTEI/cartolina077.xml" xpointer="cartolina_7694-077" />
+
+      <xi:include href="cartolineXMLTEI/cartolina079.xml" xpointer="cartolina_7694-079" />
+
+      <xi:include href="cartolineXMLTEI/cartolina090.xml" xpointer="cartolina_7694-090" />
+
+      <xi:include href="cartolineXMLTEI/cartolina091.xml" xpointer="cartolina_7694-091" />
+
+      <xi:include href="cartolineXMLTEI/cartolina092.xml" xpointer="cartolina_7694-092" />
+
+      <xi:include href="cartolineXMLTEI/cartolina093.xml" xpointer="cartolina_7694-093" />
+
+      <xi:include href="cartolineXMLTEI/cartolina094.xml" xpointer="cartolina_7694-094" />
+
+      <xi:include href="cartolineXMLTEI/cartolina095.xml" xpointer="cartolina_7694-095" />
+
+      <xi:include href="cartolineXMLTEI/cartolina096.xml" xpointer="cartolina_7694-096" />
+
+      <xi:include href="cartolineXMLTEI/cartolina111.xml" xpointer="cartolina_7694-111" />
+
+      <xi:include href="cartolineXMLTEI/cartolina112.xml" xpointer="cartolina_7694-112" />
+
+      <xi:include href="cartolineXMLTEI/cartolina121.xml" xpointer="cartolina_7694-121" />
+
+      <xi:include href="cartolineXMLTEI/cartolina122.xml" xpointer="cartolina_7694-122" />
+
+      <xi:include href="cartolineXMLTEI/cartolina137.xml" xpointer="cartolina_7694-137" />
+
+      <xi:include href="cartolineXMLTEI/cartolina138.xml" xpointer="cartolina_7694-138" />
+
+      <xi:include href="cartolineXMLTEI/cartolina150.xml" xpointer="cartolina_7694-150" />
+
+      <xi:include href="cartolineXMLTEI/cartolina151.xml" xpointer="cartolina_7694-151" />
+
+      <xi:include href="cartolineXMLTEI/cartolina175.xml" xpointer="cartolina_7694-175" />
+
+      <xi:include href="cartolineXMLTEI/cartolina176.xml" xpointer="cartolina_7694-176" />
+
+      <xi:include href="cartolineXMLTEI/cartolina187.xml" xpointer="cartolina_7694-187" />
+
+      <xi:include href="cartolineXMLTEI/cartolina190.xml" xpointer="cartolina_7694-190" />
+
+      <xi:include href="cartolineXMLTEI/cartolina193.xml" xpointer="cartolina_7694-193" />
+
+      <xi:include href="cartolineXMLTEI/cartolina197.xml" xpointer="cartolina_7694-197" />
+
+      <xi:include href="cartolineXMLTEI/cartolina200.xml" xpointer="cartolina_7694-200" />
+
+      <xi:include href="cartolineXMLTEI/cartolina206.xml" xpointer="cartolina_7694-206" />
+
+      <xi:include href="cartolineXMLTEI/cartolina215.xml" xpointer="cartolina_7694-215" />
+
+      <xi:include href="cartolineXMLTEI/cartolina222.xml" xpointer="cartolina_7694-222" />
+
+      <xi:include href="cartolineXMLTEI/cartolina223.xml" xpointer="cartolina_7694-223" />
+
+      <xi:include href="cartolineXMLTEI/cartolina225.xml" xpointer="cartolina_7694-225" />
+
+
+</teiCorpus>

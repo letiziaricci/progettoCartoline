@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI SYSTEM 'myTEI.dtd'>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cartolina_7694-225">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Ritratto di Amelia Solms - Edizione digitale</title>
+         </titleStmt>
+         <publicationStmt xmlns="http://www.tei-c.org/ns/1.0">
+            <publisher>
+               <choice>
+                  <abbr>Unipi</abbr>
+                  <expan>Università di
+                            <placeName ref="list.xml#PI">Pisa</placeName>
+                  </expan>
+               </choice>
+            </publisher>
+            <pubPlace ref="list.xml#PI">Pisa</pubPlace>
+            <availability>
+               <p>Available under licence only</p>
+            </availability>
+            <date when="2019">2019</date>
+            <distributor>
+               <orgName ref="list.xml#LCD">
+                  <choice>
+                     <abbr>LabCD</abbr>
+                     <expan>Laboratorio di Cultura Digitale</expan>
+                  </choice>
+               </orgName>
+            </distributor>
+            <address>
+               <addrLine>Laboratorio di Cultura Digitale - Università di Pisa</addrLine>
+               <addrLine>
+                  <placeName ref="list.xml#PI">Pisa</placeName>
+               </addrLine>
+            </address>
+         </publicationStmt>
+         <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
+            <bibl>
+               <title type="custom" resp="list.xml#ES">Ritratto di Amelia Solms</title>
+               <author ref="list.xml#AVD">Antonio Van Dyck</author>
+               <publisher>
+                        <orgName ref="list.xml#OIIAG">Off. Ist. It. D'Arti Grafiche</orgName>
+                </publisher>
+               <pubPlace ref="list.xml#BG">Bergamo</pubPlace>
+               <date when="1934">1934</date>
+            </bibl>
+            <msDesc>
+               <!-- descrizione del manoscritto -->
+               <msIdentifier>
+                    <!-- info per identificare il manoscritto -->
+                    <country ref="list.xml#IT">Italia</country>
+                    <settlement ref="list.xml#SP">La Spezia (SP)</settlement>
+                    <!-- collocazione specifica -->
+                    <repository ref="list.xml#MCE">Museo Civico Etnografico "Giovanni Podenzana", Sezione dei cimeli garibaldini e della Prima Guerrra Mondiale</repository>
+                    <!-- codice identificativo -->
+                    <idno type="postcard_id">7694_225_001/002</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Cartolina Artistica</summary>
+                  <textLang>Italiano</textLang>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType>Cartolina</objectType>
+                           <material>Carta</material>
+                           <dimensions unit="cm">
+                              <height>9</height>
+                              <width>14</width>
+                           </dimensions>
+                           <stamp>francobollo - Poste Italiane</stamp>
+                        </support>
+                        <condition>Buono</condition>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc xmlns="http://www.tei-c.org/ns/1.0">
+         <correspDesc>
+            <correspAction type="sent">
+               <date type="writing" when="1934-04-08">1934/04/08</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="list.xml#OT">Oliva Turtura</persName>
+               <placeName ref="list.xml#RA">Ravenna</placeName>
+            </correspAction>
+         </correspDesc>
+         <textClass>
+            <keywords scheme="">
+               <term>Cartolina </term>
+               <term>Cartolina Artistica </term>
+               <term>Ritratto</term>
+            </keywords>
+         </textClass>
+         <langUsage>
+            <language ident="it-IT">italiano</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xmlns="http://www.tei-c.org/ns/1.0"
+              facs="img-cartoline/7694-225F.jpg"
+              type="fronte">
+            <figure>
+               <figDesc>Ritratto di donna</figDesc>
+               <head>Ritratto di Amelia Solms</head>
+            </figure>
+            <p type="message">
+                    <lb n="1"/>
+                    mi ha ricevuto, mi ha assicura-
+                    <lb n="2"/>
+                    to che saranno fatti i passi del
+                    <lb n="3"/>
+                    caso e possiamo sperar bene.
+            </p>
+            <closer xmlns="http://www.tei-c.org/ns/1.0">
+                <s>
+                    <lb n="4"/>
+                    Spero vederla presto. Intanto i migliori saluti.
+                </s>
+            </closer>
+         </div>
+         <div type="retro">
+            <div type="message">
+                <div xmlns="http://www.tei-c.org/ns/1.0" type="postcard-body">
+                    <p>
+                        <lb n="5"/>
+                        Gentile Signora, oggi
+                        <lb n="6"/>
+                        stesso la sua lettera è stata
+                        <lb n="7"/>
+                        portata da me a destinazio-
+                        <lb n="8"/>
+                        ne. Non ho però potuto confe-
+                        <lb n="9"/>
+                        rire come avrei desiderato
+                        <lb n="10"/>
+                        col destinatario, che trovasi
+                        <lb n="11"/>
+                        a Brescia. Il segretario che
+                    </p>
+                </div>
+            </div>
+            <div xmlns="http://www.tei-c.org/ns/1.0" type="address-destination">
+               <p>
+                  <address>
+                        <addrLine>
+                            <lb n="12"/>
+                            Signora
+                            <lb n="13"/>
+                            Oliva luliola
+                            <lb n="14"/>
+                            Via Girolamo Rossi
+                            <lb n="15"/>
+                            Ravenna
+                        </addrLine>
+                  </address>
+               </p>
+            </div>
+            <div type="postmark-postage">
+               <ab>
+                  <stamp xmlns="http://www.tei-c.org/ns/1.0" type="postmark">
+                     <mentioned>ROMA ★ FERROVIA ★ 21-02 G.M R IV 34.XII</mentioned>
+                  </stamp>
+                  <stamp xmlns="http://www.tei-c.org/ns/1.0" type="postmark">
+                     <mentioned>RAVENNA ★ ARRIVI E PARTENZE ★ -9</mentioned>
+                     <date when="1934-04-13">04.34.13</date>
+                  </stamp>
+                  <stamp xmlns="http://www.tei-c.org/ns/1.0" type="postmark">
+                     <mentioned>
+                                MOSTRA RIVOLUZIONE FASCISTA -
+                                ROMA RIDUZIONI FERROVIE 70%
+                            </mentioned>
+                  </stamp>
+                  <stamp xmlns="http://www.tei-c.org/ns/1.0" type="postage">Francobollo da 30 centesimi di Poste Italiane</stamp>
+               </ab>
+            </div>
+            <div type="secondamano">
+               <ab type="paratext">
+                  <add>
+                     <num xmlns="http://www.tei-c.org/ns/1.0" type="cardinal" value="225">
+                                    225
+                                </num>
+                  </add>
+               </ab>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI SYSTEM 'myTEI.dtd'>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cartolina_7694-079">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>[La partita a scacchi] - Edizione digitale</title>
+         </titleStmt>
+         <publicationStmt xmlns="http://www.tei-c.org/ns/1.0">
+            <publisher>
+               <choice>
+                  <abbr>Unipi</abbr>
+                  <expan>Università di
+                            <placeName ref="list.xml#PI">Pisa</placeName>
+                  </expan>
+               </choice>
+            </publisher>
+            <pubPlace ref="list.xml#PI">Pisa</pubPlace>
+            <availability>
+               <p>Available under licence only</p>
+            </availability>
+            <date when="2019">2019</date>
+            <distributor>
+               <orgName ref="list.xml#LCD">
+                  <choice>
+                     <abbr>LabCD</abbr>
+                     <expan>Laboratorio di Cultura Digitale</expan>
+                  </choice>
+               </orgName>
+            </distributor>
+            <address>
+               <addrLine>Laboratorio di Cultura Digitale - Università di Pisa</addrLine>
+               <addrLine>
+                  <placeName ref="list.xml#PI">Pisa</placeName>
+               </addrLine>
+            </address>
+         </publicationStmt>
+         <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
+            <bibl>
+               <title type="custom" resp="list.xml#ES">[La partita a scacchi]</title>
+               <publisher>
+                        <persName ref="list.xml#ES">E. Sborgi</persName>
+                </publisher>
+                <pubPlace ref="list.xml#FI">Firenze</pubPlace>
+            </bibl>
+            <msDesc>
+               <!-- descrizione del manoscritto -->
+               <msIdentifier>
+                        <!-- info per identificare il manoscritto -->
+                        <country ref="list.xml#IT">Italia</country>
+                        <settlement ref="list.xml#SP">La Spezia (SP)</settlement>
+                        <!-- collocazione specifica -->
+                        <repository ref="list.xml#MCE">Museo Civico Etnografico "Giovanni Podenzana", Sezione dei cimeli garibaldini e della Prima Guerrra Mondiale</repository>
+                        <!-- codice identificativo -->
+                        <idno type="postcard_id">7694_079_001/002</idno>
+               </msIdentifier>
+               <!-- Informazioni sul contenuto della cartolina -->
+               <!-- DESCRIZIONE -->
+               <msContents>
+                  <summary>Cartolina Artistica</summary>
+                  <textLang>Italiano</textLang>
+               </msContents>
+               <!-- DESCRIZIONE FISICA-->
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType>Cartolina Artistica</objectType>
+                           <!-- MATERIALI -->
+                           <material>Carta</material>
+                           <!-- DIMENSIONE -->
+                           <dimensions unit="cm">
+                                    <height>9</height>
+                                    <width>14</width>
+                           </dimensions>
+                        </support>
+                        <!-- CONSERVAZIONE -->
+                        <condition>Buono</condition>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc xmlns="http://www.tei-c.org/ns/1.0">
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="list.xml#EB">E. Barbagelata</persName>
+               <placeName ref="list.xml#SP">La Spezia</placeName>
+               <date when="1917-06-13">13-06-1917</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="list.xml#OT">Oliva Turtura</persName>
+               <placeName ref="list.xml#RV">Ravenna</placeName>
+            </correspAction>
+         </correspDesc>
+         <textClass>
+            <keywords >
+               <!-- soggettario -->
+               <term> Cartolina </term>
+               <!-- tipologia -->
+               <term> Cartolina Artistica </term>
+               <!-- descrizione -->
+               <term>La partita a scacchi</term>
+            </keywords>
+         </textClass>
+         <langUsage>
+            <language ident="it-IT">italiano</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <facsimile xmlns="http://www.tei-c.org/ns/1.0">
+         <surface xml:id="fronte_postcard_011" type="illustrazione">
+            <!-- fronte cartolina -->
+            <graphic url="img-cartoline/7694-079F.jpg" width="816px" height="536px"/>
+            <!-- scritta fronte-->
+            <zone xml:id="scritta_77" start="#scritta-77" points="175,462,658,528"/>
+         </surface>
+         <!-- retro della cartolina  -->
+         <surface xml:id="retro_postcard_011" type="iscrizioni">
+            <graphic url="img-cartoline/7694-079R.jpg" width="816px" height="536px"/>
+            <!-- elementi manoscritti: componente messaggio 	-->
+            <zone type="handWriting" xml:id="lineText_1-79" start="#lineText-1-79"
+                  points=" 115,66,179,20,427,292,373,320"/>
+            <zone type="handWriting" xml:id="lineText_2-79" start="#lineText-2-79" points=" 55,166,145,101,429,385,367,439"/>
+            <zone type="handWriting" xml:id="lineText_3-79" start="#lineText-3-79"
+                  points=" 46,208,113,191,379,467,316,503"/>
+            <zone type="handWriting" xml:id="lineText_4-79" start="#lineText-4-79"
+                  points=" 131,370,163,334,304,485,269,516"/>
+            <!-- firma del mittente:"E. Barbagelato" -->
+            <zone type="handWriting" xml:id="lineText_5-79" start="#lineText-5-79"
+                  points=" 31,397,84,328,263,504,196,529"/>
+            <!--  indirizzo -->
+            <zone type="handWriting" xml:id="lineText_6-79" start="#lineText-6-79"
+                  points="427,221,796,265"/>
+            <zone type="handWriting" xml:id="lineText_7-79" start="#lineText-7-79"
+                  points="428,272,802,329"/>
+            <zone type="handWriting" xml:id="lineText_8-79" start="#lineText-8-79" points="722,371,503,334"/>
+            <zone type="handWriting" xml:id="lineText_9-79" start="#lineText-9-79"
+                  points="431,384,808,476"/>
+            <!-- catalogazione 79	-->
+            <zone type="catalog" xml:id="number79_79" start="#number79-79" points="4,8,75,58"/>
+            <!-- Proprieta Artistica E. SBORGI - Firenze -->
+            <zone type="print" xml:id="line_publication-79" start="#line-publication-79" points="4,115,36,417"/>
+             <!-- logo SBORGI -->
+            <zone type="print" xml:id="logo_79" start="#logo-79" points="360,22,470,92"/>
+            <!-- spazio per il francobollo -->
+            <zone type="postmark" xml:id="postmark_79" start="#postmark-79" points="663,22,801,172"/>
+         </surface>
+   </facsimile>
+   <text>
+      <!-- informazioni peritestuali -->
+      <front>
+            <!-- testo tipografico -->
+            <div type="tipografia">
+                  <p rend="writing-mode(vertical-lr) text-orientation(sideways)">
+                        <s facs="#line_publication-77" xml:id="line-publication-77">
+                              Proprietà artistica 
+                              <persName ref="list.xml#EB" type="typography">
+                              E. BORGI
+                              </persName>
+                              <placeName ref="list.xml#FI">Firenze</placeName>
+                        </s>
+                  </p>
+                  <ab facs="#logo_79" xml:id="logo-79">
+                        <p>Sborgi</p>
+                  </ab>
+            </div>
+      </front>
+      <body>
+         <div xmlns="http://www.tei-c.org/ns/1.0" type="fronte">
+            <figure xml:id="illustrazione">
+               <head>La partita a scacchi</head>
+               <figDesc>La partita a scacchi è una replica autografa del dipinto con lo stesso soggetto conservato presso la
+						GAM di Milano. Il quadro trae ispirazione dall’opera teatrale in versi Una partita a scacchi di Giuseppe
+						Giacosa inscenata per la prima volta a Napoli nel 1873. </figDesc>
+               <figDesc>Il soggetto principale è inserito all'interno di una cornice floreale che contiene due versi di una poesia amorosa di Giovanni Marradi.
+ 			<quote facs="#scritta_77" xml:id="scritta-77">
+                     <lg>
+                        <l>Non ha profumi il fior della parola</l>
+                        <l>Se non l'effonde l'anima segreta</l>
+                     </lg>
+                  </quote>
+               </figDesc>
+            </figure>
+         </div>
+         <div type="retro">
+            <div type="message">
+                  <opener xmlns="http://www.tei-c.org/ns/1.0">
+                        <dateline>
+                              <lb n="1" facs="#lineText_1-79" xml:id="lineText-1-79"/>
+                              <s>
+                                    <placeName ref="list.xml#SP">Spezia</placeName>, 
+                                    <date when="1917-06-13">13-VI-17</date>
+                              </s>
+                        </dateline>
+                  </opener>
+                  <div xmlns="http://www.tei-c.org/ns/1.0" type="postcard-body">
+                        <p>
+                              <lb n="2" facs="#lineText_2-79" xml:id="lineText-2-79"/>
+                              Grazie!? Perchè?
+                              <lb n="3" facs="#lineText_3-79" xml:id="lineText-3-79"/>
+                              Per così umile offerta?
+                        </p>
+                  </div>
+                  <closer xmlns="http://www.tei-c.org/ns/1.0">
+                        <s>
+                              <lb n="4" facs="#lineText_4-79" xml:id="lineText-4-79"/>
+                              Devot.ima
+                              <lb n="5" facs="#lineText_5-79" xml:id="lineText-5-79"/>
+                              <signed>
+                                    <persName ref="list.xml#EB">E. Barbagelata</persName>
+                              </signed>
+                        </s>
+                  </closer>
+            </div>
+            <div xmlns="http://www.tei-c.org/ns/1.0" type="address-destination">
+               <p>
+                  <address>
+                        <addrLine>
+                              <lb n="6" facs="#lineText_6-79" xml:id="lineText-6-79"/>
+                              Alla <choice>
+                                    <orig>Delicatisfima</orig>
+                                    <reg resp="list.xml#LR" cert="high">Delicatissima</reg>
+                              </choice>
+                              <lb n="7" facs="#lineText_7-79" xml:id="lineText-7-79"/>
+                              Sig.na Oliva Turtura
+                              <lb n="8" facs="#lineText_8-79" xml:id="lineText-8-79"/>
+                              a
+                              <lb n="9" facs="#lineText_9-79" xml:id="lineText-9-79"/>
+                              Ravenna
+                        </addrLine>
+                  </address>
+               </p>
+            </div>
+            <div type="postmark-postage">
+               <ab>
+                  <stamp xmlns="http://www.tei-c.org/ns/1.0" type="postage" facs="#postmark_779" xml:id="postmark-79">
+                        <mentioned>
+                              STAMPATA IN ITALIA
+                        </mentioned>
+                  </stamp>
+               </ab>
+            </div>
+            <div type="secondamano">
+               <ab type="paratext">
+                  <add facs="#number79_79" xml:id="number79-79">
+                     <num xmlns="http://www.tei-c.org/ns/1.0" value="79">79</num>
+                  </add>
+               </ab>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

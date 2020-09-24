@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="prog.xsl"?>
+<!DOCTYPE TEI SYSTEM 'myTEI.dtd'>
+<TEI n="2" xml:id="cartolina_7694-187">
+    <teiHeader xml:lang="Italy">
+        <fileDesc>
+            <titleStmt>
+                <title>Cartolina di Giovanni Coliola a Oliva Turtura, Spezia, 31/03/1917</title>
+                <respStmt>
+                    <resp>Trascrizione realizzata da</resp>
+                    <name ref="#FM">Francesco Melighetti</name>
+                    <name ref="#AL">Arianna Lisi</name>
+                </respStmt>
+                <!-- ENTE DI APPARTENENZA -->
+                <respStmt>
+                    <resp>Ente di Appartenenza</resp>
+                    <name type="comune" ref="#SP">Comune della Spezia</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    Studenti di Codifica dei Testi, Corso di Laurea Triennale di Informatica Umanistica, Università di Pisa
+                    <!-- COMPILAZIONE -->
+                    <date when="2018">2018</date>
+                </edition>
+                <!-- NOME COMPILATORE -->
+                <respStmt>
+                    <resp>Codifica realizzata da</resp>
+                    <name ref="#TC">Tommaso Castagneto</name>
+                </respStmt>
+                <!-- REFERENTE SCIENTIFICO sempre Nome Cognome, XY2 è sempre Tommaso Castagneto, XZ1 è chi interviene sulla schedatura già fatta per correzioni e aggiunte-->
+                <respStmt>
+                    <resp>Compilatore</resp>
+                    <name ref="#TC">Tommaso Castagneto</name>
+                    <!--<name xml:id="XZ1">XZ</name>-->
+                </respStmt>
+                <respStmt>
+                    <resp>Responsabile scientifico</resp>
+                    <name ref="#GP">Giacomo Paolicchi</name>
+                    <name ref="#ES">Enrica Salvatori</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Funzionario responsabile</resp>
+                    <name ref="#ER">E. Ratti</name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Unipi</publisher>
+                <pubPlace>Pisa</pubPlace>
+                <availability>
+                    <p>Available under licence only</p>
+                </availability>
+                <date when="2019">2019</date>
+                <distributor>LabCD</distributor>
+                <address>
+                    <addrLine>Laboratorio di Cultura Digitale - Università di Pisa</addrLine>
+                    <addrLine>Pisa</addrLine>
+                </address>
+            </publicationStmt>
+            
+            <notesStmt>
+                <note resp="#AL">Sul fronte troviamo il nome dell'artista "Mastroianni", sul retro troviamo la
+                    stampa "Cromoscultura A.Traldi – Milano n 01805" e il titolo dell'opera in
+                    fronte</note>
+            </notesStmt>
+            <sourceDesc>
+                <bibl>
+                    <!-- TITOLO Quello che si ricava dalla cartolina; Se un documento composto da immagini 
+                        non presenta un titolo o altri elementi considerabili come titolo, si formula un titolo sintetico 
+                        registrandolo entro parentesi quadre [Venere al bagno] ma indicando dentro la codifica come qui sotto esemplificato-->
+                    <title>Estasi</title>
+                    <author ref="#M">Mastroianni</author>
+                    <!-- PRODUZIONE Chi ha prodotto / pubblicato la cartolina. Se non presente togliere il tag  -->
+                    <publisher>Cromoscultura A. Traldi</publisher>
+                    <!-- LUOGO -->
+                    <pubPlace>Milano</pubPlace>
+                    <!-- CRONOLOGIA, attenzione si riferisce solo alla data di stampa -->
+                    <date when="1917">1917</date>
+                </bibl>
+                <msDesc>
+                    <msIdentifier>
+                        <country>Italia</country>
+                        <settlement>La Spezia (SP)</settlement>
+                        <!-- COLLOCAZIONE SPECIFICA -->
+                        <repository>Museo Civico Etnografico "Giovanni Podenzana", Sezione dei
+                            cimeli garibaldini e della Prima Guerrra Mondiale</repository>
+                        <!-- CODICE IDENTIFICATIVO -->
+                        <idno>7694_187_001/002</idno>
+                    </msIdentifier>
+                    
+                    <!-- Informazioni sul contenuto della cartolina -->
+                    <!-- DESCRIZIONE -->
+                    <msContents>
+                        <summary>Cartolina Artistica</summary>
+                        <textLang>Italiano</textLang>
+                        <msItem n="1" facs="#fronte2">
+                            <author><persName ref="#M">Mastroianni</persName></author>
+                            <title>Estasi</title>
+                        </msItem>
+                        <msItem n="2" facs="#retro2">
+                            <author><persName ref="#GI">Giovanni Coliola</persName></author>
+                            <title>Cartolina di Giovanni a Oliva Turtura, Spezia, 31/03/1917</title>
+                        </msItem>
+                    </msContents>
+                    
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType>Cartolina</objectType>
+                                    <!-- MATERIALI -->
+                                    <material>Carta</material>
+                                    <!-- DIMENSIONE -->
+                                    <dimensions unit="cm">
+                                        <height>9</height>
+                                        <width>14</width>
+                                    </dimensions>
+                                    <stamp>Non sono presenti o non sono leggibili
+                                        francobolli.</stamp>
+                                </support>
+                                
+                                <!-- CONSERVAZIONE 
+                                buono = non occorrono interventi di restauro;
+                                discreto = perfettamente leggibile in tutte le componenti ma con rischi di deterioramento per usura;
+                                mediocre = perfettamente leggibile, ma mancano alcune sue parti;
+                                cattivo = intaccato da parassiti o deteriorato da cattivi interventi passati o mancanti di parti rilevanti, necessita di restauro-->
+                                <condition>Buono</condition>
+                            </supportDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <summary>Scrittura eseguita a mano leggibile, con una annotazione nella
+                                parte superiore del retro.</summary>
+                            <handNote n="1">Annotazione di un catalogatore che presenta il numero 
+                                187, relativo alla classificazione delle 227 cartoline appartenente al museo di La Spezia.</handNote>
+                        </handDesc>
+                    </physDesc>
+                   <history>
+                       <p>La cartolina è stata scritta il <origDate>31 Marzo 1917</origDate> a <origPlace ref="#SP">Spezia</origPlace>, da un tenente colonnello chiamato Giovanni Coliola, probabilmente impegnato in guerra in occasione della <date from="1914" to="1918">Prima Guerra Mondiale</date>.
+                       La cartolina è spedita infatti alla sua amata, dalla quale purtroppo la guerra lo tiene lontano.</p>
+                   </history> 
+                    
+                </msDesc>
+                <!-- NOMI -->
+                
+                <listPerson>
+                    <person xml:id="GI">
+                        <persName>
+                            <forename>Giovanni</forename>
+                            <addName type="nick">Giovannino</addName>
+                            <surname>Coliola</surname>
+                        </persName>
+                        <sex>M</sex>
+                        <occupation n="1">tenente colonnello</occupation>
+                        <birth when="1985">1895<placeName type="city">Napoli</placeName>,<country>Italia</country></birth>
+                        <death when="1980">1980<placeName type="city">Ravenna</placeName>,<country>Italia</country></death>
+                        <note resp="#FM">Mittente della cartolina. Si firma come Giovannino</note>
+                    </person>
+                    <person >
+                        <persName ref="#M" >
+                            <ref target="https://www.guidedocartis.it/?page_id=15834"/>
+                            <forename>
+                                <choice><abbr>D</abbr><expan>Domenico</expan></choice>
+                            </forename>
+                            <surname>Mastroianni</surname>
+                        </persName>
+                        <sex>M</sex>
+                        <birth when="1876-01-01">1/01/1876<placeName type="comune">Arpino</placeName>,<country>Italia</country></birth>
+                        <death when="1962">1962<placeName type="city">Roma</placeName>,<country>Italia</country></death>
+                        <occupation>Pittore e scultore</occupation>
+                        <note resp="#AL">Autore della cartolina</note>
+                    </person>
+                   
+                </listPerson>
+               <listOrg>
+                   <org xml:id="AT">
+                       <orgName type="Editore">Cromoscultura<abbr type="initial">A.</abbr>Traldi</orgName>
+                       <place><placeName>Milano</placeName></place>
+                       <desc>Casa editrice che si è occupata della pubblicazione della cartolina e ne detiene il copyright.</desc>
+                   </org>
+               </listOrg>
+                <listPlace>
+                    <place xml:id="SP">
+                        <placeName>La Spezia</placeName>
+                        <location>
+                            <settlement type="comune">La Spezia</settlement>
+                            <district type="provincia">SP</district>
+                            <region>Liguria</region>
+                            <country type="nazione">IT</country>
+                        </location>
+                        
+                    </place>
+                </listPlace>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#GI">Giovanni Coliola</persName>
+                    <placeName ref="#SP">Spezia</placeName>
+                    <!-- DATA data di invio da timbro (postage) o da manoscritto (writing) -->
+                    <date type="writing" when="1917-03-31">1917/31/03</date>
+                </correspAction>
+                <correspAction type="received">
+                    <note resp="#AL">Nella cartolina non vengono specificati nè il luogo nè la data di arrivo della cartolina. Non è presente neanche il nome del destinatario ma
+                        si presume che si tratti di <persName ref="#OT">Oliva Turtura</persName>.
+                    </note>
+                </correspAction>
+            </correspDesc>
+            
+            <textClass>
+                <keywords>
+                    <!-- soggettario -->
+                    <!-- tipologia -->
+                    <!-- descrizione -->
+                    <term>Cartolina </term>
+                    <term>Cartolina Artistica </term>
+                    <term>Coppia di innamorati</term>
+                </keywords>  
+            </textClass>
+            
+            <langUsage>
+                <language ident="it-IT">italiano</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    
+    <facsimile>
+        <surface n="1" xml:id="fronte" corresp="#fronte187">
+            <!-- Fronte -->
+            <graphic url="img/187F.jpg" width="527px" height="825px" xml:id="fronte2"/>
+            <!--firma Mastroianni-->
+        </surface>
+        
+        <surface n="2" xml:id="retro" corresp="#retro187">
+            <!-- Retro -->
+            <graphic url='img/187R.jpg' width='550px' height='355px' xml:id="retro2" />
+            <zone ulx="7" uly="158" lrx="49" lry="341" xml:id="C2stampa1"/>
+            <!--stampa1-->
+            <zone ulx="256" uly="156" lrx="264" lry="249" xml:id="C2stampa2" />
+            <!--stampa2-->
+            <zone ulx="181" uly="6" lrx="523" lry="71"  xml:id="C2retro_01"/>
+            <!--Spezia li ecc.-->
+            <zone ulx="30" uly="67" lrx="508" lry="118"  xml:id="C2retro_02"/>
+            <!--prima riga-->
+            <zone ulx="46" uly="114" lrx="511" lry="189"  xml:id="C2retro_03"/>
+            <!--seconda riga-->
+            <zone ulx="61" uly="184" lrx="530" lry="260"  xml:id="C2retro_04"/>
+            <!--terza riga-->
+            <zone ulx="39" uly="253" lrx="535" lry="349"  xml:id="C2retro_05"/>
+            <!--firma-->
+           
+        </surface>
+        
+    </facsimile>
+    
+    <text type="cartolina" xml:id="C187">
+        <front>
+            <div type="stampe">
+                <ab xml:id="ScritteF2">DMastroianni</ab>
+                <ab xml:id="ScritteR2">
+                    <s xml:id="scritte2" facs="#C2stampa1" style="text-orientation: sideways-left"><orgName ref="#AT">  Cromoscultura A.Traldi  </orgName> – <placeName> Milano <lb/></placeName> n 01805 Estasi Charme</s>.
+                <s xml:id="scritte3" facs="#C2stampa2" style="text-orientation: sideways-left">Produzione Italiana</s>.</ab>
+            </div>
+        </front>
+        <!-- TRASCRIZIONE -->
+        <body>
+            <div type="fronte" xml:id="fronte187">
+                <figure>
+                    <figDesc>La cartolina raffigura una coppia di innamorati abbracciati. I due giovani
+                        sono in piedi, in un ambiente  che richiama il periodo classico.</figDesc>
+                    <head>Estasi</head>
+                </figure>
+                <ab n="ab_00" facs="#C2fronte_01">
+                    <lb xml:id="fronte_lb_1"/>
+                    <persName ref="#M"><choice><abbr type="initial">D</abbr><expan>Domenico</expan></choice> Mastroianni</persName>
+                </ab>
+            </div>
+            <div xml:id="retro187" type="retro">
+                <div type="opener">
+                    <ab type="parag" n="ab_01">
+                        <s type="sentence" n="retro_s_01">
+                            <lb xml:id="retro_lb_1" facs="#C2retro_01"/>
+                            <placeName ref="#SP">Spezia</placeName>
+                            <choice>
+                                <orig xml:id="orig1">li</orig>
+                                <reg>il</reg>
+                            </choice>
+                            <date xml:id="data_4" when="1917-03-31">31/3-1917</date>
+                        </s>
+                    </ab>
+                </div>
+                <div type="letter-body">
+                    <ab type="parag" n="ab_02">
+                        <s type="sentence" n="retro_s_02">
+                            <lb xml:id="retro_lb_2" facs="#C2retro_02"/>Un bacio affettuosissimo
+                            <lb xml:id="retro_lb_3" facs="#C2retro_03"/>sulla tua purissima fronte.</s>
+                        <s type="sentence" n="retro_s_03">
+                            <lb xml:id="retro_lb_4" facs="#C2retro_04"/>
+                            T'amo ardentemente e ti penso</s>
+                    </ab>
+                </div>
+                <div type="closer">
+                    <lb xml:id="retro_lb_5" facs="#C2retro_05"/>
+                    <signed>
+                        <hi rend="underline"><persName ref="#GI" type="nick">Giovannino</persName></hi>
+                    </signed>
+                </div>
+                <div type="add">
+                        <p>
+                            <num type="cardinal" value="11">187</num>
+                        </p>
+                </div>
+            </div>
+        </body>
+        <back>
+            <div type="note">
+                <note resp="#AL">
+                <p>La cartolina è stata da Giovanni Coliola e, anche se non riportato direttamente sulla cartolina, riteniamo che il destinatario sia Oliva Turtura.</p>
+            </note></div>
+        </back>
+    </text>
+</TEI>
